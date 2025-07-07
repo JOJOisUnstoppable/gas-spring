@@ -2,6 +2,7 @@ import { Locale } from '@/lib/i18n/config';
 import { getDictionary } from '@/lib/i18n/getDictionary';
 import { getApplicationData } from '@/lib/applications';
 import { ApplicationHero } from '@/components/applications/ApplicationHero';
+import { SolarDamperPage } from '@/components/applications/SolarDamperPage';
 import { notFound } from 'next/navigation';
 
 interface PageParams {
@@ -25,6 +26,12 @@ export default async function ApplicationDetailPage(props: Props) {
         notFound();
     }
 
+    // 检查是否为 solar-damper 应用，如果是则渲染专用页面
+    if (id === 'solar-damper') {
+        return <SolarDamperPage dict={dict} locale={locale} />;
+    }
+
+    // 默认的应用详情页面
     return (
         <>
             <ApplicationHero

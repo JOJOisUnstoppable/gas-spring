@@ -6,7 +6,7 @@ description: |
 solution: |
   Gas Springs, Dampers, And Electromechanical Drives For The Automotive Industry; Wherever lifting, positioning, or lowering is needed, assets to you are compact design, a high degree of comfort alongside functionality, and innate operating safety.
 relatedTags: ['Application', 'Automotive Industry']
-order: 1
+order: 2
 ---
 
 # Automotive Industry

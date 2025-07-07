@@ -20,6 +20,7 @@ export default function RootLayout({
       <body>
         <header className="fixed top-0 right-0 p-4">
         </header>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
         {children}
       </body>
     </html>

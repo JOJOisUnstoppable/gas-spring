@@ -1,8 +1,23 @@
+---
+id: solar-damper
+title: Solar Damper Solutions - Professional Solar Tracking Dampers | DK GasSpring
+description: |
+    Solar Dampers are specialized hydraulic damping devices designed specifically for solar tracking systems. They provide controlled resistance to suppress vibrations and oscillations caused by wind forces, ensuring stable and precise solar panel positioning.
+solution: |
+    DK GasSpring offers a range of solar damper solutions, including:
+    - **Commercial Solar Dampers**
+    - **Industrial Solar Dampers**
+    - **Customized Solar Dampers**
+relatedTags: ['Application', 'solar damper']
+order: 1
+---
+
+
 # Solar Damper Solutions - Professional Solar Tracking Dampers | DK GasSpring
 
 ## 英雄区域
 ### 背景图
-![Solar Tracking Field](images/solar-damper/solar_tracker_field.jpg)
+![Solar Tracking Field](/images/application/solar-damper/solar_tracker_field.jpg)
 
 ### 内容
 - **徽章**：<i class="fas fa-sun"></i> Leading Solar Technology
@@ -26,7 +41,7 @@ Solar Dampers are specialized hydraulic damping devices designed specifically fo
 - **长寿命**：2 million cycle lifetime
 
 ### 产品图片
-![Solar Damper Product](images/solar-damper/solar_damper_product.jpg)
+![Solar Damper Product](/images/application/solar-damper/solar_damper_product.jpg)
 
 ## 技术规格
 ### 尺寸
@@ -46,7 +61,7 @@ Solar Dampers are specialized hydraulic damping devices designed specifically fo
 
 ## 应用场景
 ### 单轴跟踪器
-![Single Axis Tracker](images/solar-damper/solar_tracking_system.png)
+![Single Axis Tracker](/images/application/solar-damper/solar_tracking_system.png)
 - **描述**：Optimal damping for single-axis solar tracking systems, providing stability during rotation and wind resistance.
 - **类型**：
   - Horizontal single-axis trackers
@@ -54,6 +69,6 @@ Solar Dampers are specialized hydraulic damping devices designed specifically fo
   - Vertical single-axis trackers
 
 ### 双轴跟踪器
-![Dual Axis Tracker](images/solar-damper/solar_damper_application.webp)
+![Dual Axis Tracker](/images/application/solar-damper/solar_damper_application.webp)
 - **描述**：暂未提供
 - **类型**：暂未提供
