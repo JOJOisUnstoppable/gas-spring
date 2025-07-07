@@ -219,7 +219,7 @@ const BenefitItem = styled.div`
   }
 `;
 
-const ProductImage = styled.img`
+const ProductImage = styled.div`
   width: 100%;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);

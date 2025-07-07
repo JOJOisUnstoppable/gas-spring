@@ -28,7 +28,7 @@ export default async function ApplicationDetailPage(props: Props) {
 
     // 检查是否为 solar-damper 应用，如果是则渲染专用页面
     if (id === 'solar-damper') {
-        return <SolarDamperPage dict={dict} locale={locale} />;
+        return <SolarDamperPage/>;
     }
 
     // 默认的应用详情页面

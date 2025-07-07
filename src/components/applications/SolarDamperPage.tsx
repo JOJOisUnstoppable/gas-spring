@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import {
   Container,
   Hero,
@@ -59,11 +60,11 @@ import {
 import { SolarDamperInteractive } from './SolarDamperInteractive';
 
 interface SolarDamperPageProps {
-  dict: any;
-  locale: string;
+  dict?: Record<string, unknown>;
+  locale?: string;
 }
 
-export function SolarDamperPage({ dict, locale }: SolarDamperPageProps) {
+export function SolarDamperPage({}: SolarDamperPageProps) {
   return (
     <>
       {/* Hero Section */}
@@ -138,7 +139,15 @@ export function SolarDamperPage({ dict, locale }: SolarDamperPageProps) {
               </KeyBenefits>
             </OverviewContent>
             <div>
-              <ProductImage src="/images/application/solar-damper/solar_damper_product.jpg" alt="Solar Damper Product" />
+              <ProductImage>
+                <Image 
+                  src="/images/application/solar-damper/solar_damper_product.jpg" 
+                  alt="Solar Damper Product"
+                  width={500}
+                  height={400}
+                  style={{ width: '100%', height: 'auto' }}
+                />
+              </ProductImage>
             </div>
           </OverviewGrid>
         </Container>
@@ -228,7 +237,13 @@ export function SolarDamperPage({ dict, locale }: SolarDamperPageProps) {
           <ApplicationsGrid>
             <ApplicationCard>
               <AppImage className="app-image">
-                <img src="/images/application/solar-damper/solar_tracking_system.png" alt="Single Axis Tracker" />
+                <Image 
+                  src="/images/application/solar-damper/solar_tracking_system.png" 
+                  alt="Single Axis Tracker"
+                  width={400}
+                  height={300}
+                  style={{ width: '100%', height: 'auto' }}
+                />
               </AppImage>
               <AppContent>
                 <h3>Single-Axis Trackers</h3>
@@ -243,7 +258,13 @@ export function SolarDamperPage({ dict, locale }: SolarDamperPageProps) {
             
             <ApplicationCard>
               <AppImage className="app-image">
-                <img src="/images/application/solar-damper/solar_damper_application.webp" alt="Dual Axis Tracker" />
+                <Image 
+                  src="/images/application/solar-damper/solar_damper_application.webp" 
+                  alt="Dual Axis Tracker"
+                  width={400}
+                  height={300}
+                  style={{ width: '100%', height: 'auto' }}
+                />
               </AppImage>
               <AppContent>
                 <h3>Dual-Axis Trackers</h3>
@@ -258,7 +279,13 @@ export function SolarDamperPage({ dict, locale }: SolarDamperPageProps) {
             
             <ApplicationCard>
               <AppImage className="app-image">
-                <img src="/images/application/solar-damper/solar_damper_installation.jpg" alt="Large Scale Installation" />
+                <Image 
+                  src="/images/application/solar-damper/solar_damper_installation.jpg" 
+                  alt="Large Scale Installation"
+                  width={400}
+                  height={300}
+                  style={{ width: '100%', height: 'auto' }}
+                />
               </AppImage>
               <AppContent>
                 <h3>Large-Scale Solar Farms</h3>
@@ -278,7 +305,7 @@ export function SolarDamperPage({ dict, locale }: SolarDamperPageProps) {
       <WhyChoose>
         <Container>
           <SectionHeader>
-            <h2>Why Choose DK's Solar Dampers</h2>
+            <h2>Why Choose DK&apos;s Solar Dampers</h2>
             <p>Advanced engineering and proven performance for solar tracking applications</p>
           </SectionHeader>
           <FeaturesGrid>

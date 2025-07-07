@@ -31,10 +31,6 @@ export function SolarDamperInteractive() {
       proposalForm.addEventListener('submit', function(this: HTMLFormElement, e: Event) {
         e.preventDefault();
         
-        // 获取表单数据
-        const formData = new FormData(this);
-        const data = Object.fromEntries(formData);
-        
         // 简单验证
         const requiredFields = ['name', 'email', 'tracker-type'];
         let isValid = true;

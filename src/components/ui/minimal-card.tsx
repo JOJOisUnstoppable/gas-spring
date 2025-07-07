@@ -1,4 +1,5 @@
 import * as React from "react"
+import Image from "next/image"
 
 import { cn } from "@/lib/utils"
 
@@ -36,12 +37,13 @@ const MinimalCardImage = React.forwardRef<
     )}
     {...props}
   >
-    <img
+    <Image
       src={src}
       alt={alt}
       width={200}
       height={200}
-      className="rounded-[16px] object-cover absolute h-full w-full inset-0 "
+      className="rounded-[16px] object-cover absolute h-full w-full inset-0"
+      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
     />
     <div className="absolute inset-0 rounded-[16px]">
       <div
