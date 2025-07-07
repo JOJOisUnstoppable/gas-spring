@@ -70,7 +70,7 @@ export function Contact({ dict, locale }: ContactProps) {
                                     <div className="flex flex-col items-center text-center">
                                         <Phone className="w-8 h-8 text-blue-500 mb-4" />
                                         <h3 className="font-semibold mb-2">{dict.contact.phone}</h3>
-                                        <p className="text-gray-600">+86 123 4567 8901</p>
+                                        <p className="text-gray-600">+86 123 4567 89XX</p>
                                     </div>
                                 </div>
 
@@ -78,7 +78,7 @@ export function Contact({ dict, locale }: ContactProps) {
                                     <div className="flex flex-col items-center text-center">
                                         <Mail className="w-8 h-8 text-blue-500 mb-4" />
                                         <h3 className="font-semibold mb-2">{dict.contact.email}</h3>
-                                        <p className="text-gray-600">contact@example.com</p>
+                                        <p className="text-gray-600">dk-gasspring@mindrose.xyz</p>
                                     </div>
                                 </div>
 
