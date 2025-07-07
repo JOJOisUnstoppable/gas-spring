@@ -66,7 +66,7 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 If you have any questions about this Privacy Policy, please contact us at:
 
-- Email: dk-gasspring@mindrose.xyz
+- Email: dk-gasspring@mindrose.xyz (email from dev team)
 - Address: Ningbo, China
 - Phone: +86 123 4567 89XX
 `

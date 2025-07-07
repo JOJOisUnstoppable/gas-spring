@@ -91,7 +91,7 @@ We reserve the right to modify these terms at any time. Continued use of the ser
 ## 15.Contact Information
 
 For questions about these Terms of Use, please contact us at:
-- Email: dk-gasspring@mindrose.xyz
+- Email: dk-gasspring@mindrose.xyz (email from dev team)
 - Address: Ningbo, China
 - Phone: +86 123 4567 89XX
 `
