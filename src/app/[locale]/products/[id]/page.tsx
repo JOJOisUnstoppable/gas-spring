@@ -1,10 +1,9 @@
 
 import { Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/getDictionary'
-import { ProductCard } from '@/components/products/ProductCard'
-import { ProductHero } from '@/components/products/ProductHero'
-import { getProductData, getProductsByCategory } from '@/lib/products'
-import { notFound } from 'next/navigation'
+
+import { getProductById } from '@/lib/products'
+
 
 export default async function ProductPage(
   props: {
@@ -18,13 +17,15 @@ export default async function ProductPage(
     id
   } = params;
 
-  const products = await getProductsByCategory(locale, id)
+  const product = await getProductById(locale, id)
   const dict = await getDictionary(locale)
 
   return (
     <>
       <div className="container max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <span>Maintenance / 维护中</span>
+        <p>{dict.common.products}</p>
+        <p>{product?.title}</p>
+        <span>Page Maintenance / 页面维护中</span>
       </div>
     </>
   )
