@@ -5,9 +5,9 @@ description: |
     Solar Dampers are specialized hydraulic damping devices designed specifically for solar tracking systems. They provide controlled resistance to suppress vibrations and oscillations caused by wind forces, ensuring stable and precise solar panel positioning.
 solution: |
     DK GasSpring offers a range of solar damper solutions, including:
-    - **Commercial Solar Dampers**
-    - **Industrial Solar Dampers**
-    - **Customized Solar Dampers**
+    - Commercial Solar Dampers
+    - Industrial Solar Dampers
+    - Customized Solar Dampers
 relatedTags: ['Application', 'solar damper']
 order: 1
 ---
