@@ -57,7 +57,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                         <ul className="space-y-3">
                             <li>
                                 <Link
-                                    href={`/${locale}/applicationsgrid`}
+                                    href={`/${locale}/applications`}
                                     className="text-sm hover:text-gray-900 transition-colors block py-1"
                                 >
                                     {dict.common.applications}
