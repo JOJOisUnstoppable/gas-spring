@@ -43,7 +43,7 @@ export default async function ContactPage(
               <Phone className="w-6 h-6 text-gray-400" />
               <div>
                 <h3 className="font-semibold">{dict.contact.phone}</h3>
-                <p className="text-gray-600">+86 123 4567 8901</p>
+                <p className="text-gray-600">+86 123 4567 89XX</p>
               </div>
             </div>
             
@@ -51,7 +51,7 @@ export default async function ContactPage(
               <Mail className="w-6 h-6 text-gray-400" />
               <div>
                 <h3 className="font-semibold">{dict.contact.email}</h3>
-                <p className="text-gray-600">contact@example.com</p>
+                <p className="text-gray-600">dk-gasspring@mindrose.xyz (email from dev team)</p>
               </div>
             </div>
 

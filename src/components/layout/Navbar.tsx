@@ -58,7 +58,7 @@ export function Navbar({ locale, dict, categories }: {
       href: `/${locale}/products`,
       categories: categories
     },
-    { title: dict.common.applications, href: `/${locale}/applicationsgrid` },
+    { title: dict.common.applications, href: `/${locale}/applications` },
     { title: dict.common.blog, href: `/${locale}/blog` },
     { title: dict.common.contact, href: `/${locale}/contact` },
   ]

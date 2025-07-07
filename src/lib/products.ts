@@ -41,3 +41,14 @@ export async function getProductsByCategory(locale: Locale, categoryId: string):
   const { items } = await getProductData(locale)
   return items.filter(item => item.category === categoryId)
 }
+
+/**
+ * 根据产品ID获取产品数据
+ * @param locale - 语言区域设置
+ * @param productId - 产品ID
+ * @returns 返回指定ID的产品数据，如果未找到则返回undefined
+ */
+export async function getProductById(locale: Locale, productId: string): Promise<Product | undefined> {
+  const { items } = await getProductData(locale)
+  return items.find(item => item.id === productId)
+}
