@@ -259,7 +259,7 @@ export function SolarDamperPage({}: SolarDamperPageProps) {
             <ApplicationCard>
               <AppImage className="app-image">
                 <Image 
-                  src="/images/application/solar-damper/solar_damper_application.webp" 
+                  src="/images/application/solar-damper/solar_damper_application.jpg" 
                   alt="Dual Axis Tracker"
                   width={400}
                   height={300}

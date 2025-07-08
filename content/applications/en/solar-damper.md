@@ -69,6 +69,6 @@ Solar Dampers are specialized hydraulic damping devices designed specifically fo
   - Vertical single-axis trackers
 
 ### 双轴跟踪器
-![Dual Axis Tracker](/images/application/solar-damper/solar_damper_application.webp)
+![Dual Axis Tracker](/images/application/solar-damper/solar_damper_application.jpg)
 - **描述**：暂未提供
 - **类型**：暂未提供
