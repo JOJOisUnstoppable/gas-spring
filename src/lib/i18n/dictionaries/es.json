@@ -62,6 +62,7 @@
       ]
     }
   },
+  "categoryViewMore": "Ver más",
   "applications": {
     "title": "Aplicación",
     "description": "Descubre nuestras aplicaciones de resortes de gas",
@@ -69,7 +70,7 @@
     "solutionLabel": "Solución de Resortes de Gas",
     "relatedPostsLabel": "Publicaciones Relacionadas con Referencias de Casos",
     "noRelatedPosts": "Non related posts in current language",
-    "viewMoreString": "Ver más"
+    "viewMoreString": "Contact Us to Get More Info"
   },
   "blog": {
     "description": "Nuestra visión de la industria y los productos de los amortiguadores de gas",

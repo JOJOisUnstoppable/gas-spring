@@ -62,6 +62,7 @@
       ]
     }
   },
+  "categoryViewMore": "View More",
   "applications": {
     "title": "Application",
     "description": "Discover Our Gas Spring Applications",
@@ -69,7 +70,7 @@
     "solutionLabel": "Gas Spring Solution",
     "relatedPostsLabel": "Related Posts with Cases Reference",
     "noRelatedPosts": "Non related posts in current language",
-    "viewMoreString": "View More"
+    "viewMoreString": "Contact Us to Get More Info"
   },
   "blog": {
     "description": "Our Insight of Gas Spring Industry and Products",

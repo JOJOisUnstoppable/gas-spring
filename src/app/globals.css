@@ -144,3 +144,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .bg-grid-slate-200 {
+    background-size: 30px 30px;
+    background-image: linear-gradient(to right, rgb(226 232 240 / 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(226 232 240 / 0.05) 1px, transparent 1px);
+  }
+  
+  .bg-grid-slate-700 {
+    background-size: 30px 30px;
+    background-image: linear-gradient(to right, rgb(51 65 85 / 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(51 65 85 / 0.05) 1px, transparent 1px);
+  }
+}

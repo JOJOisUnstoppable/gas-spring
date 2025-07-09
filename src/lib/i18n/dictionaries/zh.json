@@ -62,6 +62,7 @@
       ]
     }
   },
+  "categoryViewMore": "查看更多",
   "applications": {
     "title": "应用",
     "description": "探索我们的气弹簧应用",
@@ -69,7 +70,7 @@
     "solutionLabel": "气弹簧专用解决方案",
     "relatedPostsLabel": "相关文章和案例参考",
     "noRelatedPosts": "当前语言暂无相关文章",
-    "viewMoreString": "查看更多"
+    "viewMoreString": "联系我们以了解更多"
   },
   "blog": {
     "description": "我们对行业的深入耕耘，为您提供最新的信息和解决方案。",

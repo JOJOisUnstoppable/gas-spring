@@ -16,28 +16,29 @@ interface CategoryCardProps {
 }
 
 export function CategoryCard({ category, locale, viewMore }: CategoryCardProps) {
-
   return (
-
     <BentoCard
       key={category.id}
       name={category.name}
       description={category.description}
-      className="col-span-1 lg:col-span-6 lg:hover/first:col-span-6 lg:hover/first:[&:hover]:!col-span-6"
+      className="col-span-1 lg:col-span-6 lg:hover/first:col-span-6 lg:hover/first:[&:hover]:!col-span-6 relative overflow-hidden group"
       Icon={category.id === 'gas-spring' ? LightningBoltIcon : GearIcon}
       href={`/${locale}/products/category/${category.id}`}
       cta={viewMore}
       background={
         <div className="absolute inset-0 w-full">
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 via-transparent to-purple-50/50 opacity-70 transition-opacity duration-500 group-hover:opacity-100" />
           <div className="relative w-full aspect-square before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-transparent before:to-white/90 before:z-[1] before:pointer-events-none">
             <Image
               src={category.image}
               alt={category.name}
               fill
-              className="object-contain w-full transition-all duration-300 group-hover:[&]:translate-y-[-50px]" style={{ objectPosition: '0 0px' }}
+              className="object-contain w-full transition-all duration-500 ease-out group-hover:scale-105 group-hover:translate-y-[-20px]"
+              style={{ objectPosition: '0 0px' }}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
+          <div className="absolute inset-0 bg-grid-slate-200/50 [mask-image:linear-gradient(0deg,transparent,black)] dark:bg-grid-slate-700/25" />
         </div>
       }
     />

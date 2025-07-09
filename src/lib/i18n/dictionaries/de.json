@@ -62,6 +62,7 @@
       ]
     }
   },
+  "categoryViewMore": "Mehr anzeigen",
   "applications": {
     "title": "Anwendung",
     "description": "Entdecken Sie unsere Gasfeder-Anwendungen",
@@ -69,7 +70,7 @@
     "solutionLabel": "Gasdruckfeder-Lösung",
     "relatedPostsLabel": "Verwandte Beiträge mit Fallreferenzen",
     "noRelatedPosts": "Non related posts in current language",
-    "viewMoreString": "Mehr anzeigen"
+    "viewMoreString": "Contact Us to Get More Info"
   },
   "blog": {
     "description": "Unser Einblick in die Gasfederindustrie und deren Produkte",

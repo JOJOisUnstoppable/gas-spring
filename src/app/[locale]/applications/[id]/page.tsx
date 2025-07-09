@@ -2,7 +2,7 @@ import { Locale } from '@/lib/i18n/config';
 import { getDictionary } from '@/lib/i18n/getDictionary';
 import { getApplicationData } from '@/lib/applications';
 import { ApplicationHero } from '@/components/applications/ApplicationHero';
-import { SolarDamperPage } from '@/components/applications/SolarDamperPage';
+import { SolarDamperPage } from '@/components/spotlights/SolarDamperPage';
 import { notFound } from 'next/navigation';
 
 interface PageParams {

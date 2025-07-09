@@ -36,7 +36,7 @@ export function ApplicationGrid({ applications, dict, locale }: ApplicationGridP
               app.id === 'commercial-vehicles' ? CubeIcon :
               app.id === 'health-leisure-and-furniture' ? HeartIcon :
               TargetIcon}
-            href={`/${locale}/applications/${app.id}`}
+            href={`/${locale}/contact`}
             cta={dict.applications.viewMoreString}
             background={
               <div className="absolute inset-0 w-full">
@@ -67,7 +67,7 @@ export function ApplicationGrid({ applications, dict, locale }: ApplicationGridP
               app.id === 'commercial-vehicles' ? CubeIcon :
               app.id === 'health-leisure-and-furniture' ? HeartIcon :
               TargetIcon}
-            href={`/${locale}/applications/${app.id}`}
+            href={`/${locale}/contact`}
             cta={dict.applications.viewMoreString}
             background={
               <div className="absolute inset-0 w-full">
