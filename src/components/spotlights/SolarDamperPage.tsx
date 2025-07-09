@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
 import {
   Container,
   Hero,
@@ -67,6 +68,9 @@ interface SolarDamperPageProps {
 export function SolarDamperPage({}: SolarDamperPageProps) {
   return (
     <>
+      <Head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+      </Head>
       {/* Hero Section */}
       <Hero>
         <HeroBackground>
