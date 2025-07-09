@@ -63,6 +63,10 @@
     }
   },
   "categoryViewMore": "查看更多",
+  "spotlights": {
+    "solarDamperShort": "太阳能支架气弹簧",
+    "solarDamperLong": "为太阳能电池板及太阳能光伏系统设计的气弹簧解决方案，点击查看完整白皮书"
+  },
   "applications": {
     "title": "应用",
     "description": "探索我们的气弹簧应用",

@@ -63,6 +63,10 @@
     }
   },
   "categoryViewMore": "Mehr anzeigen",
+  "spotlights": {
+    "solarDamperShort": "Solar Damper",
+    "solarDamperLong": "A comprehensive solution for solar damper systems, check full whitepaper now"
+  },
   "applications": {
     "title": "Anwendung",
     "description": "Entdecken Sie unsere Gasfeder-Anwendungen",

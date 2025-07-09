@@ -76,7 +76,7 @@ export default async function Home(
               <div className="absolute top-2 left-2 bg-blue-500/10 backdrop-blur-sm px-2 py-0.5 text-[10px] font-medium tracking-wider uppercase rounded-full text-blue-700 dark:text-blue-300">New</div>
               <div className="flex items-center justify-center gap-2 group-hover:gap-3 transition-all duration-300">
                 <p className="font-medium text-base text-blue-900 dark:text-blue-100">
-                  Check our new Solar Damper Solution
+                  {dict.spotlights.solarDamperLong}
                 </p>
                 <svg className="w-4 h-4 opacity-70 group-hover:opacity-100 transition-opacity text-blue-700 dark:text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" /></svg>
               </div>

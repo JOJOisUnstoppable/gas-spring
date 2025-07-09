@@ -63,6 +63,10 @@
     }
   },
   "categoryViewMore": "Ver más",
+  "spotlights": {
+    "solarDamperShort": "Solar Damper",
+    "solarDamperLong": "A comprehensive solution for solar damper systems, check full whitepaper now"
+  },
   "applications": {
     "title": "Aplicación",
     "description": "Descubre nuestras aplicaciones de resortes de gas",
