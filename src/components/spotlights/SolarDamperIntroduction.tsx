@@ -20,7 +20,7 @@ interface SolarDamperIntroductionProps {
 export function SolarDamperIntroduction({ locale = 'en' }: SolarDamperIntroductionProps) {
 
   return (
-    <section className="max-w-7xl mx-auto w-full py-12 md:py-24 lg:py-16 bg-background">
+    <section className="max-w-7xl mx-auto w-full py-12 md:py-12 lg:py-16 bg-background">
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
           <div className="space-y-4">
@@ -39,7 +39,7 @@ export function SolarDamperIntroduction({ locale = 'en' }: SolarDamperIntroducti
           </div>
           <div className="relative aspect-video overflow-hidden rounded-xl">
             <Image
-              src="/images/application/solar-damper/solar_damper_product.jpg"
+              src="/images/spotlights/solar-damper/solar_damper_product.jpg"
               alt="Solar Damper Product"
               fill
               className="object-cover"

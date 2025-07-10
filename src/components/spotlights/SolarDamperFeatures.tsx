@@ -95,8 +95,8 @@ export function SolarDamperFeatures({ locale = 'en' }: SolarDamperFeaturesProps)
                 <div className="mt-8 grid w-full grid-cols-2 gap-12 md:grid-cols-2 lg:grid-cols-4">
                     {FeaturesData.map((feature) => {
                         return (
-                            <div key={feature.id} className="width-fit text-left">
-                                <div className="mb-2 w-fit rounded-lg bg-red-500 p-1 text-center text-white ">
+                            <div key={feature.id} className="width-fit text-left mt-8 space-y-4">
+                                <div className="mb-4 w-fit rounded-lg bg-red-500 p-1 text-center text-white ">
                                     {feature.icon}
                                 </div>
                                 <h3 className="text-2xl font-bold">
@@ -116,11 +116,11 @@ export function SolarDamperFeatures({ locale = 'en' }: SolarDamperFeaturesProps)
     const FunctionGrid = () => {
         return (
             <div>
-                <div className="mt-8 grid w-full grid-cols-2 gap-12 md:grid-cols-2 lg:grid-cols-4">
+                <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-1 lg:grid-cols-2">
                     {FunctionData.map((feature) => {
                         return (
-                            <div key={feature.id} className="width-fit text-left">
-                                <div className="mb-2 w-fit rounded-lg bg-red-500 p-1 text-center text-white ">
+                            <div key={feature.id} className="width-fit text-left mt-8 space-y-4">
+                                <div className="mb-4 w-fit rounded-lg bg-red-500 p-1 text-center text-white ">
                                     {feature.icon}
                                 </div>
                                 <h3 className="text-2xl font-bold">
@@ -147,7 +147,7 @@ export function SolarDamperFeatures({ locale = 'en' }: SolarDamperFeaturesProps)
                     </h2>
                     <FunctionGrid />
                 </div>
-                <div className="space-y-4 py-12 md:py-24 lg:py-16">
+                <div className="space-y-4 pt-24 md:pt-24 lg:pt-24">
                     <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                         {solarDamperConfig[locale as keyof typeof solarDamperConfig].features.performance.title}
                     </h2>

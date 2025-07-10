@@ -1,5 +1,17 @@
 export const solarDamperConfig = {
     zh: {
+        contact: {
+            title: "联系我们",
+            description: "我们随时准备为您提供专业的太阳能阻尼器解决方案",
+            company: "公司",
+            address: "中国浙江省宁波市",
+            phone: "电话",
+            email: "邮箱",
+            office: "办公室",
+            officeAddress: "浙江省宁波市",
+            cta: "联系我们以获得您的定制方案",
+            ctaContact: "联系我们以获得您的定制方案",
+        },
         hero: {
             eyebrow: "服务领先的太阳能供能品牌",
             title: "阻尼器解决方案",
@@ -37,9 +49,80 @@ export const solarDamperConfig = {
                 performanceLongLifespan: "超长使用寿命",
                 performanceLongLifespanExpansion: "200万次循环寿命",
             }
+        },
+        specifications: {
+            title: "技术规格",
+            description: "查看我们太阳能阻尼器解决方案的详细规格",
+            dimensions: {
+                lable: "尺寸",
+                maxLengthLable: "最大长度：",
+                maxLengthValue: "1335mm",
+                minLengthLable: "最小长度：",
+                minLengthValue: "576mm 或定制",
+                altMinLable: "替代最小长度：",
+                altMinValue: "745mm 或定制"
+            },
+            loadCapacity: {
+                lable: "负载能力",
+                windLoadLable: "风载：",
+                windLoadValue: "7KN-10KN",
+                snowLoadLable: "雪载：",
+                snowLoadValue: "7KN-10KN",
+                dampingForceLable: "阻尼力：",
+                dampingForceValue: "可定制"
+            },
+            performance: {
+                lable: "性能",
+                operatingTempLable: "工作温度：",
+                operatingTempValue: "-30°C 至 +80°C",
+                lifetimeLable: "使用寿命：",
+                lifetimeValue: "200万次循环",
+                maintenanceLable: "维护：",
+                maintenanceValue: "免维护"
+            }
+        },
+        products: {
+            title: "阻尼器应用场景",
+            description: "适用于各种太阳能跟踪系统配置的多功能解决方案",
+            singleAxisTrackers: "单轴跟踪器",
+            singleAxisTrackersLong:
+                `为单轴太阳能跟踪系统提供最佳阻尼效果，确保旋转过程中的稳定性和抗风能力。
+
+🌟 水平单轴跟踪器
+🌟 倾斜单轴跟踪器
+🌟 垂直单轴跟踪器
+🌟 地面电站，特别是单轴或双轴太阳能跟踪系统。`,
+            dualAxisTrackers: "双轴跟踪器",
+            dualAxisTrackersLong:
+                `为需要精确控制方位角和仰角的双轴跟踪系统提供先进的阻尼解决方案。
+
+🌟 倾斜-倾斜双轴跟踪器
+🌟 方位角-仰角跟踪器
+🌟 极轴式跟踪器
+🌟 屋顶光伏系统（主要为固定支架，部分使用气弹簧进行维护或角度调节）。`,
+            largeScale: "大型太阳能电站及特殊应用场景",
+            largeScaleLong:
+                `为要求高可靠性和性能的公用事业级太阳能装置和专业应用提供稳健的阻尼解决方案。
+
+🌟 公用事业级地面安装系统
+🌟 沙漠和恶劣环境安装
+🌟 沿海和强风区域
+🌟 高架停车场、农光互补项目等，其中跟踪支架配备气弹簧以抵抗风载荷、锁定角度并辅助自动控制。`
         }
     },
     en: {
+        contact: {
+            title: "Contact Us",
+            description: "We're ready to provide professional solar damper solutions for you",
+            company: "Company",
+            address: "Ningbo, Zhejiang, China",
+            phone: "Phone",
+            email: "Email",
+            office: "Office",
+            officeAddress: "Ningbo, Zhejiang",
+            cta: "Contact for Your Customized Solar Damper Solutions",
+            ctaContact: "Contact for Your Customized Solar Damper Solutions",
+        },
         hero: {
             eyebrow: "Serving Leading Solar Solution Brand",
             title: "Solar Damper Solution",
@@ -77,9 +160,80 @@ export const solarDamperConfig = {
                 performanceLongLifespan: "Long Lifespan",
                 performanceLongLifespanExpansion: "2 million cycle lifetime",
             }
+        },
+        specifications: {
+            title: "Technical Specifications",
+            description: "View detailed specifications of our solar damper solution",
+            dimensions: {
+                lable: "Dimensions",
+                maxLengthLable: "Maximum Length:",
+                maxLengthValue: "1335mm",
+                minLengthLable: "Minimum Length:",
+                minLengthValue: "576mm or Custom",
+                altMinLable: "Alternative Min:",
+                altMinValue: "745mm or Custom"
+            },
+            loadCapacity: {
+                lable: "Load Capacity",
+                windLoadLable: "Wind Load:",
+                windLoadValue: "7KN-10KN",
+                snowLoadLable: "Snow Load:",
+                snowLoadValue: "7KN-10KN",
+                dampingForceLable: "Damping Force:",
+                dampingForceValue: "Customizable"
+            },
+            performance: {
+                lable: "Performance",
+                operatingTempLable: "Operating Temp:",
+                operatingTempValue: "-30°C to +80°C",
+                lifetimeLable: "Lifetime:",
+                lifetimeValue: "2 Million Cycles",
+                maintenanceLable: "Maintenance:",
+                maintenanceValue: "Maintenance-Free"
+            }
+        },
+        products: {
+            title: "Solar Damper Applications",
+            description: "Versatile solutions for various solar tracking system configurations",
+            singleAxisTrackers: "Single-Axis Trackers",
+            singleAxisTrackersLong:
+                `Optimal damping for single-axis solar tracking systems, providing stability during rotation and wind resistance.
+
+🌟 Horizontal single-axis trackers
+🌟 Tilted single-axis trackers
+🌟 Vertical single-axis trackers
+🌟 Ground-mounted power stations, especially single-axis or dual-axis solar tracking systems.`,
+            dualAxisTrackers: "Dual-Axis Trackers",
+            dualAxisTrackersLong:
+                `Advanced damping solutions for dual-axis tracking systems requiring precise control in both azimuth and elevation.
+
+🌟 Tip-tilt dual-axis trackers
+🌟 Azimuth-elevation trackers
+🌟 Polar mount trackers
+🌟 Rooftop PV systems (primarily fixed mounts, but some use gas springs for maintenance or angle adjustment).`,
+            largeScale: "Large-Scale Solar Farms & Special Scenarios",
+            largeScaleLong:
+                `Robust damping solutions for utility-scale solar installations with high reliability and performance requirements, and for specialized applications.
+
+🌟 Utility-scale ground-mount systems
+🌟 Desert and harsh environment installations
+🌟 Coastal and high-wind areas
+🌟 Elevated parking lots, agricultural-photovoltaic complementary projects, etc., where tracking brackets are equipped with gas springs to resist wind loads, lock angles, and assist automated control.`
         }
     },
     es: {
+        contact: {
+            title: "Contáctenos",
+            description: "Estamos listos para proporcionarle soluciones profesionales de amortiguadores solares",
+            company: "Empresa",
+            address: "Ningbo, Zhejiang, China",
+            phone: "Teléfono",
+            email: "Correo",
+            office: "Oficina",
+            officeAddress: "Ningbo, Zhejiang",
+            cta: "Contact for Your Customized Solar Damper Solutions",
+            ctaContact: "Contact for Your Customized Solar Damper Solutions"
+        },
         hero: {
             eyebrow: "Servicio líder de soluciones fotovoltaicas",
             title: "Solar Damper Solution",
@@ -117,9 +271,80 @@ export const solarDamperConfig = {
                 performanceLongLifespan: "Larga Vida Útil",
                 performanceLongLifespanExpansion: "2 millones de ciclos de vida",
             }
+        },
+        specifications: {
+            title: "Especificaciones Técnicas",
+            description: "Ver las especificaciones detalladas de nuestra solución de amortiguador solar",
+            dimensions: {
+                lable: "Dimensiones",
+                maxLengthLable: "Longitud Máxima:",
+                maxLengthValue: "1335mm",
+                minLengthLable: "Longitud Mínima:",
+                minLengthValue: "576mm o Personalizada",
+                altMinLable: "Alternativa Mínima:",
+                altMinValue: "745mm o Personalizada"
+            },
+            loadCapacity: {
+                lable: "Capacidad de Carga",
+                windLoadLable: "Carga de Viento:",
+                windLoadValue: "7KN-10KN",
+                snowLoadLable: "Carga de Nieve:",
+                snowLoadValue: "7KN-10KN",
+                dampingForceLable: "Fuerza de Amortiguación:",
+                dampingForceValue: "Personalizable"
+            },
+            performance: {
+                lable: "Rendimiento",
+                operatingTempLable: "Temperatura de Funcionamiento:",
+                operatingTempValue: "-30°C a +80°C",
+                lifetimeLable: "Durabilidad:",
+                lifetimeValue: "2 Millones de Ciclos",
+                maintenanceLable: "Mantenimiento:",
+                maintenanceValue: "Sin Mantenimiento"
+            }
+        },
+        products: {
+            title: "Aplicaciones del Amortiguador Solar",
+            description: "Soluciones versátiles para diversas configuraciones de sistemas de seguimiento solar",
+            singleAxisTrackers: "Seguidores de Un Eje",
+            singleAxisTrackersLong:
+                `Amortiguación óptima para sistemas de seguimiento solar de un eje, proporcionando estabilidad durante la rotación y resistencia al viento.
+
+🌟 Seguidores de un eje horizontal
+🌟 Seguidores de un eje inclinado
+🌟 Seguidores de un eje vertical
+🌟 Centrales eléctricas montadas en suelo, especialmente sistemas de seguimiento solar de un eje o dos ejes.`,
+            dualAxisTrackers: "Seguidores de Dos Ejes",
+            dualAxisTrackersLong:
+                `Soluciones avanzadas de amortiguación para sistemas de seguimiento de dos ejes que requieren un control preciso tanto en azimut como en elevación.
+
+🌟 Seguidores de dos ejes tipo inclinación-inclinación
+🌟 Seguidores azimut-elevación
+🌟 Seguidores de montaje polar
+🌟 Sistemas fotovoltaicos en tejados (principalmente montajes fijos, pero algunos utilizan resortes de gas para mantenimiento o ajuste de ángulo).`,
+            largeScale: "Granjas Solares a Gran Escala y Escenarios Especiales",
+            largeScaleLong:
+                `Soluciones robustas de amortiguación para instalaciones solares a escala de servicios públicos con altos requisitos de fiabilidad y rendimiento, y para aplicaciones especializadas.
+                
+🌟 Sistemas de montaje en suelo a escala de servicios públicos
+🌟 Instalaciones en desiertos y entornos hostiles
+🌟 Áreas costeras y de vientos fuertes
+🌟 Estacionamientos elevados, proyectos complementarios agrofotovoltaicos, etc., donde los soportes de seguimiento están equipados con resortes de gas para resistir cargas de viento, bloquear ángulos y asistir al control automatizado.`
         }
     },
     de: {
+        contact: {
+            title: "Kontakt",
+            description: "Wir sind bereit, Ihnen professionelle Solar-Dämpfer-Lösungen anzubieten",
+            company: "Unternehmen",
+            address: "Ningbo, Zhejiang, China",
+            phone: "Telefon",
+            email: "E-Mail",
+            office: "Büro",
+            officeAddress: "Ningbo, Zhejiang",
+            cta: "Contact for Your Customized Solar Damper Solutions",
+            ctaContact: "Contact for Your Customized Solar Damper Solutions"
+        },
         hero: {
             eyebrow: "Servicio líder de soluciones fotovoltaicas",
             title: "Solar Damper Solution",
@@ -157,6 +382,65 @@ export const solarDamperConfig = {
                 performanceLongLifespan: "Lange Lebensdauer",
                 performanceLongLifespanExpansion: "2 Millionen Zyklen Lebensdauer",
             }
+        },
+        specifications: {
+            title: "Spezifikationen",
+            description: "Sehen Sie sich die detaillierten Spezifikationen unserer Solar-Dämpfer-Lösung an",
+            dimensions: {
+                lable: "Abmessungen",
+                maxLengthLable: "Maximale Länge:",
+                maxLengthValue: "1335mm",
+                minLengthLable: "Minimale Länge:",
+                minLengthValue: "576mm oder nach Maß",
+                altMinLable: "Alternative Mindestlänge:",
+                altMinValue: "745mm oder nach Maß"
+            },
+            loadCapacity: {
+                lable: "Tragfähigkeit",
+                windLoadLable: "Windbelastung:",
+                windLoadValue: "7KN-10KN",
+                snowLoadLable: "Schneelast:",
+                snowLoadValue: "7KN-10KN",
+                dampingForceLable: "Dämpfungskraft:",
+                dampingForceValue: "nach Maß"
+            },
+            performance: {
+                lable: "Leistung",
+                operatingTempLable: "Betriebstemperatur:",
+                operatingTempValue: "-30°C bis +80°C",
+                lifetimeLable: "Lebensdauer:",
+                lifetimeValue: "2 Millionen Betriebszyklen",
+                maintenanceLable: "Wartung:",
+                maintenanceValue: "wartungsfrei"
+            }
+        },
+        products: {
+            title: "Solar-Dämpfer Anwendungen",
+            description: "Vielseitige Lösungen für verschiedene Solar-Tracking-System-Konfigurationen",
+            singleAxisTrackers: "Einachsige Tracker",
+            singleAxisTrackersLong:
+                `Optimale Dämpfung für einachsige Solar-Tracking-Systeme, die Stabilität während der Rotation und Windwiderstand bietet.
+
+🌟 Horizontale einachsige Tracker
+🌟 Geneigte einachsige Tracker
+🌟 Vertikale einachsige Tracker
+🌟 Bodenmontierte Kraftwerke, insbesondere ein- oder zweiachsige Solar-Tracking-Systeme.`,
+            dualAxisTrackers: "Zweiachsige Tracker",
+            dualAxisTrackersLong:
+                `Fortschrittliche Dämpfungslösungen für zweiachsige Tracking-Systeme, die präzise Steuerung sowohl in Azimut als auch in Elevation erfordern.
+
+🌟 Tip-Tilt zweiachsige Tracker
+🌟 Azimut-Elevation Tracker
+🌟 Polarmontage-Tracker
+🌟 Dach-PV-Systeme (hauptsächlich feste Montagen, aber einige verwenden Gasfedern für Wartung oder Winkeleinstellung).`,
+            largeScale: "Großflächige Solarparks & Spezielle Szenarien",
+            largeScaleLong:
+                `Robuste Dämpfungslösungen für Solaranlagen im Versorgungsmaßstab mit hohen Anforderungen an Zuverlässigkeit und Leistung sowie für spezialisierte Anwendungen.
+                
+🌟 Bodenmontierte Systeme im Versorgungsmaßstab
+🌟 Installationen in Wüsten und rauen Umgebungen
+🌟 Küsten- und Starkwindgebiete
+🌟 Hochgelagerte Parkplätze, agrar-photovoltaische Komplementärprojekte usw., bei denen Tracking-Halterungen mit Gasfedern ausgestattet sind, um Windlasten zu widerstehen, Winkel zu fixieren und die automatisierte Steuerung zu unterstützen.`
         }
     }
 }
