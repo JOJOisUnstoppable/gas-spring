@@ -41,6 +41,9 @@ interface NavbarDictionary {
     blog: string
     contact: string
     allProducts: string
+  },
+  spotlights: {
+    solarDamperShort: string
   }
 }
 
@@ -145,8 +148,8 @@ export function Navbar({ locale, dict, categories }: {
           <div className="w-full flex justify-between md:w-auto">
             <Sheet>
               <SheetTrigger asChild className="md:hidden">
-                <Button variant="ghost" size="icon">
-                  <Menu className="h-5 w-5" />
+                <Button variant="ghost" size="icon" aria-label="Show Menu on Mobile Device">
+                  <Menu className="h-5 w-5" aria-hidden="true" />
                 </Button>
               </SheetTrigger>
               <SheetContent side="left" className="pr-0">
@@ -179,6 +182,13 @@ export function Navbar({ locale, dict, categories }: {
                 </nav>
               </SheetContent>
             </Sheet>
+            <Link href={`/${locale}/spotlights/solar-damper`} className="block md:inline-flex md:w-auto md:ml-0 mx-auto mb-0 group">
+              <div className="relative overflow-hidden bg-gradient-to-r from-purple-500/90 to-purple-600/90 hover:from-purple-500 hover:to-purple-600 text-white rounded-full px-4 py-1.5 transition-all duration-300 text-sm font-medium flex items-center gap-2 group-hover:gap-3">
+                <span className="bg-white/20 px-1.5 py-0.5 text-[10px] tracking-wider uppercase rounded-sm">New</span>
+                <span className="text-sm font-medium">{dict.spotlights.solarDamperShort}</span>
+                <svg className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" /></svg>
+              </div>
+            </Link>
             <div className="md:hidden">
               <LanguageSwitcher />
             </div>

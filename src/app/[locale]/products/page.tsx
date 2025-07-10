@@ -49,7 +49,7 @@ export default async function ProductsPage(
                   image: category.image
                 }}
                 locale={locale}
-                viewMore={dict.applications.viewMoreString}
+                viewMore={dict.categoryViewMore}
               />
             ))}
         </BentoGrid>

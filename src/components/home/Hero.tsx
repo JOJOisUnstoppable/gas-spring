@@ -30,9 +30,10 @@ export function Hero({ dict, locale }: HeroProps) {
           alt="Gas Spring"
           fill
           priority
+          fetchPriority="high"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-600/60 via-blue-800/40 to-blue-800/60" />
         <div className="absolute inset-x-0 bottom-0 h-24 bg-gray-50 hidden md:block" style={{ clipPath: 'polygon(0 101%, 100% 101%, 100% 0)' }} />
       </div>
 

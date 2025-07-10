@@ -54,12 +54,18 @@ export function Features({ dict }: FeaturesProps) {
             className="grid grid-cols-1 md:grid-cols-4 gap-4"
           >
           {dict.home.features.items.map((feature, index) => (
-            <Card key={index} className="hover:shadow-md transition-shadow">
-              <CardHeader>
-                {index === 0 && <Settings className="size-6 mb-2 text-primary" />}
-                {index === 1 && <Zap className="size-6 mb-2 text-primary" />}
-                {index === 2 && <Shield className="size-6 mb-2 text-primary" />}
-                {index === 3 && <Globe className="size-6 mb-2 text-primary" />}
+            <Card key={index} className="hover:shadow-md transition-shadow text-center relative overflow-hidden">
+              <div className="absolute inset-0 flex items-center justify-center opacity-[0.03] pointer-events-none">
+                {index === 0 && <Settings className="size-48 text-blue-900" />}
+                {index === 1 && <Zap className="size-48 text-blue-900" />}
+                {index === 2 && <Shield className="size-48 text-blue-900" />}
+                {index === 3 && <Globe className="size-48 text-blue-900" />}
+              </div>
+              <CardHeader className="items-center relative">
+                {index === 0 && <Settings className="size-6 mb-2 text-blue-500" />}
+                {index === 1 && <Zap className="size-6 mb-2 text-blue-500" />}
+                {index === 2 && <Shield className="size-6 mb-2 text-blue-500" />}
+                {index === 3 && <Globe className="size-6 mb-2 text-blue-500" />}
                 <CardTitle className="text-xl">{feature.title}</CardTitle>
                 <CardDescription>{feature.description}</CardDescription>
               </CardHeader>

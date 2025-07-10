@@ -82,7 +82,7 @@ const MinimalCardDescription = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <p
     ref={ref}
-    className={cn("text-sm text-neutral-500 pb-2 px-1", className)}
+    className={cn("text-sm text-neutral-500 pb-2 px-1 whitespace-pre-wrap", className)}
     {...props}
   />
 ))
