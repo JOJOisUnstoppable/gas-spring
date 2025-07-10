@@ -1,5 +1,3 @@
-import { features } from "process";
-
 export const solarDamperConfig = {
     zh: {
         hero: {

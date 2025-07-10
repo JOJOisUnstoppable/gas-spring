@@ -3,7 +3,6 @@
 import { SolarDamperHero } from '@/components/spotlights/SolarDamperHero';
 import { SolarDamperIntroduction } from '@/components/spotlights/SolarDamperIntroduction';
 import { SolarDamperFeatures } from '@/components/spotlights/SolarDamperFeatures';
-import { solarDamperConfig } from '@/components/spotlights/SolarDamperLocale';
 import { usePathname } from 'next/navigation';
 
 export default function SolarDamperPage() {

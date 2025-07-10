@@ -5,8 +5,6 @@
 
 'use client'
 
-import Image from 'next/image';
-import { cn } from '@/lib/utils';
 import { solarDamperConfig } from './SolarDamperLocale';
 import { Compass, Shield, Wrench, Gauge, Wind, Snowflake, Thermometer, Timer } from 'lucide-react'
 

@@ -6,7 +6,6 @@
 'use client'
 
 import Image from 'next/image';
-import { cn } from '@/lib/utils';
 import { solarDamperConfig } from '@/components/spotlights/SolarDamperLocale';
 
 interface SolarDamperIntroductionProps {
