@@ -30,6 +30,7 @@ export function Hero({ dict, locale }: HeroProps) {
           alt="Gas Spring"
           fill
           priority
+          fetchPriority="high"
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-blue-600/60 via-blue-800/40 to-blue-800/60" />
