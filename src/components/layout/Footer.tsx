@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { Locale } from '@/lib/i18n/config'
@@ -30,19 +32,19 @@ interface FooterProps {
 
 export function Footer({ locale, dict, categories }: FooterProps) {
     return (
-        <footer className="bg-gray-100 text-gray-600">
+        <footer className="bg-background border-t">
             <div className="container max-w-7xl mx-auto py-8 px-4 sm:px-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-6 my-4">
 
                     {/* 产品分类 */}
                     <div className="text-center sm:text-left">
-                        <h3 className="text-gray-900 font-semibold mb-3">{dict.common.products}</h3>
+                        <h3 className="text-foreground font-semibold mb-3">{dict.common.products}</h3>
                         <ul className="space-y-3">
                             {categories.map(category => (
                                 <li key={category.id}>
                                     <Link
                                         href={`/${locale}/products/category/${category.id}`}
-                                        className="text-sm hover:text-gray-900 transition-colors block py-1"
+                                        className="text-sm text-muted-foreground hover:text-foreground transition-colors block py-1"
                                     >
                                         {category.title}
                                     </Link>
@@ -53,12 +55,12 @@ export function Footer({ locale, dict, categories }: FooterProps) {
 
                     {/* 快速链接 */}
                     <div className="text-center sm:text-left">
-                        <h3 className="text-gray-900 font-semibold mb-4">{dict.footer.quickLinks}</h3>
+                        <h3 className="text-foreground font-semibold mb-4">{dict.footer.quickLinks}</h3>
                         <ul className="space-y-3">
                             <li>
                                 <Link
                                     href={`/${locale}/applications`}
-                                    className="text-sm hover:text-gray-900 transition-colors block py-1"
+                                    className="text-sm text-muted-foreground hover:text-foreground transition-colors block py-1"
                                 >
                                     {dict.common.applications}
                                 </Link>
@@ -66,7 +68,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                             <li>
                                 <Link
                                     href={`/${locale}/blog`}
-                                    className="text-sm hover:text-gray-900 transition-colors"
+                                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                                 >
                                     {dict.common.blog}
                                 </Link>
@@ -74,7 +76,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                             <li>
                                 <Link
                                     href={`/${locale}/contact`}
-                                    className="text-sm hover:text-gray-900 transition-colors"
+                                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                                 >
                                     {dict.common.contact}
                                 </Link>
@@ -84,12 +86,12 @@ export function Footer({ locale, dict, categories }: FooterProps) {
 
                     {/* 法律相关 */}
                     <div className="text-center sm:text-left">
-                        <h3 className="text-gray-900 font-semibold mb-4">{dict.footer.legal}</h3>
+                        <h3 className="text-foreground font-semibold mb-4">{dict.footer.legal}</h3>
                         <ul className="space-y-3">
                             <li>
                                 <Link
                                     href={`/${locale}/terms`}
-                                    className="text-sm hover:text-gray-900 transition-colors"
+                                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                                 >
                                     {dict.footer.terms}
                                 </Link>
@@ -97,7 +99,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                             <li>
                                 <Link
                                     href={`/${locale}/privacy`}
-                                    className="text-sm hover:text-gray-900 transition-colors"
+                                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                                 >
                                     {dict.footer.privacy}
                                 </Link>
@@ -122,7 +124,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                 </div>
 
                 {/* 版权信息 */}
-                <div className="border-t border-gray-200 mt-8 pt-6 text-sm text-center text-gray-500">
+                <div className="border-t border-border mt-8 pt-6 text-sm text-center text-muted-foreground">
                     <p>Copyright © 2024 – 2025 • All rights reserved</p>
                 </div>
             </div>

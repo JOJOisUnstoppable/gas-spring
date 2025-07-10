@@ -148,8 +148,8 @@ export function Navbar({ locale, dict, categories }: {
           <div className="w-full flex justify-between md:w-auto">
             <Sheet>
               <SheetTrigger asChild className="md:hidden">
-                <Button variant="ghost" size="icon">
-                  <Menu className="h-5 w-5" />
+                <Button variant="ghost" size="icon" aria-label="Show Menu on Mobile Device">
+                  <Menu className="h-5 w-5" aria-hidden="true" />
                 </Button>
               </SheetTrigger>
               <SheetContent side="left" className="pr-0">
