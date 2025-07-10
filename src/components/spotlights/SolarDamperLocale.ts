@@ -108,6 +108,38 @@ export const solarDamperConfig = {
 🌟 沙漠和恶劣环境安装
 🌟 沿海和强风区域
 🌟 高架停车场、农光互补项目等，其中跟踪支架配备气弹簧以抵抗风载荷、锁定角度并辅助自动控制。`
+        },
+        choose: {
+            title: "为什么选择DK的太阳能阻尼器",
+            description: "先进的工程技术和经过验证的性能，专为太阳能跟踪应用而设计",
+            benefitAdvancedTechnology: "先进技术",
+            benefitAdvancedTechnologyExpansion: "专有的液压阻尼技术，专门为太阳能跟踪系统设计，具有精确的振动控制。",
+            benefitQualityExcellence: "卓越品质",
+            benefitQualityExcellenceExpansion: "通过ISO 9001:2000认证的制造工艺，确保每个产品的一致性质量和可靠性。",
+            benefitCustomSolutions: "定制方案",
+            benefitCustomSolutionsExpansion: "根据您的太阳能跟踪系统配置的具体要求，量身定制阻尼解决方案。",
+            benefitGlobalSupport: "全球支持",
+            benefitGlobalSupportExpansion: "为所有产品提供全球技术支持、安装指导和全面的售后服务。",
+            benefitProvenDurability: "经验证的耐久性",
+            benefitProvenDurabilityExpansion: "在恶劣环境下进行广泛测试，包括盐雾、极端温度和高周期疲劳测试。",
+            benefitLowMaintenance: "低维护需求",
+            benefitLowMaintenanceExpansion: "免维护设计，采用密封结构和高质量材料，确保长期可靠运行。"
+        },
+        qa: {
+            title: "常见问题",
+            description: "关于太阳能阻尼器及其应用的常见问题",
+            question1: "我应该考虑哪些关键规格？",
+            answer1: "关键规格包括阻尼力范围、行程长度、工作温度范围和安装兼容性。我们的团队将根据您的跟踪器设计和环境条件帮助您确定最佳规格。",
+            question2: "正确的安装方向是什么？",
+            answer2: "双缸太阳能跟踪器阻尼器应以防尘盖朝上的方式安装（大头朝上），以防止灰尘和杂物进入并确保正常运行。",
+            question3: "预期使用寿命是多少？",
+            answer3: "我们的太阳能阻尼器设计寿命约为200万次循环，通常相当于太阳能跟踪应用中的25年以上。",
+            question4: "阻尼器可以定制吗？",
+            answer4: "是的，我们提供定制解决方案，包括调整阻尼力、修改尺寸和特定的安装配置，以满足您的独特项目需求。",
+            question5: "使用了哪些材料进行制造？",
+            answer5: "我们的阻尼器使用高强度涂层钢作为外壳，端部配件使用镀锌钢，并使用专用密封材料以抵抗极端天气。",
+            question6: "太阳能阻尼器产品的保修期是多长？",
+            answer6: "我们提供全面的保修覆盖，并承诺长期可靠性。请联系我们的团队，获取基于您应用需求的具体保修条款。",
         }
     },
     en: {
@@ -219,6 +251,38 @@ export const solarDamperConfig = {
 🌟 Desert and harsh environment installations
 🌟 Coastal and high-wind areas
 🌟 Elevated parking lots, agricultural-photovoltaic complementary projects, etc., where tracking brackets are equipped with gas springs to resist wind loads, lock angles, and assist automated control.`
+        },
+        choose: {
+            title: "Why Choose DK's Solar Dampers",
+            description: "Advanced engineering and proven performance for solar tracking applications",
+            benefitAdvancedTechnology: "Advanced Technology",
+            benefitAdvancedTechnologyExpansion: "Proprietary hydraulic damping technology specifically engineered for solar tracking systems with precise vibration control.",
+            benefitQualityExcellence: "Quality Excellence",
+            benefitQualityExcellenceExpansion: "ISO 9001:2000 certified manufacturing processes ensuring consistent quality and reliability in every product.",
+            benefitCustomSolutions: "Custom Solutions",
+            benefitCustomSolutionsExpansion: "Tailored damping solutions designed to meet specific requirements of your solar tracking system configuration.",
+            benefitGlobalSupport: "Global Support",
+            benefitGlobalSupportExpansion: "Worldwide technical support, installation guidance, and comprehensive after-sales service for all our products.",
+            benefitProvenDurability: "Proven Durability",
+            benefitProvenDurabilityExpansion: "Extensive testing in harsh environments including salt spray, extreme temperatures, and high-cycle fatigue testing.",
+            benefitLowMaintenance: "Low Maintenance",
+            benefitLowMaintenanceExpansion: "Maintenance-free design with sealed construction and high-quality materials for long-term reliable operation."
+        },
+        qa: {
+            title: "Frequently Asked Questions",
+            description: "Common questions about solar dampers and their applications",
+            question1: "What are the key specifications I should consider?",
+            answer1: "Key specifications include damping force range, stroke length, operating temperature range, and mounting compatibility. Our team will help you determine the optimal specifications based on your tracker design and environmental conditions.",
+            question2: "What is the correct installation orientation?",
+            answer2: "Dual-cylinder solar tracker dampers should be installed with the dust cover facing upward (Big End Up) to prevent dust and debris from entering and ensure proper functioning.",
+            question3: "What is the expected lifetime?",
+            answer3: "Our solar dampers are designed for approximately 2 million cycles, which typically corresponds to 25+ years of operation in solar tracking applications.",
+            question4: "Can the dampers be customized?",
+            answer4: "Yes, we provide customized solutions including adjusted damping force, modified dimensions, and specific mounting configurations to fit your unique project requirements.",
+            question5: "What materials are used in construction?",
+            answer5: "Our dampers use high-strength coated steel for the outer body and zinc-plated steel for end fittings, with specialized sealing materials for extreme weather resistance.",
+            question6: "What is the warranty period for solar damper products?",
+            answer6: "We provide comprehensive warranty coverage and promise long-term reliability. Contact our team for specific warranty terms based on your application requirements.",
         }
     },
     es: {
@@ -330,6 +394,38 @@ export const solarDamperConfig = {
 🌟 Instalaciones en desiertos y entornos hostiles
 🌟 Áreas costeras y de vientos fuertes
 🌟 Estacionamientos elevados, proyectos complementarios agrofotovoltaicos, etc., donde los soportes de seguimiento están equipados con resortes de gas para resistir cargas de viento, bloquear ángulos y asistir al control automatizado.`
+        },
+        choose: {
+            title: "Por qué elegir los amortiguadores solares de DK",
+            description: "Ingeniería avanzada y rendimiento probado para aplicaciones de seguimiento solar",
+            benefitAdvancedTechnology: "Tecnología Avanzada",
+            benefitAdvancedTechnologyExpansion: "Tecnología de amortiguación hidráulica patentada, específicamente diseñada para sistemas de seguimiento solar con control preciso de vibraciones.",
+            benefitQualityExcellence: "Excelencia en Calidad",
+            benefitQualityExcellenceExpansion: "Procesos de fabricación certificados ISO 9001:2000 que garantizan calidad y fiabilidad consistentes en cada producto.",
+            benefitCustomSolutions: "Soluciones Personalizadas",
+            benefitCustomSolutionsExpansion: "Soluciones de amortiguación adaptadas para cumplir con los requisitos específicos de su configuración de seguimiento solar.",
+            benefitGlobalSupport: "Soporte Global",
+            benefitGlobalSupportExpansion: "Soporte técnico mundial, orientación en la instalación y servicio postventa integral para todos nuestros productos.",
+            benefitProvenDurability: "Durabilidad Probada",
+            benefitProvenDurabilityExpansion: "Pruebas exhaustivas en entornos adversos, incluyendo niebla salina, temperaturas extremas y pruebas de fatiga de ciclo alto.",
+            benefitLowMaintenance: "Bajo Mantenimiento",
+            benefitLowMaintenanceExpansion: "Diseño libre de mantenimiento con construcción sellada y materiales de alta calidad para un funcionamiento fiable a largo plazo."
+        },
+        qa: {
+            title: "Preguntas Frecuentes",
+            description: "Preguntas comunes sobre amortiguadores solares y sus aplicaciones",
+            question1: "¿Cuáles son las especificaciones clave que debo considerar?",
+            answer1: "Las especificaciones clave incluyen el rango de fuerza de amortiguación, la longitud del recorrido, el rango de temperatura de funcionamiento y la compatibilidad de montaje. Nuestro equipo le ayudará a determinar las especificaciones óptimas basadas en el diseño de su seguidor y las condiciones ambientales.",
+            question2: "¿Cuál es la orientación correcta de instalación?",
+            answer2: "Los amortiguadores de seguimiento solar de doble cilindro deben instalarse con la cubierta contra el polvo hacia arriba (Extremo Grande Hacia Arriba) para evitar que entre polvo y escombros y garantizar un funcionamiento adecuado.",
+            question3: "¿Cuál es la vida útil esperada?",
+            answer3: "Nuestros amortiguadores solares están diseñados para aproximadamente 2 millones de ciclos, lo que generalmente corresponde a 25+ años de operación en aplicaciones de seguimiento solar.",
+            question4: "¿Se pueden personalizar los amortiguadores?",
+            answer4: "Sí, ofrecemos soluciones personalizadas que incluyen una fuerza de amortiguación ajustada, dimensiones modificadas y configuraciones de montaje específicas para adaptarse a los requisitos únicos de su proyecto.",
+            question5: "¿Qué materiales se utilizan en la construcción?",
+            answer5: "Nuestros amortiguadores utilizan acero recubierto de alta resistencia para el cuerpo exterior y acero galvanizado para los accesorios de extremo, con materiales de sellado especializados para resistir condiciones meteorológicas extremas.",
+            question6: "¿Cuál es el período de garantía para los productos de amortiguadores solares?",
+            answer6: "Ofrecemos cobertura de garantía integral y prometemos fiabilidad a largo plazo. Contacte a nuestro equipo para obtener términos de garantía específicos basados en los requisitos de su aplicación.",
         }
     },
     de: {
@@ -441,6 +537,38 @@ export const solarDamperConfig = {
 🌟 Installationen in Wüsten und rauen Umgebungen
 🌟 Küsten- und Starkwindgebiete
 🌟 Hochgelagerte Parkplätze, agrar-photovoltaische Komplementärprojekte usw., bei denen Tracking-Halterungen mit Gasfedern ausgestattet sind, um Windlasten zu widerstehen, Winkel zu fixieren und die automatisierte Steuerung zu unterstützen.`
+        },
+        choose: {
+            title: "Warum DK Solar-Dämpfer wählen",
+            description: "Fortschrittliche Technik und bewährte Leistung für Solar-Tracking-Anwendungen",
+            benefitAdvancedTechnology: "Fortschrittliche Technologie",
+            benefitAdvancedTechnologyExpansion: "Proprietäre hydraulische Dämpfungstechnologie, speziell entwickelt für Solar-Tracking-Systeme mit präziser Schwingungskontrolle.",
+            benefitQualityExcellence: "Qualitätsexzellenz",
+            benefitQualityExcellenceExpansion: "ISO 9001:2000-zertifizierte Fertigungsprozesse, die konstante Qualität und Zuverlässigkeit in jedem Produkt gewährleisten.",
+            benefitCustomSolutions: "Maßgeschneiderte Lösungen",
+            benefitCustomSolutionsExpansion: "Maßgeschneiderte Dämpfungslösungen, entwickelt für die spezifischen Anforderungen Ihrer Solar-Tracking-System-Konfiguration.",
+            benefitGlobalSupport: "Globaler Support",
+            benefitGlobalSupportExpansion: "Weltweiter technischer Support, Installationsanleitung und umfassender After-Sales-Service für alle unsere Produkte.",
+            benefitProvenDurability: "Bewährte Haltbarkeit",
+            benefitProvenDurabilityExpansion: "Umfangreiche Tests in rauen Umgebungen einschließlich Salzsprühnebel, extremen Temperaturen und Hochzyklus-Ermüdungstests.",
+            benefitLowMaintenance: "Geringer Wartungsaufwand",
+            benefitLowMaintenanceExpansion: "Wartungsfreies Design mit versiegelter Konstruktion und hochwertigen Materialien für langfristig zuverlässigen Betrieb."
+        },
+        qa: {
+            title: "Häufig gestellte Fragen",
+            description: "Gängige Fragen zu Sonnenfederung und deren Anwendungen",
+            question1: "Welche Schlüsselspezifikationen sollte ich berücksichtigen?",
+            answer1: "Wichtige Spezifikationen umfassen den Dämpfungskraftbereich, die Hublänge, den Betriebstemperaturbereich und die Montagekompatibilität. Unser Team wird Ihnen helfen, die optimalen Spezifikationen basierend auf Ihrem Tracker-Design und den Umgebungsbedingungen zu bestimmen.",
+            question2: "Was ist die richtige Montageausrichtung?",
+            answer2: "Doppizylinder-Sonnenfederungen sollten mit der Staubhaube nach oben (Großer Enden Nach Oben) montiert werden, um Staub und Schmutz zu verhindern und einen ordnungsgemäßen Betrieb zu gewährleisten.",
+            question3: "Was ist die erwartete Lebensdauer?",
+            answer3: "Unsere Sonnenfederungen sind für etwa 2 Millionen Betriebszyklen ausgelegt, was in der Regel einer Nutzung von über 25 Jahren in Solartechnik entspricht.",
+            question4: "Können die Federungen angepasst werden?",
+            answer4: "Ja, wir bieten maßgeschneiderte Lösungen an, einschließlich angepasster Dämpfungskraft, modifizierter Abmessungen und spezifischer Montagekonfigurationen, um Ihren einzigartigen Projektanforderungen gerecht zu werden.",
+            question5: "Welche Materialien werden für die Herstellung verwendet?",
+            answer5: "Unsere Federungen verwenden hochfesten lackierten Stahl für den Außengehäuse und verzinkten Stahl für die Endverbindungen, sowie spezialisierte Dichtmaterialien zur Wetterbeständigkeit bei Extremwetterbedingungen.",
+            question6: "Wie lange dauert die Garantie für Sonnenfederungsprodukte?",
+            answer6: "Wir bieten eine umfassende Garantie und versprechen langfristige Zuverlässigkeit. Kontaktieren Sie unser Team, um auf Ihre Anwendungsanforderungen zugeschnittene Garantiebedingungen zu erhalten.",
         }
     }
 }

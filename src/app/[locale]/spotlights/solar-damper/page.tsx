@@ -5,6 +5,8 @@ import { SolarDamperIntroduction } from '@/components/spotlights/SolarDamperIntr
 import { SolarDamperFeatures } from '@/components/spotlights/SolarDamperFeatures';
 import { SolarDamperSpecifications } from '@/components/spotlights/SolarDamperSpecifications';
 import { SolarDamperProducts } from '@/components/spotlights/SolarDamperProducts';
+import { SolarDamperChoose } from '@/components/spotlights/SolarDamperChoose';
+import { SolarDamperAnswers } from '@/components/spotlights/SolarDamperAnswers';
 import { Contact } from '@/components/home/Contact';
 import { usePathname } from 'next/navigation';
 import { solarDamperConfig } from '@/components/spotlights/SolarDamperLocale';
@@ -19,6 +21,8 @@ export default function SolarDamperPage() {
       <SolarDamperFeatures locale={locale} />
       <SolarDamperSpecifications locale={locale} />
       <SolarDamperProducts locale={locale} />
+      <SolarDamperChoose locale={locale} />
+      <SolarDamperAnswers locale={locale} />
       <section id="contact" className="bg-white">
         <Contact dict={{ home: { hero: { ctaContact: dict.contact.cta } }, contact: dict.contact }} locale={locale} />
       </section>
