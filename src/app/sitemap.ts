@@ -5,7 +5,7 @@ import { MetadataRoute } from 'next'
 type ChangeFreq = 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.dkgasspring.com' // 修复 URL
+  const baseUrl = 'https://www.dkgasspring.com' // 修复 URL
 
   try {
     // 获取所有博客文章和标签
@@ -33,6 +33,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       { path: '/applications', priority: 0.8, changefreq: 'monthly' as ChangeFreq },
       { path: '/blog', priority: 0.8, changefreq: 'daily' as ChangeFreq },
       { path: '/contact', priority: 0.7, changefreq: 'monthly' as ChangeFreq },
+      { path: '/spotlights/solar-damper', priority: 0.9, changefreq: 'monthly' as ChangeFreq },
+      { path: '/terms', priority: 0.5, changefreq: 'yearly' as ChangeFreq },
+      { path: '/privacy', priority: 0.5, changefreq: 'yearly' as ChangeFreq },
     ]
 
     return [
