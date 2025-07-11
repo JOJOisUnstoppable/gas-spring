@@ -2,7 +2,7 @@
 title: '什么是气弹簧？'
 slug: 'what-is-gas-spring'
 date: '2025-03-10 15:00:00'
-author: 'Lisa & Gavin'
+author: 'Sam & Gavin'
 tags: ['指南', '气弹簧', '农业设备']
 excerpt: '弹簧铰链（也称为气动支撑杆）主要用于：1.缓冲机械设备的负载冲击；2.避免碰撞损坏并消除噪音；3.提高循环速度；4.改善用户体验。'
 coverImage: '/images/blog/what-is-gas-spring/cover.jpg'

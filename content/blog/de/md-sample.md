@@ -2,7 +2,7 @@
 title: 'Markdown-Beispielartikel'
 slug: 'md-sample'
 date: '2025-03-09 09:00:00'
-author: 'Lisa & Gavin'
+author: 'Gavin & Sam'
 tags: ['Dämpfer', 'Gasfeder']
 excerpt: 'Entdecken Sie, wie Sie Markdown effektiv nutzen können, mit detaillierten Beispielen zu Überschriften, Absätzen, Hervorhebungen, Listen, Links, Bildern, Codeblöcken, Zitaten, horizontalen Linien, Tabellen, Aufgabenlisten, Fußnoten, Escape-Zeichen und Inline-HTML. Egal, ob Sie Anfänger oder Fortgeschrittener sind, dieser Leitfaden bietet alles, was Sie benötigen, um gut strukturierte und optisch ansprechende Markdown-Dokumente zu erstellen. Lernen Sie, wie Sie Tabellen mit Ausrichtung, Emojis, Links und sogar zusammengeführten Zellen mithilfe von HTML erstellen. Perfekt für Entwickler, Autoren und alle, die ihre Dokumentations- oder Content-Erstellungskenntnisse verbessern möchten. Optimieren Sie noch heute Ihre Markdown-Nutzung!'
 coverImage: '/images/blog/md-sample/cover.jpg'

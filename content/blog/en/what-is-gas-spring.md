@@ -2,7 +2,7 @@
 title: 'What is Gas Spring?'
 slug: 'what-is-gas-spring'
 date: '2025-03-10 15:00:00'
-author: 'Lisa & Gavin'
+author: 'Gavin & Sam'
 tags: ['Guide', 'GasSpring']
 excerpt: 'Gas spring hinge( also called gas struts)  is mainly for following functions: 1. Buffers load impact in machinery and equipment 2. Avoids collision damage and eliminate noise 3. Increases circulation speed 4. Improves user experience.'
 coverImage: '/images/blog/what-is-gas-spring/cover.jpg'

@@ -2,7 +2,7 @@
 title: 'Markdown Sample Article'
 slug: 'md-sample'
 date: '2025-03-09 09:00:00'
-author: 'Lisa & Gavin'
+author: 'Gavin & Sam'
 tags: ['Damper', 'GasSpring']
 excerpt: 'Discover how to use Markdown effectively with detailed examples showcasing headings, paragraphs, emphasis, lists, links, images, code blocks, blockquotes, horizontal rules, tables, task lists, footnotes, escaping characters, and inline HTML. Whether you are a beginner or an advanced user, this guide provides everything you need to create well-structured and visually appealing Markdown documents. Learn how to build tables with alignment, emojis, links, and even merged cells using HTML. Perfect for developers, writers, and anyone looking to enhance their documentation or content creation skills. Start optimizing your Markdown usage today!'
 coverImage: '/images/blog/md-sample/cover.jpg'

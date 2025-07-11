@@ -2,7 +2,7 @@
 title: '¿Qué es un Resorte de Gas?'
 slug: 'what-is-gas-spring'
 date: '2025-03-10 15:00:00'
-author: 'Lisa & Gavin'
+author: 'Sam & Gavin'
 tags: ['Guía', 'Resorte de Gas']
 excerpt: 'La bisagra de resorte de gas (también llamada soporte de gas) tiene principalmente las siguientes funciones: 1. Amortigua el impacto de la carga en maquinaria y equipos 2. Evita daños por colisión y elimina el ruido 3. Aumenta la velocidad de circulación 4. Mejora la experiencia del usuario.'
 coverImage: '/images/blog/what-is-gas-spring/cover.jpg'

@@ -2,7 +2,7 @@
 title: 'Liebe zur Industrie'
 slug: 'love-for-markdown'
 date: '2025-03-11 09:00:00'
-author: 'Lisa & Gavin'
+author: 'Gavin & Sam'
 tags: ['Industrie', 'Industrielle Anwendungen']
 excerpt: 'Strukturiertes und lesbares Markdown wird im industriellen Bereich glänzen!'
 coverImage: '/images/blog/love-for-markdown/cover.jpg'

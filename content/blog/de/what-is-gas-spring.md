@@ -2,7 +2,7 @@
 title: 'Was ist eine Gasfeder?'
 slug: 'what-is-gas-spring'
 date: '2025-03-10 15:00:00'
-author: 'Lisa & Gavin'
+author: 'Gavin & Sam'
 tags: ['Leitfaden', 'Gasfeder']
 excerpt: 'Die Gasfeder (auch Gasdruckfeder genannt) hat hauptsächlich folgende Funktionen: 1. Dämpft Laststöße in Maschinen und Geräten 2. Verhindert Kollisionsschäden und reduziert Lärm 3. Erhöht die Zirkulationsgeschwindigkeit 4. Verbessert die Benutzererfahrung.'
 coverImage: '/images/blog/what-is-gas-spring/cover.jpg'

@@ -2,7 +2,7 @@
 title: 'Markdown 示例文章'
 slug: 'md-sample'
 date: '2025-03-09 09:00:00'
-author: 'Lisa & Gavin'
+author: 'Gavin & Sam'
 tags: ['阻尼器', '气弹簧']
 excerpt: '通过详细的示例，了解如何有效地使用 Markdown，展示标题、段落、强调、列表、链接、图片、代码块、引用、水平线、表格、任务列表、脚注、转义字符和内联 HTML。无论您是初学者还是高级用户，本指南都提供了创建结构良好且视觉吸引人的 Markdown 文档所需的一切内容。学习如何使用对齐、表情符号、链接甚至合并单元格来构建表格。非常适合开发者、写作者以及任何希望提升文档或内容创作技能的人。立即开始优化您的 Markdown 使用吧！'
 coverImage: '/images/blog/md-sample/cover.jpg'

@@ -2,7 +2,7 @@
 title: 'Artículo de Ejemplo en Markdown'
 slug: 'md-sample'
 date: '2025-03-09 09:00:00'
-author: 'Lisa & Gavin'
+author: 'Sam & Gavin'
 tags: ['Amortiguador', 'Resorte de Gas']
 excerpt: 'Descubra cómo usar Markdown de manera efectiva con ejemplos detallados que muestran títulos, párrafos, énfasis, listas, enlaces, imágenes, bloques de código, citas, líneas horizontales, tablas, listas de tareas, notas al pie, caracteres de escape y HTML en línea. Ya sea que sea un principiante o un usuario avanzado, esta guía proporciona todo lo que necesita para crear documentos Markdown bien estructurados y visualmente atractivos. Aprenda a construir tablas con alineación, emojis, enlaces e incluso celdas combinadas usando HTML. Perfecto para desarrolladores, escritores y cualquier persona que busque mejorar sus habilidades de documentación o creación de contenido. ¡Comience a optimizar su uso de Markdown hoy mismo!'
 coverImage: '/images/blog/md-sample/cover.jpg'

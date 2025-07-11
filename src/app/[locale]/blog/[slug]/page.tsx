@@ -73,7 +73,7 @@ export default async function BlogPostPage(
                   <div className="flex items-center gap-4 text-gray-200">
                     <time>{formatDate(post.date, locale)}</time>
                     <span>·</span>
-                    <span>{post.author || 'Lisa & Gavin'}</span>
+                    <span>{post.author || 'DK GasSpring'}</span>
                     <span>·</span>
                     <div className="flex gap-2">
                       {post.tags.map(tag => (
@@ -94,7 +94,7 @@ export default async function BlogPostPage(
               <div className="flex items-center gap-4 mb-8 text-gray-500">
                 <time>{formatDate(post.date, locale)}</time>
                 <span>·</span>
-                <span>{post.author || 'Lisa & Gavin'}</span>
+                <span>{post.author || 'DK GasSpring'}</span>
                 <div className="flex gap-2">
                   {post.tags.map(tag => (
                     <Link 
