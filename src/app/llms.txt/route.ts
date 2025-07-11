@@ -9,7 +9,7 @@ import { getProductData } from '@/lib/products'
 export const dynamic = 'force-dynamic'
 
 export async function GET(): Promise<Response> {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.dkgasspring.com'
+  const baseUrl = 'https://www.dkgasspring.com'
 
   try {
     // 获取所有语言的数据
