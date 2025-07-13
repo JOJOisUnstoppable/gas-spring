@@ -81,9 +81,9 @@ export const metadata: Metadata = {
       "description": "Professional Gas Spring Solutions for Global Manufacturing",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": process.env.NEXT_PUBLIC_CONTACT_PHONE || "+86-xxx-xxxxxxxx",
+        "telephone": process.env.NEXT_PUBLIC_CONTACT_PHONE || "Will Update Soon",
         "contactType": "customer service",
-        "areaServed": ["CN", "US", "EU"],
+        "areaServed": ["CN", "US", "EU", "JP", "KR", "IN", "UK", "CA", "AE", "SA", "EG", "ZA"],
         "availableLanguage": ["en", "zh", "es", "de"]
       },
       "address": {
