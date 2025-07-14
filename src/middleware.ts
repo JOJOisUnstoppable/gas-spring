@@ -30,6 +30,11 @@ export function middleware(request: NextRequest) {
       new URL(`/${locale}${pathname}`, request.url)
     )
   }
+
+  // 设置x-pathname请求头，包含完整的路径信息
+  const response = NextResponse.next()
+  response.headers.set('x-pathname', pathname)
+  return response
 }
 
 export const config = {

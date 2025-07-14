@@ -123,10 +123,7 @@ export async function generateMetadata(
   const title = titleParts.join(' | ');
 
   return {
-    title: {
-      default: baseTitle + (locale !== 'en' ? ` [${locale}]` : ''),
-      template: `%s | ${baseTitle}${locale !== 'en' ? ` [${locale}]` : ''}`
-    },
+    title,
     description: 'Professional Damper and Gas Spring Solutions for Global Manufacturing by DK',
     keywords: [
       // Core Products
