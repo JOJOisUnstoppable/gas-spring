@@ -1,5 +1,6 @@
 import '../globals.css'
-import type { Metadata, ResolvingMetadata } from 'next'
+import type { Metadata } from 'next'
+// import type { Metadata, ResolvingMetadata } from 'next'
 import { headers } from 'next/headers'
 import localFont from 'next/font/local'
 import { Navbar } from '@/components/layout/Navbar'
@@ -94,7 +95,6 @@ export default async function LocaleLayout(
 
 export async function generateMetadata(
   { params: { locale } }: { params: { locale: Locale } },
-  parent: ResolvingMetadata
 ): Promise<Metadata> {
   // 获取当前路径
   const pathname = (await headers()).get('x-pathname') || '';
