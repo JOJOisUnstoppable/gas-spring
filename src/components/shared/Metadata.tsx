@@ -17,7 +17,7 @@ export function generateMetadata({
   locale,
   type = 'website'
 }: PageMetadataProps): Metadata {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://yourdomain.com'
+  const baseUrl = 'https://www.dkgasspring.com'
 
   return {
     title,
@@ -29,7 +29,7 @@ export function generateMetadata({
       description,
       images: [{ url: `${baseUrl}${image}` }],
       locale,
-      siteName: 'Gas Spring Solutions'
+      siteName: 'DK Gas Spring Solutions'
     },
     twitter: {
       card: 'summary_large_image',

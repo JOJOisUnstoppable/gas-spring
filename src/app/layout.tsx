@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 import 'katex/dist/katex.min.css'
 
 export const metadata: Metadata = {
-  title: 'Gas Spring Solutions',
-  description: 'Professional Gas Spring Solutions for Global Manufacturing',
+  title: 'DK Gas Spring Solutions',
+  description: 'Professional Damper and Gas Spring Solutions for Global Manufacturing by DK',
   icons: {
     icon: '/logoWithDK.svg'
   }
