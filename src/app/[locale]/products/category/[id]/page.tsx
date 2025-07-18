@@ -5,6 +5,8 @@ import { ProductCard } from '@/components/products/ProductCard'
 import { ProductHero } from '@/components/products/ProductHero'
 import { getProductData, getProductsByCategory } from '@/lib/products'
 import { notFound } from 'next/navigation'
+import { categoryConfig } from '@/components/products/categoryConfig'
+import { CategoryIntroduction } from '@/components/products/CategoryIntroduction'
 
 export default async function CategoryPage(
   props: {
@@ -29,15 +31,21 @@ export default async function CategoryPage(
 
   return (
     <>
-      <ProductHero 
+      <ProductHero
         title={category.title}
         description={category.description}
         image={category.image}  // 传入分类图片
         dict={dict}
         locale={locale}
       />
+
+      <CategoryIntroduction
+        id={id}
+        locale={locale}
+      />
+
       <div className="container max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {products.map((product) => (
             <ProductCard
               key={product.id}
