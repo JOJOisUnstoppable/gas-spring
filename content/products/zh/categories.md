@@ -37,7 +37,7 @@ items:
     category: gas-spring
     image: /images/product/product-gs-004.jpg
 
-- id: dp-001
+  - id: dp-001
     title: MC-阻尼器 (Motion control)
     description: 用于减缓运动速度和制动惯性，分为标准型和带分离活塞型。可以根据需要调整阻尼特性
     category: damper

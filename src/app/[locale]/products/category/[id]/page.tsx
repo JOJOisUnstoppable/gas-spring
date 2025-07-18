@@ -5,7 +5,7 @@ import { ProductCard } from '@/components/products/ProductCard'
 import { ProductHero } from '@/components/products/ProductHero'
 import { getProductData, getProductsByCategory } from '@/lib/products'
 import { notFound } from 'next/navigation'
-import { categoryConfig } from '@/components/products/categoryConfig'
+// import { categoryConfig } from '@/components/products/categoryConfig'
 import { CategoryIntroduction } from '@/components/products/CategoryIntroduction'
 
 export default async function CategoryPage(
