@@ -162,4 +162,4 @@ export async function generateStaticParams(): Promise<PageParams[]> {
 }
 
 // 取消注释 dynamic 配置
-export const dynamic = 'force-static'
+export const dynamic = 'force-dynamic'
