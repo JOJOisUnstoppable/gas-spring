@@ -37,42 +37,6 @@ items:
     category: gas-spring
     image: /images/product/product-gs-004.jpg
 
-  - id: gs-005
-    title: Blockierbare Gasdruckfedern
-    description: Kann an jeder gewünschten Position während des gesamten Hubs sicher verriegelt werden. Verfügbar in verschiedenen Verriegelungstypen wie starre Verriegelung und elastische Verriegelung sowie Modellen für verschiedene Anwendungen (z. B. K-Typ, P-Typ, KX-Typ, T-Typ).
-    category: gas-spring
-    image: /images/product/product-gs-005.jpg
-
-  - id: gs-006
-    title: Gaszugfedern
-    description: Verwendet für kontrolliertes Ziehen oder Positionieren, anpassbar in Zugkraft und Eigenschaften; auch in verriegelbaren Versionen erhältlich.
-    category: gas-spring
-    image: /images/product/product-gs-006.jpg
-
-  - id: gs-007
-    title: Gasdruckfeder Click & Go
-    description: Fährt nach der Freigabe automatisch vollständig aus, nur mit einem kurzen Knopfdruck.
-    category: gas-spring
-    image: /images/product/product-gs-007.jpg
-
-  - id: gs-008
-    title: Easystop Gasfeder
-    description: Bietet Haltekraft in Schiebrichtung, ermöglicht kontinuierliche Anpassung ohne anhaltende Freigabe.
-    category: gas-spring
-    image: /images/product/product-gs-008.jpg
-
-  - id: gs-009
-    title: CS Gasfeder | Federleicht Gasfeder aus Aluminium
-    description: Über 50 % leichter als Standard-Gasfedern, geeignet für Anwendungen mit strengen Gewichtsanforderungen (z. B. Luft- und Raumfahrt).
-    category: gas-spring
-    image: /images/product/product-gs-009.jpg
-
-  - id: gs-010
-    title: Gasfeder mit Klicksystem
-    description: Kann in der Endposition verriegelt und durch leichtes Drücken ohne zusätzliches Freigabesystem entriegelt werden.
-    category: gas-spring
-    image: /images/product/product-gs-010.jpg
-
   - id: dp-001
     title: MC-Dämpfer (Motion Control)
     description: Verwendet zur Verlangsamung der Bewegungsgeschwindigkeit und Bremsung der Trägheit, verfügbar in Standard- und Trennkolbenausführung. Die Dämpfungseigenschaften können nach Bedarf angepasst werden.

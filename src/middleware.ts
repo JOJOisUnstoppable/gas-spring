@@ -12,7 +12,8 @@ function getLocale(request: NextRequest): string {
   const negotiatorHeaders: Record<string, string> = {}
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
 
-  const languages = new Negotiator({ headers: negotiatorHeaders }).languages()
+  // 在浏览器语言列表前添加英语，提高其优先级
+  const languages = ['en', ...new Negotiator({ headers: negotiatorHeaders }).languages()]
   const locale = matchLocale(languages, locales, defaultLocale)
   
   return locale

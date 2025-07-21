@@ -9,7 +9,7 @@ solution: |
     Our products help significantly improve comfort, safety, and durability.
 relatedTags: ['Application', 'Commercial Vehicles']
 order: 2
-  ---
+---
 
 # Automotive Industry
 # content

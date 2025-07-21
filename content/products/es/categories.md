@@ -37,42 +37,6 @@ items:
     category: gas-spring
     image: /images/product/product-gs-004.jpg
 
-  - id: gs-005
-    title: Resorte de gas bloqueable
-    description: Se puede bloquear de manera segura en cualquier posición deseada durante todo el recorrido. Disponible en varios tipos de bloqueo, como bloqueo rígido y bloqueo elástico, así como modelos para diferentes aplicaciones (por ejemplo, tipo K, tipo P, tipo KX, tipo T).
-    category: gas-spring
-    image: /images/product/product-gs-005.jpg
-
-  - id: gs-006
-    title: Resorte de gas de tracción
-    description: Utilizado para tirar o posicionar de manera controlada, se puede personalizar la fuerza de tracción y las características; también disponible en versiones bloqueables.
-    category: gas-spring
-    image: /images/product/product-gs-006.jpg
-
-  - id: gs-007
-    title: Resorte de gas Click & Go
-    description: Se extiende completamente de manera automática al liberarse con solo un breve presionar un botón.
-    category: gas-spring
-    image: /images/product/product-gs-007.jpg
-
-  - id: gs-008
-    title: Resorte de gas Easystop
-    description: Proporciona fuerza de sujeción en la dirección de empuje, permitiendo ajustes continuos sin necesidad de liberación sostenida.
-    category: gas-spring
-    image: /images/product/product-gs-008.jpg
-
-  - id: gs-009
-    title: Resorte de gas de aluminio
-    description: Más del 50% más ligero que los resortes de gas estándar, adecuado para aplicaciones con requisitos estrictos de peso (por ejemplo, aeroespacial).
-    category: gas-spring
-    image: /images/product/product-gs-009.jpg
-
-  - id: gs-010
-    title: Resorte de gas con sistema de clic integrado
-    description: Se puede bloquear en la posición final retraída y desbloquear con un ligero empujón sin necesidad de un sistema de liberación adicional.
-    category: gas-spring
-    image: /images/product/product-gs-010.jpg
-
   - id: dp-001
     title: Amortiguador MC (Control de movimiento)
     description: Utilizado para reducir la velocidad del movimiento y frenar la inercia, disponible en tipos estándar y con pistón separado. Las características de amortiguación se pueden ajustar según sea necesario.
