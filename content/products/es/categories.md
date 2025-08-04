@@ -23,13 +23,13 @@ items:
     title: Resorte de gas de acero inoxidable
     description: Adecuado para entornos con altos requisitos de resistencia a la corrosión.
     category: gas-spring
-    image: /images/product/product-gs-002.png
+    image: /images/product/product-gs-002.jpg
 
   - id: gs-003
     title: Resorte de gas especial
     description: Se puede personalizar según las necesidades específicas de la aplicación.
     category: gas-spring
-    image: /images/product/product-gs-003.png
+    image: /images/product/product-gs-003.jpg
 
   - id: gs-004
     title: Resorte de gas con válvula
@@ -41,7 +41,7 @@ items:
     title: Amortiguador MC (Control de movimiento)
     description: Utilizado para reducir la velocidad del movimiento y frenar la inercia, disponible en tipos estándar y con pistón separado. Las características de amortiguación se pueden ajustar según sea necesario.
     category: damper
-    image: /images/product/product-dp-001.png
+    image: /images/product/product-dp-001.jpg
 ---
 
 Una gama completa de productos de amortiguadores de gas, que combina la amplitud de la línea de productos y la profundidad de la experiencia en la industria; <br>Además, existe una línea de productos dedicada a los amortiguadores MC.

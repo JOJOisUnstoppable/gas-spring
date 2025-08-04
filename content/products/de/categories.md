@@ -23,13 +23,13 @@ items:
     title: Edelstahl Gasfedern
     description: Geeignet für Umgebungen mit hohen Anforderungen an Korrosionsbeständigkeit.
     category: gas-spring
-    image: /images/product/product-gs-002.png
+    image: /images/product/product-gs-002.jpg
 
   - id: gs-003
     title: Sondergasfedern
     description: Kann nach spezifischen Anwendungsanforderungen angepasst werden.
     category: gas-spring
-    image: /images/product/product-gs-003.png
+    image: /images/product/product-gs-003.jpg
 
   - id: gs-004
     title: Gasfedern mit Ventil
@@ -41,7 +41,7 @@ items:
     title: MC-Dämpfer (Motion Control)
     description: Verwendet zur Verlangsamung der Bewegungsgeschwindigkeit und Bremsung der Trägheit, verfügbar in Standard- und Trennkolbenausführung. Die Dämpfungseigenschaften können nach Bedarf angepasst werden.
     category: damper
-    image: /images/product/product-dp-001.png
+    image: /images/product/product-dp-001.jpg
 
 ---
 
