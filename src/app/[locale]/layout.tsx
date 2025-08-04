@@ -147,23 +147,9 @@ export async function generateMetadata(
     authors: [{ name: 'DK Gas Spring Solutions' }],
     metadataBase: new URL('https://www.dkgasspring.com'),
     icons: {
-      icon: '/favicon.svg',
-      shortcut: '/favicon.svg',
-      apple: '/apple-touch-icon.svg',
-      other: [
-        {
-          rel: 'icon',
-          type: 'image/svg+xml',
-          sizes: '32x32',
-          url: '/favicon-32x32.svg',
-        },
-        {
-          rel: 'icon',
-          type: 'image/svg+xml',
-          sizes: '16x16',
-          url: '/favicon-16x16.svg',
-        },
-      ],
+      icon: '/favicon.ico',
+      shortcut: '/favicon.ico',
+      apple: '/favicon.ico',
     },
     openGraph: {
       type: 'website',
@@ -198,7 +184,7 @@ export async function generateMetadata(
         "@type": "Organization",
         "name": "DK Gas Spring Solutions",
         "url": 'https://www.dkgasspring.com',
-        "logo": `https://www.dkgasspring.com/logoWithDK.svg`,
+        "logo": `https://www.dkgasspring.com/favicon.ico`,
         "image": `https://www.dkgasspring.com/images/og-image.jpg`,
         "description": "Professional Damper and Gas Spring Solutions for Global Manufacturin by DK",
         "contactPoint": {

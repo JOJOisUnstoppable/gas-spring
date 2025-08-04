@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'DK Gas Spring Solutions',
   description: 'Professional Damper and Gas Spring Solutions for Global Manufacturing by DK',
   icons: {
-    icon: '/logoWithDK.svg'
+    icon: '/DK_Logo_withoutBG.png'
   }
 }
 

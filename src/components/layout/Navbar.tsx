@@ -132,7 +132,7 @@ export function Navbar({ locale, dict, categories }: {
       <div className="container flex h-16 items-center max-w-7xl mx-auto">
         <div className="mr-4 hidden md:flex">
           <Link href={`/${locale}`} className="mr-12 flex items-center space-x-2">
-            <Image src="/logoWithDK.svg" alt="Logo" width={32} height={32} />
+            <Image src="/DK_Logo_withoutBG.png" alt="Logo" width={32} height={32} />
             <SparklesText
               sparklesCount={3}
               className='text-sm'>

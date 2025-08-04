@@ -111,7 +111,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                     <div className="space-y-4 text-center sm:text-left">
                         <Link href={`/${locale}`}>
                             <Image
-                                src="/logoWithDK.svg"
+                                src="/DK_Logo_withoutBG.png"
                                 alt="DK Gas Spring Solutions"
                                 width={80}
                                 height={80}
