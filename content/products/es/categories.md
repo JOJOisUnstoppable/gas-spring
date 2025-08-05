@@ -4,12 +4,20 @@ categories:
     title: Resorte de gas
     description: Serie completa de productos de resortes de gas
     image: /images/product/category-gas-spring.jpg
+    whatIsTitle: ¿Qué es una gas spring?
+    whatIsDesc: Una gas spring es una spring usada para comprimir el gas.
+    principalTitle: Principio de funcionamiento y personalización
+    principalDesc: La fuerza del spring (F) se calcula como la diferencia de presión (ΔP) entre los entornos internos y externos actuando sobre el área del eje (A) F = ΔP * A. Las especificaciones se pueden ajustar ajustando la cantidad de nitrógeno injetado, la cantidad de gas y el área del eje para satisfacer requisitos específicos de aplicación.
     order: 1
 
   - id: damper
     title: Amortiguador
     description: Enfocado en productos relacionados con amortiguadores MC
     image: /images/product/category-damper.jpg
+    whatIsTitle: ¿Qué es una damper?
+    whatIsDesc: Una damper es una spring usada para reducir la vibración.
+    principalTitle: Principio de funcionamiento y personalización
+    principalDesc: "La fuerza del spring (F) se calcula como la diferencia de presión (ΔP) entre los entornos internos y externos actuando sobre el área del eje (A) F = ΔP * A. Las especificaciones se pueden ajustar ajustando la cantidad de nitrógeno injetado, la cantidad de gas y el área del eje para satisfacer requisitos específicos de aplicación."
     order: 2
 
 items:
@@ -41,7 +49,7 @@ items:
     title: Amortiguador MC (Control de movimiento)
     description: Utilizado para reducir la velocidad del movimiento y frenar la inercia, disponible en tipos estándar y con pistón separado. Las características de amortiguación se pueden ajustar según sea necesario.
     category: damper
-    image: /images/product/product-dp-001.jpg
+    image: /images/product/product-dp-001.png
 ---
 
 Una gama completa de productos de amortiguadores de gas, que combina la amplitud de la línea de productos y la profundidad de la experiencia en la industria; <br>Además, existe una línea de productos dedicada a los amortiguadores MC.

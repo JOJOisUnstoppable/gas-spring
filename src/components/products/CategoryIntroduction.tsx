@@ -6,11 +6,15 @@
 'use client'
 
 import Image from 'next/image';
-import { categoryConfig } from '@/components/products/categoryConfig';
 
 interface CategoryIntroductionProps {
   locale?: string;
   id?: string;
+  whatIsTitle?: string;
+  whatIsDesc?: string;
+  principalTitle?: string;
+  principalDesc?: string;
+  image?: string;
 }
 
 /**
@@ -19,7 +23,36 @@ interface CategoryIntroductionProps {
  * @param props.locale - 语言代码
  * @param props.id - 产品分类id
  */
-export function CategoryIntroduction({ locale = 'en', id }: CategoryIntroductionProps) {
+export function CategoryIntroduction({ locale = 'en', id, whatIsTitle, whatIsDesc, principalTitle, principalDesc, image }: CategoryIntroductionProps) {
+  if (!id || !locale) {
+    return null;
+  }
+
+  // 如果没有图片或标题，不渲染图片部分
+  if (!image || !whatIsTitle) {
+    return (
+      <section className="max-w-7xl mx-auto w-full py-12 md:py-12 lg:py-16 bg-background">
+        <div className="container px-4 md:px-6">
+          <div className="space-y-4">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+              {whatIsTitle || '产品介绍'}
+            </h2>
+            <p className="text-muted-foreground text-lg">
+             {whatIsDesc}
+            </p>
+            <div className="mt-8 space-y-4">
+              <h3 className="text-2xl font-bold">
+                {principalTitle}
+              </h3>
+              <p className="text-muted-foreground">
+                {principalDesc}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="max-w-7xl mx-auto w-full py-12 md:py-12 lg:py-16 bg-background">
@@ -27,23 +60,24 @@ export function CategoryIntroduction({ locale = 'en', id }: CategoryIntroduction
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              {id && locale && categoryConfig[id as 'gas-spring' | 'damper'][locale as 'zh' | 'en' | 'es' | 'de'].whatIsTitle}
+              {whatIsTitle}
             </h2>
             <p className="text-muted-foreground text-lg">
-             {id && locale && categoryConfig[id as 'gas-spring' | 'damper'][locale as 'zh' | 'en' | 'es' | 'de'].whatIsDesc}
+             {whatIsDesc}
             </p>
             <div className="mt-8 space-y-4">
               <h3 className="text-2xl font-bold">
-                {id && locale && categoryConfig[id as 'gas-spring' | 'damper'][locale as 'zh' | 'en' | 'es' | 'de'].principalTitle}</h3>
+                {principalTitle}
+              </h3>
               <p className="text-muted-foreground">
-                {id && locale && categoryConfig[id as 'gas-spring' | 'damper'][locale as 'zh' | 'en' | 'es' | 'de'].principalDesc}
+                {principalDesc}
               </p>
             </div>
           </div>
           <div className="relative aspect-video overflow-hidden rounded-xl">
             <Image
-              src="/images/spotlights/solar-damper/solar_damper_product.jpg"
-              alt="Solar Damper Product"
+              src={image}
+              alt={whatIsTitle}
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

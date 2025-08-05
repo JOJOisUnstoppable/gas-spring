@@ -8,6 +8,10 @@ interface ProductCategory {
   title: string
   description: string
   image: string
+  whatIsTitle: string
+  whatIsDesc: string
+  principalTitle: string
+  principalDesc: string
   order: number
 }
 

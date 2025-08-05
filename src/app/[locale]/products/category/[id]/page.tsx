@@ -40,6 +40,11 @@ export default async function CategoryPage(
       />
 
       <CategoryIntroduction
+        whatIsTitle={category.whatIsTitle}
+        whatIsDesc={category.whatIsDesc}
+        principalTitle={category.principalTitle}
+        principalDesc={category.principalDesc}
+        image={category.image}
         id={id}
         locale={locale}
       />
