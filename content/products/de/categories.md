@@ -4,12 +4,20 @@ categories:
     title: Gasdruckfedern
     description: Vollständige Produktreihe von Gasfedern
     image: /images/product/category-gas-spring.jpg
+    whatIsTitle: Was ist eine gas spring?
+    whatIsDesc: Eine gas spring ist eine spring verwendet, um Gas zu komprimieren.
+    principalTitle: Funktionsprinzip und Anpassung
+    principalDesc: Die Kraft des Springs (F) wird als Differenz der Drucke (ΔP) zwischen den internen und externen Umgebungen, die auf die Fläche des Ejes (A) wirken, berechnet F = ΔP * A. Die Spezifikationen können angepasst werden, indem die Menge von Nitrogen injiziert, die Menge von Gas und die Fläche des Ejes angepasst wird, um spezifische Anwendungszuforderungen zu erfüllen.
     order: 1
 
   - id: damper
     title: Dämpfer
     description: Spezialisiert auf MC-Dämpfer und verwandte Produkte
     image: /images/product/category-damper.jpg
+    whatIsTitle: Was ist eine damper?
+    whatIsDesc: Eine damper ist eine spring verwendet, um die Vibration zu reduzieren.
+    principalTitle: Funktionsprinzip und Anpassung
+    principalDesc: Die Kraft des Springs (F) wird als Differenz der Drucke (ΔP) zwischen den internen und externen Umgebungen, die auf die Fläche des Ejes (A) wirken, berechnet F = ΔP * A. Die Spezifikationen können angepasst werden, indem die Menge von Nitrogen injiziert, die Menge von Gas und die Fläche des Ejes angepasst wird, um spezifische Anwendungszuforderungen zu erfüllen.
     order: 2
 
 items:
@@ -41,7 +49,7 @@ items:
     title: MC-Dämpfer (Motion Control)
     description: Verwendet zur Verlangsamung der Bewegungsgeschwindigkeit und Bremsung der Trägheit, verfügbar in Standard- und Trennkolbenausführung. Die Dämpfungseigenschaften können nach Bedarf angepasst werden.
     category: damper
-    image: /images/product/product-dp-001.jpg
+    image: /images/product/product-dp-001.png
 
 ---
 
