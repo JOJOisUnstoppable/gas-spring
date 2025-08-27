@@ -77,7 +77,8 @@ export async function generateStaticParams(): Promise<PageParams[]> {
         { locale: 'zh' },
         { locale: 'en' },
         { locale: 'es' },
-        { locale: 'de' }
+        { locale: 'de' },
+        { locale: 'pl' }
     ]
 }
 

@@ -97,7 +97,7 @@ export const getAllApplicationIds = cache(async (locale: Locale): Promise<string
 
 // 获取所有语言的所有应用 ID
 export const getAllApplicationParams = cache(async (): Promise<{ locale: Locale; id: string }[]> => {
-    const locales: Locale[] = ['zh', 'en', 'es', 'de'];
+    const locales: Locale[] = ['zh', 'en', 'es', 'de', 'pl'];
     const allParams: { locale: Locale; id: string }[] = [];
     
     for (const locale of locales) {

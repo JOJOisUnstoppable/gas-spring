@@ -55,7 +55,7 @@ export default async function LocaleLayout(
   } = props;
 
   // 检查语言是否有效
-  if (!['en', 'zh', 'es', 'de'].includes(locale)) {
+  if (!['en', 'zh', 'es', 'de', 'pl'].includes(locale)) {
     notFound()
   }
 
@@ -94,8 +94,10 @@ export default async function LocaleLayout(
 }
 
 export async function generateMetadata(
-  { params: { locale } }: { params: { locale: Locale } },
+  { params }: { params: Promise<{ locale: Locale }> },
 ): Promise<Metadata> {
+  const { locale } = await params;
+  
   // 获取当前路径
   const pathname = (await headers()).get('x-pathname') || '';
   const segments = pathname.split('/').filter(Boolean);
@@ -192,7 +194,7 @@ export async function generateMetadata(
           "telephone": process.env.NEXT_PUBLIC_CONTACT_PHONE || "Will Update Soon",
           "contactType": "customer service",
           "areaServed": ["CN", "US", "EU", "JP", "KR", "IN", "UK", "CA", "AE", "SA", "EG", "ZA"],
-          "availableLanguage": ["en", "zh", "es", "de"]
+          "availableLanguage": ["en", "zh", "es", "de", "pl"]
         },
         "address": {
           "@type": "PostalAddress",

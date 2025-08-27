@@ -13,10 +13,10 @@ export async function GET(): Promise<Response> {
 
   try {
     // 获取所有语言的数据
-    const languages = ['zh', 'en', 'es', 'de']
-    const posts = await Promise.all(languages.map(lang => getBlogPosts(lang as "zh" | "en" | "es" | "de")))
-    const tags = await Promise.all(languages.map(lang => getBlogTags(lang as "zh" | "en" | "es" | "de")))
-    const products = await Promise.all(languages.map(lang => getProductData(lang as "zh" | "en" | "es" | "de")))
+    const languages = ['zh', 'en', 'es', 'de', 'pl']
+    const posts = await Promise.all(languages.map(lang => getBlogPosts(lang as "zh" | "en" | "es" | "de" | "pl")))
+    const tags = await Promise.all(languages.map(lang => getBlogTags(lang as "zh" | "en" | "es" | "de" | "pl")))
+    const products = await Promise.all(languages.map(lang => getProductData(lang as "zh" | "en" | "es" | "de" | "pl")))
 
     // 构建llms.txt内容
     const content = [
@@ -30,6 +30,7 @@ export async function GET(): Promise<Response> {
       'en - English',
       'es - Spanish',
       'de - German',
+      'pl - Polish',
       '',
       '## Main Pages',
       `${baseUrl}/ - Homepage`,
