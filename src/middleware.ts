@@ -5,7 +5,7 @@ import { match as matchLocale } from '@formatjs/intl-localematcher'
 // 需要先安装依赖: npm install negotiator @types/negotiator
 import Negotiator from 'negotiator'
 
-const locales = ['en', 'zh', 'es', 'de']
+const locales = ['en', 'zh', 'es', 'de', 'pl']
 const defaultLocale = 'en'
 
 function getLocale(request: NextRequest): string {

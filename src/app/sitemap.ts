@@ -13,18 +13,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const enPosts = await getBlogPosts('en')
     const esPosts = await getBlogPosts('es')
     const dePosts = await getBlogPosts('de')
+    const plPosts = await getBlogPosts('pl')
 
     // 获取所有语言的标签
     const zhTags = await getBlogTags('zh')
     const enTags = await getBlogTags('en')
     const esTags = await getBlogTags('es')
     const deTags = await getBlogTags('de')
+    const plTags = await getBlogTags('pl')
 
     // 获取产品数据
     const { categories: zhCategories } = await getProductData('zh')
     const { categories: enCategories } = await getProductData('en')
     const { categories: esCategories } = await getProductData('es')
     const { categories: deCategories } = await getProductData('de')
+    const { categories: plCategories } = await getProductData('pl')
 
     // 静态页面
     const routes = [
@@ -65,12 +68,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           changeFrequency: route.changefreq,
           priority: route.priority,
         },
+        {
+          url: `${baseUrl}/pl${route.path}`,
+          lastModified: new Date(),
+          changeFrequency: route.changefreq,
+          priority: route.priority,
+        },
       ]),
 
       // 产品分类页面
-      ...[zhCategories, enCategories, esCategories, deCategories].flatMap((categories, index) => 
+      ...[zhCategories, enCategories, esCategories, deCategories, plCategories].flatMap((categories, index) =>
         categories.map(category => ({
-          url: `${baseUrl}/${['zh', 'en', 'es', 'de'][index]}/products/category/${category.id}`,
+          url: `${baseUrl}/${['zh', 'en', 'es', 'de', 'pl'][index]}/products/category/${category.id}`,
           lastModified: new Date(),
           changeFrequency: 'weekly' as ChangeFreq,
           priority: 0.8,
@@ -78,9 +87,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       ),
 
       // 博客文章页面
-      ...[zhPosts, enPosts, esPosts, dePosts].flatMap((posts, index) => 
+      ...[zhPosts, enPosts, esPosts, dePosts, plPosts].flatMap((posts, index) =>
         posts.map(post => ({
-          url: `${baseUrl}/${['zh', 'en', 'es', 'de'][index]}/blog/${post.slug}`,
+          url: `${baseUrl}/${['zh', 'en', 'es', 'de', 'pl'][index]}/blog/${post.slug}`,
           lastModified: new Date(post.date),
           changeFrequency: 'monthly' as ChangeFreq,
           priority: 0.6,
@@ -88,9 +97,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       ),
 
       // 博客标签页面
-      ...[zhTags, enTags, esTags, deTags].flatMap((tags, index) => 
+      ...[zhTags, enTags, esTags, deTags, plTags].flatMap((tags, index) =>
         tags.map(tag => ({
-          url: `${baseUrl}/${['zh', 'en', 'es', 'de'][index]}/blog/tag/${encodeURIComponent(tag)}`,
+          url: `${baseUrl}/${['zh', 'en', 'es', 'de', 'pl'][index]}/blog/tag/${encodeURIComponent(tag)}`,
           lastModified: new Date(),
           changeFrequency: 'weekly' as ChangeFreq,
           priority: 0.5,

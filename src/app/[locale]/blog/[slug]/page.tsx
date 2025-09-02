@@ -166,7 +166,7 @@ export default async function BlogPostPage(
                 ),
                 // 添加表格单元格样式
                 td: ({ children }) => (
-                  <td className="px-4 py-2 text-center whitespace-nowrap border-r border-b border-gray-200 last:border-r-0">
+                  <td className="px-4 py-2 text-center break-words border-r border-b border-gray-200 last:border-r-0">
                     {children}
                   </td>
                 ),
