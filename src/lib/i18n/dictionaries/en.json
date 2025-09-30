@@ -172,5 +172,906 @@
   "terms": {
     "title": "Terms of Use",
     "description": "A complete agreement covering Terms of Service, liability attribution, data privacy, product policies (ordering/delivery/returns/warranty), disclaimer, and governing law."
+  },
+  "products": {
+    "marine": {
+      "hero": {
+        "title": "Premium Marine Gas Springs for USA Waters",
+        "subtitle": "316L Stainless Steel Marine Gas Struts Built for American Boats & Yachts",
+        "features": [
+          {
+            "icon": "🛡️",
+            "text": "ABYC Certified"
+          },
+          {
+            "icon": "⚡",
+            "text": "48-Hour Delivery"
+          },
+          {
+            "icon": "🔧",
+            "text": "Custom Engineering"
+          },
+          {
+            "icon": "🏆",
+            "text": "30-Year Warranty"
+          }
+        ],
+        "ctaButtons": [
+          {
+            "text": "Get Free Quote",
+            "href": "#quote",
+            "isPrimary": true
+          },
+          {
+            "text": "View Products",
+            "href": "#products",
+            "isPrimary": false
+          }
+        ],
+        "heroImageAlt": "Marine Gas Springs on Luxury Yacht"
+      },
+      "trustIndicators": {
+        "items": [
+          {
+            "imageAlt": "ABYC Certification",
+            "text": "ABYC Certified"
+          },
+          {
+            "imageAlt": "ISO 9001",
+            "text": "ISO 9001:2015"
+          },
+          {
+            "imageAlt": "CE Marking",
+            "text": "CE Compliant"
+          },
+          {
+            "imageAlt": "Made for USA",
+            "text": "Made for USA Market"
+          }
+        ]
+      },
+      "whyChooseUs": {
+        "title": "Why Choose DK Marine Gas Springs?",
+        "advantages": [
+          {
+            "iconAlt": "316L Stainless Steel",
+            "title": "316L Marine Grade Steel",
+            "description": "Superior corrosion resistance in both fresh and salt water environments. Outperforms standard stainless steel in harsh marine conditions."
+          },
+          {
+            "iconAlt": "Fast Delivery",
+            "title": "Lightning Fast Delivery",
+            "description": "48-hour shipping to anywhere in the USA. Emergency same-day service available for critical marine applications."
+          },
+          {
+            "iconAlt": "Custom Engineering",
+            "title": "Custom Engineering",
+            "description": "Free design consultation and custom gas spring solutions. Our engineers work with your specifications to create the perfect fit."
+          },
+          {
+            "iconAlt": "USA Support",
+            "title": "USA-Based Support",
+            "description": "24/7 technical support from our American team. Local inventory and service centers across the United States."
+          }
+        ]
+      },
+      "productShowcase": {
+        "title": "Marine Gas Spring Solutions",
+        "products": [
+          {
+            "imageAlt": "Yacht Hatch Gas Springs",
+            "title": "Yacht Hatch Gas Springs",
+            "description": "Premium gas struts for yacht hatches and compartments. Smooth operation and reliable hold-open force.",
+            "features": [
+              "Force range: 50-2000N",
+              "316L stainless steel construction",
+              "Custom mounting brackets available"
+            ],
+            "ctaText": "Get Quote"
+          },
+          {
+            "imageAlt": "Boat Engine Cover Gas Springs",
+            "title": "Engine Cover Gas Struts",
+            "description": "Heavy-duty gas springs for boat engine covers and access panels. Built to handle frequent use.",
+            "features": [
+              "High-force applications up to 3000N",
+              "Temperature resistant seals",
+              "Vibration dampening design"
+            ],
+            "ctaText": "Get Quote"
+          },
+          {
+            "imageAlt": "Marine Furniture Gas Springs",
+            "title": "Marine Furniture Gas Springs",
+            "description": "Compact gas struts for marine furniture, seating, and storage solutions. Space-efficient design.",
+            "features": [
+              "Compact design for tight spaces",
+              "Soft-close and hold-open functions",
+              "Multiple end fitting options"
+            ],
+            "ctaText": "Get Quote"
+          }
+        ]
+      },
+      "applications": {
+        "title": "Marine Applications",
+        "items": [
+          {
+            "imageAlt": "Luxury Yacht",
+            "title": "Luxury Yachts",
+            "description": "Premium gas springs for high-end yacht applications including hatches, furniture, and equipment covers."
+          },
+          {
+            "imageAlt": "Commercial Fishing Boat",
+            "title": "Commercial Fishing",
+            "description": "Heavy-duty gas struts designed for the demanding environment of commercial fishing vessels."
+          },
+          {
+            "imageAlt": "Sailboat",
+            "title": "Sailboats",
+            "description": "Lightweight yet durable gas springs perfect for sailboat hatches and equipment storage."
+          },
+          {
+            "imageAlt": "Powerboat",
+            "title": "Powerboats",
+            "description": "High-performance gas struts for powerboat engine covers and access panels."
+          }
+        ]
+      },
+      "technicalSupport": {
+        "title": "Expert Technical Support",
+        "description": "Our marine gas spring experts are here to help you select the perfect solution for your application.",
+        "features": [
+          {
+            "icon": "📐",
+            "title": "Free Design Consultation",
+            "description": "Our engineers will help you determine the optimal gas spring specifications for your marine application."
+          },
+          {
+            "icon": "🔧",
+            "title": "Installation Guidance",
+            "description": "Step-by-step installation instructions and mounting recommendations for marine environments."
+          },
+          {
+            "icon": "📞",
+            "title": "24/7 Support Hotline",
+            "description": "Round-the-clock technical support for urgent marine gas spring needs and troubleshooting."
+          }
+        ],
+        "imageAlt": "Technical Support Team"
+      },
+      "successStories": {
+        "title": "Customer Success Stories",
+        "stories": [
+          {
+            "customerImageAlt": "Luxury Yacht Builder",
+            "customerName": "Premium Yacht Builder",
+            "location": "Fort Lauderdale, FL",
+            "testimonial": "DK Gas Springs provided custom solutions for our 150-foot luxury yacht project. The 316L stainless steel construction has performed flawlessly in saltwater conditions for over 3 years.",
+            "results": [
+              "Zero corrosion issues",
+              "50% cost savings vs. competitors"
+            ]
+          },
+          {
+            "customerImageAlt": "Commercial Fishing Fleet",
+            "customerName": "Commercial Fishing Fleet",
+            "location": "Seattle, WA",
+            "testimonial": "We've equipped our entire fleet of 25 fishing vessels with DK marine gas springs. The reliability and durability in harsh Pacific conditions is outstanding.",
+            "results": [
+              "25 vessels equipped",
+              "99.8% uptime achieved"
+            ]
+          }
+        ]
+      },
+      "quoteForm": {
+        "title": "Get Your Free Quote Today",
+        "description": "Ready to upgrade your marine gas springs? Our experts will provide a custom quote within 24 hours.",
+        "benefits": [
+          {
+            "icon": "✅",
+            "text": "Free technical consultation"
+          },
+          {
+            "icon": "✅",
+            "text": "Custom engineering available"
+          },
+          {
+            "icon": "✅",
+            "text": "Competitive pricing guaranteed"
+          },
+          {
+            "icon": "✅",
+            "text": "Fast USA delivery"
+          }
+        ],
+        "applicationOptions": [
+          {
+            "value": "yacht-hatch",
+            "label": "Yacht Hatch"
+          },
+          {
+            "value": "engine-cover",
+            "label": "Engine Cover"
+          },
+          {
+            "value": "furniture",
+            "label": "Marine Furniture"
+          },
+          {
+            "value": "custom",
+            "label": "Custom Application"
+          }
+        ],
+        "submitButtonText": "Get Free Quote"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What makes marine gas springs different from standard gas springs?",
+            "answer": "Marine gas springs use 316L stainless steel construction and specialized seals to resist corrosion from salt water and harsh marine environments. They're also designed to meet ABYC standards for marine applications."
+          },
+          {
+            "question": "How do I calculate the force needed for my marine application?",
+            "answer": "Force calculation depends on the weight of the hatch/cover, mounting geometry, and desired opening effort. Our engineers provide free consultation to determine the optimal force for your specific application."
+          },
+          {
+            "question": "What's the typical lifespan of marine gas springs?",
+            "answer": "Our marine gas springs are designed for 100,000+ cycles and typically last 10-15 years in normal marine use. We offer a 30-year warranty on materials and workmanship."
+          },
+          {
+            "question": "Can you provide custom mounting brackets?",
+            "answer": "Yes, we offer custom mounting brackets and hardware designed specifically for marine applications. All brackets are made from marine-grade materials with proper corrosion protection."
+          },
+          {
+            "question": "Do you ship to all US states?",
+            "answer": "Yes, we ship to all 50 states with standard 48-hour delivery. Express and same-day delivery options are available for urgent marine applications."
+          },
+          {
+            "question": "What certifications do your marine gas springs have?",
+            "answer": "Our marine gas springs meet ABYC standards and are ISO 9001:2015 certified. We also provide CE marking for international compliance when needed."
+          }
+        ]
+      }
+    },
+    "gas-spring": {
+      "productSeries": {
+        "title": "Product Series"
+      },
+      "Navigation": [
+        "Product Overview",
+        "What is Gas Spring?",
+        "Product Series",
+        "How It Works",
+        "Installation Guide",
+        "Contact Us"
+      ],
+      "whatIsGS": {
+        "title": "What is a gas spring?",
+        "description": [
+          "**Gas springs** are hydro-pneumatic energy storage components. They consist of a precision piston rod moving within a sealed cylinder filled with pressurized nitrogen and oil.  ",
+          "No matter the position of the gas spring, the pressure around the piston is consistently uniform, due to the rod’s small cross-sectional area.This why gas spring perform steady than coil spring.",
+          "The spring force **(F)** is calculated as the pressure differential **(ΔP)** between the internal and external environments acting on the piston rod cross-sectional area **(A): ( F = ΔP / times A)**.  ",
+          "Specifications can be tailored by adjusting nitrogen injected, oil quantity, and piston rod area to meet specific application requirements.",
+          "In high-pressure environments, the pressure difference **ΔP** must be carefully managed.",
+          "Following introduce different types of gas spring."
+        ]
+      },
+      "howGSWork": {
+        "title": "How Gas Springs Work?",
+        "desc": [
+          "Gas spring—also commonly called gas strut or gas shock absorber—works by using compressed nitrogen gas as a **springy** energy storage material inside a sealed metal cylinder. To make this design work smoothly, the cylinder also holds a mixture of specialized hydraulic oils (like transformer oil or turbine oil). These oils serve three key jobs:",
+          "gas sealed inside ",
+          "lubricating moving parts to reduce wear ",
+          "making sure mechanical force is transferred evenly.",
+          "When you push the piston rod into the cylinder (this is the **compression** process), the space available for the nitrogen gas gets smaller. Just like squeezing a balloon makes the pressure inside go up, this smaller volume causes the gas pressure inside the cylinder to rise—this follows [Boyle’s Law](https://www.britannica.com/science/Boyles-law).",
+          "The force the gas spring puts out gets stronger as you push the rod in, and it’s strongest when the rod is fully pressed into the cylinder. This more steady, reliable force than coil spring, is why gas springs are used in everyday things like car tailgates (to hold them open gently), industrial machines (to control movement), and ergonomic furniture (like adjustable office chairs)."
+        ],
+        "KeyBehavior": {
+          "title": "Key Behavior: Pressure vs. Volume",
+          "desc": [
+            "If you look at the diagram above, you’ll see how the gas spring acts as the piston moves.",
+            "With gas springs, force increases exponentially as they are compressed, requiring less initial force to compress them. As the gas spring nears the end of its stroke, the compression force needed rises. ",
+            "** Piston Extended State **",
+            "When the piston is fully extended, the cylinder has the most space for gas.",
+            "** Piston Compressed State **",
+            "As the piston moves to fully compressed, the gas space shrinks—so the pressure goes up (you can see this on the solid line in the diagram). The dashed line shows how the cylinder volume decreases at the same time."
+          ],
+          "imageCaption": [
+            "** Force Characteristic **",
+            "**F1** = extension force with extended piston rod. ",
+            "**F2** = extension force with compressed piston rod.",
+            "**F3** = pull-in force with extended piston rod.",
+            "**F4** = pull-in force with compressed piston rod.",
+            "**FR** = friction force."
+          ]
+        },
+        "CriticalPerformanceMeasure": {
+          "title": "A Critical Performance Measure: The K-Factor",
+          "frontdesc": [
+            "The extension force is calculated by multiplying the filling pressure by the piston rod’s cross-sectional area. Size as well as force can be made according to your requirements. ",
+            "DK standard gas springs offer extension forces from **10 N to 5000N,**  with tolerance is ± 5-7%. ",
+            "The specified force (F₁) is always measured at **20°C ± 2°C**, with the piston rod facing downward.",
+            "Physically, the actual force of a gas spring depends on the temperature. For each 10°C, the force changes by approx 3,3%."
+          ],
+          "desc": [
+            "To define how well a gas spring works, engineers use something called the K-factor (or **gas spring progression rate**). Put simply, this is the percentage change in force between two states:",
+            "Unloaded: When the piston is at P1 (fully extended, the spring’s **starting position**).",
+            "Fully loaded: When the piston is at P2 (fully compressed).",
+            "Good quality gas springs have a very low K-factor—usually between 1.05 and 1.8. For comparison, mechanical compression springs (like the coil ones we mentioned earlier) have much higher K-factors. A low K-factor means the spring’s force stays steady as it compresses—this is important for applications where you need consistent lifting or damping (like holding a heavy car tailgate at any angle).",
+            "One quick note for calculations: Gas springs are pre-charged to a specific force at P1 (we call this force F1)—so you should always use F1 as your starting point when figuring out the right gas spring for a job. "
+          ]
+        }
+      },
+      "Replacement": {
+        "title": "How to Choose a Gas Spring: Replacement by Code and Size?",
+        "subTitle": "Replacement, according to code and size(key: EL2 / stroke / pressure)",
+        "desc": [
+          "**Stroke of a Gas Spring:** This indicates the maximum range of motion of the rod, ranging from its fully retracted point to its fully extended point.",
+          "**EL1: Extended or Expanded Length:** This term denotes the total length of the gas spring, measured from the midpoint of one end fitting to the midpoint of the opposite end fitting.",
+          "**EL2:** If no end fittings are specified, it pertains to the length from the rod end to the tube end."
+        ]
+      },
+      "howChooseGS": {
+        "title": "How to Choose a Gas Spring: A Simple Guide for Engineers",
+        "description": "You, as an engineer, have a certain problem which has to do with controlled movement and needs to be solved without extra engergy? Follow questions to get your selection done.We can assist you in selecting the proper gas spring for your application—and also can help with the design!",
+        "imageNote": "Note: We will receive your input and get back to you within **12hours**.",
+        "howItWork": {
+          "title": "Here’s how it works:",
+          "list": [
+            "1. **Simple Sketch** – Provide a basic drawing (like the example on the top) showing:",
+            "The weight of the moving part",
+            "Its center of gravity",
+            "All dimensions (measured from the pivot/hinge point)",
+            "The required movement range (in degrees)",
+            "The desired operating force (holding/pushing force)",
+            "2. **We Handle the Rest!** – Send us your sketch, and we’ll recommend the best gas spring for your needs.",
+            "It’s that easy! **Just share your requirements**, and we’ll take care of the rest."
+          ]
+        },
+        "table": [
+          "Determination of minimum extension force F1",
+          "In the F1=KGL / bn formula: ",
+          "F1=Minimum extension force(Unit:N) ",
+          "G=Door Weight(Unit:kg) ",
+          "L=Distance between the center of gravity to the Center of gyration(Unit:mm) ",
+          "b=Effective force arm when the gas spring extends(Unit:mm) ",
+          "n=Number of gas spring ",
+          "P=Mounting position on the gas spring door, namely about 1/3L away from the center of gyration. ",
+          "K=Safety factor(11 generally) ",
+          "G=30kg, L=400 mm, n=2, b=200mm and F1=30x400x11/(200x2)=330N ",
+          "S=Stkore",
+          "EL1=Extended or Expanded Length"
+        ]
+      },
+      "CalculationF1": {
+        "EFC": {
+          "title": "Extension Force Calculation",
+          "desc": [
+            "The extension force is calculated by multiplying the filling pressure by the piston rod’s cross-sectional area. By adjusting these factors, DK can produce gas springs with a wide range of extension forces to meet your needs."
+          ]
+        },
+        "GSDFCC": {
+          "desc": [
+            "These values can be influenced, e.g.by the gas volume or the oil quantity. A special characteristic of DK gas springs is the low friction figure.Through the combinations of different nozzle orifices and oil quantity, its possible to control the push-out and pushin speed as required."
+          ]
+        }
+      },
+      "GSInstallationGuide": {
+        "title": "Gas spring : Selection of Installation Location",
+        "desc": [
+          "1. The piston rod **must be installed in a downward orientation** (never inverted). This minimizes friction and ensures optimal damping and cushioning performance.",
+          "2. Correct fulcrum positioning is critical: When the associated component (e.g., a door) is closed, the gas spring’s movement must pass beyond the structural centerline. This prevents unintended automatic resetting (e.g., the spring pushing the component open).",
+          "3. Adjust joint orientation by rotating the cylinder or piston rod clockwise.",
+          "4. Ensure proper dimensions and force rating. For example, in hood applications, the piston rod should retain ~10 mm of stroke when closed.",
+          "5. Operate within the ambient temperature range: -30℃ to +80℃.",
+          "6. Gas springs are high-pressure components—**never disassemble, heat, bake, or strike them**.",
+          "7. Avoid tilting/lateral forces during operation; do not use as handrails.",
+          "swinging. Misalignment may cause jamming or noise.",
+          "8. To protect seals and extend lifespan:",
+          "Avoid damaging the piston rod surface.",
+          "Do not apply paint/chemicals to the piston rod.",
+          "Do not pre-install the spring before welding, grinding, or painting."
+        ],
+        "imageCaption": "Note: Gas spring installation location orientation."
+      },
+      "CTA": {
+        "title": "Talk to us will be a big step in the solution.",
+        "desc": [
+          "We support well-known companies in developing new products ",
+          "please contact us!"
+        ]
+      }
+    },
+    "aftermarket": {
+      "hero": {
+        "heroBadge": "Goodbye to Inventory Problems!",
+        "heroTitleRed": "Tired of Losing Money",
+        "heroTitleMain": "with Dead Inventory?",
+        "heroTitleGreen": "Mixed Orders = Maximum Profit",
+        "heroSubtitleStrong": "The solution smart distributors have already discovered:",
+        "heroSubtitleMain": "Buy 50+ different models in a SINGLE order. Chinese factory price + zero inventory risk.",
+        "heroPainPoint": "❌ No more: \"I have 100 parts of the wrong model\"",
+        "statInventario": "Dead Inventory",
+        "statCompetencia": "vs. Competitors",
+        "statModelos": "Order = 50+ Models",
+        "statRoi": "Guaranteed ROI",
+        "ctaCalcular": "💰 Calculate My Actual Savings",
+        "ctaCotizacion": "🎯 Risk-Free Quote",
+        "trustFabrica": "Direct Chinese Factory",
+        "trustPrecio": "Guaranteed Lowest Price",
+        "trustEspecificaciones": "10,000+ Specifications",
+        "showcaseCatalogo": "Aftermarket Catalog",
+        "showcaseStock": "✅ In Stock",
+        "productCapo": "Hood/Bonnet",
+        "productCompatibleCapo": "Compatible: Toyota, VW, Ford",
+        "productPorton": "Rear Tailgate",
+        "productCompatiblePorton": "Compatible: Chevrolet, Fiat, Renault",
+        "productVentanilla": "Car Window",
+        "productCompatibleVentanilla": "Compatible: Nissan, Hyundai, Kia",
+        "productAmortiguador": "Shock Absorber",
+        "productCompatibleAmortiguador": "Compatible: BMW, Mercedes, Audi",
+        "btnVerCatalogo": "View Complete Catalog (5000+ Models)"
+      },
+      "specMatcher": {
+        "sectionTitle": "Smart Specification Calculator",
+        "sectionDescription": "Find exactly what you need among more than 10,000 available specifications",
+        "formTitle": "🔍 Search by Technical Specifications",
+        "extendedLengthLabel": "Extended Length (mm)",
+        "extendedLengthPlaceholder": "e.g: 450",
+        "compressedLengthLabel": "Compressed Length (mm)",
+        "compressedLengthPlaceholder": "e.g: 180",
+        "forceLabel": "Force (N)",
+        "forcePlaceholder": "e.g: 300",
+        "cylinderDiameterLabel": "Cylinder Diameter (mm)",
+        "connectionTypeLabel": "Connection Type",
+        "applicationLabel": "Application",
+        "selectOption": "Select",
+        "searchButton": "🔍 Search Specifications",
+        "searchingText": "🔍 Searching...",
+        "connectionTypes": {
+          "ballSocket": "Ball Socket",
+          "eyeEnd": "Eye End",
+          "threaded": "Threaded",
+          "fork": "Fork"
+        },
+        "applications": {
+          "hood": "Hood",
+          "tailgate": "Tailgate",
+          "window": "Window",
+          "seat": "Seat",
+          "cabinet": "Cabinet"
+        },
+        "resultsHeader": "Search Results",
+        "resultsCount": "specifications found",
+        "noResultsText": "Enter specifications to find compatible products",
+        "extendedLengthText": "Extended Length",
+        "compressedLengthText": "Compressed Length",
+        "forceText": "Force",
+        "diameterText": "Diameter",
+        "connectionText": "Connection",
+        "applicationText": "Application",
+        "priceText": "Price",
+        "stockText": "Stock",
+        "availableText": "Available",
+        "unavailableText": "Unavailable",
+        "viewDetailsBtn": "View Details",
+        "addToQuoteBtn": "Add to Quote",
+        "bulkTitle": "📦 Mixed Orders - Our Specialty",
+        "bulkDescription": "Combine multiple specifications in a single order to maximize your inventory",
+        "bulkFlexibleTitle": "🎯 Flexible Minimum",
+        "bulkFlexibleDesc": "Only 10 pieces per specification<br>Minimum order: 500 total pieces",
+        "bulkDiscountTitle": "💰 Volume Discounts",
+        "bulkDiscountDesc": "Up to 15% additional<br>on large mixed orders",
+        "bulkCustomTitle": "📋 Custom List",
+        "bulkCustomDesc": "We create your specific catalog<br>based on your local market",
+        "searchPlaceholder": "Search by brand, model or part type...",
+        "filterLabelBrand": "Brand",
+        "filterBrandOptions": [
+          "Toyota",
+          "Volkswagen",
+          "Chevrolet",
+          "Ford",
+          "Fiat",
+          "Others"
+        ],
+        "filterLabelType": "Gas Spring Type",
+        "filterTypeOptions": [
+          "Hood",
+          "Tailgate",
+          "Window",
+          "Shock Absorber"
+        ],
+        "filterLabelYear": "Vehicle Year",
+        "filterYearPlaceholder": "E.g: 2018",
+        "searchBtnText": "Search",
+        "resetBtnText": "Clear Filters",
+        "resultsTitle": "Search Results",
+        "resultItemBrand": "Brand:",
+        "resultItemModel": "Model:",
+        "resultItemType": "Type:",
+        "resultItemPrice": "Price:",
+        "resultItemStock": "In Stock:"
+      },
+      "painSolutions": {
+        "section_perdiendo": "Why Are You Still <span class='highlight-red'>Losing Money</span>?",
+        "section_perdiendo_desc": "The 3 Most Costly Mistakes Distributors Make (and How to Avoid Them)",
+        "error1_title": "ERROR #1: Betting Everything on Few Models",
+        "error1_stat1": "Dead Inventory",
+        "error1_stat2": "Annual Losses",
+        "error1_problem": "<strong>The Problem:</strong> You buy 1000 pieces of the \"popular model\" but only sell 300.",
+        "solution_title": "✅ OUR SOLUTION:",
+        "error1_solution": "Mixed orders: 20 pieces of 50 different models = ZERO dead inventory",
+        "error1_benefit1": "🎯 You meet ALL market demand",
+        "error1_benefit2": "💰 Factory price for small volumes",
+        "error1_benefit3": "🔄 Perfect inventory turnover",
+        "error2_title": "ERROR #2: Paying Distributor Prices",
+        "error2_stat1": "Overpricing",
+        "error2_stat2": "Actual Margin",
+        "error2_problem": "<strong>The Problem:</strong> You pay $10 per piece that costs $3 to manufacture, just because you buy \"small quantities.\")",
+        "error2_solution": "Direct factory price: $3.50 per piece on mixed orders of 1000+ pieces",
+        "error2_benefit1": "🏭 No middlemen = No extra costs",
+        "error2_benefit2": "📈 Guaranteed 200%+ margin",
+        "error2_benefit3": "🎯 Compete with unbeatable prices",
+        "error3_title": "ERROR #3: Multiple Suppliers = Total Chaos",
+        "error3_stat1": "Suppliers",
+        "error3_stat2": "Management/Month",
+        "error3_problem": "<strong>The Problem:</strong> Managing 8 different suppliers to cover all specifications.",
+        "error3_solution": "ONE single supplier for 10,000+ different specifications",
+        "error3_benefit1": "📋 One single invoice, one single contact",
+        "error3_benefit2": "⚡ Quotes within 24 hours for any specification",
+        "error3_benefit3": "🎯 Consistent quality across all products",
+        "mixed_order_title": "🎯 Example of a Typical Mixed Order",
+        "mixed_order_desc": "This is how our clients maximize their inventory with a single order",
+        "order_total_specs": "Total Specifications:",
+        "order_total_specs_value": "45 different ones",
+        "order_total_qty": "Total Quantity:",
+        "order_total_qty_value": "2,250 pieces",
+        "order_avg_per_spec": "Average per Specification:",
+        "order_avg_per_spec_value": "50 pieces",
+        "order_total_savings": "Total Savings:",
+        "order_total_savings_value": "$8,500 USD",
+        "breakdown_capo": "Hood (15 specifications)",
+        "breakdown_capo_qty": "750 pieces",
+        "breakdown_porton": "Tailgate (12 specifications)",
+        "breakdown_porton_qty": "600 pieces",
+        "breakdown_ventanillas": "Windows (10 specifications)",
+        "breakdown_ventanillas_qty": "500 pieces",
+        "breakdown_asientos": "Seats (8 specifications)",
+        "breakdown_asientos_qty": "400 pieces"
+      },
+      "economicSolutions": {
+        "section_title": "Economic Solutions for Your Business",
+        "section_desc": "Maximize your profits with our specialized solutions for each type of business",
+        "solution_workshop_title": "For Workshops",
+        "solution_workshop_badge": "Most Popular",
+        "solution_workshop_desc": "Perfect solution for mechanical workshops seeking quality and profitability",
+        "solution_workshop_benefit1": "✅ 2-year complete warranty",
+        "solution_workshop_benefit2": "✅ Competitive prices",
+        "solution_workshop_benefit3": "✅ Available stock",
+        "solution_workshop_benefit4": "✅ Technical support",
+        "solution_workshop_benefit5": "✅ Fast shipping",
+        "solution_distributor_title": "For Distributors",
+        "solution_distributor_badge": "Wholesale",
+        "solution_distributor_desc": "Smart inventory solutions with fast rotation. Best-selling models in South America.",
+        "solution_distributor_benefit1": "✅ Flexible minimum orders (50 pieces)",
+        "solution_distributor_benefit2": "✅ Volume discounts up to 45%",
+        "solution_distributor_benefit3": "✅ Consignment program available",
+        "solution_distributor_benefit4": "✅ Marketing and POP material included",
+        "solution_distributor_benefit5": "✅ Territorial exclusivity available",
+        "solution_importer_title": "For Importers",
+        "solution_importer_badge": "Large Volumes",
+        "solution_importer_desc": "Large-scale solutions with complete logistics. From factory to your warehouse.",
+        "solution_importer_benefit1": "✅ Competitive FOB prices",
+        "solution_importer_benefit2": "✅ Full containers available",
+        "solution_importer_benefit3": "✅ Financing and flexible terms",
+        "solution_importer_benefit4": "✅ Private label (OEM/ODM)",
+        "solution_importer_benefit5": "✅ Complete logistics support",
+        "solution_price_label": "Factory Price:",
+        "solution_margin_label": "Your profit:",
+        "btn_workshop_catalog": "Workshop Catalog",
+        "btn_distributor_program": "Distributor Program",
+        "btn_importer_program": "Importer Program",
+        "bulk_title": "📦 Mixed Orders - Our Specialty",
+        "bulk_desc": "Combine multiple specifications in a single order to maximize your inventory",
+        "bulk_flexible": "Flexible Minimum",
+        "bulk_flexible_desc": "Only 10 pieces per specification<br>Minimum order: 500 total pieces",
+        "bulk_discount": "Volume Discounts",
+        "bulk_discount_desc": "Save up to an additional 15%<br>on orders of 5,000+ pieces",
+        "bulk_consolidation": "Shipping Consolidation",
+        "bulk_consolidation_desc": "Single shipment for all models<br>Lower import costs",
+        "bulk_quote_btn": "📋 Get Mixed Order Quote"
+      },
+      "priceAdvantage": {
+        "showcase_catalogo": "Aftermarket Catalog",
+        "showcase_stock": "✅ In Stock",
+        "product_capo": "Hood/Bonnet",
+        "product_compatible_capo": "Compatible: Toyota, VW, Ford",
+        "product_porton": "Rear Tailgate",
+        "product_compatible_porton": "Compatible: Chevrolet, Fiat, Renault",
+        "product_ventanilla": "Car Window",
+        "product_compatible_ventanilla": "Compatible: Nissan, Hyundai, Kia",
+        "product_amortiguador": "Shock Absorber",
+        "product_compatible_amortiguador": "Compatible: BMW, Mercedes, Audi",
+        "btn_ver_catalogo": "View Complete Catalog (5000+ Models)",
+        "trust_fabrica": "Direct Chinese Factory",
+        "trust_precio": "Guaranteed Lowest Price",
+        "trust_especificaciones": "10,000+ Specifications",
+        "email_subject": "Availability Inquiry - Gas Springs",
+        "email_greeting": "Hello,",
+        "email_interest": "I am interested in inquiring about the availability of gas springs for my business.",
+        "email_info_title": "My inquiry information:",
+        "email_business_type": "Business type: [Workshop/Distributor/Importer]",
+        "email_location": "Location: [Country/City]",
+        "email_products": "Products of interest: [Specify models]",
+        "email_quantity": "Estimated quantity: [Quantity]",
+        "email_request_info": "Please send me information about:",
+        "email_availability": "Local stock availability",
+        "email_delivery_time": "Delivery times",
+        "email_prices": "Prices and applicable discounts",
+        "email_shipping": "Shipping options",
+        "email_thanks": "Thank you for your attention.",
+        "email_regards": "Best regards,",
+        "email_name": "Your name",
+        "email_company": "Your company",
+        "email_phone": "Your phone",
+        "shipping_complete_fields": "Please complete all fields",
+        "shipping_express_48h": "48h Express available",
+        "shipping_warehouse_sao_paulo": "São Paulo Warehouse",
+        "shipping_warehouse_bogota": "Bogotá Warehouse",
+        "shipping_distributor_buenos_aires": "Buenos Aires Distributor",
+        "shipping_distributor_santiago": "Santiago Distributor",
+        "shipping_distributor_lima": "Lima Distributor",
+        "shipping_distributor_quito": "Quito Distributor",
+        "shipping_5_7_days": "5-7 days",
+        "shipping_7_10_days": "7-10 days"
+      },
+      "marketCoverage": {
+        "section_title": "South American Market Coverage",
+        "section_desc": "We serve the entire South American automotive aftermarket with local presence and specialized support",
+        "vehicles_served": "Vehicles Served",
+        "brazil_title": "Brazil",
+        "brazil_market_size": "Main Market",
+        "brazil_sales_percent": "40%",
+        "brazil_workshops": "1,200+",
+        "brazil_models_title": "Best-selling models:",
+        "brazil_model1": "VW Gol/Voyage - Hood",
+        "brazil_model2": "Fiat Palio/Siena - Tailgate",
+        "brazil_model3": "Chevrolet Onix - Hood",
+        "brazil_model4": "Ford Ka - Rear Tailgate",
+        "brazil_contact_title": "Local Contact:",
+        "brazil_phone": "+55 11 9999-8888",
+        "argentina_title": "Argentina",
+        "argentina_market_size": "Key Market",
+        "argentina_sales_percent": "25%",
+        "argentina_workshops": "650+",
+        "argentina_models_title": "Best-selling models:",
+        "argentina_model1": "Toyota Corolla - Hood",
+        "argentina_model2": "Renault Sandero - Tailgate",
+        "argentina_model3": "Peugeot 208 - Hood",
+        "argentina_model4": "Volkswagen Suran - Tailgate",
+        "argentina_contact_title": "Local Contact:",
+        "argentina_phone": "+54 11 4444-5555",
+        "colombia_title": "Colombia",
+        "colombia_market_size": "Fast Growth",
+        "colombia_sales_percent": "15%",
+        "colombia_workshops": "400+",
+        "colombia_models_title": "Best-selling models:",
+        "colombia_model1": "Chevrolet Spark - Hood",
+        "colombia_model2": "Renault Logan - Tailgate",
+        "colombia_model3": "Nissan March - Hood",
+        "colombia_model4": "Kia Picanto - Tailgate",
+        "colombia_contact_title": "Local Contact:",
+        "colombia_phone": "+57 1 333-4444",
+        "chile_title": "Chile",
+        "chile_market_size": "Premium Market",
+        "chile_sales_percent": "10%",
+        "chile_workshops": "300+",
+        "chile_models_title": "Best-selling models:",
+        "chile_model1": "Suzuki Swift - Hood",
+        "chile_model2": "Hyundai Accent - Tailgate",
+        "chile_model3": "Mazda 2 - Hood",
+        "chile_model4": "Toyota Yaris - Tailgate",
+        "chile_contact_title": "Local Contact:",
+        "chile_phone": "+56 2 2222-3333",
+        "stat_desc_sales": "of our sales",
+        "stat_desc_workshops": "active workshops"
+      },
+      "contact": {
+        "section_title": "📞 Contact Us for Your Quote",
+        "section_desc": "Have questions about our products or mixed orders? Our team will get back to you within 24 hours.",
+        "contact_methods": [
+          {
+            "icon": "📞",
+            "title": "Phone",
+            "value": "+86-574-8888-9999",
+            "description": "Call us directly"
+          },
+          {
+            "icon": "✉️",
+            "title": "Email",
+            "value": "sales@southamerica.dkgasspring.com",
+            "description": "Send us an email"
+          },
+          {
+            "icon": "📱",
+            "title": "WhatsApp",
+            "value": "+86-138-8888-7777",
+            "description": "Chat with us"
+          }
+        ],
+        "business_hours": {
+          "title": "Business Hours",
+          "hours": [
+            {
+              "timezone": "China (GMT+8)",
+              "time": "Monday - Friday: 9:00 - 18:00"
+            },
+            {
+              "timezone": "South America (GMT-3)",
+              "time": "Monday - Friday: 22:00 - 07:00"
+            }
+          ]
+        },
+        "form": {
+          "title": "Get Your Custom Quote",
+          "subtitle": "Fill out the form below and we'll provide you with a detailed quote within 24 hours.",
+          "business_info": {
+            "title": "Business Information",
+            "business_type": {
+              "label": "Business Type",
+              "placeholder": "Select your business type",
+              "options": [
+                {
+                  "value": "distributor",
+                  "label": "Distributor"
+                },
+                {
+                  "value": "manufacturer",
+                  "label": "Manufacturer"
+                },
+                {
+                  "value": "retailer",
+                  "label": "Retailer"
+                },
+                {
+                  "value": "service_center",
+                  "label": "Service Center"
+                },
+                {
+                  "value": "other",
+                  "label": "Other"
+                }
+              ]
+            },
+            "country": {
+              "label": "Country",
+              "placeholder": "Select your country",
+              "options": [
+                {
+                  "value": "brazil",
+                  "label": "Brazil"
+                },
+                {
+                  "value": "argentina",
+                  "label": "Argentina"
+                },
+                {
+                  "value": "chile",
+                  "label": "Chile"
+                },
+                {
+                  "value": "colombia",
+                  "label": "Colombia"
+                },
+                {
+                  "value": "peru",
+                  "label": "Peru"
+                },
+                {
+                  "value": "other",
+                  "label": "Other"
+                }
+              ]
+            },
+            "company_name": {
+              "label": "Company Name",
+              "placeholder": "Enter your company name"
+            },
+            "contact_name": {
+              "label": "Contact Name",
+              "placeholder": "Enter your full name"
+            },
+            "email": {
+              "label": "Email Address",
+              "placeholder": "your.email@company.com"
+            },
+            "phone": {
+              "label": "Phone Number",
+              "placeholder": "Enter your phone number"
+            }
+          },
+          "order_config": {
+            "title": "Order Configuration",
+            "order_type": {
+              "label": "Order Type",
+              "mixed": "Mixed Order (Multiple Specifications)",
+              "single": "Single Specification Order"
+            },
+            "total_quantity": {
+              "label": "Total Quantity Needed",
+              "placeholder": "Select quantity range",
+              "options": [
+                {
+                  "value": "500-1000",
+                  "label": "500 - 1,000 units"
+                },
+                {
+                  "value": "1000-2500",
+                  "label": "1,000 - 2,500 units"
+                },
+                {
+                  "value": "2500-5000",
+                  "label": "2,500 - 5,000 units"
+                },
+                {
+                  "value": "5000+",
+                  "label": "5,000+ units"
+                }
+              ]
+            },
+            "spec_count": {
+              "label": "Number of Different Specifications",
+              "placeholder": "Select specification count",
+              "options": [
+                {
+                  "value": "1-5",
+                  "label": "1-5 specifications"
+                },
+                {
+                  "value": "5-15",
+                  "label": "5-15 specifications"
+                },
+                {
+                  "value": "15-30",
+                  "label": "15-30 specifications"
+                },
+                {
+                  "value": "30-50",
+                  "label": "30-50 specifications"
+                },
+                {
+                  "value": "50+",
+                  "label": "50+ specifications"
+                }
+              ]
+            },
+            "pricing_title": "Estimated Pricing Preview"
+          },
+          "specifications": {
+            "title": "Product Specifications",
+            "vehicle_models": {
+              "label": "Vehicle Models & Applications",
+              "placeholder": "List the vehicle models, years, and specific applications (e.g., Honda Civic 2018-2022 hood support, Toyota Camry 2020+ trunk lift, etc.)"
+            },
+            "specific_requirements": {
+              "label": "Specific Requirements",
+              "placeholder": "Any special requirements, certifications needed, packaging preferences, delivery timeline, etc."
+            }
+          },
+          "checkboxes": {
+            "newsletter": "Subscribe to our newsletter for product updates and industry insights",
+            "whatsapp": "I prefer to receive updates via WhatsApp"
+          },
+          "submit_btn": "Submit Quote Request",
+          "footer": {
+            "response_time": "✅ All inquiries receive a response within 24 business hours",
+            "privacy": "🔒 Your information is secure and will not be shared with third parties"
+          }
+        }
+      }
+    }
   }
 }

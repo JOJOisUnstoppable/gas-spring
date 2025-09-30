@@ -68,7 +68,7 @@ If you have any questions about this Privacy Policy, please contact us at:
 
 - Email: gs-info@dkmachineryinc.com
 - Address: Ningbo, China
-- Phone: +86 123 4567 89XX
+- Phone: +86 780 4467
 `
 
   return (

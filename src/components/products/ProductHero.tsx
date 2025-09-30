@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import parseMarkdownBold from '@/lib/parseMarkdownBold'
+
 
 interface ProductHeroProps {
   title: string
@@ -37,20 +39,20 @@ export function ProductHero({ title, description, image, dict, locale }: Product
               href={`/${locale}`} 
               className="text-lg md:text-xl hover:text-gray-200 transition-colors font-light"
             >
-              {dict.common.home}
+              {parseMarkdownBold(dict.common.home)}
             </Link>
             <span className="text-lg md:text-xl opacity-60">&gt;</span>
             <Link 
               href={`/${locale}/products`} 
               className="text-lg md:text-xl hover:text-gray-200 transition-colors font-light"
             >
-              {dict.common.products}
+              {parseMarkdownBold(dict.common.products)}
             </Link>
             <span className="text-lg md:text-xl opacity-60">&gt;</span>
             {title}
           </h1>
           <p className="text-lg md:text-xl">
-            {description}
+            {parseMarkdownBold(description)}
           </p>
         </div>
       </div>

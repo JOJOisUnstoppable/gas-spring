@@ -172,5 +172,417 @@
   "terms": {
     "title": "Terms of Use",
     "description": "A complete agreement covering Terms of Service, liability attribution, data privacy, product policies (ordering/delivery/returns/warranty), disclaimer, and governing law."
+  },
+  "products": {
+    "gas-spring": {
+      "productSeries": {
+        "title": "Serie produktów"
+      },
+      "Navigation": [
+        "Przegląd produktu",
+        "Czym jest prużyna gazowa?",
+        "Serie produktów",
+        "Jak działa",
+        "Przewodnik instalacyjny",
+        "Skontaktuj się z nami"
+      ],
+      "whatIsGS": {
+        "title": "Czym jest prużyna gazowa?",
+        "description": [
+          "**Prużyny gazowe** to hydropneumatyczne elementy magazynujące energię. Składają się z precyzyjnej trzonki tłoka poruszającej się w zazwyczajonym cylinderze wypełnionym azotem pod ciśnieniem i olejem.  ",
+          "Bez względu na pozycję prużyny gazowej, ciśnienie wokół tłoka jest stale jednorodne – dzieje się tak dzięki małemu polu przekroju poprzecznego trzonki. To dlatego prużyny gazowe działają stabilniej niż prużyny spiralne.  ",
+          "Siła pruży **(F)** oblicza się jako różnica ciśnień **(ΔP)** między środowiskiem wewnętrznym a zewnętrznym, działająca na pole przekroju poprzecznego trzonki tłoka **(A): ( F = ΔP × A)**.  ",
+          "Specyfikacje można dostosować poprzez regulację ilości wstrzykniętego azotu, ilości oleju oraz pola trzonki tłoka, aby spełnić konkretne wymagania aplikacji.  ",
+          "W środowiskach o wysokim ciśnieniu różnica ciśnień **ΔP** musi być starannie zarządzana.  ",
+          "Poniżej przedstawiono różne typy prużyn gazowych."
+        ]
+      },
+      "howGSWork": {
+        "title": "Jak działają prużyny gazowe?",
+        "desc": [
+          "Prużyna gazowa – często nazywana również szczotką gazową lub amortyzatorem gazowym – działa dzięki użyciu sprasowanego azotu jako **elastycznego materiału magazynującego energię** w zazwyczajonym cylinderze metalowym. Aby ten design działał płynnie, cylinder zawiera również mieszaninę specjalistycznych olejów hydraulicznych (np. oleju transformatorowego lub oleju turbinowego). Oleje te spełniają trzy kluczowe funkcje:  ",
+          "Zazwyczenie gazu wewnątrz  ",
+          "Smarowanie ruchomych części w celu zmniejszenia zużycia  ",
+          "Zapewnienie równomiernego przenoszenia siły mechanicznej.  ",
+          "Kiedy wciskasz trzonkę tłoka do cylinderu (jest to proces **kompresji**), przestrzeń dostępna dla azotu zmniejsza się. Podobnie jakściskanie balonu zwiększa ciśnienie wewnątrz, to zmniejszona objętość powoduje wzrost ciśnienia gazu w cylinderze – jest to zgodne z [Zasadą Boyle’a](https://www.britannica.com/science/Boyles-law).  ",
+          "Siła emitowana przez prużynę gazową wzrasta wraz z wciąganiem trzonki, a osiąga swój szczyt, gdy trzonka jest w pełni wciskana do cylinderu. Ta bardziej stabilna i zaufana siła w porównaniu do prużyn spiralnych to powód, dla którego prużyny gazowe są używane w codziennych przedmiotach, takich jak bramki tyłowe samochodów (do delikatnego utrzymywania ich w otwartym stanie), maszyny przemysłowe (do sterowania ruchem) oraz meble ergonomiczne (np. regulowane krzesła biurowe)."
+        ],
+        "KeyBehavior": {
+          "title": "Charakterystyczne zachowanie: Ciśnienie vs. Objętość",
+          "desc": [
+            "Przyjrzenie się powyższemu schematowi pozwoli zobaczyć, jak prużyna gazowa zachowuje się podczas ruchu tłoka.  ",
+            "W przypadku prużyn gazowych siła rośnie wykładniczo wraz z ich kompresją – do ich sciskania potrzebna jest mniejsza siła początkowa. Gdy prużyna gazowa zbliża się do końca swojego skoku, wymagana siła kompresji wzrasta.  ",
+            "** Stan rozszerzonego tłoka **",
+            "Gdy tłok jest w pełni rozszerzony, cylinder ma największą przestrzeń na gaz.  ",
+            "** Stan skompresowanego tłoka **",
+            "Gdy tłok przechodzi do stanu w pełni skompresowanego, przestrzeń na gaz zmniejsza się – w rezultacie ciśnienie wzrasta (można to zobaczyć na linii ciągłej w schemacie). Linia przerywana pokazuje, jak jednocześnie zmniejsza się objętość cylinderu."
+          ],
+          "imageCaption": [
+            "** Charakterystyka siły **",
+            "**F1** = Siła rozszerzająca przy rozszerzonej trzonce tłoka.  ",
+            "**F2** = Siła rozszerzająca przy skompresowanej trzonce tłoka.  ",
+            "**F3** = Siła wciągająca przy rozszerzonej trzonce tłoka.  ",
+            "**F4** = Siła wciągająca przy skompresowanej trzonce tłoka.  ",
+            "**FR** = Siła tarcia."
+          ]
+        },
+        "CriticalPerformanceMeasure": {
+          "title": "Kluczowa miara wydajności: Współczynnik K",
+          "frontdesc": [
+            "Siłę rozszerzającą oblicza się przez pomnożenie ciśnienia napełniającego przez pole przekroju poprzecznego trzonki tłoka. Zarówno rozmiar, jak i siła można dostosować według Twoich wymagań.  ",
+            "Standardowe prużyny gazowe DK oferują siły rozszerzające od **10 N do 5000 N**, z tolerancją ± 5-7%.  ",
+            "Określona siła (F₁) jest zawsze mierzona przy **20°C ± 2°C**, z trzonką tłoka skierowaną w dół.  ",
+            "Fizycznie rzeczywista siła prużyny gazowej zależy od temperatury. Co 10°C siła zmienia się około o 3,3%."
+          ],
+          "desc": [
+            "Aby zdefiniować wydajność prużyny gazowej, inżynierowie używają tak zwanego współczynnika K (lub **współczynnika postępu prużyny gazowej**). Prościej mówiąc, jest to procentowe zmiany siły między dwoma stanami:  ",
+            "Bez obciążenia: Gdy tłok jest w pozycji P1 (w pełni rozszerzony, **pozycja początkowa** prużyny).  ",
+            "Z pełnym obciążeniem: Gdy tłok jest w pozycji P2 (w pełni skompresowany).  ",
+            "Wysokiej jakości prużyny gazowe mają bardzo niski współczynnik K – zazwyczaj między 1,05 a 1,8. Do porównania: mechaniczne prużyny kompresyjne (jak wspomniane wcześniej prużyny spiralne) mają znacznie wyższe współczynniki K. Niski współczynnik K oznacza, że siła prużyny pozostaje stabilna podczas jej kompresji – jest to ważne w aplikacjach, gdzie potrzebne jest spójne podnoszenie lub amortyzacja (np. utrzymywanie ciężkiej bramki tyłowej samochodu w dowolnym kącie).  ",
+            "Krótka uwaga dotycząca obliczeń: Prużyny gazowe są wstępnie naładowane do konkretnej siły w pozycji P1 (nazywamy tę siłę F1) – dlatego zawsze powinieneś używać F1 jako punktu wyjścia podczas wybierania odpowiedniej prużyny gazowej do danego zadania."
+          ]
+        }
+      },
+      "Replacement": {
+        "title": "Jak wybrać prużynę gazową: Wymiana według kodu i rozmiaru?",
+        "subTitle": "Wymiana według kodu i rozmiaru (kluczowe: EL2 / skok / ciśnienie)",
+        "desc": [
+          "**Skok prużyny gazowej**: Określa maksymalny zakres ruchu trzonki, od punktu jej pełnego cofnięcia do punktu pełnego rozszerzenia.  ",
+          "**EL1: Długość rozszerzona lub rozwinięta**: Termin ten oznacza całkowitą długość prużyny gazowej, mierzoną od środka jednego połączenia końcowego do środka przeciwległego połączenia końcowego.  ",
+          "**EL2**: Jeśli nie są określone połączenia końcowe, odnosi się to do długości od końca trzonki do końca rury."
+        ]
+      },
+      "howChooseGS": {
+        "title": "Jak wybrać prużynę gazową: Prosty przewodnik dla inżynierów",
+        "description": "Jesteś inżynierem i masz problem związany z sterowanym ruchem, który wymaga rozwiązania bez dodatkowej energii? Odpowiedz na poniższe pytania, aby dokonać wyboru. Możemy Ci pomóc w wybraniu odpowiedniej prużyny gazowej do Twojej aplikacji – a także wspomóc w projektowaniu!",
+        "imageNote": "Uwaga: Otrzymamy Twoje dane i skontaktujemy się z Tobą w ciągu **12 godzin**.",
+        "howItWork": {
+          "title": "Oto jak to działa:",
+          "list": [
+            "1. **Prosty szkic** – Przygotuj podstawowy rysunek (jak w przykładzie powyżej), który będzie przedstawiał:  ",
+            "Wagę ruchomej części  ",
+            "Jej środek ciężkości  ",
+            "Wszystkie wymiary (mierzone od punktu osprzęgu/żelazka)  ",
+            "Wymagany zakres ruchu (w stopniach)  ",
+            "Pożądaną siłę operacyjną (siłę trzymającą/ciągającą)  ",
+            "2. **My zajmiemy się resztą!** – Wyślij nam swój szkic, a my zaproponujemy najlepszą prużynę gazową do Twoich potrzeb.  ",
+            "To tak proste! **Po prostu podziel się swoimi wymaganiami**, a my zajmiemy się resztą."
+          ]
+        },
+        "table": [
+          "Określenie minimalnej siły rozszerzającej F1",
+          "W formule F1=KGL / bn:  ",
+          "F1=Minimalna siła rozszerzająca (Jednostka:N)  ",
+          "G=Waga drzwi (Jednostka:kg)  ",
+          "L=Odległość między środkiem ciężkości a środkiem obrotu (Jednostka:mm)  ",
+          "b=Skuteczny ramień siły podczas rozszerzania prużyny gazowej (Jednostka:mm)  ",
+          "n=Liczba prużyn gazowych  ",
+          "P=Pozycja montażowa na drzwiach z prużyną gazową, to jest około 1/3L od środka obrotu.  ",
+          "K=Współczynnik bezpieczeństwa (zazwyczaj 11)  ",
+          "G=30kg, L=400 mm, n=2, b=200mm i F1=30×400×11/(200×2)=330N  ",
+          "S=Stkore (uwaga: zachowano oryginalny zapis ze względu na ewentualny błąd literowy; prawdopodobnie odnosi się do „Skok” –Stroke)  ",
+          "EL1=Długość rozszerzona lub rozwinięta"
+        ]
+      },
+      "CalculationF1": {
+        "EFC": {
+          "title": "Obliczenie siły rozszerzającej",
+          "desc": [
+            "Siłę rozszerzającą oblicza się przez pomnożenie ciśnienia napełniającego przez pole przekroju poprzecznego trzonki tłoka. Dostosowując te czynniki, DK może produkować prużyny gazowe o szerokim zakresie sił rozszerzających, aby spełnić Twoje wymagania."
+          ]
+        },
+        "GSDFCC": {
+          "desc": [
+            "Te wartości mogą być wpływane np. przez objętość gazu lub ilość oleju. Specjalną cechą prużyn gazowych DK jest niska wartość tarcia. Dzięki kombinacjom różnych otworów dyszy i ilości oleju, można kontrolować prędkość wypychania i wciągania według wymagań."
+          ]
+        }
+      },
+      "GSInstallationGuide": {
+        "title": "Prużyna gazowa: Wybór miejsca montażu",
+        "desc": [
+          "1. Trzonka tłoka **musi być zainstalowana z orientacją w dół** (nigdy nie odwrócona). To minimalizuje tarcie i zapewnia optymalne działanie amortyzacji i buforowania.  ",
+          "2. Prawidłowe pozycjonowanie punktu opory jest kluczowe: Gdy powiązany element (np. drzwi) jest zamknięty, ruch prużyny gazowej musi przekroczyć strukturalną linię środkową. Zapobiega to niechcianemu automatycznemu przywracaniu (np. prużyna otwierająca element).  ",
+          "3. Dostosuj orientację stawu, obracając cylinder lub trzonkę tłoka zgodnie z ruchem wskazówek zegara.  ",
+          "4. Upewnij się, że wymiary i wartość siły są prawidłowe. Na przykład w aplikacjach na koperty, trzonka tłoka powinna zachować około 10 mm skoku, gdy koperta jest zamknięta.  ",
+          "5. Używaj w zakresie temperatur otoczenia: -30℃ do +80℃.  ",
+          "6. Prużyny gazowe to elementy pod wysokim ciśnieniem – **nigdy ich nie demontuj, nie nagrzewaj, nie piecz lub nie uderzaj**.  ",
+          "7. Unikaj sił pochylających i bocznych podczas działania; nie używaj ich jako poręczy. Unikaj ruchów wahliwych. Nieprawidłowe wyrównanie może spowodować zablokowanie lub hałas.  ",
+          "8. Aby chronić usztywnia i przedłużyć żywotność:  ",
+          "Unikaj uszkodzenia powierzchni trzonki tłoka.  ",
+          "Nie nanosisz farby lub chemikaliów na trzonkę tłoka.  ",
+          "Nie montuj prużyny zanim dokonasz spawania, szlifowania lub malowania."
+        ],
+        "imageCaption": "Uwaga: Orientacja miejsca montażu prużyny gazowej."
+      },
+      "CTA": {
+        "title": "Rozmowa z nami to duży krok w rozwiązaniu problemu.",
+        "desc": [
+          "Wspieramy znane firmy w rozwoju nowych produktów  ",
+          "proszę skontaktować się z nami!"
+        ]
+      }
+    },
+    "marine": {
+      "hero": {
+        "title": "Premiumowe prużyny gazowe morskie do wód USA",
+        "subtitle": "Szczotki gazowe morskie ze stali nierdzewnej 316L przeznaczone dla amerykańskich łodzi i jachtów",
+        "features": [
+          {
+            "icon": "🛡️",
+            "text": "Zcertyfikowane przez ABYC"
+          },
+          {
+            "icon": "⚡",
+            "text": "Dostawa w 48 godzin"
+          },
+          {
+            "icon": "🔧",
+            "text": "Inżynierskie rozwiązania dostosowane"
+          },
+          {
+            "icon": "🏆",
+            "text": "Gwarancja 30-letnia"
+          }
+        ],
+        "ctaButtons": [
+          {
+            "text": "Uzyskaj bezpłatną wycenę",
+            "href": "#quote",
+            "isPrimary": true
+          },
+          {
+            "text": "Zobacz produkty",
+            "href": "#products",
+            "isPrimary": false
+          }
+        ],
+        "heroImageAlt": "Prużyny gazowe morskie na luksusowym jachcie"
+      },
+      "trustIndicators": {
+        "items": [
+          {
+            "imageAlt": "Certyfikat ABYC",
+            "text": "Zcertyfikowane przez ABYC"
+          },
+          {
+            "imageAlt": "ISO 9001",
+            "text": "ISO 9001:2015"
+          },
+          {
+            "imageAlt": "Znakowanie CE",
+            "text": "Zgodne z normą CE"
+          },
+          {
+            "imageAlt": "Przeznaczone dla USA",
+            "text": "Przeznaczone dla rynku USA"
+          }
+        ]
+      },
+      "whyChooseUs": {
+        "title": "Dlaczego wybrać prużyny gazowe morskie DK?",
+        "advantages": [
+          {
+            "iconAlt": "Stal nierdzewna 316L",
+            "title": "Stal morskiego stopnia 316L",
+            "description": "Wysoka odporność na korozję zarówno w środowiskach z wodą słodką, jak i soloną. Przewyższa standardową stal nierdzewną w trudnych warunkach morskich."
+          },
+          {
+            "iconAlt": "Szybka dostawa",
+            "title": "Bliskotrwała dostawa",
+            "description": "Wysyłka w 48 godziny do każdego miejsca w USA. Dostępna usługa awaryjna w tym samym dniu dla krytycznych zastosowań morskich."
+          },
+          {
+            "iconAlt": "Inżynieria dostosowana",
+            "title": "Inżynieria dostosowana",
+            "description": "Bezpłatna konsultacja projektowa i dostosowane rozwiązania z prużynami gazowymi. Nasi inżynierowie pracują według Twoich specyfikacji, aby stworzyć idealne dopasowanie."
+          },
+          {
+            "iconAlt": "Wsparcie z USA",
+            "title": "Wsparcie z bazą w USA",
+            "description": "Wsparcie techniczne 24/7 przez amerykański zespół. Lokalne zapasy i centra serwisowe w całych Stanach Zjednoczonych."
+          }
+        ]
+      },
+      "productShowcase": {
+        "title": "Rozwiązania z prużynami gazowymi morskimi",
+        "products": [
+          {
+            "imageAlt": "Prużyny gazowe do latarni jachtowych",
+            "title": "Prużyny gazowe do latarni jachtowych",
+            "description": "Premiumowe szczotki gazowe do latarni i pomieszczeń jachtowych. Płynna praca i zaufana siła utrzymująca w otwartym stanie.",
+            "features": [
+              "Zakres sił: 50-2000N",
+              "Budowa ze stali nierdzewnej 316L",
+              "Dostępne dostosowane uchwyty montażowe"
+            ],
+            "ctaText": "Uzyskaj wycenę"
+          },
+          {
+            "imageAlt": "Prużyny gazowe do osłon silnika łodzi",
+            "title": "Szczotki gazowe do osłon silnika",
+            "description": "Prężne prużyny gazowe do osłon silników łodzi i paneli dostępowych. Przeznaczone do częstego użytkowania.",
+            "features": [
+              "Zastosowania o wysokiej sile do 3000N",
+              "Usztywnia odporne na temperaturę",
+              "Projekt z tłumieniem wibracji"
+            ],
+            "ctaText": "Uzyskaj wycenę"
+          },
+          {
+            "imageAlt": "Prużyny gazowe do mebli morskich",
+            "title": "Prużyny gazowe do mebli morskich",
+            "description": "Kompaktowe szczotki gazowe do mebli morskich, siedzisk i rozwiązań magazynowych. Projekt oszczędzający miejsce.",
+            "features": [
+              "Kompaktowy projekt do ciasnych przestrzeni",
+              "Funkcje miękkiego zamykania i utrzymywania w otwartym stanie",
+              "Wiele opcji łączników końcowych"
+            ],
+            "ctaText": "Uzyskaj wycenę"
+          }
+        ]
+      },
+      "applications": {
+        "title": "Zastosowania morskie",
+        "items": [
+          {
+            "imageAlt": "Luksusowy jacht",
+            "title": "Luksusowe jachty",
+            "description": "Premiumowe prużyny gazowe do wysokiej klasy zastosowań jachtowych, w tym latarni, mebli i osłon sprzętu."
+          },
+          {
+            "imageAlt": "Statek rybacki komercyjny",
+            "title": "Rybołówstwo komercyjne",
+            "description": "Prężne szczotki gazowe zaprojektowane do trudnego środowiska statków rybackich komercyjnych."
+          },
+          {
+            "imageAlt": "Żaglówka",
+            "title": "Żaglówki",
+            "description": "Lekkie, ale trwałe prużyny gazowe, idealne do latarni żaglowek i magazynowania sprzętu."
+          },
+          {
+            "imageAlt": "Łódź silnikowa",
+            "title": "Łodzi silnikowe",
+            "description": "Wysokowydajne szczotki gazowe do osłon silników łodzi silnikowych i paneli dostępowych."
+          }
+        ]
+      },
+      "technicalSupport": {
+        "title": "Eksperckie wsparcie techniczne",
+        "description": "Nasi eksperci ds. prużyn gazowych morskich pomogą Ci wybrać idealne rozwiązanie dla Twojego zastosowania.",
+        "features": [
+          {
+            "icon": "📐",
+            "title": "Bezpłatna konsultacja projektowa",
+            "description": "Nasi inżynierowie pomogą Ci określić optymalne specyfikacje prużyn gazowych dla Twojego zastosowania morskiego."
+          },
+          {
+            "icon": "🔧",
+            "title": "Wskazówki montażowe",
+            "description": "Instrukcje montażowe krok po kroku oraz zalecenia montażowe dla środowisk morskich."
+          },
+          {
+            "icon": "📞",
+            "title": "Linia wsparcia 24/7",
+            "description": "Wsparcie techniczne przez cały dzień dla pilnych potrzeb ds. prużyn gazowych morskich i rozwiązywanie problemów."
+          }
+        ],
+        "imageAlt": "Zespół wsparcia technicznego"
+      },
+      "successStories": {
+        "title": "Historie sukcesu klientów",
+        "stories": [
+          {
+            "customerImageAlt": "Producent luksusowych jachtów",
+            "customerName": "Premiumowy producent jachtów",
+            "location": "Fort Lauderdale, FL",
+            "testimonial": "DK Gas Springs zapewnił dostosowane rozwiązania dla naszego projektu luksusowego jachty o długości 150 stóp. Budowa ze stali nierdzewnej 316L pracuje bezbłędnie w warunkach wody solonej od ponad 3 lat.",
+            "results": [
+              "Brak problemów z korozją",
+              "Oszczędności 50% w porównaniu z konkurencją"
+            ]
+          },
+          {
+            "customerImageAlt": "Flota rybacka komercyjna",
+            "customerName": "Flota rybacka komercyjna",
+            "location": "Seattle, WA",
+            "testimonial": "Wposażono całą flotę 25 statków rybackich w prużyny gazowe morskie DK. Zaufananość i trwałość w trudnych warunkach na Pacyfiku są wyjątkowe.",
+            "results": [
+              "25 wyposażonych statków",
+              "Osiągnięta dostępność 99,8%"
+            ]
+          }
+        ]
+      },
+      "quoteForm": {
+        "title": "Uzyskaj bezpłatną wycenę już dziś",
+        "description": "Gotów do uaktualnienia swoich prużyn gazowych morskich? Nasi eksperci przygotują dostosowaną wycenę w ciągu 24 godzin.",
+        "benefits": [
+          {
+            "icon": "✅",
+            "text": "Bezpłatna konsultacja techniczna"
+          },
+          {
+            "icon": "✅",
+            "text": "Dostępne inżynierie dostosowane"
+          },
+          {
+            "icon": "✅",
+            "text": "Gwarancja konkurencyjnych cen"
+          },
+          {
+            "icon": "✅",
+            "text": "Szybka dostawa do USA"
+          }
+        ],
+        "applicationOptions": [
+          {
+            "value": "yacht-hatch",
+            "label": "Latarnia jachtowa"
+          },
+          {
+            "value": "engine-cover",
+            "label": "Oslona silnika"
+          },
+          {
+            "value": "furniture",
+            "label": "Mebel morski"
+          },
+          {
+            "value": "custom",
+            "label": "Zastosowanie dostosowane"
+          }
+        ],
+        "submitButtonText": "Uzyskaj bezpłatną wycenę"
+      },
+      "faq": {
+        "title": "Często zadawane pytania (FAQ)",
+        "items": [
+          {
+            "question": "Czym różnią się prużyny gazowe morskie od standardowych prużyn gazowych?",
+            "answer": "Prużyny gazowe morskie wykorzystują budowę ze stali nierdzewnej 316L i specjalne usztywnia, aby odporować na korozję przez wodę soloną i trudne środowiska morskie. Są dodatkowo zaprojektowane tak, aby spełniać standardy ABYC dla zastosowań morskich."
+          },
+          {
+            "question": "Jak obliczyć potrzebną siłę dla mojego zastosowania morskiego?",
+            "answer": "Obliczenie siły zależy od wagi latarni/osłony, geometrii montażu oraz pożądanego wysiłku otwierania. Nasi inżynierowie oferują bezpłatną konsultację, aby określić optymalną siłę dla Twojego konkretnego zastosowania."
+          },
+          {
+            "question": "Jaką ma typową żywotność prużyny gazowe morskie?",
+            "answer": "Nasze prużyny gazowe morskie są zaprojektowane do ponad 100 000 cykli i zazwyczaj trwają 10-15 lat przy normalnym użytkowaniu morskim. Oferujemy 30-letnią gwarancję na materiały i wykonanie."
+          },
+          {
+            "question": "Czy oferujecie dostosowane uchwyty montażowe?",
+            "answer": "Tak, oferujemy dostosowane uchwyty montażowe i sprzęty zaprojektowane specjalnie do zastosowań morskich. Wszystkie uchwyty są wykonane z materiałów morskiego stopnia z odpowiednim zabezpieczeniem przed korozją."
+          },
+          {
+            "question": "Czy wysyłacie do wszystkich stanów USA?",
+            "answer": "Tak, wysyłamy do wszystkich 50 stanów z standardową dostawą w 48 godzin. Dla pilnych zastosowań morskich dostępne są opcje dostawy ekspresowej i w tym samym dniu."
+          },
+          {
+            "question": "Jakie certyfikaty mają Wasze prużyny gazowe morskie?",
+            "answer": "Nasze prużyny gazowe morskie spełniają standardy ABYC i są zcertyfikowane według normy ISO 9001:2015. W razie potrzeby zapewniamy również znakowanie CE dla zgodności międzynarodowej."
+          }
+        ]
+      }
+    }
   }
 }

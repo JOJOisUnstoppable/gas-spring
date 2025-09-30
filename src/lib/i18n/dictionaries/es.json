@@ -172,5 +172,417 @@
   "terms": {
     "title": "Terms of Use",
     "description": "Un acuerdo completo que abarca los Términos de Servicio, atribución de responsabilidad, privacidad de datos, políticas de productos (pedido/entrega/devoluciones/garantía), descargo de responsabilidad y ley aplicable."
+  },
+  "products": {
+    "gas-spring": {
+      "productSeries": {
+        "title": "Series de Productos"
+      },
+      "Navigation": [
+        "Descripción General del Producto",
+        "¿Qué es un Resorte de Gas?",
+        "Series de Productos",
+        "Cómo Funciona",
+        "Guía de Instalación",
+        "Contáctenos"
+      ],
+      "whatIsGS": {
+        "title": "¿Qué es un resorte de gas?",
+        "description": [
+          "Los **resortes de gas** son componentes hidroneumáticos de almacenamiento de energía. Consisten en una varilla de pistón de precisión que se mueve dentro de un cilindro sellado, lleno de nitrógeno presurizado y aceite.  ",
+          "Independientemente de la posición del resorte de gas, la presión alrededor del pistón es constantemente uniforme, debido a la pequeña área transversal de la varilla. Por eso, los resortes de gas funcionan más establemente que los resortes helicoidales.  ",
+          "La fuerza del resorte **(F)** se calcula como la diferencia de presión **(ΔP)** entre el entorno interno y externo, que actúa sobre la área transversal de la varilla de pistón **(A): ( F = ΔP × A)**.  ",
+          "Las especificaciones se pueden adaptar ajustando la cantidad de nitrógeno inyectado, el volumen de aceite y la área de la varilla de pistón, para satisfacer los requisitos específicos de la aplicación.  ",
+          "En entornos de alta presión, la diferencia de presión **ΔP** debe gestionarse con cuidado.  ",
+          "A continuación, se presentan los diferentes tipos de resortes de gas."
+        ]
+      },
+      "howGSWork": {
+        "title": "¿Cómo funcionan los resortes de gas?",
+        "desc": [
+          "El resorte de gas —también llamado comúnmente tirante de gas o amortiguador de gas— funciona utilizando nitrógeno comprimido como material **elástico** de almacenamiento de energía dentro de un cilindro de metal sellado. Para que este diseño funcione de manera fluida, el cilindro también contiene una mezcla de aceites hidráulicos especializados (como aceite de transformador o aceite de turbina). Estos aceites cumplen tres funciones clave:  ",
+          "Cierre hermético del gas en el interior  ",
+          "Lubricación de las piezas móviles para reducir el desgaste  ",
+          "Garantía de una transmisión uniforme de la fuerza mecánica.  ",
+          "Cuando empuja la varilla de pistón hacia el interior del cilindro (este es el proceso de **compresión**), el espacio disponible para el nitrógeno se reduce. Al igual que apretar un globo aumenta la presión interior, este menor volumen hace que la presión del gas en el cilindro aumente —lo que se alinea con la [Ley de Boyle](https://www.britannica.com/science/Boyles-law).  ",
+          "La fuerza que emite el resorte de gas se intensifica a medida que se empuja la varilla hacia adentro, y es máxima cuando la varilla está completamente introducida en el cilindro. Esta fuerza, más estable y confiable que la de los resortes helicoidales, es la razón por la que los resortes de gas se usan en objetos cotidianos como portones traseros de coches (para mantenerlos abiertos suavemente), máquinas industriales (para controlar el movimiento) y muebles ergonómicos (como sillas de oficina ajustables)."
+        ],
+        "KeyBehavior": {
+          "title": "Comportamiento Clave: Presión vs. Volumen",
+          "desc": [
+            "Si observa el diagrama anterior, verá cómo se comporta el resorte de gas a medida que se mueve el pistón.  ",
+            "En los resortes de gas, la fuerza aumenta exponencialmente a medida que se comprimen, por lo que se necesita menos fuerza inicial para comprimirlos. Cuando el resorte de gas se acerca al final de su carrera, la fuerza de compresión necesaria aumenta.  ",
+            "** Estado de Pistón Extendido **",
+            "Cuando el pistón está completamente extendido, el cilindro tiene el mayor espacio disponible para el gas.  ",
+            "** Estado de Pistón Comprimido **",
+            "A medida que el pistón se mueve hasta su estado completamente comprimido, el espacio del gas se reduce —por lo que la presión aumenta (se puede ver en la línea continua del diagrama). La línea discontinua muestra cómo disminuye el volumen del cilindro al mismo tiempo."
+          ],
+          "imageCaption": [
+            "** Característica de Fuerza **",
+            "**F1** = Fuerza de extensión con la varilla de pistón extendida.  ",
+            "**F2** = Fuerza de extensión con la varilla de pistón comprimida.  ",
+            "**F3** = Fuerza de retracción con la varilla de pistón extendida.  ",
+            "**F4** = Fuerza de retracción con la varilla de pistón comprimida.  ",
+            "**FR** = Fuerza de fricción."
+          ]
+        },
+        "CriticalPerformanceMeasure": {
+          "title": "Medida Crítica de Rendimiento: El Factor K",
+          "frontdesc": [
+            "La fuerza de extensión se calcula multiplicando la presión de llenado por la área transversal de la varilla de pistón. Tanto el tamaño como la fuerza se pueden adaptar según sus requisitos.  ",
+            "Los resortes de gas estándar DK ofrecen fuerzas de extensión desde **10 N hasta 5000 N**, con una tolerancia de ± 5-7%.  ",
+            "La fuerza especificada (F₁) se mide siempre a **20°C ± 2°C**, con la varilla de pistón dirigida hacia abajo.  ",
+            "Físicamente, la fuerza real de un resorte de gas depende de la temperatura. Por cada 10°C, la fuerza cambia aproximadamente un 3,3%."
+          ],
+          "desc": [
+            "Para definir el rendimiento de un resorte de gas, los ingenieros utilizan un parámetro llamado factor K (o **tasa de progresión del resorte de gas**). En términos simples, se trata del porcentaje de cambio de fuerza entre dos estados:  ",
+            "Sin carga: Cuando el pistón está en P1 (completamente extendido, la **posición inicial** del resorte).  ",
+            "Con carga máxima: Cuando el pistón está en P2 (completamente comprimido).  ",
+            "Los resortes de gas de buena calidad tienen un factor K muy bajo —generalmente entre 1,05 y 1,8. A modo de comparación, los resortes de compresión mecánicos (como los resortes helicoidales mencionados anteriormente) tienen factores K mucho más altos. Un factor K bajo significa que la fuerza del resorte se mantiene estable a medida que se comprimen —esto es importante para aplicaciones donde se necesita un levantamiento o amortiguamiento constante (como mantener un portón trasero pesado de coche en cualquier ángulo).  ",
+            "Una nota rápida para los cálculos: Los resortes de gas están precargados a una fuerza específica en P1 (llamamos a esta fuerza F1) —por lo que siempre debe usar F1 como punto de partida al seleccionar el resorte de gas adecuado para una aplicación."
+          ]
+        }
+      },
+      "Replacement": {
+        "title": "¿Cómo Elegir un Resorte de Gas: Reemplazo por Código y Tamaño?",
+        "subTitle": "Reemplazo según código y tamaño (clave: EL2 / carrera / presión)",
+        "desc": [
+          "**Carrera del resorte de gas**: Indica el rango máximo de movimiento de la varilla, desde su posición completamente retraída hasta su posición completamente extendida.  ",
+          "**EL1: Longitud Extendida o Expandida**: Este término se refiere a la longitud total del resorte de gas, medida desde el punto medio de un acoplamiento terminal hasta el punto medio del acoplamiento terminal opuesto.  ",
+          "**EL2**: Si no se especifican acoplamientos terminales, se refiere a la longitud desde el extremo de la varilla hasta el extremo del cilindro."
+        ]
+      },
+      "howChooseGS": {
+        "title": "¿Cómo Elegir un Resorte de Gas: Guía Sencilla para Ingenieros",
+        "description": "Usted, como ingeniero, tiene un problema relacionado con el movimiento controlado que necesita resolverse sin energía adicional? Responda las siguientes preguntas para completar su selección. ¡Podemos ayudarlo a elegir el resorte de gas adecuado para su aplicación y también colaborar con el diseño!",
+        "imageNote": "Nota: Recibiremos sus datos y nos pondremos en contacto con usted en un plazo de **12 horas**.",
+        "howItWork": {
+          "title": "Así funciona:",
+          "list": [
+            "1. **Dibujo Esquemático**: Proporcione un dibujo básico (como el ejemplo de arriba) que muestre:  ",
+            "El peso de la pieza móvil  ",
+            "Su centro de gravedad  ",
+            "Todas las dimensiones (medidas desde el punto de pivote/bisagra)  ",
+            "El rango de movimiento requerido (en grados)  ",
+            "La fuerza de operación deseada (fuerza de sujeción/empuje)  ",
+            "2. **Nosotros nos encargamos del resto**: Envíenos su dibujo y le recomendaremos el resorte de gas ideal para sus necesidades.  ",
+            "¡Es así de sencillo! **Solo comparta sus requisitos** y nosotros nos ocupamos del resto."
+          ]
+        },
+        "table": [
+          "Determinación de la fuerza de extensión mínima F1",
+          "En la fórmula F1=KGL / bn:  ",
+          "F1=Fuerza de extensión mínima (Unidad:N)  ",
+          "G=Peso de la puerta (Unidad:kg)  ",
+          "L=Distancia entre el centro de gravedad y el centro de giro (Unidad:mm)  ",
+          "b=Brazo de fuerza efectivo cuando el resorte de gas se extiende (Unidad:mm)  ",
+          "n=Número de resortes de gas  ",
+          "P=Posición de montaje en la puerta con resorte de gas, es decir, aproximadamente a 1/3L del centro de giro.  ",
+          "K=Factor de seguridad (generalmente 11)  ",
+          "G=30kg, L=400 mm, n=2, b=200mm y F1=30×400×11/(200×2)=330N  ",
+          "S=Stkore (nota: se mantiene el término original por posible error de escritura, probablemente se refiere a \"Carrera\"/Stroke)",
+          "EL1=Longitud Extendida o Expandida"
+        ]
+      },
+      "CalculationF1": {
+        "EFC": {
+          "title": "Cálculo de la Fuerza de Extensión",
+          "desc": [
+            "La fuerza de extensión se calcula multiplicando la presión de llenado por la área transversal de la varilla de pistón. Al ajustar estos factores, DK puede fabricar resortes de gas con un amplio rango de fuerzas de extensión para satisfacer sus necesidades."
+          ]
+        },
+        "GSDFCC": {
+          "desc": [
+            "Estos valores pueden influenciarse, por ejemplo, por el volumen de gas o el volumen de aceite. Una característica especial de los resortes de gas DK es su bajo valor de fricción. Mediante la combinación de diferentes orificios de boquilla y volúmenes de aceite, es posible controlar la velocidad de extensión y retracción según los requisitos."
+          ]
+        }
+      },
+      "GSInstallationGuide": {
+        "title": "Resorte de Gas: Selección del Lugar de Instalación",
+        "desc": [
+          "1. La varilla de pistón **debe instalarse con orientación hacia abajo** (nunca invertida). Esto minimiza la fricción y garantiza un rendimiento óptimo de amortiguamiento y cojín.  ",
+          "2. El posicionamiento correcto del punto de apoyo es crucial: Cuando el componente asociado (por ejemplo, una puerta) está cerrado, el movimiento del resorte de gas debe cruzar la línea central estructural. Esto evita el restablecimiento automático no deseado (por ejemplo, que el resorte empuje el componente para abrirlo).  ",
+          "3. Ajuste la orientación del articulamiento girando el cilindro o la varilla de pistón en el sentido de las agujas del reloj.  ",
+          "4. Asegúrese de que las dimensiones y la fuerza nominal sean correctas. Por ejemplo, en aplicaciones de capós, la varilla de pistón debe retener aproximadamente 10 mm de carrera cuando el capó está cerrado.  ",
+          "5. Operar dentro del rango de temperatura ambiente: -30℃ a +80℃.  ",
+          "6. Los resortes de gas son componentes de alta presión —**nunca los desmonte, caliente, hornee ni golpee**.  ",
+          "7. Evite fuerzas de inclinación/laterales durante el funcionamiento; no los use como barandales. Evite los movimientos de oscilación. El desalineamiento puede causar atascos o ruidos.  ",
+          "8. Para proteger los sellos y prolongar la vida útil:  ",
+          "Evite dañar la superficie de la varilla de pistón.  ",
+          "No aplique pintura/químicos en la varilla de pistón.  ",
+          "No preinstale el resorte antes de soldar, pulir o pintar."
+        ],
+        "imageCaption": "Nota: Orientación del lugar de instalación del resorte de gas."
+      },
+      "CTA": {
+        "title": "Hablar con nosotros es un gran paso para la solución.",
+        "desc": [
+          "Apoyamos a empresas reconocidas en el desarrollo de nuevos productos  ",
+          "¡contáctenos!"
+        ]
+      }
+    },
+    "marine": {
+      "hero": {
+        "title": "Resortes de gas marinos de alta calidad para aguas estadounidenses",
+        "subtitle": "Tirantes de gas marinos de acero inoxidable 316L fabricados para barcos y yates estadounidenses",
+        "features": [
+          {
+            "icon": "🛡️",
+            "text": "Certificados por ABYC"
+          },
+          {
+            "icon": "⚡",
+            "text": "Entrega en 48 horas"
+          },
+          {
+            "icon": "🔧",
+            "text": "Ingeniería personalizada"
+          },
+          {
+            "icon": "🏆",
+            "text": "Garantía de 30 años"
+          }
+        ],
+        "ctaButtons": [
+          {
+            "text": "Solicitar cotización gratuita",
+            "href": "#quote",
+            "isPrimary": true
+          },
+          {
+            "text": "Ver productos",
+            "href": "#products",
+            "isPrimary": false
+          }
+        ],
+        "heroImageAlt": "Resortes de gas marinos en una yate de lujo"
+      },
+      "trustIndicators": {
+        "items": [
+          {
+            "imageAlt": "Certificación ABYC",
+            "text": "Certificados por ABYC"
+          },
+          {
+            "imageAlt": "ISO 9001",
+            "text": "ISO 9001:2015"
+          },
+          {
+            "imageAlt": "Marcado CE",
+            "text": "Cumplen con la normativa CE"
+          },
+          {
+            "imageAlt": "Fabricado para EE.UU.",
+            "text": "Fabricados para el mercado estadounidense"
+          }
+        ]
+      },
+      "whyChooseUs": {
+        "title": "¿Por qué elegir los resortes de gas marinos DK?",
+        "advantages": [
+          {
+            "iconAlt": "Acero inoxidable 316L",
+            "title": "Acero de grado marino 316L",
+            "description": "Resistencia a la corrosión superior en ambientes de agua dulce y salada. Superan al acero inoxidable estándar en condiciones marinas duras."
+          },
+          {
+            "iconAlt": "Entrega rápida",
+            "title": "Entrega ultrarrápida",
+            "description": "Envío en 48 horas a cualquier parte de EE.UU. Servicio de emergencia en el mismo día disponible para aplicaciones marinas críticas."
+          },
+          {
+            "iconAlt": "Ingeniería personalizada",
+            "title": "Ingeniería personalizada",
+            "description": "Consultoría de diseño gratuita y soluciones de resortes de gas personalizadas. Nuestros ingenieros trabajan según sus especificaciones para crear la adaptación perfecta."
+          },
+          {
+            "iconAlt": "Atención en EE.UU.",
+            "title": "Atención al cliente con base en EE.UU.",
+            "description": "Atención técnica las 24 horas del día, 7 días a la semana, por nuestro equipo estadounidense. Inventario local y centros de servicio en todo Estados Unidos."
+          }
+        ]
+      },
+      "productShowcase": {
+        "title": "Soluciones de resortes de gas marinos",
+        "products": [
+          {
+            "imageAlt": "Resortes de gas para escotillas de yates",
+            "title": "Resortes de gas para escotillas de yates",
+            "description": "Tirantes de gas de alta calidad para escotillas y compartimentos de yates. Funcionamiento suave y fuerza de mantenimiento abierto confiable.",
+            "features": [
+              "Rango de fuerza: 50-2000N",
+              "Construcción de acero inoxidable 316L",
+              "Soportes de montaje personalizados disponibles"
+            ],
+            "ctaText": "Solicitar cotización"
+          },
+          {
+            "imageAlt": "Resortes de gas para tapas de motores de barcos",
+            "title": "Tirantes de gas para tapas de motores",
+            "description": "Resortes de gas resistentes para tapas de motores de barcos y paneles de acceso. Diseñados para uso frecuente.",
+            "features": [
+              "Aplicaciones de alta fuerza hasta 3000N",
+              "Sellos resistentes a la temperatura",
+              "Diseño amortiguador de vibraciones"
+            ],
+            "ctaText": "Solicitar cotización"
+          },
+          {
+            "imageAlt": "Resortes de gas para muebles marinos",
+            "title": "Resortes de gas para muebles marinos",
+            "description": "Tirantes de gas compactos para muebles marinos, asientos y soluciones de almacenamiento. Diseño eficiente en espacio.",
+            "features": [
+              "Diseño compacto para espacios reducidos",
+              "Funciones de cierre suave y mantenimiento abierto",
+              "Múltiples opciones de accesorios terminales"
+            ],
+            "ctaText": "Solicitar cotización"
+          }
+        ]
+      },
+      "applications": {
+        "title": "Aplicaciones marinas",
+        "items": [
+          {
+            "imageAlt": "Yate de lujo",
+            "title": "Yates de lujo",
+            "description": "Resortes de gas de alta calidad para aplicaciones en yates de alta gama, incluyendo escotillas, muebles y tapas de equipos."
+          },
+          {
+            "imageAlt": "Barco de pesca comercial",
+            "title": "Pesca comercial",
+            "description": "Tirantes de gas resistentes diseñados para el ambiente exigente de embarcaciones de pesca comercial."
+          },
+          {
+            "imageAlt": "Velero",
+            "title": "Veleros",
+            "description": "Resortes de gas ligeros pero duraderos, perfectos para escotillas y almacenamiento de equipos en veleros."
+          },
+          {
+            "imageAlt": "Barco a motor",
+            "title": "Barcos a motor",
+            "description": "Tirantes de gas de alto rendimiento para tapas de motores y paneles de acceso en barcos a motor."
+          }
+        ]
+      },
+      "technicalSupport": {
+        "title": "Atención técnica de expertos",
+        "description": "Nuestros expertos en resortes de gas marinos están aquí para ayudarte a seleccionar la solución perfecta para tu aplicación.",
+        "features": [
+          {
+            "icon": "📐",
+            "title": "Consultoría de diseño gratuita",
+            "description": "Nuestros ingenieros te ayudarán a determinar las especificaciones óptimas de los resortes de gas para tu aplicación marina."
+          },
+          {
+            "icon": "🔧",
+            "title": "Guía de instalación",
+            "description": "Instrucciones de instalación paso a paso y recomendaciones de montaje para ambientes marinos."
+          },
+          {
+            "icon": "📞",
+            "title": "Línea de atención las 24/7",
+            "description": "Atención técnica las 24 horas del día para necesidades urgentes de resortes de gas marinos y solución de problemas."
+          }
+        ],
+        "imageAlt": "Equipo de atención técnica"
+      },
+      "successStories": {
+        "title": "Historias de éxito de clientes",
+        "stories": [
+          {
+            "customerImageAlt": "Construidor de yates de lujo",
+            "customerName": "Construidor de yates de lujo",
+            "location": "Fort Lauderdale, FL",
+            "testimonial": "DK Gas Springs ofreció soluciones personalizadas para nuestro proyecto de yate de lujo de 150 pies. La construcción de acero inoxidable 316L ha funcionado a la perfección en condiciones de agua salada durante más de 3 años.",
+            "results": [
+              "Cero problemas de corrosión",
+              "Ahorro del 50% en costos en comparación con la competencia"
+            ]
+          },
+          {
+            "customerImageAlt": "Flota de pesca comercial",
+            "customerName": "Flota de pesca comercial",
+            "location": "Seattle, WA",
+            "testimonial": "Hemos equipado toda nuestra flota de 25 embarcaciones de pesca con resortes de gas marinos DK. La confiabilidad y durabilidad en las duras condiciones del Pacífico son excepcionales.",
+            "results": [
+              "25 embarcaciones equipadas",
+              "Logro de un 99,8% de disponibilidad"
+            ]
+          }
+        ]
+      },
+      "quoteForm": {
+        "title": "Solicita tu cotización gratuita hoy",
+        "description": "¿Listo para actualizar tus resortes de gas marinos? Nuestros expertos ofrecerán una cotización personalizada en 24 horas.",
+        "benefits": [
+          {
+            "icon": "✅",
+            "text": "Consultoría técnica gratuita"
+          },
+          {
+            "icon": "✅",
+            "text": "Ingeniería personalizada disponible"
+          },
+          {
+            "icon": "✅",
+            "text": "Precios competitivos garantizados"
+          },
+          {
+            "icon": "✅",
+            "text": "Envío rápido a EE.UU."
+          }
+        ],
+        "applicationOptions": [
+          {
+            "value": "yacht-hatch",
+            "label": "Escotilla de yate"
+          },
+          {
+            "value": "engine-cover",
+            "label": "Tapa de motor"
+          },
+          {
+            "value": "furniture",
+            "label": "Mueble marino"
+          },
+          {
+            "value": "custom",
+            "label": "Aplicación personalizada"
+          }
+        ],
+        "submitButtonText": "Solicitar cotización gratuita"
+      },
+      "faq": {
+        "title": "Preguntas frecuentes (FAQ)",
+        "items": [
+          {
+            "question": "¿Qué diferencia a los resortes de gas marinos de los resortes de gas estándar?",
+            "answer": "Los resortes de gas marinos utilizan una construcción de acero inoxidable 316L y sellos especializados para resistir la corrosión por agua salada y ambientes marinos duras. Además, están diseñados para cumplir con las normativas ABYC para aplicaciones marinas."
+          },
+          {
+            "question": "¿Cómo calculo la fuerza necesaria para mi aplicación marina?",
+            "answer": "El cálculo de la fuerza depende del peso de la escotilla/tapa, la geometría de montaje y el esfuerzo de apertura deseado. Nuestros ingenieros ofrecen consultoría gratuita para determinar la fuerza óptima para tu aplicación específica."
+          },
+          {
+            "question": "¿Cuál es la vida útil típica de los resortes de gas marinos?",
+            "answer": "Nuestros resortes de gas marinos están diseñados para más de 100.000 ciclos y suelen durar de 10 a 15 años en uso marino normal. Ofrecemos una garantía de 30 años en materiales y mano de obra."
+          },
+          {
+            "question": "¿Ofrecen soportes de montaje personalizados?",
+            "answer": "Sí, ofrecemos soportes de montaje y herramientas personalizadas, diseñadas específicamente para aplicaciones marinas. Todos los soportes están hechos de materiales de grado marino con protección adecuada contra la corrosión."
+          },
+          {
+            "question": "¿Envían a todos los estados de EE.UU.?",
+            "answer": "Sí, enviamos a los 50 estados con envío estándar en 48 horas. Para aplicaciones marinas urgentes, están disponibles opciones de envío expreso y en el mismo día."
+          },
+          {
+            "question": "¿Qué certificaciones tienen sus resortes de gas marinos?",
+            "answer": "Nuestros resortes de gas marinos cumplen con las normativas ABYC y están certificados ISO 9001:2015. También proporcionamos marcado CE para cumplimiento internacional cuando es necesario."
+          }
+        ]
+      }
+    }
   }
 }

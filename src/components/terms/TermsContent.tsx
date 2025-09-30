@@ -93,7 +93,7 @@ We reserve the right to modify these terms at any time. Continued use of the ser
 For questions about these Terms of Use, please contact us at:
 - Email: gs-info@dkmachineryinc.com
 - Address: Ningbo, China
-- Phone: +86 123 4567 89XX
+- Phone: +86 780 4467
 `
 
   return (

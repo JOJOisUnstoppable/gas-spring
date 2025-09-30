@@ -172,5 +172,417 @@
   "terms": {
     "title": "Terms of Use",
     "description": "Eine vollständige Vereinbarung, die Nutzungsbedingungen, Haftungszuordnung, Datenschutz, Produktrichtlinien (Bestellung/Lieferung/Rückgabe/Garantie), Haftungsausschluss sowie das anwendbare Recht abdeckt."
+  },
+  "products": {
+    "gas-spring": {
+      "productSeries": {
+        "title": "Product Series"
+      },
+      "Navigation": [
+        "Produktübersicht",
+        "Was ist eine Gasfeder?",
+        "Produktreihen",
+        "Wie es funktioniert",
+        "Installationsanleitung",
+        "Kontaktieren Sie uns"
+      ],
+      "whatIsGS": {
+        "title": "Was ist eine Gasfeder?",
+        "description": [
+          "**Gasfedern** sind hydropneumatische Energiespeicherkomponenten. Sie bestehen aus einer Präzisionskolbenstange, die sich in einem dichten Zylinder bewegt – dieser Zylinder ist mit Druckstickstoff und Öl gefüllt.  ",
+          "Unabhängig von der Position der Gasfeder ist der Druck um den Kolben dauernd gleichmäßig. Dies liegt an der kleinen Querschnittsfläche der Stange – daher arbeiten Gasfedern stabiler als Schraubenfedern.  ",
+          "Die Federkraft **(F)** errechnet sich aus der Druckdifferenz **(ΔP)** zwischen der inneren und äußeren Umgebung, die auf die Querschnittsfläche der Kolbenstange **(A)** einwirkt: ( F = ΔP × A).  ",
+          "Die Spezifikationen können angepasst werden, indem man die eingespritzte Stickstoffmenge, die Ölmenge und die Querschnittsfläche der Kolbenstange anpasst – so lassen sie sich an spezielle Anwendungsanforderungen anpassen.  ",
+          "In Hochdruckumgebungen muss die Druckdifferenz **ΔP** sorgfältig gesteuert werden.  ",
+          "Im Folgenden werden verschiedene Arten von Gasfedern vorgestellt."
+        ]
+      },
+      "howGSWork": {
+        "title": "Wie funktionieren Gasfedern?",
+        "desc": [
+          "Gasfedern – oft auch als Gasstangen oder Gasschockdämpfer bezeichnet – arbeiten mit komprimiertem Stickstoffgas als **elastischem Energiespeichermaterial** in einem abgedichteten Metallzylinder. Damit dieser Aufbau reibungslos funktioniert, enthält der Zylinder zudem eine Mischung aus spezialisiertem Hydrauliköl (z. B. Transformatorenöl oder Turbinenöl). Dieses Öl erfüllt drei Schlüsselfunktionen:",
+          "Abdichtung des Gases im Inneren",
+          "Schmierung bewegter Teile zur Reduzierung von Abnutzung",
+          "Gewährleistung einer gleichmäßigen Übertragung mechanischer Kräfte.",
+          "Wenn Sie die Kolbenstange in den Zylinder hineindrücken (dies ist der **Kompressionsvorgang**), verringert sich der verfügbare Raum für das Stickstoffgas. Genau wie das Zusammendrücken eines Ballons den Innendruck erhöht, führt dieses verkleinerte Volumen ebenfalls zu einem Anstieg des Gasdrucks im Zylinder – dies folgt dem [Gesetz von Boyle](https://www.britannica.com/science/Boyles-law).",
+          "Die Ausgabekraft der Gasfeder steigert sich, je weiter man die Stange hineindrückt, und ist am stärksten, wenn die Stange vollständig in den Zylinder hineingedrückt ist. Diese stabilere und zuverlässigere Kraft im Vergleich zu Schraubenfedern ist der Grund, warum Gasfedern in alltäglichen Gegenständen Verwendung finden – beispielsweise in Autohintenklappen (um sie sanft geöffnet zu halten), Industriemaschinen (zur Bewegungssteuerung) und ergonomischen Möbeln (wie verstellbaren Bürostühlen)."
+        ],
+        "KeyBehavior": {
+          "title": "Schlüsserverhalten: Druck vs. Volumen",
+          "desc": [
+            "Wenn Sie sich das obige Diagramm ansehen, erkennen Sie, wie sich die Gasfeder verhält, wenn sich der Kolben bewegt.",
+            "Bei Gasfedern steigt die Kraft exponentiell, wenn sie komprimiert werden – hierfür wird weniger Anfangskraft zum Komprimieren benötigt. Sobald die Gasfeder sich dem Ende ihres Hubes nähert, steigt die erforderliche Kompressionskraft.",
+            "**Zustand: Kolben vollständig ausgefahren**",
+            "Wenn der Kolben vollständig ausgefahren ist, weist der Zylinder das größte Volumen für Gas auf.",
+            "**Zustand: Kolben vollständig komprimiert**",
+            "Wenn der Kolben sich in den vollständig komprimierten Zustand bewegt, verkleinert sich der Gasraum – folglich steigt der Druck (dies ist in der durchgezogenen Linie im Diagramm zu sehen). Die gestrichelte Linie zeigt gleichzeitig, wie sich das Zylindervolumen verringert."
+          ],
+          "imageCaption": [
+            "**Kraftverhalten**",
+            "**F1** = Ausfahrkraft bei vollständig ausgefahrener Kolbenstange.",
+            "**F2** = Ausfahrkraft bei vollständig komprimierter Kolbenstange.",
+            "**F3** = Einfahrkraft bei vollständig ausgefahrener Kolbenstange.",
+            "**F4** = Einfahrkraft bei vollständig komprimierter Kolbenstange.",
+            "**FR** = Reibungskraft."
+          ]
+        },
+        "CriticalPerformanceMeasure": {
+          "title": "Ein entscheidender Leistungswert: Der K-Faktor",
+          "frontdesc": [
+            "Die Ausfahrkraft errechnet sich durch Multiplikation des Fülldrucks mit der Querschnittsfläche der Kolbenstange. Sowohl Größe als auch Kraft können nach Ihren Anforderungen angepasst werden.",
+            "DK-Standardgasfedern bieten Ausfahrkräfte von **10 N bis 5000 N** mit einer Toleranz von ± 5-7%.",
+            "Die angegebene Kraft (F₁) wird stets bei **20°C ± 2°C** gemessen, wobei die Kolbenstange nach unten gerichtet ist.",
+            "Physikalisch hängt die tatsächliche Kraft einer Gasfeder von der Temperatur ab. Pro 10°C ändert sich die Kraft um ca. 3,3%."
+          ],
+          "desc": [
+            "Um die Leistungsfähigkeit einer Gasfeder zu definieren, verwenden Ingenieure den sogenannten K-Faktor (auch **Fortschreitungsrate der Gasfeder** genannt). Vereinfacht ausgedrückt handelt es sich hierbei um die prozentuale Kraftänderung zwischen zwei Zuständen:",
+            "Unbelastet: Wenn der Kolben sich in Position P1 befindet (vollständig ausgefahren, Ausgangsposition der Feder).",
+            "Voll belastet: Wenn der Kolben sich in Position P2 befindet (vollständig komprimiert).",
+            "Gasfedern hoher Qualität weisen einen sehr niedrigen K-Faktor auf – normalerweise zwischen 1,05 und 1,8. Zum Vergleich: Mechanische Kompressionsfedern (wie die zuvor erwähnten Schraubenfedern) weisen deutlich höhere K-Faktoren auf. Ein niedriger K-Faktor bedeutet, dass die Kraft der Feder beim Komprimieren stabil bleibt – dies ist尤为 wichtig für Anwendungen, bei denen konstante Hebekraft oder Dämpfung erforderlich ist (z. B. Halten einer schweren Autohintenklappe in jeder Position).",
+            "Eine kurze Anmerkung zur Berechnung: Gasfedern werden in Position P1 auf eine bestimmte Kraft vorgespannt (diese Kraft nennen wir F1) – daher sollten Sie immer F1 als Ausgangspunkt verwenden, um die passende Gasfeder für einen Anwendungsfall zu ermitteln."
+          ]
+        }
+      },
+      "Replacement": {
+        "title": "Wie man eine Gasfeder wählt: Ersatz nach Code und Größe?",
+        "subTitle": "Ersatz nach Code und Größe (Schlüssel: EL2 / Hub / Druck)",
+        "desc": [
+          "**Hub einer Gasfeder:** Dies bezeichnet die maximale Bewegungsspanne der Stange, von ihrer vollständig eingefahrenen Position bis zu ihrer vollständig ausgefahrenen Position.",
+          "**EL1: Ausfahr- oder Expansionslänge:** Dieser Begriff bezeichnet die Gesamtlänge der Gasfeder, gemessen vom Mittelpunkt einer Endverbindung zum Mittelpunkt der gegenüberliegenden Endverbindung.",
+          "**EL2:** Wenn keine Endverbindungen angegeben sind, bezieht es sich auf die Länge vom Stangenende zum Rohrende."
+        ]
+      },
+      "howChooseGS": {
+        "title": "Wie man eine Gasfeder wählt: Eine einfache Anleitung für Ingenieure",
+        "description": "Als Ingenieur stehen Sie vor einem Problem im Zusammenhang mit gesteuerter Bewegung, das ohne zusätzliche Energie gelöst werden muss? Beantworten Sie die folgenden Fragen, um Ihre Auswahl abzuschließen. Wir können Ihnen bei der Auswahl der passenden Gasfeder für Ihre Anwendung helfen – und zudem bei der Konstruktion unterstützen!",
+        "imageNote": "Hinweis: Wir erhalten Ihre Angaben und melden uns innerhalb von **12 Stunden** bei Ihnen zurück.",
+        "howItWork": {
+          "title": "So funktioniert es:",
+          "list": [
+            "1. **Einfache Zeichnung** – Stellen Sie eine grundlegende Zeichnung bereit (wie das Beispiel oben), die Folgendes zeigt:",
+            "Gewicht des beweglichen Teils",
+            "Sein Schwerpunkt",
+            "Alle Abmessungen (gemessen vom Drehpunkt/Scharnierpunkt)",
+            "Die erforderliche Bewegungsspanne (in Grad)",
+            "Die gewünschte Betriebskraft (Haltekraft/Druckkraft)",
+            "2. **Wir übernehmen den Rest!** – Senden Sie uns Ihre Zeichnung zu, und wir empfehlen Ihnen die optimale Gasfeder für Ihre Bedürfnisse.",
+            "Es ist so einfach! **Teilen Sie uns einfach Ihre Anforderungen mit**, und wir kümmern uns um den Rest."
+          ]
+        },
+        "table": [
+          "Bestimmung der minimalen Ausfahrkraft F1",
+          "Im Formel F1=KGL / bn:",
+          "F1=Minimale Ausfahrkraft (Einheit:N)",
+          "G=Türgewicht (Einheit:kg)",
+          "L=Abstand vom Schwerpunkt zum Schwungmittelpunkt (Einheit:mm)",
+          "b=Effektiver Kraftarm bei Ausfahren der Gasfeder (Einheit:mm)",
+          "n=Anzahl der Gasfedern",
+          "P=Montageposition an der Gasfedertür, nämlich ca. 1/3 L vom Schwungmittelpunkt entfernt.",
+          "K=Sicherheitsfaktor (üblicherweise 11)",
+          "G=30kg, L=400 mm, n=2, b=200mm und F1=30×400×11/(200×2)=330N",
+          "S=Stkore",
+          "EL1=Ausfahr- oder Expansionslänge"
+        ]
+      },
+      "CalculationF1": {
+        "EFC": {
+          "title": "Ausfahrkraftberechnung",
+          "desc": [
+            "Die Ausfahrkraft errechnet sich durch Multiplikation des Fülldrucks mit der Querschnittsfläche der Kolbenstange. Durch Anpassung dieser Faktoren kann DK Gasfedern mit einem breiten Spektrum an Ausfahrkräften herstellen, um Ihre Anforderungen zu erfüllen."
+          ]
+        },
+        "GSDFCC": {
+          "desc": [
+            "Diese Werte können z. B. durch das Gasvolumen oder die Ölmenge beeinflusst werden. Ein besonderes Merkmal von DK-Gasfedern ist der niedrige Reibungswert. Durch Kombinationen verschiedener Düsenöffnungen und Ölmengen ist es möglich, die Ausfahr- und Einfahrgeschwindigkeit gemäß den Anforderungen zu steuern."
+          ]
+        }
+      },
+      "GSInstallationGuide": {
+        "title": "Gasfeder: Auswahl des Montageortes",
+        "desc": [
+          "1. Die Kolbenstange **muss in nach unten gerichteter Ausrichtung montiert werden** (niemals umgedreht). Dies minimiert die Reibung und gewährleistet optimale Dämpfungs- und Puffereigenschaften.",
+          "2. Die richtige Lagerpunktsetzung ist entscheidend: Wenn das zugehörige Bauteil (z. B. eine Tür) geschlossen ist, muss die Bewegung der Gasfeder über die strukturelle Mittellinie hinausgehen. Dies verhindert ein unerwünschtes automatisches Zurücksetzen (z. B. dass die Feder das Bauteil öffnet).",
+          "3. Passen Sie die Gelenksausrichtung durch Drehen des Zylinders oder der Kolbenstange im Uhrzeigersinn an.",
+          "4. Stellen Sie sicher, dass Abmessungen und Kraftwert korrekt sind. Bei Motorhaubenanwendungen sollte die Kolbenstange beispielsweise bei geschlossener Haube ca. 10 mm Hub zurückbehalten.",
+          "5. Betreiben Sie die Gasfeder innerhalb des Umgebungstemperaturbereichs: -30℃ bis +80℃.",
+          "6. Gasfedern sind Hochdruckkomponenten – **niemals demontieren, erhitzen, backen oder schlagen**.",
+          "7. Vermeiden Sie Kipp- oder Querkräfte während des Betriebs; verwenden Sie die Gasfeder nicht als Handläufe. Vermeiden Sie Pendelbewegungen. Fehlausrichtung kann Blockierungen oder Geräusche verursachen.",
+          "8. Um die Dichtungen zu schützen und die Lebensdauer zu verlängern:",
+          "Vermeiden Sie Schäden an der Kolbenstangenoberfläche.",
+          "Tragen Sie keine Farbe oder Chemikalien auf die Kolbenstange auf.",
+          "Installieren Sie die Gasfeder nicht vor dem Schweißen, Schleifen oder Streichen vor."
+        ],
+        "imageCaption": "Hinweis: Ausrichtung des Gasfedermontageortes."
+      },
+      "CTA": {
+        "title": "Das Sprechen mit uns ist ein großer Schritt für die Lösung.",
+        "desc": [
+          "Wir unterstützen bekannte Unternehmen bei der Entwicklung neuer Produkte",
+          "Bitte kontaktieren Sie uns!"
+        ]
+      }
+    },
+    "marine": {
+      "hero": {
+        "title": "Premium-Marine-Gasfedern für US-Wasserstraßen",
+        "subtitle": "Marine-Gasstangen aus Edelstahl 316L – gefertigt für amerikanische Boote & Yachten",
+        "features": [
+          {
+            "icon": "🛡️",
+            "text": "ABYC-zertifiziert"
+          },
+          {
+            "icon": "⚡",
+            "text": "48-Stunden-Lieferung"
+          },
+          {
+            "icon": "🔧",
+            "text": "Individuelle Konstruktion"
+          },
+          {
+            "icon": "🏆",
+            "text": "30-Jahres-Garantie"
+          }
+        ],
+        "ctaButtons": [
+          {
+            "text": "Kostenloses Angebot anfordern",
+            "href": "#quote",
+            "isPrimary": true
+          },
+          {
+            "text": "Produkte anzeigen",
+            "href": "#products",
+            "isPrimary": false
+          }
+        ],
+        "heroImageAlt": "Marine-Gasfedern an einer Luxusyacht"
+      },
+      "trustIndicators": {
+        "items": [
+          {
+            "imageAlt": "ABYC-Zertifizierung",
+            "text": "ABYC-zertifiziert"
+          },
+          {
+            "imageAlt": "ISO 9001",
+            "text": "ISO 9001:2015"
+          },
+          {
+            "imageAlt": "CE-Kennzeichnung",
+            "text": "CE-konform"
+          },
+          {
+            "imageAlt": "Für USA gefertigt",
+            "text": "Für den US-Markt gefertigt"
+          }
+        ]
+      },
+      "whyChooseUs": {
+        "title": "Warum DK Marine-Gasfedern wählen?",
+        "advantages": [
+          {
+            "iconAlt": "Edelstahl 316L",
+            "title": "Edelstahl 316L (Marinequalität)",
+            "description": "Überlegene Korrosionsbeständigkeit sowohl in Süß- als auch Salzwasserumgebungen. Übertrifft Standard-Edelstahl in anspruchsvollen Marine-Bedingungen."
+          },
+          {
+            "iconAlt": "Schnelle Lieferung",
+            "title": "Blitzschnelle Lieferung",
+            "description": "48-Stunden-Versand an jeden Ort in den USA. Notfall-Service am gleichen Tag für kritische Marine-Anwendungen verfügbar."
+          },
+          {
+            "iconAlt": "Individuelle Konstruktion",
+            "title": "Individuelle Konstruktion",
+            "description": "Kostenlose Design-Beratung und individuelle Gasfeder-Lösungen. Unsere Ingenieure arbeiten nach Ihren Spezifikationen, um die perfekte Passform zu schaffen."
+          },
+          {
+            "iconAlt": "US-basierter Support",
+            "title": "US-basierter Support",
+            "description": "24/7-Techniksupport durch unser amerikanisches Team. Lokale Lager und Servicezentren in ganz den Vereinigten Staaten."
+          }
+        ]
+      },
+      "productShowcase": {
+        "title": "Marine-Gasfeder-Lösungen",
+        "products": [
+          {
+            "imageAlt": "Gasfedern für Yachtluken",
+            "title": "Gasfedern für Yachtluken",
+            "description": "Premium-Gasstangen für Yachtluken und Kabinen. Sanfte Funktion und zuverlässige Haltekraft.",
+            "features": [
+              "Kraftbereich: 50-2000N",
+              "Konstruktion aus Edelstahl 316L",
+              "Individuelle Montageteile verfügbar"
+            ],
+            "ctaText": "Angebot anfordern"
+          },
+          {
+            "imageAlt": "Gasstangen für Motorabdeckungen von Booten",
+            "title": "Gasstangen für Motorabdeckungen",
+            "description": "Schwerlast-Gasfedern für Motorabdeckungen und Zugangsklappen von Booten. Gefertigt für häufige Nutzung.",
+            "features": [
+              "Hochleistungsanwendungen bis 3000N",
+              "Temperaturbeständige Dichtungen",
+              "Schwingungsdämpfendes Design"
+            ],
+            "ctaText": "Angebot anfordern"
+          },
+          {
+            "imageAlt": "Gasfedern für Marine-Möbel",
+            "title": "Gasfedern für Marine-Möbel",
+            "description": "Kompakte Gasstangen für Marine-Möbel, Sitzgelegenheiten und Lagerlösungen. Platzsparendes Design.",
+            "features": [
+              "Kompaktes Design für enge Räume",
+              "Sanftschließ- und Haltefunktionen",
+              "Verschiedene Endverbindungsoptionen"
+            ],
+            "ctaText": "Angebot anfordern"
+          }
+        ]
+      },
+      "applications": {
+        "title": "Marine-Anwendungen",
+        "items": [
+          {
+            "imageAlt": "Luxusyacht",
+            "title": "Luxusyachten",
+            "description": "Premium-Gasfedern für High-End-Yachtanwendungen – darunter Luken, Möbel und Geräteabdeckungen."
+          },
+          {
+            "imageAlt": "Gewerbliche Fischereifahrzeuge",
+            "title": "Gewerbliche Fischerei",
+            "description": "Schwerlast-Gasstangen, entwickelt für die anspruchsvollen Umgebungen gewerblicher Fischereifahrzeuge."
+          },
+          {
+            "imageAlt": "Segelboot",
+            "title": "Segelboote",
+            "description": "Leichte aber langlebige Gasfedern, ideal für Luken und Gerätelagerung an Segelbooten."
+          },
+          {
+            "imageAlt": "Motorboot",
+            "title": "Motorboote",
+            "description": "Hochleistungs-Gasstangen für Motorabdeckungen und Zugangsklappen von Motorbooten."
+          }
+        ]
+      },
+      "technicalSupport": {
+        "title": "Experten-Techniksupport",
+        "description": "Unsere Marine-Gasfeder-Experten helfen Ihnen, die perfekte Lösung für Ihre Anwendung auszuwählen.",
+        "features": [
+          {
+            "icon": "📐",
+            "title": "Kostenlose Design-Beratung",
+            "description": "Unsere Ingenieure helfen Ihnen, die optimalen Gasfeder-Spezifikationen für Ihre Marine-Anwendung zu ermitteln."
+          },
+          {
+            "icon": "🔧",
+            "title": "Montageanleitung",
+            "description": "Schritt-für-Schritt-Montageanweisungen und Montageempfehlungen für Marine-Umgebungen."
+          },
+          {
+            "icon": "📞",
+            "title": "24/7-Support-Hotline",
+            "description": "Täglicher Techniksupport für dringende Anforderungen an Marine-Gasfedern und Problembehebung."
+          }
+        ],
+        "imageAlt": "Techniksupport-Team"
+      },
+      "successStories": {
+        "title": "Kundenerfolgsgeschichten",
+        "stories": [
+          {
+            "customerImageAlt": "Premium-Yachtbauer",
+            "customerName": "Premium-Yachtbauer",
+            "location": "Fort Lauderdale, FL",
+            "testimonial": "DK Gas Springs hat individuelle Lösungen für unser 150-Fuß-Luxusyacht-Projekt geliefert. Die Konstruktion aus Edelstahl 316L funktioniert seit über 3 Jahren fehlerfrei in Salzwasserumgebungen.",
+            "results": [
+              "Keine Korrosionsprobleme",
+              "50 % Kostenersparnis im Vergleich zu Konkurrenten"
+            ]
+          },
+          {
+            "customerImageAlt": "Gewerbliche Fischereiflotte",
+            "customerName": "Gewerbliche Fischereiflotte",
+            "location": "Seattle, WA",
+            "testimonial": "Unsere gesamte Flotte von 25 Fischereifahrzeugen ist mit DK-Marine-Gasfedern ausgestattet. Die Zuverlässigkeit und Haltbarkeit in den anspruchsvollen Bedingungen des Pazifiks ist hervorragend.",
+            "results": [
+              "25 Fahrzeuge ausgestattet",
+              "99,8 %ige Verfügbarkeit erzielt"
+            ]
+          }
+        ]
+      },
+      "quoteForm": {
+        "title": "Holen Sie sich heute Ihr kostenloses Angebot!",
+        "description": "Bereit, Ihre Marine-Gasfedern zu aktualisieren? Unsere Experten senden Ihnen innerhalb von 24 Stunden ein individuelles Angebot zu.",
+        "benefits": [
+          {
+            "icon": "✅",
+            "text": "Kostenlose Technikberatung"
+          },
+          {
+            "icon": "✅",
+            "text": "Individuelle Konstruktion verfügbar"
+          },
+          {
+            "icon": "✅",
+            "text": "Wettbewerbsfähige Preise garantiert"
+          },
+          {
+            "icon": "✅",
+            "text": "Schnelle Lieferung in die USA"
+          }
+        ],
+        "applicationOptions": [
+          {
+            "value": "yacht-hatch",
+            "label": "Yachtluka"
+          },
+          {
+            "value": "engine-cover",
+            "label": "Motorabdeckung"
+          },
+          {
+            "value": "furniture",
+            "label": "Marine-Möbel"
+          },
+          {
+            "value": "custom",
+            "label": "Individuelle Anwendung"
+          }
+        ],
+        "submitButtonText": "Kostenloses Angebot anfordern"
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen (FAQ)",
+        "items": [
+          {
+            "question": "Was unterscheidet Marine-Gasfedern von Standard-Gasfedern?",
+            "answer": "Marine-Gasfedern verwenden eine Konstruktion aus Edelstahl 316L und Spezialdichtungen, um Korrosion durch Salzwasser und anspruchsvolle Marine-Umgebungen widerstehen zu können. Darüber hinaus sind sie so konzipiert, dass sie die ABYC-Standards für Marine-Anwendungen erfüllen."
+          },
+          {
+            "question": "Wie berechne ich die benötigte Kraft für meine Marine-Anwendung?",
+            "answer": "Die Kraftberechnung hängt vom Gewicht der Luke/Abdeckung, der Montagegeometrie und dem gewünschten Öffnungsaufwand ab. Unsere Ingenieure bieten kostenlose Beratung an, um die optimale Kraft für Ihre spezielle Anwendung zu ermitteln."
+          },
+          {
+            "question": "Wie lange halten Marine-Gasfedern in der Regel?",
+            "answer": "Unsere Marine-Gasfedern sind für 100.000+ Zyklen konzipiert und halten bei normaler Marine-Nutzung in der Regel 10-15 Jahre. Wir bieten eine 30-Jahres-Garantie für Material und Verarbeitung an."
+          },
+          {
+            "question": "Bieten Sie individuelle Montageteile an?",
+            "answer": "Ja, wir bieten individuelle Montageteile und Befestigungsteile an, die speziell für Marine-Anwendungen entwickelt wurden. Alle Montageteile bestehen aus Marine-Qualitätsmaterialien mit angemessener Korrosionsschutz."
+          },
+          {
+            "question": "Liefern Sie in alle US-Bundesstaaten?",
+            "answer": "Ja, wir liefern in alle 50 US-Bundesstaaten – mit standardmäßiger 48-Stunden-Lieferung. Für dringende Marine-Anwendungen stehen Express- und Same-Day-Lieferoptionen zur Verfügung."
+          },
+          {
+            "question": "Welche Zertifizierungen haben Ihre Marine-Gasfedern?",
+            "answer": "Unsere Marine-Gasfedern erfüllen die ABYC-Standards und sind ISO 9001:2015-zertifiziert. Bei Bedarf bieten wir zudem eine CE-Kennzeichnung für internationale Konformität an."
+          }
+        ]
+      }
+    }
   }
 }

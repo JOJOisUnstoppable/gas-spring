@@ -1,5 +1,6 @@
 import 'server-only'
 import type { Locale } from './config'
+import type { Dictionary } from '@/types/dictionary'
 
 const dictionaries = {
   en: () => import('./dictionaries/en.json').then((module) => module.default),
@@ -9,6 +10,7 @@ const dictionaries = {
   pl: () => import('./dictionaries/pl.json').then((module) => module.default),
 }
 
-export const getDictionary = async (locale: Locale) => {
-  return dictionaries[locale]()
+export async function getDictionary(locale: Locale): Promise<Dictionary> {
+  const mod = await import(`./dictionaries/${locale}.json`)
+  return mod.default as Dictionary
 }

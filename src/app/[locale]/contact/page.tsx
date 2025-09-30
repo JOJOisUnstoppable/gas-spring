@@ -43,7 +43,7 @@ export default async function ContactPage(
               <Phone className="w-6 h-6 text-gray-400" />
               <div>
                 <h3 className="font-semibold">{dict.contact.phone}</h3>
-                <p className="text-gray-600">+86 123 4567 89XX</p>
+                <p className="text-gray-600">+86 780 4467</p>
               </div>
             </div>
             

@@ -7,6 +7,13 @@ import { getProductData, getProductsByCategory } from '@/lib/products'
 import { notFound } from 'next/navigation'
 // import { categoryConfig } from '@/components/products/categoryConfig'
 import { CategoryIntroduction } from '@/components/products/CategoryIntroduction'
+import ImageInputForm from "@/components/products/ImageInputForm"
+import HowtoChooseGS from '@/components/products/HowtoChooseGS'
+import HowGSWork from '@/components/products/HowGSWork'
+import CalculationF1 from '@/components/products/CalculationF1'
+import GSInstallationGuide from '@/components/products/GSInstallationGuide'
+import CTA from '@/components/products/CTA'
+import FloatingNavMenu from '@/components/products/FloatingNavMenu'
 
 export default async function CategoryPage(
   props: {
@@ -31,40 +38,113 @@ export default async function CategoryPage(
 
   return (
     <>
-      <ProductHero
-        title={category.title}
-        description={category.description}
-        image={category.image}  // 传入分类图片
-        dict={dict}
-        locale={locale}
-      />
+      {/* 悬浮内容菜单 */}
+      <FloatingNavMenu navigationItems={dict.products['gas-spring'].Navigation} />
 
-      <CategoryIntroduction
-        whatIsTitle={category.whatIsTitle}
-        whatIsDesc={category.whatIsDesc}
-        principalTitle={category.principalTitle}
-        principalDesc={category.principalDesc}
-        image={category.image}
-        id={id}
-        locale={locale}
-      />
+      {/*hero*/}
+      <section id="hero">
+        <ProductHero
+          title={category.title}
+          description={category.description}
+          image={category.image}  // 传入分类图片
+          dict={dict}
+          locale={locale}
+        />
+      </section>
 
-      <div className="container max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-          {products.map((product) => (
-            <ProductCard
-              key={product.id}
-              product={{
-                id: product.id,
-                name: product.title,
-                description: product.description,
-                images: [product.image]
-              }}
-              locale={locale}
-            />
-          ))}
+      {/*what is gas spring*/}
+      <section id="what-is-gas-spring">
+        <CategoryIntroduction
+          whatIsTitle={dict.products['gas-spring'].whatIsGS.title}
+          whatIsDesc={dict.products['gas-spring'].whatIsGS.description}
+          id={id}
+          locale={locale}
+        />
+      </section>
+
+      {/* 产品系列 卡片 */}
+      <section id="product-series">
+        <div className="container max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            {dict.products['gas-spring'].productSeries?.title || 'Product Series'}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {products.map((product) => (
+              <ProductCard
+                key={product.id}
+                product={{
+                  id: product.id,
+                  name: product.title,
+                  description: product.description,
+                  images: [product.image]
+                }}
+                locale={locale}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
+
+      {/* How GAS Spring work */}
+      <section id="how-gs-work">
+        <HowGSWork
+          mainTitle={dict.products['gas-spring'].howGSWork.title}
+          mainContent={dict.products['gas-spring'].howGSWork.desc}
+          subTitle1={dict.products['gas-spring'].howGSWork.KeyBehavior.title}
+          subContent1={dict.products['gas-spring'].howGSWork.KeyBehavior.desc}
+          imageSrc={'/images/products_page/HowGSWork.png'}
+          imageAlt={'GAS Spring Key Behavior: Pressure vs. Volume'}
+          imageCaption={dict.products['gas-spring'].howGSWork.KeyBehavior.imageCaption}
+          subTitle2={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.title}
+          frontdesc={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.frontdesc}
+          subContent2={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.desc}
+        />
+      </section>
+
+      {/* GAS Spring 型号选择器 */}
+      <section id="replacement">
+        <ImageInputForm
+          title={dict.products['gas-spring'].Replacement.title}
+          subtitle={dict.products['gas-spring'].Replacement.subTitle}
+          desc={dict.products['gas-spring'].Replacement.desc}
+        />
+      </section>
+
+      {/* How to choose gas spring */}
+      <section id="how-to-choose">
+        <HowtoChooseGS
+          dict={dict}
+          imageSrc={'/images/products_page/CalculationF1.png'}
+          imageAlt={'GAS Spring Calculation Principle F1'}
+        />
+      </section>
+
+      {/* Calculation Principle F1 */}
+      <section id="calculation">
+        <CalculationF1
+          midTitle1={dict.products['gas-spring'].CalculationF1.EFC.title}
+          midDesc1={dict.products['gas-spring'].CalculationF1.EFC.desc}
+          midDesc2={dict.products['gas-spring'].CalculationF1.GSDFCC.desc}
+        />
+      </section>
+
+      {/* Gas spring Installation Guideline  */}
+      <section id="installation">
+        <GSInstallationGuide
+          imageCaption={dict.products['gas-spring'].GSInstallationGuide.imageCaption}
+          title={dict.products['gas-spring'].GSInstallationGuide.title}
+          desc={dict.products['gas-spring'].GSInstallationGuide.desc}
+        />
+      </section>
+
+      {/* CTA */}
+      <section id="cta">
+        <CTA
+          title={dict.products['gas-spring'].CTA.title}
+          desc={dict.products['gas-spring'].CTA.desc}
+          locale={locale}
+        />
+      </section>
     </>
   )
 }
