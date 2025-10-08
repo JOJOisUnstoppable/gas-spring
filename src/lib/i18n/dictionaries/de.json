@@ -583,6 +583,494 @@
           }
         ]
       }
+    },
+    "aftermarket": {
+      "hero": {
+        "heroBadge": "Ende mit Lagerproblemen!",
+        "heroTitleRed": "Müde, Geld zu verlieren",
+        "heroTitleMain": "durch toten Lagerbestand?",
+        "heroTitleGreen": "Mischaufträge = maximierter Gewinn",
+        "heroSubtitleStrong": "Die Lösung, die intelligente Händler bereits entdeckt haben:",
+        "heroSubtitleMain": "Kaufe 50+ verschiedene Modelle in EINEM Auftrag. Chinesischer Fabrikpreis + Null-Lagerrisiko.",
+        "heroPainPoint": "❌ Nie mehr: „Ich habe 100 Teile des falschen Modells“",
+        "statInventario": "Toter Lagerbestand",
+        "statCompetencia": "vs. Konkurrenz",
+        "statModelos": "Auftrag = 50+ Modelle",
+        "statRoi": "Garantiertes ROI",
+        "ctaCalcular": "💰 Berechne meine tatsächlichen Einsparungen",
+        "ctaCotizacion": "🎯 Risikofreie Offerte",
+        "trustFabrica": "Direkte chinesische Fabrik",
+        "trustPrecio": "Garantie für den niedrigsten Preis",
+        "trustEspecificaciones": "10.000+ Spezifikationen",
+        "showcaseCatalogo": "Aftermarket-Katalog",
+        "showcaseStock": "✅ Auf Lager",
+        "productCapo": "Motorhaube",
+        "productCompatibleCapo": "Kompatibel mit: Toyota, VW, Ford",
+        "productPorton": "Heckklappe",
+        "productCompatiblePorton": "Kompatibel mit: Chevrolet, Fiat, Renault",
+        "productVentanilla": "Autofenster",
+        "productCompatibleVentanilla": "Kompatibel mit: Nissan, Hyundai, Kia",
+        "productAmortiguador": "Dämpfer",
+        "productCompatibleAmortiguador": "Kompatibel mit: BMW, Mercedes, Audi",
+        "btnVerCatalogo": "Vollen Katalog anzeigen (5000+ Modelle)"
+      },
+      "specMatcher": {
+        "sectionTitle": "Intelligenter Spezifikationsrechner",
+        "sectionDescription": "Finde genau das, was du brauchst, unter mehr als 10.000 verfügbaren Spezifikationen",
+        "formTitle": "🔍 Suche nach technischen Spezifikationen",
+        "extendedLengthLabel": "Ausdehnungslänge (mm)",
+        "extendedLengthPlaceholder": "z. B.: 450",
+        "compressedLengthLabel": "Kompressionslänge (mm)",
+        "compressedLengthPlaceholder": "z. B.: 180",
+        "forceLabel": "Kraft (N)",
+        "forcePlaceholder": "z. B.: 300",
+        "cylinderDiameterLabel": "Zylinderdurchmesser (mm)",
+        "connectionTypeLabel": "Verbindungstyp",
+        "applicationLabel": "Anwendung",
+        "selectOption": "Auswählen",
+        "searchButton": "🔍 Spezifikationen suchen",
+        "searchingText": "🔍 Suche...",
+        "connectionTypes": {
+          "ballSocket": "Kugelgelenk",
+          "eyeEnd": "Augenende",
+          "threaded": "Gewindet",
+          "fork": "Gabel"
+        },
+        "applications": {
+          "hood": "Motorhaube",
+          "tailgate": "Heckklappe",
+          "window": "Fenster",
+          "seat": "Sitz",
+          "cabinet": "Schrank"
+        },
+        "resultsHeader": "Suchergebnisse",
+        "resultsCount": "gefundene Spezifikationen",
+        "noResultsText": "Geben Sie Spezifikationen ein, um kompatible Produkte zu finden",
+        "extendedLengthText": "Ausdehnungslänge",
+        "compressedLengthText": "Kompressionslänge",
+        "forceText": "Kraft",
+        "diameterText": "Durchmesser",
+        "connectionText": "Verbindung",
+        "applicationText": "Anwendung",
+        "priceText": "Preis",
+        "stockText": "Lagerbestand",
+        "availableText": "Verfügbar",
+        "unavailableText": "Nicht verfügbar",
+        "viewDetailsBtn": "Details anzeigen",
+        "addToQuoteBtn": "Zur Offerte hinzufügen",
+        "bulkTitle": "📦 Mischaufträge – unsere Spezialität",
+        "bulkDescription": "Kombiniere mehrere Spezifikationen in einem einzigen Auftrag, um deinen Lagerbestand zu maximieren",
+        "bulkFlexibleTitle": "🎯 Flexibles Minimum",
+        "bulkFlexibleDesc": "Nur 10 Stück pro Spezifikation<br>Minimalauftrag: 500 Stück insgesamt",
+        "bulkDiscountTitle": "💰 Mengenrabatte",
+        "bulkDiscountDesc": "Bis zu 15% Zusatzrabatt<br>bei großen Mischaufträgen",
+        "bulkCustomTitle": "📋 Individuelle Liste",
+        "bulkCustomDesc": "Wir erstellen deinen spezialisierten Katalog<br>basierend auf deinem lokalen Markt",
+        "searchPlaceholder": "Suche nach Marke, Modell oder Teiltyp...",
+        "filterLabelBrand": "Marke",
+        "filterBrandOptions": [
+          "Toyota",
+          "Volkswagen",
+          "Chevrolet",
+          "Ford",
+          "Fiat",
+          "Andere"
+        ],
+        "filterLabelType": "Gasfeder-Typ",
+        "filterTypeOptions": [
+          "Motorhaube",
+          "Heckklappe",
+          "Fenster",
+          "Dämpfer"
+        ],
+        "filterLabelYear": "Fahrzeugjahr",
+        "filterYearPlaceholder": "z. B.: 2018",
+        "searchBtnText": "Suchen",
+        "resetBtnText": "Filter löschen",
+        "resultsTitle": "Suchergebnisse",
+        "resultItemBrand": "Marke:",
+        "resultItemModel": "Modell:",
+        "resultItemType": "Typ:",
+        "resultItemPrice": "Preis:",
+        "resultItemStock": "Auf Lager:"
+      },
+      "painSolutions": {
+        "section_perdiendo": "Warum verlierst du noch immer <span class='highlight-red'>Geld</span>?",
+        "section_perdiendo_desc": "Die 3 teuersten Fehler von Händlern (und wie du sie vermeiden kannst)",
+        "error1_title": "FEHLER #1: Alles auf wenige Modelle setzen",
+        "error1_stat1": "Toter Lagerbestand",
+        "error1_stat2": "Jährliche Verluste",
+        "error1_problem": "<strong>Das Problem:</strong> Du kaufst 1000 Stück des „beliebten Modells“, verkaufst aber nur 300.",
+        "solution_title": "✅ UNSERE LÖSUNG:",
+        "error1_solution": "Mischaufträge: 20 Stück von 50 verschiedenen Modellen = NULL toter Lagerbestand",
+        "error1_benefit1": "🎯 Du deckst DEN GANZEN Marktnachfrage ab",
+        "error1_benefit2": "💰 Fabrikpreis für kleine Mengen",
+        "error1_benefit3": "🔄 Perfekte Lagerumschlagrate",
+        "error2_title": "FEHLER #2: Händlerpreise zahlen",
+        "error2_stat1": "Überpreis",
+        "error2_stat2": "Tatsächliche Marge",
+        "error2_problem": "<strong>Das Problem:</strong> Du zahlst 10 $ pro Stück, das nur 3 $ zu fertigen kostet – nur weil du „kleine Mengen“ kaufst.",
+        "error2_solution": "Direkter Fabrikpreis: 3,50 $ pro Stück bei Mischaufträgen ab 1000 Stück",
+        "error2_benefit1": "🏭 Keine Zwischenhändler = Keine Zusatzkosten",
+        "error2_benefit2": "📈 Garantierte Marge von 200%+",
+        "error2_benefit3": "🎯 Konkurrieren mit unschlagbaren Preisen",
+        "error3_title": "FEHLER #3: Mehrere Lieferanten = Totaler Chaos",
+        "error3_stat1": "Lieferanten",
+        "error3_stat2": "Verwaltung/Monat",
+        "error3_problem": "<strong>Das Problem:</strong> Du verwaltest 8 verschiedene Lieferanten, um alle Spezifikationen abzudecken.",
+        "error3_solution": "EIN einziger Lieferant für 10.000+ verschiedene Spezifikationen",
+        "error3_benefit1": "📋 Eine einzige Rechnung, ein einziger Ansprechpartner",
+        "error3_benefit2": "⚡ Offerten innerhalb von 24 Stunden für jede Spezifikation",
+        "error3_benefit3": "🎯 Konsistente Qualität bei allen Produkten",
+        "mixed_order_title": "🎯 Beispiel für einen typischen Mischauftrag",
+        "mixed_order_desc": "So maximieren unsere Kunden ihren Lagerbestand mit einem einzigen Auftrag",
+        "order_total_specs": "Gesamtspezifikationen:",
+        "order_total_specs_value": "45 verschiedene",
+        "order_total_qty": "Gesamtmenge:",
+        "order_total_qty_value": "2.250 Stück",
+        "order_avg_per_spec": "Durchschnitt pro Spezifikation:",
+        "order_avg_per_spec_value": "50 Stück",
+        "order_total_savings": "Gesamteinsparungen:",
+        "order_total_savings_value": "8.500 $ USD",
+        "breakdown_capo": "Motorhaube (15 Spezifikationen)",
+        "breakdown_capo_qty": "750 Stück",
+        "breakdown_porton": "Heckklappe (12 Spezifikationen)",
+        "breakdown_porton_qty": "600 Stück",
+        "breakdown_ventanillas": "Fenster (10 Spezifikationen)",
+        "breakdown_ventanillas_qty": "500 Stück",
+        "breakdown_asientos": "Sitze (8 Spezifikationen)",
+        "breakdown_asientos_qty": "400 Stück"
+      },
+      "economicSolutions": {
+        "section_title": "Ökonomische Lösungen für dein Geschäft",
+        "section_desc": "Maximiere deinen Gewinn mit unseren spezialisierten Lösungen für jeden Geschäftstyp",
+        "solution_workshop_title": "Für Werkstätten",
+        "solution_workshop_badge": "Am beliebtesten",
+        "solution_workshop_desc": "Perfekte Lösung für mechanische Werkstätten, die Qualität und Rentabilität suchen",
+        "solution_workshop_benefit1": "✅ Vollständige 2-jährige Garantie",
+        "solution_workshop_benefit2": "✅ Konkurrenzfähige Preise",
+        "solution_workshop_benefit3": "✅ Lagerbestand verfügbar",
+        "solution_workshop_benefit4": "✅ Technischer Support",
+        "solution_workshop_benefit5": "✅ Schneller Versand",
+        "solution_distributor_title": "Für Händler",
+        "solution_distributor_badge": "Großhandel",
+        "solution_distributor_desc": "Intelligente Lagerlösungen mit schneller Umschlagrate. Beliebteste Modelle in Südamerika.",
+        "solution_distributor_benefit1": "✅ Flexible Minimalaufträge (50 Stück)",
+        "solution_distributor_benefit2": "✅ Mengenrabatte bis zu 45%",
+        "solution_distributor_benefit3": "✅ Konsignationsprogramm verfügbar",
+        "solution_distributor_benefit4": "✅ Marketing- und POS-Material enthalten",
+        "solution_distributor_benefit5": "✅ Territorialexklusivität verfügbar",
+        "solution_importer_title": "Für Importeure",
+        "solution_importer_badge": "Große Mengen",
+        "solution_importer_desc": "Großmaßstäbliche Lösungen mit vollständiger Logistik. Von der Fabrik zu deinem Lager.",
+        "solution_importer_benefit1": "✅ Konkurrenzfähige FOB-Preise",
+        "solution_importer_benefit2": "✅ Vollständige Container verfügbar",
+        "solution_importer_benefit3": "✅ Finanzierung und flexible Bedingungen",
+        "solution_importer_benefit4": "✅ Private Marke (OEM/ODM)",
+        "solution_importer_benefit5": "✅ Vollständiger Logistiksupport",
+        "solution_price_label": "Fabrikpreis:",
+        "solution_margin_label": "Dein Gewinn:",
+        "btn_workshop_catalog": "Werkstatt-Katalog",
+        "btn_distributor_program": "Händlerprogramm",
+        "btn_importer_program": "Importeurprogramm",
+        "bulk_title": "📦 Mischaufträge – unsere Spezialität",
+        "bulk_desc": "Kombiniere mehrere Spezifikationen in einem einzigen Auftrag, um deinen Lagerbestand zu maximieren",
+        "bulk_flexible": "Flexibles Minimum",
+        "bulk_flexible_desc": "Nur 10 Stück pro Spezifikation<br>Minimalauftrag: 500 Stück insgesamt",
+        "bulk_discount": "Mengenrabatte",
+        "bulk_discount_desc": "Spare bis zu 15% Zusatz<br>bei Aufträgen ab 5.000 Stück",
+        "bulk_consolidation": "Versandkonsolidierung",
+        "bulk_consolidation_desc": "Ein einziger Versand für alle Modelle<br>Niedrigere Importkosten",
+        "bulk_quote_btn": "📋 Offerte für Mischauftrag anfordern"
+      },
+      "priceAdvantage": {
+        "showcase_catalogo": "Aftermarket-Katalog",
+        "showcaseStock": "✅ Auf Lager",
+        "product_capo": "Motorhaube",
+        "product_compatible_capo": "Kompatibel mit: Toyota, VW, Ford",
+        "product_porton": "Heckklappe",
+        "product_compatible_porton": "Kompatibel mit: Chevrolet, Fiat, Renault",
+        "product_ventanilla": "Autofenster",
+        "product_compatible_ventanilla": "Kompatibel mit: Nissan, Hyundai, Kia",
+        "product_amortiguador": "Dämpfer",
+        "product_compatible_amortiguador": "Kompatibel mit: BMW, Mercedes, Audi",
+        "btn_ver_catalogo": "Vollen Katalog anzeigen (5000+ Modelle)",
+        "trust_fabrica": "Direkte chinesische Fabrik",
+        "trust_precio": "Garantie für den niedrigsten Preis",
+        "trust_especificaciones": "10.000+ Spezifikationen",
+        "email_subject": "Verfügbarkeitsanfrage – Gasfedern",
+        "email_greeting": "Hallo,",
+        "email_interest": "Ich bin interessiert, nach der Verfügbarkeit von Gasfedern für mein Geschäft zu fragen.",
+        "email_info_title": "Informationen zu meiner Anfrage:",
+        "email_business_type": "Geschäftstyp: [Werkstatt/Händler/Importeur]",
+        "email_location": "Standort: [Land/Stadt]",
+        "email_products": "Interessante Produkte: [Modelle angeben]",
+        "email_quantity": "Geschätzte Menge: [Menge]",
+        "email_request_info": "Bitte senden Sie mir Informationen zu:",
+        "email_availability": "Lokaler Lagerbestand",
+        "email_delivery_time": "Lieferzeiten",
+        "email_prices": "Preise und anwendbare Rabatte",
+        "email_shipping": "Versandoptionen",
+        "email_thanks": "Vielen Dank für Ihre Aufmerksamkeit.",
+        "email_regards": "Mit freundlichen Grüßen,",
+        "email_name": "Ihr Name",
+        "email_company": "Ihre Firma",
+        "email_phone": "Ihre Telefonnummer",
+        "shipping_complete_fields": "Bitte füllen Sie alle Felder aus",
+        "shipping_express_48h": "48h-Express verfügbar",
+        "shipping_warehouse_sao_paulo": "Lager in São Paulo",
+        "shipping_warehouse_bogota": "Lager in Bogotá",
+        "shipping_distributor_buenos_aires": "Händler in Buenos Aires",
+        "shipping_distributor_santiago": "Händler in Santiago",
+        "shipping_distributor_lima": "Händler in Lima",
+        "shipping_distributor_quito": "Händler in Quito",
+        "shipping_5_7_days": "5-7 Tage",
+        "shipping_7_10_days": "7-10 Tage"
+      },
+      "marketCoverage": {
+        "section_title": "Marktabdeckung in Südamerika",
+        "section_desc": "Wir bedienen den gesamten südamerikanischen Automobil-Aftermarket mit lokaler Präsenz und spezialisiertem Support",
+        "vehicles_served": "Bediente Fahrzeuge",
+        "brazil_title": "Brasilien",
+        "brazil_market_size": "Hauptmarkt",
+        "brazil_sales_percent": "40%",
+        "brazil_workshops": "1.200+",
+        "brazil_models_title": "Beliebteste Modelle:",
+        "brazil_model1": "VW Gol/Voyage – Motorhaube",
+        "brazil_model2": "Fiat Palio/Siena – Heckklappe",
+        "brazil_model3": "Chevrolet Onix – Motorhaube",
+        "brazil_model4": "Ford Ka – Heckklappe",
+        "brazil_contact_title": "Lokaler Ansprechpartner:",
+        "brazil_phone": "+55 11 9999-8888",
+        "argentina_title": "Argentinien",
+        "argentina_market_size": "Schlüsselmarkt",
+        "argentina_sales_percent": "25%",
+        "argentina_workshops": "650+",
+        "argentina_models_title": "Beliebteste Modelle:",
+        "argentina_model1": "Toyota Corolla – Motorhaube",
+        "argentina_model2": "Renault Sandero – Heckklappe",
+        "argentina_model3": "Peugeot 208 – Motorhaube",
+        "argentina_model4": "Volkswagen Suran – Heckklappe",
+        "argentina_contact_title": "Lokaler Ansprechpartner:",
+        "argentina_phone": "+54 11 4444-5555",
+        "colombia_title": "Kolumbien",
+        "colombia_market_size": "Schnell wachsender Markt",
+        "colombia_sales_percent": "15%",
+        "colombia_workshops": "400+",
+        "colombia_models_title": "Beliebteste Modelle:",
+        "colombia_model1": "Chevrolet Spark – Motorhaube",
+        "colombia_model2": "Renault Logan – Heckklappe",
+        "colombia_model3": "Nissan March – Motorhaube",
+        "colombia_model4": "Kia Picanto – Heckklappe",
+        "colombia_contact_title": "Lokaler Ansprechpartner:",
+        "colombia_phone": "+57 1 333-4444",
+        "chile_title": "Chile",
+        "chile_market_size": "Premium-Markt",
+        "chile_sales_percent": "10%",
+        "chile_workshops": "300+",
+        "chile_models_title": "Beliebteste Modelle:",
+        "chile_model1": "Suzuki Swift – Motorhaube",
+        "chile_model2": "Hyundai Accent – Heckklappe",
+        "chile_model3": "Mazda 2 – Motorhaube",
+        "chile_model4": "Toyota Yaris – Heckklappe",
+        "chile_contact_title": "Lokaler Ansprechpartner:",
+        "chile_phone": "+56 2 2222-3333",
+        "stat_desc_sales": "unseres Umsatzes",
+        "stat_desc_workshops": "aktive Werkstätten"
+      },
+      "contact": {
+        "section_title": "📞 Kontaktieren Sie uns für Ihre Offerte",
+        "section_desc": "Haben Sie Fragen zu unseren Produkten oder Mischaufträgen? Unser Team antwortet innerhalb von 24 Stunden.",
+        "contact_methods": [
+          {
+            "icon": "📞",
+            "title": "Telefon",
+            "value": "+86-574-8888-9999",
+            "description": "Rufen Sie uns direkt an"
+          },
+          {
+            "icon": "✉️",
+            "title": "E-Mail",
+            "value": "sales@southamerica.dkgasspring.com",
+            "description": "Senden Sie uns eine E-Mail"
+          },
+          {
+            "icon": "📱",
+            "title": "WhatsApp",
+            "value": "+86-138-8888-7777",
+            "description": "Chatten Sie mit uns"
+          }
+        ],
+        "business_hours": {
+          "title": "Geschäftszeiten",
+          "hours": [
+            {
+              "timezone": "China (GMT+8)",
+              "time": "Montag – Freitag: 9:00 – 18:00"
+            },
+            {
+              "timezone": "Südamerika (GMT-3)",
+              "time": "Montag – Freitag: 22:00 – 07:00"
+            }
+          ]
+        },
+        "form": {
+          "title": "Holen Sie sich Ihre individuelle Offerte",
+          "subtitle": "Füllen Sie das untenstehende Formular aus – wir senden Ihnen eine detaillierte Offerte innerhalb von 24 Stunden.",
+          "business_info": {
+            "title": "Geschäftsinformationen",
+            "business_type": {
+              "label": "Geschäftstyp",
+              "placeholder": "Wählen Sie Ihren Geschäftstyp",
+              "options": [
+                {
+                  "value": "distributor",
+                  "label": "Händler"
+                },
+                {
+                  "value": "manufacturer",
+                  "label": "Hersteller"
+                },
+                {
+                  "value": "retailer",
+                  "label": "Einzelhändler"
+                },
+                {
+                  "value": "service_center",
+                  "label": "Servicecenter"
+                },
+                {
+                  "value": "other",
+                  "label": "Andere"
+                }
+              ]
+            },
+            "country": {
+              "label": "Land",
+              "placeholder": "Wählen Sie Ihr Land",
+              "options": [
+                {
+                  "value": "brazil",
+                  "label": "Brasilien"
+                },
+                {
+                  "value": "argentina",
+                  "label": "Argentinien"
+                },
+                {
+                  "value": "chile",
+                  "label": "Chile"
+                },
+                {
+                  "value": "colombia",
+                  "label": "Kolumbien"
+                },
+                {
+                  "value": "peru",
+                  "label": "Peru"
+                },
+                {
+                  "value": "other",
+                  "label": "Andere"
+                }
+              ]
+            },
+            "company_name": {
+              "label": "Firmennamen",
+              "placeholder": "Geben Sie den Firmennamen ein"
+            },
+            "contact_name": {
+              "label": "Ansprechpartner-Name",
+              "placeholder": "Geben Sie Ihren vollständigen Namen ein"
+            },
+            "email": {
+              "label": "E-Mail-Adresse",
+              "placeholder": "Ihre.email@firma.com"
+            },
+            "phone": {
+              "label": "Telefonnummer",
+              "placeholder": "Geben Sie Ihre Telefonnummer ein"
+            }
+          },
+          "order_config": {
+            "title": "Auftragskonfiguration",
+            "order_type": {
+              "label": "Auftragstyp",
+              "mixed": "Mischauftrag (mehrere Spezifikationen)",
+              "single": "Einzelauftrag (eine Spezifikation)"
+            },
+            "total_quantity": {
+              "label": "Benötigte Gesamtmenge",
+              "placeholder": "Wählen Sie den Mengenbereich",
+              "options": [
+                {
+                  "value": "500-1000",
+                  "label": "500 – 1.000 Einheiten"
+                },
+                {
+                  "value": "1000-2500",
+                  "label": "1.000 – 2.500 Einheiten"
+                },
+                {
+                  "value": "2500-5000",
+                  "label": "2.500 – 5.000 Einheiten"
+                },
+                {
+                  "value": "5000+",
+                  "label": "Mehr als 5.000 Einheiten"
+                }
+              ]
+            },
+            "spec_count": {
+              "label": "Anzahl verschiedener Spezifikationen",
+              "placeholder": "Wählen Sie die Anzahl der Spezifikationen",
+              "options": [
+                {
+                  "value": "1-5",
+                  "label": "1-5 Spezifikationen"
+                },
+                {
+                  "value": "5-15",
+                  "label": "5-15 Spezifikationen"
+                },
+                {
+                  "value": "15-30",
+                  "label": "15-30 Spezifikationen"
+                },
+                {
+                  "value": "30-50",
+                  "label": "30-50 Spezifikationen"
+                },
+                {
+                  "value": "50+",
+                  "label": "Mehr als 50 Spezifikationen"
+                }
+              ]
+            },
+            "pricing_title": "Vorschau der geschätzten Preise"
+          },
+          "specifications": {
+            "title": "Produktspezifikationen",
+            "vehicle_models": {
+              "label": "Fahrzeugmodelle und Anwendungen",
+              "placeholder": "Listen Sie die Fahrzeugmodelle, Jahre und spezifischen Anwendungen auf (z. B.: Motorhaubenstütze Honda Civic 2018-2022, Kofferraumheber Toyota Camry 2020+, usw.)"
+            },
+            "specific_requirements": {
+              "label": "Spezielle Anforderungen",
+              "placeholder": "Jegliche speziellen Anforderungen, benötigte Zertifizierungen, Verpackungspräferenzen, Lieferterminplan, usw."
+            }
+          },
+          "checkboxes": {
+            "newsletter": "Abonnieren Sie unseren Newsletter für Produktupdates und Branchenkenntnisse",
+            "whatsapp": "Ich bevorzuge Updates per WhatsApp zu erhalten"
+          },
+          "submit_btn": "Offerteanfrage senden",
+          "footer": {
+            "response_time": "✅ Alle Anfragen erhalten innerhalb von 24 Geschäftsstunden eine Antwort",
+            "privacy": "🔒 Ihre Daten sind sicher und werden nicht an Dritte weitergegeben"
+          }
+        }
+      }
     }
   }
 }

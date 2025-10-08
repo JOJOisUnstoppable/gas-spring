@@ -583,6 +583,494 @@
           }
         ]
       }
+    },
+    "aftermarket": {
+      "hero": {
+        "heroBadge": "¡Adiós a los problemas de inventario!",
+        "heroTitleRed": "Cansado de perder dinero",
+        "heroTitleMain": "con inventario muerto?",
+        "heroTitleGreen": "Pedidos mixtos = máximo beneficio",
+        "heroSubtitleStrong": "La solución que ya han descubierto los distribuidores inteligentes:",
+        "heroSubtitleMain": "Compra 50+ modelos diferentes en UN SOLO pedido. Precio de fábrica china + cero riesgo de inventario.",
+        "heroPainPoint": "❌ Ya no más: «Tengo 100 piezas del modelo equivocado»",
+        "statInventario": "Inventario muerto",
+        "statCompetencia": "vs. Competencia",
+        "statModelos": "Pedido = 50+ modelos",
+        "statRoi": "ROI garantizado",
+        "ctaCalcular": "💰 Calcular mis ahorros reales",
+        "ctaCotizacion": "📯 Cotización sin riesgo",
+        "trustFabrica": "Fábrica directa de China",
+        "trustPrecio": "Garantía de precio más bajo",
+        "trustEspecificaciones": "10.000+ especificaciones",
+        "showcaseCatalogo": "Catálogo de aftermarket",
+        "showcaseStock": "✅ En stock",
+        "productCapo": "Capó",
+        "productCompatibleCapo": "Compatible: Toyota, VW, Ford",
+        "productPorton": "Portón trasero",
+        "productCompatiblePorton": "Compatible: Chevrolet, Fiat, Renault",
+        "productVentanilla": "Ventana de automóvil",
+        "productCompatibleVentanilla": "Compatible: Nissan, Hyundai, Kia",
+        "productAmortiguador": "Amortiguador",
+        "productCompatibleAmortiguador": "Compatible: BMW, Mercedes, Audi",
+        "btnVerCatalogo": "Ver catálogo completo (5000+ modelos)"
+      },
+      "specMatcher": {
+        "sectionTitle": "Calculadora inteligente de especificaciones",
+        "sectionDescription": "Encuentra exactamente lo que necesitas entre más de 10.000 especificaciones disponibles",
+        "formTitle": "🔍 Buscar por especificaciones técnicas",
+        "extendedLengthLabel": "Longitud extendida (mm)",
+        "extendedLengthPlaceholder": "ej: 450",
+        "compressedLengthLabel": "Longitud comprimida (mm)",
+        "compressedLengthPlaceholder": "ej: 180",
+        "forceLabel": "Fuerza (N)",
+        "forcePlaceholder": "ej: 300",
+        "cylinderDiameterLabel": "Diámetro del cilindro (mm)",
+        "connectionTypeLabel": "Tipo de conexión",
+        "applicationLabel": "Aplicación",
+        "selectOption": "Seleccionar",
+        "searchButton": "🔍 Buscar especificaciones",
+        "searchingText": "🔍 Buscando...",
+        "connectionTypes": {
+          "ballSocket": "Empotramiento de bola",
+          "eyeEnd": "Extremo de ojo",
+          "threaded": "Rosqueado",
+          "fork": "Tenedor"
+        },
+        "applications": {
+          "hood": "Capó",
+          "tailgate": "Portón trasero",
+          "window": "Ventana",
+          "seat": "Asiento",
+          "cabinet": "Gabinete"
+        },
+        "resultsHeader": "Resultados de búsqueda",
+        "resultsCount": "especificaciones encontradas",
+        "noResultsText": "Ingresa especificaciones para encontrar productos compatibles",
+        "extendedLengthText": "Longitud extendida",
+        "compressedLengthText": "Longitud comprimida",
+        "forceText": "Fuerza",
+        "diameterText": "Diámetro",
+        "connectionText": "Conexión",
+        "applicationText": "Aplicación",
+        "priceText": "Precio",
+        "stockText": "Stock",
+        "availableText": "Disponible",
+        "unavailableText": "No disponible",
+        "viewDetailsBtn": "Ver detalles",
+        "addToQuoteBtn": "Agregar a cotización",
+        "bulkTitle": "📦 Pedidos mixtos – nuestra especialidad",
+        "bulkDescription": "Combina múltiples especificaciones en un solo pedido para maximizar tu inventario",
+        "bulkFlexibleTitle": "🎯 Mínimo flexible",
+        "bulkFlexibleDesc": "Solo 10 piezas por especificación<br>Pedido mínimo: 500 piezas totales",
+        "bulkDiscountTitle": "💰 Descuentos por volumen",
+        "bulkDiscountDesc": "Hasta un 15% adicional<br>en pedidos mixtos grandes",
+        "bulkCustomTitle": "📋 Lista personalizada",
+        "bulkCustomDesc": "Creamos tu catálogo específico<br>basado en tu mercado local",
+        "searchPlaceholder": "Buscar por marca, modelo o tipo de pieza...",
+        "filterLabelBrand": "Marca",
+        "filterBrandOptions": [
+          "Toyota",
+          "Volkswagen",
+          "Chevrolet",
+          "Ford",
+          "Fiat",
+          "Otros"
+        ],
+        "filterLabelType": "Tipo de resorte de gas",
+        "filterTypeOptions": [
+          "Capó",
+          "Portón trasero",
+          "Ventana",
+          "Amortiguador"
+        ],
+        "filterLabelYear": "Año del vehículo",
+        "filterYearPlaceholder": "ej: 2018",
+        "searchBtnText": "Buscar",
+        "resetBtnText": "Limpiar filtros",
+        "resultsTitle": "Resultados de búsqueda",
+        "resultItemBrand": "Marca:",
+        "resultItemModel": "Modelo:",
+        "resultItemType": "Tipo:",
+        "resultItemPrice": "Precio:",
+        "resultItemStock": "En stock:"
+      },
+      "painSolutions": {
+        "section_perdiendo": "¿Por qué sigues <span class='highlight-red'>perdiendo dinero</span>?",
+        "section_perdiendo_desc": "Los 3 errores más costosos que cometen los distribuidores (y cómo evitarlos)",
+        "error1_title": "ERROR #1: Apostar todo a pocos modelos",
+        "error1_stat1": "Inventario muerto",
+        "error1_stat2": "Pérdidas anuales",
+        "error1_problem": "<strong>El problema:</strong> Compras 1000 piezas del «modelo popular» pero solo vendes 300.",
+        "solution_title": "✅ NUESTRA SOLUCIÓN:",
+        "error1_solution": "Pedidos mixtos: 20 piezas de 50 modelos diferentes = CERO inventario muerto",
+        "error1_benefit1": "🎯 Cumples con TODA la demanda del mercado",
+        "error1_benefit2": "💰 Precio de fábrica para volúmenes pequeños",
+        "error1_benefit3": "🔄 Rotación de inventario perfecta",
+        "error2_title": "ERROR #2: Pagar precios de distribuidor",
+        "error2_stat1": "Sobreprecio",
+        "error2_stat2": "Margen real",
+        "error2_problem": "<strong>El problema:</strong> Pagas $10 por pieza que cuesta $3 de fabricación, solo porque compras «volúmenes pequeños».",
+        "error2_solution": "Precio directo de fábrica: $3.50 por pieza en pedidos mixtos de 1000+ piezas",
+        "error2_benefit1": "🏭 Sin intermediarios = sin costos extra",
+        "error2_benefit2": "📈 Margen garantizado de 200%+",
+        "error2_benefit3": "🎯 Compite con precios inigualables",
+        "error3_title": "ERROR #3: Varios proveedores = caos total",
+        "error3_stat1": "Proveedores",
+        "error3_stat2": "Gestión/mes",
+        "error3_problem": "<strong>El problema:</strong> Gestionas 8 proveedores diferentes para cubrir todas las especificaciones.",
+        "error3_solution": "UN solo proveedor para 10.000+ especificaciones diferentes",
+        "error3_benefit1": "📋 Una sola factura, un solo contacto",
+        "error3_benefit2": "⚡ Cotizaciones en 24 horas para cualquier especificación",
+        "error3_benefit3": "🎯 Calidad constante en todos los productos",
+        "mixed_order_title": "🎯 Ejemplo de un pedido mixto típico",
+        "mixed_order_desc": "Así maximizan su inventario nuestros clientes con un solo pedido",
+        "order_total_specs": "Especificaciones totales:",
+        "order_total_specs_value": "45 diferentes",
+        "order_total_qty": "Cantidad total:",
+        "order_total_qty_value": "2.250 piezas",
+        "order_avg_per_spec": "Promedio por especificación:",
+        "order_avg_per_spec_value": "50 piezas",
+        "order_total_savings": "Ahorros totales:",
+        "order_total_savings_value": "$8.500 USD",
+        "breakdown_capo": "Capó (15 especificaciones)",
+        "breakdown_capo_qty": "750 piezas",
+        "breakdown_porton": "Portón trasero (12 especificaciones)",
+        "breakdown_porton_qty": "600 piezas",
+        "breakdown_ventanillas": "Ventanas (10 especificaciones)",
+        "breakdown_ventanillas_qty": "500 piezas",
+        "breakdown_asientos": "Asientos (8 especificaciones)",
+        "breakdown_asientos_qty": "400 piezas"
+      },
+      "economicSolutions": {
+        "section_title": "Soluciones económicas para tu negocio",
+        "section_desc": "Maximiza tus beneficios con nuestras soluciones especializadas para cada tipo de negocio",
+        "solution_workshop_title": "Para talleres",
+        "solution_workshop_badge": "Más popular",
+        "solution_workshop_desc": "Solución perfecta para talleres mecánicos que buscan calidad y rentabilidad",
+        "solution_workshop_benefit1": "✅ Garantía completa de 2 años",
+        "solution_workshop_benefit2": "✅ Precios competitivos",
+        "solution_workshop_benefit3": "✅ Stock disponible",
+        "solution_workshop_benefit4": "✅ Soporte técnico",
+        "solution_workshop_benefit5": "✅ Envío rápido",
+        "solution_distributor_title": "Para distribuidores",
+        "solution_distributor_badge": "Mayorista",
+        "solution_distributor_desc": "Soluciones inteligentes de inventario con rotación rápida. Modelos más vendidos en Sudamérica.",
+        "solution_distributor_benefit1": "✅ Pedidos mínimos flexibles (50 piezas)",
+        "solution_distributor_benefit2": "✅ Descuentos por volumen hasta un 45%",
+        "solution_distributor_benefit3": "✅ Programa de consignación disponible",
+        "solution_distributor_benefit4": "✅ Materiales de marketing y Punto de Venta (PV) incluidos",
+        "solution_distributor_benefit5": "✅ Exclusividad territorial disponible",
+        "solution_importer_title": "Para importadores",
+        "solution_importer_badge": "Volúmenes grandes",
+        "solution_importer_desc": "Soluciones a gran escala con logística completa. De la fábrica a tu almacén.",
+        "solution_importer_benefit1": "✅ Precios FOB competitivos",
+        "solution_importer_benefit2": "✅ Contenedores completos disponibles",
+        "solution_importer_benefit3": "✅ Financiamiento y términos flexibles",
+        "solution_importer_benefit4": "✅ Marca privada (OEM/ODM)",
+        "solution_importer_benefit5": "✅ Soporte logístico completo",
+        "solution_price_label": "Precio de fábrica:",
+        "solution_margin_label": "Tu beneficio:",
+        "btn_workshop_catalog": "Catálogo para talleres",
+        "btn_distributor_program": "Programa para distribuidores",
+        "btn_importer_program": "Programa para importadores",
+        "bulk_title": "📦 Pedidos mixtos – nuestra especialidad",
+        "bulk_desc": "Combina múltiples especificaciones en un solo pedido para maximizar tu inventario",
+        "bulk_flexible": "Mínimo flexible",
+        "bulk_flexible_desc": "Solo 10 piezas por especificación<br>Pedido mínimo: 500 piezas totales",
+        "bulk_discount": "Descuentos por volumen",
+        "bulk_discount_desc": "Ahorra hasta un 15% adicional<br>en pedidos de 5.000+ piezas",
+        "bulk_consolidation": "Consolidación de envíos",
+        "bulk_consolidation_desc": "Un solo envío para todos los modelos<br>Costos de importación más bajos",
+        "bulk_quote_btn": "📋 Obtener cotización para pedido mixto"
+      },
+      "priceAdvantage": {
+        "showcase_catalogo": "Catálogo de aftermarket",
+        "showcase_stock": "✅ En stock",
+        "product_capo": "Capó",
+        "product_compatible_capo": "Compatible: Toyota, VW, Ford",
+        "product_porton": "Portón trasero",
+        "product_compatible_porton": "Compatible: Chevrolet, Fiat, Renault",
+        "product_ventanilla": "Ventana de automóvil",
+        "product_compatible_ventanilla": "Compatible: Nissan, Hyundai, Kia",
+        "product_amortiguador": "Amortiguador",
+        "product_compatible_amortiguador": "Compatible: BMW, Mercedes, Audi",
+        "btn_ver_catalogo": "Ver catálogo completo (5000+ modelos)",
+        "trust_fabrica": "Fábrica directa de China",
+        "trust_precio": "Garantía de precio más bajo",
+        "trust_especificaciones": "10.000+ especificaciones",
+        "email_subject": "Consulta de disponibilidad – resortes de gas",
+        "email_greeting": "Hola,",
+        "email_interest": "Estoy interesado en consultar la disponibilidad de resortes de gas para mi negocio.",
+        "email_info_title": "Información de mi consulta:",
+        "email_business_type": "Tipo de negocio: [Taller/Distribuidor/Importador]",
+        "email_location": "Ubicación: [País/Ciudad]",
+        "email_products": "Productos de interés: [Especifica modelos]",
+        "email_quantity": "Cantidad estimada: [Cantidad]",
+        "email_request_info": "Por favor, envíame información sobre:",
+        "email_availability": "Disponibilidad de stock local",
+        "email_delivery_time": "Tiempos de entrega",
+        "email_prices": "Precios y descuentos aplicables",
+        "email_shipping": "Opciones de envío",
+        "email_thanks": "Gracias por tu atención.",
+        "email_regards": "Saludos cordiales,",
+        "email_name": "Tu nombre",
+        "email_company": "Tu empresa",
+        "email_phone": "Tu número de teléfono",
+        "shipping_complete_fields": "Por favor, completa todos los campos",
+        "shipping_express_48h": "Envío express 48h disponible",
+        "shipping_warehouse_sao_paulo": "Almacén en San Pablo",
+        "shipping_warehouse_bogota": "Almacén en Bogotá",
+        "shipping_distributor_buenos_aires": "Distribuidor en Buenos Aires",
+        "shipping_distributor_santiago": "Distribuidor en Santiago",
+        "shipping_distributor_lima": "Distribuidor en Lima",
+        "shipping_distributor_quito": "Distribuidor en Quito",
+        "shipping_5_7_days": "5-7 días",
+        "shipping_7_10_days": "7-10 días"
+      },
+      "marketCoverage": {
+        "section_title": "Cobertura del mercado sudamericano",
+        "section_desc": "Atendemos todo el aftermarket automotriz sudamericano con presencia local y soporte especializado",
+        "vehicles_served": "Vehículos atendidos",
+        "brazil_title": "Brasil",
+        "brazil_market_size": "Mercado principal",
+        "brazil_sales_percent": "40%",
+        "brazil_workshops": "1.200+",
+        "brazil_models_title": "Modelos más vendidos:",
+        "brazil_model1": "VW Gol/Voyage – Capó",
+        "brazil_model2": "Fiat Palio/Siena – Portón trasero",
+        "brazil_model3": "Chevrolet Onix – Capó",
+        "brazil_model4": "Ford Ka – Portón trasero",
+        "brazil_contact_title": "Contacto local:",
+        "brazil_phone": "+55 11 9999-8888",
+        "argentina_title": "Argentina",
+        "argentina_market_size": "Mercado clave",
+        "argentina_sales_percent": "25%",
+        "argentina_workshops": "650+",
+        "argentina_models_title": "Modelos más vendidos:",
+        "argentina_model1": "Toyota Corolla – Capó",
+        "argentina_model2": "Renault Sandero – Portón trasero",
+        "argentina_model3": "Peugeot 208 – Capó",
+        "argentina_model4": "Volkswagen Suran – Portón trasero",
+        "argentina_contact_title": "Contacto local:",
+        "argentina_phone": "+54 11 4444-5555",
+        "colombia_title": "Colombia",
+        "colombia_market_size": "Mercado en rápido crecimiento",
+        "colombia_sales_percent": "15%",
+        "colombia_workshops": "400+",
+        "colombia_models_title": "Modelos más vendidos:",
+        "colombia_model1": "Chevrolet Spark – Capó",
+        "colombia_model2": "Renault Logan – Portón trasero",
+        "colombia_model3": "Nissan March – Capó",
+        "colombia_model4": "Kia Picanto – Portón trasero",
+        "colombia_contact_title": "Contacto local:",
+        "colombia_phone": "+57 1 333-4444",
+        "chile_title": "Chile",
+        "chile_market_size": "Mercado premium",
+        "chile_sales_percent": "10%",
+        "chile_workshops": "300+",
+        "chile_models_title": "Modelos más vendidos:",
+        "chile_model1": "Suzuki Swift – Capó",
+        "chile_model2": "Hyundai Accent – Portón trasero",
+        "chile_model3": "Mazda 2 – Capó",
+        "chile_model4": "Toyota Yaris – Portón trasero",
+        "chile_contact_title": "Contacto local:",
+        "chile_phone": "+56 2 2222-3333",
+        "stat_desc_sales": "de nuestras ventas",
+        "stat_desc_workshops": "talleres activos"
+      },
+      "contact": {
+        "section_title": "📞 Contáctanos para tu cotización",
+        "section_desc": "¿Tienes preguntas sobre nuestros productos o pedidos mixtos? Nuestro equipo te responderá en 24 horas.",
+        "contact_methods": [
+          {
+            "icon": "📞",
+            "title": "Teléfono",
+            "value": "+86-574-8888-9999",
+            "description": "Llámanos directamente"
+          },
+          {
+            "icon": "✉️",
+            "title": "Correo electrónico",
+            "value": "sales@southamerica.dkgasspring.com",
+            "description": "Envíanos un correo"
+          },
+          {
+            "icon": "📱",
+            "title": "WhatsApp",
+            "value": "+86-138-8888-7777",
+            "description": "Chatea con nosotros"
+          }
+        ],
+        "business_hours": {
+          "title": "Horario de atención",
+          "hours": [
+            {
+              "timezone": "China (GMT+8)",
+              "time": "Lunes – Viernes: 9:00 – 18:00"
+            },
+            {
+              "timezone": "Sudamérica (GMT-3)",
+              "time": "Lunes – Viernes: 22:00 – 07:00"
+            }
+          ]
+        },
+        "form": {
+          "title": "Obtén tu cotización personalizada",
+          "subtitle": "Completa el formulario a continuación y te enviaremos una cotización detallada en 24 horas.",
+          "business_info": {
+            "title": "Información del negocio",
+            "business_type": {
+              "label": "Tipo de negocio",
+              "placeholder": "Selecciona el tipo de tu negocio",
+              "options": [
+                {
+                  "value": "distributor",
+                  "label": "Distribuidor"
+                },
+                {
+                  "value": "manufacturer",
+                  "label": "Fabricante"
+                },
+                {
+                  "value": "retailer",
+                  "label": "Vendedor minorista"
+                },
+                {
+                  "value": "service_center",
+                  "label": "Centro de servicio"
+                },
+                {
+                  "value": "other",
+                  "label": "Otro"
+                }
+              ]
+            },
+            "country": {
+              "label": "País",
+              "placeholder": "Selecciona tu país",
+              "options": [
+                {
+                  "value": "brazil",
+                  "label": "Brasil"
+                },
+                {
+                  "value": "argentina",
+                  "label": "Argentina"
+                },
+                {
+                  "value": "chile",
+                  "label": "Chile"
+                },
+                {
+                  "value": "colombia",
+                  "label": "Colombia"
+                },
+                {
+                  "value": "peru",
+                  "label": "Perú"
+                },
+                {
+                  "value": "other",
+                  "label": "Otro"
+                }
+              ]
+            },
+            "company_name": {
+              "label": "Nombre de la empresa",
+              "placeholder": "Ingresa el nombre de tu empresa"
+            },
+            "contact_name": {
+              "label": "Nombre de contacto",
+              "placeholder": "Ingresa tu nombre completo"
+            },
+            "email": {
+              "label": "Dirección de correo electrónico",
+              "placeholder": "tu.correo@empresa.com"
+            },
+            "phone": {
+              "label": "Número de teléfono",
+              "placeholder": "Ingresa tu número de teléfono"
+            }
+          },
+          "order_config": {
+            "title": "Configuración del pedido",
+            "order_type": {
+              "label": "Tipo de pedido",
+              "mixed": "Pedido mixto (múltiples especificaciones)",
+              "single": "Pedido de una sola especificación"
+            },
+            "total_quantity": {
+              "label": "Cantidad total necesaria",
+              "placeholder": "Selecciona el rango de cantidad",
+              "options": [
+                {
+                  "value": "500-1000",
+                  "label": "500 – 1.000 unidades"
+                },
+                {
+                  "value": "1000-2500",
+                  "label": "1.000 – 2.500 unidades"
+                },
+                {
+                  "value": "2500-5000",
+                  "label": "2.500 – 5.000 unidades"
+                },
+                {
+                  "value": "5000+",
+                  "label": "Más de 5.000 unidades"
+                }
+              ]
+            },
+            "spec_count": {
+              "label": "Número de especificaciones diferentes",
+              "placeholder": "Selecciona el número de especificaciones",
+              "options": [
+                {
+                  "value": "1-5",
+                  "label": "1-5 especificaciones"
+                },
+                {
+                  "value": "5-15",
+                  "label": "5-15 especificaciones"
+                },
+                {
+                  "value": "15-30",
+                  "label": "15-30 especificaciones"
+                },
+                {
+                  "value": "30-50",
+                  "label": "30-50 especificaciones"
+                },
+                {
+                  "value": "50+",
+                  "label": "Más de 50 especificaciones"
+                }
+              ]
+            },
+            "pricing_title": "Vista previa de precios estimados"
+          },
+          "specifications": {
+            "title": "Especificaciones de los productos",
+            "vehicle_models": {
+              "label": "Modelos de vehículos y aplicaciones",
+              "placeholder": "Enumera los modelos de vehículos, años y aplicaciones específicas (ej: soporte de capó Honda Civic 2018-2022, elevador de maletero Toyota Camry 2020+, etc.)"
+            },
+            "specific_requirements": {
+              "label": "Requisitos específicos",
+              "placeholder": "Cualquier requisito especial, certificaciones necesarias, preferencias de empaque, cronograma de entrega, etc."
+            }
+          },
+          "checkboxes": {
+            "newsletter": "Suscríbete a nuestro boletín para recibir actualizaciones de productos y conocimientos del sector",
+            "whatsapp": "Prefiero recibir actualizaciones por WhatsApp"
+          },
+          "submit_btn": "Enviar solicitud de cotización",
+          "footer": {
+            "response_time": "✅ Todas las consultas reciben respuesta en 24 horas hábiles",
+            "privacy": "🔒 Tu información es segura y no se compartirá con terceros"
+          }
+        }
+      }
     }
   }
 }
