@@ -4,7 +4,6 @@ import { getDictionary } from '@/lib/i18n/getDictionary'
 import './marine-gas-springs-usa.css'
 import Applications from '@/components/marine/Applications'
 import Hero from '@/components/marine/Hero'
-import TrustIndicators from '@/components/marine/TrustIndicators'
 import WhyChooseUs from '@/components/marine/WhyChooseUs'
 import ProductShowcase from '@/components/marine/ProductShowcase'
 import TechnicalSupport from '@/components/marine/TechnicalSupport'
@@ -27,22 +26,14 @@ export default async function MarineGasSpringPage(
     subtitle: marineGasSpringData.hero.subtitle,
     features: marineGasSpringData.hero.features,
     ctaButtons: marineGasSpringData.hero.ctaButtons,
-    heroImageSrc: 'https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=luxury%20yacht%20with%20marine%20gas%20springs%20on%20hatches%2C%20premium%20316L%20stainless%20steel%20gas%20struts%2C%20American%20waters%2C%20professional%20marine%20equipment%2C%20high-end%20boat%20accessories%2C%20nautical%20engineering&image_size=landscape_16_9',
+    heroImageSrc: '/images/marine/marine_gas_spring_HERO.jpg',
     heroImageAlt: marineGasSpringData.hero.heroImageAlt
   };
-
-  const trustData = {
-    trustItems: marineGasSpringData.trustIndicators.items.map(item => ({
-      imageSrc: `/images/certifications/${item.imageAlt.toLowerCase().replace(/\s+/g, '-')}.png`,
-      imageAlt: item.imageAlt,
-      text: item.text
-    }))
-  }
 
   const whyChooseUsData = {
     title: marineGasSpringData.whyChooseUs.title,
     advantages: marineGasSpringData.whyChooseUs.advantages.map(advantage => ({
-      iconSrc: `/images/icons/${advantage.iconAlt.toLowerCase().replace(/\s+/g, '-')}.svg`,
+      iconSrc: advantage.iconSrc,
       iconAlt: advantage.iconAlt,
       title: advantage.title,
       description: advantage.description
@@ -52,7 +43,7 @@ export default async function MarineGasSpringPage(
   const productShowcaseData = {
     title: marineGasSpringData.productShowcase.title,
     products: marineGasSpringData.productShowcase.products.map(product => ({
-      imageSrc: `/images/products/${product.imageAlt.toLowerCase().replace(/\s+/g, '-')}.jpg`,
+      imageSrc: product.imageSrc,
       imageAlt: product.imageAlt,
       title: product.title,
       description: product.description,
@@ -65,7 +56,7 @@ export default async function MarineGasSpringPage(
   const applicationsData = {
     title: marineGasSpringData.applications.title,
     applications: marineGasSpringData.applications.items.map(item => ({
-      imageSrc: `/images/applications/${item.imageAlt.toLowerCase().replace(/\s+/g, '-')}.jpg`,
+      imageSrc: item.imageSrc,
       imageAlt: item.imageAlt,
       title: item.title,
       description: item.description
@@ -76,7 +67,7 @@ export default async function MarineGasSpringPage(
     title: marineGasSpringData.technicalSupport.title,
     description: marineGasSpringData.technicalSupport.description,
     features: marineGasSpringData.technicalSupport.features,
-    imageSrc: '/images/technical-support-team.jpg',
+    imageSrc: '/images/marine/DK_engineer.png',
     imageAlt: marineGasSpringData.technicalSupport.imageAlt
   };
 
@@ -109,7 +100,6 @@ export default async function MarineGasSpringPage(
   return (
     <div className="min-h-screen bg-white">
       <Hero {...heroData} />
-      <TrustIndicators {...trustData} />
       <WhyChooseUs {...whyChooseUsData} />
       <ProductShowcase {...productShowcaseData} />
       <Applications {...applicationsData} />

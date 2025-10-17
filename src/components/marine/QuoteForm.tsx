@@ -23,15 +23,11 @@ const QuoteForm: React.FC<QuoteFormProps> = ({
   title, 
   description, 
   benefits, 
-  applicationOptions, 
   submitButtonText
 }) => {
   const [formData, setFormData] = useState({
-    company: '',
     name: '',
     email: '',
-    phone: '',
-    application: '',
     requirements: '',
     urgent: false
   });
@@ -42,13 +38,74 @@ const QuoteForm: React.FC<QuoteFormProps> = ({
       ...prev,
       [name]: type === 'checkbox' ? (e.target as HTMLInputElement).checked : value
     }));
+
+    // Set custom validation messages in English
+    const target = e.target as HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement;
+    if (target.required && !value.trim()) {
+      target.setCustomValidity('Please fill out this field.');
+    } else if (name === 'email' && value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
+      target.setCustomValidity('Please enter a valid email address.');
+    } else {
+      target.setCustomValidity('');
+    }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Quote form submitted:', formData);
-    // Handle form submission logic here
-    // You can add API calls or other submission logic
+    
+    // Check form validity first
+    const form = e.target as HTMLFormElement;
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+    
+    // Additional custom validation
+    if (!formData.name.trim()) {
+      alert('Please enter your name');
+      return;
+    }
+    if (!formData.email.trim()) {
+      alert('Please enter your email');
+      return;
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      alert('Please enter a valid email address');
+      return;
+    }
+    if (!formData.requirements.trim()) {
+      alert('Please describe your project requirements');
+      return;
+    }
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          subject: 'Marine Gas Spring Quote Request',
+          message: `Urgent: ${formData.urgent ? 'Yes' : 'No'}\n\nRequirements:\n${formData.requirements}`
+        }),
+      });
+
+      if (response.ok) {
+        alert('Thank you for your inquiry! We will contact you within 24 hours.');
+        setFormData({
+          name: '',
+          email: '',
+          requirements: '',
+          urgent: false
+        });
+      } else {
+        alert('Failed to send your inquiry. Please try again or contact us directly.');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('An error occurred. Please try again or contact us directly.');
+    }
   };
 
   return (
@@ -69,17 +126,6 @@ const QuoteForm: React.FC<QuoteFormProps> = ({
           </div>
           <div className="quote-form">
             <form id="marine-quote-form" onSubmit={handleSubmit}>
-              <div className="form-group">
-                <label htmlFor="company">Company Name *</label>
-                <input 
-                  type="text" 
-                  id="company" 
-                  name="company" 
-                  value={formData.company}
-                  onChange={handleInputChange}
-                  required 
-                />
-              </div>
               <div className="form-row">
                 <div className="form-group">
                   <label htmlFor="name">Your Name *</label>
@@ -89,6 +135,7 @@ const QuoteForm: React.FC<QuoteFormProps> = ({
                     name="name" 
                     value={formData.name}
                     onChange={handleInputChange}
+                    title="Please enter your full name"
                     required 
                   />
                 </div>
@@ -100,36 +147,9 @@ const QuoteForm: React.FC<QuoteFormProps> = ({
                     name="email" 
                     value={formData.email}
                     onChange={handleInputChange}
+                    title="Please enter a valid email address"
                     required 
                   />
-                </div>
-              </div>
-              <div className="form-row">
-                <div className="form-group">
-                  <label htmlFor="phone">Phone</label>
-                  <input 
-                    type="tel" 
-                    id="phone" 
-                    name="phone" 
-                    value={formData.phone}
-                    onChange={handleInputChange}
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="application">Application Type</label>
-                  <select 
-                    id="application" 
-                    name="application"
-                    value={formData.application}
-                    onChange={handleInputChange}
-                  >
-                    <option value="">Select Application</option>
-                    {applicationOptions.map((option, index) => (
-                      <option key={index} value={option.value}>
-                        {option.label}
-                      </option>
-                    ))}
-                  </select>
                 </div>
               </div>
               <div className="form-group">
@@ -141,6 +161,7 @@ const QuoteForm: React.FC<QuoteFormProps> = ({
                   placeholder="Please describe your marine gas spring requirements, including force needed, dimensions, quantity, and timeline..."
                   value={formData.requirements}
                   onChange={handleInputChange}
+                  title="Please describe your project requirements in detail"
                   required
                 />
               </div>
@@ -151,6 +172,7 @@ const QuoteForm: React.FC<QuoteFormProps> = ({
                   name="urgent"
                   checked={formData.urgent}
                   onChange={handleInputChange}
+                  title="Check this if you need a response within 24 hours"
                 />
                 <label htmlFor="urgent">This is an urgent request (24-hour response needed)</label>
               </div>

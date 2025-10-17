@@ -1,6 +1,8 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import QuoteModal from './QuoteModal';
 
 interface FeatureItem {
   icon: string;
@@ -30,6 +32,16 @@ const Hero: React.FC<HeroProps> = ({
   heroImageSrc, 
   heroImageAlt 
 }) => {
+  const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false);
+
+  const handleCTAClick = (href: string, e: React.MouseEvent) => {
+    // 如果是询价相关的链接，打开弹窗而不是跳转
+    if (href === '#quote' || href.includes('quote') || href.includes('contact')) {
+      e.preventDefault();
+      setIsQuoteModalOpen(true);
+    }
+    // 其他链接正常跳转
+  };
   return (
     <section className="hero">
       <div className="hero-container">
@@ -50,6 +62,7 @@ const Hero: React.FC<HeroProps> = ({
                 key={index}
                 href={button.href} 
                 className={button.isPrimary ? 'btn-primary' : 'btn-secondary'}
+                onClick={(e) => handleCTAClick(button.href, e)}
               >
                 {button.text}
               </Link>
@@ -66,6 +79,13 @@ const Hero: React.FC<HeroProps> = ({
           />
         </div>
       </div>
+
+      <QuoteModal 
+        isOpen={isQuoteModalOpen}
+        onClose={() => setIsQuoteModalOpen(false)}
+        productName="Marine Gas Spring"
+        productType="Hero CTA Inquiry"
+      />
     </section>
   );
 };

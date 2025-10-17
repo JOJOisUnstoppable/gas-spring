@@ -5,6 +5,16 @@ categories:
     description: Complete range of Gas Spring series
     image: /images/product/category-gas-spring.jpg
     order: 1
+  - id: marine_gas_spring
+    title: Marine Gas Spring
+    description: Complete range of Marine Gas Spring series
+    image: /images/product/category-marine.jpg
+    order: 2
+  - id: aftermarket
+    title: Aftermarket Gas Spring
+    description: Complete range of Aftermarket Gas Spring series
+    image: /images/product/category-after.jpg
+    order: 3
 
 items:
   - id: compression-gas-spring

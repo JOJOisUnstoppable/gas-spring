@@ -67,20 +67,37 @@ const ImageInputForm = ({ title, subtitle, desc }: ReplacementTextProps) => {
     if (inputData.input1 && inputData.input2 && inputData.input3 && inputData.pressure) {
       setIsModalOpen(true);
     } else {
-      alert('请填写所有输入框');
+      alert('Please fill in all input fields');
     }
   };
 
   // 处理弹窗提交
-  const handleModalSubmit = () => {
+  const handleModalSubmit = async () => {
     if (contactInfo.name && contactInfo.email) {
-      alert('提交成功！感谢您的信息。');
-      setIsModalOpen(false);
-      // 重置表单
-      setInputData({ input1: '', input2: '', input3: '', pressure: '' });
-      setContactInfo({ name: '', email: '', phone: '' });
+      try {
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ inputData, contactInfo }),
+        });
+
+        if (response.ok) {
+          alert('Submission successful! Thank you for your information.');
+          setIsModalOpen(false);
+          // 重置表单
+          setInputData({ input1: '', input2: '', input3: '', pressure: '' });
+          setContactInfo({ name: '', email: '', phone: '' });
+        } else {
+          alert('Failed to send email. Please try again later.');
+        }
+      } catch (error) {
+        console.error('Error sending email:', error);
+        alert('An error occurred while sending the email. Please try again later.');
+      }
     } else {
-      alert('请填写姓名和邮箱');
+      alert('Please fill in your name and email.');
     }
   };
 
@@ -170,7 +187,7 @@ const ImageInputForm = ({ title, subtitle, desc }: ReplacementTextProps) => {
             >
               <Image
                 src="/images/products_page/gas_spring_replacement.png"
-                alt="背景图片"
+                alt="Background Image"
                 fill
                 className="object-cover"
               />
@@ -178,7 +195,7 @@ const ImageInputForm = ({ title, subtitle, desc }: ReplacementTextProps) => {
 
             {/* 输入框容器 */}
             <div className="flex justify-center items-center gap-8 mb-8 flex-wrap">
-              {/* 输入框1 */}
+              {/* Input 1 */}
               <div className="flex justify-center items-center">
                 <span className="text-white text-lg font-medium mr-2">Stroke =</span>
                 <input
@@ -193,7 +210,7 @@ const ImageInputForm = ({ title, subtitle, desc }: ReplacementTextProps) => {
                 </span>
               </div>
 
-              {/* 输入框2 */}
+              {/* Input 2 */}
               <div className="flex justify-center items-center">
                 <span className="text-white text-lg font-medium mr-2">EL1 =</span>
                 <input
@@ -208,7 +225,7 @@ const ImageInputForm = ({ title, subtitle, desc }: ReplacementTextProps) => {
                 </span>
               </div>
 
-              {/* 输入框3 */}
+              {/* Input 3 */}
               <div className="flex justify-center items-center">
                 <span className="text-white text-lg font-medium mr-2">EL2 =</span>
                 <input
@@ -268,12 +285,12 @@ const ImageInputForm = ({ title, subtitle, desc }: ReplacementTextProps) => {
             className="bg-white rounded-xl shadow-2xl w-full max-w-md p-6"
             onClick={(e) => e.stopPropagation()}
           >
-            <h2 className="text-xl font-bold text-gray-800 mb-4">您输入的信息</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-4">Your Input Information</h2>
 
             <div className="mb-6 space-y-2">
-              <p className="text-gray-700"><span className="font-medium">输入1:</span> {inputData.input1}</p>
-              <p className="text-gray-700"><span className="font-medium">输入2:</span> {inputData.input2}</p>
-              <p className="text-gray-700"><span className="font-medium">输入3:</span> {inputData.input3}</p>
+              <p className="text-gray-700"><span className="font-medium">Stroke:</span> {inputData.input1}</p>
+              <p className="text-gray-700"><span className="font-medium">EL1:</span> {inputData.input2}</p>
+              <p className="text-gray-700"><span className="font-medium">EL2:</span> {inputData.input3}</p>
               <p className="text-gray-700"><span className="font-medium">Pressure:</span> {inputData.pressure}</p>
             </div>
 

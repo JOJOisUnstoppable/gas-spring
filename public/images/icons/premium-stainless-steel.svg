@@ -1,0 +1,24 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 盾牌外形 -->
+  <path d="M24 4L36 10V20C36 30 24 42 24 42C24 42 12 30 12 20V10L24 4Z" fill="#E8F4FD" stroke="#1E40AF" stroke-width="2"/>
+  
+  <!-- 316L文字 -->
+  <text x="24" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#1E40AF">316L</text>
+  
+  <!-- 分子结构装饰 -->
+  <circle cx="18" cy="26" r="2" fill="#3B82F6"/>
+  <circle cx="24" cy="30" r="2" fill="#3B82F6"/>
+  <circle cx="30" cy="26" r="2" fill="#3B82F6"/>
+  <line x1="18" y1="26" x2="24" y2="30" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="24" y1="30" x2="30" y2="26" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- 光泽效果 -->
+  <path d="M24 4L30 8V16C30 22 24 30 24 30C24 30 18 22 18 16V8L24 4Z" fill="url(#shine)" opacity="0.3"/>
+  
+  <defs>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+</svg>

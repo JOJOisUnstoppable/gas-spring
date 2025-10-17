@@ -181,11 +181,11 @@
         "features": [
           {
             "icon": "🛡️",
-            "text": "ABYC Certified"
+            "text": "Duty-Handled"
           },
           {
             "icon": "⚡",
-            "text": "48-Hour Delivery"
+            "text": "10-Days Delivery"
           },
           {
             "icon": "🔧",
@@ -210,48 +210,32 @@
         ],
         "heroImageAlt": "Marine Gas Springs on Luxury Yacht"
       },
-      "trustIndicators": {
-        "items": [
-          {
-            "imageAlt": "ABYC Certification",
-            "text": "ABYC Certified"
-          },
-          {
-            "imageAlt": "ISO 9001",
-            "text": "ISO 9001:2015"
-          },
-          {
-            "imageAlt": "CE Marking",
-            "text": "CE Compliant"
-          },
-          {
-            "imageAlt": "Made for USA",
-            "text": "Made for USA Market"
-          }
-        ]
-      },
       "whyChooseUs": {
         "title": "Why Choose DK Marine Gas Springs?",
         "advantages": [
           {
-            "iconAlt": "316L Stainless Steel",
-            "title": "316L Marine Grade Steel",
-            "description": "Superior corrosion resistance in both fresh and salt water environments. Outperforms standard stainless steel in harsh marine conditions."
+            "iconSrc":"/images/icons/premium-stainless-steel.svg",
+            "iconAlt": "Premium Stainless Steel​",
+            "title": "Premium Stainless Steel​",
+            "description": "304/316 grades available—superior corrosion resistance in fresh/saltwater, outperforming standard steel for marine use. Special needs? Our engineers offer technical discussions anytime.​"
           },
           {
-            "iconAlt": "Fast Delivery",
-            "title": "Lightning Fast Delivery",
-            "description": "48-hour shipping to anywhere in the USA. Emergency same-day service available for critical marine applications."
+            "iconSrc":"/images/icons/ultra-fast-delivery.svg",
+            "iconAlt": "Ultra-Fast Delivery​",
+            "title": "Ultra-Fast Delivery​",
+            "description": "Standard orders: as fast as 2 weeks. Expedited options for urgent needs—get parts when you need them.​"
           },
           {
-            "iconAlt": "Custom Engineering",
-            "title": "Custom Engineering",
-            "description": "Free design consultation and custom gas spring solutions. Our engineers work with your specifications to create the perfect fit."
+            "iconSrc":"/images/icons/tailored-custom-engineering.svg",
+            "iconAlt": "Tailored Custom Engineering​",
+            "title": "Tailored Custom Engineering​",
+            "description": "No off-the-shelf limits: free design consulting + custom solutions, $0 customization fees. Engineers align with your specs for a perfect fit—your long-term partner.​ fit."
           },
           {
-            "iconAlt": "USA Support",
-            "title": "USA-Based Support",
-            "description": "24/7 technical support from our American team. Local inventory and service centers across the United States."
+            "iconSrc":"/images/icons/hassle-free-usa-support.svg",
+            "iconAlt": "Hassle-Free USA Support​",
+            "title": "Hassle-Free USA Support​",
+            "description": "Quotes include tariffs (no fluctuation worries) + cost savings. 24/7 U.S.-based technical support—reliable, local help.​​"
           }
         ]
       },
@@ -259,6 +243,7 @@
         "title": "Marine Gas Spring Solutions",
         "products": [
           {
+            "imageSrc": "/images/marine/yacht-hatch-gas-springs.jpg",
             "imageAlt": "Yacht Hatch Gas Springs",
             "title": "Yacht Hatch Gas Springs",
             "description": "Premium gas struts for yacht hatches and compartments. Smooth operation and reliable hold-open force.",
@@ -270,6 +255,7 @@
             "ctaText": "Get Quote"
           },
           {
+            "imageSrc": "/images/marine/boat-engine-cover-gas-springs.jpg",
             "imageAlt": "Boat Engine Cover Gas Springs",
             "title": "Engine Cover Gas Struts",
             "description": "Heavy-duty gas springs for boat engine covers and access panels. Built to handle frequent use.",
@@ -281,6 +267,7 @@
             "ctaText": "Get Quote"
           },
           {
+            "imageSrc": "/images/marine/marine-furniture-gas-springs.jpg",
             "imageAlt": "Marine Furniture Gas Springs",
             "title": "Marine Furniture Gas Springs",
             "description": "Compact gas struts for marine furniture, seating, and storage solutions. Space-efficient design.",
@@ -297,21 +284,25 @@
         "title": "Marine Applications",
         "items": [
           {
+            "imageSrc": "/images/marine/Luxury_Yachts.jpg",
             "imageAlt": "Luxury Yacht",
             "title": "Luxury Yachts",
             "description": "Premium gas springs for high-end yacht applications including hatches, furniture, and equipment covers."
           },
           {
+            "imageSrc": "/images/marine/Commercial_Fishing.jpg",
             "imageAlt": "Commercial Fishing Boat",
             "title": "Commercial Fishing",
             "description": "Heavy-duty gas struts designed for the demanding environment of commercial fishing vessels."
           },
           {
+            "imageSrc": "/images/marine/Sailboats.png",
             "imageAlt": "Sailboat",
             "title": "Sailboats",
             "description": "Lightweight yet durable gas springs perfect for sailboat hatches and equipment storage."
           },
           {
+            "imageSrc": "/images/marine/Powerboats.png",
             "imageAlt": "Powerboat",
             "title": "Powerboats",
             "description": "High-performance gas struts for powerboat engine covers and access panels."
@@ -344,20 +335,20 @@
         "title": "Customer Success Stories",
         "stories": [
           {
-            "customerImageAlt": "Luxury Yacht Builder",
-            "customerName": "Premium Yacht Builder",
-            "location": "Fort Lauderdale, FL",
-            "testimonial": "DK Gas Springs provided custom solutions for our 150-foot luxury yacht project. The 316L stainless steel construction has performed flawlessly in saltwater conditions for over 3 years.",
+            "customerImageAlt": "Joe's Boat Fix - lt Shop ",
+            "customerName": "Joe's Boat Fix - lt Shop ",
+            "location": "Tampa, FL",
+            "testimonial": "DK's crew called right back-no waiting around. Quality's solid, shipping's quick, folks arefriendly.",
             "results": [
               "Zero corrosion issues",
               "50% cost savings vs. competitors"
             ]
           },
           {
-            "customerImageAlt": "Commercial Fishing Fleet",
-            "customerName": "Commercial Fishing Fleet",
-            "location": "Seattle, WA",
-            "testimonial": "We've equipped our entire fleet of 25 fishing vessels with DK marine gas springs. The reliability and durability in harsh Pacific conditions is outstanding.",
+            "customerImageAlt": "Sandy's Marina Supply ",
+            "customerName": "Sandy's Marina Supply ",
+            "location": "San Diego, CA",
+            "testimonial": "We stock marina gear, so we need stuff that gets here fast and don't break. Shipmentscome in super quick-never late. And when we had a rush bulk order for a local marinamakeover, they sent it over in two week and a half. Easy to chat with, fast shipping, goodquality-we'll stick with'em for sure.",
             "results": [
               "25 vessels equipped",
               "99.8% uptime achieved"
@@ -411,7 +402,7 @@
         "items": [
           {
             "question": "What makes marine gas springs different from standard gas springs?",
-            "answer": "Marine gas springs use 316L stainless steel construction and specialized seals to resist corrosion from salt water and harsh marine environments. They're also designed to meet ABYC standards for marine applications."
+            "answer": "Marine gas springs use 316L stainless steel construction and specialized seals to resist corrosion from salt water and harsh marine environments. They're also designed to meet Zölle erledigt for marine applications."
           },
           {
             "question": "How do I calculate the force needed for my marine application?",
@@ -427,7 +418,7 @@
           },
           {
             "question": "Do you ship to all US states?",
-            "answer": "Yes, we ship to all 50 states with standard 48-hour delivery. Express and same-day delivery options are available for urgent marine applications."
+            "answer": "Yes, we ship to all 50 states with standard 10 days delivery. Express and same-day delivery options are available for urgent marine applications."
           },
           {
             "question": "What certifications do your marine gas springs have?",

@@ -329,11 +329,11 @@
         "features": [
           {
             "icon": "🛡️",
-            "text": "Certificados por ABYC"
+            "text": "Aranceles gestionados"
           },
           {
             "icon": "⚡",
-            "text": "Entrega en 48 horas"
+            "text": "Entrega en 10 días"
           },
           {
             "icon": "🔧",
@@ -362,7 +362,7 @@
         "items": [
           {
             "imageAlt": "Certificación ABYC",
-            "text": "Certificados por ABYC"
+            "text": "Aranceles gestionados"
           },
           {
             "imageAlt": "ISO 9001",
@@ -492,23 +492,23 @@
         "title": "Historias de éxito de clientes",
         "stories": [
           {
-            "customerImageAlt": "Construidor de yates de lujo",
-            "customerName": "Construidor de yates de lujo",
-            "location": "Fort Lauderdale, FL",
-            "testimonial": "DK Gas Springs ofreció soluciones personalizadas para nuestro proyecto de yate de lujo de 150 pies. La construcción de acero inoxidable 316L ha funcionado a la perfección en condiciones de agua salada durante más de 3 años.",
+            "customerImageAlt": "Joe's Boat Fix - lt Shop",
+            "customerName": "Joe's Boat Fix - lt Shop",
+            "location": "Tampa, FL",
+            "testimonial": "El equipo de DK llamó de vuelta inmediatamente, sin esperas. La calidad es sólida, el envío rápido y la gente es amable.",
             "results": [
-              "Cero problemas de corrosión",
-              "Ahorro del 50% en costos en comparación con la competencia"
+              "Sin problemas de corrosión",
+              "Ahorros del 50% en costos frente a la competencia"
             ]
           },
           {
-            "customerImageAlt": "Flota de pesca comercial",
-            "customerName": "Flota de pesca comercial",
-            "location": "Seattle, WA",
-            "testimonial": "Hemos equipado toda nuestra flota de 25 embarcaciones de pesca con resortes de gas marinos DK. La confiabilidad y durabilidad en las duras condiciones del Pacífico son excepcionales.",
+            "customerImageAlt": "Sandy's Marina Supply",
+            "customerName": "Sandy's Marina Supply",
+            "location": "San Diego, CA",
+            "testimonial": "Almacenamos equipos para marinas, así que necesitamos cosas que lleguen rápido y no se rompan. Los envíos llegan super rápido, nunca tarde. Y cuando tuvimos un pedido al por mayor urgente para una remodelación local de marina, lo enviaron en un mes y medio. Fáciles de hablar, envíos rápidos, buena calidad – sin duda nos quedaremos con ellos.",
             "results": [
               "25 embarcaciones equipadas",
-              "Logro de un 99,8% de disponibilidad"
+              "Logrado un 99,8% de disponibilidad"
             ]
           }
         ]

@@ -181,11 +181,11 @@
         "features": [
           {
             "icon": "🛡️",
-            "text": "Zcertyfikowane przez ABYC"
+            "text": "Podatki celne obsłużone"
           },
           {
             "icon": "⚡",
-            "text": "Dostawa w 48 godzin"
+            "text": "Dostawa w 10 dni"
           },
           {
             "icon": "🔧",
@@ -214,7 +214,7 @@
         "items": [
           {
             "imageAlt": "Certyfikat ABYC",
-            "text": "Zcertyfikowane przez ABYC"
+            "text": "Podatki celne obsłużone"
           },
           {
             "imageAlt": "ISO 9001",
@@ -341,26 +341,26 @@
         "imageAlt": "Zespół wsparcia technicznego"
       },
       "successStories": {
-        "title": "Historie sukcesu klientów",
+        "title": "Przykłady sukcesów klientów",
         "stories": [
           {
-            "customerImageAlt": "Producent luksusowych jachtów",
-            "customerName": "Premiumowy producent jachtów",
-            "location": "Fort Lauderdale, FL",
-            "testimonial": "DK Gas Springs zapewnił dostosowane rozwiązania dla naszego projektu luksusowego jachty o długości 150 stóp. Budowa ze stali nierdzewnej 316L pracuje bezbłędnie w warunkach wody solonej od ponad 3 lat.",
+            "customerImageAlt": "Joe's Boat Fix - lt Shop",
+            "customerName": "Joe's Boat Fix - lt Shop",
+            "location": "Tampa, FL",
+            "testimonial": "Zespół DK zadzwonił natychmiast – bez czekania. Jakość jest solidna, dostawa szybka, a ludzie są przyjazni.",
             "results": [
               "Brak problemów z korozją",
               "Oszczędności 50% w porównaniu z konkurencją"
             ]
           },
           {
-            "customerImageAlt": "Flota rybacka komercyjna",
-            "customerName": "Flota rybacka komercyjna",
-            "location": "Seattle, WA",
-            "testimonial": "Wposażono całą flotę 25 statków rybackich w prużyny gazowe morskie DK. Zaufananość i trwałość w trudnych warunkach na Pacyfiku są wyjątkowe.",
+            "customerImageAlt": "Sandy's Marina Supply",
+            "customerName": "Sandy's Marina Supply",
+            "location": "San Diego, CA",
+            "testimonial": "Przechowujemy sprzęt do portów rekreacyjnych, więc potrzebujemy rzeczy, które przychodzą szybko i nie rozbijają się. Dostawy przychodzą bardzo szybko – nigdy nie spóźniają się. A kiedy mieliśmy pilną zamówienie hurtowe na lokalną modernizację portu, wysłali je w półtora tygodnia. Łatwe w komunikacji, szybka dostawa, dobra jakość – na pewno zostańmy z nimi.",
             "results": [
-              "25 wyposażonych statków",
-              "Osiągnięta dostępność 99,8%"
+              "Wyposażono 25 jednostek wodnych",
+              "Osiągnięto 99,8% czasu pracy"
             ]
           }
         ]

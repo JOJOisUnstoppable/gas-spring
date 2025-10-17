@@ -329,11 +329,11 @@
         "features": [
           {
             "icon": "🛡️",
-            "text": "ABYC-zertifiziert"
+            "text": "Zölle erledigt"
           },
           {
             "icon": "⚡",
-            "text": "48-Stunden-Lieferung"
+            "text": "10-Tägige Lieferung"
           },
           {
             "icon": "🔧",
@@ -357,26 +357,6 @@
           }
         ],
         "heroImageAlt": "Marine-Gasfedern an einer Luxusyacht"
-      },
-      "trustIndicators": {
-        "items": [
-          {
-            "imageAlt": "ABYC-Zertifizierung",
-            "text": "ABYC-zertifiziert"
-          },
-          {
-            "imageAlt": "ISO 9001",
-            "text": "ISO 9001:2015"
-          },
-          {
-            "imageAlt": "CE-Kennzeichnung",
-            "text": "CE-konform"
-          },
-          {
-            "imageAlt": "Für USA gefertigt",
-            "text": "Für den US-Markt gefertigt"
-          }
-        ]
       },
       "whyChooseUs": {
         "title": "Warum DK Marine-Gasfedern wählen?",
@@ -492,23 +472,23 @@
         "title": "Kundenerfolgsgeschichten",
         "stories": [
           {
-            "customerImageAlt": "Premium-Yachtbauer",
-            "customerName": "Premium-Yachtbauer",
-            "location": "Fort Lauderdale, FL",
-            "testimonial": "DK Gas Springs hat individuelle Lösungen für unser 150-Fuß-Luxusyacht-Projekt geliefert. Die Konstruktion aus Edelstahl 316L funktioniert seit über 3 Jahren fehlerfrei in Salzwasserumgebungen.",
+            "customerImageAlt": "Joe's Boat Fix - lt Shop",
+            "customerName": "Joe's Boat Fix - lt Shop",
+            "location": "Tampa, FL",
+            "testimonial": "Das Team von DK rief sofort zurück – keine Wartezeit. Die Qualität ist solid, der Versand schnell, und die Leute sind freundlich.",
             "results": [
               "Keine Korrosionsprobleme",
-              "50 % Kostenersparnis im Vergleich zu Konkurrenten"
+              "50 % Kosteneinsparungen gegenüber Konkurrenten"
             ]
           },
           {
-            "customerImageAlt": "Gewerbliche Fischereiflotte",
-            "customerName": "Gewerbliche Fischereiflotte",
-            "location": "Seattle, WA",
-            "testimonial": "Unsere gesamte Flotte von 25 Fischereifahrzeugen ist mit DK-Marine-Gasfedern ausgestattet. Die Zuverlässigkeit und Haltbarkeit in den anspruchsvollen Bedingungen des Pazifiks ist hervorragend.",
+            "customerImageAlt": "Sandy's Marina Supply",
+            "customerName": "Sandy's Marina Supply",
+            "location": "San Diego, CA",
+            "testimonial": "Wir lagern Marina-Ausrüstung, also brauchen wir Dinge, die schnell ankommen und nicht kaputt gehen. Die Lieferungen kommen super schnell – nie zu spät. Und als wir eine eilige Großbestellung für eine lokale Marina-Umbauung hatten, schickten sie sie in anderthalb Wochen. Einfach zu kommunizieren, schneller Versand, gute Qualität – wir bleiben auf jeden Fall bei ihnen.",
             "results": [
-              "25 Fahrzeuge ausgestattet",
-              "99,8 %ige Verfügbarkeit erzielt"
+              "25 Schiffe ausgestattet",
+              "99,8 % Betriebszeit erreicht"
             ]
           }
         ]
@@ -559,7 +539,7 @@
         "items": [
           {
             "question": "Was unterscheidet Marine-Gasfedern von Standard-Gasfedern?",
-            "answer": "Marine-Gasfedern verwenden eine Konstruktion aus Edelstahl 316L und Spezialdichtungen, um Korrosion durch Salzwasser und anspruchsvolle Marine-Umgebungen widerstehen zu können. Darüber hinaus sind sie so konzipiert, dass sie die ABYC-Standards für Marine-Anwendungen erfüllen."
+            "answer": "Marine-Gasfedern verwenden eine Konstruktion aus Edelstahl 316L und Spezialdichtungen, um Korrosion durch Salzwasser und anspruchsvolle Marine-Umgebungen widerstehen zu können. Darüber hinaus sind sie so konzipiert, dass sie die Zölle erledigt für Marine-Anwendungen erfüllen."
           },
           {
             "question": "Wie berechne ich die benötigte Kraft für meine Marine-Anwendung?",
@@ -575,11 +555,11 @@
           },
           {
             "question": "Liefern Sie in alle US-Bundesstaaten?",
-            "answer": "Ja, wir liefern in alle 50 US-Bundesstaaten – mit standardmäßiger 48-Stunden-Lieferung. Für dringende Marine-Anwendungen stehen Express- und Same-Day-Lieferoptionen zur Verfügung."
+            "answer": "Ja, wir liefern in alle 50 US-Bundesstaaten – mit standardmäßiger 10-Tägige Lieferung. Für dringende Marine-Anwendungen stehen Express- und Same-Day-Lieferoptionen zur Verfügung."
           },
           {
             "question": "Welche Zertifizierungen haben Ihre Marine-Gasfedern?",
-            "answer": "Unsere Marine-Gasfedern erfüllen die ABYC-Standards und sind ISO 9001:2015-zertifiziert. Bei Bedarf bieten wir zudem eine CE-Kennzeichnung für internationale Konformität an."
+            "answer": "Unsere Marine-Gasfedern erfüllen die Zölle erledigt und sind ISO 9001:2015-zertifiziert. Bei Bedarf bieten wir zudem eine CE-Kennzeichnung für internationale Konformität an."
           }
         ]
       }

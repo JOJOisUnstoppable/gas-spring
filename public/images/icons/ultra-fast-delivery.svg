@@ -1,0 +1,21 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 包裹盒子 -->
+  <rect x="8" y="20" width="24" height="20" rx="2" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- 包裹胶带 -->
+  <rect x="8" y="28" width="24" height="4" fill="#F59E0B"/>
+  <rect x="18" y="20" width="4" height="20" fill="#F59E0B"/>
+  
+  <!-- 闪电符号 -->
+  <path d="M28 8L20 22H26L18 36L26 22H20L28 8Z" fill="#EF4444" stroke="#DC2626" stroke-width="1"/>
+  
+  <!-- 速度线条 -->
+  <path d="M36 16H42" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M38 20H44" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M36 24H42" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- 48小时标识 -->
+  <circle cx="40" cy="32" r="6" fill="#10B981" stroke="#059669" stroke-width="2"/>
+  <text x="40" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="white">48</text>
+  <text x="40" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="4" font-weight="bold" fill="white">HR</text>
+</svg>

@@ -63,33 +63,31 @@ export default async function LocaleLayout(
   const { categories } = await getProductData(locale)
 
   return (
-    <html lang={locale}>
-      <body className={hubotSans.className}>
-        <Navbar 
-          locale={locale} 
-          dict={dict} 
-          categories={categories.map(cat => ({
-            id: cat.id,
-            title: cat.title,
-            description: cat.description
-          }))} 
-        />
-        <main className="min-h-screen">
-          {children}
-        </main>
-        <Footer 
-          locale={locale}
-          dict={dict}
-          categories={categories.map(cat => ({
-            id: cat.id,
-            title: cat.title,
-            description: cat.description
-          }))}
-        />
-        <Toaster />
-        <ScrollToTop />
-      </body>
-    </html>
+    <>
+      <Navbar 
+        locale={locale} 
+        dict={dict} 
+        categories={categories.map(cat => ({
+          id: cat.id,
+          title: cat.title,
+          description: cat.description
+        }))} 
+      />
+      <main className="min-h-screen">
+        {children}
+      </main>
+      <Footer 
+        locale={locale}
+        dict={dict}
+        categories={categories.map(cat => ({
+          id: cat.id,
+          title: cat.title,
+          description: cat.description
+        }))}
+      />
+      <Toaster />
+      <ScrollToTop />
+    </>
   )
 }
 

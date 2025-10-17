@@ -5,7 +5,6 @@ import { ProductCard } from '@/components/products/ProductCard'
 import { ProductHero } from '@/components/products/ProductHero'
 import { getProductData, getProductsByCategory } from '@/lib/products'
 import { notFound } from 'next/navigation'
-// import { categoryConfig } from '@/components/products/categoryConfig'
 import { CategoryIntroduction } from '@/components/products/CategoryIntroduction'
 import ImageInputForm from "@/components/products/ImageInputForm"
 import HowtoChooseGS from '@/components/products/HowtoChooseGS'
@@ -17,25 +16,24 @@ import FloatingNavMenu from '@/components/products/FloatingNavMenu'
 
 export default async function CategoryPage(
   props: {
-    params: Promise<{ locale: Locale; id: string }>
+    params: Promise<{ locale: Locale }>
   }
 ) {
   const params = await props.params;
-
-  const {
-    locale,
-    id
-  } = params;
+  const { locale } = params;
+  
+  // 对于静态路由 gas-spring，直接使用硬编码的 id
+  const id = 'gas-spring';
 
   const { categories } = await getProductData(locale)
   const products = await getProductsByCategory(locale, id)
   const dict = await getDictionary(locale)
 
   const category = categories.find(cat => cat.id === id)
+  
   if (!category) {
     notFound()
   }
-
   return (
     <>
       {/* 悬浮内容菜单 */}
