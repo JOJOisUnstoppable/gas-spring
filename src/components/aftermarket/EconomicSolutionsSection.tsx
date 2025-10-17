@@ -1,4 +1,5 @@
 'use client';
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
 // 定义文本参数接口，避免any类型

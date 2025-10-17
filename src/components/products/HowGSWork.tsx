@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /**
  * @file HowGSWork.tsx
  * @description Gas Spring 工作原理组件

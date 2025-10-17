@@ -2,7 +2,6 @@ import '../globals.css'
 import type { Metadata } from 'next'
 // import type { Metadata, ResolvingMetadata } from 'next'
 import { headers } from 'next/headers'
-import localFont from 'next/font/local'
 import { Navbar } from '@/components/layout/Navbar'
 import { getDictionary } from '@/lib/i18n/getDictionary'
 import type { Locale } from '@/lib/i18n/config'
@@ -12,29 +11,6 @@ import { Footer } from '@/components/layout/Footer'
 import { notFound } from 'next/navigation'
 import { ScrollToTop } from '@/components/shared/ScrollToTop'
 
-const hubotSans = localFont({
-  src: [
-    {
-      path: '../../../public/fonts/HubotSans-Regular.woff2',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../../../public/fonts/HubotSans-Medium.woff2',
-      weight: '500',
-      style: 'normal',
-    },
-    {
-      path: '../../../public/fonts/HubotSans-Bold.woff2',
-      weight: '700',
-      style: 'normal',
-    }
-  ],
-  variable: '--font-hubot-sans',
-  display: 'swap',
-  preload: true,
-  fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Arial', 'sans-serif']
-})
 
 
 

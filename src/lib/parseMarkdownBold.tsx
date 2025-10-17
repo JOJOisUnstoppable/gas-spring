@@ -65,7 +65,7 @@ const parseMarkdownBold = (text: string): (string | JSX.Element)[] => {
   const linkParsed = parseLinks(text);
   const result: (string | JSX.Element)[] = [];
   
-  linkParsed.forEach((item, index) => {
+  linkParsed.forEach((item) => {
     const boldParsed = parseBold(item);
     result.push(...boldParsed);
   });
