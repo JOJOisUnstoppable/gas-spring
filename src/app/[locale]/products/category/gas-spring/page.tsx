@@ -1,4 +1,6 @@
 
+/* eslint-disable @next/next/no-img-element */
+
 import { Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/getDictionary'
 import { ProductCard } from '@/components/products/ProductCard'
@@ -82,6 +84,10 @@ export default async function CategoryPage(
           </div>
         </div>
       </section>
+      
+      <img src='/images/products_page/accessories.png' alt='gas-spring-accessories-picture' className="w-full h-auto" />
+
+
 
       {/* How GAS Spring work */}
       <section id="how-gs-work">
