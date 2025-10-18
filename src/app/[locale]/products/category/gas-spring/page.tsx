@@ -85,13 +85,13 @@ export default async function CategoryPage(
             {'Gas Spring Accessories'}
           </h2>
           <div className="flex flex-col items-center space-y-4 mt-12">
-            <div className="w-full max-w-6xl relative h-96">
+            <div className="w-full max-w-7xl relative h-[700px]">
               <Image
                 src='/images/products_page/accessories.png'
                 alt='gas-spring-accessories-picture'
                 fill={true}
                 sizes="100vw"
-                className="rounded-lg shadow-lg object-cover"
+                className="rounded-lg shadow-lg object-contain"
               />
             </div>
           </div>
