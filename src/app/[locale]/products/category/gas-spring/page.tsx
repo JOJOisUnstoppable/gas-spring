@@ -22,7 +22,7 @@ export default async function CategoryPage(
 ) {
   const params = await props.params;
   const { locale } = params;
-  
+
   // 对于静态路由 gas-spring，直接使用硬编码的 id
   const id = 'gas-spring';
 
@@ -31,7 +31,7 @@ export default async function CategoryPage(
   const dict = await getDictionary(locale)
 
   const category = categories.find(cat => cat.id === id)
-  
+
   if (!category) {
     notFound()
   }
@@ -81,15 +81,23 @@ export default async function CategoryPage(
               />
             ))}
           </div>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12">
+            {'Gas Spring Accessories'}
+          </h2>
+          <div className="flex flex-col items-center space-y-4 mt-12">
+            <div className="w-full max-w-6xl">
+              <img
+                src='/images/products_page/accessories.png'
+                alt='gas-spring-accessories-picture'
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
         </div>
       </section>
-      
-      <Image src='/images/products_page/accessories.png' alt='gas-spring-accessories-picture' className="w-full h-auto" fill={true} sizes="100vw" />
-
-
 
       {/* How GAS Spring work */}
-      <section id="how-gs-work">
+      < section id="how-gs-work" >
         <HowGSWork
           mainTitle={dict.products['gas-spring'].howGSWork.title}
           mainContent={dict.products['gas-spring'].howGSWork.desc}
@@ -102,52 +110,52 @@ export default async function CategoryPage(
           frontdesc={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.frontdesc}
           subContent2={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.desc}
         />
-      </section>
+      </section >
 
       {/* GAS Spring 型号选择器 */}
-      <section id="replacement">
+      < section id="replacement" >
         <ImageInputForm
           title={dict.products['gas-spring'].Replacement.title}
           subtitle={dict.products['gas-spring'].Replacement.subTitle}
           desc={dict.products['gas-spring'].Replacement.desc}
         />
-      </section>
+      </section >
 
       {/* How to choose gas spring */}
-      <section id="how-to-choose">
+      < section id="how-to-choose" >
         <HowtoChooseGS
           dict={dict}
           imageSrc={'/images/products_page/CalculationF1.png'}
           imageAlt={'GAS Spring Calculation Principle F1'}
         />
-      </section>
+      </section >
 
       {/* Calculation Principle F1 */}
-      <section id="calculation">
+      < section id="calculation" >
         <CalculationF1
           midTitle1={dict.products['gas-spring'].CalculationF1.EFC.title}
           midDesc1={dict.products['gas-spring'].CalculationF1.EFC.desc}
           midDesc2={dict.products['gas-spring'].CalculationF1.GSDFCC.desc}
         />
-      </section>
+      </section >
 
       {/* Gas spring Installation Guideline  */}
-      <section id="installation">
+      < section id="installation" >
         <GSInstallationGuide
           imageCaption={dict.products['gas-spring'].GSInstallationGuide.imageCaption}
           title={dict.products['gas-spring'].GSInstallationGuide.title}
           desc={dict.products['gas-spring'].GSInstallationGuide.desc}
         />
-      </section>
+      </section >
 
       {/* CTA */}
-      <section id="cta">
+      < section id="cta" >
         <CTA
           title={dict.products['gas-spring'].CTA.title}
           desc={dict.products['gas-spring'].CTA.desc}
           locale={locale}
         />
-      </section>
+      </section >
     </>
   )
 }
