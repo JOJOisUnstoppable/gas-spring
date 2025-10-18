@@ -1,6 +1,4 @@
 
-/* eslint-disable @next/next/no-img-element */
-
 import { Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/getDictionary'
 import { ProductCard } from '@/components/products/ProductCard'
@@ -15,6 +13,7 @@ import CalculationF1 from '@/components/products/CalculationF1'
 import GSInstallationGuide from '@/components/products/GSInstallationGuide'
 import CTA from '@/components/products/CTA'
 import FloatingNavMenu from '@/components/products/FloatingNavMenu'
+import Image from 'next/image'
 
 export default async function CategoryPage(
   props: {
@@ -85,7 +84,7 @@ export default async function CategoryPage(
         </div>
       </section>
       
-      <img src='/images/products_page/accessories.png' alt='gas-spring-accessories-picture' className="w-full h-auto" />
+      <Image src='/images/products_page/accessories.png' alt='gas-spring-accessories-picture' className="w-full h-auto" fill={true} sizes="100vw" />
 
 
 
