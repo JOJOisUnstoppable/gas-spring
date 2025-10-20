@@ -60,7 +60,7 @@ export async function POST(request: Request) {
         },
         Language: {
           select: {
-            name: lang
+            name: lang || 'English'  // 提供默认值
           }
         }
       }
