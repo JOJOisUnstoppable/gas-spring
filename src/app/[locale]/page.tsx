@@ -10,7 +10,7 @@ import { getApplicationData } from '@/lib/applications'
 import { BentoGrid } from "@/components/magicui/bento-grid"
 import { Contact } from '@/components/home/Contact'
 import Link from 'next/link'
-
+import VideoPlayer from '@/components/shared/VideoPlayer'
 
 export default async function Home(
   props: {
@@ -32,6 +32,19 @@ export default async function Home(
       <Hero dict={dict} locale={locale} />
 
       <Features dict={dict} />
+
+      {/* 新增：视频模块，保持风格统一与懒加载 */}
+      <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-12 text-center">
+        <h2 className="text-3xl font-bold mb-4">
+          {'Gas Spring Manufacturer'}
+        </h2>
+        <VideoPlayer
+          variant="mp4"
+          src="/videos/dkgasspring-1.mp4"
+          poster="/videos/DK_GS_poster.png"
+          caption=""
+        />
+      </div>
 
       <div className="relative container max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50/30 via-transparent to-purple-50/30" />
