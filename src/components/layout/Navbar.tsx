@@ -180,6 +180,13 @@ export function Navbar({ locale, dict, categories }: {
                     </Link>
                   ))}
                 </nav>
+                <div className="mt-4 px-4">
+                  <Link href="/download-catalog" passHref>
+                    <Button variant="default" className="w-full">
+                      Download Catalog
+                    </Button>
+                  </Link>
+                </div>
               </SheetContent>
             </Sheet>
             <Link href={`/${locale}/spotlights/solar-damper`} className="block md:inline-flex md:w-auto md:ml-0 mx-auto mb-0 group">
@@ -193,8 +200,13 @@ export function Navbar({ locale, dict, categories }: {
               <LanguageSwitcher />
             </div>
           </div>
-          <div className="hidden md:flex">
+          <div className="hidden md:flex items-center space-x-2">
             <LanguageSwitcher />
+            <Link href="/download-catalog" passHref>
+              <Button variant="default" size="sm">
+                Download Catalog
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
