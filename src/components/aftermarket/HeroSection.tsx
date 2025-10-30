@@ -40,14 +40,9 @@ const Hero: React.FC<HeroProps> = ({ texts }) => {
   return (
     <section className="hero" id="inicio">
         <div className="hero-content container">
-          <div className="value-badge">
-            <span className="badge-icon">💰</span>
-            <span>{texts.heroBadge}</span>
-          </div>
           
           <h1 className="hero-title">
             <span className="highlight-red">{texts.heroTitleRed}</span> 
-            <span>{texts.heroTitleMain}</span><br />
             <span className="highlight-green">{texts.heroTitleGreen}</span>
           </h1>
           
@@ -69,10 +64,6 @@ const Hero: React.FC<HeroProps> = ({ texts }) => {
             <div className="stat">
               <span className="stat-number">1</span>
               <span className="stat-label">{texts.statModelos}</span>
-            </div>
-            <div className="stat">
-              <span className="stat-number">+300%</span>
-              <span className="stat-label">{texts.statRoi}</span>
             </div>
           </div>
           
