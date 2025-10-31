@@ -5,9 +5,9 @@
     "applications": "Anwendungen",
     "blog": "Blog",
     "contact": "Kontakt",
-    "allProducts": "All Products",
+    "allProducts": "Alle Produkte",
     "showProducts": "Eine umfangreiche und vollständige Produktpalette",
-    "viewAll": "Alle anzeigen Tags"
+    "viewAll": "Alle Tags anzeigen"
   },
   "home": {
     "hero": {
@@ -18,24 +18,24 @@
       "ctaProduct": "Unsere Produkte entdecken"
     },
     "service": {
-      "title": "Customized Service Process",
-      "description": "We provide comprehensive customization services from design to production, ensuring each product perfectly meets your requirements",
+      "title": "Individueller Serviceprozess",
+      "description": "Wir bieten umfassende Anpassungsdienstleistungen von der Konstruktion bis zur Produktion und stellen sicher, dass jedes Produkt Ihre Anforderungen perfekt erfüllt",
       "steps": {
         "stepOne": {
-          "title": "Requirement Analysis",
-          "description": "We understand your requirements and industry needs."
+          "title": "Anforderungsanalyse",
+          "description": "Wir verstehen Ihre Anforderungen und Branchenbedürfnisse."
         },
         "stepTwo": {
-          "title": "Solution Design",
-          "description": "We design customized gas spring solutions that are specifically designed to meet your unique requirements."
+          "title": "Lösungsdesign",
+          "description": "Wir entwickeln maßgeschneiderte Gasfederlösungen, die speziell auf Ihre individuellen Anforderungen zugeschnitten sind."
         },
         "stepThree": {
-          "title": "Sample Confirmation",
-          "description": "We provide free samples for testing and confirmation."
+          "title": "Musterbestätigung",
+          "description": "Wir stellen kostenlose Muster zum Testen und zur Bestätigung zur Verfügung."
         },
         "stepFour": {
-          "title": "Batch Production",
-          "description": "We strictly follow ISO 9001:2000 standard, ensuring high quality and performance for each product."
+          "title": "Serienproduktion",
+          "description": "Wir befolgen strikt den ISO 9001:2000-Standard und gewährleisten hohe Qualität und Leistung für jedes Produkt."
         }
       }
     },
@@ -44,20 +44,20 @@
       "description": "Wir bieten umfassende Gasfederlösungen, die vielfältige industrielle Anforderungen erfüllen",
       "items": [
         {
-          "title": "Customized Solutions",
-          "description": "We offer customized gas spring solutions that are specifically designed to meet your unique requirements."
+          "title": "Individuelle Lösungen",
+          "description": "Wir bieten maßgeschneiderte Gasfederlösungen, die speziell auf Ihre individuellen Anforderungen zugeschnitten sind."
         },
         {
-          "title": "Quality Excellence",
-          "description": "We strictly follow ISO 9001:2000 standard, ensuring high quality and performance for each product."
+          "title": "Qualitätsexzellenz",
+          "description": "Wir befolgen strikt den ISO 9001:2000-Standard und gewährleisten hohe Qualität und Leistung für jedes Produkt."
         },
         {
-          "title": "Technical Excellence",
-          "description": "We master the core technology of long-distance gas springs, enabling precise control of damping and pop-out speed, even in challenging environments."
+          "title": "Technische Exzellenz",
+          "description": "Wir beherrschen die Kerntechnologie von Langstrecken-Gasfedern und ermöglichen präzise Kontrolle von Dämpfung und Ausfahrgeschwindigkeit, auch in anspruchsvollen Umgebungen."
         },
         {
-          "title": "Global Services",
-          "description": "We provide global services, including engineering consultation, installation guidance, and comprehensive online technical support."
+          "title": "Globale Dienstleistungen",
+          "description": "Wir bieten globale Dienstleistungen, einschließlich Ingenieurberatung, Installationsanleitung und umfassenden Online-Technikservice."
         }
       ]
     }
@@ -73,8 +73,8 @@
     "descriptionLabel": "Anwendungsbeschreibung",
     "solutionLabel": "Gasdruckfeder-Lösung",
     "relatedPostsLabel": "Verwandte Beiträge mit Fallreferenzen",
-    "noRelatedPosts": "Non related posts in current language",
-    "viewMoreString": "Contact Us to Get More Info"
+    "noRelatedPosts": "Keine verwandten Beiträge in der aktuellen Sprache",
+    "viewMoreString": "Kontaktieren Sie uns für weitere Informationen"
   },
   "blog": {
     "description": "Unser Einblick in die Gasfederindustrie und deren Produkte",
@@ -517,7 +517,7 @@
         "applicationOptions": [
           {
             "value": "yacht-hatch",
-            "label": "Yachtluka"
+            "label": "Yachtluke"
           },
           {
             "value": "engine-cover",
@@ -525,7 +525,7 @@
           },
           {
             "value": "furniture",
-            "label": "Marine-Möbel"
+            "label": "Schiffsmöbel"
           },
           {
             "value": "custom",
@@ -539,7 +539,7 @@
         "items": [
           {
             "question": "Was unterscheidet Marine-Gasfedern von Standard-Gasfedern?",
-            "answer": "Marine-Gasfedern verwenden eine Konstruktion aus Edelstahl 316L und Spezialdichtungen, um Korrosion durch Salzwasser und anspruchsvolle Marine-Umgebungen widerstehen zu können. Darüber hinaus sind sie so konzipiert, dass sie die Zölle erledigt für Marine-Anwendungen erfüllen."
+            "answer": "Marine-Gasfedern verwenden eine Konstruktion aus Edelstahl 316L und Spezialdichtungen, um Korrosion durch Salzwasser und anspruchsvolle Marine-Umgebungen widerstehen zu können. Darüber hinaus sind sie so konzipiert, dass sie die Zertifizierungsanforderungen für Marine-Anwendungen erfüllen."
           },
           {
             "question": "Wie berechne ich die benötigte Kraft für meine Marine-Anwendung?",
@@ -551,15 +551,15 @@
           },
           {
             "question": "Bieten Sie individuelle Montageteile an?",
-            "answer": "Ja, wir bieten individuelle Montageteile und Befestigungsteile an, die speziell für Marine-Anwendungen entwickelt wurden. Alle Montageteile bestehen aus Marine-Qualitätsmaterialien mit angemessener Korrosionsschutz."
+            "answer": "Ja, wir bieten individuelle Montageteile und Befestigungsteile an, die speziell für Marine-Anwendungen entwickelt wurden. Alle Montageteile bestehen aus Marine-Qualitätsmaterialien mit angemessenem Korrosionsschutz."
           },
           {
             "question": "Liefern Sie in alle US-Bundesstaaten?",
-            "answer": "Ja, wir liefern in alle 50 US-Bundesstaaten – mit standardmäßiger 10-Tägige Lieferung. Für dringende Marine-Anwendungen stehen Express- und Same-Day-Lieferoptionen zur Verfügung."
+            "answer": "Ja, wir liefern in alle 50 US-Bundesstaaten – mit standardmäßiger 10-tägiger Lieferung. Für dringende Marine-Anwendungen stehen Express- und Same-Day-Lieferoptionen zur Verfügung."
           },
           {
             "question": "Welche Zertifizierungen haben Ihre Marine-Gasfedern?",
-            "answer": "Unsere Marine-Gasfedern erfüllen die Zölle erledigt und sind ISO 9001:2015-zertifiziert. Bei Bedarf bieten wir zudem eine CE-Kennzeichnung für internationale Konformität an."
+            "answer": "Unsere Marine-Gasfedern erfüllen die Zertifizierungsanforderungen und sind ISO 9001:2015-zertifiziert. Bei Bedarf bieten wir zudem eine CE-Kennzeichnung für internationale Konformität an."
           }
         ]
       }
@@ -609,12 +609,12 @@
         "applicationLabel": "Anwendung",
         "selectOption": "Auswählen",
         "uploadOptions": "Auswählen / Hochladen Ihrer Produktliste",
-        "searchButton": "einreichen",
-        "searchingText": "einreichen...",
+        "searchButton": "Suchen",
+        "searchingText": "Suchen...",
         "connectionTypes": {
           "ballSocket": "Kugelgelenk",
           "eyeEnd": "Augenende",
-          "threaded": "Gewindet",
+          "threaded": "Gewinde",
           "fork": "Gabel"
         },
         "applications": {

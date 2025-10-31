@@ -5,7 +5,7 @@
     "applications": "Aplicaciones",
     "blog": "Blog",
     "contact": "Contáctanos",
-    "allProducts": "All Products",
+    "allProducts": "Todos los Productos",
     "showProducts": "Una línea de productos rica y completa",
     "viewAll": "Ver todo Etiquetas"
   },
@@ -18,25 +18,25 @@
       "ctaProduct": "Explora Nuestros Productos"
     },
     "service": {
-      "title": "Customized Service Process",
-      "description": "We provide comprehensive customization services from design to production, ensuring each product perfectly meets your requirements",
+      "title": "Proceso de Servicio Personalizado",
+      "description": "Proporcionamos servicios integrales de personalización desde el diseño hasta la producción, asegurando que cada producto cumpla perfectamente con sus requisitos",
       "steps": {
         "stepOne": {
-          "title": "Requirement Analysis",
-          "description": "We understand your requirements and industry needs."
-        },
-        "stepTwo": {
-          "title": "Solution Design",
-          "description": "We design customized gas spring solutions that are specifically designed to meet your unique requirements."
-        },
-        "stepThree": {
-          "title": "Sample Confirmation",
-          "description": "We provide free samples for testing and confirmation."
-        },
-        "stepFour": {
-          "title": "Batch Production",
-          "description": "We strictly follow ISO 9001:2000 standard, ensuring high quality and performance for each product."
-        }
+            "title": "Análisis de Requisitos",
+            "description": "Entendemos sus requisitos y necesidades de la industria."
+          },
+          "stepTwo": {
+            "title": "Diseño de Soluciones",
+            "description": "Diseñamos soluciones de resortes de gas personalizadas que están específicamente diseñadas para cumplir con sus requisitos únicos."
+          },
+          "stepThree": {
+            "title": "Confirmación de Muestras",
+            "description": "Proporcionamos muestras gratuitas para pruebas y confirmación."
+          },
+          "stepFour": {
+            "title": "Producción en Lotes",
+            "description": "Seguimos estrictamente el estándar ISO 9001:2000, asegurando alta calidad y rendimiento para cada producto."
+          }
       }
     },
     "features": {
@@ -73,8 +73,8 @@
     "descriptionLabel": "Descripción de la Aplicación",
     "solutionLabel": "Solución de Resortes de Gas",
     "relatedPostsLabel": "Publicaciones Relacionadas con Referencias de Casos",
-    "noRelatedPosts": "Non related posts in current language",
-    "viewMoreString": "Contact Us to Get More Info"
+    "noRelatedPosts": "No hay publicaciones relacionadas en el idioma actual",
+    "viewMoreString": "Contáctanos para obtener más información"
   },
   "blog": {
     "description": "Nuestra visión de la industria y los productos de los amortiguadores de gas",
@@ -170,7 +170,7 @@
     "description": "Esta Política de Privacidad explica cómo recopilamos, utilizamos, procesamos y protegemos sus datos cuando interactúa con nuestros servicios."
   },
   "terms": {
-    "title": "Terms of Use",
+    "title": "Términos de Uso",
     "description": "Un acuerdo completo que abarca los Términos de Servicio, atribución de responsabilidad, privacidad de datos, políticas de productos (pedido/entrega/devoluciones/garantía), descargo de responsabilidad y ley aplicable."
   },
   "products": {
@@ -254,7 +254,7 @@
       },
       "howChooseGS": {
         "title": "¿Cómo Elegir un Resorte de Gas: Guía Sencilla para Ingenieros",
-        "description": "Usted, como ingeniero, tiene un problema relacionado con el movimiento controlado que necesita resolverse sin energía adicional? Responda las siguientes preguntas para completar su selección. ¡Podemos ayudarlo a elegir el resorte de gas adecuado para su aplicación y también colaborar con el diseño!",
+        "description": "¿Tiene usted, como ingeniero, un problema relacionado con el movimiento controlado que necesita resolverse sin energía adicional? Responda las siguientes preguntas para completar su selección. ¡Podemos ayudarlo a elegir el resorte de gas adecuado para su aplicación y también colaborar con el diseño!",
         "imageNote": "Nota: Recibiremos sus datos y nos pondremos en contacto con usted en un plazo de **12 horas**.",
         "howItWork": {
           "title": "Así funciona:",
@@ -280,7 +280,7 @@
           "P=Posición de montaje en la puerta con resorte de gas, es decir, aproximadamente a 1/3L del centro de giro.  ",
           "K=Factor de seguridad (generalmente 11)  ",
           "G=30kg, L=400 mm, n=2, b=200mm y F1=30×400×11/(200×2)=330N  ",
-          "S=Stkore (nota: se mantiene el término original por posible error de escritura, probablemente se refiere a \"Carrera\"/Stroke)",
+          "S=Carrera (longitud de recorrido del pistón)",
           "EL1=Longitud Extendida o Expandida"
         ]
       },
@@ -559,7 +559,7 @@
         "items": [
           {
             "question": "¿Qué diferencia a los resortes de gas marinos de los resortes de gas estándar?",
-            "answer": "Los resortes de gas marinos utilizan una construcción de acero inoxidable 316L y sellos especializados para resistir la corrosión por agua salada y ambientes marinos duras. Además, están diseñados para cumplir con las normativas ABYC para aplicaciones marinas."
+            "answer": "Los resortes de gas marinos utilizan una construcción de acero inoxidable 316L y sellos especializados para resistir la corrosión por agua salada y ambientes marinos duros. Además, están diseñados para cumplir con las normativas ABYC para aplicaciones marinas."
           },
           {
             "question": "¿Cómo calculo la fuerza necesaria para mi aplicación marina?",
@@ -629,13 +629,13 @@
         "applicationLabel": "Aplicación",
         "selectOption": "Seleccionar",
         "uploadOptions": "Seleccionar / Subir tu lista de productos",
-        "searchButton": "Enviar",
-        "searchingText": "enviar...",
+        "searchButton": "Buscar",
+        "searchingText": "Buscando...",
         "connectionTypes": {
-          "ballSocket": "Empotramiento de bola",
+          "ballSocket": "Rótula",
           "eyeEnd": "Extremo de ojo",
-          "threaded": "Rosqueado",
-          "fork": "Tenedor"
+          "threaded": "Roscado",
+          "fork": "Horquilla"
         },
         "applications": {
           "hood": "Capó",

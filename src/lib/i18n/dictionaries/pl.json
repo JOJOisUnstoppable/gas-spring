@@ -463,10 +463,10 @@
         "title": "Jak działają prużyny gazowe?",
         "desc": [
           "Prużyna gazowa – często nazywana również szczotką gazową lub amortyzatorem gazowym – działa dzięki użyciu sprasowanego azotu jako **elastycznego materiału magazynującego energię** w zazwyczajonym cylinderze metalowym. Aby ten design działał płynnie, cylinder zawiera również mieszaninę specjalistycznych olejów hydraulicznych (np. oleju transformatorowego lub oleju turbinowego). Oleje te spełniają trzy kluczowe funkcje:  ",
-          "• Zazwyczenie gazu wewnątrz  ",
+          "• Uszczelnienie gazu wewnątrz  ",
           "• Smarowanie ruchomych części w celu zmniejszenia zużycia  ",
           "• Zapewnienie równomiernego przenoszenia siły mechanicznej.  ",
-          "Kiedy wciskasz trzonkę tłoka do cylinderu (jest to proces **kompresji**), przestrzeń dostępna dla azotu zmniejsza się. Podobnie jakściskanie balonu zwiększa ciśnienie wewnątrz, to zmniejszona objętość powoduje wzrost ciśnienia gazu w cylinderze – jest to zgodne z [Zasadą Boyle’a](https://www.britannica.com/science/Boyles-law).  ",
+          "Kiedy wciskasz trzonkę tłoka do cylinderu (jest to proces **kompresji**), przestrzeń dostępna dla azotu zmniejsza się. Podobnie jak ściskanie balonu zwiększa ciśnienie wewnątrz, to zmniejszona objętość powoduje wzrost ciśnienia gazu w cylinderze – jest to zgodne z [Zasadą Boyle'a](https://www.britannica.com/science/Boyles-law).  ",
           "Siła emitowana przez prużynę gazową wzrasta wraz z wciąganiem trzonki, a osiąga swój szczyt, gdy trzonka jest w pełni wciskana do cylinderu. Ta bardziej stabilna i zaufana siła w porównaniu do prużyn spiralnych to powód, dla którego prużyny gazowe są używane w codziennych przedmiotach, takich jak bramki tyłowe samochodów (do delikatnego utrzymywania ich w otwartym stanie), maszyny przemysłowe (do sterowania ruchem) oraz meble ergonomiczne (np. regulowane krzesła biurowe)."
         ],
         "KeyBehavior": {
@@ -542,7 +542,7 @@
           "P=Pozycja montażowa na drzwiach z prużyną gazową, to jest około 1/3L od środka obrotu.  ",
           "K=Współczynnik bezpieczeństwa (zazwyczaj 11)  ",
           "G=30kg, L=400 mm, n=2, b=200mm i F1=30×400×11/(200×2)=330N  ",
-          "S=Stkore (uwaga: zachowano oryginalny zapis ze względu na ewentualny błąd literowy; prawdopodobnie odnosi się do „Skok” – Stroke)  ",
+          "S=Skok (długość ruchu tłoka)  ",
           "EL1=Długość rozszerzona lub rozwinięta"
         ]
       },
@@ -629,8 +629,8 @@
         "applicationLabel": "Zastosowanie",
         "selectOption": "Wybierz",
         "uploadOptions": "Wybierz / Wgraj swoją listę produktów",
-        "searchButton": "prześłać",
-        "searchingText": "prześłać...",
+        "searchButton": "Szukaj",
+        "searchingText": "Szukanie...",
         "connectionTypes": {
           "ballSocket": "Gniazdo kuliste",
           "eyeEnd": "Koń oczne",
@@ -714,8 +714,8 @@
         "error2_solution": "Bezpośrednia cena fabryczna: 3,50 USD za sztukę na zamówieniach mieszanych od 1000 sztuk",
         "error2_benefit1": "🏭 Brak pośredników = brak dodatkowych kosztów",
         "error2_benefit2": "📈 Gwarantowana marża 200%+",
-        "error2_benefit3": "🎯 Konkuencja z nietrafionymi cenami",
-        "error3_title": "BŁĄD #3: Wiele dostawców = cała chaotyk",
+        "error2_benefit3": "🎯 Konkurencja z niepokonanymi cenami",
+        "error3_title": "BŁĄD #3: Wiele dostawców = cały chaos",
         "error3_stat1": "Liczba dostawców",
         "error3_stat2": "Zarządzanie/miesiąc",
         "error3_problem": "<strong>Problem:</strong> Zarządzasz 8 różnymi dostawcami, aby pokryć wszystkie specyfikacje.",
@@ -781,7 +781,7 @@
         "bulk_discount": "Rabaty za ilość",
         "bulk_discount_desc": "Oszczędności do dodatkowych 15%<br>na zamówieniach od 5000 sztuk",
         "bulk_consolidation": "Konsolidacja wysyłki",
-        "bulk_consolidation_desc": "Pojedyncza wysyłka dla wszystkich modeli<br>Nieższe koszty importu",
+        "bulk_consolidation_desc": "Pojedyncza wysyłka dla wszystkich modeli<br>Niższe koszty importu",
         "bulk_quote_btn": "📋 Zapytanie o cenę za zamówienie mieszane"
       },
       "priceAdvantage": {
