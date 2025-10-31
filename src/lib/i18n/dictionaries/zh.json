@@ -402,7 +402,7 @@
         "items": [
           {
             "question": "船用气弹簧与标准气弹簧有什么区别？",
-            "answer": "船用气弹簧采用316L不锈钢结构和专用密封件，以抵抗海水和恶劣船用环境的腐蚀。它们还专门设计以满足船用应用的关税要求。"
+            "answer": "船用气弹簧采用316L不锈钢结构和专用密封件，以抵抗海水和恶劣船用环境的腐蚀。它们还专门设计以满足船用应用的海事标准。"
           },
           {
             "question": "如何计算我的船用应用所需的力？",
@@ -574,15 +574,38 @@
           "欢迎联系我们！"
         ]
       }
+    }
+  },
+  "aftermarket": {
+    "hero": {
+      "heroBadge": "告别库存问题！",
+      "heroTitleRed": "厌倦了亏损",
+      "heroTitleMain": "死库存？",
+      "heroTitleGreen": "混合订单 = 最大利润",
+      "heroSubtitleStrong": "聪明的经销商已经发现的解决方案：",
+      "heroSubtitleMain": "单次订单购买50+种不同型号。中国工厂价格 + 零库存风险。",
+      "heroPainPoint": "❌ 不再有：我有100个错误型号的零件",
+      "statInventario": "死库存",
+      "statCompetencia": "vs. 竞争对手",
+      "statModelos": "单次订单50+型号",
+      "statRoi": "保证投资回报",
+      "ctaCalcular": "💰 计算我的实际节省",
+      "ctaCotizacion": "🎯 无风险报价",
+      "trustFabrica": "中国工厂直供",
+      "trustPrecio": "保证最低价格",
+      "trustEspecificaciones": "1000+规格",
+      "showcaseCatalogo": "售后市场目录",
+      "showcaseStock": "✅ 现货供应",
+      "productCapo": "引擎盖",
+      "productCompatibleCapo": "兼容：丰田、大众、福特",
+      "productPorton": "后尾门",
+      "productCompatiblePorton": "兼容：雪佛兰、菲亚特、雷诺",
+      "productVentanilla": "车窗",
+      "productCompatibleVentanilla": "兼容：日产、现代、起亚",
+      "productAmortiguador": "减震器",
+      "productCompatibleAmortiguador": "兼容：宝马、奔驰、奥迪",
+      "btnVerCatalogo": "查看完整目录（5000+型号）"
     },
-    "productCompatibleCapo": "兼容：丰田、大众、福特",
-    "productPorton": "后尾门",
-    "productCompatiblePorton": "兼容：雪佛兰、菲亚特、雷诺",
-    "productVentanilla": "车窗",
-    "productCompatibleVentanilla": "兼容：日产、现代、起亚",
-    "productAmortiguador": "减震器",
-    "productCompatibleAmortiguador": "兼容：宝马、奔驰、奥迪",
-    "btnVerCatalogo": "查看完整目录（5000+型号）",
     "specMatcher": {
       "sectionTitle": "智能规格计算器",
       "sectionDescription": "在超过1000种可用规格中精确找到您需要的产品",

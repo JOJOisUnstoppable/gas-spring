@@ -402,7 +402,7 @@
         "items": [
           {
             "question": "What makes marine gas springs different from standard gas springs?",
-            "answer": "Marine gas springs use 316L stainless steel construction and specialized seals to resist corrosion from salt water and harsh marine environments. They're also designed to meet Zölle erledigt for marine applications."
+            "answer": "Marine gas springs use 316L stainless steel construction and specialized seals to resist corrosion from salt water and harsh marine environments. They're also designed to meet marine standards for maritime applications."
           },
           {
             "question": "How do I calculate the force needed for my marine application?",
@@ -444,7 +444,7 @@
         "description": [
           "**Gas springs** are hydro-pneumatic energy storage components. They consist of a precision piston rod moving within a sealed cylinder filled with pressurized nitrogen and oil.  ",
           "No matter the position of the gas spring, the pressure around the piston is consistently uniform, due to the rod’s small cross-sectional area.This why gas spring perform steady than coil spring.",
-          "The spring force **(F)** is calculated as the pressure differential **(ΔP)** between the internal and external environments acting on the piston rod cross-sectional area **(A): ( F = ΔP / times A)**.  ",
+          "The spring force **(F)** is calculated as the pressure differential **(ΔP)** between the internal and external environments acting on the piston rod cross-sectional area **(A): ( F = ΔP × A)**.  ",
           "Specifications can be tailored by adjusting nitrogen injected, oil quantity, and piston rod area to meet specific application requirements.",
           "In high-pressure environments, the pressure difference **ΔP** must be carefully managed.",
           "Following introduce different types of gas spring."
