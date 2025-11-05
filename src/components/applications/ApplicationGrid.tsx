@@ -40,12 +40,12 @@ export function ApplicationGrid({ applications, dict, locale }: ApplicationGridP
             cta={dict.applications.viewMoreString}
             background={
               <div className="absolute inset-0 w-full">
-                <div className="relative w-full aspect-square before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-white/20 via-[60%] before:to-white/100 before:z-[1]">
+                <div className="relative w-full aspect-[4/3] before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-white/20 via-[60%] before:to-white/100 before:z-[1]">
                   <Image
                     src={`/images/application/grid/${app.id}.png`}
                     alt={app.title}
                     fill
-                    className="object-contain w-full transition-all duration-300 group-hover:[&]:translate-y-[-75px]" style={{ objectPosition: '0 -25px' }}
+                    className="object-covrt object-center w-full transition-all duration-300"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 </div>
@@ -71,12 +71,12 @@ export function ApplicationGrid({ applications, dict, locale }: ApplicationGridP
             cta={dict.applications.viewMoreString}
             background={
               <div className="absolute inset-0 w-full">
-                <div className="relative w-full aspect-square before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-white/20 via-[60%] before:to-white/100 before:z-[1]">
+                <div className="relative w-full aspect-[4/3] before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-white/20 via-[60%] before:to-white/100 before:z-[1]">
                   <Image
                     src={`/images/application/grid/${app.id}.png`}
                     alt={app.title}
                     fill
-                    className="object-contain w-full transition-all duration-300 group-hover:[&]:translate-y-[-75px]" style={{ objectPosition: '0 -25px' }}
+                    className="object-contain object-center w-full transition-all duration-300"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 </div>
