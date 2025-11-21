@@ -90,7 +90,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       ...[zhPosts, enPosts, esPosts, dePosts, plPosts].flatMap((posts, index) =>
         posts.map(post => ({
           url: `${baseUrl}/${['zh', 'en', 'es', 'de', 'pl'][index]}/blog/${post.slug}`,
-          lastModified: new Date(post.date),
+          lastModified: post.date ? new Date(post.date) : new Date(),
           changeFrequency: 'monthly' as ChangeFreq,
           priority: 0.6,
         }))

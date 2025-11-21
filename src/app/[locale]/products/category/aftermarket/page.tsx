@@ -5,7 +5,6 @@ import Layout from '@/components/aftermarket/layout';
 import HeroSection, { HeroTexts } from '@/components/aftermarket/HeroSection';
 import SpecMatcherSection, { SpecMatcherTexts } from '@/components/aftermarket/SpecMatcherSection';
 import EconomicSolutionsSection, { EconomicSolutionsTexts } from '@/components/aftermarket/EconomicSolutionsSection';
-import PriceAdvantageSection, { PriceAdvantageTexts } from '@/components/aftermarket/PriceAdvantageSection';
 import './south-america-aftermarket.css';
 import ContactSection, { ContactTexts } from '@/components/aftermarket/contact';
 
@@ -21,7 +20,6 @@ export default async function SouthAmericaAftermarket(
   const heroData: HeroTexts = aftermarketGasSpringData.hero
   const specText:SpecMatcherTexts = aftermarketGasSpringData.specMatcher
   const economicSolutionsTexts:EconomicSolutionsTexts = aftermarketGasSpringData.economicSolutions
-  const priceAdvantageTexts:PriceAdvantageTexts = aftermarketGasSpringData.priceAdvantage
   const contactTexts:ContactTexts = aftermarketGasSpringData.contact
 
 

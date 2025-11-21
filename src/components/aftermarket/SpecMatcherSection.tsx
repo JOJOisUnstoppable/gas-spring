@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { toast } from 'sonner';
 
 // 技术规格搜索参数类型
@@ -96,12 +97,10 @@ export interface SpecMatcherTexts {
 
 interface SpecMatcherProps {
   texts: SpecMatcherTexts;
-  initialResults?: SpecMatcherResult[];
 }
 
 const SpecMatcher: React.FC<SpecMatcherProps> = ({
   texts,
-  initialResults = [],
 }) => {
   // 搜索参数状态
   const [searchParams, setSearchParams] = useState<SpecSearchParams>({
@@ -218,14 +217,13 @@ const SpecMatcher: React.FC<SpecMatcherProps> = ({
               marginBottom: '1.5rem',
             }}
           >
-            <img
+            <Image
               src="/images/products_page/gas_spring_replacement.png"
               alt="Gas Spring Replacement"
-              loading="lazy"
-              decoding="async"
+              width={720}
+              height={405}
               style={{
                 width: '100%',
-                maxWidth: '720px',
                 height: 'auto',
                 borderRadius: '16px',
                 boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
