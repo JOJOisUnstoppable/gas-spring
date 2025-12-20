@@ -12,8 +12,8 @@
   "home": {
     "hero": {
       "eyebrow": "Soluciones Profesionales",
-      "title": "Soluciones Profesionales de Resortes de Gas",
-      "subtitle": "Soluciones innovadoras de resortes de gas para diversas aplicaciones industriales",
+      "title": "Mejore el rendimiento y la fiabilidad del equipo: soluciones de muelles neumáticos de precisión, diseñadas para entornos industriales exigentes.",
+      "subtitle": "Con calidad certificada por la ISO 9001 y tecnología avanzada de amortiguación de larga distancia, asegúrese de que su equipo funcione de manera fluida y precisa.",
       "ctaContact": "Obtenga una propuesta personalizada ahora",
       "ctaProduct": "Explora Nuestros Productos"
     },
@@ -22,21 +22,21 @@
       "description": "Proporcionamos servicios integrales de personalización desde el diseño hasta la producción, asegurando que cada producto cumpla perfectamente con sus requisitos",
       "steps": {
         "stepOne": {
-            "title": "Análisis de Requisitos",
-            "description": "Entendemos sus requisitos y necesidades de la industria."
-          },
-          "stepTwo": {
-            "title": "Diseño de Soluciones",
-            "description": "Diseñamos soluciones de resortes de gas personalizadas que están específicamente diseñadas para cumplir con sus requisitos únicos."
-          },
-          "stepThree": {
-            "title": "Confirmación de Muestras",
-            "description": "Proporcionamos muestras gratuitas para pruebas y confirmación."
-          },
-          "stepFour": {
-            "title": "Producción en Lotes",
-            "description": "Seguimos estrictamente el estándar ISO 9001:2000, asegurando alta calidad y rendimiento para cada producto."
-          }
+          "title": "Análisis de Requisitos",
+          "description": "Entendemos sus requisitos y necesidades de la industria."
+        },
+        "stepTwo": {
+          "title": "Diseño de Soluciones",
+          "description": "Diseñamos soluciones de resortes de gas personalizadas que están específicamente diseñadas para cumplir con sus requisitos únicos."
+        },
+        "stepThree": {
+          "title": "Confirmación de Muestras",
+          "description": "Proporcionamos muestras gratuitas para pruebas y confirmación."
+        },
+        "stepFour": {
+          "title": "Producción en Lotes",
+          "description": "Seguimos estrictamente el estándar ISO 9001:2000, asegurando alta calidad y rendimiento para cada producto."
+        }
       }
     },
     "features": {
@@ -44,20 +44,20 @@
       "description": "Ofrecemos soluciones integrales de resortes de gas que satisfacen diversas necesidades industriales",
       "items": [
         {
-          "title": "Soluciones Personalizadas",
-          "description": "Resortes de gas diseñados a medida para cumplir con tus requisitos específicos"
+          "title": "Soluciones de ingeniería a medida",
+          "description": "Ofrecemos soluciones de resortes neumáticos personalizadas que están diseñadas específicamente para satisfacer sus requisitos únicos."
         },
         {
-          "title": "Estándares Globales",
-          "description": "Productos fabricados según estándares de calidad internacionales"
+          "title": "Garantía de fiabilidad sin fallos",
+          "description": "Cumplimos estrictamente con la norma ISO 9001:2000, garantizando alta calidad y rendimiento para cada producto."
         },
         {
-          "title": "Soporte Técnico",
-          "description": "Asistencia técnica profesional durante todo el proceso"
+          "title": "Tecnología líder en la industria de control de amortiguación",
+          "description": "Dominamos la tecnología clave de los resortes neumáticos de larga distancia, lo que permite un control preciso de la amortiguación y la velocidad de extracción, incluso en entornos exigentes."
         },
         {
-          "title": "Garantía",
-          "description": "Garantía de satisfacción del cliente para satisfacer sus necesidades"
+          "title": "Respuesta rápida de soporte global",
+          "description": "Brindamos servicios globales, incluyendo asesoramiento de ingeniería, guía de instalación y soporte técnico online integral."
         }
       ]
     }

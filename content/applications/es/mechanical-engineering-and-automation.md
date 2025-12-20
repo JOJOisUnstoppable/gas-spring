@@ -1,15 +1,14 @@
 ---
 id: mechanical-engineering-and-automation
-title: Mechanical Engineering And Automation
+title: Ingeniería Mecánica y Automatización
 description: |
     Short cycle times, high precision, reliable communication – to live up to the complex requirements of industrial processes, all components and devices must operate to perfection. 
     Our Products absorb vibrations, minimize wear, and facilitate precise work. Wherever there are heavy panels and loads to open and close, they afford considerable assistance. 
     All of this protects people from hazards and extends the service life of machines and units.
 solution: |
-    Gas Springs, Dampers, And Vibration Isolators For Industrial Systems And Automation; 
-    Benefits from our products include the usage in not only Pallets and racks, high-bay warehouses, storage and retrieval machines, or crane systems, but also in bigger range of Machine tools and laser technology, semiconductors, or systems engineering and automation technology.
+    Puertas de paletas, cubiertas de grúas, cabinas de láser, cargadores de semiconductores: muelles de gas estándar o personalizados ofrecen repetibilidad de ±1 mm, fuerza de 30.000 N y opciones de grado alimentario/EDS (Descarga Electroestática) para automatización 24/7.
 relatedTags: ['Application', 'Mechanical Engineering And Automation']
 order: 5
 ---
-# Mechanical Engineering And Automation
+# Ingeniería Mecánica y Automatización
 # content

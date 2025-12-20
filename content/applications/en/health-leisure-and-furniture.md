@@ -6,9 +6,7 @@ description: |
     That’s certainly also true for health and for medical care. Here, ergonomic work practices are just as critical as safety and a quiet atmosphere for the patient. 
     Our products prove their worth day after day in all of these areas. They damp impacts and sound, make gliding movements possible, and contribute to quiet and vibration-free operation of devices. The result? Truly enjoying recreational time, productive work, and optimal support in treatment and healing.
 solution: |
-    Gas Springs And Dampers For Health, Recreation, And Furniture; 
-    which are designed and assembled to meet the needs of the Swivel chairs, monitor arms, desks, high-top tables, digital whiteboards, upholstered furniture and beds, drawers and panels and doors. 
-    Even a vertical roller coaster, easy opening of a tanning bed, the shuffling machine at the casino, or steering stability of an electric cargo bike.
+    Swivel chairs, ICU beds, tanning pods, digital whiteboards—silent 40–800 N springs with infinite-stop and fast-tool-free assembly help furniture makers pass EN 1335/EN 13761 and reduce line time.
 relatedTags: ['Application', 'Health, Leisure And Furniture']
 order: 6
 ---

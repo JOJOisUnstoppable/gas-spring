@@ -1,4 +1,5 @@
 ---
+id: automotive-industry
 title: Automotive Industry
 description: |
   Whether for doors, engine hoods, glove compartments, or tailgates – any part of the car that moves should also securely maintain its position. 
@@ -11,4 +12,3 @@ order: 1
 
 # Automotive Industry
 # content
-详细的文章内容可以写在这里...

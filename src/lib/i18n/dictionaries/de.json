@@ -12,8 +12,8 @@
   "home": {
     "hero": {
       "eyebrow": "Gasfedern",
-      "title": "Professionelle Gasfederlösungen",
-      "subtitle": "Innovative Gasfederlösungen für verschiedene industrielle Anwendungen",
+      "title": "Steigern Sie Leistung und Zuverlässigkeit von Geräten: Präzise Gasfedersysteme, konstruiert für anspruchsvolle industrielle Umgebungen.",
+      "subtitle": "Mit ISO 9001-zertifizierter Qualität und fortschrittlicher Langstrecken-Dämpfungstechnologie sorgen Sie dafür, dass Ihr Gerät reibungslos und präzise läuft.",
       "ctaContact": "Kontaktieren Sie uns",
       "ctaProduct": "Unsere Produkte entdecken"
     },
@@ -44,20 +44,20 @@
       "description": "Wir bieten umfassende Gasfederlösungen, die vielfältige industrielle Anforderungen erfüllen",
       "items": [
         {
-          "title": "Individuelle Lösungen",
-          "description": "Wir bieten maßgeschneiderte Gasfederlösungen, die speziell auf Ihre individuellen Anforderungen zugeschnitten sind."
+          "title": "Individuelle Ingenieurslösungen",
+          "description": "Wir bieten individuelle Gasfederlösungen, die speziell entwickelt wurden, um Ihre einzigartigen Anforderungen zu erfüllen."
         },
         {
-          "title": "Qualitätsexzellenz",
-          "description": "Wir befolgen strikt den ISO 9001:2000-Standard und gewährleisten hohe Qualität und Leistung für jedes Produkt."
+          "title": "Ausfallfreie Zuverlässigkeitsgarantie",
+          "description": "Wir halten uns streng an die Norm ISO 9001:2000 und gewährleisten so hohe Qualität und Leistung für jedes Produkt."
         },
         {
-          "title": "Technische Exzellenz",
-          "description": "Wir beherrschen die Kerntechnologie von Langstrecken-Gasfedern und ermöglichen präzise Kontrolle von Dämpfung und Ausfahrgeschwindigkeit, auch in anspruchsvollen Umgebungen."
+          "title": "Brancheführende Dämpfungssteuerungstechnologie",
+          "description": "Wir beherrschen die Kerntechnologie von Langstrecken-Gasfedern und ermöglichen so eine präzise Steuerung von Dämpfung und Ausfahrgeschwindigkeit – auch unter anspruchsvollen Umgebungsbedingungen."
         },
         {
-          "title": "Globale Dienstleistungen",
-          "description": "Wir bieten globale Dienstleistungen, einschließlich Ingenieurberatung, Installationsanleitung und umfassenden Online-Technikservice."
+          "title": "Schnelle globale Support-Reaktion",
+          "description": "Wir bieten globale Dienstleistungen an, darunter Ingenieurberatung, Installationsanleitung und umfassende Online-Technikunterstützung."
         }
       ]
     }

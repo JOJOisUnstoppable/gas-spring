@@ -6,8 +6,7 @@ description: |
     Our Products absorb vibrations, minimize wear, and facilitate precise work. Wherever there are heavy panels and loads to open and close, they afford considerable assistance. 
     All of this protects people from hazards and extends the service life of machines and units.
 solution: |
-    Gas Springs, Dampers, And Vibration Isolators For Industrial Systems And Automation; 
-    Benefits from our products include the usage in not only Pallets and racks, high-bay warehouses, storage and retrieval machines, or crane systems, but also in bigger range of Machine tools and laser technology, semiconductors, or systems engineering and automation technology.
+    Pallet gates, crane covers, laser enclosures, semiconductor loaders—off-the-shelf or custom gas springs deliver ±1 mm repeatability, 30 000 N force and food-grade/ESD options for 24/7 automation.
 relatedTags: ['Application', 'Mechanical Engineering And Automation']
 order: 5
 ---

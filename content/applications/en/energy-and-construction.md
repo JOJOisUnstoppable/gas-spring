@@ -6,9 +6,7 @@ description: |
     Our products absorb vibrations and impacts to protect their technology and help ensure safe movement of heavy panels and components. 
     Our products serve as a catalyst for important physical characteristics, such as by minimizing thermal expansion of exterior structures.
 solution: | 
-    Gas Springs, Dampers, And Isolators For Energy And Construction; 
-    Unavoidable vibrations that cause equipment to wear out more quickly are found in the upstream and midstream sections of the traditional energy generation value chain. 
-    That’s exactly why it’s important to counteract vibrations in such remote infrastructures – with damping technology from Us.
+    Upstream skids, wind-turbine nacelles, HVAC plant: maintenance hatches up to 2 m high stay balanced in 120 km/h winds; vibration isolators cut structural fatigue and protect electronics in remote sites.
 relatedTags: ['Application', 'Energy And Construction']
 order: 4
 ---
