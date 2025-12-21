@@ -25,7 +25,7 @@ interface Product {
 
 interface ProductData {
   categories: ProductCategory[]
-  items: Product[]
+  items: ProductDetails[]
   content: string
 }
 
@@ -55,4 +55,40 @@ export async function getProductsByCategory(locale: Locale, categoryId: string):
 export async function getProductById(locale: Locale, productId: string): Promise<Product | undefined> {
   const { items } = await getProductData(locale)
   return items.find(item => item.id === productId)
+}
+
+export interface ProductDetails extends Product {
+  WhatIsCGSParts?: {
+    Title?: string
+    StruAndFunc?: {
+      Title?: string
+      Desc?: string
+      Img?: string
+    }
+    KeyComponents?: {
+      Title?: string
+      List?: Array<{
+        name: string
+        desc: string
+      }>
+    }
+  }
+  InstallAndUsage?: {
+    Title?: string
+    Installation?: {
+      Title?: string
+      Desc?: string
+    }
+    Usage?: {
+      Title?: string
+      Desc?: string
+    }
+  }
+}
+
+export async function getProductDetailsById(locale: Locale, productId: string): Promise<ProductDetails | null> {
+  const { items } = await getProductData(locale)
+  const item = items.find((it) => it.id === productId)
+  if (!item) return null
+  return item
 }

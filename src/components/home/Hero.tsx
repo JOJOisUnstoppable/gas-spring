@@ -65,10 +65,10 @@ export function Hero({ dict, locale }: HeroProps) {
             </AnimatedGradientText>
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl md:text-3xl font-bold">
             {dict.home.hero.title}
           </h1>
-          <p className="text-xl md:text-2xl">
+          <p className="text-xl md:text-xl">
             {dict.home.hero.subtitle}
           </p>
 
