@@ -7,7 +7,7 @@ export default function CompressionGasSpring() {
   const [active, setActive] = useState<'overview' | 'specs' | 'testing' | 'solutions'>('overview')
 
   const triggerClass =
-    "inline-flex h-[calc(100%-1px)] flex-1 items-center justify-center gap-1.5 rounded-md border px-2 py-1 text-sm font-medium transition-[color,box-shadow] text-foreground/70 hover:text-foreground data-[state=active]:text-foreground data-[state=active]:bg-accent data-[state=active]:border-border focus-visible:ring-[3px] focus-visible:border-ring focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50"
+    "inline-flex h-[calc(100%-1px)] flex-1 items-center justify-center gap-1.5 rounded-md border border-transparent px-2 py-1 text-sm font-medium transition-[color,box-shadow] bg-muted text-muted-foreground hover:bg-muted/70 hover:text-foreground data-[state=active]:text-white data-[state=active]:bg-[#0F172B] data-[state=active]:border-[#0F172B] data-[state=active]:shadow-sm focus-visible:ring-[3px] focus-visible:border-[#0F172B] focus-visible:ring-[#0F172B]/50 disabled:pointer-events-none disabled:opacity-50"
 
   return (
     <div className="container max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">

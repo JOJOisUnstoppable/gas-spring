@@ -1,6 +1,6 @@
 import { Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/getDictionary'
-import CompressionGasSpring from '@/components/products/CompressionGasSpring'
+import LockableGasSpring from '@/components/products/LockableGasSpring'
 
 export default async function Page(
   props: {
@@ -13,7 +13,7 @@ export default async function Page(
 
   return (
     <>
-      <CompressionGasSpring />
+      <LockableGasSpring />
     </>
   )
 }
