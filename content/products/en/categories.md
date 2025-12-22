@@ -106,4 +106,10 @@ items:
         - name: 'Tension gas springs:'
           desc: 'Generate a pull-in or pulling force. When not subjected to external forces, they tend to shorten the piston rod, providing a type of tension force (denoted as F3 and F4). Tension gas springs can also be equipped with damping control as required. Similar to standard gas springs, tension gas springs are not suitable for use as stroke limit stops.'
       EndDesc: 'Due to installation constraints, compression gas springs cannot usually be used; examples include horizontally hinged doors and access panels at the bottom, as well as any covers or cover plates that must be pulled open or closed. Tension gas springs are also commonly used as tensioners for mechanical components and belt drives.'
+  - id: micro-gas-spring
+    category: gas-spring
+    title: What is Micro Gas Spring?
+    image: /images/product/product-gs-003.jpg
+    description: 'Micro gas springs are a type of gas spring that is designed to be small in size and light in weight. They are commonly used in applications where space is a constraint, such as in automotive and industrial settings.'
+    Diff:
 ---
