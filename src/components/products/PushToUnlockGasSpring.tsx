@@ -6,24 +6,20 @@ export default function PushToUnlockGasSpring() {
   return (
     <div className="flex flex-col">
       <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0F172B] via-[#2a5298] to-[#0F172B] text-white">
-        <div className="container max-w-7xl mx-auto text-center">
-          <div className="max-w-3xl mx-auto">
-            <div className="inline-block mb-4 px-3 py-1 bg-white/20 text-white rounded-full text-sm font-medium">
-              Advanced Gas Spring Solution
+        <div className="container max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <h1 className="font-bold text-5xl md:text-6xl leading-tight">Push-to-Unlock Gas Spring</h1>
+              <p className="text-lg leading-relaxed opacity-90">
+                <strong>One-hand operation. Compression self-locking. Quick release.</strong> The Push-to-Unlock Gas Spring is an advanced solution designed for applications requiring quick folding, positioning, and release.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                <Button className="h-10 px-6 bg-[#ff6b35] hover:bg-[#e55a2b] text-white">Get Technical Specs</Button>
+                <Button className="h-10 px-6 bg-transparent border border-white text-white hover:bg-white/10">Request Quote</Button>
+              </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-tight">
-              Push-to-Unlock Gas Spring
-            </h1>
-            <p className="text-lg opacity-90 mb-8 leading-relaxed">
-              <strong>One-hand operation. Compression self-locking. Quick release.</strong> The Push-to-Unlock Gas Spring is an advanced solution designed for applications requiring quick folding, positioning, and release.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="h-10 rounded-md px-6 w-full sm:w-auto bg-[#ff6b35] hover:bg-[#e55a2b] text-white">
-                Request Sample
-              </Button>
-              <Button className="h-10 rounded-md px-6 w-full sm:w-auto bg-transparent border border-white text-white hover:bg-white/10">
-                Download Datasheet
-              </Button>
+            <div className="relative">
+              <img alt="Push-to-Unlock Gas Spring Mechanism" className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/push-to-unlock-gas-spring/diagram_locking_mechanism.jpg" />
             </div>
           </div>
         </div>

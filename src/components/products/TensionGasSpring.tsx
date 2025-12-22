@@ -6,13 +6,21 @@ export default function TensionGasSpring() {
   return (
     <div className="flex flex-col">
       <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0F172B] via-[#2a5298] to-[#0F172B] text-white">
-        <div className="container max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Tension Gas Spring</h1>
-          <p className="text-base md:text-lg opacity-90 max-w-3xl mx-auto">
-            Pull Gas Spring / Reverse Action Gas Spring - Professional Industrial Solutions
-          </p>
-          <div className="mt-8">
-            <Button className="h-10 px-6 bg-[#ff6b35] hover:bg-[#e55a2b] text-white">Request a Quote</Button>
+        <div className="container max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <h1 className="font-bold text-5xl md:text-6xl leading-tight">Tension Gas Spring</h1>
+              <p className="text-lg leading-relaxed opacity-90">
+                Pull Gas Spring / Reverse Action Gas Spring - Professional Industrial Solutions
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                <Button className="h-10 px-6 bg-[#ff6b35] hover:bg-[#e55a2b] text-white">Get Technical Specs</Button>
+                <Button className="h-10 px-6 bg-transparent border border-white text-white hover:bg-white/10">Request Quote</Button>
+              </div>
+            </div>
+            <div className="relative">
+              <img alt="Tension Gas Spring" className="w-full h-auto rounded-lg shadow-lg" src="/images/hero-fi.png" />
+            </div>
           </div>
         </div>
       </section>
@@ -224,4 +232,3 @@ export default function TensionGasSpring() {
     </div>
   )
 }
-

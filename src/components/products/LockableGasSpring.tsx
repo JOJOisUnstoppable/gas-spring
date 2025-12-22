@@ -9,7 +9,7 @@ export default function LockableGasSpring() {
         <div className="container max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h1 className="font-bold text-5xl md:text-6xl leading-tight">Precision Locking at <span className="text-primary">Any Position</span></h1>
+              <h1 className="font-bold text-5xl md:text-6xl leading-tight">Precision Locking at Any Position</h1>
               <p className="text-lg leading-relaxed opacity-90">
                 Advanced lockable gas springs combining support, control, and reliability. Choose between rigid
                 zero-displacement locking or elastic soft-rebound technology.
