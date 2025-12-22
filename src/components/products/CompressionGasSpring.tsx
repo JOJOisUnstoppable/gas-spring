@@ -7,15 +7,15 @@ export default function CompressionGasSpring() {
 
   return (
     <div className="flex flex-col">
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0F172B] via-[#2a5298] to-[#0F172B] text-white">
+      <section className="relative py-[var(--space-hero-y)] md:py-[var(--space-hero-y-md)] bg-gradient-to-br from-[#0F172B] via-[#2a5298] to-[#0F172B] text-white">
         <div className="container max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h1 className="font-bold text-5xl md:text-6xl leading-tight">Compression Gas Spring</h1>
+          <div className="grid md:grid-cols-2 gap-[var(--space-hero-gap)] items-center">
+            <div className="space-y-[var(--space-block-gap)]">
+              <h1 className="font-bold text-5xl md:text-6xl leading-tight mb-[var(--space-title-mb)]">Compression Gas Spring</h1>
               <p className="text-lg leading-relaxed opacity-90">
                 Compression Gas Spring (Gas Strut) - Technical Guide
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <div className="flex flex-col sm:flex-row gap-[var(--space-grid-gap)] pt-[var(--space-divider-pt)]">
                 <Button className="h-10 px-6 bg-[#ff6b35] hover:bg-[#e55a2b] text-white">Get Technical Specs</Button>
                 <Button className="h-10 px-6 bg-transparent border border-white text-white hover:bg-white/10">Request Quote</Button>
               </div>
@@ -26,12 +26,12 @@ export default function CompressionGasSpring() {
           </div>
         </div>
       </section>
-      <div className="container max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div className="container max-w-7xl mx-auto py-[var(--space-section-y)] md:py-[var(--space-section-y-md)] px-[var(--space-container-x-sm)] sm:px-[var(--space-container-x-md)] lg:px-[var(--space-container-x-lg)]">
         <div
           dir="ltr"
           data-orientation="horizontal"
           data-slot="tabs"
-          className="flex flex-col gap-0"
+          className="flex flex-col gap-[var(--space-section-gap)]"
         >
 
           <div
@@ -41,23 +41,23 @@ export default function CompressionGasSpring() {
             tabIndex={0}
             data-loc="client/src/pages/Product.tsx:162"
             data-slot="tabs-content"
-            className="flex-1 outline-none space-y-6"
+            className="flex-1 outline-none space-y-[var(--space-block-gap)]"
           >
-            <h2 className="text-3xl font-bold text-primary mb-6">Overview</h2>
+            <h2 className="text-3xl font-bold text-primary mb-[var(--space-title-mb)]">Overview</h2>
             <div
               data-slot="card"
-              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm"
+              className="bg-card text-card-foreground flex flex-col gap-[var(--space-grid-gap)] rounded-xl border py-[var(--space-card-padding)] shadow-sm"
             >
               <div
                 data-slot="card-header"
-                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-[var(--space-card-padding)] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-[var(--space-card-padding)]"
               >
                 <div data-slot="card-title" className="leading-none font-semibold">
                   Product Definition &amp; Applications
                 </div>
               </div>
-              <div data-slot="card-content" className="px-6 prose prose-sm max-w-none">
-                <div className="space-y-4">
+              <div data-slot="card-content" className="px-[var(--space-card-padding)] prose prose-sm max-w-none">
+                <div className="space-y-[var(--space-block-gap)]">
                   <h2 className="mt-6 mb-2 font-semibold text-2xl">
                     Product Definition &amp; Typical Applications
                   </h2>
@@ -86,16 +86,16 @@ export default function CompressionGasSpring() {
             id="radix-tabs-content-specs"
             tabIndex={0}
             data-slot="tabs-content"
-            className="flex-1 outline-none space-y-6"
+            className="flex-1 outline-none space-y-[var(--space-block-gap)]"
           >
-            <h2 className="text-3xl font-bold text-primary mb-6">Specifications</h2>
+            <h2 className="text-3xl font-bold text-primary mb-[var(--space-title-mb)]">Specifications</h2>
             <div
               data-slot="card"
-              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm"
+              className="bg-card text-card-foreground flex flex-col gap-[var(--space-grid-gap)] rounded-xl border py-[var(--space-card-padding)] shadow-sm"
             >
               <div
                 data-slot="card-header"
-                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-[var(--space-card-padding)] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-[var(--space-card-padding)]"
               >
                 <div data-slot="card-title" className="leading-none font-semibold">
                   Core Parameters &amp; Selection Guide
@@ -104,43 +104,43 @@ export default function CompressionGasSpring() {
                   Key technical specifications and selection criteria
                 </div>
               </div>
-              <div data-slot="card-content" className="px-6 space-y-6">
+              <div data-slot="card-content" className="px-[var(--space-card-padding)] space-y-[var(--space-block-gap)]">
                 <div>
-                  <h3 className="text-lg font-semibold text-foreground mb-4">Key Technical Specifications</h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-[var(--space-subtitle-mb)]">Key Technical Specifications</h3>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead className="bg-primary text-white">
                         <tr>
-                          <th className="text-left py-3 px-4 font-semibold border border-border">Parameter</th>
-                          <th className="text-left py-3 px-4 font-semibold border border-border">Range</th>
-                          <th className="text-left py-3 px-4 font-semibold border border-border">Description</th>
+                          <th className="text-left py-[var(--space-table-py)] px-[var(--space-table-px)] font-semibold border border-border">Parameter</th>
+                          <th className="text-left py-[var(--space-table-py)] px-[var(--space-table-px)] font-semibold border border-border">Range</th>
+                          <th className="text-left py-[var(--space-table-py)] px-[var(--space-table-px)] font-semibold border border-border">Description</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className="border-b border-border hover:bg-card transition-colors">
-                          <td className="py-3 px-4 font-medium text-foreground">Force (N)</td>
-                          <td className="py-3 px-4 text-muted-foreground">50 - 2,000</td>
-                          <td className="py-3 px-4 text-muted-foreground">Determines support capacity (~11-450 lbf)</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] font-medium text-foreground">Force (N)</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] text-muted-foreground">50 - 5,000</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] text-muted-foreground">Determines support capacity</td>
                         </tr>
                         <tr className="border-b border-border hover:bg-card transition-colors">
-                          <td className="py-3 px-4 font-medium text-foreground">Stroke (mm)</td>
-                          <td className="py-3 px-4 text-muted-foreground">30 - 700</td>
-                          <td className="py-3 px-4 text-muted-foreground">Piston rod extension distance</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] font-medium text-foreground">Stroke (mm)</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] text-muted-foreground">30 - 700</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] text-muted-foreground">Piston rod extension distance</td>
                         </tr>
                         <tr className="border-b border-border hover:bg-card transition-colors">
-                          <td className="py-3 px-4 font-medium text-foreground">Full Length</td>
-                          <td className="py-3 px-4 text-muted-foreground">Custom</td>
-                          <td className="py-3 px-4 text-muted-foreground">Overall extended length (center-to-center)</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] font-medium text-foreground">Full Length</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] text-muted-foreground">Custom</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] text-muted-foreground">Overall extended length (center-to-center)</td>
                         </tr>
                         <tr className="border-b border-border hover:bg-card transition-colors">
-                          <td className="py-3 px-4 font-medium text-foreground">Rod Diameter</td>
-                          <td className="py-3 px-4 text-muted-foreground">6 - 14 mm</td>
-                          <td className="py-3 px-4 text-muted-foreground">Affects bending stiffness and sealing</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] font-medium text-foreground">Rod Diameter</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] text-muted-foreground">6 - 14 mm</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] text-muted-foreground">Affects bending stiffness and sealing</td>
                         </tr>
                         <tr className="border-b border-border hover:bg-card transition-colors">
-                          <td className="py-3 px-4 font-medium text-foreground">Cylinder Diameter</td>
-                          <td className="py-3 px-4 text-muted-foreground">15 - 40 mm</td>
-                          <td className="py-3 px-4 text-muted-foreground">Relates to internal gas volume</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] font-medium text-foreground">Cylinder Diameter</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] text-muted-foreground">15 - 40 mm</td>
+                          <td className="py-[var(--space-table-py)] px-[var(--space-table-px)] text-muted-foreground">Relates to internal gas volume</td>
                         </tr>
                       </tbody>
                     </table>
@@ -156,7 +156,7 @@ export default function CompressionGasSpring() {
                     <li className="text-muted-foreground">Select options (damping, coating, corrosion resistance)</li>
                   </ol>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-[var(--space-grid-gap)]">
                   <div className="space-y-3">
                     <h4 className="text-base font-semibold">End Fittings</h4>
                     <ul className="list-disc pl-6">
@@ -168,63 +168,22 @@ export default function CompressionGasSpring() {
                   <div className="space-y-3">
                     <h4 className="text-base font-semibold">Options</h4>
                     <ul className="list-disc pl-6">
-                      <li className="text-muted-foreground">Damping control</li>
-                      <li className="text-muted-foreground">Powder-coated cylinder</li>
-                      <li className="text-muted-foreground">Corrosion-resistant variants</li>
+                      <li className="text-muted-foreground">Damping performance is customizable</li>
                     </ul>
                   </div>
                 </div>
-                <div className="pt-6 border-t border-border">
-                  <h3 className="text-lg font-semibold text-foreground mb-4">Connection Types &amp; Surface Treatments</h3>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="p-4 bg-card rounded-lg border border-border">
-                      <h4 className="font-semibold text-foreground mb-3">Thread Connections</h4>
-                      <ul className="space-y-2">
-                        <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-primary mt-0.5 flex-shrink-0">
-                            <path d="M20 6 9 17l-5-5"></path>
-                          </svg>
-                          M8×1
-                        </li>
-                        <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-primary mt-0.5 flex-shrink-0">
-                            <path d="M20 6 9 17l-5-5"></path>
-                          </svg>
-                          M10×1
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="p-4 bg-card rounded-lg border border-border">
-                      <h4 className="font-semibold text-foreground mb-3">Ball Connections</h4>
-                      <ul className="space-y-2">
-                        <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-primary mt-0.5 flex-shrink-0">
-                            <path d="M20 6 9 17l-5-5"></path>
-                          </svg>
-                          Ø10mm ball head
-                        </li>
-                        <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-primary mt-0.5 flex-shrink-0">
-                            <path d="M20 6 9 17l-5-5"></path>
-                          </svg>
-                          Stainless steel ball socket
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="p-4 bg-card rounded-lg border border-border">
-                      <h4 className="font-semibold text-foreground mb-3">Special Connections</h4>
-                      <ul className="space-y-2">
-                        <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-primary mt-0.5 flex-shrink-0">
-                            <path d="M20 6 9 17l-5-5"></path>
-                          </svg>
-                          Clevis fork ends
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="p-4 bg-card rounded-lg border border-border">
+                <div className="pt-[var(--space-divider-pt)] border-t border-border">
+                  <h3 className="text-lg font-semibold text-foreground mb-[var(--space-subtitle-mb)]">Connection Types</h3>
+                  <div className="relative">
+                    <img alt="Connection Types" className="w-full h-auto rounded-lg shadow-lg" src="/images/products_page/accessories.png" />
+                  </div>
+                </div>
+                <div className="pt-[var(--space-divider-pt)] border-t border-border">
+                  <h3 className="text-lg font-semibold text-foreground mb-[var(--space-subtitle-mb)]">Surface Treatments</h3>
+                  <div className="grid md:grid-cols-2 gap-[var(--space-grid-gap)]">
+                    <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border">
                       <h4 className="font-semibold text-foreground mb-3">Surface Treatment</h4>
-                      <ul className="space-y-2">
+                      <ul className="space-y-[var(--space-list-gap)]">
                         <li className="flex items-start gap-2 text-sm text-muted-foreground">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-primary mt-0.5 flex-shrink-0">
                             <path d="M20 6 9 17l-5-5"></path>
@@ -247,9 +206,9 @@ export default function CompressionGasSpring() {
                     </div>
                   </div>
                 </div>
-                <div className="pt-6 border-t border-border">
-                  <h3 className="text-lg font-semibold text-foreground mb-3">Quality Certifications</h3>
-                  <div className="flex flex-wrap gap-2">
+                <div className="pt-[var(--space-divider-pt)] border-t border-border">
+                  <h3 className="text-lg font-semibold text-foreground mb-[var(--space-subtitle-mb)]">Quality Certifications</h3>
+                  <div className="flex flex-wrap gap-[var(--space-list-gap)]">
                     <span className="px-3 py-1 bg-accent/10 text-foreground rounded-full text-sm font-medium">ISO9001</span>
                     <span className="px-3 py-1 bg-accent/10 text-foreground rounded-full text-sm font-medium">TS16949</span>
                     <span className="px-3 py-1 bg-accent/10 text-foreground rounded-full text-sm font-medium">RoHS</span>
@@ -268,42 +227,36 @@ export default function CompressionGasSpring() {
             id="radix-tabs-content-testing"
             tabIndex={0}
             data-slot="tabs-content"
-            className="flex-1 outline-none space-y-6"
+            className="flex-1 outline-none space-y-[var(--space-block-gap)]"
           >
-            <h2 className="text-3xl font-bold text-primary mb-6">Testing</h2>
+            <h2 className="text-3xl font-bold text-primary mb-[var(--space-title-mb)]">Testing</h2>
             <div
               data-slot="card"
-              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm"
+              className="bg-card text-card-foreground flex flex-col gap-[var(--space-grid-gap)] rounded-xl border py-[var(--space-card-padding)] shadow-sm"
             >
               <div
                 data-slot="card-header"
-                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-[var(--space-card-padding)] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-[var(--space-card-padding)]"
               >
-                <div data-slot="card-title" className="leading-none font-semibold">
-                  Testing Standards &amp; Force Characteristics
-                </div>
-                <div data-slot="card-description" className="text-muted-foreground text-sm">
-                  Standardized testing methodology and force definitions
-                </div>
               </div>
-              <div data-slot="card-content" className="px-6 space-y-6">
+              <div data-slot="card-content" className="px-[var(--space-card-padding)] space-y-[var(--space-block-gap)]">
                 <div>
-                  <h3 className="text-lg font-semibold text-foreground mb-4">Standard Test Conditions</h3>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="p-4 bg-card rounded-lg border border-border">
+                  <h3 className="text-lg font-semibold text-foreground mb-[var(--space-subtitle-mb)]">Standard Test Conditions</h3>
+                  <div className="grid md:grid-cols-2 gap-[var(--space-grid-gap)]">
+                    <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border">
                       <p className="text-sm text-muted-foreground mb-2">Test Speed</p>
                       <p className="text-2xl font-bold text-foreground">400 mm/min</p>
                     </div>
-                    <div className="p-4 bg-card rounded-lg border border-border">
+                    <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border">
                       <p className="text-sm text-muted-foreground mb-2">Temperature</p>
                       <p className="text-2xl font-bold text-foreground">20°C</p>
                     </div>
                   </div>
                 </div>
-                <div className="pt-6 border-t border-border">
-                  <h3 className="text-lg font-semibold text-foreground mb-4">Four-Point Force Definition</h3>
+                <div className="pt-[var(--space-divider-pt)] border-t border-border">
+                  <h3 className="text-lg font-semibold text-foreground mb-[var(--space-subtitle-mb)]">Four-Point Force Definition</h3>
                   <div className="space-y-3">
-                    <div className="p-4 bg-card rounded-lg border border-border transition-colors">
+                    <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border transition-colors">
                       <div className="flex items-start gap-4">
                         <div className="px-3 py-1 bg-accent/10 text-foreground rounded font-bold text-sm">F1</div>
                         <div className="flex-1">
@@ -312,7 +265,7 @@ export default function CompressionGasSpring() {
                         </div>
                       </div>
                     </div>
-                    <div className="p-4 bg-card rounded-lg border border-border transition-colors">
+                    <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border transition-colors">
                       <div className="flex items-start gap-4">
                         <div className="px-3 py-1 bg-accent/10 text-foreground rounded font-bold text-sm">F2</div>
                         <div className="flex-1">
@@ -321,7 +274,7 @@ export default function CompressionGasSpring() {
                         </div>
                       </div>
                     </div>
-                    <div className="p-4 bg-card rounded-lg border border-border transition-colors">
+                    <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border transition-colors">
                       <div className="flex items-start gap-4">
                         <div className="px-3 py-1 bg-accent/10 text-foreground rounded font-bold text-sm">F3</div>
                         <div className="flex-1">
@@ -330,7 +283,7 @@ export default function CompressionGasSpring() {
                         </div>
                       </div>
                     </div>
-                    <div className="p-4 bg-card rounded-lg border border-border transition-colors">
+                    <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border transition-colors">
                       <div className="flex items-start gap-4">
                         <div className="px-3 py-1 bg-accent/10 text-foreground rounded font-bold text-sm">F4</div>
                         <div className="flex-1">
@@ -341,9 +294,9 @@ export default function CompressionGasSpring() {
                     </div>
                   </div>
                 </div>
-                <div className="pt-6 border-t border-border">
-                  <h3 className="text-lg font-semibold text-foreground mb-4">Key Performance Metrics</h3>
-                  <div className="bg-card rounded-lg border border-border p-4 space-y-3">
+                <div className="pt-[var(--space-divider-pt)] border-t border-border">
+                  <h3 className="text-lg font-semibold text-foreground mb-[var(--space-subtitle-mb)]">Key Performance Metrics</h3>
+                  <div className="bg-card rounded-lg border border-border p-[var(--space-card-padding)] space-y-3">
                     <div>
                       <p className="text-sm text-muted-foreground mb-1">Friction Force</p>
                       <p className="font-mono text-foreground">Fr = (F3 - F1) / 2</p>
@@ -362,18 +315,18 @@ export default function CompressionGasSpring() {
             </div>
             <div
               data-slot="card"
-              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm"
+              className="bg-card text-card-foreground flex flex-col gap-[var(--space-grid-gap)] rounded-xl border py-[var(--space-card-padding)] shadow-sm"
             >
               <div
                 data-slot="card-header"
-                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-[var(--space-card-padding)] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-[var(--space-card-padding)]"
               >
                 <div data-slot="card-title" className="leading-none font-semibold">
                   Performance Validation
                 </div>
               </div>
-              <div data-slot="card-content" className="px-6">
-                <ul className="list-disc pl-6 space-y-2">
+              <div data-slot="card-content" className="px-[var(--space-card-padding)]">
+                <ul className="list-disc pl-6 space-y-[var(--space-list-gap)]">
                   <li className="text-muted-foreground">Force calibration across full stroke</li>
                   <li className="text-muted-foreground">Cycle endurance under load and temperature variation</li>
                   <li className="text-muted-foreground">Damping consistency and oil leakage inspection</li>
@@ -389,16 +342,16 @@ export default function CompressionGasSpring() {
             id="radix-tabs-content-solutions"
             tabIndex={0}
             data-slot="tabs-content"
-            className="flex-1 outline-none space-y-6"
+            className="flex-1 outline-none space-y-[var(--space-block-gap)]"
           >
-            <h2 className="text-3xl font-bold text-primary mb-6">Solutions</h2>
+            <h2 className="text-3xl font-bold text-primary mb-[var(--space-title-mb)]">Solutions</h2>
             <div
               data-slot="card"
-              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm"
+              className="bg-card text-card-foreground flex flex-col gap-[var(--space-grid-gap)] rounded-xl border py-[var(--space-card-padding)] shadow-sm"
             >
               <div
                 data-slot="card-header"
-                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-[var(--space-card-padding)] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-[var(--space-card-padding)]"
               >
                 <div data-slot="card-title" className="leading-none font-semibold">
                   DKG Solutions for Your Challenges
@@ -407,10 +360,10 @@ export default function CompressionGasSpring() {
                   How we address common customer pain points
                 </div>
               </div>
-              <div data-slot="card-content" className="px-6">
-                <div className="space-y-4">
-                  <div className="p-4 bg-card rounded-lg border border-border transition-colors">
-                    <div className="flex gap-4">
+              <div data-slot="card-content" className="px-[var(--space-card-padding)]">
+                <div className="space-y-[var(--space-block-gap)]">
+                  <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border transition-colors">
+                    <div className="flex gap-[var(--space-grid-gap)]">
                       <div className="flex-shrink-0 w-2 bg-gradient-to-b from-white to-[#0F172B] rounded-full"></div>
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground mb-2">No domestic alternative</h4>
@@ -419,8 +372,8 @@ export default function CompressionGasSpring() {
                       </div>
                     </div>
                   </div>
-                  <div className="p-4 bg-card rounded-lg border border-border transition-colors">
-                    <div className="flex gap-4">
+                  <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border transition-colors">
+                    <div className="flex gap-[var(--space-grid-gap)]">
                       <div className="flex-shrink-0 w-2 bg-gradient-to-b from-white to-[#0F172B] rounded-full"></div>
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground mb-2">Connection mismatch</h4>
@@ -429,8 +382,8 @@ export default function CompressionGasSpring() {
                       </div>
                     </div>
                   </div>
-                  <div className="p-4 bg-card rounded-lg border border-border transition-colors">
-                    <div className="flex gap-4">
+                  <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border transition-colors">
+                    <div className="flex gap-[var(--space-grid-gap)]">
                       <div className="flex-shrink-0 w-2 bg-gradient-to-b from-white to-[#0F172B] rounded-full"></div>
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground mb-2">Long lead times (8-12 weeks)</h4>
@@ -439,8 +392,8 @@ export default function CompressionGasSpring() {
                       </div>
                     </div>
                   </div>
-                  <div className="p-4 bg-card rounded-lg border border-border transition-colors">
-                    <div className="flex gap-4">
+                  <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border transition-colors">
+                    <div className="flex gap-[var(--space-grid-gap)]">
                       <div className="flex-shrink-0 w-2 bg-gradient-to-b from-white to-[#0F172B] rounded-full"></div>
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground mb-2">High costs</h4>
@@ -449,8 +402,8 @@ export default function CompressionGasSpring() {
                       </div>
                     </div>
                   </div>
-                  <div className="p-4 bg-card rounded-lg border border-border transition-colors">
-                    <div className="flex gap-4">
+                  <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border transition-colors">
+                    <div className="flex gap-[var(--space-grid-gap)]">
                       <div className="flex-shrink-0 w-2 bg-gradient-to-b from-white to-[#0F172B] rounded-full"></div>
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground mb-2">Missing technical drawings</h4>
@@ -459,8 +412,8 @@ export default function CompressionGasSpring() {
                       </div>
                     </div>
                   </div>
-                  <div className="p-4 bg-card rounded-lg border border-border transition-colors">
-                    <div className="flex gap-4">
+                  <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border transition-colors">
+                    <div className="flex gap-[var(--space-grid-gap)]">
                       <div className="flex-shrink-0 w-2 bg-gradient-to-b from-white to-[#0F172B] rounded-full"></div>
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground mb-2">Incomplete certifications</h4>
@@ -474,31 +427,31 @@ export default function CompressionGasSpring() {
             </div>
             <div
               data-slot="card"
-              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm"
+              className="bg-card text-card-foreground flex flex-col gap-[var(--space-grid-gap)] rounded-xl border py-[var(--space-card-padding)] shadow-sm"
             >
               <div
                 data-slot="card-header"
-                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-[var(--space-card-padding)] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-[var(--space-card-padding)]"
               >
                 <div data-slot="card-title" className="leading-none font-semibold">
                   Industry Solutions
                 </div>
               </div>
-              <div data-slot="card-content" className="px-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="bg-muted rounded-lg p-6">
+              <div data-slot="card-content" className="px-[var(--space-card-padding)]">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-[var(--space-grid-gap)]">
+                  <div className="bg-muted rounded-lg p-[var(--space-card-padding)]">
                     <h3 className="text-xl font-semibold text-foreground">Automotive</h3>
                     <p className="text-muted-foreground mt-2">Tailgate, hood, trunk—optimized force and stroke for smooth opening and safe hold.</p>
                   </div>
-                  <div className="bg-muted rounded-lg p-6">
+                  <div className="bg-muted rounded-lg p-[var(--space-card-padding)]">
                     <h3 className="text-xl font-semibold text-foreground">Medical</h3>
                     <p className="text-muted-foreground mt-2">Maintenance covers and patient bed mechanisms with low noise and stable damping.</p>
                   </div>
-                  <div className="bg-muted rounded-lg p-6">
+                  <div className="bg-muted rounded-lg p-[var(--space-card-padding)]">
                     <h3 className="text-xl font-semibold text-foreground">Furniture</h3>
                     <p className="text-muted-foreground mt-2">Cabinet doors and height-adjustable tables with controlled speed and safe stop.</p>
                   </div>
-                  <div className="bg-muted rounded-lg p-6">
+                  <div className="bg-muted rounded-lg p-[var(--space-card-padding)]">
                     <h3 className="text-xl font-semibold text-foreground">Industrial</h3>
                     <p className="text-muted-foreground mt-2">Enclosures, maintenance covers, and safety guards engineered for frequent operation.</p>
                   </div>
@@ -507,18 +460,18 @@ export default function CompressionGasSpring() {
             </div>
             <div
               data-slot="card"
-              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm"
+              className="bg-card text-card-foreground flex flex-col gap-[var(--space-grid-gap)] rounded-xl border py-[var(--space-card-padding)] shadow-sm"
             >
               <div
                 data-slot="card-header"
-                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-[var(--space-card-padding)] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-[var(--space-card-padding)]"
               >
                 <div data-slot="card-title" className="leading-none font-semibold text-foreground">
                   Ready to Get Started?
                 </div>
               </div>
-              <div data-slot="card-content" className="px-6">
-                <p className="text-muted-foreground mb-6">
+              <div data-slot="card-content" className="px-[var(--space-card-padding)]">
+                <p className="text-muted-foreground mb-[var(--space-subtitle-mb)]">
                   Use our interactive selector tool to find the perfect gas spring specifications for your application.
                 </p>
                 <Button className="w-full">Launch Selector Tool</Button>
