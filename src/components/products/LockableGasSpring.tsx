@@ -5,18 +5,18 @@ import { Button } from '@/components/ui/button'
 export default function LockableGasSpring() {
   return (
     <div className="flex flex-col">
-      <section className="relative py-20 md:py-32 bg-gradient-to-br from-primary/10 via-background to-accent/10">
+      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0F172B] via-[#2a5298] to-[#0F172B] text-white">
         <div className="container max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="font-bold text-5xl md:text-6xl leading-tight">Precision Locking at <span className="text-primary">Any Position</span></h1>
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-lg leading-relaxed opacity-90">
                 Advanced lockable gas springs combining support, control, and reliability. Choose between rigid
                 zero-displacement locking or elastic soft-rebound technology.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button className="h-10 px-6">Get Technical Specs</Button>
-                <Button className="h-10 px-6 bg-transparent border border-primary text-primary hover:bg-primary/10">Request Quote</Button>
+                <Button className="h-10 px-6 bg-[#ff6b35] hover:bg-[#e55a2b] text-white">Get Technical Specs</Button>
+                <Button className="h-10 px-6 bg-transparent border border-white text-white hover:bg-white/10">Request Quote</Button>
               </div>
             </div>
             <div className="relative">

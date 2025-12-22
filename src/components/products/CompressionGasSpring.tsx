@@ -166,11 +166,11 @@ export default function CompressionGasSpring() {
                 <h3 className="text-lg font-semibold text-foreground mb-4">Key Technical Specifications</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
-                    <thead>
-                      <tr className="border-b border-border">
-                        <th className="text-left py-3 px-4 font-semibold text-foreground">Parameter</th>
-                        <th className="text-left py-3 px-4 font-semibold text-foreground">Range</th>
-                        <th className="text-left py-3 px-4 font-semibold text-foreground">Description</th>
+                    <thead className="bg-primary text-white">
+                      <tr>
+                        <th className="text-left py-3 px-4 font-semibold border border-border">Parameter</th>
+                        <th className="text-left py-3 px-4 font-semibold border border-border">Range</th>
+                        <th className="text-left py-3 px-4 font-semibold border border-border">Description</th>
                       </tr>
                     </thead>
                     <tbody>

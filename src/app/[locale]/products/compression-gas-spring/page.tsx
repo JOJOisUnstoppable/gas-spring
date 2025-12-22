@@ -1,5 +1,4 @@
 import { Locale } from '@/lib/i18n/config'
-import { getDictionary } from '@/lib/i18n/getDictionary'
 import CompressionGasSpring from '@/components/products/CompressionGasSpring'
 
 export default async function Page(
@@ -9,7 +8,6 @@ export default async function Page(
 ) {
   const params = await props.params
   const { locale } = params
-  const dict = await getDictionary(locale)
 
   return (
     <>
