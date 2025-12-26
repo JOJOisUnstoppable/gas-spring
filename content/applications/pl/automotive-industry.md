@@ -1,11 +1,11 @@
 ---
-title: Przemysł Motoryzacyjny
+title: Motoryzacja
 description: |
   Czy to drzwi, maski silnika, schowki czy klapy bagażnika – każda ruchoma część samochodu powinna również bezpiecznie utrzymywać swoją pozycję.
   I podobnie, powinna zamykać się płynnie, cicho i delikatnie.
 solution: |
-  Sprężyny Gazowe, Amortyzatory i Napędy Elektromechaniczne dla Przemysłu Motoryzacyjnego; Wszędzie tam, gdzie potrzebne jest podnoszenie, pozycjonowanie lub opuszczanie, zaletami są kompaktowa konstrukcja, wysoki stopień komfortu wraz z funkcjonalnością i wrodzone bezpieczeństwo eksploatacji.
-relatedTags: ['Application', 'Automotive Industry']
+  Kryt silnika, brama tyłowa, pochylenie siedzenia lub pokrywa baterii: kompaktowe pederki gazowe z kalibrowaną amortyzacją zapewniają producentom OME (Original Equipment Manufacturer) minimalne wysiłki podczas otwierania, czystą integrację wizualną oraz trwałość na 50 000 cykli, wymaganą przez specyfikacje samochodów osobowych.
+relatedTags: ['Application', 'Motoryzacja']
 order: 1
 ---
 

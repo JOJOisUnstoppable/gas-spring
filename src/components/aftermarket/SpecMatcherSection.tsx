@@ -1,5 +1,7 @@
 'use client';
 import React, { useState } from 'react';
+import Image from 'next/image';
+import { toast } from 'sonner';
 
 // 技术规格搜索参数类型
 export interface SpecSearchParams {
@@ -95,12 +97,10 @@ export interface SpecMatcherTexts {
 
 interface SpecMatcherProps {
   texts: SpecMatcherTexts;
-  initialResults?: SpecMatcherResult[];
 }
 
 const SpecMatcher: React.FC<SpecMatcherProps> = ({
   texts,
-  initialResults = [],
 }) => {
   // 搜索参数状态
   const [searchParams, setSearchParams] = useState<SpecSearchParams>({
@@ -112,8 +112,11 @@ const SpecMatcher: React.FC<SpecMatcherProps> = ({
     application: '',
   });
 
-  const [results, setResults] = useState<SpecMatcherResult[]>(initialResults);
-  const [isSearching, setIsSearching] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // 联系信息（用于提交到联系 API）
+  const [contactName, setContactName] = useState('');
+  const [contactEmail, setContactEmail] = useState('');
 
   // 处理输入变化
   const handleInputChange = (
@@ -126,38 +129,74 @@ const SpecMatcher: React.FC<SpecMatcherProps> = ({
     }));
   };
 
-  // 搜索规格
-  const searchSpecifications = async () => {
-    setIsSearching(true);
-    
-    // 模拟搜索逻辑
-    try {
-      // 这里应该调用实际的API
-      console.log('Searching with params:', searchParams);
-      
-      // 模拟搜索结果
-      const mockResults: SpecMatcherResult[] = [
-        {
-          id: '1',
-          extendedLength: parseInt(searchParams.extendedLength) || 450,
-          compressedLength: parseInt(searchParams.compressedLength) || 180,
-          force: parseInt(searchParams.force) || 300,
-          cylinderDiameter: parseInt(searchParams.cylinderDiameter) || 20,
-          connectionType: searchParams.connectionType || 'ball-socket',
-          application: searchParams.application || 'hood',
-          partNumber: 'GS-450-180-300',
-          price: '$45.99',
-          stock: true,
-        },
-      ];
-      
-      setResults(mockResults);
-    } catch (error) {
-      console.error('Search error:', error);
-      setResults([]);
-    } finally {
-      setIsSearching(false);
+  // 提交规格到联系 API（参考 ContactForm 逻辑）
+  const submitSpecifications = async () => {
+    // 基础校验：姓名与邮箱
+    const EMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!contactName.trim()) {
+      toast.error('Name is required');
+      return;
     }
+    if (!EMAIL_REGEX.test(contactEmail)) {
+      toast.error('Valid email is required');
+      return;
+    }
+
+    setIsSubmitting(true);
+    try {
+      const message = [
+        'Gas Spring Specification Submission',
+        `Extended Length: ${searchParams.extendedLength || '-'} mm`,
+        `Compressed Length: ${searchParams.compressedLength || '-'} mm`,
+        `Force: ${searchParams.force || '-'} N`,
+        `Cylinder Diameter: ${searchParams.cylinderDiameter || '-'} mm`,
+        `Connection Type: ${searchParams.connectionType || '-'}`,
+        `Application: ${searchParams.application || '-'}`,
+      ].join('\n');
+
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: contactName.trim(),
+          email: contactEmail.trim(),
+          company: '',
+          phone: '',
+          message,
+          lang: 'English',
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Submit failed');
+      }
+
+      toast.success('Submitted successfully');
+      // 提交成功后清理表单
+      setSearchParams({
+        extendedLength: '',
+        compressedLength: '',
+        force: '',
+        cylinderDiameter: '',
+        connectionType: '',
+        application: '',
+      });
+      setContactName('');
+      setContactEmail('');
+      // 已移除搜索结果展示，无需处理结果列表
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : 'Unknown error');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    await submitSpecifications();
   };
 
   return (
@@ -169,9 +208,31 @@ const SpecMatcher: React.FC<SpecMatcherProps> = ({
         </div>
         
         <div className="matcher-container">
+          <div
+            className="matcher-visual"
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              marginBottom: '1.5rem',
+            }}
+          >
+            <Image
+              src="/images/products_page/gas_spring_replacement.png"
+              alt="Gas Spring Replacement"
+              width={720}
+              height={405}
+              style={{
+                width: '100%',
+                height: 'auto',
+                borderRadius: '16px',
+                boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
+              }}
+            />
+          </div>
           <div className="matcher-form">
             <h3>{texts.formTitle}</h3>
-            <div className="form-grid">
+            <form className="form-grid" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label>{texts.extendedLengthLabel}</label>
                 <input
@@ -247,92 +308,45 @@ const SpecMatcher: React.FC<SpecMatcherProps> = ({
                   <option value="cabinet">{texts.applications.cabinet}</option>
                 </select>
               </div>
-            </div>
-            <button 
-              className="btn-search enhanced-search-btn" 
-              onClick={searchSpecifications}
-              disabled={isSearching}
-            >
-              <span className="btn-text">
-                {isSearching ? texts.searchingText : texts.searchButton}
-              </span>
-              {isSearching && (
-                <div className="loading-spinner">
-                  <div className="spinner"></div>
-                </div>
-              )}
-            </button>
-          </div>
-          
-          <div className="matcher-results" id="search-results">
-            <div className="results-header">
-              <div className="results-title">
-                <h4>{texts.resultsHeader}</h4>
-                <div className="results-count">
-                  <span className="count-number">{results.length}</span>
-                  <span className="count-text">{texts.resultsCount}</span>
-                </div>
+
+              {/* 联系信息 */}
+              <div className="form-group">
+                <label>Name</label>
+                <input
+                  type="text"
+                  name="contactName"
+                  value={contactName}
+                  onChange={(e) => setContactName(e.target.value)}
+                  placeholder="Your name"
+                />
               </div>
-            </div>
-            <div className="results-grid" id="results-container">
-              {results.length === 0 ? (
-                <div className="no-results">
-                  <div className="no-results-content">
-                    <div className="no-results-icon">🔍</div>
-                    <h5>No Results Found</h5>
-                    <p>{texts.noResultsText}</p>
+              <div className="form-group">
+                <label>Email</label>
+                <input
+                  type="email"
+                  name="contactEmail"
+                  value={contactEmail}
+                  onChange={(e) => setContactEmail(e.target.value)}
+                  placeholder="your@email.com"
+                />
+              </div>
+              <button 
+                type="submit"
+                className="btn-search enhanced-search-btn"
+                disabled={isSubmitting}
+              >
+                <span className="btn-text">
+                  {isSubmitting ? 'Submitting…' : texts.searchButton}
+                </span>
+                {isSubmitting && (
+                  <div className="loading-spinner">
+                    <div className="spinner"></div>
                   </div>
-                </div>
-              ) : (
-                results.map(result => (
-                  <div key={result.id} className="result-card">
-                    <div className="card-header">
-                      <h5 className="part-number">{result.partNumber}</h5>
-                      <div className={`stock-badge ${result.stock ? 'in-stock' : 'out-of-stock'}`}>
-                        {result.stock ? texts.availableText : texts.unavailableText}
-                      </div>
-                    </div>
-                    <div className="card-body">
-                      <div className="specs-grid">
-                        <div className="spec-item">
-                          <span className="spec-label">{texts.extendedLengthText}</span>
-                          <span className="spec-value">{result.extendedLength}mm</span>
-                        </div>
-                        <div className="spec-item">
-                          <span className="spec-label">{texts.compressedLengthText}</span>
-                          <span className="spec-value">{result.compressedLength}mm</span>
-                        </div>
-                        <div className="spec-item">
-                          <span className="spec-label">{texts.forceText}</span>
-                          <span className="spec-value">{result.force}N</span>
-                        </div>
-                        <div className="spec-item">
-                          <span className="spec-label">{texts.diameterText}</span>
-                          <span className="spec-value">{result.cylinderDiameter}mm</span>
-                        </div>
-                        <div className="spec-item">
-                          <span className="spec-label">{texts.connectionText}</span>
-                          <span className="spec-value">{result.connectionType}</span>
-                        </div>
-                        <div className="spec-item">
-                          <span className="spec-label">{texts.applicationText}</span>
-                          <span className="spec-value">{result.application}</span>
-                        </div>
-                      </div>
-                      <div className="price-section">
-                        <span className="price-label">{texts.priceText}</span>
-                        <span className="price-value">{result.price}</span>
-                      </div>
-                    </div>
-                    <div className="card-footer">
-                      <button className="btn-details">{texts.viewDetailsBtn}</button>
-                      <button className="btn-add-quote">{texts.addToQuoteBtn}</button>
-                    </div>
-                  </div>
-                ))
-              )}
-            </div>
+                )}
+              </button>
+            </form>
           </div>
+
         </div>
         
         <div className="bulk-order-section">

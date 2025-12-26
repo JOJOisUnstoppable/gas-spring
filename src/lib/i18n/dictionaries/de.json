@@ -5,37 +5,37 @@
     "applications": "Anwendungen",
     "blog": "Blog",
     "contact": "Kontakt",
-    "allProducts": "All Products",
+    "allProducts": "Alle Produkte",
     "showProducts": "Eine umfangreiche und vollständige Produktpalette",
-    "viewAll": "Alle anzeigen Tags"
+    "viewAll": "Alle Tags anzeigen"
   },
   "home": {
     "hero": {
       "eyebrow": "Gasfedern",
-      "title": "Professionelle Gasfederlösungen",
-      "subtitle": "Innovative Gasfederlösungen für verschiedene industrielle Anwendungen",
+      "title": "Steigern Sie Leistung und Zuverlässigkeit von Geräten: Präzise Gasfedersysteme, konstruiert für anspruchsvolle industrielle Umgebungen.",
+      "subtitle": "Mit ISO 9001-zertifizierter Qualität und fortschrittlicher Langstrecken-Dämpfungstechnologie sorgen Sie dafür, dass Ihr Gerät reibungslos und präzise läuft.",
       "ctaContact": "Kontaktieren Sie uns",
       "ctaProduct": "Unsere Produkte entdecken"
     },
     "service": {
-      "title": "Customized Service Process",
-      "description": "We provide comprehensive customization services from design to production, ensuring each product perfectly meets your requirements",
+      "title": "Individueller Serviceprozess",
+      "description": "Wir bieten umfassende Anpassungsdienstleistungen von der Konstruktion bis zur Produktion und stellen sicher, dass jedes Produkt Ihre Anforderungen perfekt erfüllt",
       "steps": {
         "stepOne": {
-          "title": "Requirement Analysis",
-          "description": "We understand your requirements and industry needs."
+          "title": "Anforderungsanalyse",
+          "description": "Wir verstehen Ihre Anforderungen und Branchenbedürfnisse."
         },
         "stepTwo": {
-          "title": "Solution Design",
-          "description": "We design customized gas spring solutions that are specifically designed to meet your unique requirements."
+          "title": "Lösungsdesign",
+          "description": "Wir entwickeln maßgeschneiderte Gasfederlösungen, die speziell auf Ihre individuellen Anforderungen zugeschnitten sind."
         },
         "stepThree": {
-          "title": "Sample Confirmation",
-          "description": "We provide free samples for testing and confirmation."
+          "title": "Musterbestätigung",
+          "description": "Wir stellen kostenlose Muster zum Testen und zur Bestätigung zur Verfügung."
         },
         "stepFour": {
-          "title": "Batch Production",
-          "description": "We strictly follow ISO 9001:2000 standard, ensuring high quality and performance for each product."
+          "title": "Serienproduktion",
+          "description": "Wir befolgen strikt den ISO 9001:2000-Standard und gewährleisten hohe Qualität und Leistung für jedes Produkt."
         }
       }
     },
@@ -44,20 +44,20 @@
       "description": "Wir bieten umfassende Gasfederlösungen, die vielfältige industrielle Anforderungen erfüllen",
       "items": [
         {
-          "title": "Customized Solutions",
-          "description": "We offer customized gas spring solutions that are specifically designed to meet your unique requirements."
+          "title": "Individuelle Ingenieurslösungen",
+          "description": "Wir bieten individuelle Gasfederlösungen, die speziell entwickelt wurden, um Ihre einzigartigen Anforderungen zu erfüllen."
         },
         {
-          "title": "Quality Excellence",
-          "description": "We strictly follow ISO 9001:2000 standard, ensuring high quality and performance for each product."
+          "title": "Ausfallfreie Zuverlässigkeitsgarantie",
+          "description": "Wir halten uns streng an die Norm ISO 9001:2000 und gewährleisten so hohe Qualität und Leistung für jedes Produkt."
         },
         {
-          "title": "Technical Excellence",
-          "description": "We master the core technology of long-distance gas springs, enabling precise control of damping and pop-out speed, even in challenging environments."
+          "title": "Brancheführende Dämpfungssteuerungstechnologie",
+          "description": "Wir beherrschen die Kerntechnologie von Langstrecken-Gasfedern und ermöglichen so eine präzise Steuerung von Dämpfung und Ausfahrgeschwindigkeit – auch unter anspruchsvollen Umgebungsbedingungen."
         },
         {
-          "title": "Global Services",
-          "description": "We provide global services, including engineering consultation, installation guidance, and comprehensive online technical support."
+          "title": "Schnelle globale Support-Reaktion",
+          "description": "Wir bieten globale Dienstleistungen an, darunter Ingenieurberatung, Installationsanleitung und umfassende Online-Technikunterstützung."
         }
       ]
     }
@@ -73,8 +73,8 @@
     "descriptionLabel": "Anwendungsbeschreibung",
     "solutionLabel": "Gasdruckfeder-Lösung",
     "relatedPostsLabel": "Verwandte Beiträge mit Fallreferenzen",
-    "noRelatedPosts": "Non related posts in current language",
-    "viewMoreString": "Contact Us to Get More Info"
+    "noRelatedPosts": "Keine verwandten Beiträge in der aktuellen Sprache",
+    "viewMoreString": "Kontaktieren Sie uns für weitere Informationen"
   },
   "blog": {
     "description": "Unser Einblick in die Gasfederindustrie und deren Produkte",
@@ -517,7 +517,7 @@
         "applicationOptions": [
           {
             "value": "yacht-hatch",
-            "label": "Yachtluka"
+            "label": "Yachtluke"
           },
           {
             "value": "engine-cover",
@@ -525,7 +525,7 @@
           },
           {
             "value": "furniture",
-            "label": "Marine-Möbel"
+            "label": "Schiffsmöbel"
           },
           {
             "value": "custom",
@@ -539,7 +539,7 @@
         "items": [
           {
             "question": "Was unterscheidet Marine-Gasfedern von Standard-Gasfedern?",
-            "answer": "Marine-Gasfedern verwenden eine Konstruktion aus Edelstahl 316L und Spezialdichtungen, um Korrosion durch Salzwasser und anspruchsvolle Marine-Umgebungen widerstehen zu können. Darüber hinaus sind sie so konzipiert, dass sie die Zölle erledigt für Marine-Anwendungen erfüllen."
+            "answer": "Marine-Gasfedern verwenden eine Konstruktion aus Edelstahl 316L und Spezialdichtungen, um Korrosion durch Salzwasser und anspruchsvolle Marine-Umgebungen widerstehen zu können. Darüber hinaus sind sie so konzipiert, dass sie die Zertifizierungsanforderungen für Marine-Anwendungen erfüllen."
           },
           {
             "question": "Wie berechne ich die benötigte Kraft für meine Marine-Anwendung?",
@@ -551,15 +551,15 @@
           },
           {
             "question": "Bieten Sie individuelle Montageteile an?",
-            "answer": "Ja, wir bieten individuelle Montageteile und Befestigungsteile an, die speziell für Marine-Anwendungen entwickelt wurden. Alle Montageteile bestehen aus Marine-Qualitätsmaterialien mit angemessener Korrosionsschutz."
+            "answer": "Ja, wir bieten individuelle Montageteile und Befestigungsteile an, die speziell für Marine-Anwendungen entwickelt wurden. Alle Montageteile bestehen aus Marine-Qualitätsmaterialien mit angemessenem Korrosionsschutz."
           },
           {
             "question": "Liefern Sie in alle US-Bundesstaaten?",
-            "answer": "Ja, wir liefern in alle 50 US-Bundesstaaten – mit standardmäßiger 10-Tägige Lieferung. Für dringende Marine-Anwendungen stehen Express- und Same-Day-Lieferoptionen zur Verfügung."
+            "answer": "Ja, wir liefern in alle 50 US-Bundesstaaten – mit standardmäßiger 10-tägiger Lieferung. Für dringende Marine-Anwendungen stehen Express- und Same-Day-Lieferoptionen zur Verfügung."
           },
           {
             "question": "Welche Zertifizierungen haben Ihre Marine-Gasfedern?",
-            "answer": "Unsere Marine-Gasfedern erfüllen die Zölle erledigt und sind ISO 9001:2015-zertifiziert. Bei Bedarf bieten wir zudem eine CE-Kennzeichnung für internationale Konformität an."
+            "answer": "Unsere Marine-Gasfedern erfüllen die Zertifizierungsanforderungen und sind ISO 9001:2015-zertifiziert. Bei Bedarf bieten wir zudem eine CE-Kennzeichnung für internationale Konformität an."
           }
         ]
       }
@@ -581,7 +581,7 @@
         "ctaCotizacion": "🎯 Risikofreie Offerte",
         "trustFabrica": "Direkte chinesische Fabrik",
         "trustPrecio": "Garantie für den niedrigsten Preis",
-        "trustEspecificaciones": "10.000+ Spezifikationen",
+        "trustEspecificaciones": "1000+ Spezifikationen",
         "showcaseCatalogo": "Aftermarket-Katalog",
         "showcaseStock": "✅ Auf Lager",
         "productCapo": "Motorhaube",
@@ -596,7 +596,7 @@
       },
       "specMatcher": {
         "sectionTitle": "Intelligenter Spezifikationsrechner",
-        "sectionDescription": "Finde genau das, was du brauchst, unter mehr als 10.000 verfügbaren Spezifikationen",
+        "sectionDescription": "Finde genau das, was du brauchst, unter mehr als 1000 verfügbaren Spezifikationen",
         "formTitle": "🔍 Suche nach technischen Spezifikationen",
         "extendedLengthLabel": "Ausdehnungslänge (mm)",
         "extendedLengthPlaceholder": "z. B.: 450",
@@ -608,12 +608,13 @@
         "connectionTypeLabel": "Verbindungstyp",
         "applicationLabel": "Anwendung",
         "selectOption": "Auswählen",
-        "searchButton": "🔍 Spezifikationen suchen",
-        "searchingText": "🔍 Suche...",
+        "uploadOptions": "Auswählen / Hochladen Ihrer Produktliste",
+        "searchButton": "Suchen",
+        "searchingText": "Suchen...",
         "connectionTypes": {
           "ballSocket": "Kugelgelenk",
           "eyeEnd": "Augenende",
-          "threaded": "Gewindet",
+          "threaded": "Gewinde",
           "fork": "Gabel"
         },
         "applications": {
@@ -807,57 +808,6 @@
         "shipping_5_7_days": "5-7 Tage",
         "shipping_7_10_days": "7-10 Tage"
       },
-      "marketCoverage": {
-        "section_title": "Marktabdeckung in Südamerika",
-        "section_desc": "Wir bedienen den gesamten südamerikanischen Automobil-Aftermarket mit lokaler Präsenz und spezialisiertem Support",
-        "vehicles_served": "Bediente Fahrzeuge",
-        "brazil_title": "Brasilien",
-        "brazil_market_size": "Hauptmarkt",
-        "brazil_sales_percent": "40%",
-        "brazil_workshops": "1.200+",
-        "brazil_models_title": "Beliebteste Modelle:",
-        "brazil_model1": "VW Gol/Voyage – Motorhaube",
-        "brazil_model2": "Fiat Palio/Siena – Heckklappe",
-        "brazil_model3": "Chevrolet Onix – Motorhaube",
-        "brazil_model4": "Ford Ka – Heckklappe",
-        "brazil_contact_title": "Lokaler Ansprechpartner:",
-        "brazil_phone": "+55 11 9999-8888",
-        "argentina_title": "Argentinien",
-        "argentina_market_size": "Schlüsselmarkt",
-        "argentina_sales_percent": "25%",
-        "argentina_workshops": "650+",
-        "argentina_models_title": "Beliebteste Modelle:",
-        "argentina_model1": "Toyota Corolla – Motorhaube",
-        "argentina_model2": "Renault Sandero – Heckklappe",
-        "argentina_model3": "Peugeot 208 – Motorhaube",
-        "argentina_model4": "Volkswagen Suran – Heckklappe",
-        "argentina_contact_title": "Lokaler Ansprechpartner:",
-        "argentina_phone": "+54 11 4444-5555",
-        "colombia_title": "Kolumbien",
-        "colombia_market_size": "Schnell wachsender Markt",
-        "colombia_sales_percent": "15%",
-        "colombia_workshops": "400+",
-        "colombia_models_title": "Beliebteste Modelle:",
-        "colombia_model1": "Chevrolet Spark – Motorhaube",
-        "colombia_model2": "Renault Logan – Heckklappe",
-        "colombia_model3": "Nissan March – Motorhaube",
-        "colombia_model4": "Kia Picanto – Heckklappe",
-        "colombia_contact_title": "Lokaler Ansprechpartner:",
-        "colombia_phone": "+57 1 333-4444",
-        "chile_title": "Chile",
-        "chile_market_size": "Premium-Markt",
-        "chile_sales_percent": "10%",
-        "chile_workshops": "300+",
-        "chile_models_title": "Beliebteste Modelle:",
-        "chile_model1": "Suzuki Swift – Motorhaube",
-        "chile_model2": "Hyundai Accent – Heckklappe",
-        "chile_model3": "Mazda 2 – Motorhaube",
-        "chile_model4": "Toyota Yaris – Heckklappe",
-        "chile_contact_title": "Lokaler Ansprechpartner:",
-        "chile_phone": "+56 2 2222-3333",
-        "stat_desc_sales": "unseres Umsatzes",
-        "stat_desc_workshops": "aktive Werkstätten"
-      },
       "contact": {
         "section_title": "📞 Kontaktieren Sie uns für Ihre Offerte",
         "section_desc": "Haben Sie Fragen zu unseren Produkten oder Mischaufträgen? Unser Team antwortet innerhalb von 24 Stunden.",
@@ -890,7 +840,7 @@
             },
             {
               "timezone": "Südamerika (GMT-3)",
-              "time": "Montag – Freitag: 22:00 – 07:00"
+              "time": "Montag – Freitag: 8:00 – 15:00"
             }
           ]
         },

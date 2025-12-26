@@ -193,7 +193,8 @@
 
     /* Hero Section - DKGASSPRING Brand Style */
     .hero {
-        background: var(--gradient-hero);
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+        color: white;
         padding: calc(70px + var(--spacing-xxl)) 0 var(--spacing-xxl);
         min-height: 100vh;
         display: flex;
@@ -209,8 +210,8 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="dkgas-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="%23FF6600" opacity="0.1"/><circle cx="5" cy="15" r="0.5" fill="%23003366" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23dkgas-pattern)"/></svg>');
-        opacity: 0.3;
+        background: url('/images/marine-background-pattern.svg') repeat;
+        opacity: 0.1;
     }
 
     .hero-container {
@@ -255,7 +256,7 @@
         font-weight: var(--font-weight-bold);
         line-height: 1.1;
         margin-bottom: var(--spacing-lg);
-        color: var(--dark-gray);
+        color: white;
     }
 
     .highlight-orange {
@@ -269,8 +270,8 @@
     }
 
     .hero-subtitle {
-        font-size: 1.3rem;
-        color: var(--medium-gray);
+        font-size: 1.5rem;
+        color: #cbd5e1;
         margin-bottom: var(--spacing-xl);
         line-height: 1.6;
     }
@@ -406,24 +407,25 @@
 
 .stat {
     text-align: center;
-    background: var(--white);
+    background: transparent;
     padding: var(--spacing-md);
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-sm);
-    border: 2px solid var(--primary-orange);
+    box-shadow: none;
+    border: 2px solid white;
     min-width: 120px;
+    color: white;
 }
 
 .stat-number {
     font-size: 2rem;
     font-weight: var(--font-weight-bold);
-    color: var(--primary-orange);
+    color: white;
     display: block;
 }
 
 .stat-label {
     font-size: 0.9rem;
-    color: var(--medium-gray);
+    color: white;
     font-weight: var(--font-weight-medium);
 }
 
@@ -445,27 +447,28 @@
     font-family: var(--font-primary);
 }
 
-.btn-primary {
-    background: var(--gradient-orange);
-    color: var(--white);
-    box-shadow: var(--shadow-md);
-}
+ .btn-primary {
+     background: #f59e0b;
+     color: white;
+     box-shadow: var(--shadow-md);
+ }
 
-.btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
-}
+ .btn-primary:hover {
+     background: #d97706;
+     transform: translateY(-2px);
+     box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+ }
 
 .btn-secondary {
     background: transparent;
-    color: var(--success-green);
-    border: 2px solid var(--success-green);
+    color: var(--white);
+    border: 2px solid var(--white);
 }
 
-.btn-secondary:hover {
-    background: var(--success-green);
-    color: var(--white);
-}
+ .btn-secondary:hover {
+     background: white;
+     color: #1e293b;
+ }
 
 .trust-indicators {
     display: flex;
@@ -2895,5 +2898,134 @@
     .trust-indicators {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+/* Quote Section - Copied from Marine Page */
+.quote-section {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: white;
+}
+
+.quote-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.quote-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.quote-text > p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #cbd5e1;
+}
+
+.quote-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.benefit-icon {
+    color: #10b981;
+    font-weight: bold;
+}
+
+.quote-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #374151;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.checkbox-group input {
+    width: auto;
+}
+
+.btn-full {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+/* Quote Section Responsive Design */
+@media (max-width: 768px) {
+    .quote-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .quote-form {
+        padding: 1.5rem;
+    }
+    
+    .quote-text h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .quote-form {
+        padding: 1rem;
+    }
+    
+    .quote-text h2 {
+        font-size: 1.75rem;
     }
 }

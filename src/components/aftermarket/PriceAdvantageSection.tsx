@@ -58,10 +58,6 @@ const PriceAdvantageSection: React.FC<PriceAdvantageSectionProps> = ({ texts }) 
   const [weight, setWeight] = useState('');
   const [shippingResult, setShippingResult] = useState('');
 
-  const onOpenCatalog = () => {
-    window.open('#catalogo', '_blank');
-  };
-
   const openTrackingSystem = () => {
     window.open('https://track.dkgasspring.com', '_blank');
   };

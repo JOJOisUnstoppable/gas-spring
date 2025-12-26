@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import Image from 'next/image';
 import parseMarkdownBold from '@/lib/parseMarkdownBold';
 
 interface HowtoChooseGSProps {
@@ -17,7 +17,7 @@ interface HowtoChooseGSProps {
         };
       };
     };
-    [key: string]: any;
+    [key: string]: unknown;
   };
   imageSrc: string;
   imageAlt: string;
@@ -70,20 +70,20 @@ const HowtoChooseGS = function HowtoChooseGS(props: HowtoChooseGSProps) {
                 {/* 新增的表格部分 */}
                 <div className="mt-8 grid grid-cols-2 border border-gray-600 rounded-lg divide-x divide-y divide-gray-600">
                   {Array.from({ length: 6 }).map((_, rowIndex) => (
-                    <>
-                      <div key={`text-${rowIndex}`} className="p-4 flex items-center">
+                    <React.Fragment key={rowIndex}>
+                      <div className="p-4 flex items-center">
                         <p className="text-lg">
                           {rowIndex === 5 ? "F1=KGL / bn" : table[rowIndex + 3]}
                         </p>
                       </div>
-                      <div key={`input-${rowIndex}`} className="p-4 flex items-center">
+                      <div className="p-4 flex items-center">
                         <input
                           type="text"
                           className="w-full bg-gray-700 border border-gray-600 rounded-md p-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
                           placeholder={``}
                         />
                       </div>
-                    </>
+                    </React.Fragment>
                   ))}
                 </div>
               </div>
@@ -109,8 +109,8 @@ const HowtoChooseGS = function HowtoChooseGS(props: HowtoChooseGSProps) {
                     );
                   } else if (index === 1 || index === 2 || index === 3 || index === 4 || index === 5) {
                     return (
-                      <ul className="list-disc pl-12 space-y-2">
-                        <li key={index} className=" text-xl font-medium text-foreground mt-6 mb-2">
+                      <ul key={index} className="list-disc pl-12 space-y-2">
+                        <li className=" text-xl font-medium text-foreground mt-6 mb-2">
                           {item}
                         </li>
                       </ul>

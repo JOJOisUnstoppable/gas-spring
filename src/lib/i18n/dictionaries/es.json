@@ -5,37 +5,37 @@
     "applications": "Aplicaciones",
     "blog": "Blog",
     "contact": "Contáctanos",
-    "allProducts": "All Products",
+    "allProducts": "Todos los Productos",
     "showProducts": "Una línea de productos rica y completa",
     "viewAll": "Ver todo Etiquetas"
   },
   "home": {
     "hero": {
       "eyebrow": "Soluciones Profesionales",
-      "title": "Soluciones Profesionales de Resortes de Gas",
-      "subtitle": "Soluciones innovadoras de resortes de gas para diversas aplicaciones industriales",
+      "title": "Mejore el rendimiento y la fiabilidad del equipo: soluciones de muelles neumáticos de precisión, diseñadas para entornos industriales exigentes.",
+      "subtitle": "Con calidad certificada por la ISO 9001 y tecnología avanzada de amortiguación de larga distancia, asegúrese de que su equipo funcione de manera fluida y precisa.",
       "ctaContact": "Obtenga una propuesta personalizada ahora",
       "ctaProduct": "Explora Nuestros Productos"
     },
     "service": {
-      "title": "Customized Service Process",
-      "description": "We provide comprehensive customization services from design to production, ensuring each product perfectly meets your requirements",
+      "title": "Proceso de Servicio Personalizado",
+      "description": "Proporcionamos servicios integrales de personalización desde el diseño hasta la producción, asegurando que cada producto cumpla perfectamente con sus requisitos",
       "steps": {
         "stepOne": {
-          "title": "Requirement Analysis",
-          "description": "We understand your requirements and industry needs."
+          "title": "Análisis de Requisitos",
+          "description": "Entendemos sus requisitos y necesidades de la industria."
         },
         "stepTwo": {
-          "title": "Solution Design",
-          "description": "We design customized gas spring solutions that are specifically designed to meet your unique requirements."
+          "title": "Diseño de Soluciones",
+          "description": "Diseñamos soluciones de resortes de gas personalizadas que están específicamente diseñadas para cumplir con sus requisitos únicos."
         },
         "stepThree": {
-          "title": "Sample Confirmation",
-          "description": "We provide free samples for testing and confirmation."
+          "title": "Confirmación de Muestras",
+          "description": "Proporcionamos muestras gratuitas para pruebas y confirmación."
         },
         "stepFour": {
-          "title": "Batch Production",
-          "description": "We strictly follow ISO 9001:2000 standard, ensuring high quality and performance for each product."
+          "title": "Producción en Lotes",
+          "description": "Seguimos estrictamente el estándar ISO 9001:2000, asegurando alta calidad y rendimiento para cada producto."
         }
       }
     },
@@ -44,20 +44,20 @@
       "description": "Ofrecemos soluciones integrales de resortes de gas que satisfacen diversas necesidades industriales",
       "items": [
         {
-          "title": "Soluciones Personalizadas",
-          "description": "Resortes de gas diseñados a medida para cumplir con tus requisitos específicos"
+          "title": "Soluciones de ingeniería a medida",
+          "description": "Ofrecemos soluciones de resortes neumáticos personalizadas que están diseñadas específicamente para satisfacer sus requisitos únicos."
         },
         {
-          "title": "Estándares Globales",
-          "description": "Productos fabricados según estándares de calidad internacionales"
+          "title": "Garantía de fiabilidad sin fallos",
+          "description": "Cumplimos estrictamente con la norma ISO 9001:2000, garantizando alta calidad y rendimiento para cada producto."
         },
         {
-          "title": "Soporte Técnico",
-          "description": "Asistencia técnica profesional durante todo el proceso"
+          "title": "Tecnología líder en la industria de control de amortiguación",
+          "description": "Dominamos la tecnología clave de los resortes neumáticos de larga distancia, lo que permite un control preciso de la amortiguación y la velocidad de extracción, incluso en entornos exigentes."
         },
         {
-          "title": "Garantía",
-          "description": "Garantía de satisfacción del cliente para satisfacer sus necesidades"
+          "title": "Respuesta rápida de soporte global",
+          "description": "Brindamos servicios globales, incluyendo asesoramiento de ingeniería, guía de instalación y soporte técnico online integral."
         }
       ]
     }
@@ -73,8 +73,8 @@
     "descriptionLabel": "Descripción de la Aplicación",
     "solutionLabel": "Solución de Resortes de Gas",
     "relatedPostsLabel": "Publicaciones Relacionadas con Referencias de Casos",
-    "noRelatedPosts": "Non related posts in current language",
-    "viewMoreString": "Contact Us to Get More Info"
+    "noRelatedPosts": "No hay publicaciones relacionadas en el idioma actual",
+    "viewMoreString": "Contáctanos para obtener más información"
   },
   "blog": {
     "description": "Nuestra visión de la industria y los productos de los amortiguadores de gas",
@@ -170,7 +170,7 @@
     "description": "Esta Política de Privacidad explica cómo recopilamos, utilizamos, procesamos y protegemos sus datos cuando interactúa con nuestros servicios."
   },
   "terms": {
-    "title": "Terms of Use",
+    "title": "Términos de Uso",
     "description": "Un acuerdo completo que abarca los Términos de Servicio, atribución de responsabilidad, privacidad de datos, políticas de productos (pedido/entrega/devoluciones/garantía), descargo de responsabilidad y ley aplicable."
   },
   "products": {
@@ -254,7 +254,7 @@
       },
       "howChooseGS": {
         "title": "¿Cómo Elegir un Resorte de Gas: Guía Sencilla para Ingenieros",
-        "description": "Usted, como ingeniero, tiene un problema relacionado con el movimiento controlado que necesita resolverse sin energía adicional? Responda las siguientes preguntas para completar su selección. ¡Podemos ayudarlo a elegir el resorte de gas adecuado para su aplicación y también colaborar con el diseño!",
+        "description": "¿Tiene usted, como ingeniero, un problema relacionado con el movimiento controlado que necesita resolverse sin energía adicional? Responda las siguientes preguntas para completar su selección. ¡Podemos ayudarlo a elegir el resorte de gas adecuado para su aplicación y también colaborar con el diseño!",
         "imageNote": "Nota: Recibiremos sus datos y nos pondremos en contacto con usted en un plazo de **12 horas**.",
         "howItWork": {
           "title": "Así funciona:",
@@ -280,7 +280,7 @@
           "P=Posición de montaje en la puerta con resorte de gas, es decir, aproximadamente a 1/3L del centro de giro.  ",
           "K=Factor de seguridad (generalmente 11)  ",
           "G=30kg, L=400 mm, n=2, b=200mm y F1=30×400×11/(200×2)=330N  ",
-          "S=Stkore (nota: se mantiene el término original por posible error de escritura, probablemente se refiere a \"Carrera\"/Stroke)",
+          "S=Carrera (longitud de recorrido del pistón)",
           "EL1=Longitud Extendida o Expandida"
         ]
       },
@@ -559,7 +559,7 @@
         "items": [
           {
             "question": "¿Qué diferencia a los resortes de gas marinos de los resortes de gas estándar?",
-            "answer": "Los resortes de gas marinos utilizan una construcción de acero inoxidable 316L y sellos especializados para resistir la corrosión por agua salada y ambientes marinos duras. Además, están diseñados para cumplir con las normativas ABYC para aplicaciones marinas."
+            "answer": "Los resortes de gas marinos utilizan una construcción de acero inoxidable 316L y sellos especializados para resistir la corrosión por agua salada y ambientes marinos duros. Además, están diseñados para cumplir con las normativas ABYC para aplicaciones marinas."
           },
           {
             "question": "¿Cómo calculo la fuerza necesaria para mi aplicación marina?",
@@ -601,7 +601,7 @@
         "ctaCotizacion": "📯 Cotización sin riesgo",
         "trustFabrica": "Fábrica directa de China",
         "trustPrecio": "Garantía de precio más bajo",
-        "trustEspecificaciones": "10.000+ especificaciones",
+        "trustEspecificaciones": "1000+ especificaciones",
         "showcaseCatalogo": "Catálogo de aftermarket",
         "showcaseStock": "✅ En stock",
         "productCapo": "Capó",
@@ -616,7 +616,7 @@
       },
       "specMatcher": {
         "sectionTitle": "Calculadora inteligente de especificaciones",
-        "sectionDescription": "Encuentra exactamente lo que necesitas entre más de 10.000 especificaciones disponibles",
+        "sectionDescription": "Encuentra exactamente lo que necesitas entre más de 1000 especificaciones disponibles",
         "formTitle": "🔍 Buscar por especificaciones técnicas",
         "extendedLengthLabel": "Longitud extendida (mm)",
         "extendedLengthPlaceholder": "ej: 450",
@@ -628,13 +628,14 @@
         "connectionTypeLabel": "Tipo de conexión",
         "applicationLabel": "Aplicación",
         "selectOption": "Seleccionar",
-        "searchButton": "🔍 Buscar especificaciones",
-        "searchingText": "🔍 Buscando...",
+        "uploadOptions": "Seleccionar / Subir tu lista de productos",
+        "searchButton": "Buscar",
+        "searchingText": "Buscando...",
         "connectionTypes": {
-          "ballSocket": "Empotramiento de bola",
+          "ballSocket": "Rótula",
           "eyeEnd": "Extremo de ojo",
-          "threaded": "Rosqueado",
-          "fork": "Tenedor"
+          "threaded": "Roscado",
+          "fork": "Horquilla"
         },
         "applications": {
           "hood": "Capó",
@@ -827,57 +828,6 @@
         "shipping_5_7_days": "5-7 días",
         "shipping_7_10_days": "7-10 días"
       },
-      "marketCoverage": {
-        "section_title": "Cobertura del mercado sudamericano",
-        "section_desc": "Atendemos todo el aftermarket automotriz sudamericano con presencia local y soporte especializado",
-        "vehicles_served": "Vehículos atendidos",
-        "brazil_title": "Brasil",
-        "brazil_market_size": "Mercado principal",
-        "brazil_sales_percent": "40%",
-        "brazil_workshops": "1.200+",
-        "brazil_models_title": "Modelos más vendidos:",
-        "brazil_model1": "VW Gol/Voyage – Capó",
-        "brazil_model2": "Fiat Palio/Siena – Portón trasero",
-        "brazil_model3": "Chevrolet Onix – Capó",
-        "brazil_model4": "Ford Ka – Portón trasero",
-        "brazil_contact_title": "Contacto local:",
-        "brazil_phone": "+55 11 9999-8888",
-        "argentina_title": "Argentina",
-        "argentina_market_size": "Mercado clave",
-        "argentina_sales_percent": "25%",
-        "argentina_workshops": "650+",
-        "argentina_models_title": "Modelos más vendidos:",
-        "argentina_model1": "Toyota Corolla – Capó",
-        "argentina_model2": "Renault Sandero – Portón trasero",
-        "argentina_model3": "Peugeot 208 – Capó",
-        "argentina_model4": "Volkswagen Suran – Portón trasero",
-        "argentina_contact_title": "Contacto local:",
-        "argentina_phone": "+54 11 4444-5555",
-        "colombia_title": "Colombia",
-        "colombia_market_size": "Mercado en rápido crecimiento",
-        "colombia_sales_percent": "15%",
-        "colombia_workshops": "400+",
-        "colombia_models_title": "Modelos más vendidos:",
-        "colombia_model1": "Chevrolet Spark – Capó",
-        "colombia_model2": "Renault Logan – Portón trasero",
-        "colombia_model3": "Nissan March – Capó",
-        "colombia_model4": "Kia Picanto – Portón trasero",
-        "colombia_contact_title": "Contacto local:",
-        "colombia_phone": "+57 1 333-4444",
-        "chile_title": "Chile",
-        "chile_market_size": "Mercado premium",
-        "chile_sales_percent": "10%",
-        "chile_workshops": "300+",
-        "chile_models_title": "Modelos más vendidos:",
-        "chile_model1": "Suzuki Swift – Capó",
-        "chile_model2": "Hyundai Accent – Portón trasero",
-        "chile_model3": "Mazda 2 – Capó",
-        "chile_model4": "Toyota Yaris – Portón trasero",
-        "chile_contact_title": "Contacto local:",
-        "chile_phone": "+56 2 2222-3333",
-        "stat_desc_sales": "de nuestras ventas",
-        "stat_desc_workshops": "talleres activos"
-      },
       "contact": {
         "section_title": "📞 Contáctanos para tu cotización",
         "section_desc": "¿Tienes preguntas sobre nuestros productos o pedidos mixtos? Nuestro equipo te responderá en 24 horas.",
@@ -910,7 +860,7 @@
             },
             {
               "timezone": "Sudamérica (GMT-3)",
-              "time": "Lunes – Viernes: 22:00 – 07:00"
+              "time": "Lunes – Viernes: 8:00 – 15:00"
             }
           ]
         },

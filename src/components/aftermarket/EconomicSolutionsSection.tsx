@@ -1,4 +1,5 @@
 'use client';
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
 // 定义文本参数接口，避免any类型
@@ -133,16 +134,6 @@ Saludos cordiales,
                 <li data-translate="solution_workshop_benefit4">{texts.solution_workshop_benefit4}</li>
                 <li data-translate="solution_workshop_benefit5">{texts.solution_workshop_benefit5}</li>
               </ul>
-              <div className="pricing-info">
-                <div className="price-range">
-                  <span className="price-label" data-translate="solution_price_label">{texts.solution_price_label}</span>
-                  <span className="price-value">$8 USD</span>
-                </div>
-                <div className="margin-info">
-                  <span className="margin-label" data-translate="solution_margin_label">{texts.solution_margin_label}</span>
-                  <span className="margin-value">+200%</span>
-                </div>
-              </div>
               <button
                 className="btn-solution"
                 onClick={handleWorkshopCatalog}
@@ -177,16 +168,6 @@ Saludos cordiales,
                 <li data-translate="solution_distributor_benefit4">{texts.solution_distributor_benefit4}</li>
                 <li data-translate="solution_distributor_benefit5">{texts.solution_distributor_benefit5}</li>
               </ul>
-              <div className="pricing-info">
-                <div className="price-range">
-                  <span className="price-label" data-translate="solution_price_label">{texts.solution_price_label}</span>
-                  <span className="price-value">$6 USD</span>
-                </div>
-                <div className="margin-info">
-                  <span className="margin-label" data-translate="solution_margin_label">{texts.solution_margin_label}</span>
-                  <span className="margin-value">+300%</span>
-                </div>
-              </div>
               <button
                 className="btn-solution"
                 onClick={handleDistributorProgram}
@@ -221,16 +202,6 @@ Saludos cordiales,
                 <li data-translate="solution_importer_benefit4">{texts.solution_importer_benefit4}</li>
                 <li data-translate="solution_importer_benefit5">{texts.solution_importer_benefit5}</li>
               </ul>
-              <div className="pricing-info">
-                <div className="price-range">
-                  <span className="price-label" data-translate="solution_price_label">{texts.solution_price_label}</span>
-                  <span className="price-value">$3.50 USD</span>
-                </div>
-                <div className="margin-info">
-                  <span className="margin-label" data-translate="solution_margin_label">{texts.solution_margin_label}</span>
-                  <span className="margin-value">+400%</span>
-                </div>
-              </div>
               <button
                 className="btn-solution"
                 onClick={handleImporterProgram}

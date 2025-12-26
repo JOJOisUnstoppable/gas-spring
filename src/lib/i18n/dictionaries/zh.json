@@ -12,14 +12,14 @@
   "home": {
     "hero": {
       "eyebrow": "全球领先技术",
-      "title": "专业气弹簧与运动控制解决方案供应商",
-      "subtitle": "为您提供定制化、高品质、免维护的气弹簧、支撑杆与阻尼器解决方案，驱动您的业务高效运转。",
+      "title": "提升设备性能与可靠性：专为严苛工业环境设计的精密气弹簧解决方案。",
+      "subtitle": "凭借 ISO 9001 认证品质与先进的长距离阻尼技术，确保您的设备平稳精准运行。",
       "ctaContact": "立即获取定制方案",
       "ctaProduct": "浏览产品"
     },
     "service": {
       "title": "定制服务流程",
-      "description": "们提供从设计到生产的全方位定制服务，确保每个产品都完美匹配您的需求。",
+      "description": "我们提供从设计到生产的全方位定制服务，确保每个产品都完美匹配您的需求。",
       "steps": {
         "stepOne": {
           "title": "需求分析",
@@ -44,20 +44,20 @@
       "description": "我们凭借行业经验和技术创新提供全面的气弹簧解决方案，满足多样化的工业需求",
       "items": [
         {
-          "title": "定制化专家",
-          "description": "量身定制的气弹簧解决方案，从设计到生产，精准匹配您的需求。提供样品检验，确保完美契合。"
+          "title": "定制化工程解决方案",
+          "description": "我们提供定制化气弹簧解决方案，专门为满足您的独特需求而设计。"
         },
         {
-          "title": "卓越品质",
-          "description": "严格遵循ISO 9001:2000标准，每批产品都经过严苛测试，提供详细性能测试报告。"
+          "title": "零故障可靠性保障",
+          "description": "我们严格遵循ISO 9001:2000标准，确保每件产品的高品质与高性能。"
         },
         {
-          "title": "创新技术",
-          "description": "掌握超长行程气弹簧核心技术，精确控制阻尼与弹出速度，即使在严苛环境下也能稳定运行。"
+          "title": "行业领先的阻尼控制技术",
+          "description": "我们掌握长行程气弹簧核心技术，即便在复杂工况下，也能实现阻尼及弹出速度的精准控制。"
         },
         {
-          "title": "全球服务",
-          "description": "无论您身处何地，DK都提供专业的工程咨询、安装指导和全面的在线技术支持。"
+          "title": "快速全球支持响应",
+          "description": "我们提供全球化服务，涵盖工程咨询、安装指导以及全方位在线技术支持。"
         }
       ]
     }
@@ -174,6 +174,259 @@
     "description": "涵盖服务条款、责任归属、数据隐私、产品政策（订购/交付/退货/保修）、免责声明及管辖法律等内容的完整协议。"
   },
   "products": {
+    "marine": {
+      "hero": {
+        "title": "美国水域专用优质船用气弹簧",
+        "subtitle": "为美国船舶和游艇量身打造的316L不锈钢船用气撑杆",
+        "features": [
+          {
+            "icon": "🛡️",
+            "text": "免税处理"
+          },
+          {
+            "icon": "⚡",
+            "text": "10天交付"
+          },
+          {
+            "icon": "🔧",
+            "text": "定制工程"
+          },
+          {
+            "icon": "🏆",
+            "text": "30年质保"
+          }
+        ],
+        "ctaButtons": [
+          {
+            "text": "获取免费报价",
+            "href": "#quote",
+            "isPrimary": true
+          },
+          {
+            "text": "查看产品",
+            "href": "#products",
+            "isPrimary": false
+          }
+        ],
+        "heroImageAlt": "豪华游艇上的船用气弹簧"
+      },
+      "whyChooseUs": {
+        "title": "为什么选择DK船用气弹簧？",
+        "advantages": [
+          {
+            "iconSrc": "/images/icons/premium-stainless-steel.svg",
+            "iconAlt": "优质不锈钢",
+            "title": "优质不锈钢",
+            "description": "提供304/316等级——在淡水/海水中具有卓越的耐腐蚀性，性能超越船用标准钢材。有特殊需求？我们的工程师随时提供技术讨论。"
+          },
+          {
+            "iconSrc": "/images/icons/ultra-fast-delivery.svg",
+            "iconAlt": "超快交付",
+            "title": "超快交付",
+            "description": "标准订单：最快2周交付。为紧急需求提供加急选项——在您需要时及时获得零件。"
+          },
+          {
+            "iconSrc": "/images/icons/tailored-custom-engineering.svg",
+            "iconAlt": "量身定制工程",
+            "title": "量身定制工程",
+            "description": "无现货限制：免费设计咨询+定制解决方案，$0定制费用。工程师根据您的规格要求实现完美匹配——您的长期合作伙伴。"
+          },
+          {
+            "iconSrc": "/images/icons/hassle-free-usa-support.svg",
+            "iconAlt": "无忧美国支持",
+            "title": "无忧美国支持",
+            "description": "报价包含关税（无波动担忧）+成本节约。24/7美国本土技术支持——可靠的本地帮助。"
+          }
+        ]
+      },
+      "productShowcase": {
+        "title": "船用气弹簧解决方案",
+        "products": [
+          {
+            "imageSrc": "/images/marine/yacht-hatch-gas-springs.jpg",
+            "imageAlt": "游艇舱口气弹簧",
+            "title": "游艇舱口气弹簧",
+            "description": "用于游艇舱口和舱室的优质气撑杆。运行平稳，保持开启力可靠。",
+            "features": [
+              "力范围：50-2000N",
+              "316L不锈钢结构",
+              "可提供定制安装支架"
+            ],
+            "ctaText": "获取报价"
+          },
+          {
+            "imageSrc": "/images/marine/boat-engine-cover-gas-springs.jpg",
+            "imageAlt": "船用发动机罩气弹簧",
+            "title": "发动机罩气撑杆",
+            "description": "用于船用发动机罩和检修面板的重型气弹簧。专为频繁使用而设计。",
+            "features": [
+              "高力应用可达3000N",
+              "耐温密封件",
+              "减振阻尼设计"
+            ],
+            "ctaText": "获取报价"
+          },
+          {
+            "imageSrc": "/images/marine/marine-furniture-gas-springs.jpg",
+            "imageAlt": "船用家具气弹簧",
+            "title": "船用家具气弹簧",
+            "description": "用于船用家具、座椅和储物解决方案的紧凑型气撑杆。节省空间的设计。",
+            "features": [
+              "紧凑设计适用于狭小空间",
+              "软关闭和保持开启功能",
+              "多种端部连接选项"
+            ],
+            "ctaText": "获取报价"
+          }
+        ]
+      },
+      "applications": {
+        "title": "船用应用",
+        "items": [
+          {
+            "imageSrc": "/images/marine/Luxury_Yachts.jpg",
+            "imageAlt": "豪华游艇",
+            "title": "豪华游艇",
+            "description": "用于高端游艇应用的优质气弹簧，包括舱口、家具和设备罩。"
+          },
+          {
+            "imageSrc": "/images/marine/Commercial_Fishing.jpg",
+            "imageAlt": "商业捕鱼船",
+            "title": "商业捕鱼",
+            "description": "专为商业捕鱼船严苛环境设计的重型气撑杆。"
+          },
+          {
+            "imageSrc": "/images/marine/Sailboats.png",
+            "imageAlt": "帆船",
+            "title": "帆船",
+            "description": "轻量化但耐用的气弹簧，完美适用于帆船舱口和设备储存。"
+          },
+          {
+            "imageSrc": "/images/marine/Powerboats.png",
+            "imageAlt": "摩托艇",
+            "title": "摩托艇",
+            "description": "用于摩托艇发动机罩和检修面板的高性能气撑杆。"
+          }
+        ]
+      },
+      "technicalSupport": {
+        "title": "专业技术支持",
+        "description": "我们的船用气弹簧专家将帮助您为应用选择完美的解决方案。",
+        "features": [
+          {
+            "icon": "📐",
+            "title": "免费设计咨询",
+            "description": "我们的工程师将帮助您确定船用应用的最佳气弹簧规格。"
+          },
+          {
+            "icon": "🔧",
+            "title": "安装指导",
+            "description": "针对船用环境的逐步安装说明和安装建议。"
+          },
+          {
+            "icon": "📞",
+            "title": "24/7支持热线",
+            "description": "全天候技术支持，满足紧急船用气弹簧需求和故障排除。"
+          }
+        ],
+        "imageAlt": "技术支持团队"
+      },
+      "successStories": {
+        "title": "客户成功案例",
+        "stories": [
+          {
+            "customerImageAlt": "Joe的船舶维修店",
+            "customerName": "Joe的船舶维修店",
+            "location": "佛罗里达州坦帕",
+            "testimonial": "DK的团队立即回电——无需等待。质量可靠，运输快速，员工友好。",
+            "results": [
+              "零腐蚀问题",
+              "比竞争对手节省50%成本"
+            ]
+          },
+          {
+            "customerImageAlt": "Sandy的码头供应",
+            "customerName": "Sandy的码头供应",
+            "location": "加利福尼亚州圣地亚哥",
+            "testimonial": "我们经营码头设备，所以需要快速到货且不会损坏的产品。货物到达超快——从不延误。当我们为当地码头改造有紧急批量订单时，他们在两周半内就发货了。沟通轻松，运输快速，质量优良——我们肯定会继续与他们合作。",
+            "results": [
+              "装备25艘船只",
+              "实现99.8%正常运行时间"
+            ]
+          }
+        ]
+      },
+      "quoteForm": {
+        "title": "立即获取免费报价",
+        "description": "准备升级您的船用气弹簧？我们的专家将在24小时内提供定制报价。",
+        "benefits": [
+          {
+            "icon": "✅",
+            "text": "免费技术咨询"
+          },
+          {
+            "icon": "✅",
+            "text": "可提供定制工程"
+          },
+          {
+            "icon": "✅",
+            "text": "保证竞争性价格"
+          },
+          {
+            "icon": "✅",
+            "text": "美国快速交付"
+          }
+        ],
+        "applicationOptions": [
+          {
+            "value": "yacht-hatch",
+            "label": "游艇舱口"
+          },
+          {
+            "value": "engine-cover",
+            "label": "发动机罩"
+          },
+          {
+            "value": "furniture",
+            "label": "船用家具"
+          },
+          {
+            "value": "custom",
+            "label": "定制应用"
+          }
+        ],
+        "submitButtonText": "获取免费报价"
+      },
+      "faq": {
+        "title": "常见问题",
+        "items": [
+          {
+            "question": "船用气弹簧与标准气弹簧有什么区别？",
+            "answer": "船用气弹簧采用316L不锈钢结构和专用密封件，以抵抗海水和恶劣船用环境的腐蚀。它们还专门设计以满足船用应用的海事标准。"
+          },
+          {
+            "question": "如何计算我的船用应用所需的力？",
+            "answer": "力计算取决于舱口/盖板的重量、安装几何形状和所需的开启力。我们的工程师提供免费咨询，为您的特定应用确定最佳力值。"
+          },
+          {
+            "question": "船用气弹簧的典型使用寿命是多长？",
+            "answer": "我们的船用气弹簧设计可承受100,000+次循环，在正常船用使用中通常可持续10-15年。我们对材料和工艺提供30年质保。"
+          },
+          {
+            "question": "您能提供定制安装支架吗？",
+            "answer": "是的，我们提供专为船用应用设计的定制安装支架和硬件。所有支架均采用船用级材料制造，具有适当的防腐保护。"
+          },
+          {
+            "question": "您向所有美国州发货吗？",
+            "answer": "是的，我们向所有50个州发货，标准10天交付。为紧急船用应用提供快递和当日交付选项。"
+          },
+          {
+            "question": "您的船用气弹簧有哪些认证？",
+            "answer": "我们的船用气弹簧符合ABYC标准并通过ISO 9001:2015认证。需要时我们还提供CE标记以满足国际合规要求。"
+          }
+        ]
+      }
+    },
     "gas-spring": {
       "productSeries": {
         "title": "产品系列"
@@ -191,7 +444,7 @@
         "description": [
           "**气弹簧**是液压气动式储能元件。它由一根精密活塞杆构成，该活塞杆可在填充有加压氮气与油液的密封缸筒内运动。  ",
           "由于活塞杆的横截面积较小，无论气弹簧处于何种位置，活塞周围的压力始终保持均匀。这就是气弹簧比螺旋弹簧运行更稳定的原因。  ",
-          "弹簧力**（F）** 的计算公式为：内外环境的压力差**（ΔP）** 作用于活塞杆横截面积**（A）** ，即 **F = ΔP × A**（原文“/ times”为笔误，修正为乘法符号“×”）。  ",
+          "弹簧力**（F）** 的计算公式为：内外环境的压力差**（ΔP）** 作用于活塞杆横截面积**（A）**，即 **F = ΔP × A**。",
           "通过调整注入氮气量、油液用量及活塞杆横截面积，可定制气弹簧的规格，以满足特定的应用需求。  ",
           "在高压环境中，必须谨慎控制压力差**ΔP**。  ",
           "下文将介绍气弹簧的不同类型。"
@@ -320,6 +573,444 @@
           "我们为知名企业的新产品开发提供支持  ",
           "欢迎联系我们！"
         ]
+      }
+    }
+  },
+  "aftermarket": {
+    "hero": {
+      "heroBadge": "告别库存问题！",
+      "heroTitleRed": "厌倦了亏损",
+      "heroTitleMain": "死库存？",
+      "heroTitleGreen": "混合订单 = 最大利润",
+      "heroSubtitleStrong": "聪明的经销商已经发现的解决方案：",
+      "heroSubtitleMain": "单次订单购买50+种不同型号。中国工厂价格 + 零库存风险。",
+      "heroPainPoint": "❌ 不再有：我有100个错误型号的零件",
+      "statInventario": "死库存",
+      "statCompetencia": "vs. 竞争对手",
+      "statModelos": "单次订单50+型号",
+      "statRoi": "保证投资回报",
+      "ctaCalcular": "💰 计算我的实际节省",
+      "ctaCotizacion": "🎯 无风险报价",
+      "trustFabrica": "中国工厂直供",
+      "trustPrecio": "保证最低价格",
+      "trustEspecificaciones": "1000+规格",
+      "showcaseCatalogo": "售后市场目录",
+      "showcaseStock": "✅ 现货供应",
+      "productCapo": "引擎盖",
+      "productCompatibleCapo": "兼容：丰田、大众、福特",
+      "productPorton": "后尾门",
+      "productCompatiblePorton": "兼容：雪佛兰、菲亚特、雷诺",
+      "productVentanilla": "车窗",
+      "productCompatibleVentanilla": "兼容：日产、现代、起亚",
+      "productAmortiguador": "减震器",
+      "productCompatibleAmortiguador": "兼容：宝马、奔驰、奥迪",
+      "btnVerCatalogo": "查看完整目录（5000+型号）"
+    },
+    "specMatcher": {
+      "sectionTitle": "智能规格计算器",
+      "sectionDescription": "在超过1000种可用规格中精确找到您需要的产品",
+      "formTitle": "🔍 按技术规格搜索",
+      "extendedLengthLabel": "伸展长度 (mm)",
+      "extendedLengthPlaceholder": "例如：450",
+      "compressedLengthLabel": "压缩长度 (mm)",
+      "compressedLengthPlaceholder": "例如：180",
+      "forceLabel": "力值 (N)",
+      "forcePlaceholder": "例如：300",
+      "cylinderDiameterLabel": "缸筒直径 (mm)",
+      "connectionTypeLabel": "连接类型",
+      "applicationLabel": "应用场景",
+      "selectOption": "选择",
+      "uploadOptions": "选择/上传您的产品清单",
+      "searchButton": "搜索",
+      "searchingText": "搜索中...",
+      "connectionTypes": {
+        "ballSocket": "球头连接",
+        "eyeEnd": "环形端头",
+        "threaded": "螺纹连接",
+        "fork": "叉形连接"
+      },
+      "applications": {
+        "hood": "发动机罩",
+        "tailgate": "尾门",
+        "window": "车窗",
+        "seat": "座椅",
+        "cabinet": "储物柜"
+      },
+      "resultsHeader": "搜索结果",
+      "resultsCount": "找到规格",
+      "noResultsText": "输入规格以查找兼容产品",
+      "extendedLengthText": "伸展长度",
+      "compressedLengthText": "压缩长度",
+      "forceText": "力值",
+      "diameterText": "直径",
+      "connectionText": "连接方式",
+      "applicationText": "应用",
+      "priceText": "价格",
+      "stockText": "库存",
+      "availableText": "有货",
+      "unavailableText": "缺货",
+      "viewDetailsBtn": "查看详情",
+      "addToQuoteBtn": "添加到报价",
+      "bulkTitle": "📦 混合订单 - 我们的专长",
+      "bulkDescription": "在单个订单中组合多种规格，最大化您的库存",
+      "bulkFlexibleTitle": "🎯 灵活起订量",
+      "bulkFlexibleDesc": "每个规格仅需10件<br>最低订单：总计500件",
+      "bulkDiscountTitle": "💰 批量折扣",
+      "bulkDiscountDesc": "大批量混合订单<br>额外享受高达15%折扣",
+      "bulkCustomTitle": "📋 定制清单",
+      "bulkCustomDesc": "我们根据您的本地市场<br>创建专属产品目录",
+      "searchPlaceholder": "按品牌、型号或零件类型搜索...",
+      "filterLabelBrand": "品牌",
+      "filterBrandOptions": [
+        "丰田",
+        "大众",
+        "雪佛兰",
+        "福特",
+        "菲亚特",
+        "其他"
+      ],
+      "filterLabelType": "气弹簧类型",
+      "filterTypeOptions": [
+        "发动机罩",
+        "尾门",
+        "车窗",
+        "减震器"
+      ],
+      "filterLabelYear": "车辆年份",
+      "filterYearPlaceholder": "例如：2018",
+      "searchBtnText": "搜索",
+      "resetBtnText": "清除筛选",
+      "resultsTitle": "搜索结果",
+      "resultItemBrand": "品牌：",
+      "resultItemModel": "型号：",
+      "resultItemType": "类型：",
+      "resultItemPrice": "价格：",
+      "resultItemStock": "库存："
+    },
+    "painSolutions": {
+      "section_perdiendo": "为什么您还在<span class='highlight-red'>亏损</span>？",
+      "section_perdiendo_desc": "经销商最常犯的3个代价高昂的错误（以及如何避免）",
+      "error1_title": "错误#1：把所有赌注押在少数型号上",
+      "error1_stat1": "死库存",
+      "error1_stat2": "年度损失",
+      "error1_problem": "<strong>问题所在：</strong>您购买1000件热门型号，但只卖出300件。",
+      "solution_title": "✅ 我们的解决方案：",
+      "error1_solution": "混合订单：50个不同型号各20件 = 零死库存",
+      "error1_benefit1": "🎯 满足所有市场需求",
+      "error1_benefit2": "💰 小批量享受工厂价格",
+      "error1_benefit3": "🔄 完美的库存周转",
+      "error2_title": "错误#2：支付经销商价格",
+      "error2_stat1": "价格过高",
+      "error2_stat2": "实际利润率",
+      "error2_problem": "<strong>问题所在：</strong>您为制造成本$3的产品支付$10，仅仅因为您购买小批量。",
+      "error2_solution": "工厂直供价格：1000+件混合订单每件$3.50",
+      "error2_benefit1": "🏭 无中间商 = 无额外成本",
+      "error2_benefit2": "📈 保证200%+利润率",
+      "error2_benefit3": "🎯 以无敌价格竞争",
+      "error3_title": "错误#3：多个供应商 = 完全混乱",
+      "error3_stat1": "供应商",
+      "error3_stat2": "管理时间/月",
+      "error3_problem": "<strong>问题所在：</strong>管理8个不同供应商来覆盖所有规格。",
+      "error3_solution": "一个供应商提供10,000+种不同规格",
+      "error3_benefit1": "📋 单一发票，单一联系人",
+      "error3_benefit2": "⚡ 任何规格24小时内报价",
+      "error3_benefit3": "🎯 所有产品质量一致",
+      "mixed_order_title": "🎯 典型混合订单示例",
+      "mixed_order_desc": "这是我们的客户如何通过单个订单最大化库存的方式",
+      "order_total_specs": "总规格数：",
+      "order_total_specs_value": "45种不同规格",
+      "order_total_qty": "总数量：",
+      "order_total_qty_value": "2,250件",
+      "order_avg_per_spec": "每个规格平均：",
+      "order_avg_per_spec_value": "50件",
+      "order_total_savings": "总节省：",
+      "order_total_savings_value": "$8,500美元",
+      "breakdown_capo": "发动机罩（15个规格）",
+      "breakdown_capo_qty": "750件",
+      "breakdown_porton": "尾门（12个规格）",
+      "breakdown_porton_qty": "600件",
+      "breakdown_ventanillas": "车窗（10个规格）",
+      "breakdown_ventanillas_qty": "500件",
+      "breakdown_asientos": "座椅（8个规格）",
+      "breakdown_asientos_qty": "400件"
+    },
+    "economicSolutions": {
+      "section_title": "为您的业务提供经济解决方案",
+      "section_desc": "通过我们针对各类业务的专业解决方案最大化您的利润",
+      "solution_workshop_title": "汽修厂解决方案",
+      "solution_workshop_badge": "最受欢迎",
+      "solution_workshop_desc": "为寻求质量和盈利能力的机械维修厂提供的完美解决方案",
+      "solution_workshop_benefit1": "✅ 2年完整质保",
+      "solution_workshop_benefit2": "✅ 竞争性价格",
+      "solution_workshop_benefit3": "✅ 现货供应",
+      "solution_workshop_benefit4": "✅ 技术支持",
+      "solution_workshop_benefit5": "✅ 快速发货",
+      "solution_distributor_title": "经销商解决方案",
+      "solution_distributor_badge": "批发",
+      "solution_distributor_desc": "快速周转的智能库存解决方案。南美最畅销型号。",
+      "solution_distributor_benefit1": "✅ 灵活起订量（50件）",
+      "solution_distributor_benefit2": "✅ 批量折扣高达45%",
+      "solution_distributor_benefit3": "✅ 可提供寄售计划",
+      "solution_distributor_benefit4": "✅ 包含营销和POP材料",
+      "solution_distributor_benefit5": "✅ 可提供区域独家代理",
+      "solution_importer_title": "进口商解决方案",
+      "solution_importer_badge": "大批量",
+      "solution_importer_desc": "完整物流的大规模解决方案。从工厂到您的仓库。",
+      "solution_importer_benefit1": "✅ 竞争性FOB价格",
+      "solution_importer_benefit2": "✅ 可提供整柜货物",
+      "solution_importer_benefit3": "✅ 融资和灵活付款条件",
+      "solution_importer_benefit4": "✅ 私人品牌（OEM/ODM）",
+      "solution_importer_benefit5": "✅ 完整物流支持",
+      "solution_price_label": "工厂价格：",
+      "solution_margin_label": "您的利润：",
+      "btn_workshop_catalog": "汽修厂目录",
+      "btn_distributor_program": "经销商计划",
+      "btn_importer_program": "进口商计划",
+      "bulk_title": "📦 混合订单 - 我们的专长",
+      "bulk_desc": "在单个订单中组合多种规格，最大化您的库存",
+      "bulk_flexible": "灵活起订量",
+      "bulk_flexible_desc": "每个规格仅需10件<br>最低订单：总计500件",
+      "bulk_discount": "批量折扣",
+      "bulk_discount_desc": "5,000+件订单<br>额外节省高达15%",
+      "bulk_consolidation": "运输整合",
+      "bulk_consolidation_desc": "所有型号单次发货<br>降低进口成本",
+      "bulk_quote_btn": "📋 获取混合订单报价"
+    },
+    "priceAdvantage": {
+      "showcase_catalogo": "售后市场目录",
+      "showcase_stock": "✅ 现货供应",
+      "product_capo": "发动机罩",
+      "product_compatible_capo": "兼容：丰田、大众、福特",
+      "product_porton": "后尾门",
+      "product_compatible_porton": "兼容：雪佛兰、菲亚特、雷诺",
+      "product_ventanilla": "车窗",
+      "product_compatible_ventanilla": "兼容：日产、现代、起亚",
+      "product_amortiguador": "减震器",
+      "product_compatible_amortiguador": "兼容：宝马、奔驰、奥迪",
+      "btn_ver_catalogo": "查看完整目录（5000+型号）",
+      "trust_fabrica": "中国工厂直供",
+      "trust_precio": "保证最低价格",
+      "trust_especificaciones": "1000+种规格",
+      "email_subject": "可用性咨询 - 气弹簧",
+      "email_greeting": "您好，",
+      "email_interest": "我有兴趣咨询为我的业务提供气弹簧的可用性。",
+      "email_info_title": "我的咨询信息：",
+      "email_business_type": "业务类型：[汽修厂/经销商/进口商]",
+      "email_location": "位置：[国家/城市]",
+      "email_products": "感兴趣的产品：[指定型号]",
+      "email_quantity": "预估数量：[数量]",
+      "email_request_info": "请向我发送以下信息：",
+      "email_availability": "本地库存可用性",
+      "email_delivery_time": "交货时间",
+      "email_prices": "价格和适用折扣",
+      "email_shipping": "运输选项",
+      "email_thanks": "感谢您的关注。",
+      "email_regards": "此致敬礼，",
+      "email_name": "您的姓名",
+      "email_company": "您的公司",
+      "email_phone": "您的电话",
+      "shipping_complete_fields": "请填写所有字段",
+      "shipping_express_48h": "48小时快递可用",
+      "shipping_warehouse_sao_paulo": "圣保罗仓库",
+      "shipping_warehouse_bogota": "波哥大仓库",
+      "shipping_distributor_buenos_aires": "布宜诺斯艾利斯经销商",
+      "shipping_distributor_santiago": "圣地亚哥经销商",
+      "shipping_distributor_lima": "利马经销商",
+      "shipping_distributor_quito": "基多经销商",
+      "shipping_5_7_days": "5-7天",
+      "shipping_7_10_days": "7-10天"
+    },
+    "contact": {
+      "section_title": "📞 联系我们获取报价",
+      "section_desc": "对我们的产品或混合订单有疑问？我们的团队将在24小时内回复您。",
+      "contact_methods": [
+        {
+          "icon": "📞",
+          "title": "电话",
+          "value": "+86-574-8888-9999",
+          "description": "直接致电我们"
+        },
+        {
+          "icon": "✉️",
+          "title": "邮箱",
+          "value": "sales@southamerica.dkgasspring.com",
+          "description": "发送邮件给我们"
+        },
+        {
+          "icon": "📱",
+          "title": "微信",
+          "value": "+86-138-8888-7777",
+          "description": "与我们聊天"
+        }
+      ],
+      "business_hours": {
+        "title": "营业时间",
+        "hours": [
+          {
+            "timezone": "中国时间 (GMT+8)",
+            "time": "周一至周五：9:00 - 18:00"
+          },
+          {
+            "timezone": "南美时间 (GMT-3)",
+            "time": "周一至周五：08:00 - 15:00"
+          }
+        ]
+      },
+      "form": {
+        "title": "获取定制报价",
+        "subtitle": "填写下面的表单，我们将在24小时内为您提供详细报价。",
+        "business_info": {
+          "title": "业务信息",
+          "business_type": {
+            "label": "业务类型",
+            "placeholder": "选择您的业务类型",
+            "options": [
+              {
+                "value": "distributor",
+                "label": "经销商"
+              },
+              {
+                "value": "manufacturer",
+                "label": "制造商"
+              },
+              {
+                "value": "retailer",
+                "label": "零售商"
+              },
+              {
+                "value": "service_center",
+                "label": "服务中心"
+              },
+              {
+                "value": "other",
+                "label": "其他"
+              }
+            ]
+          },
+          "country": {
+            "label": "国家",
+            "placeholder": "选择您的国家",
+            "options": [
+              {
+                "value": "china",
+                "label": "中国"
+              },
+              {
+                "value": "usa",
+                "label": "美国"
+              },
+              {
+                "value": "germany",
+                "label": "德国"
+              },
+              {
+                "value": "japan",
+                "label": "日本"
+              },
+              {
+                "value": "korea",
+                "label": "韩国"
+              },
+              {
+                "value": "other",
+                "label": "其他"
+              }
+            ]
+          },
+          "company_name": {
+            "label": "公司名称",
+            "placeholder": "输入您的公司名称"
+          },
+          "contact_name": {
+            "label": "联系人姓名",
+            "placeholder": "输入您的全名"
+          },
+          "email": {
+            "label": "邮箱地址",
+            "placeholder": "your.email@company.com"
+          },
+          "phone": {
+            "label": "电话号码",
+            "placeholder": "输入您的电话号码"
+          }
+        },
+        "order_config": {
+          "title": "订单配置",
+          "order_type": {
+            "label": "订单类型",
+            "mixed": "混合订单（多种规格）",
+            "single": "单一规格订单"
+          },
+          "total_quantity": {
+            "label": "所需总数量",
+            "placeholder": "选择数量范围",
+            "options": [
+              {
+                "value": "500-1000",
+                "label": "500 - 1,000件"
+              },
+              {
+                "value": "1000-2500",
+                "label": "1,000 - 2,500件"
+              },
+              {
+                "value": "2500-5000",
+                "label": "2,500 - 5,000件"
+              },
+              {
+                "value": "5000+",
+                "label": "5,000+件"
+              }
+            ]
+          },
+          "spec_count": {
+            "label": "不同规格数量",
+            "placeholder": "选择规格数量",
+            "options": [
+              {
+                "value": "1-5",
+                "label": "1-5种规格"
+              },
+              {
+                "value": "5-15",
+                "label": "5-15种规格"
+              },
+              {
+                "value": "15-30",
+                "label": "15-30种规格"
+              },
+              {
+                "value": "30-50",
+                "label": "30-50种规格"
+              },
+              {
+                "value": "50+",
+                "label": "50+种规格"
+              }
+            ]
+          },
+          "pricing_title": "预估价格预览"
+        },
+        "specifications": {
+          "title": "产品规格",
+          "vehicle_models": {
+            "label": "车辆型号和应用",
+            "placeholder": "列出车辆型号、年份和具体应用（例如：本田思域2018-2022发动机罩支撑、丰田凯美瑞2020+后备箱举升等）"
+          },
+          "specific_requirements": {
+            "label": "特殊要求",
+            "placeholder": "任何特殊要求、所需认证、包装偏好、交货时间等"
+          }
+        },
+        "checkboxes": {
+          "newsletter": "订阅我们的新闻通讯以获取产品更新和行业见解",
+          "whatsapp": "我更喜欢通过微信接收更新"
+        },
+        "submit_btn": "提交报价请求",
+        "footer": {
+          "response_time": "✅ 所有咨询将在24个工作小时内得到回复",
+          "privacy": "🔒 您的信息是安全的，不会与第三方共享"
+        }
       }
     }
   }

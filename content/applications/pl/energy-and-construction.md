@@ -6,10 +6,8 @@ description: |
     Nasze produkty pochłaniają wibracje i uderzenia, aby chronić ich technologię i pomagają zapewnić bezpieczne przemieszczanie ciężkich paneli i komponentów.
     Nasze produkty służą jako katalizator ważnych właściwości fizycznych, na przykład poprzez minimalizację rozszerzalności termicznej struktur zewnętrznych.
 solution: |
-    Sprężyny Gazowe, Amortyzatory i Izolatory dla Energii i Budownictwa;
-    Nieuniknione wibracje, które powodują szybsze zużywanie się sprzętu, znajdują się w górnych i średnich sekcjach tradycyjnego łańcucha wartości wytwarzania energii.
-    Właśnie dlatego ważne jest przeciwdziałanie wibracjom w takich odległych infrastrukturach – za pomocą technologii tłumienia od nas.
-relatedTags: ['Application', 'Energy And Construction']
+    Moduły strefy upstream, gondole turbin wiatrowych, instalacje HVAC (Ogrzewanie, Wentylacja, Klimatyzacja): panele dostępu do konserwacji o wysokości do 2 m utrzymują równowagę w wiatrach o prędkości 120 km/h; izolatory wibracyjne zmniejszają zmęczenie strukturalne i chronią elektronikę na miejscach odległych.
+relatedTags: ['Application', 'Energia i Budownictwo']
 order: 4
 ---
 # Energia i Budownictwo

@@ -6,6 +6,7 @@
 'use client'
 
 import parseMarkdownBold from '@/lib/parseMarkdownBold'
+import Image from 'next/image'
 
 interface HowGSWorkProps {
   locale?: string;
@@ -99,11 +100,13 @@ const HowGSWork = ({
           {/* 图片部分 */}
           {imageSrc && (
             <div className="flex flex-col items-center space-y-4">
-              <div className="w-full max-w-4xl">
-                <img
+              <div className="w-full max-w-4xl relative h-96">
+                <Image
                   src={imageSrc}
                   alt={imageAlt || 'Gas Spring Work Diagram'}
-                  className="w-full h-auto rounded-lg shadow-lg"
+                  fill={true}
+                  sizes="100vw"
+                  className="rounded-lg shadow-lg object-cover"
                 />
               </div>
             </div>

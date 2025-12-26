@@ -28,7 +28,7 @@ export function ProductHero({ title, description, image, dict, locale }: Product
           priority
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0F172B]/45 via-black/20 to-transparent" />
       </div>
 
       {/* 内容 */}
@@ -37,14 +37,14 @@ export function ProductHero({ title, description, image, dict, locale }: Product
           <h1 className="flex items-baseline gap-2 text-4xl md:text-5xl font-bold">
             <Link 
               href={`/${locale}`} 
-              className="text-lg md:text-xl hover:text-gray-200 transition-colors font-light"
+              className="text-lg md:text-xl hover:text-primary transition-colors font-light"
             >
               {parseMarkdownBold(dict.common.home)}
             </Link>
             <span className="text-lg md:text-xl opacity-60">&gt;</span>
             <Link 
               href={`/${locale}/products`} 
-              className="text-lg md:text-xl hover:text-gray-200 transition-colors font-light"
+              className="text-lg md:text-xl hover:text-primary transition-colors font-light"
             >
               {parseMarkdownBold(dict.common.products)}
             </Link>
