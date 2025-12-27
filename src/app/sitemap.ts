@@ -51,7 +51,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           priority: route.priority,
         },
         {
-          url: `${baseUrl}/en${route.path}`,
+          // 英语页面移除 /en 前缀
+          url: `${baseUrl}${route.path}`,
           lastModified: new Date(),
           changeFrequency: route.changefreq,
           priority: route.priority,
@@ -77,34 +78,46 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       ]),
 
       // 产品分类页面
-      ...[zhCategories, enCategories, esCategories, deCategories, plCategories].flatMap((categories, index) =>
-        categories.map(category => ({
-          url: `${baseUrl}/${['zh', 'en', 'es', 'de', 'pl'][index]}/products/category/${category.id}`,
+      ...[zhCategories, enCategories, esCategories, deCategories, plCategories].flatMap((categories, index) => {
+        const lang = ['zh', 'en', 'es', 'de', 'pl'][index]
+        return categories.map(category => ({
+          // 英语页面移除 /en 前缀
+          url: lang === 'en' 
+            ? `${baseUrl}/products/category/${category.id}`
+            : `${baseUrl}/${lang}/products/category/${category.id}`,
           lastModified: new Date(),
           changeFrequency: 'weekly' as ChangeFreq,
           priority: 0.8,
         }))
-      ),
+      }),
 
       // 博客文章页面
-      ...[zhPosts, enPosts, esPosts, dePosts, plPosts].flatMap((posts, index) =>
-        posts.map(post => ({
-          url: `${baseUrl}/${['zh', 'en', 'es', 'de', 'pl'][index]}/blog/${post.slug}`,
+      ...[zhPosts, enPosts, esPosts, dePosts, plPosts].flatMap((posts, index) => {
+        const lang = ['zh', 'en', 'es', 'de', 'pl'][index]
+        return posts.map(post => ({
+          // 英语页面移除 /en 前缀
+          url: lang === 'en'
+            ? `${baseUrl}/blog/${post.slug}`
+            : `${baseUrl}/${lang}/blog/${post.slug}`,
           lastModified: post.date ? new Date(post.date) : new Date(),
           changeFrequency: 'monthly' as ChangeFreq,
           priority: 0.6,
         }))
-      ),
+      }),
 
       // 博客标签页面
-      ...[zhTags, enTags, esTags, deTags, plTags].flatMap((tags, index) =>
-        tags.map(tag => ({
-          url: `${baseUrl}/${['zh', 'en', 'es', 'de', 'pl'][index]}/blog/tag/${encodeURIComponent(tag)}`,
+      ...[zhTags, enTags, esTags, deTags, plTags].flatMap((tags, index) => {
+        const lang = ['zh', 'en', 'es', 'de', 'pl'][index]
+        return tags.map(tag => ({
+          // 英语页面移除 /en 前缀
+          url: lang === 'en'
+            ? `${baseUrl}/blog/tag/${tag}`
+            : `${baseUrl}/${lang}/blog/tag/${tag}`,
           lastModified: new Date(),
           changeFrequency: 'weekly' as ChangeFreq,
-          priority: 0.5,
+          priority: 0.6,
         }))
-      ),
+      })
     ]
   } catch (error) {
     console.error('Error generating sitemap:', error)

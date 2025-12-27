@@ -1,4 +1,5 @@
 
+import { Metadata } from 'next'
 import { Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/getDictionary'
 import { getProductDetailsById } from '@/lib/products'
@@ -9,6 +10,39 @@ import InstallAndUsage from '@/components/products/InstallAndUsage'
 import CTA from '@/components/products/CTA'
 import Image from 'next/image'
 import parseMarkdownBold from '@/lib/parseMarkdownBold'
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: Locale; id: string }>
+}): Promise<Metadata> {
+  const { locale, id } = await params
+  const product = await getProductDetailsById(locale, id)
+  
+  if (!product) {
+    return {
+      title: 'Product Not Found',
+    }
+  }
+
+  // 修复 Canonical URL：如果是英语，移除 /en
+  const canonicalPath = locale === 'en' 
+    ? `/products/${id}` 
+    : `/${locale}/products/${id}`
+
+  return {
+    title: `${product.title} | DK Gas Spring`,
+    description: product.description,
+    openGraph: {
+      title: product.title,
+      description: product.description,
+      images: [product.image],
+    },
+    alternates: {
+      canonical: canonicalPath,
+    },
+  }
+}
 
 export default async function ProductPage(
   props: {

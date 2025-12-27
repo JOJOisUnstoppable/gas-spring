@@ -7,6 +7,7 @@ interface PageMetadataProps {
   image?: string
   locale: string
   type?: string
+  canonical?: string
 }
 
 export function generateMetadata({
@@ -15,7 +16,8 @@ export function generateMetadata({
   keywords = [],
   image = '/images/og-image.jpg',
   locale,
-  type = 'website'
+  type = 'website',
+  canonical
 }: PageMetadataProps): Metadata {
   const baseUrl = 'https://www.dkgasspring.com'
   const baseTitle = 'DK Gas Spring Solutions'
@@ -32,7 +34,7 @@ export function generateMetadata({
     titleSegments.push(`[${locale}]`)
   }
 
-  return {
+  const metadata: Metadata = {
     title: titleSegments.join(' | '),
     description,
     keywords: keywords.join(', '),
@@ -45,4 +47,12 @@ export function generateMetadata({
       siteName: 'DK Gas Spring Solutions'
     }
   }
+
+  if (canonical) {
+    metadata.alternates = {
+      canonical: canonical
+    }
+  }
+
+  return metadata
 }

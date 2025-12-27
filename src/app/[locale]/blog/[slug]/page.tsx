@@ -17,6 +17,36 @@ import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { generateMetadata as generateSharedMetadata } from '@/components/shared/Metadata'
+import { Metadata } from 'next'
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: Locale; slug: string }>
+}): Promise<Metadata> {
+  const { locale, slug } = await params
+  const post = await getBlogPost(locale, slug)
+
+  if (!post) {
+    return {
+      title: 'Post Not Found',
+    }
+  }
+
+  // 修复 Canonical URL：如果是英语，移除 /en
+  const canonicalPath = locale === 'en' 
+    ? `/blog/${slug}` 
+    : `/${locale}/blog/${slug}`
+
+  return generateSharedMetadata({
+    title: post.title,
+    description: post.description, // Use description instead of excerpt
+    image: post.coverImage,
+    locale: locale,
+    type: 'article',
+    canonical: canonicalPath 
+  })
+}
 
 export default async function BlogPostPage(
   props0: {
@@ -265,30 +295,4 @@ export default async function BlogPostPage(
       </nav>
     </div>
   )
-}
-
-// 添加 generateMetadata 函数
-export async function generateMetadata(
-  props: { 
-    params: Promise<{ locale: Locale; slug: string }> 
-  }
-) {
-  const params = await props.params;
-
-  const {
-    locale,
-    slug
-  } = params;
-
-  const post = await getBlogPost(locale, slug)
-  if (!post) return {}
-
-  return generateSharedMetadata({
-    title: post.title,
-    description: post.description,
-    keywords: post.tags,
-    image: post.coverImage,
-    locale,
-    type: 'article'
-  })
 }
