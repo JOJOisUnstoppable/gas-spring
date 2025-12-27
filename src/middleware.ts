@@ -35,6 +35,7 @@ export function middleware(request: NextRequest) {
   // 设置x-pathname请求头，包含完整的路径信息
   const response = NextResponse.next()
   response.headers.set('x-pathname', pathname)
+  response.headers.set('X-Robots-Tag', 'index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1')
   return response
 }
 

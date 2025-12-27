@@ -1,4 +1,5 @@
 import '../globals.css'
+import 'katex/dist/katex.min.css'
 import type { Metadata } from 'next'
 // import type { Metadata, ResolvingMetadata } from 'next'
 import { headers } from 'next/headers'
@@ -39,31 +40,33 @@ export default async function LocaleLayout(
   const { categories } = await getProductData(locale)
 
   return (
-    <>
-      <Navbar 
-        locale={locale} 
-        dict={dict} 
-        categories={categories.map(cat => ({
-          id: cat.id,
-          title: cat.title,
-          description: cat.description
-        }))} 
-      />
-      <main className="min-h-screen">
-        {children}
-      </main>
-      <Footer 
-        locale={locale}
-        dict={dict}
-        categories={categories.map(cat => ({
-          id: cat.id,
-          title: cat.title,
-          description: cat.description
-        }))}
-      />
-      <Toaster />
-      <ScrollToTop />
-    </>
+    <html lang={locale}>
+      <body>
+        <Navbar 
+          locale={locale} 
+          dict={dict} 
+          categories={categories.map(cat => ({
+            id: cat.id,
+            title: cat.title,
+            description: cat.description
+          }))} 
+        />
+        <main className="min-h-screen">
+          {children}
+        </main>
+        <Footer 
+          locale={locale}
+          dict={dict}
+          categories={categories.map(cat => ({
+            id: cat.id,
+            title: cat.title,
+            description: cat.description
+          }))}
+        />
+        <Toaster />
+        <ScrollToTop />
+      </body>
+    </html>
   )
 }
 
@@ -98,9 +101,28 @@ export async function generateMetadata(
   }
   const title = titleParts.join(' | ');
 
+  // 处理 Canonical 和 Hreflang
+  let pathWithoutLocale = pathname;
+  if (pathWithoutLocale.startsWith(`/${locale}/`)) {
+    pathWithoutLocale = pathWithoutLocale.replace(`/${locale}`, '');
+  } else if (pathWithoutLocale === `/${locale}`) {
+    pathWithoutLocale = '/';
+  }
+  
+  if (!pathWithoutLocale) pathWithoutLocale = '/';
+  
+  const languages: Record<string, string> = {};
+  ['en', 'zh', 'es', 'de', 'pl'].forEach(lang => {
+    languages[lang] = `/${lang}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
+  });
+
   return {
     title,
     description: 'Professional Damper and Gas Spring Solutions for Global Manufacturing by DK',
+    alternates: {
+      canonical: `/${locale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`,
+      languages,
+    },
     keywords: [
       // Core Products
       'gas spring', 'gas strut', 'gas lift', 'damper',
