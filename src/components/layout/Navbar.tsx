@@ -53,17 +53,22 @@ export function Navbar({ locale, dict, categories }: {
   categories: { id: string; title: string; description: string }[]
 }) {
   const pathname = usePathname()
+  
+  const getHref = (path: string) => {
+    if (locale === 'en') return path
+    return path === '/' ? `/${locale}` : `/${locale}${path}`
+  }
 
   const navItems: NavItem[] = [
-    { title: dict.common.home, href: `/${locale}` },
+    { title: dict.common.home, href: getHref('/') },
     {
       title: dict.common.products,
-      href: `/${locale}/products`,
+      href: getHref('/products'),
       categories: categories
     },
-    { title: dict.common.applications, href: `/${locale}/applications` },
-    { title: dict.common.blog, href: `/${locale}/blog` },
-    { title: dict.common.contact, href: `/${locale}/contact` },
+    { title: dict.common.applications, href: getHref('/applications') },
+    { title: dict.common.blog, href: getHref('/blog') },
+    { title: dict.common.contact, href: getHref('/contact') },
   ]
 
   const renderNavLink = (item: NavItem) => {
@@ -85,7 +90,7 @@ export function Navbar({ locale, dict, categories }: {
                     <li key={category.id}>
                       <NavigationMenuLink asChild>
                         <Link
-                          href={`/${locale}/products/category/${category.id}`}
+                          href={getHref(`/products/category/${category.id}`)}
                           className="block py-2 px-3 hover:bg-accent rounded-md"
                         >
                           <div>

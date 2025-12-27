@@ -21,12 +21,30 @@ function getLocale(request: NextRequest): string {
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
+
+  // 1. 如果路径是 /en 或以 /en/ 开头，重定向到无前缀路径（规范化 URL）
+  if (pathname === `/${defaultLocale}` || pathname.startsWith(`/${defaultLocale}/`)) {
+    const newPathname = pathname.replace(`/${defaultLocale}`, '')
+    return NextResponse.redirect(
+      new URL(newPathname || '/', request.url)
+    )
+  }
+
   const pathnameIsMissingLocale = locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   )
 
   if (pathnameIsMissingLocale) {
     const locale = getLocale(request)
+    
+    // 2. 如果是默认语言，使用 Rewrite (保持 URL 不变，但在内部路由到 /en)
+    if (locale === defaultLocale) {
+      return NextResponse.rewrite(
+        new URL(`/${defaultLocale}${pathname}`, request.url)
+      )
+    }
+
+    // 3. 其他语言保持 Redirect
     return NextResponse.redirect(
       new URL(`/${locale}${pathname}`, request.url)
     )
