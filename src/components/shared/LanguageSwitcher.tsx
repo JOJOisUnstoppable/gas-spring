@@ -17,7 +17,7 @@ export default function LanguageSwitcher() {
   // 假设当前语言是 URL 的第一部分（如果不是支持的语言，则默认为 'en'）
   const segments = pathname.split('/').filter(Boolean)
   const firstSegment = segments[0]
-  const isDefaultLocale = !locales.includes(firstSegment as any)
+  const isDefaultLocale = !(locales as readonly string[]).includes(firstSegment)
   const currentLocale = isDefaultLocale ? 'en' : firstSegment
   
   const handleLocaleChange = (newLocale: string) => {
