@@ -188,33 +188,49 @@ export async function generateMetadata(
       google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
     },
     other: {
-      'application/ld+json': JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "DK Gas Spring Solutions",
-        "url": 'https://www.dkgasspring.com',
-        "logo": `https://www.dkgasspring.com/favicon.ico`,
-        "image": `https://www.dkgasspring.com/images/og-image.jpg`,
-        "description": description,
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": process.env.NEXT_PUBLIC_CONTACT_PHONE || "Will Update Soon",
-          "contactType": "customer service",
-          "areaServed": ["CN", "US", "EU", "JP", "KR", "IN", "UK", "CA", "AE", "SA", "EG", "ZA"],
-          "availableLanguage": ["en", "zh", "es", "de", "pl"]
+      'application/ld+json': JSON.stringify([
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "DK Gas Spring Solutions",
+          "url": "https://www.dkgasspring.com",
+          "logo": "https://www.dkgasspring.com/DK_Logo_withoutBG.png",
+          "image": "https://www.dkgasspring.com/images/og-image.jpg",
+          "description": description,
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": process.env.NEXT_PUBLIC_CONTACT_PHONE || "+86-123456789",
+            "contactType": "customer service",
+            "areaServed": ["CN", "US", "EU", "JP", "KR", "IN", "UK", "CA", "AE", "SA", "EG", "ZA"],
+            "availableLanguage": ["en", "zh", "es", "de", "pl"]
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "CN",
+            "addressRegion": "Zhejiang",
+            "addressLocality": "Ningbo"
+          },
+          "sameAs": [
+            "https://www.facebook.com/dkgasspring",
+            "https://twitter.com/dkgasspring",
+            "https://www.linkedin.com/company/dkgasspring"
+          ]
         },
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "CN",
-          "addressRegion": "Zhejiang",
-          "addressLocality": "Ningbo"
-        },
-        "sameAs": [
-          "https://www.facebook.com/dkgasspring",
-          "https://twitter.com/dkgasspring",
-          "https://www.linkedin.com/company/dkgasspring"
-        ]
-      })
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "DK Gas Spring Solutions",
+          "url": "https://www.dkgasspring.com",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://www.dkgasspring.com/en/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ])
     }
   };
 }
