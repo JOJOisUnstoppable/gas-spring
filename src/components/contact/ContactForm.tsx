@@ -1,6 +1,11 @@
 'use client'
 
-import { useState, useCallback } from 'react'
+/**
+ * @file ContactForm Component
+ * @description 联系我们表单组件，包含表单验证、防垃圾处理和提交逻辑
+ */
+
+import { useState, useCallback, useEffect } from 'react'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import * as z from 'zod'
@@ -106,6 +111,11 @@ export function ContactForm({ dict, lang }: { dict: ContactFormDictionary, lang:
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [showSuccess, setShowSuccess] = useState(false)
   const [lastSubmitTime, setLastSubmitTime] = useState(0)
+  const [formLoadTime, setFormLoadTime] = useState(0)
+
+  useEffect(() => {
+    setFormLoadTime(Date.now())
+  }, [])
   // const [submitCount, setSubmitCount] = useState(0)
 
   // 检查是否可以提交
@@ -199,6 +209,7 @@ export function ContactForm({ dict, lang }: { dict: ContactFormDictionary, lang:
       }, {
         message: dict.contact.form.validation.message.sensitive
       }),
+    website: z.string().optional(), // Honeypot field
   })
 
   const form = useForm<z.infer<typeof formSchema>>({
@@ -209,10 +220,26 @@ export function ContactForm({ dict, lang }: { dict: ContactFormDictionary, lang:
       company: '',
       phone: '',
       message: '',
+      website: '',
     },
   })
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
+    // 1. Honeypot check
+    if (values.website) {
+      // 默默成功，不发送请求
+      form.reset()
+      setShowSuccess(true)
+      setTimeout(() => setShowSuccess(false), 3000)
+      return
+    }
+
+    // 2. Time check (至少需要 2 秒填写表单)
+    if (Date.now() - formLoadTime < 2000) {
+      // 可能是机器人
+      return
+    }
+
     // 检查提交频率
     if (!canSubmit()) return
     
@@ -330,6 +357,20 @@ export function ContactForm({ dict, lang }: { dict: ContactFormDictionary, lang:
           aria-label="Contact Form"
           role="form"
         >
+          {/* Honeypot Field - Hidden from real users */}
+          <FormField
+            control={form.control}
+            name="website"
+            render={({ field }) => (
+              <FormItem className="absolute opacity-0 -z-10 w-0 h-0 overflow-hidden">
+                <FormLabel>Website</FormLabel>
+                <FormControl>
+                  <Input {...field} tabIndex={-1} autoComplete="off" />
+                </FormControl>
+              </FormItem>
+            )}
+          />
+
           <FormField
             control={form.control}
             name="name"
