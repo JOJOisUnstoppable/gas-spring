@@ -95,11 +95,20 @@ export async function generateMetadata(
 
   // 构建完整标题
   const baseTitle = 'DK Gas Spring Solutions';
-  const titleParts = [...titleSegments, baseTitle];
-  if (locale !== 'en') {
-    titleParts.push(`[${locale}]`);
+  let title = '';
+
+  // 首页使用更丰富的标题 (当没有路径段时)
+  if (titleSegments.length === 0) {
+    title = 'DK Gas Spring Solutions | Custom Manufacturer & Supplier';
+  } else {
+    // 内页使用标准格式：页面标题 | 品牌名
+    title = [...titleSegments, baseTitle].join(' | ');
   }
-  const title = titleParts.join(' | ');
+
+  // 非英文添加语言标识
+  if (locale !== 'en') {
+    title += ` | [${locale}]`;
+  }
 
   // 处理 Canonical 和 Hreflang
   let pathWithoutLocale = pathname;
@@ -116,9 +125,11 @@ export async function generateMetadata(
     languages[lang] = `/${lang}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
   });
 
+  const description = 'DK Machinery Enhance Equipment Performance & Reliability: Precision gas spring solutions engineered for demanding industrial environments. ISO certified, precision engineering & fast delivery for global industries. Contact DK for a quote today!';
+
   return {
     title,
-    description: 'Professional Damper and Gas Spring Solutions for Global Manufacturing by DK',
+    description,
     alternates: {
       canonical: `/${locale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`,
       languages,
@@ -142,7 +153,7 @@ export async function generateMetadata(
       'gas spring factory', 'gas strut factory',
       'gas lift factory', 'damper factory'
     ],
-    authors: [{ name: 'DK Gas Spring Solutions' }],
+    authors: [{ name: 'DK Machinery' }],
     metadataBase: new URL('https://www.dkgasspring.com'),
     icons: {
       icon: '/favicon.ico',
@@ -153,13 +164,13 @@ export async function generateMetadata(
       type: 'website',
       siteName: 'DK Gas Spring Solutions',
       title,
-      description: 'Professional Damper and Gas Spring Solutions for Global Manufacturing by DK',
+      description,
       images: '/images/og-image.jpg',
     },
     twitter: {
       card: 'summary_large_image',
       title,
-      description: 'Professional Damper and Gas Spring Solutions for Global Manufacturing by DK',
+      description,
       images: '/images/og-image.jpg',
     },
     robots: {
@@ -184,7 +195,7 @@ export async function generateMetadata(
         "url": 'https://www.dkgasspring.com',
         "logo": `https://www.dkgasspring.com/favicon.ico`,
         "image": `https://www.dkgasspring.com/images/og-image.jpg`,
-        "description": "Professional Damper and Gas Spring Solutions for Global Manufacturin by DK",
+        "description": description,
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": process.env.NEXT_PUBLIC_CONTACT_PHONE || "Will Update Soon",
