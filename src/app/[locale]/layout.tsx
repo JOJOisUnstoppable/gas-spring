@@ -129,7 +129,7 @@ export async function generateMetadata(
     }
   });
 
-  const description = 'DK Machinery Enhance Equipment Performance & Reliability: Precision gas spring solutions engineered for demanding industrial environments. ISO certified, precision engineering & fast delivery for global industries. Contact DK for a quote today!';
+  const description = 'DK Machinery enhance Equipment Performance & Reliability. Precision gas spring solutions, ISO certified & fast delivery for global demanding industrial environments.';
 
   const canonical = locale === 'en' 
     ? pathWithoutLocale 
@@ -174,12 +174,14 @@ export async function generateMetadata(
       title,
       description,
       images: '/images/og-image.jpg',
+      url: pathname,
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
       images: '/images/og-image.jpg',
+      site: '@dkgasspring',
     },
     robots: {
       index: true,

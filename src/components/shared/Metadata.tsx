@@ -44,7 +44,15 @@ export function generateMetadata({
       description,
       images: [{ url: `${baseUrl}${image}` }],
       locale,
-      siteName: 'DK Gas Spring Solutions'
+      siteName: 'DK Gas Spring Solutions',
+      url: canonical,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: titleSegments.join(' | '),
+      description,
+      images: [{ url: `${baseUrl}${image}` }],
+      site: '@dkgasspring',
     }
   }
 

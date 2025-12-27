@@ -21,6 +21,8 @@ function getLocale(request: NextRequest): string {
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
+  const requestHeaders = new Headers(request.headers)
+  requestHeaders.set('x-pathname', pathname)
 
   // 1. 如果路径是 /en 或以 /en/ 开头，重定向到无前缀路径（规范化 URL）
   if (pathname === `/${defaultLocale}` || pathname.startsWith(`/${defaultLocale}/`)) {
@@ -39,9 +41,16 @@ export function middleware(request: NextRequest) {
     
     // 2. 如果是默认语言，使用 Rewrite (保持 URL 不变，但在内部路由到 /en)
     if (locale === defaultLocale) {
-      return NextResponse.rewrite(
-        new URL(`/${defaultLocale}${pathname}`, request.url)
+      const response = NextResponse.rewrite(
+        new URL(`/${defaultLocale}${pathname}`, request.url),
+        {
+          request: {
+            headers: requestHeaders,
+          },
+        }
       )
+      response.headers.set('X-Robots-Tag', 'index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1')
+      return response
     }
 
     // 3. 其他语言保持 Redirect
@@ -51,8 +60,12 @@ export function middleware(request: NextRequest) {
   }
 
   // 设置x-pathname请求头，包含完整的路径信息
-  const response = NextResponse.next()
-  response.headers.set('x-pathname', pathname)
+  const response = NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  })
+  response.headers.set('x-pathname', pathname) // Keep response header just in case client needs it? Or maybe previous code intended this.
   response.headers.set('X-Robots-Tag', 'index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1')
   return response
 }

@@ -37,6 +37,14 @@ export async function generateMetadata({
       title: product.title,
       description: product.description,
       images: [product.image],
+      url: canonicalPath,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: product.title,
+      description: product.description,
+      images: [product.image],
+      site: '@dkgasspring',
     },
     alternates: {
       canonical: canonicalPath,
