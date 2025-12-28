@@ -14,10 +14,35 @@ export default function LanguageSwitcher() {
   const pathname = usePathname()
   const router = useRouter()
 
-  const currentLocale = pathname.split('/')[1]
+  // 假设当前语言是 URL 的第一部分（如果不是支持的语言，则默认为 'en'）
+  const segments = pathname.split('/').filter(Boolean)
+  const firstSegment = segments[0]
+  const isDefaultLocale = !(locales as readonly string[]).includes(firstSegment)
+  const currentLocale = isDefaultLocale ? 'en' : firstSegment
   
   const handleLocaleChange = (newLocale: string) => {
-    const newPath = pathname.replace(`/${currentLocale}`, `/${newLocale}`)
+    let newPath = ''
+    
+    if (isDefaultLocale) {
+      // 当前是默认语言（无前缀），添加新语言前缀（如果新语言不是 'en'）
+      if (newLocale === 'en') {
+        newPath = pathname // 已经是英语，无需跳转
+      } else {
+        newPath = `/${newLocale}${pathname === '/' ? '' : pathname}`
+      }
+    } else {
+      // 当前有语言前缀
+      if (newLocale === 'en') {
+        // 切换到英语：移除前缀
+        // 例如 /zh/products -> /products
+        const pathWithoutLocale = pathname.replace(`/${currentLocale}`, '') || '/'
+        newPath = pathWithoutLocale
+      } else {
+        // 切换到其他语言：替换前缀
+        newPath = pathname.replace(`/${currentLocale}`, `/${newLocale}`)
+      }
+    }
+
     router.push(newPath)
   }
 

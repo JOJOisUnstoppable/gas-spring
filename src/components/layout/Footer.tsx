@@ -31,6 +31,11 @@ interface FooterProps {
 }
 
 export function Footer({ locale, dict, categories }: FooterProps) {
+    const getHref = (path: string) => {
+        if (locale === 'en') return path
+        return path === '/' ? `/${locale}` : `/${locale}${path}`
+    }
+
     return (
         <footer className="bg-background border-t">
             <div className="container max-w-7xl mx-auto py-8 px-4 sm:px-6">
@@ -43,7 +48,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                             {categories.map(category => (
                                 <li key={category.id}>
                                     <Link
-                                        href={`/${locale}/products/category/${category.id}`}
+                                        href={getHref(`/products/category/${category.id}`)}
                                         className="text-sm text-muted-foreground hover:text-foreground transition-colors block py-1"
                                     >
                                         {category.title}
@@ -59,7 +64,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                         <ul className="space-y-3">
                             <li>
                                 <Link
-                                    href={`/${locale}/applications`}
+                                    href={getHref('/applications')}
                                     className="text-sm text-muted-foreground hover:text-foreground transition-colors block py-1"
                                 >
                                     {dict.common.applications}
@@ -67,7 +72,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                             </li>
                             <li>
                                 <Link
-                                    href={`/${locale}/blog`}
+                                    href={getHref('/blog')}
                                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                                 >
                                     {dict.common.blog}
@@ -75,7 +80,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                             </li>
                             <li>
                                 <Link
-                                    href={`/${locale}/contact`}
+                                    href={getHref('/contact')}
                                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                                 >
                                     {dict.common.contact}
@@ -90,7 +95,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                         <ul className="space-y-3">
                             <li>
                                 <Link
-                                    href={`/${locale}/terms`}
+                                    href={getHref('/terms')}
                                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                                 >
                                     {dict.footer.terms}
@@ -98,7 +103,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                             </li>
                             <li>
                                 <Link
-                                    href={`/${locale}/privacy`}
+                                    href={getHref('/privacy')}
                                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                                 >
                                     {dict.footer.privacy}
@@ -109,7 +114,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
 
                     {/* Logo 和公司简介 */}
                     <div className="space-y-4 text-center sm:text-left">
-                        <Link href={`/${locale}`}>
+                        <Link href={getHref('/')}>
                             <Image
                                 src="/DK_Logo_withoutBG.png"
                                 alt="DK Gas Spring Solutions"
