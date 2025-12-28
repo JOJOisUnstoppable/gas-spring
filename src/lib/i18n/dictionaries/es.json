@@ -174,6 +174,190 @@
     "description": "Un acuerdo completo que abarca los Términos de Servicio, atribución de responsabilidad, privacidad de datos, políticas de productos (pedido/entrega/devoluciones/garantía), descargo de responsabilidad y ley aplicable."
   },
   "products": {
+    "tension-gas-spring": {
+      "CTA": {
+        "title": "¿Listo para encontrar su resorte de gas de tracción perfecto?",
+        "desc": [
+          "Nuestro equipo técnico está listo para ayudar con la selección, la personalización y la entrega rápida.",
+          "Contáctenos hoy para una cotización detallada o una consulta técnica."
+        ]
+      },
+      "hero": {
+        "title": "Resorte de gas de tracción",
+        "subtitle": "Resorte de tracción / acción inversa – Soluciones industriales profesionales",
+        "buttons": {
+          "getSpecs": "Ver especificaciones técnicas",
+          "requestQuote": "Solicitar cotización"
+        },
+        "imageAlt": "Resorte de gas de tracción"
+      },
+      "definition": {
+        "title": "1. Definición del producto",
+        "keyCharacteristics": {
+          "title": "Características clave",
+          "items": [
+            { "label": "Nombre del producto", "value": "Resorte de gas de tracción / Resorte de tracción / Resorte de acción inversa" },
+            { "label": "Estado libre", "value": "La varilla del pistón se encuentra en posición «retraída»" },
+            { "label": "Característica de funcionamiento", "value": "Se extiende al tirar, se retrae automáticamente al soltar" }
+          ]
+        },
+        "mainFunction": {
+          "title": "Función principal",
+          "desc": "Permite que tapas/compuertas que «deben bajarse y retraerse» se cierren automáticamente, proporcionando una velocidad de retracción controlada. Aplicaciones típicas:",
+          "scenarios": [
+            "Retracción automática de capós y compuertas",
+            "Asistencia para elevación de equipos médicos",
+            "Retracción automática de barreras",
+            "Control de cubiertas en equipos industriales"
+          ]
+        }
+      },
+      "classification": {
+        "title": "2. Clasificación estructural y diferencias de rendimiento",
+        "table": {
+          "headers": ["Tipo", "Tubo simple", "Doble tubo"],
+          "rows": [
+            { "label": "Velocidad de rebote", "single": "Rápida", "double": "Más lenta, más estable" },
+            { "label": "Tasa de progresión de fuerza", "single": "Alta (100 N → 170–180 N)", "double": "Baja (100 N → ~150 N)" },
+            { "label": "Ventaja de longitud cerrada", "single": "Más corta (L ≥ 2S + 45)", "double": "Más larga (L ≥ 2S + 70)" },
+            { "label": "Aplicabilidad", "single": "Espacios reducidos, progresión de fuerza aceptable", "double": "Fuerza estable, altos requisitos de guía/seguridad" }
+          ]
+        },
+        "cards": {
+          "singleTube": {
+            "title": "Estructura de tubo simple",
+            "items": [
+              "Diseño simple, menor costo",
+              "Longitud cerrada más corta",
+              "Velocidad de rebote rápida",
+              "Progresión de fuerza notable",
+              "Preferido para espacios reducidos"
+            ]
+          },
+          "doubleTube": {
+            "title": "Estructura de doble tubo",
+            "items": [
+              "Curva de fuerza estable",
+              "Velocidad de rebote controlable",
+              "Buena guía de seguridad",
+              "Costo ~30% mayor",
+              "Preferido para altas exigencias de seguridad"
+            ]
+          }
+        }
+      },
+      "parameters": {
+        "title": "3. Rango de parámetros clave",
+        "cards": {
+          "force": {
+            "title": "Rango de fuerza",
+            "value": "100–1.500 N",
+            "note": "Stock común: 150 / 250 / 350 N"
+          },
+          "stroke": {
+            "title": "Rango de carrera",
+            "value": "100–300 mm",
+            "note": "Disponible en incrementos de 25 mm"
+          },
+          "closedLength": {
+            "title": "Longitud cerrada",
+            "value": "200–450 mm",
+            "note": "Limitada por fórmula"
+          },
+          "moq": {
+            "title": "Cantidad mínima de pedido",
+            "value": "200 unidades",
+            "note": "Volumen anual típico: 500–5.000 unidades"
+          }
+        },
+        "endFitting": {
+          "title": "Configuración de terminales",
+          "items": [
+            "Extremos roscados: rosca M8 o M10 simple/doble",
+            "Extremos de rótula: rótula Ø10 mm",
+            "Accesorios de seguridad: debe incluir «pasador anti-desprendimiento» o cable de seguridad"
+          ]
+        }
+      },
+      "principle": {
+        "title": "4. Principio de funcionamiento – Dos modos de operación",
+        "labels": {
+          "operationFlow": "Flujo de operación",
+          "applicableScenarios": "Escenarios aplicables:"
+        },
+        "modeA": {
+          "title": "Modo A: Resorte de tracción (con fuerza de tracción)",
+          "flow": [
+            "Apertura: La gravedad de la cubierta supera la fuerza inicial de tracción, la varilla se extrae → la cubierta desciende",
+            "Cierre: El resorte de gas se retrae automáticamente, asistiendo el retorno de la cubierta"
+          ],
+          "scenario": "Cuando el descenso natural de la cubierta es suficiente para tirar del resorte"
+        },
+        "modeB": {
+          "title": "Modo B: Amortiguador puro (solo amortiguación, sin fuerza de tracción)",
+          "flow": [
+            "Apertura: Empuje manual durante todo el recorrido, sin asistencia",
+            "Cierre: Proporciona amortiguación unidireccional, permitiendo un descenso lento"
+          ],
+          "scenario": "Cubiertas ligeras o escenarios críticos de seguridad que requieren «sin asistencia + descenso lento»"
+        },
+        "illustration": {
+          "title": "Ilustración del principio de trabajo",
+          "points": [
+            "Principio básico: El nitrógeno a alta presión dentro del cilindro sellado genera un empuje inverso cuando se tira de la varilla. Al liberar la fuerza externa, la presión del gas empuja la varilla para retraerse, logrando el cierre automático.",
+            "Ventaja clave: En comparación con los resortes tradicionales, los resortes de gas ofrecen una curva de fuerza más estable y mayor vida útil (normalmente 100.000+ ciclos)."
+          ]
+        }
+      },
+      "formula": {
+        "title": "5. Fórmula de selección rápida",
+        "closedLength": {
+          "title": "Cálculo de longitud cerrada",
+          "lines": [
+            "Tubo simple: L ≥ 2S + 45",
+            "Doble tubo: L ≥ 2S + 70",
+            "Donde: L = Longitud cerrada (mm) | S = Carrera de trabajo (mm)"
+          ]
+        },
+        "selection": {
+          "title": "Pasos de selección",
+          "steps": [
+            "Determinar la carrera S: según el rango de apertura requerido de la cubierta/compuerta",
+            "Seleccionar tipo de estructura: tubo simple o doble según espacio y estabilidad de fuerza",
+            "Calcular longitud cerrada: usar la fórmula anterior para la longitud mínima",
+            "Determinar fuerza: elegir según el peso de la cubierta y la resistencia al tirón",
+            "Confirmar terminales: roscado o rótula, y configurar pasador anti-desprendimiento"
+          ]
+        },
+        "tipLabel": "💡 Consejo:",
+        "tip": "Si hay dudas, recomendamos iniciar con stock común (150 N / 200 mm de carrera / tubo simple) para verificación rápida de muestras."
+      },
+      "faq": {
+        "title": "6. Preguntas frecuentes de clientes",
+        "items": [
+          {
+            "q": "① ¿Se puede reducir la fuerza inicial de tracción por debajo de 80 N?",
+            "a": "Respuesta: Se puede reducir hasta 60 N, pero requiere disminuir la presión de nitrógeno, lo que reduce la vida útil en un 20 %. Recomendamos comenzar en 100 N. Una presión inicial demasiado baja aumenta el coeficiente de expansión del gas y afecta la estabilidad a largo plazo."
+          },
+          {
+            "q": "② La progresión de fuerza en el tubo simple es demasiado alta, ¿se puede mejorar?",
+            "a": "Respuesta: Cambie a estructura de doble tubo para una curva de fuerza más plana, con un costo aproximadamente 30 % mayor. El doble tubo reduce la tasa de progresión de 100 N → 170–180 N a 100 N → ~150 N mediante desvío de la amortiguación."
+          },
+          {
+            "q": "③ ¿Cuál es el tiempo de entrega más rápido?",
+            "a": "Respuesta: En stock blanco tubo simple 150/250 N, carrera 150/200 mm (500 unidades), envío en 72 horas; artículos no estándar 10 días. Mantenemos inventario en especificaciones comunes para respuesta rápida."
+          },
+          {
+            "q": "④ Certificaciones y exportación?",
+            "a": "Respuesta: Certificaciones estándar incluyen RoHS y prueba de niebla salina 48 h; grado militar requiere MIL-STD-810G de vibración (+7 días). Cumple con la directiva EU RoHS y puede exportarse a mercados europeos y estadounidenses."
+          },
+          {
+            "q": "⑤ Quiero ocultar el pasador anti-desprendimiento en el terminal",
+            "a": "Respuesta: Ofrecemos solución «rosca interna + cable de seguridad», manteniendo la apariencia externa de una rótula estándar; garantiza seguridad y mejor estética."
+          }
+        ]
+      }
+    },
     "gas-spring": {
       "productSeries": {
         "title": "Series de Productos"
@@ -319,6 +503,188 @@
         "desc": [
           "Apoyamos a empresas reconocidas en el desarrollo de nuevos productos  ",
           "¡contáctenos!"
+        ]
+      }
+    },
+    "lockable-gas-spring": {
+      "CTA": {
+        "title": "¿Listo para encontrar su resorte de gas bloqueable ideal?",
+        "desc": [
+          "Nuestro equipo técnico le ayuda con selección, personalización y entrega rápida.",
+          "Contáctenos hoy para una cotización detallada o consulta técnica."
+        ]
+      },
+      "hero": {
+        "title": "Resorte de gas bloqueable",
+        "subtitle": "Bloqueo rígido o rebote elástico suave — posicionamiento preciso y confiable",
+        "buttons": {
+          "getSpecs": "Ver especificaciones técnicas",
+          "requestQuote": "Solicitar cotización"
+        },
+        "imageAlt": "Sección transversal de resorte de gas con bloqueo rígido"
+      },
+      "why": {
+        "title": "¿Por qué resortes de gas bloqueables?",
+        "subtitle": "Más que soporte: posicionamiento preciso con confianza",
+        "cards": {
+          "zero": {
+            "title": "Bloqueo sin desplazamiento",
+            "desc": "El bloqueo rígido ofrece soporte totalmente estable sin movimiento, asegurando retención de posición precisa."
+          },
+          "flexible": {
+            "title": "Soluciones flexibles",
+            "desc": "El bloqueo elástico ofrece amortiguación de rebote suave, ideal para posicionamiento delicado."
+          },
+          "highLoad": {
+            "title": "Alta capacidad de carga lateral",
+            "desc": "Plataforma de fuerza de bloqueo confiable, soporta ≥ 2.000 N."
+          }
+        }
+      },
+      "technology": {
+        "title": "Rígido vs elástico: la diferencia clave",
+        "imagesAlt": {
+          "rigid": "Mecanismo de bloqueo rígido",
+          "elastic": "Mecanismo de bloqueo elástico"
+        },
+        "rigid": {
+          "title": "Bloqueo rígido",
+          "points": [
+            "Sin desplazamiento — soporte completamente rígido",
+            "Doble cámara — separación aceite-gas con pistón flotante",
+            "Alta fuerza de bloqueo — capacidad lateral ≥ 2.000 N",
+            "Ideal para — mesas de operación, utillajes, compartimentos superiores de avión"
+          ]
+        },
+        "elastic": {
+          "title": "Bloqueo elástico",
+          "points": [
+            "Rebote suave — permite ≤ 5 mm de desplazamiento elástico",
+            "Cámara única — mezcla de N₂ + aceite lubricante",
+            "Efecto de amortiguación — posicionamiento suave con amortiguación",
+            "Ideal para — sillas de ruedas, camas hospitalarias, mobiliario de oficina"
+          ]
+        }
+      },
+      "comparison": {
+        "headers": ["Característica", "Bloqueo rígido", "Bloqueo elástico"],
+        "rows": [
+          { "label": "Estructura interna", "rigid": "Separación aceite-gas, doble cámara", "elastic": "Mezcla aceite-gas, cámara única" },
+          { "label": "Medio de bloqueo", "rigid": "Aceite hidráulico (sellado)", "elastic": "N₂ + aceite lubricante" },
+          { "label": "Desempeño bloqueado", "rigid": "Sin desplazamiento", "elastic": "≤ 5 mm de desplazamiento elástico" },
+          { "label": "Fuerza de bloqueo", "rigid": "Alta (≥ 2.000 N)", "elastic": "Moderada con amortiguación" },
+          { "label": "Relación de compresión", "rigid": "Alta", "elastic": "Baja" },
+          { "label": "Rango de fuerza", "rigid": "200–1.200 N", "elastic": "200–1.200 N" },
+          { "label": "Rango de carrera", "rigid": "50–300 mm", "elastic": "50–500 mm (personalizable)" }
+        ]
+      },
+      "applications": {
+        "title": "Aplicaciones reales",
+        "imageAlt": "Aplicaciones del resorte de gas bloqueable",
+        "medical": {
+          "title": "Médico",
+          "items": ["Respaldos de sillas de ruedas", "Ajuste de altura de camas hospitalarias", "Posicionamiento de mesas de operación"]
+        },
+        "furnitureOffice": {
+          "title": "Mobiliario y oficina",
+          "items": ["Ajuste de altura de asientos", "Posicionamiento de bandejas de teclado", "Elevación de soportes de exhibición"]
+        },
+        "industrial": {
+          "title": "Industrial",
+          "items": ["Utillajes", "Posicionamiento de equipos", "Ajuste de estaciones de trabajo"]
+        },
+        "aviation": {
+          "title": "Aviación",
+          "items": ["Compartimentos superiores de avión", "Control de puertas de carga", "Soporte de equipos de cabina"]
+        }
+      },
+      "forcePerformance": {
+        "title": "Desempeño de fuerza de bloqueo",
+        "desc": "La curva de fuerza de bloqueo muestra la meseta de estabilidad: cuanto más alta y plana, más confiable es el desempeño de bloqueo.",
+        "imageAlt": "Curvas de fuerza de bloqueo",
+        "rigid": [
+          "• Meseta larga y estable",
+          "• Relación teórica de resorte: 1,28–1,44",
+          "• Retención de carga superior",
+          "• Ideal para aplicaciones de alta rigidez"
+        ],
+        "elastic": [
+          "• Curva de fuerza gradual con amortiguación",
+          "• Respuesta de carga más suave",
+          "• Mejor para aplicaciones enfocadas en confort",
+          "• Posicionamiento suave con amortiguación"
+        ],
+        "safetyLabel": "Principio de selección segura",
+        "safetyText": "Asegure siempre: Fuerza de meseta ≥ carga lateral máxima del cliente × 1,5 factor de seguridad"
+      },
+      "selectionGuide": {
+        "title": "Guía rápida de selección",
+        "formulas": {
+          "rigid": {
+            "desc": "<strong>Bloqueo rígido:</strong> S = carrera de trabajo, L = longitud extendida (mm)",
+            "lines": ["Lmin = 2,4·S + 53 mm", "Smax = L / 2,4 – 22 mm"]
+          },
+          "elastic": {
+            "desc": "<strong>Bloqueo elástico:</strong> S = carrera de trabajo, L = longitud extendida (mm)",
+            "lines": ["Lmin = 2·S + 53 mm", "Smax = L / 2 – 26,5 mm"]
+          }
+        },
+        "keyParameters": {
+          "force": { "label": "Rango de fuerza", "value": "200–1.200 N" },
+          "stroke": { "label": "Rango de carrera", "value": "50–300 mm (hasta 500 mm)" },
+          "release": { "label": "Mecanismo de liberación", "value": "≤ Ø8 mm pasador lateral o botón superior" },
+          "series": { "label": "Series estándar", "value": "KQ10-22, KQ10-26, KQ10-28" },
+          "life": { "label": "Vida útil de ciclos", "value": "10.000+ ciclos sin fugas" },
+          "retention": { "label": "Retención de presión", "value": "≤ 5 % de caída en 24 horas" }
+        }
+      },
+      "manufacturing": {
+        "title": "Proceso de fabricación de precisión",
+        "desc": "Cada resorte de gas bloqueable pasa por un riguroso control de calidad con pasos especializados de ensamblaje de precisión.",
+        "imageAlt": "Flujo del proceso de fabricación",
+        "cards": {
+          "difference": {
+            "title": "Diferencia clave",
+            "desc": "Comparado con resortes de gas estándar, las versiones bloqueables incluyen un paso crítico de ensamblaje de precisión para el pistón flotante, la válvula de aguja y el mecanismo de bloqueo de bola de acero."
+          },
+          "qa": {
+            "title": "Garantía de calidad",
+            "desc": "Pruebas de característica de fuerza, verificación de retención de presión y ensayos de fugas con 10.000 ciclos aseguran confiabilidad y desempeño a largo plazo."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Resolvemos sus desafíos",
+        "items": [
+          {
+            "title": "Plazos de entrega largos",
+            "desc": "Reducimos la entrega de 8–12 semanas a 2–4 semanas como reemplazo directo de productos Stabilus, Suspa y Hahn."
+          },
+          {
+            "title": "Micro movimiento después del bloqueo",
+            "desc": "Cambie a nuestra serie rígida (KQ10-28 Rigid) para desempeño sin desplazamiento."
+          },
+          {
+            "title": "Desajuste del mecanismo de liberación",
+            "desc": "Personalización completa de pasadores laterales ≤ Ø8 mm o botones superiores para ajustarse a su estructura existente."
+          },
+          {
+            "title": "Faltan planos técnicos",
+            "desc": "Proveemos medición de muestra + CAD + PDF 3D en 48 horas."
+          },
+          {
+            "title": "Certificaciones incompletas",
+            "desc": "Entregamos TS16949, ISO9001, RoHS, prueba de niebla salina de 96 h y reportes SGS en un solo paquete."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "items": [
+          { "q": "¿Cuál es la principal diferencia entre bloqueo rígido y elástico?" },
+          { "q": "¿Cómo calculo la longitud extendida requerida?" },
+          { "q": "¿Qué factor de seguridad debo usar?" },
+          { "q": "¿Pueden personalizar el mecanismo de liberación?" }
         ]
       }
     },

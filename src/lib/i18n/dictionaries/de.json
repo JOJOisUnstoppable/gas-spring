@@ -174,6 +174,372 @@
     "description": "Eine vollständige Vereinbarung, die Nutzungsbedingungen, Haftungszuordnung, Datenschutz, Produktrichtlinien (Bestellung/Lieferung/Rückgabe/Garantie), Haftungsausschluss sowie das anwendbare Recht abdeckt."
   },
   "products": {
+    "tension-gas-spring": {
+      "CTA": {
+        "title": "Bereit, Ihre perfekte Zug-Gasfeder zu finden?",
+        "desc": [
+          "Unser Technikteam unterstützt Sie bei Auswahl, Anpassung und schneller Lieferung.",
+          "Kontaktieren Sie uns noch heute für ein detailliertes Angebot oder eine technische Beratung."
+        ]
+      },
+      "hero": {
+        "title": "Zug-Gasfeder",
+        "subtitle": "Zug-Gasfeder / Umkehr-Gasfeder – Professionelle Industrie-Lösungen",
+        "buttons": {
+          "getSpecs": "Technische Daten",
+          "requestQuote": "Angebot anfordern"
+        },
+        "imageAlt": "Zug-Gasfeder"
+      },
+      "definition": {
+        "title": "1. Produktdefinition",
+        "keyCharacteristics": {
+          "title": "Wesentliche Merkmale",
+          "items": [
+            { "label": "Produktname", "value": "Zug-Gasfeder / Zugfeder / Umkehr-Gasfeder" },
+            { "label": "Freier Zustand", "value": "Die Kolbenstange befindet sich in der „eingefahrenen“ Position" },
+            { "label": "Arbeitscharakteristik", "value": "Bei Zug fährt die Stange aus, bei Entlastung automatisch wieder ein" }
+          ]
+        },
+        "mainFunction": {
+          "title": "Hauptfunktion",
+          "desc": "Ermöglicht, dass Abdeckungen/Hauben, die „heruntergezogen und eingefahren“ werden müssen, automatisch schließen und eine kontrollierte Einfahrgeschwindigkeit bieten. Typische Anwendungen:",
+          "scenarios": [
+            "Automatisches Einfahren von Hauben und Klappen",
+            "Unterstützung beim Anheben medizinischer Geräte",
+            "Automatisches Zurückziehen von Barrieren",
+            "Steuerung von Abdeckungen an Industrieanlagen"
+          ]
+        }
+      },
+      "classification": {
+        "title": "2. Strukturklassifizierung und Leistungsunterschiede",
+        "table": {
+          "headers": ["Typ", "Einrohr", "Doppelrohr"],
+          "rows": [
+            { "label": "Rücklaufgeschwindigkeit", "single": "Schnell", "double": "Langsamer, stabiler" },
+            { "label": "Kraftanstiegsrate", "single": "Hoch (100 N → 170–180 N)", "double": "Niedrig (100 N → ~150 N)" },
+            { "label": "Vorteil geschlossene Länge", "single": "Kürzer (L ≥ 2S + 45)", "double": "Länger (L ≥ 2S + 70)" },
+            { "label": "Eignung", "single": "Enge Einbauräume, akzeptabler Kraftanstieg", "double": "Stabile Kraft, hohe Anforderungen an Führung/Sicherheit" }
+          ]
+        },
+        "cards": {
+          "singleTube": {
+            "title": "Einrohrstruktur",
+            "items": [
+              "Einfaches Design, geringere Kosten",
+              "Kürzere geschlossene Länge",
+              "Schnelle Rücklaufgeschwindigkeit",
+              "Deutlich spürbarer Kraftanstieg",
+              "Bevorzugt für beengte Einbausituationen"
+            ]
+          },
+          "doubleTube": {
+            "title": "Doppelrohrstruktur",
+            "items": [
+              "Stabile Kraftkurve",
+              "Kontrollierbare Rücklaufgeschwindigkeit",
+              "Gute Führungssicherheit",
+              "Etwa 30 % höhere Kosten",
+              "Bevorzugt bei hohen Sicherheitsanforderungen"
+            ]
+          }
+        }
+      },
+      "parameters": {
+        "title": "3. Kernparameterbereich",
+        "cards": {
+          "force": {
+            "title": "Kraftbereich",
+            "value": "100–1.500 N",
+            "note": "Lagerware: 150 / 250 / 350 N"
+          },
+          "stroke": {
+            "title": "Hubbereich",
+            "value": "100–300 mm",
+            "note": "In 25-mm-Schritten verfügbar"
+          },
+          "closedLength": {
+            "title": "Geschlossene Länge",
+            "value": "200–450 mm",
+            "note": "Durch Formel begrenzt"
+          },
+          "moq": {
+            "title": "Mindestbestellmenge",
+            "value": "200 Stück",
+            "note": "Typischer Jahresbedarf: 500–5.000 Stück"
+          }
+        },
+        "endFitting": {
+          "title": "Endbeschläge",
+          "items": [
+            "Gewindeenden: Einfach/Doppelt M8 oder M10",
+            "Kugelgelenkenden: Ø10 mm Kugelgelenk",
+            "Sicherheitszubehör: Mit „Abreißsicherung“ oder Sicherheitsdraht ausstatten"
+          ]
+        }
+      },
+      "principle": {
+        "title": "4. Arbeitsprinzip – Zwei Betriebsarten",
+        "labels": {
+          "operationFlow": "Ablauf",
+          "applicableScenarios": "Anwendungsfälle:"
+        },
+        "modeA": {
+          "title": "Modus A: Zug-Gasfeder (mit Zugkraft)",
+          "flow": [
+            "Öffnen: Die Schwerkraft der Abdeckung überwindet die Anfangszugkraft, die Stange fährt aus → Abdeckung senkt sich",
+            "Schließen: Gasfeder fährt automatisch ein und unterstützt das Zurückziehen der Abdeckung"
+          ],
+          "scenario": "Wenn der natürliche Abwärtsweg der Abdeckung ausreicht, um die Feder zu ziehen"
+        },
+        "modeB": {
+          "title": "Modus B: Reiner Dämpfer (nur Dämpfung, keine Zugkraft)",
+          "flow": [
+            "Öffnen: Manuelles Drücken über den gesamten Weg, keine Unterstützung",
+            "Schließen: Bietet nur einseitige Dämpfung, Abdeckung senkt sich langsam"
+          ],
+          "scenario": "Leichte Abdeckungen oder sicherheitskritische Szenarien, die „keine Unterstützung + langsames Absenken“ erfordern"
+        },
+        "illustration": {
+          "title": "Funktionsillustration",
+          "points": [
+            "Grundprinzip: Hochdruck-Stickstoff im abgedichteten Zylinder erzeugt bei Zug einen Gegenschub. Nach Freigabe der äußeren Kraft drückt der Gasdruck die Kolbenstange zum Einfahren, wodurch das automatische Schließen erreicht wird.",
+            "Schlüsselvorteil: Gegenüber konventionellen Federn bietet die Gasfeder eine stabilere Kraftkurve und längere Lebensdauer (typisch über 100.000 Zyklen)."
+          ]
+        }
+      },
+      "formula": {
+        "title": "5. Schnellauswahlformel",
+        "closedLength": {
+          "title": "Berechnung der geschlossenen Länge",
+          "lines": [
+            "Einrohr: L ≥ 2S + 45",
+            "Doppelrohr: L ≥ 2S + 70",
+            "Definition: L = Geschlossene Länge (mm) | S = Arbeitsweg (mm)"
+          ]
+        },
+        "selection": {
+          "title": "Auswahlschritte",
+          "steps": [
+            "Arbeitsweg S bestimmen: basierend auf dem erforderlichen Öffnungsbereich der Abdeckung",
+            "Strukturtyp wählen: Einrohr oder Doppelrohr je nach Platz und Kraftstabilität",
+            "Geschlossene Länge berechnen: Mindestlänge mit obiger Formel bestimmen",
+            "Kraft festlegen: passende Kraft gemäß Deckelgewicht und Zugwiderstand wählen",
+            "Endbeschläge bestätigen: Gewinde oder Kugelgelenk wählen und Abreißsicherung konfigurieren"
+          ]
+        },
+        "tipLabel": "💡 Auswahlhinweis:",
+        "tip": "Bei Unsicherheit empfehlen wir Lager-Spezifikationen (150 N / 200 mm Hub / Einrohr) für schnelle Musterverifizierung."
+      },
+      "faq": {
+        "title": "6. Häufige Kundenfragen",
+        "items": [
+          {
+            "q": "① Kann die Anfangszugkraft unter 80 N reduziert werden?",
+            "a": "Antwort: Sie kann auf 60 N reduziert werden, erfordert jedoch eine Reduzierung des Stickstoffdrucks, wodurch die Lebensdauer um 20 % sinkt. Wir empfehlen 100 N zu Beginn. Eine zu niedrige Anfangsfüllung erhöht den Gasexpansionskoeffizienten und beeinträchtigt die Langzeitstabilität."
+          },
+          {
+            "q": "② Die Kraftprogression beim Einrohr ist zu hoch – kann sie verbessert werden?",
+            "a": "Antwort: Wechseln Sie zur Doppelrohr-Struktur für eine flachere Kraftkurve, bei ca. 30 % höheren Kosten. Das Doppelrohr reduziert die Kraftanstiegsrate von 100 N → 170–180 N auf 100 N → ~150 N durch Umleitung der Dämpfung."
+          },
+          {
+            "q": "③ Wie kurz ist die schnellste Lieferzeit?",
+            "a": "Antwort: Konventionelle 150/250 N, 150/200 mm Hub Einrohr-Rohlinge sind auf Lager (500 Stück), Versand innerhalb von 72 Stunden; Nicht-Standard-Artikel: 10 Tage. Wir halten gängige Spezifikationen auf Lager für schnelle Reaktionen."
+          },
+          {
+            "q": "④ Zertifizierungen und Export?",
+            "a": "Antwort: Standardzertifizierungen umfassen RoHS und 48 h Salzsprühtest; Militärprodukte benötigen zusätzliche MIL-STD-810G Vibrationstests (+7 Tage). Alle Produkte entsprechen der EU-RoHS-Richtlinie und können direkt in EU/US exportiert werden."
+          },
+          {
+            "q": "⑤ Ich möchte den Abreißsicherungsstift am Endbeschlag verbergen?",
+            "a": "Antwort: Wir bieten eine Lösung „Innengewinde + Sicherheitsdraht“, die das äußere Erscheinungsbild eines Standard-Kugelgelenks beibehält – sicher und optisch ansprechend."
+          }
+        ]
+      }
+    },
+    "lockable-gas-spring": {
+      "CTA": {
+        "title": "Bereit, Ihre perfekte verriegelbare Gasfeder zu finden?",
+        "desc": [
+          "Unser Technikteam unterstützt Sie bei Auswahl, Anpassung und schneller Lieferung.",
+          "Kontaktieren Sie uns noch heute für ein detailliertes Angebot oder eine technische Beratung."
+        ]
+      },
+      "hero": {
+        "title": "Verriegelbare Gasfeder",
+        "subtitle": "Starre Verriegelung oder elastischer Soft-Rebound – präzise Positionierung, auf die Sie sich verlassen können",
+        "buttons": {
+          "getSpecs": "Technische Daten",
+          "requestQuote": "Angebot anfordern"
+        },
+        "imageAlt": "Querschnitt der starr verriegelten Gasfeder"
+      },
+      "why": {
+        "title": "Warum verriegelbare Gasfedern?",
+        "subtitle": "Mehr als nur Unterstützung – präzise Positionierung mit Vertrauen",
+        "cards": {
+          "zero": {
+            "title": "Null-Verlagerung beim Verriegeln",
+            "desc": "Starre Verriegelung bietet vollkommen stabile Unterstützung ohne jegliche Bewegung – für exakten Positionshalt."
+          },
+          "flexible": {
+            "title": "Flexible Lösungen",
+            "desc": "Elastische Verriegelung liefert sanfte Rückfederung und Dämpfung für Anwendungen mit weicher Positionierung."
+          },
+          "highLoad": {
+            "title": "Hohe Querlastkapazität",
+            "desc": "Zuverlässige Plattformkraft, Querlasten ≥ 2.000 N."
+          }
+        }
+      },
+      "technology": {
+        "title": "Starr vs. elastisch: Der Kerunterschied",
+        "imagesAlt": {
+          "rigid": "Mechanismus der starren Verriegelung",
+          "elastic": "Mechanismus der elastischen Verriegelung"
+        },
+        "rigid": {
+          "title": "Starre Verriegelung",
+          "points": [
+            "Null-Verlagerung – vollständig starre Unterstützung",
+            "Zweikammer – Öl-Gas-Trennung mit Schwimmkolben",
+            "Hohe Verriegelungskraft – Querbelastung ≥ 2.000 N",
+            "Am besten für – Operationstische, Vorrichtungen, Flugzeug-Ablagefächer"
+          ]
+        },
+        "elastic": {
+          "title": "Elastische Verriegelung",
+          "points": [
+            "Weicher Rückprall – erlaubt ≤ 5 mm elastische Verlagerung",
+            "Einkammer – N₂ + Schmieröl-Mischung",
+            "Dämpfungswirkung – sanfte Positionierung mit Dämpfung",
+            "Am besten für – Rollstühle, Krankenhausbetten, Büromöbel"
+          ]
+        }
+      },
+      "comparison": {
+        "headers": ["Merkmal", "Starre Verriegelung", "Elastische Verriegelung"],
+        "rows": [
+          { "label": "Innere Struktur", "rigid": "Öl-Gas-Trennung, Zweikammer", "elastic": "Öl-Gas-Mischung, Einkammer" },
+          { "label": "Verriegelungsmedium", "rigid": "Hydrauliköl (abgedichtet)", "elastic": "N₂ + Schmieröl" },
+          { "label": "Verriegelungsleistung", "rigid": "Keine Verlagerung", "elastic": "≤ 5 mm elastische Verlagerung" },
+          { "label": "Verriegelungskraft", "rigid": "Hoch (≥ 2.000 N)", "elastic": "Mittel mit Dämpfung" },
+          { "label": "Kompressionsverhältnis", "rigid": "Hoch", "elastic": "Niedrig" },
+          { "label": "Kraftbereich", "rigid": "200–1.200 N", "elastic": "200–1.200 N" },
+          { "label": "Hubbereich", "rigid": "50–300 mm", "elastic": "50–500 mm (anpassbar)" }
+        ]
+      },
+      "applications": {
+        "title": "Praxisnahe Anwendungen",
+        "imageAlt": "Anwendungen der verriegelbaren Gasfeder",
+        "medical": {
+          "title": "Medizinisch",
+          "items": ["Rollstuhl-Rückenlehnen", "Bettenhöhenverstellung", "Positionierung von Operationstischen"]
+        },
+        "furnitureOffice": {
+          "title": "Möbel & Büro",
+          "items": ["Sitzhöheneinstellung", "Tastaturablagen-Positionierung", "Hebe-Displays"]
+        },
+        "industrial": {
+          "title": "Industriell",
+          "items": ["Vorrichtungen", "Gerätepositionierung", "Arbeitsplatzanpassung"]
+        },
+        "aviation": {
+          "title": "Luftfahrt",
+          "items": ["Flugzeug-Ablagefächer", "Frachttorsteuerung", "Kabinen-Ausrüstungshalterung"]
+        }
+      },
+      "forcePerformance": {
+        "title": "Leistung der Verriegelungskraft",
+        "desc": "Die Kraftkurve zeigt das Stabilitäts-Plateau – je höher und flacher das Plateau, desto zuverlässiger die Verriegelungsleistung.",
+        "imageAlt": "Kraftkurven der Verriegelung",
+        "rigid": [
+          "• Langes, stabiles Plateau",
+          "• Theoretisches Federverhältnis: 1,28–1,44",
+          "• Überlegene Lasthaltefähigkeit",
+          "• Ideal für hochsteife Anwendungen"
+        ],
+        "elastic": [
+          "• Allmähliche Kraftkurve mit Dämpfung",
+          "• Weichere Lastreaktion",
+          "• Besser für komfortorientierte Anwendungen",
+          "• Sanfte Positionierung mit Dämpfung"
+        ],
+        "safetyLabel": "Sicherheitsauswahl-Prinzip",
+        "safetyText": "Immer sicherstellen: Plateau-Kraft ≥ maximale Querlast des Kunden × 1,5 Sicherheitsfaktor"
+      },
+      "selectionGuide": {
+        "title": "Schneller Auswahlsleitfaden",
+        "formulas": {
+          "rigid": {
+            "desc": "<strong>Starre Verriegelung:</strong> S = Arbeitsweg, L = ausgefahrene Länge (mm)",
+            "lines": ["Lmin = 2,4·S + 53 mm", "Smax = L / 2,4 – 22 mm"]
+          },
+          "elastic": {
+            "desc": "<strong>Elastische Verriegelung:</strong> S = Arbeitsweg, L = ausgefahrene Länge (mm)",
+            "lines": ["Lmin = 2·S + 53 mm", "Smax = L / 2 – 26,5 mm"]
+          }
+        },
+        "keyParameters": {
+          "force": { "label": "Kraftbereich", "value": "200–1.200 N" },
+          "stroke": { "label": "Hubbereich", "value": "50–300 mm (bis 500 mm)" },
+          "release": { "label": "Freigabemechanismus", "value": "≤ Ø8 mm Seitenstift oder Kopfknopf" },
+          "series": { "label": "Standardserien", "value": "KQ10-22, KQ10-26, KQ10-28" },
+          "life": { "label": "Zyklische Lebensdauer", "value": "10.000+ Zyklen ohne Leckage" },
+          "retention": { "label": "Druckhaltung", "value": "≤ 5 % Abfall über 24 Stunden" }
+        }
+      },
+      "manufacturing": {
+        "title": "Präziser Herstellungsprozess",
+        "desc": "Jede verriegelbare Gasfeder durchläuft eine strenge Qualitätskontrolle mit spezialisierten Präzisionsmontageschritten.",
+        "imageAlt": "Fertigungsprozess-Flow",
+        "cards": {
+          "difference": {
+            "title": "Wesentlicher Unterschied",
+            "desc": "Im Vergleich zu Standard-Gasfedern enthalten verriegelbare Versionen einen kritischen Präzisionsmontageschritt für Schwimmkolben, Nadelventil und Stahlkugel-Verriegelungsmechanismus."
+          },
+          "qa": {
+            "title": "Qualitätssicherung",
+            "desc": "Kraftcharakteristik-Tests, Druckhaltungsprüfung und 10.000-Zyklen-Leckagetests sichern langfristige Zuverlässigkeit und Leistung."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Wir lösen Ihre Herausforderungen",
+        "items": [
+          {
+            "title": "Lange Lieferzeiten",
+            "desc": "Wir verkürzen die Lieferzeit von 8–12 Wochen auf 2–4 Wochen als direkter Ersatz für Produkte von Stabilus, Suspa und Hahn."
+          },
+          {
+            "title": "Mikrobewegung nach Verriegelung",
+            "desc": "Wechseln Sie zu unserer starren Serie (KQ10-28 Rigid) für Null-Verlagerung."
+          },
+          {
+            "title": "Freigabemechanismus passt nicht",
+            "desc": "Vollständige Anpassung für ≤ Ø8 mm Seitenstifte oder Kopfknöpfe zur Anpassung an Ihre Struktur."
+          },
+          {
+            "title": "Technische Zeichnungen fehlen",
+            "desc": "Wir liefern Mustervermessung + CAD + 3D PDF innerhalb von 48 Stunden."
+          },
+          {
+            "title": "Unvollständige Zertifizierungen",
+            "desc": "Lieferung von TS16949, ISO9001, RoHS, 96h Salzsprühnebel und SGS-Berichten – alles in einem Paket."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Häufige Fragen",
+        "items": [
+          { "q": "Was ist der Hauptunterschied zwischen starrer und elastischer Verriegelung?" },
+          { "q": "Wie berechne ich die erforderliche ausgefahrene Länge?" },
+          { "q": "Welchen Sicherheitsfaktor sollte ich verwenden?" },
+          { "q": "Können Sie den Freigabemechanismus anpassen?" }
+        ]
+      }
+    },
     "gas-spring": {
       "productSeries": {
         "title": "Product Series"

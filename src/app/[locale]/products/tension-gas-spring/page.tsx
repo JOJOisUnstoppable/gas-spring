@@ -1,4 +1,5 @@
 import { Locale } from '@/lib/i18n/config'
+import { getDictionary } from '@/lib/i18n/getDictionary'
 import TensionGasSpring from '@/components/products/TensionGasSpring'
 import CTA from '@/components/products/CTA'
 
@@ -9,21 +10,18 @@ export default async function Page(
 ) {
   const params = await props.params
   const { locale } = params
+  const dict = await getDictionary(locale)
 
   return (
     <>
-      <TensionGasSpring />
+      <TensionGasSpring dict={dict.products['tension-gas-spring']} />
       <section id="cta">
         <CTA
-          title={'Ready to Find Your Perfect Tension Gas Spring?'}
-          desc={[
-            'Our technical team is ready to assist with selection, customization, and rapid delivery.',
-            'Contact us today for a detailed quotation or technical consultation.'
-          ]}
+          title={dict.products['tension-gas-spring'].CTA.title}
+          desc={dict.products['tension-gas-spring'].CTA.desc}
           locale={locale}
         />
       </section>
     </>
   )
 }
-

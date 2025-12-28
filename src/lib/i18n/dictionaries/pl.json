@@ -174,6 +174,401 @@
     "description": "Kompletna umowa obejmująca Warunki świadczenia usług, przypisanie odpowiedzialności, prywatność danych, polityki produktów (zamówienia/dostawa/zwroty/gwarancja), zastrzeżenia i prawo właściwe."
   },
   "products": {
+    "tension-gas-spring": {
+      "CTA": {
+        "title": "Gotowy, aby znaleźć idealną sprężynę gazową naciągową?",
+        "desc": [
+          "Nasz zespół techniczny pomoże w doborze, personalizacji i szybkiej dostawie.",
+          "Skontaktuj się z nami już dziś, aby otrzymać szczegółową wycenę lub konsultację techniczną."
+        ]
+      },
+      "hero": {
+        "title": "Sprężyna gazowa naciągowa",
+        "subtitle": "Sprężyna naciągowa / sprężyna o działaniu odwróconym – Profesjonalne rozwiązania przemysłowe",
+        "buttons": {
+          "getSpecs": "Parametry techniczne",
+          "requestQuote": "Poproś o wycenę"
+        },
+        "imageAlt": "Sprężyna gazowa naciągowa"
+      },
+      "definition": {
+        "title": "1. Definicja produktu",
+        "keyCharacteristics": {
+          "title": "Kluczowe cechy",
+          "items": [
+            {
+              "label": "Nazwa produktu",
+              "value": "Sprężyna gazowa naciągowa / sprężyna naciągowa / sprężyna o działaniu odwróconym"
+            },
+            {
+              "label": "Stan swobodny",
+              "value": "Pręt tłoczyska znajduje się w pozycji „wsuniętej”"
+            },
+            {
+              "label": "Charakterystyka pracy",
+              "value": "Przy pociągnięciu – wysuwa się; po zwolnieniu – automatycznie się chowa"
+            }
+          ]
+        },
+        "mainFunction": {
+          "title": "Główna funkcja",
+          "desc": "Umożliwia, by pokrywy/drzwiczki, które „należy ściągnąć w dół i schować”, zamykały się automatycznie, zapewniając kontrolowaną prędkość chowania. Typowe zastosowania:",
+          "scenarios": [
+            "Automatyczne chowanie pokryw i klap",
+            "Wsparcie przy podnoszeniu sprzętu medycznego",
+            "Automatyczne chowanie barier",
+            "Kontrola pokryw w urządzeniach przemysłowych"
+          ]
+        }
+      },
+      "classification": {
+        "title": "2. Klasyfikacja konstrukcji i różnice wydajności",
+        "table": {
+          "headers": [
+            "Typ",
+            "Jednorurowa",
+            "Dwururowa"
+          ],
+          "rows": [
+            {
+              "label": "Prędkość odbicia",
+              "single": "Szybka",
+              "double": "Wolniejsza, stabilniejsza"
+            },
+            {
+              "label": "Tempo progresji siły",
+              "single": "Wysoka (100 N → 170–180 N)",
+              "double": "Niska (100 N → ~150 N)"
+            },
+            {
+              "label": "Zaleta długości zamkniętej",
+              "single": "Krótsza (L ≥ 2S + 45)",
+              "double": "Dłuższa (L ≥ 2S + 70)"
+            },
+            {
+              "label": "Zastosowanie",
+              "single": "Ciasne przestrzenie, akceptowalna progresja siły",
+              "double": "Stabilna siła, wysokie wymagania dotyczące prowadzenia/bezpieczeństwa"
+            }
+          ]
+        },
+        "cards": {
+          "singleTube": {
+            "title": "Konstrukcja jednorurowa",
+            "items": [
+              "Prosta konstrukcja, niższy koszt",
+              "Krótsza długość zamknięta",
+              "Szybka prędkość odbicia",
+              "Wyraźna progresja siły",
+              "Preferowana w ciasnych przestrzeniach"
+            ]
+          },
+          "doubleTube": {
+            "title": "Konstrukcja dwururowa",
+            "items": [
+              "Stabilna krzywa siły",
+              "Kontrolowalna prędkość odbicia",
+              "Dobre prowadzenie i bezpieczeństwo",
+              "Koszt wyższy o ok. 30%",
+              "Preferowana przy wysokich wymaganiach bezpieczeństwa"
+            ]
+          }
+        }
+      },
+      "parameters": {
+        "title": "3. Zakres kluczowych parametrów",
+        "cards": {
+          "force": {
+            "title": "Zakres siły",
+            "value": "100–1.500 N",
+            "note": "Typowe stany magazynowe: 150 / 250 / 350 N"
+          },
+          "stroke": {
+            "title": "Zakres skoku",
+            "value": "100–300 mm",
+            "note": "Dostępne w krokach co 25 mm"
+          },
+          "closedLength": {
+            "title": "Długość zamknięta",
+            "value": "200–450 mm",
+            "note": "Ograniczona wzorem"
+          },
+          "moq": {
+            "title": "Minimalne zamówienie",
+            "value": "200 sztuk",
+            "note": "Typowy roczny wolumen: 500–5.000 sztuk"
+          }
+        },
+        "endFitting": {
+          "title": "Konfiguracja zakończeń",
+          "items": [
+            "Zakończenia gwintowane: pojedyncze/podwójne gwinty M8 lub M10",
+            "Zakończenia kulowe: przegub kulowy Ø10 mm",
+            "Akcesoria bezpieczeństwa: wymagany „zabezpieczający kołek przeciwrozłączeniowy” lub linka bezpieczeństwa"
+          ]
+        }
+      },
+      "principle": {
+        "title": "4. Zasada działania – Dwa tryby pracy",
+        "labels": {
+          "operationFlow": "Przebieg działania",
+          "applicableScenarios": "Zastosowania:"
+        },
+        "modeA": {
+          "title": "Tryb A: Sprężyna naciągowa (z siłą naciągu)",
+          "flow": [
+            "Faza otwierania: Grawitacja pokrywy pokonuje wstępną siłę naciągu, pręt wysuwa się → pokrywa opada",
+            "Faza zamykania: Sprężyna gazowa automatycznie się chowa, wspomagając podciągnięcie pokrywy"
+          ],
+          "scenario": "Gdy naturalne opadanie pokrywy wystarcza do pociągnięcia sprężyny"
+        },
+        "modeB": {
+          "title": "Tryb B: Czysty tłumik (tylko tłumienie, bez siły naciągu)",
+          "flow": [
+            "Faza otwierania: Ręczne pchanie na całym przebiegu, bez wspomagania",
+            "Faza zamykania: Tylko tłumienie jednokierunkowe, pokrywa opada powoli"
+          ],
+          "scenario": "Lekkie pokrywy lub scenariusze krytyczne dla bezpieczeństwa wymagające „bez wspomagania + powolnego opadania”"
+        },
+        "illustration": {
+          "title": "Ilustracja zasady działania",
+          "points": [
+            "Zasada podstawowa: Sprężony azot w szczelnym cylindrze generuje siłę przeciwną przy pociągnięciu pręta. Po zwolnieniu siły zewnętrznej, ciśnienie gazu powoduje wsunięcie pręta, co umożliwia automatyczne zamknięcie.",
+            "Kluczowa zaleta: W porównaniu z tradycyjnymi sprężynami, sprężyny gazowe zapewniają stabilniejszą krzywą siły i dłuższą żywotność (zwykle ponad 100.000 cykli)."
+          ]
+        }
+      },
+      "formula": {
+        "title": "5. Szybki wzór doboru",
+        "closedLength": {
+          "title": "Obliczanie długości zamkniętej",
+          "lines": [
+            "Jednorurowa: L ≥ 2S + 45",
+            "Dwururowa: L ≥ 2S + 70",
+            "Gdzie: L = długość zamknięta (mm) | S = skok roboczy (mm)"
+          ]
+        },
+        "selection": {
+          "title": "Kroki doboru",
+          "steps": [
+            "Określ skok roboczy S: na podstawie wymaganego zakresu otwarcia pokrywy/drzwiczek",
+            "Wybierz typ konstrukcji: jednorurowa lub dwururowa zgodnie z ograniczeniami przestrzennymi i stabilnością siły",
+            "Oblicz długość zamkniętą: zastosuj powyższy wzór, aby uzyskać minimalną długość",
+            "Określ siłę: dobierz odpowiednią siłę do masy pokrywy i oporu naciągu",
+            "Potwierdź zakończenia: wybierz gwintowane lub kulowe oraz skonfiguruj kołek przeciwrozłączeniowy"
+          ]
+        },
+        "tipLabel": "💡 Wskazówka:",
+        "tip": "W przypadku niepewności zalecamy rozpocząć od typowych stanów magazynowych (150 N / 200 mm skoku / jednorurowa) w celu szybkiej weryfikacji próbek."
+      },
+      "faq": {
+        "title": "6. Najczęściej zadawane pytania",
+        "items": [
+          {
+            "q": "① Czy można zmniejszyć początkową siłę naciągu poniżej 80 N?",
+            "a": "Odpowiedź: Można zmniejszyć do 60 N, ale wymaga to obniżenia ciśnienia azotu, co skraca żywotność o ok. 20%. Zalecamy zaczynać od 100 N. Zbyt niskie ciśnienie początkowe zwiększa współczynnik rozszerzalności gazu i wpływa na długoterminową stabilność."
+          },
+          {
+            "q": "② Progresja siły w konstrukcji jednorurowej jest zbyt wysoka – można to poprawić?",
+            "a": "Odpowiedź: Przejdź na konstrukcję dwururową, która zapewnia bardziej płaską krzywą siły, przy ok. 30% wyższym koszcie. Dwururowa konstrukcja redukuje tempo progresji z 100 N → 170–180 N do 100 N → ~150 N dzięki odprowadzaniu tłumienia."
+          },
+          {
+            "q": "③ Jaki jest najszybszy czas realizacji?",
+            "a": "Odpowiedź: Typowe półfabrykaty jednorurowe 150/250 N, skok 150/200 mm są dostępne (500 szt.), wysyłka w 72 godziny; pozycje niestandardowe: 10 dni. Utrzymujemy zapasy najpopularniejszych specyfikacji, aby zapewnić szybką reakcję."
+          },
+          {
+            "q": "④ Certyfikaty i eksport?",
+            "a": "Odpowiedź: Standardowo RoHS oraz test mgły solnej 48 h; wersje wojskowe wymagają dodatkowych testów wibracyjnych MIL-STD-810G (+7 dni). Wszystkie produkty spełniają dyrektywę UE RoHS i mogą być eksportowane na rynki europejskie i amerykańskie."
+          },
+          {
+            "q": "⑤ Chcę ukryć kołek przeciwrozłączeniowy w zakończeniu?",
+            "a": "Odpowiedź: Oferujemy rozwiązanie „gwint wewnętrzny + linka bezpieczeństwa”, które zachowuje wygląd zewnętrzny standardowego przegubu kulowego — zapewniając jednocześnie bezpieczeństwo i lepszą estetykę."
+          }
+        ]
+      }
+    },
+    "lockable-gas-spring": {
+      "CTA": {
+        "title": "Gotowy, aby znaleźć idealną blokowaną sprężynę gazową?",
+        "desc": [
+          "Nasz zespół techniczny pomaga w doborze, personalizacji i szybkiej dostawie.",
+          "Skontaktuj się z nami już dziś, aby otrzymać szczegółową wycenę lub konsultację techniczną."
+        ]
+      },
+      "hero": {
+        "title": "Blokowana sprężyna gazowa",
+        "subtitle": "Sztywne blokowanie lub elastyczny miękki powrót — precyzyjne pozycjonowanie i niezawodna kontrola",
+        "buttons": {
+          "getSpecs": "Parametry techniczne",
+          "requestQuote": "Poproś o wycenę"
+        },
+        "imageAlt": "Przekrój blokowanej sprężyny gazowej (sztywnej)"
+      },
+      "why": {
+        "title": "Dlaczego blokowane sprężyny gazowe?",
+        "subtitle": "Nie tylko podparcie — precyzyjne pozycjonowanie z pewnością",
+        "cards": {
+          "zero": {
+            "title": "Blokowanie bez przemieszczenia",
+            "desc": "Sztywne blokowanie zapewnia całkowicie stabilne podparcie bez ruchu, gwarantując dokładne utrzymanie pozycji."
+          },
+          "flexible": {
+            "title": "Elastyczne rozwiązania",
+            "desc": "Elastyczne blokowanie oferuje miękki powrót i amortyzację — do zastosowań wymagających łagodnego pozycjonowania."
+          },
+          "highLoad": {
+            "title": "Wysoka nośność boczna",
+            "desc": "Niezawodna siła na plateau, nośność boczna ≥ 2.000 N."
+          }
+        }
+      },
+      "technology": {
+        "title": "Sztywne vs. elastyczne: zasadnicza różnica",
+        "imagesAlt": {
+          "rigid": "Mechanizm sztywnego blokowania",
+          "elastic": "Mechanizm elastycznego blokowania"
+        },
+        "rigid": {
+          "title": "Sztywne blokowanie",
+          "points": [
+            "Brak przemieszczenia — całkowicie sztywne podparcie",
+            "Podwójna komora — separacja oleju i gazu ze „pływającym tłokiem”",
+            "Wysoka siła blokowania — nośność boczna ≥ 2.000 N",
+            "Najlepsze dla — stoły operacyjne, przyrządy, schowki nad głową w samolotach"
+          ]
+        },
+        "elastic": {
+          "title": "Elastyczne blokowanie",
+          "points": [
+            "Miękki powrót — dopuszcza ≤ 5 mm elastycznego przemieszczenia",
+            "Pojedyncza komora — mieszanina N₂ + olej smarujący",
+            "Efekt amortyzacji — łagodne pozycjonowanie z tłumieniem",
+            "Najlepsze dla — wózki inwalidzkie, łóżka szpitalne, meble biurowe"
+          ]
+        }
+      },
+      "comparison": {
+        "headers": ["Cecha", "Sztywne blokowanie", "Elastyczne blokowanie"],
+        "rows": [
+          { "label": "Struktura wewnętrzna", "rigid": "Separacja oleju i gazu, podwójna komora", "elastic": "Mieszanina oleju i gazu, pojedyncza komora" },
+          { "label": "Medium blokujące", "rigid": "Olej hydrauliczny (uszczelniony)", "elastic": "N₂ + olej smarujący" },
+          { "label": "Zachowanie po zablokowaniu", "rigid": "Brak przemieszczenia", "elastic": "≤ 5 mm elastycznego przemieszczenia" },
+          { "label": "Siła blokowania", "rigid": "Wysoka (≥ 2.000 N)", "elastic": "Umiarkowana z amortyzacją" },
+          { "label": "Współczynnik kompresji", "rigid": "Wysoki", "elastic": "Niski" },
+          { "label": "Zakres sił", "rigid": "200–1.200 N", "elastic": "200–1.200 N" },
+          { "label": "Zakres skoku", "rigid": "50–300 mm", "elastic": "50–500 mm (dostosowywalny)" }
+        ]
+      },
+      "applications": {
+        "title": "Zastosowania w rzeczywistości",
+        "imageAlt": "Zastosowania blokowanej sprężyny gazowej",
+        "medical": {
+          "title": "Medyczne",
+          "items": ["Oparcia wózków inwalidzkich", "Regulacja wysokości łóżek", "Pozycjonowanie stołów operacyjnych"]
+        },
+        "furnitureOffice": {
+          "title": "Meble i biuro",
+          "items": ["Regulacja wysokości siedziska", "Pozycjonowanie półek na klawiaturę", "Podnośniki stojaków ekspozycyjnych"]
+        },
+        "industrial": {
+          "title": "Przemysł",
+          "items": ["Przyrządy i uchwyty", "Pozycjonowanie urządzeń", "Regulacja stanowisk pracy"]
+        },
+        "aviation": {
+          "title": "Lotnictwo",
+          "items": ["Schowki nad głową w samolotach", "Sterowanie drzwiami ładunkowymi", "Podparcie wyposażenia kabiny"]
+        }
+      },
+      "forcePerformance": {
+        "title": "Charakterystyka siły blokowania",
+        "desc": "Krzywa siły blokowania pokazuje plateau stabilności — im wyższe i bardziej płaskie, tym bardziej niezawodne blokowanie.",
+        "imageAlt": "Krzywe siły blokowania",
+        "rigid": [
+          "• Długie, stabilne plateau",
+          "• Teoretyczny współczynnik sprężyny: 1,28–1,44",
+          "• Lepsze utrzymanie obciążenia",
+          "• Idealne dla zastosowań o wysokiej sztywności"
+        ],
+        "elastic": [
+          "• Stopniowa krzywa siły z amortyzacją",
+          "• Łagodniejsza odpowiedź na obciążenie",
+          "• Lepsze dla zastosowań nastawionych na komfort",
+          "• Łagodne pozycjonowanie z tłumieniem"
+        ],
+        "safetyLabel": "Zasada bezpiecznego doboru",
+        "safetyText": "Zawsze zapewnij: Siła na plateau ≥ maksymalne obciążenie boczne klienta × współczynnik bezpieczeństwa 1,5"
+      },
+      "selectionGuide": {
+        "title": "Szybki przewodnik wyboru",
+        "formulas": {
+          "rigid": {
+            "desc": "<strong>Sztywne blokowanie:</strong> S = skok roboczy, L = długość wysunięta (mm)",
+            "lines": ["Lmin = 2,4·S + 53 mm", "Smax = L / 2,4 – 22 mm"]
+          },
+          "elastic": {
+            "desc": "<strong>Elastyczne blokowanie:</strong> S = skok roboczy, L = długość wysunięta (mm)",
+            "lines": ["Lmin = 2·S + 53 mm", "Smax = L / 2 – 26,5 mm"]
+          }
+        },
+        "keyParameters": {
+          "force": { "label": "Zakres sił", "value": "200–1.200 N" },
+          "stroke": { "label": "Zakres skoku", "value": "50–300 mm (do 500 mm)" },
+          "release": { "label": "Mechanizm zwalniania", "value": "≤ Ø8 mm boczny trzpień lub górny przycisk" },
+          "series": { "label": "Serie standardowe", "value": "KQ10-22, KQ10-26, KQ10-28" },
+          "life": { "label": "Żywotność cykli", "value": "10.000+ cykli bez wycieków" },
+          "retention": { "label": "Utrzymanie ciśnienia", "value": "≤ 5% spadku w 24 godziny" }
+        }
+      },
+      "manufacturing": {
+        "title": "Precyzyjny proces produkcji",
+        "desc": "Każda blokowana sprężyna gazowa przechodzi rygorystyczną kontrolę jakości, w tym specjalne kroki precyzyjnego montażu.",
+        "imageAlt": "Przepływ procesu produkcji",
+        "cards": {
+          "difference": {
+            "title": "Kluczowa różnica",
+            "desc": "W porównaniu do standardowych sprężyn gazowych, wersje blokowane zawierają krytyczny krok montażu precyzyjnego dla pływającego tłoka, zaworu igłowego i mechanizmu blokującego kulką stalową."
+          },
+          "qa": {
+            "title": "Zapewnienie jakości",
+            "desc": "Testowanie charakterystyk siły, weryfikacja utrzymania ciśnienia oraz testy wycieków na 10.000 cykli zapewniają długoterminową niezawodność i wydajność."
+          }
+        }
+      },
+      "solutions": {
+        "title": "Rozwiązujemy Twoje wyzwania",
+        "items": [
+          {
+            "title": "Długie terminy dostaw",
+            "desc": "Skracamy dostawę z 8–12 tygodni do 2–4 tygodni jako bezpośredni zamiennik produktów Stabilus, Suspa i Hahn."
+          },
+          {
+            "title": "Mikro-ruch po zablokowaniu",
+            "desc": "Przejdź na naszą sztywną serię (KQ10-28 Rigid) dla efektu bez przemieszczenia."
+          },
+          {
+            "title": "Niedopasowany mechanizm zwalniania",
+            "desc": "Pełna personalizacja dla bocznych trzpieni ≤ Ø8 mm lub górnych przycisków, aby dopasować istniejącą konstrukcję."
+          },
+          {
+            "title": "Brak rysunków technicznych",
+            "desc": "Zapewniamy pomiar próbek + CAD + 3D PDF w ciągu 48 godzin."
+          },
+          {
+            "title": "Niepełne certyfikacje",
+            "desc": "Dostarczamy TS16949, ISO9001, RoHS, 96h test mgły solnej oraz raporty SGS — wszystko w jednym pakiecie."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Często zadawane pytania",
+        "items": [
+          { "q": "Jaka jest główna różnica między blokowaniem sztywnym a elastycznym?" },
+          { "q": "Jak obliczyć wymaganą długość wysuniętą?" },
+          { "q": "Jaki współczynnik bezpieczeństwa należy zastosować?" },
+          { "q": "Czy można dostosować mechanizm zwalniania?" }
+        ]
+      }
+    },
     "marine": {
       "hero": {
         "title": "Premiumowe prużyny gazowe morskie do wody USA",

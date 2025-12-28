@@ -19,7 +19,7 @@ export default function PushToUnlockGasSpring() {
               </div>
             </div>
             <div className="relative">
-              <img alt="Push-to-Unlock Gas Spring Mechanism" className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/push-to-unlock-gas-spring/diagram_locking_mechanism.jpg" />
+              <img alt="Push-to-Unlock Gas Spring Mechanism" className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg" />
             </div>
           </div>
         </div>
