@@ -530,6 +530,16 @@
           }
         ]
       },
+      "services": {
+        "title": "Kundenspezifisches Engineering & Support",
+        "description": "Wir bieten End-to-End-Support, um sicherzustellen, dass Sie die perfekte Lösung erhalten.",
+        "items": [
+          "Kollaboratives Design und Engineering, das Ihren Spezifikationen entspricht",
+          "Schnelles Prototyping und Testen zur schnellen Validierung",
+          "Globale Logistik und pünktliche Lieferung",
+          "Engagierter technischer After-Sales-Support"
+        ]
+      },
       "faq": {
         "title": "Häufige Fragen",
         "items": [
@@ -537,6 +547,92 @@
           { "q": "Wie berechne ich die erforderliche ausgefahrene Länge?" },
           { "q": "Welchen Sicherheitsfaktor sollte ich verwenden?" },
           { "q": "Können Sie den Freigabemechanismus anpassen?" }
+        ]
+      }
+    },
+    "push-to-unlock-gas-spring": {
+      "hero": {
+        "title": "Push-to-Unlock Gasfeder",
+        "subtitle": "Auch als reibungsgehaltene oder lösbare blockierbare Gasfeder bekannt, ermöglicht diese Komponente das präzise Halten eines ausgeglichenen Gewichts in mehreren Positionen. Sie bleibt in jeder Position sicher arretiert, bis der Entriegelungsstift betätigt wird, und bietet so eine zuverlässige und flexible Positionskontrolle.",
+        "cta": "Angebot anfordern"
+      },
+      "definition": {
+        "title": "Was ist eine Push-to-Unlock Gasfeder?",
+        "description": "Eine Push-to-Unlock-Gasfeder ist eine Art blockierbare Gasfeder, die eine eingestellte Position hält und sich nur löst, wenn ein Knopf oder Aktor am Kolbenstangenende gedrückt wird. Im Gegensatz zu Standard-Gasfedern, die nur Hubunterstützung bieten, ermöglichen diese Federn eine starre Arretierung in jeder Position entlang des Hubs. Diese Funktion ist ideal für Anwendungen, die eine variable und sichere Positionierung erfordern, wie z. B. verstellbare Stühle, Krankenhausbetten und Schreibtischplatten. Der interne Mechanismus enthält eine spezielle Reibungskupplung oder ein Ventil, das einrastet, um die Last zu halten und Stabilität zu gewährleisten, bis der Entriegelungsmechanismus aktiviert wird."
+      },
+      "mechanism": {
+        "title": "Wie es funktioniert: Der Verriegelungsmechanismus",
+        "description": "Das Herzstück der Push-to-Unlock-Gasfeder ist ihr lösbarer Verriegelungsmechanismus. Im Inneren des Zylinders trennt ein Ventilsystem die Gas- und Ölkammern. Wenn sich die Feder im Standardzustand (verriegelt) befindet, verhindert dieses Ventil die Bewegung des Kolbens und sorgt für starren Halt. Durch Drücken des Entriegelungsstifts am Ende der Kolbenstange wird das Ventil geöffnet, sodass Gas oder Öl fließen und sich der Kolben frei bewegen kann. Sobald die gewünschte Position erreicht ist, wird das Ventil durch Loslassen des Stifts wieder geschlossen, und die Feder verriegelt sich wieder fest. Dieses einfache, aber effektive Design ermöglicht eine bedarfsgesteuerte Bewegungssteuerung ohne komplexe externe Verriegelungshardware."
+      },
+        "specs": {
+          "title": "Technische Spezifikationen",
+          "description": "Unsere Push-to-Unlock-Gasfedern sind in einer Vielzahl von Größen, Kräften und Konfigurationen erhältlich, um den Anforderungen Ihrer Anwendung gerecht zu werden. Zu den wichtigsten Spezifikationen gehören:",
+          "tableHeaders": [
+            "Spezifikation",
+            "Wert"
+          ],
+          "items": [
+            {
+              "name": "Kraftbereich",
+              "value": "100N bis 2500N"
+            },
+            {
+              "name": "Hublänge",
+              "value": "50mm bis 800mm"
+            },
+            {
+              "name": "Materialoptionen",
+              "value": "Stahl, Edelstahl (304/316)"
+            },
+            {
+              "name": "Endbeschläge",
+              "value": "Eine Vielzahl von Standard- und Sonderoptionen"
+            },
+            {
+              "name": "Temperaturbereich",
+              "value": "-30°C bis +80°C"
+            },
+            {
+              "name": "Zertifizierungen",
+              "value": "ISO 9001, RoHS, REACH"
+            }
+          ]
+        },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "questions": [
+          {
+            "q": "Was ist der Unterschied zwischen einer Push-to-Unlock- und einer standardmäßigen blockierbaren Gasfeder?",
+            "a": "Eine Push-to-Unlock-Feder verriegelt standardmäßig und erfordert eine Betätigung (Drücken des Stifts), um sich zu bewegen. Andere blockierbare Federn, wie z. B. elastische, erfordern möglicherweise die Anwendung einer Kraft, um sie in einer bestimmten Position zu arretieren."
+          },
+          {
+            "q": "Kann die Verriegelungskraft angepasst werden?",
+            "a": "Die Haltekraft wird durch den Innendruck und die Konstruktion der Feder bestimmt und bei der Herstellung eingestellt. Wir können die Kraft jedoch an Ihre spezifischen Lastanforderungen anpassen."
+          },
+          {
+            "q": "Ist dieser Federtyp für Außenanwendungen geeignet?",
+            "a": "Ja, mit den entsprechenden Materialien und Oberflächen, wie z. B. Edelstahl oder einer salzsprühbeständigen Beschichtung, können diese Federn im Freien und in Meeresumgebungen eingesetzt werden."
+          },
+          {
+            "q": "Was passiert, wenn der Entriegelungsstift versehentlich gedrückt wird?",
+            "a": "Wenn der Entriegelungsstift gedrückt wird, entriegelt die Feder und kann sich je nach der von ihr getragenen Last aus- oder zusammendrücken. Es ist wichtig, die Anwendung so zu gestalten, dass eine versehentliche Betätigung verhindert wird."
+          }
+        ]
+      },
+      "services": {
+        "title": "Individuelles Engineering und Support",
+        "description": "Im Kern sind wir ein Problemlöser-Team. Wenn unsere Standard-Push-to-Unlock-Gasfedern nicht Ihren Anforderungen entsprechen, arbeiten unsere Ingenieure mit Ihnen zusammen, um eine maßgeschneiderte Lösung zu entwickeln. Von einzigartigen Kraftkurven bis hin zu speziellen Anschlussstücken und Entriegelungsmechanismen bieten wir:",
+        "items": [
+          "Schnelles Prototyping: Erhalten Sie kundenspezifische Muster in nur einer Woche.",
+          "Vor-Ort-Beratung: Unsere Experten können Ihnen bei Design und Installation helfen.",
+          "Leistungstests: Wir validieren jedes Design, um sicherzustellen, dass es Ihren Leistungs- und Sicherheitsstandards entspricht."
+        ]
+      },
+      "cta": {
+        "title": "Bereit für den Einstieg?",
+        "desc": [
+          "Kontaktieren Sie noch heute unsere Vertriebsingenieure für detaillierte technische Zeichnungen, maßgeschneiderte Dienstleistungen oder Mustertests.",
+          "Wir bieten Ihnen die professionellste Push-to-Unlock-Gasfederlösung."
         ]
       }
     },

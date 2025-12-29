@@ -196,9 +196,18 @@
         "keyCharacteristics": {
           "title": "Características clave",
           "items": [
-            { "label": "Nombre del producto", "value": "Resorte de gas de tracción / Resorte de tracción / Resorte de acción inversa" },
-            { "label": "Estado libre", "value": "La varilla del pistón se encuentra en posición «retraída»" },
-            { "label": "Característica de funcionamiento", "value": "Se extiende al tirar, se retrae automáticamente al soltar" }
+            {
+              "label": "Nombre del producto",
+              "value": "Resorte de gas de tracción / Resorte de tracción / Resorte de acción inversa"
+            },
+            {
+              "label": "Estado libre",
+              "value": "La varilla del pistón se encuentra en posición «retraída»"
+            },
+            {
+              "label": "Característica de funcionamiento",
+              "value": "Se extiende al tirar, se retrae automáticamente al soltar"
+            }
           ]
         },
         "mainFunction": {
@@ -215,12 +224,32 @@
       "classification": {
         "title": "2. Clasificación estructural y diferencias de rendimiento",
         "table": {
-          "headers": ["Tipo", "Tubo simple", "Doble tubo"],
+          "headers": [
+            "Tipo",
+            "Tubo simple",
+            "Doble tubo"
+          ],
           "rows": [
-            { "label": "Velocidad de rebote", "single": "Rápida", "double": "Más lenta, más estable" },
-            { "label": "Tasa de progresión de fuerza", "single": "Alta (100 N → 170–180 N)", "double": "Baja (100 N → ~150 N)" },
-            { "label": "Ventaja de longitud cerrada", "single": "Más corta (L ≥ 2S + 45)", "double": "Más larga (L ≥ 2S + 70)" },
-            { "label": "Aplicabilidad", "single": "Espacios reducidos, progresión de fuerza aceptable", "double": "Fuerza estable, altos requisitos de guía/seguridad" }
+            {
+              "label": "Velocidad de rebote",
+              "single": "Rápida",
+              "double": "Más lenta, más estable"
+            },
+            {
+              "label": "Tasa de progresión de fuerza",
+              "single": "Alta (100 N → 170–180 N)",
+              "double": "Baja (100 N → ~150 N)"
+            },
+            {
+              "label": "Ventaja de longitud cerrada",
+              "single": "Más corta (L ≥ 2S + 45)",
+              "double": "Más larga (L ≥ 2S + 70)"
+            },
+            {
+              "label": "Aplicabilidad",
+              "single": "Espacios reducidos, progresión de fuerza aceptable",
+              "double": "Fuerza estable, altos requisitos de guía/seguridad"
+            }
           ]
         },
         "cards": {
@@ -567,15 +596,47 @@
         }
       },
       "comparison": {
-        "headers": ["Característica", "Bloqueo rígido", "Bloqueo elástico"],
+        "headers": [
+          "Característica",
+          "Bloqueo rígido",
+          "Bloqueo elástico"
+        ],
         "rows": [
-          { "label": "Estructura interna", "rigid": "Separación aceite-gas, doble cámara", "elastic": "Mezcla aceite-gas, cámara única" },
-          { "label": "Medio de bloqueo", "rigid": "Aceite hidráulico (sellado)", "elastic": "N₂ + aceite lubricante" },
-          { "label": "Desempeño bloqueado", "rigid": "Sin desplazamiento", "elastic": "≤ 5 mm de desplazamiento elástico" },
-          { "label": "Fuerza de bloqueo", "rigid": "Alta (≥ 2.000 N)", "elastic": "Moderada con amortiguación" },
-          { "label": "Relación de compresión", "rigid": "Alta", "elastic": "Baja" },
-          { "label": "Rango de fuerza", "rigid": "200–1.200 N", "elastic": "200–1.200 N" },
-          { "label": "Rango de carrera", "rigid": "50–300 mm", "elastic": "50–500 mm (personalizable)" }
+          {
+            "label": "Estructura interna",
+            "rigid": "Separación aceite-gas, doble cámara",
+            "elastic": "Mezcla aceite-gas, cámara única"
+          },
+          {
+            "label": "Medio de bloqueo",
+            "rigid": "Aceite hidráulico (sellado)",
+            "elastic": "N₂ + aceite lubricante"
+          },
+          {
+            "label": "Desempeño bloqueado",
+            "rigid": "Sin desplazamiento",
+            "elastic": "≤ 5 mm de desplazamiento elástico"
+          },
+          {
+            "label": "Fuerza de bloqueo",
+            "rigid": "Alta (≥ 2.000 N)",
+            "elastic": "Moderada con amortiguación"
+          },
+          {
+            "label": "Relación de compresión",
+            "rigid": "Alta",
+            "elastic": "Baja"
+          },
+          {
+            "label": "Rango de fuerza",
+            "rigid": "200–1.200 N",
+            "elastic": "200–1.200 N"
+          },
+          {
+            "label": "Rango de carrera",
+            "rigid": "50–300 mm",
+            "elastic": "50–500 mm (personalizable)"
+          }
         ]
       },
       "applications": {
@@ -583,19 +644,35 @@
         "imageAlt": "Aplicaciones del resorte de gas bloqueable",
         "medical": {
           "title": "Médico",
-          "items": ["Respaldos de sillas de ruedas", "Ajuste de altura de camas hospitalarias", "Posicionamiento de mesas de operación"]
+          "items": [
+            "Respaldos de sillas de ruedas",
+            "Ajuste de altura de camas hospitalarias",
+            "Posicionamiento de mesas de operación"
+          ]
         },
         "furnitureOffice": {
           "title": "Mobiliario y oficina",
-          "items": ["Ajuste de altura de asientos", "Posicionamiento de bandejas de teclado", "Elevación de soportes de exhibición"]
+          "items": [
+            "Ajuste de altura de asientos",
+            "Posicionamiento de bandejas de teclado",
+            "Elevación de soportes de exhibición"
+          ]
         },
         "industrial": {
           "title": "Industrial",
-          "items": ["Utillajes", "Posicionamiento de equipos", "Ajuste de estaciones de trabajo"]
+          "items": [
+            "Utillajes",
+            "Posicionamiento de equipos",
+            "Ajuste de estaciones de trabajo"
+          ]
         },
         "aviation": {
           "title": "Aviación",
-          "items": ["Compartimentos superiores de avión", "Control de puertas de carga", "Soporte de equipos de cabina"]
+          "items": [
+            "Compartimentos superiores de avión",
+            "Control de puertas de carga",
+            "Soporte de equipos de cabina"
+          ]
         }
       },
       "forcePerformance": {
@@ -622,20 +699,44 @@
         "formulas": {
           "rigid": {
             "desc": "<strong>Bloqueo rígido:</strong> S = carrera de trabajo, L = longitud extendida (mm)",
-            "lines": ["Lmin = 2,4·S + 53 mm", "Smax = L / 2,4 – 22 mm"]
+            "lines": [
+              "Lmin = 2,4·S + 53 mm",
+              "Smax = L / 2,4 – 22 mm"
+            ]
           },
           "elastic": {
             "desc": "<strong>Bloqueo elástico:</strong> S = carrera de trabajo, L = longitud extendida (mm)",
-            "lines": ["Lmin = 2·S + 53 mm", "Smax = L / 2 – 26,5 mm"]
+            "lines": [
+              "Lmin = 2·S + 53 mm",
+              "Smax = L / 2 – 26,5 mm"
+            ]
           }
         },
         "keyParameters": {
-          "force": { "label": "Rango de fuerza", "value": "200–1.200 N" },
-          "stroke": { "label": "Rango de carrera", "value": "50–300 mm (hasta 500 mm)" },
-          "release": { "label": "Mecanismo de liberación", "value": "≤ Ø8 mm pasador lateral o botón superior" },
-          "series": { "label": "Series estándar", "value": "KQ10-22, KQ10-26, KQ10-28" },
-          "life": { "label": "Vida útil de ciclos", "value": "10.000+ ciclos sin fugas" },
-          "retention": { "label": "Retención de presión", "value": "≤ 5 % de caída en 24 horas" }
+          "force": {
+            "label": "Rango de fuerza",
+            "value": "200–1.200 N"
+          },
+          "stroke": {
+            "label": "Rango de carrera",
+            "value": "50–300 mm (hasta 500 mm)"
+          },
+          "release": {
+            "label": "Mecanismo de liberación",
+            "value": "≤ Ø8 mm pasador lateral o botón superior"
+          },
+          "series": {
+            "label": "Series estándar",
+            "value": "KQ10-22, KQ10-26, KQ10-28"
+          },
+          "life": {
+            "label": "Vida útil de ciclos",
+            "value": "10.000+ ciclos sin fugas"
+          },
+          "retention": {
+            "label": "Retención de presión",
+            "value": "≤ 5 % de caída en 24 horas"
+          }
         }
       },
       "manufacturing": {
@@ -678,13 +779,117 @@
           }
         ]
       },
+      "services": {
+        "title": "Ingeniería y Soporte Personalizado",
+        "description": "Ofrecemos soporte de extremo a extremo para garantizar que obtenga la solución perfecta.",
+        "items": [
+          "Diseño e ingeniería colaborativos para cumplir con sus especificaciones",
+          "Prototipado y pruebas rápidas para una validación ágil",
+          "Logística global y entrega a tiempo",
+          "Soporte técnico postventa dedicado"
+        ]
+      },
       "faq": {
         "title": "Preguntas frecuentes",
         "items": [
-          { "q": "¿Cuál es la principal diferencia entre bloqueo rígido y elástico?" },
-          { "q": "¿Cómo calculo la longitud extendida requerida?" },
-          { "q": "¿Qué factor de seguridad debo usar?" },
-          { "q": "¿Pueden personalizar el mecanismo de liberación?" }
+          {
+            "q": "¿Cuál es la principal diferencia entre bloqueo rígido y elástico?"
+          },
+          {
+            "q": "¿Cómo calculo la longitud extendida requerida?"
+          },
+          {
+            "q": "¿Qué factor de seguridad debo usar?"
+          },
+          {
+            "q": "¿Pueden personalizar el mecanismo de liberación?"
+          }
+        ]
+      }
+    },
+    "push-to-unlock-gas-spring": {
+      "hero": {
+        "title": "Resorte de Gas Push-to-Unlock",
+        "subtitle": "También conocido como resorte de gas de bloqueo por fricción o liberable, este componente permite una sujeción precisa y multiposicional de un peso contrabalanceado. Permanece bloqueado de forma segura en cualquier posición hasta que se acciona el pasador de liberación, proporcionando un control de posición fiable y flexible.",
+        "cta": "Obtener una cotización"
+      },
+      "definition": {
+        "title": "¿Qué es un resorte de gas Push-to-Unlock?",
+        "description": "Un resorte de gas push-to-unlock es un tipo de resorte de gas de bloqueo que mantiene una posición fija y solo se libera cuando se presiona un botón o actuador en el extremo del vástago del pistón. A diferencia de los resortes de gas estándar que solo proporcionan asistencia de elevación, estos resortes ofrecen un bloqueo rígido en cualquier posición a lo largo de la carrera. Esta característica es ideal para aplicaciones que requieren un posicionamiento variable y seguro, como sillas ajustables, camas de hospital y tableros de escritorio. El mecanismo interno contiene un embrague de fricción especial o una válvula que se acopla para sostener la carga, garantizando la estabilidad hasta que se activa el mecanismo de liberación."
+      },
+      "mechanism": {
+        "title": "Cómo funciona: el mecanismo de bloqueo",
+        "description": "El núcleo del resorte de gas push-to-unlock es su mecanismo de bloqueo liberable. Dentro del cilindro, un sistema de válvulas separa las cámaras de gas y aceite. Cuando el resorte está en su estado predeterminado (bloqueado), esta válvula impide que el pistón se mueva, proporcionando un soporte rígido. Al presionar el pasador de liberación en el extremo del vástago del pistón se abre la válvula, permitiendo que el gas o el aceite fluyan y el pistón se mueva libremente. Una vez que se alcanza la posición deseada, al soltar el pasador se cierra la válvula y el resorte se bloquea firmemente en su lugar de nuevo. Este diseño simple pero efectivo proporciona un control de movimiento bajo demanda sin necesidad de complejos herrajes de bloqueo externos."
+      },
+        "specs": {
+          "title": "Especificaciones técnicas",
+          "description": "Nuestros resortes de gas push-to-unlock están disponibles en una amplia gama de tamaños, fuerzas y configuraciones para satisfacer las demandas de su aplicación. Las especificaciones clave incluyen:",
+          "tableHeaders": [
+            "Especificación",
+            "Valor"
+          ],
+          "items": [
+            {
+              "name": "Rango de fuerza",
+              "value": "100N a 2500N"
+            },
+            {
+              "name": "Longitud de carrera",
+              "value": "50mm a 800mm"
+            },
+            {
+              "name": "Opciones de material",
+              "value": "Acero, Acero inoxidable (304/316)"
+            },
+            {
+              "name": "Accesorios de extremo",
+              "value": "Una variedad de opciones estándar y personalizadas"
+            },
+            {
+              "name": "Rango de temperatura",
+              "value": "-30°C a +80°C"
+            },
+            {
+              "name": "Certificaciones",
+              "value": "ISO 9001, RoHS, REACH"
+            }
+          ]
+        },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "questions": [
+          {
+            "q": "¿Cuál es la diferencia entre un resorte de gas push-to-unlock y uno de bloqueo estándar?",
+            "a": "Un resorte push-to-unlock se bloquea por defecto y requiere accionamiento (presionar el pasador) para moverse. Otros resortes de bloqueo, como los elásticos, pueden requerir la aplicación de una fuerza para bloquearlos en una posición específica."
+          },
+          {
+            "q": "¿Se puede ajustar la fuerza de bloqueo?",
+            "a": "La fuerza de sujeción está determinada por la presión interna y el diseño del resorte y se establece durante la fabricación. Sin embargo, podemos personalizar la fuerza para que coincida con sus requisitos de carga específicos."
+          },
+          {
+            "q": "¿Es este tipo de resorte adecuado para aplicaciones en exteriores?",
+            "a": "Sí, con los materiales y acabados adecuados, como acero inoxidable o un revestimiento resistente a la niebla salina, estos resortes se pueden utilizar en entornos exteriores y marinos."
+          },
+          {
+            "q": "¿Qué sucede si se presiona accidentalmente el pasador de liberación?",
+            "a": "Si se presiona el pasador de liberación, el resorte se desbloqueará y puede extenderse o comprimirse dependiendo de la carga que esté soportando. Es importante diseñar la aplicación para evitar un accionamiento accidental."
+          }
+        ]
+      },
+      "services": {
+        "title": "Ingeniería y soporte personalizados",
+        "description": "En esencia, somos un equipo de resolución de problemas. Si nuestros resortes de gas push-to-unlock estándar no se ajustan a sus necesidades, nuestros ingenieros trabajarán con usted para diseñar una solución personalizada. Desde curvas de fuerza únicas hasta accesorios de extremo y mecanismos de liberación especializados, ofrecemos:",
+        "items": [
+          "Prototipado rápido: obtenga muestras personalizadas en tan solo una semana.",
+          "Consulta in situ: nuestros expertos pueden ayudarle con el diseño y la instalación.",
+          "Pruebas de rendimiento: validamos cada diseño para garantizar que cumpla con sus estándares de rendimiento y seguridad."
+        ]
+      },
+      "cta": {
+        "title": "¿Listo para empezar?",
+        "desc": [
+          "Póngase en contacto con nuestros ingenieros de ventas hoy mismo para obtener dibujos técnicos detallados, servicios personalizados o pruebas de muestras.",
+          "Le proporcionaremos la solución de resorte de gas Push-to-Unlock más profesional."
         ]
       }
     },

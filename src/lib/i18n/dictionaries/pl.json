@@ -387,6 +387,76 @@
         ]
       }
     },
+    "push-to-unlock-gas-spring": {
+      "hero": {
+        "title": "Sprężyna gazowa Push-to-Unlock: Natychmiastowe, bezpieczne blokowanie",
+        "subtitle": "Doświadcz niezawodnego blokowania na żądanie i płynnego, kontrolowanego zwalniania dzięki naszym zaawansowanym sprężynom gazowym push-to-unlock. Idealne do zastosowań wymagających bezpiecznego pozycjonowania i bezwysiłkowej obsługi.",
+        "cta": "Przeglądaj specyfikacje techniczne/Poproś o niestandardowe rozwiązanie"
+      },
+      "definition": {
+        "title": "Co to jest sprężyna gazowa Push-to-Unlock?",
+        "description": "Sprężyna gazowa push-to-unlock to specjalistyczny typ blokowanej sprężyny gazowej, która domyślnie pozostaje w pozycji zablokowanej. Proste naciśnięcie mechanizmu zwalnia blokadę, umożliwiając kontrolowany ruch. Po zwolnieniu nacisku automatycznie powraca do bezpiecznej, zablokowanej pozycji. Ten projekt jest idealny do zastosowań wymagających zarówno stabilności, jak i szybkiej, bezwysiłkowej regulacji."
+      },
+      "mechanism": {
+        "title": "Jak to działa: Mechanizm blokujący",
+        "description": "Nasze sprężyny gazowe push-to-unlock wykorzystują precyzyjnie zaprojektowany system zaworów. W spoczynku zawór jest zamknięty, tworząc sztywną blokadę. Niewielkie, skupione naciśnięcie aktywuje zawór, otwierając go, aby umożliwić przepływ gazu i oleju w celu płynnego wysuwania lub ściskania. Zwolnienie nacisku ponownie uszczelnia zawór, natychmiast ponownie włączając blokadę. Ten prosty, ale solidny mechanizm gwarantuje niezawodne działanie i wyjątkową trwałość."
+      },
+      "specs": {
+        "title": "Specyfikacje techniczne",
+        "description": "Nasze sprężyny gazowe push-to-unlock są dostępne w szerokiej gamie konfiguracji, aby spełnić Twoje specyficzne potrzeby. Kluczowe specyfikacje obejmują:",
+        "tableHeaders": [
+          "Specyfikacja",
+          "Wartość"
+        ],
+        "items": [
+          { "name": "Zakres siły", "value": "100N do 2500N" },
+          { "name": "Długość skoku", "value": "50mm do 800mm" },
+          { "name": "Opcje materiałowe", "value": "Stal, Stal nierdzewna (304/316)" },
+          { "name": "Końcówki", "value": "Dostępne są różne opcje standardowe i niestandardowe" },
+          { "name": "Zakres temperatur", "value": "-30°C do +80°C" },
+          { "name": "Certyfikaty", "value": "ISO 9001, RoHS, REACH" }
+        ]
+      },
+      "faq": {
+        "title": "Często zadawane pytania",
+        "questions": [
+          {
+            "q": "Jaka jest główna zaleta systemu push-to-unlock?",
+            "a": "Główną zaletą jest bezpieczeństwo i wygoda. Sprężyna domyślnie pozostaje zablokowana, zapobiegając niezamierzonemu ruchowi. Zwalnia się tylko po celowym naciśnięciu, zapewniając bezpieczne i przyjazne dla użytkownika doświadczenie."
+          },
+          {
+            "q": "Czy siłę blokowania można dostosować?",
+            "a": "Tak, możemy dostosować siłę blokowania, prędkość wysuwania i opór ściskania, aby dokładnie odpowiadały wymaganiom Twojej aplikacji. Nasi inżynierowie będą współpracować z Tobą w celu określenia idealnej krzywej wydajności."
+          },
+          {
+            "q": "Czy ten typ sprężyny nadaje się do zastosowań zewnętrznych?",
+            "a": "Oczywiście. Oferujemy wersje ze stali nierdzewnej o zwiększonej odporności na korozję, co czyni je idealnymi do zastosowań morskich, rolniczych i innych wymagających środowisk zewnętrznych."
+          },
+          {
+            "q": "Jaka jest typowa żywotność tych sprężyn?",
+            "a": "Nasze sprężyny gazowe push-to-unlock są zaprojektowane do zastosowań o wysokiej liczbie cykli, a ich typowa żywotność przekracza 50 000 cykli w normalnych warunkach pracy."
+          }
+        ]
+      },
+      "services": {
+        "title": "Inżynieria i wsparcie na zamówienie",
+        "description": "Wykraczamy poza standardowe produkty, aby dostarczać rozwiązania. Nasze usługi obejmują:",
+        "items": [
+          "Projektowanie i prototypowanie na zamówienie",
+          "Analiza krzywej siły i ruchu",
+          "Doradztwo w zakresie materiałów i wykończeń",
+          "Szybka dostawa próbek",
+          "Wsparcie techniczne na miejscu"
+        ]
+      },
+      "cta": {
+        "title": "Gotowy, aby zacząć?",
+        "desc": [
+          "Skontaktuj się z naszymi inżynierami sprzedaży już dziś, aby uzyskać szczegółowe rysunki techniczne, dostosowanie lub testowanie próbek.",
+          "Zapewnimy najbardziej profesjonalne rozwiązania w zakresie sprężyn gazowych push-to-unlock."
+        ]
+      }
+    },
     "lockable-gas-spring": {
       "CTA": {
         "title": "Gotowy, aby znaleźć idealną blokowaną sprężynę gazową?",
@@ -448,15 +518,47 @@
         }
       },
       "comparison": {
-        "headers": ["Cecha", "Sztywne blokowanie", "Elastyczne blokowanie"],
+        "headers": [
+          "Cecha",
+          "Sztywne blokowanie",
+          "Elastyczne blokowanie"
+        ],
         "rows": [
-          { "label": "Struktura wewnętrzna", "rigid": "Separacja oleju i gazu, podwójna komora", "elastic": "Mieszanina oleju i gazu, pojedyncza komora" },
-          { "label": "Medium blokujące", "rigid": "Olej hydrauliczny (uszczelniony)", "elastic": "N₂ + olej smarujący" },
-          { "label": "Zachowanie po zablokowaniu", "rigid": "Brak przemieszczenia", "elastic": "≤ 5 mm elastycznego przemieszczenia" },
-          { "label": "Siła blokowania", "rigid": "Wysoka (≥ 2.000 N)", "elastic": "Umiarkowana z amortyzacją" },
-          { "label": "Współczynnik kompresji", "rigid": "Wysoki", "elastic": "Niski" },
-          { "label": "Zakres sił", "rigid": "200–1.200 N", "elastic": "200–1.200 N" },
-          { "label": "Zakres skoku", "rigid": "50–300 mm", "elastic": "50–500 mm (dostosowywalny)" }
+          {
+            "label": "Struktura wewnętrzna",
+            "rigid": "Separacja oleju i gazu, podwójna komora",
+            "elastic": "Mieszanina oleju i gazu, pojedyncza komora"
+          },
+          {
+            "label": "Medium blokujące",
+            "rigid": "Olej hydrauliczny (uszczelniony)",
+            "elastic": "N₂ + olej smarujący"
+          },
+          {
+            "label": "Zachowanie po zablokowaniu",
+            "rigid": "Brak przemieszczenia",
+            "elastic": "≤ 5 mm elastycznego przemieszczenia"
+          },
+          {
+            "label": "Siła blokowania",
+            "rigid": "Wysoka (≥ 2.000 N)",
+            "elastic": "Umiarkowana z amortyzacją"
+          },
+          {
+            "label": "Współczynnik kompresji",
+            "rigid": "Wysoki",
+            "elastic": "Niski"
+          },
+          {
+            "label": "Zakres sił",
+            "rigid": "200–1.200 N",
+            "elastic": "200–1.200 N"
+          },
+          {
+            "label": "Zakres skoku",
+            "rigid": "50–300 mm",
+            "elastic": "50–500 mm (dostosowywalny)"
+          }
         ]
       },
       "applications": {
@@ -464,19 +566,35 @@
         "imageAlt": "Zastosowania blokowanej sprężyny gazowej",
         "medical": {
           "title": "Medyczne",
-          "items": ["Oparcia wózków inwalidzkich", "Regulacja wysokości łóżek", "Pozycjonowanie stołów operacyjnych"]
+          "items": [
+            "Oparcia wózków inwalidzkich",
+            "Regulacja wysokości łóżek",
+            "Pozycjonowanie stołów operacyjnych"
+          ]
         },
         "furnitureOffice": {
           "title": "Meble i biuro",
-          "items": ["Regulacja wysokości siedziska", "Pozycjonowanie półek na klawiaturę", "Podnośniki stojaków ekspozycyjnych"]
+          "items": [
+            "Regulacja wysokości siedziska",
+            "Pozycjonowanie półek na klawiaturę",
+            "Podnośniki stojaków ekspozycyjnych"
+          ]
         },
         "industrial": {
           "title": "Przemysł",
-          "items": ["Przyrządy i uchwyty", "Pozycjonowanie urządzeń", "Regulacja stanowisk pracy"]
+          "items": [
+            "Przyrządy i uchwyty",
+            "Pozycjonowanie urządzeń",
+            "Regulacja stanowisk pracy"
+          ]
         },
         "aviation": {
           "title": "Lotnictwo",
-          "items": ["Schowki nad głową w samolotach", "Sterowanie drzwiami ładunkowymi", "Podparcie wyposażenia kabiny"]
+          "items": [
+            "Schowki nad głową w samolotach",
+            "Sterowanie drzwiami ładunkowymi",
+            "Podparcie wyposażenia kabiny"
+          ]
         }
       },
       "forcePerformance": {
@@ -503,20 +621,44 @@
         "formulas": {
           "rigid": {
             "desc": "<strong>Sztywne blokowanie:</strong> S = skok roboczy, L = długość wysunięta (mm)",
-            "lines": ["Lmin = 2,4·S + 53 mm", "Smax = L / 2,4 – 22 mm"]
+            "lines": [
+              "Lmin = 2,4·S + 53 mm",
+              "Smax = L / 2,4 – 22 mm"
+            ]
           },
           "elastic": {
             "desc": "<strong>Elastyczne blokowanie:</strong> S = skok roboczy, L = długość wysunięta (mm)",
-            "lines": ["Lmin = 2·S + 53 mm", "Smax = L / 2 – 26,5 mm"]
+            "lines": [
+              "Lmin = 2·S + 53 mm",
+              "Smax = L / 2 – 26,5 mm"
+            ]
           }
         },
         "keyParameters": {
-          "force": { "label": "Zakres sił", "value": "200–1.200 N" },
-          "stroke": { "label": "Zakres skoku", "value": "50–300 mm (do 500 mm)" },
-          "release": { "label": "Mechanizm zwalniania", "value": "≤ Ø8 mm boczny trzpień lub górny przycisk" },
-          "series": { "label": "Serie standardowe", "value": "KQ10-22, KQ10-26, KQ10-28" },
-          "life": { "label": "Żywotność cykli", "value": "10.000+ cykli bez wycieków" },
-          "retention": { "label": "Utrzymanie ciśnienia", "value": "≤ 5% spadku w 24 godziny" }
+          "force": {
+            "label": "Zakres sił",
+            "value": "200–1.200 N"
+          },
+          "stroke": {
+            "label": "Zakres skoku",
+            "value": "50–300 mm (do 500 mm)"
+          },
+          "release": {
+            "label": "Mechanizm zwalniania",
+            "value": "≤ Ø8 mm boczny trzpień lub górny przycisk"
+          },
+          "series": {
+            "label": "Serie standardowe",
+            "value": "KQ10-22, KQ10-26, KQ10-28"
+          },
+          "life": {
+            "label": "Żywotność cykli",
+            "value": "10.000+ cykli bez wycieków"
+          },
+          "retention": {
+            "label": "Utrzymanie ciśnienia",
+            "value": "≤ 5% spadku w 24 godziny"
+          }
         }
       },
       "manufacturing": {
@@ -559,13 +701,31 @@
           }
         ]
       },
+      "services": {
+        "title": "Indywidualne projektowanie i wsparcie techniczne",
+        "description": "Zapewniamy kompleksowe wsparcie, aby zapewnić idealne rozwiązanie.",
+        "items": [
+          "Współpraca w zakresie projektowania i inżynierii w celu dopasowania do Twoich specyfikacji",
+          "Szybkie prototypowanie i testowanie w celu szybkiej walidacji",
+          "Globalna logistyka i dostawa na czas",
+          "Dedykowane wsparcie techniczne po sprzedaży"
+        ]
+      },
       "faq": {
         "title": "Często zadawane pytania",
         "items": [
-          { "q": "Jaka jest główna różnica między blokowaniem sztywnym a elastycznym?" },
-          { "q": "Jak obliczyć wymaganą długość wysuniętą?" },
-          { "q": "Jaki współczynnik bezpieczeństwa należy zastosować?" },
-          { "q": "Czy można dostosować mechanizm zwalniania?" }
+          {
+            "q": "Jaka jest główna różnica między blokowaniem sztywnym a elastycznym?"
+          },
+          {
+            "q": "Jak obliczyć wymaganą długość wysuniętą?"
+          },
+          {
+            "q": "Jaki współczynnik bezpieczeństwa należy zastosować?"
+          },
+          {
+            "q": "Czy można dostosować mechanizm zwalniania?"
+          }
         ]
       }
     },
