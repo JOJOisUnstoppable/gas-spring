@@ -196,9 +196,18 @@
         "keyCharacteristics": {
           "title": "Key Characteristics",
           "items": [
-            { "label": "Product Name", "value": "Tension Gas Spring / Pull Gas Spring / Reverse Action Gas Spring" },
-            { "label": "Free State", "value": "The piston rod is in the \"retracted\" position" },
-            { "label": "Working Characteristic", "value": "Extends when pulled, automatically retracts when released" }
+            {
+              "label": "Product Name",
+              "value": "Tension Gas Spring / Pull Gas Spring / Reverse Action Gas Spring"
+            },
+            {
+              "label": "Free State",
+              "value": "The piston rod is in the \"retracted\" position"
+            },
+            {
+              "label": "Working Characteristic",
+              "value": "Extends when pulled, automatically retracts when released"
+            }
           ]
         },
         "mainFunction": {
@@ -215,12 +224,32 @@
       "classification": {
         "title": "2. Structural Classification and Performance Differences",
         "table": {
-          "headers": ["Type", "Single Tube", "Double Tube"],
+          "headers": [
+            "Type",
+            "Single Tube",
+            "Double Tube"
+          ],
           "rows": [
-            { "label": "Rebound Speed", "single": "Fast", "double": "Slower, more stable" },
-            { "label": "Force Progression Rate", "single": "High (100 N → 170-180 N)", "double": "Low (100 N → ~150 N)" },
-            { "label": "Closed Length Advantage", "single": "Shorter (L ≥ 2S + 45)", "double": "Longer (L ≥ 2S + 70)" },
-            { "label": "Applicability", "single": "Tight spaces, acceptable force progression", "double": "Stable force, high safety guidance requirements" }
+            {
+              "label": "Rebound Speed",
+              "single": "Fast",
+              "double": "Slower, more stable"
+            },
+            {
+              "label": "Force Progression Rate",
+              "single": "High (100 N → 170-180 N)",
+              "double": "Low (100 N → ~150 N)"
+            },
+            {
+              "label": "Closed Length Advantage",
+              "single": "Shorter (L ≥ 2S + 45)",
+              "double": "Longer (L ≥ 2S + 70)"
+            },
+            {
+              "label": "Applicability",
+              "single": "Tight spaces, acceptable force progression",
+              "double": "Stable force, high safety guidance requirements"
+            }
           ]
         },
         "cards": {
@@ -358,6 +387,94 @@
         ]
       }
     },
+    "push-to-unlock-gas-spring": {
+      "hero": {
+        "title": "Push-to-Unlock Gas Spring: Instant, Secure Locking",
+        "subtitle": "Experience reliable, on-demand locking and smooth, controlled release with our advanced push-to-unlock gas springs. Ideal for applications requiring secure positioning and effortless operation.",
+        "cta": "Explore Technical Specs/Request a Custom Solution"
+      },
+      "cta": {
+        "title": "Ready to find your perfect push-to-unlock gas spring?",
+        "desc": [
+          "Our engineering team can assist with selection, customization, and rapid delivery.",
+          "Contact us today for a detailed quote or technical consultation."
+        ]
+      },
+      "definition": {
+        "title": "What is a Push-to-Unlock Gas Spring?",
+        "description": "A Push-to-Unlock Gas Spring is a specialized type of lockable gas spring that remains in a locked state by default. The lock is released by simply pushing the mechanism, allowing for controlled movement. Once the external force is removed, it automatically returns to a secure, locked position. This design is perfect for applications demanding both stability and quick, easy adjustments."
+      },
+      "mechanism": {
+        "title": "How It Works: The Locking Mechanism",
+        "description": "Our Push-to-Unlock Gas Springs feature a precision-engineered valve system. In its resting state, the valve is closed, creating a rigid lock. A small, targeted push actuates the valve, opening it and allowing the gas and oil to flow, enabling smooth extension or compression. Releasing the push reseals the valve, instantly re-engaging the lock. This simple yet robust mechanism ensures fail-safe performance and exceptional durability."
+      },
+      "specs": {
+        "title": "Technical Specifications",
+        "description": "Our Push-to-Unlock Gas Springs are available in a wide range of configurations to meet your specific needs. Key specifications include:",
+        "tableHeaders": [
+          "Specification",
+          "Value"
+        ],
+        "items": [
+          {
+            "name": "Force Range",
+            "value": "100N to 2500N"
+          },
+          {
+            "name": "Stroke Length",
+            "value": "50mm to 800mm"
+          },
+          {
+            "name": "Material Options",
+            "value": "Steel, Stainless Steel (304/316)"
+          },
+          {
+            "name": "End Fittings",
+            "value": "Variety of standard and custom options"
+          },
+          {
+            "name": "Temperature Range",
+            "value": "-30°C to +80°C"
+          },
+          {
+            "name": "Certifications",
+            "value": "ISO 9001, RoHS, REACH"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "q": "What is the primary advantage of a push-to-unlock system?",
+            "a": "The main benefit is safety and convenience. The spring is always locked, preventing accidental movement. It only releases when intentionally pushed, providing a secure and user-friendly experience."
+          },
+          {
+            "q": "Can the locking force be customized?",
+            "a": "Yes, we can tailor the locking force, extension speed, and compression resistance to your exact application requirements. Our engineers will work with you to define the perfect performance profile."
+          },
+          {
+            "q": "Is this type of spring suitable for outdoor applications?",
+            "a": "Absolutely. We offer stainless steel versions with enhanced corrosion resistance, making them ideal for marine, agricultural, and other demanding outdoor environments."
+          },
+          {
+            "q": "What is the typical lifespan of these springs?",
+            "a": "Our Push-to-Unlock Gas Springs are designed for high-cycle applications, with a typical service life exceeding 50,000 cycles under normal operating conditions."
+          }
+        ]
+      },
+      "services": {
+        "title": "Custom Engineering & Support",
+        "description": "We go beyond standard products to provide solutions. Our services include:",
+        "items": [
+          "Custom design and prototyping",
+          "Force and motion profile analysis",
+          "Material and finish consultation",
+          "Rapid sample delivery",
+          "On-site technical support"
+        ]
+      }
+    },
     "lockable-gas-spring": {
       "CTA": {
         "title": "Ready to Find Your Perfect Lockable Gas Spring?",
@@ -419,15 +536,47 @@
         }
       },
       "comparison": {
-        "headers": ["Feature", "Rigid Locking", "Elastic Locking"],
+        "headers": [
+          "Feature",
+          "Rigid Locking",
+          "Elastic Locking"
+        ],
         "rows": [
-          { "label": "Internal Structure", "rigid": "Oil-gas separation, dual chamber", "elastic": "Oil-gas mixture, single chamber" },
-          { "label": "Locking Medium", "rigid": "Hydraulic oil (sealed)", "elastic": "N₂ + lubricating oil" },
-          { "label": "Locked Performance", "rigid": "Zero displacement", "elastic": "≤ 5 mm elastic displacement" },
-          { "label": "Locking Force", "rigid": "High (≥ 2,000 N)", "elastic": "Moderate with cushioning" },
-          { "label": "Compression Ratio", "rigid": "High", "elastic": "Low" },
-          { "label": "Force Range", "rigid": "200–1,200 N", "elastic": "200–1,200 N" },
-          { "label": "Stroke Range", "rigid": "50–300 mm", "elastic": "50–500 mm (customizable)" }
+          {
+            "label": "Internal Structure",
+            "rigid": "Oil-gas separation, dual chamber",
+            "elastic": "Oil-gas mixture, single chamber"
+          },
+          {
+            "label": "Locking Medium",
+            "rigid": "Hydraulic oil (sealed)",
+            "elastic": "N₂ + lubricating oil"
+          },
+          {
+            "label": "Locked Performance",
+            "rigid": "Zero displacement",
+            "elastic": "≤ 5 mm elastic displacement"
+          },
+          {
+            "label": "Locking Force",
+            "rigid": "High (≥ 2,000 N)",
+            "elastic": "Moderate with cushioning"
+          },
+          {
+            "label": "Compression Ratio",
+            "rigid": "High",
+            "elastic": "Low"
+          },
+          {
+            "label": "Force Range",
+            "rigid": "200–1,200 N",
+            "elastic": "200–1,200 N"
+          },
+          {
+            "label": "Stroke Range",
+            "rigid": "50–300 mm",
+            "elastic": "50–500 mm (customizable)"
+          }
         ]
       },
       "applications": {
@@ -490,20 +639,44 @@
         "formulas": {
           "rigid": {
             "desc": "<strong>Rigid Locking:</strong> S = working stroke, L = extended length (mm)",
-            "lines": ["Lmin = 2.4·S + 53 mm", "Smax = L / 2.4 – 22 mm"]
+            "lines": [
+              "Lmin = 2.4·S + 53 mm",
+              "Smax = L / 2.4 – 22 mm"
+            ]
           },
           "elastic": {
             "desc": "<strong>Elastic Locking:</strong> S = working stroke, L = extended length (mm)",
-            "lines": ["Lmin = 2·S + 53 mm", "Smax = L / 2 – 26.5 mm"]
+            "lines": [
+              "Lmin = 2·S + 53 mm",
+              "Smax = L / 2 – 26.5 mm"
+            ]
           }
         },
         "keyParameters": {
-          "force": { "label": "Force Range", "value": "200–1,200 N" },
-          "stroke": { "label": "Stroke Range", "value": "50–300 mm (up to 500 mm)" },
-          "release": { "label": "Release Mechanism", "value": "≤ Ø8 mm pin or top button" },
-          "series": { "label": "Standard Series", "value": "KQ10-22, KQ10-26, KQ10-28" },
-          "life": { "label": "Cycle Life", "value": "10,000+ cycles without leakage" },
-          "retention": { "label": "Pressure Retention", "value": "≤ 5% drop over 24 hours" }
+          "force": {
+            "label": "Force Range",
+            "value": "200–1,200 N"
+          },
+          "stroke": {
+            "label": "Stroke Range",
+            "value": "50–300 mm (up to 500 mm)"
+          },
+          "release": {
+            "label": "Release Mechanism",
+            "value": "≤ Ø8 mm pin or top button"
+          },
+          "series": {
+            "label": "Standard Series",
+            "value": "KQ10-22, KQ10-26, KQ10-28"
+          },
+          "life": {
+            "label": "Cycle Life",
+            "value": "10,000+ cycles without leakage"
+          },
+          "retention": {
+            "label": "Pressure Retention",
+            "value": "≤ 5% drop over 24 hours"
+          }
         }
       },
       "manufacturing": {
@@ -549,10 +722,18 @@
       "faq": {
         "title": "Frequently Asked Questions",
         "items": [
-          { "q": "What's the main difference between rigid and elastic locking?" },
-          { "q": "How do I calculate the required extended length?" },
-          { "q": "What safety factor should I use?" },
-          { "q": "Can you customize the release mechanism?" }
+          {
+            "q": "What's the main difference between rigid and elastic locking?"
+          },
+          {
+            "q": "How do I calculate the required extended length?"
+          },
+          {
+            "q": "What safety factor should I use?"
+          },
+          {
+            "q": "Can you customize the release mechanism?"
+          }
         ]
       }
     },
@@ -596,25 +777,25 @@
         "title": "Why Choose DK Marine Gas Springs?",
         "advantages": [
           {
-            "iconSrc":"/images/icons/premium-stainless-steel.svg",
+            "iconSrc": "/images/icons/premium-stainless-steel.svg",
             "iconAlt": "Premium Stainless Steel​",
             "title": "Premium Stainless Steel​",
             "description": "304/316 grades available—superior corrosion resistance in fresh/saltwater, outperforming standard steel for marine use. Special needs? Our engineers offer technical discussions anytime.​"
           },
           {
-            "iconSrc":"/images/icons/ultra-fast-delivery.svg",
+            "iconSrc": "/images/icons/ultra-fast-delivery.svg",
             "iconAlt": "Ultra-Fast Delivery​",
             "title": "Ultra-Fast Delivery​",
             "description": "Standard orders: as fast as 2 weeks. Expedited options for urgent needs—get parts when you need them.​"
           },
           {
-            "iconSrc":"/images/icons/tailored-custom-engineering.svg",
+            "iconSrc": "/images/icons/tailored-custom-engineering.svg",
             "iconAlt": "Tailored Custom Engineering​",
             "title": "Tailored Custom Engineering​",
             "description": "No off-the-shelf limits: free design consulting + custom solutions, $0 customization fees. Engineers align with your specs for a perfect fit—your long-term partner.​ fit."
           },
           {
-            "iconSrc":"/images/icons/hassle-free-usa-support.svg",
+            "iconSrc": "/images/icons/hassle-free-usa-support.svg",
             "iconAlt": "Hassle-Free USA Support​",
             "title": "Hassle-Free USA Support​",
             "description": "Quotes include tariffs (no fluctuation worries) + cost savings. 24/7 U.S.-based technical support—reliable, local help.​​"
