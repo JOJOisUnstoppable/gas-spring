@@ -1,5 +1,6 @@
 import GasSpringForceCurve from '@/components/visualization/GasSpringForceCurve';
 import { Locale } from '@/lib/i18n/config';
+import Link from 'next/link';
 
 export default async function VisualizationDemoPage(
   props: {
@@ -11,6 +12,12 @@ export default async function VisualizationDemoPage(
 
   return (
     <div className="container mx-auto py-12 px-4 bg-gray-50 min-h-screen">
+      <div className="mb-6">
+        <Link href={`/${locale}`} className="text-blue-600 hover:underline">
+          &larr; Back to Home ({locale})
+        </Link>
+      </div>
+
       <h1 className="text-3xl font-bold mb-8 text-center">Gas Spring Force Curve Visualization</h1>
       
       <div className="max-w-4xl mx-auto space-y-12">

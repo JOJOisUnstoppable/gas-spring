@@ -154,7 +154,7 @@ const GasSpringForceCurve: React.FC<GasSpringForceCurveProps> = ({
               label={{ value: '力 (N)', angle: -90, position: 'insideLeft' }}
             />
             <Tooltip 
-              formatter={(value: any) => [`${value} N`, '']}
+              formatter={(value: any, name: any) => [`${value} N`, '']}
               labelFormatter={(label) => `位移: ${label} mm`}
               contentStyle={{ borderRadius: '8px', border: '1px solid #ddd' }}
             />
