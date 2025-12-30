@@ -16,7 +16,6 @@ import {
   Tooltip,
   ResponsiveContainer,
   ReferenceDot,
-  ReferenceLine
 } from 'recharts';
 
 /**
