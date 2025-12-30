@@ -1,9 +1,50 @@
 'use client'
 
 import { Button } from '@/components/ui/button'
-import { PusDict } from '@/lib/i18n/dictionaries/PusDict'
 import CTA from '@/components/products/CTA'
 import { Locale } from '@/lib/i18n/config'
+
+export type PusDict = {
+  hero: {
+    title: string;
+    subtitle: string;
+    cta: string;
+  };
+  definition: {
+    title: string;
+    description: string;
+  };
+  mechanism: {
+    title: string;
+    description: string;
+  };
+  specs: {
+    title: string;
+    description: string;
+    tableHeaders: string[];
+    items: {
+      name: string;
+      value: string;
+    }[];
+  };
+  faq: {
+    title: string;
+    questions: {
+      q: string;
+      a: string;
+    }[];
+  };
+  services: {
+    title: string;
+    description: string;
+    items: string[];
+  };
+  cta: {
+    title: string;
+    desc: string[];
+  };
+};
+
 
 interface PushToUnlockGasSpringProps {
   dict: PusDict

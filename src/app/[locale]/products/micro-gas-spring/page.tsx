@@ -1,6 +1,6 @@
 import { Locale } from '@/lib/i18n/config'
 import MicroGasSpring from '@/components/products/MicroGasSpring'
-import CTA from '@/components/products/CTA'
+import { getDictionary } from '@/lib/i18n/getDictionary'
 
 export default async function Page(
   props: {
@@ -9,20 +9,9 @@ export default async function Page(
 ) {
   const params = await props.params
   const { locale } = params
+  const dict = await getDictionary(locale)
 
   return (
-    <>
-      <MicroGasSpring />
-      <section id="cta">
-        <CTA
-          title={'Ready to Find Your Perfect Micro Gas Spring?'}
-          desc={[
-            'Our technical team is ready to assist with selection, customization, and rapid delivery.',
-            'Contact us today for a detailed quotation or technical consultation.'
-          ]}
-          locale={locale}
-        />
-      </section>
-    </>
+    <MicroGasSpring dict={dict.products['micro-gas-spring']} locale={locale} />
   )
 }

@@ -387,6 +387,357 @@
         ]
       }
     },
+    "compression-gas-spring": {
+      "hero": {
+        "title": "Compression Gas Spring",
+        "subtitle": "Compression Gas Spring (Gas Strut) - Technical Guide",
+        "cta": "Get Technical Specs"
+      },
+      "overview": {
+        "tabName": "Overview",
+        "card": {
+          "title": "Product Definition & Applications",
+          "content": {
+            "title": "Product Definition & Typical Applications",
+            "definition": "Compression Gas Spring (also known as Gas Strut, Gas Spring, Gas Lift, or Support Rod) is an industrial component that uses high-pressure inert gas (typically nitrogen) to provide controlled support, buffering, and lifting force. It's widely used in applications requiring precise, smooth motion control.",
+            "coreFunction": {
+              "title": "Core Function",
+              "description": "Through compressed nitrogen, gas springs provide stable lifting force to assist in opening, supporting, and cushioning heavy components."
+            },
+            "applications": {
+              "title": "Typical Applications",
+              "items": [
+                {
+                  "name": "Automotive:",
+                  "value": "Tailgate, engine hood, trunk lid"
+                },
+                {
+                  "name": "Medical Devices:",
+                  "value": "Maintenance covers, bed adjustment mechanisms"
+                },
+                {
+                  "name": "Furniture:",
+                  "value": "Flip-up doors, cabinet doors, height-adjustable tables"
+                },
+                {
+                  "name": "Industrial Machinery:",
+                  "value": "Equipment enclosures, maintenance covers, safety guards"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "specs": {
+        "tabName": "Specifications",
+        "card": {
+          "title": "Core Parameters & Selection Guide",
+          "description": "Key technical specifications and selection criteria",
+          "techSpecs": {
+            "title": "Key Technical Specifications",
+            "table": {
+              "headers": [
+                "Parameter",
+                "Range",
+                "Description"
+              ],
+              "rows": [
+                {
+                  "parameter": "Force (N)",
+                  "range": "50 - 5,000",
+                  "description": "Determines support capacity"
+                },
+                {
+                  "parameter": "Stroke (mm)",
+                  "range": "30 - 700",
+                  "description": "Piston rod extension distance"
+                },
+                {
+                  "parameter": "Full Length",
+                  "range": "Custom",
+                  "description": "Overall extended length (center-to-center)"
+                },
+                {
+                  "parameter": "Rod Diameter",
+                  "range": "6 - 14 mm",
+                  "description": "Affects bending stiffness and sealing"
+                },
+                {
+                  "parameter": "Cylinder Diameter",
+                  "range": "15 - 40 mm",
+                  "description": "Relates to internal gas volume"
+                }
+              ]
+            }
+          },
+          "selectionGuide": {
+            "title": "Selection Guide",
+            "items": [
+              "Define application and required motion behavior",
+              "Measure extended and compressed center-to-center lengths",
+              "Determine target force based on load and geometry",
+              "Choose end fittings compatible with mounting points",
+              "Select options (damping, coating, corrosion resistance)"
+            ]
+          },
+          "endFittings": {
+            "title": "End Fittings",
+            "items": [
+              "Ball-joint sockets",
+              "Eyelets and clevis",
+              "Brackets and studs"
+            ]
+          },
+          "options": {
+            "title": "Options",
+            "items": [
+              "Damping performance is customizable"
+            ]
+          },
+          "connectionTypes": {
+            "title": "Connection Types"
+          },
+          "surfaceTreatments": {
+            "title": "Surface Treatments",
+            "card": {
+              "title": "Surface Treatment",
+              "items": [
+                "Black electroplating",
+                "QPQ nitriding",
+                "Polished SS304/SS316"
+              ]
+            }
+          },
+          "qualityCerts": {
+            "title": "Quality Certifications",
+            "items": [
+              "ISO9001",
+              "TS16949",
+              "RoHS",
+              "CE",
+              "96h Salt Spray",
+              "SGS"
+            ]
+          }
+        }
+      },
+      "testing": {
+        "tabName": "Testing",
+        "card": {
+          "standardConditions": {
+            "title": "Standard Test Conditions",
+            "speed": {
+              "label": "Test Speed",
+              "value": "400 mm/min"
+            },
+            "temperature": {
+              "label": "Temperature",
+              "value": "20°C"
+            }
+          },
+          "fourPointForce": {
+            "title": "Four-Point Force Definition",
+            "items": [
+              {
+                "point": "F1",
+                "title": "Force at 10mm before full extension",
+                "description": "Nominal lifting force (main selection criterion)"
+              },
+              {
+                "point": "F2",
+                "title": "Force at 10mm before full compression",
+                "description": "Extension start force"
+              },
+              {
+                "point": "F3",
+                "title": "Force at 10mm after full extension",
+                "description": "Compression start force"
+              },
+              {
+                "point": "F4",
+                "title": "Force at 10mm before full compression",
+                "description": "Final force before full compression"
+              }
+            ]
+          }
+        }
+      },
+      "cta": {
+        "title": "Ready to Customize Your Compression Gas Spring?",
+        "desc": [
+          "Our expert team is here to help you configure the perfect solution.",
+          "Contact us for a personalized quote or in-depth technical discussion."
+        ]
+      }
+    },
+    "micro-gas-spring": {
+      "hero": {
+        "title": "Micro Gas Spring Solutions",
+        "description": "Precision-engineered miniature gas springs for compact spaces—delivering light thrust, short stroke, and silent operation",
+        "cta": "Get Technical Specs/Request Quote"
+      },
+      "definition": {
+        "title": "1. Product Definition",
+        "content": [
+          "Micro Gas Spring, also known as <strong>miniature gas spring</strong>, <strong>micro gas strut</strong>, or <strong>small gas spring</strong>, is a precision product created by proportionally scaling down standard gas springs.",
+          "These compact actuators are engineered for applications where space is at a premium and performance cannot be compromised. Whether supporting inspection hatches in medical devices or enabling smooth operation in handheld tools, micro gas springs deliver reliable, whisper-quiet motion control."
+        ],
+        "quote": "The core value lies in meeting the stringent demands of confined spaces for <strong>&quot;light thrust, short stroke, and low noise&quot;</strong>—making it an irreplaceable precision micro-actuator where traditional mechanical springs or standard gas springs fall short."
+      },
+      "specifications": {
+        "title": "2. Core Dimensions & Force Values",
+        "description": "Micro gas springs feature ultra-compact design with refined force options to accommodate diverse miniaturized equipment requirements.",
+        "tableHeaders": [
+          "Parameter",
+          "Specification Range",
+          "Remarks"
+        ],
+        "items": [
+          {
+            "parameter": "Tube Diameter (Ø)",
+            "spec": "8 mm / <span class=\"rounded bg-accent/20 px-2 py-0.5\">10 mm</span>",
+            "remark": "10 mm is the market standard, most widely applied."
+          },
+          {
+            "parameter": "Rod Diameter (Ø)",
+            "spec": "4 mm / 5 mm / 6 mm",
+            "remark": "Rod diameter determines load capacity and structural strength."
+          },
+          {
+            "parameter": "Stroke",
+            "spec": "20 – 130 mm",
+            "remark": "Increments of 5 mm provide flexible selection options."
+          },
+          {
+            "parameter": "Force (Thrust)",
+            "spec": "30 – 120 N",
+            "remark": "<span class=\"rounded bg-accent/20 px-2 py-0.5\">30 / 50 / 80 / 100 N</span> are standard stock configurations."
+          },
+          {
+            "parameter": "Unit Weight",
+            "spec": "≤ 60 g",
+            "remark": "Applies to 10–100 mm stroke range; ideal for weight-sensitive designs."
+          }
+        ]
+      },
+      "performance": {
+        "title": "3. Performance Indicators",
+        "description": "While maintaining ultra-compact dimensions, micro gas springs are optimized for performance, with particular emphasis on <strong>low noise</strong> and <strong>extended service life</strong>.",
+        "tableHeaders": [
+          "Performance Indicator",
+          "Standard Requirement",
+          "Remarks"
+        ],
+        "items": [
+          {
+            "indicator": "Dynamic Noise Level",
+            "requirement": "≤ 45 dB (@ 0.3 m distance)",
+            "remark": "Ensures quiet operation, meeting precision instrument requirements."
+          },
+          {
+            "indicator": "Cycle Life",
+            "requirement": "≥ 50,000 cycles",
+            "remark": "Guaranteed leak-free operation under rated load and stroke."
+          },
+          {
+            "indicator": "Salt Spray Test",
+            "requirement": "24 h: white rust ≤ 5%",
+            "remark": "Standard corrosion resistance; 48 h premium option available."
+          },
+          {
+            "indicator": "Unlock Force",
+            "requirement": "15 – 25 N",
+            "remark": "Precise unlock force control for self-locking variants."
+          }
+        ]
+      },
+      "connectors": {
+        "title": "4. End Connector Types",
+        "description": "To accommodate diverse installation environments, micro gas springs offer multiple end connector options for rapid, reliable integration.",
+        "tableHeaders": [
+          "Connector Type",
+          "Specification",
+          "Typical Application"
+        ],
+        "items": [
+          {
+            "type": "Metal Threaded",
+            "spec": "M5×0.8 thread (rod end & tube end)",
+            "application": "High-strength applications, precise alignment, or nut-fixed installations."
+          },
+          {
+            "type": "Plastic Quick-Lock",
+            "spec": "Push-fit into Ø6 hole (no nut required)",
+            "application": "Fast assembly, plastic or thin-sheet structures; greatly simplifies installation."
+          },
+          {
+            "type": "Ball Joint",
+            "spec": "Ø6 mm stainless steel ball / POM socket",
+            "application": "Requires 180° rotation or multi-angle articulation in complex linkages."
+          }
+        ]
+      },
+      "applications": {
+        "title": "5. Typical Applications",
+        "description": "Leveraging their compact size, lightweight design, and precise thrust characteristics, micro gas springs are extensively deployed in space and weight-sensitive precision equipment.",
+        "items": [
+          {
+            "title": "Small Inspection Hatches:",
+            "description": "Medical POCT (Point-of-Care Testing) devices, analytical instruments—providing lid support and cushioning."
+          },
+          {
+            "title": "Handheld Tool Access Doors:",
+            "description": "Electric torque wrenches, precision measurement instruments—enabling smooth battery cover or service hatch operation."
+          },
+          {
+            "title": "Mini Drawer Auto-Eject:",
+            "description": "Cash registers, test fixtures, precision storage cabinets—delivering gentle, automatic drawer extension."
+          },
+          {
+            "title": "Unmanned Aerial Vehicle (UAV) Payload Doors:",
+            "description": "In <strong>weight-critical applications</strong>, providing reliable hatch actuation while minimizing payload burden."
+          }
+        ]
+      },
+      "faq": {
+        "title": "6. Customer FAQs & Response Templates",
+        "description": "Below are the most frequently asked questions during selection and quotation, with professional responses to quickly identify customer needs.",
+        "items": [
+          {
+            "question": "① Can you manufacture 8 mm tube diameter?",
+            "answer": "<strong>Yes</strong>, but with limitations: maximum force is 60 N, stroke ≤ 80 mm; minimum order quantity (MOQ) is 500 units.",
+            "tag": "8 mm specs: force/stroke/MOQ constraints"
+          },
+          {
+            "question": "② Can noise be reduced below 40 dB?",
+            "answer": "Achievable at <span class=\"rounded bg-accent/20 px-2 py-0.5\">30–50 N</span> force range, reaching <span class=\"rounded bg-accent/20 px-2 py-0.5\">38 dB</span>. Requires secondary oil tuning and sample testing on customer equipment for validation.",
+            "tag": "38 dB requires: force range / oil tuning / field testing"
+          },
+          {
+            "question": "③ What is the fastest lead time?",
+            "answer": "Standard forces <span class=\"rounded bg-accent/20 px-2 py-0.5\">30/50/80 N</span> and strokes <span class=\"rounded bg-accent/20 px-2 py-0.5\">60/80/100 mm</span> maintain stock of 1,000 units, enabling <span class=\"rounded bg-accent/20 px-2 py-0.5\">48-hour shipment</span>. Custom configurations require 10 days.",
+            "tag": "Stock specs: 48 h delivery"
+          },
+          {
+            "question": "④ Can weight be further reduced?",
+            "answer": "Optional <span class=\"rounded bg-accent/20 px-2 py-0.5\">full aluminum tube + POM end connector</span> configuration achieves <span class=\"rounded bg-accent/20 px-2 py-0.5\">18% weight reduction</span> at same specifications, though cycle life decreases approximately 20%.",
+            "tag": "Lightweight option: 18% lighter, 20% shorter life"
+          },
+          {
+            "question": "⑤ What certifications are available?",
+            "answer": "Standard certifications include <span class=\"rounded bg-accent/20 px-2 py-0.5\">RoHS and REACH</span> compliance. Medical-grade <span class=\"rounded bg-accent/20 px-2 py-0.5\">ISO 10993 biocompatibility</span> certification requires an additional 7 days.",
+            "tag": "Default: RoHS/REACH; Optional: ISO 10993"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to Find Your Perfect Micro Gas Spring?",
+        "desc": [
+          "Our technical team is ready to assist with selection, customization, and rapid delivery.",
+          "Contact us today for a detailed quotation or technical consultation."
+        ]
+      }
+    },
     "push-to-unlock-gas-spring": {
       "hero": {
         "title": "Push-to-Unlock Gas Spring: Instant, Secure Locking",
