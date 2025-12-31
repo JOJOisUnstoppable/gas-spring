@@ -21,7 +21,7 @@ items:
     title: What is Compression Gas Spring?
     category: gas-spring
     image: /images/products_page/compress_gas_spring.jpg
-    description: A compression gas spring is a versatile industrial component that excels in supporting, buffering, braking, and adjusting height and angle.
+    description: Compression gas spring – instant lift & soft-close for hatch, lid or table. 30–5,000 N, steel/stainless, custom ends, ISO 9001.  
     WhatIsCGSParts:
       Title: What is Compression Gas Spring
       StruAndFunc:
@@ -58,13 +58,13 @@ items:
     title: What is Lockable Gas Spring?
     category: gas-spring
     image: /images/products_page/lockable_gas_spring.jpg
-    description: LGS stands for Locking Gas Spring. It is a type of gas spring that has a locking mechanism built into it.
+    description: Lockable gas spring – rigid or elastic stop at any position. Trigger button. Perfect for seat, backrest or monitor arm.  
     Desc: 'LGS stands for Locking Gas Spring. It is a type of gas spring that has a locking mechanism built into it. This means that once the spring is compressed, it cannot be released unless the locking mechanism is broken. LGS is commonly used in applications where it is necessary to ensure that the spring is compressed to a certain point before it can be released. For example, in a door lock, the LGS is used to ensure that the door is locked when the key is removed.'
   - id: stainless-gas-spring
     category: gas-spring
     image: /images/products_page/stainless_steel_gas_spring.jpg
     title: What is Stainless Gas Spring?
-    description: 'Stainless steel gas springs are a specialized version of standard gas springs.'
+    description: 304/316L stainless gas spring – marine, medical & food machinery.  
     Desc: 'Stainless steel gas springs are a specialized version of standard gas springs. While sharing core functions like force generation, customizable sizing, and damping options, their key difference lies in construction material—they use high-grade stainless steel (V2A/304 or V4A/316L) for superior corrosion resistance in harsh conditions where standard carbon steel fails.'
     MaterialTable:
       Title: 'Material & Corrosion Resistance Comparison'
@@ -97,7 +97,7 @@ items:
     category: gas-spring
     title: What is Tension Gas Spring?
     image: /images/products_page/tension_gas_spring.jpg
-    description: 'Compared with standard gas springs, standard gas springs provide thrust force, while tension gas springs provide tension force.'
+    description: Tension gas spring – pulls instead of pushes. stroke, secure cable-tie mounting. Perfect for retractable canopy，awning or limited space application.
     Diff:
       Desc: 'The main difference between standard gas springs and tension gas springs (Gas Traction Springs) lies in the direction of the force they generate.'
       List:
@@ -109,13 +109,13 @@ items:
   - id: micro-gas-spring
     category: gas-spring
     title: What is Micro Gas Spring?
-    image: /images/product/product-gs-003.jpg
-    description: 'Micro gas springs are a type of gas spring that is designed to be small in size and light in weight. They are commonly used in applications where space is a constraint, such as in automotive and industrial settings.'
+    image: /images/products_page/micro-gas-spring.png
+    description: Micro gas spring – pocket-size 8 mm rod, 5–120 N. Fits drone arm, small lid or VR headset.  
     Diff:
   - id: push-to-unlock-gas-spring
     category: gas-spring
     title: What is Push-to-unlock Gas Spring?
     image: /images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg
-    description: 'One-hand operation. Compression self-locking. Quick release. The Push-to-Unlock Gas Spring is an advanced solution designed for applications requiring quick folding, positioning, and release.'
+    description: Push-to-unlock gas spring – one-hand press on rod to release. 150–800 N, ideal for emergency exit, tool chest, hight-adjustable table.
     Diff:
 ---

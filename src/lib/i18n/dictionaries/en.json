@@ -394,12 +394,12 @@
         "cta": "Get Technical Specs"
       },
       "overview": {
-        "tabName": "Overview",
+        "tabName": "",
         "card": {
-          "title": "Product Definition & Applications",
+          "title": "",
           "content": {
-            "title": "Product Definition & Typical Applications",
-            "definition": "Compression Gas Spring (also known as Gas Strut, Gas Spring, Gas Lift, or Support Rod) is an industrial component that uses high-pressure inert gas (typically nitrogen) to provide controlled support, buffering, and lifting force. It's widely used in applications requiring precise, smooth motion control.",
+            "title": "Compression Gas Spring",
+            "definition": " (also known as Gas Strut, Gas Spring, Gas Lift, or Support Rod) is an industrial component that uses high-pressure inert gas (typically nitrogen) to provide controlled support, buffering, and lifting force. It's widely used in applications requiring precise, smooth motion control.",
             "coreFunction": {
               "title": "Core Function",
               "description": "Through compressed nitrogen, gas springs provide stable lifting force to assist in opening, supporting, and cushioning heavy components."
@@ -429,12 +429,10 @@
         }
       },
       "specs": {
-        "tabName": "Specifications",
         "card": {
-          "title": "Core Parameters & Selection Guide",
-          "description": "Key technical specifications and selection criteria",
+          "title": "Key Technical Specifications",
           "techSpecs": {
-            "title": "Key Technical Specifications",
+            "title": "",
             "table": {
               "headers": [
                 "Parameter",
@@ -449,7 +447,7 @@
                 },
                 {
                   "parameter": "Stroke (mm)",
-                  "range": "30 - 700",
+                  "range": "19 - 700",
                   "description": "Piston rod extension distance"
                 },
                 {
@@ -473,11 +471,35 @@
           "selectionGuide": {
             "title": "Selection Guide",
             "items": [
-              "Define application and required motion behavior",
-              "Measure extended and compressed center-to-center lengths",
-              "Determine target force based on load and geometry",
-              "Choose end fittings compatible with mounting points",
-              "Select options (damping, coating, corrosion resistance)"
+              {
+                "key": "Define Application:",
+                "value": "Specify the use case and required motion."
+              },
+              {
+                "key": "Measure Lengths:",
+                "value": "Record the extended and compressed center-to-center distances."
+              },
+              {
+                "key": "Determine Force:",
+                "value": "Calculate the necessary force based on load and geometry."
+              },
+              {
+                "key": "Choose End Fittings:",
+                "value": "Select fittings compatible with your mounting points."
+              },
+              {
+                "key": "Select Options:",
+                "subItems": [
+                  {
+                    "key": "Damping:",
+                    "value": "Damping performance is customizable."
+                  },
+                  {
+                    "key": "Protection:",
+                    "value": "Consider special coatings or stainless steel for corrosion resistance."
+                  }
+                ]
+              }
             ]
           },
           "endFittings": {
@@ -495,18 +517,7 @@
             ]
           },
           "connectionTypes": {
-            "title": "Connection Types"
-          },
-          "surfaceTreatments": {
-            "title": "Surface Treatments",
-            "card": {
-              "title": "Surface Treatment",
-              "items": [
-                "Black electroplating",
-                "QPQ nitriding",
-                "Polished SS304/SS316"
-              ]
-            }
+            "title": "End Fittings Category"
           },
           "qualityCerts": {
             "title": "Quality Certifications",
@@ -522,7 +533,6 @@
         }
       },
       "testing": {
-        "tabName": "Testing",
         "card": {
           "standardConditions": {
             "title": "Standard Test Conditions",
@@ -568,6 +578,11 @@
           "Our expert team is here to help you configure the perfect solution.",
           "Contact us for a personalized quote or in-depth technical discussion."
         ]
+      },
+      "GasSpringForceCurve": {
+        "title1": "Gas Spring Force Curve",
+        "title2": "Heavy Duty (800N, 200mm)",
+        "title3": "Light Duty (200N, 100mm)"
       }
     },
     "micro-gas-spring": {
@@ -1367,10 +1382,10 @@
       "howGSWork": {
         "title": "How Gas Springs Work?",
         "desc": [
-          "Gas spring—also commonly called gas strut or gas shock absorber—works by using compressed nitrogen gas as a **springy** energy storage material inside a sealed metal cylinder. To make this design work smoothly, the cylinder also holds a mixture of specialized hydraulic oils (like transformer oil or turbine oil). These oils serve three key jobs:",
-          "gas sealed inside ",
-          "lubricating moving parts to reduce wear ",
-          "making sure mechanical force is transferred evenly.",
+          "Gas springs—also known as gas struts or gas dampers—work by using compressed nitrogen gas as an elastic energy storage material within a sealed metal cylinder. The cylinder also contains a small amount of hydraulic oil (such as lubricating or damping oil). These oils serve three main functions:",
+          "Support the gas sealed within the cylinder.",
+          "Lubricate moving parts to reduce wear.",
+          "Provide damping.",
           "When you push the piston rod into the cylinder (this is the **compression** process), the space available for the nitrogen gas gets smaller. Just like squeezing a balloon makes the pressure inside go up, this smaller volume causes the gas pressure inside the cylinder to rise—this follows [Boyle’s Law](https://www.britannica.com/science/Boyles-law).",
           "The force the gas spring puts out gets stronger as you push the rod in, and it’s strongest when the rod is fully pressed into the cylinder. This more steady, reliable force than coil spring, is why gas springs are used in everyday things like car tailgates (to hold them open gently), industrial machines (to control movement), and ergonomic furniture (like adjustable office chairs)."
         ],

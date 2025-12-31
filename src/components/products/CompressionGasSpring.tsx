@@ -1,9 +1,117 @@
 'use client'
 
 import { Button } from '@/components/ui/button'
-import { CompressionDict } from '@/lib/i18n/dictionaries/CompressionDict'
+import GasSpringForceCurve from '@/components/visualization/GasSpringForceCurve';
+import Link from 'next/link';
+import { Locale } from '@/lib/i18n/config';
 
-export default function CompressionGasSpring({ dict }: { dict: CompressionDict }) {
+
+export type CompressionDict = {
+  hero: {
+    title: string;
+    subtitle: string;
+    cta: string;
+  };
+  overview: {
+    tabName: string;
+    card: {
+      title: string;
+      content: {
+        title: string;
+        definition: string;
+        coreFunction: {
+          title: string;
+          description: string;
+        };
+        applications: {
+          title: string;
+          items: {
+            name: string;
+            value: string;
+          }[];
+        };
+      };
+    };
+  };
+  specs: {
+    card: {
+      title: string;
+      techSpecs: {
+        title: string;
+        table: {
+          headers: string[];
+          rows: {
+            parameter: string;
+            range: string;
+            description: string;
+          }[];
+        };
+      };
+      selectionGuide: {
+        title: string;
+        items: {
+          key: string;
+          value?: string;
+          subItems?: {
+            key: string;
+            value: string;
+          }[];
+        }[];
+      };
+      endFittings: {
+        title: string;
+        items: string[];
+      };
+      options: {
+        title: string;
+        items: string[];
+      };
+      connectionTypes: {
+        title: string;
+      };
+      qualityCerts: {
+        title: string;
+        items: string[];
+      };
+    };
+  };
+  testing: {
+    card: {
+      standardConditions: {
+        title: string;
+        speed: {
+          label: string;
+          value: string;
+        };
+        temperature: {
+          label: string;
+          value: string;
+        };
+      };
+      fourPointForce: {
+        title: string;
+        items: {
+          point: string;
+          title: string;
+          description: string;
+        }[];
+      };
+    };
+  };
+  cta: {
+    title: string;
+    desc: string[];
+  };
+  GasSpringForceCurve: {
+    title1: string;
+    title2: string;
+    title3: string;
+  };
+};
+
+
+export default function CompressionGasSpring(
+  { dict, locale }: { dict: CompressionDict; locale: Locale }) {
 
 
   return (
@@ -12,7 +120,7 @@ export default function CompressionGasSpring({ dict }: { dict: CompressionDict }
         <div className="container max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-[var(--space-hero-gap)] items-center">
             <div className="space-y-[var(--space-block-gap)]">
-              <h1 className="font-bold text-5xl md:text-6xl leading-tight mb-[var(--space-title-mb)]">{dict.hero.title}</h1>
+              <h1 className="font-bold text-5xl leading-tight mb-[var(--space-title-mb)]">{dict.hero.title}</h1>
               <p className="text-lg leading-relaxed opacity-90">
                 {dict.hero.subtitle}
               </p>
@@ -49,20 +157,10 @@ export default function CompressionGasSpring({ dict }: { dict: CompressionDict }
               data-slot="card"
               className="bg-card text-card-foreground flex flex-col gap-[var(--space-grid-gap)] rounded-xl border py-[var(--space-card-padding)] shadow-sm"
             >
-              <div
-                data-slot="card-header"
-                className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-[var(--space-card-padding)] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-[var(--space-card-padding)]"
-              >
-                <div data-slot="card-title" className="leading-none font-semibold">
-                  {dict.overview.card.title}
-                </div>
-              </div>
               <div data-slot="card-content" className="px-[var(--space-card-padding)] prose prose-sm max-w-none">
                 <div className="space-y-[var(--space-block-gap)]">
-                  <h2 className="mt-6 mb-2 font-semibold text-2xl">
-                    {dict.overview.card.content.title}
-                  </h2>
-                  <p>
+                  <p className="mt-6 mb-2">
+                    <span className="font-semibold text-2xl mr-2">{dict.overview.card.content.title}</span>
                     {dict.overview.card.content.definition}
                   </p>
                   <h3 className="mt-6 mb-2 font-semibold text-xl">{dict.overview.card.content.coreFunction.title}</h3>
@@ -88,7 +186,6 @@ export default function CompressionGasSpring({ dict }: { dict: CompressionDict }
             data-slot="tabs-content"
             className="flex-1 outline-none space-y-[var(--space-block-gap)]"
           >
-            <h2 className="text-3xl font-bold text-primary mb-[var(--space-title-mb)]">{dict.specs.tabName}</h2>
             <div
               data-slot="card"
               className="bg-card text-card-foreground flex flex-col gap-[var(--space-grid-gap)] rounded-xl border py-[var(--space-card-padding)] shadow-sm"
@@ -97,12 +194,7 @@ export default function CompressionGasSpring({ dict }: { dict: CompressionDict }
                 data-slot="card-header"
                 className="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-[var(--space-card-padding)] has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-[var(--space-card-padding)]"
               >
-                <div data-slot="card-title" className="leading-none font-semibold">
-                  {dict.specs.card.title}
-                </div>
-                <div data-slot="card-description" className="text-muted-foreground text-sm">
-                  {dict.specs.card.description}
-                </div>
+                <h2 className="text-3xl font-bold text-primary mb-[var(--space-title-mb)]"> {dict.specs.card.title}</h2>
               </div>
               <div data-slot="card-content" className="px-[var(--space-card-padding)] space-y-[var(--space-block-gap)]">
                 <div>
@@ -128,11 +220,27 @@ export default function CompressionGasSpring({ dict }: { dict: CompressionDict }
                     </table>
                   </div>
                 </div>
+                <div className="relative">
+                  <img alt="Compression gas spring render" className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/compression-gas-spring/compression-gas-spring-render.png" />
+                </div>
                 <div className="space-y-3">
                   <h4 className="text-base font-semibold">{dict.specs.card.selectionGuide.title}</h4>
                   <ol className="list-decimal pl-6 space-y-1">
                     {dict.specs.card.selectionGuide.items.map((item, index) => (
-                      <li key={index} className="text-muted-foreground">{item}</li>
+                      <li key={index} className="text-muted-foreground">
+                        <span className="font-semibold text-foreground">{item.key} </span>
+                        {item.value}
+                        {item.subItems && (
+                          <ol className="list-decimal pl-6 mt-1 space-y-1">
+                            {item.subItems.map((subItem, subIndex) => (
+                              <li key={subIndex}>
+                                <span className="font-semibold text-foreground">{subItem.key} </span>
+                                {subItem.value}
+                              </li>
+                            ))}
+                          </ol>
+                        )}
+                      </li>
                     ))}
                   </ol>
                 </div>
@@ -157,26 +265,10 @@ export default function CompressionGasSpring({ dict }: { dict: CompressionDict }
                 <div className="pt-[var(--space-divider-pt)] border-t border-border">
                   <h3 className="text-lg font-semibold text-foreground mb-[var(--space-subtitle-mb)]">{dict.specs.card.connectionTypes.title}</h3>
                   <div className="relative">
-                    <img alt="Connection Types" className="w-full h-auto rounded-lg shadow-lg" src="/images/products_page/accessories.png" />
+                    <img alt="End Fittings Category" className="w-full h-auto rounded-lg shadow-lg" src="/images/products_page/accessories.png" />
                   </div>
                 </div>
                 <div className="pt-[var(--space-divider-pt)] border-t border-border">
-                  <h3 className="text-lg font-semibold text-foreground mb-[var(--space-subtitle-mb)]">{dict.specs.card.surfaceTreatments.title}</h3>
-                  <div className="grid md:grid-cols-2 gap-[var(--space-grid-gap)]">
-                    <div className="p-[var(--space-card-padding)] bg-card rounded-lg border border-border">
-                      <h4 className="font-semibold text-foreground mb-3">{dict.specs.card.surfaceTreatments.card.title}</h4>
-                      <ul className="space-y-[var(--space-list-gap)]">
-                        {dict.specs.card.surfaceTreatments.card.items.map((item, index) => (
-                          <li key={index} className="flex items-start gap-2 text-sm text-muted-foreground">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-primary mt-0.5 flex-shrink-0">
-                              <path d="M20 6 9 17l-5-5"></path>
-                            </svg>
-                            {item}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
                 </div>
                 <div className="pt-[var(--space-divider-pt)] border-t border-border">
                   <h3 className="text-lg font-semibold text-foreground mb-[var(--space-subtitle-mb)]">{dict.specs.card.qualityCerts.title}</h3>
@@ -184,6 +276,11 @@ export default function CompressionGasSpring({ dict }: { dict: CompressionDict }
                     {dict.specs.card.qualityCerts.items.map((item, index) => (
                       <span key={index} className="px-3 py-1 bg-accent/10 text-foreground rounded-full text-sm font-medium">{item}</span>
                     ))}
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
+                    <img src="/images/product/gas-spring/compression-gas-spring/ACM-Quality-Certifications.png" alt="ACM Quality Certification" className="w-full h-auto rounded-lg shadow-sm border border-border" />
+                    <img src="/images/product/gas-spring/compression-gas-spring/SGS-Quality-Certifications_.png" alt="SGS Quality Certification" className="w-full h-auto rounded-lg shadow-sm border border-border" />
+                    <img src="/images/product/gas-spring/compression-gas-spring/SGS2-Quality-Certifications.png" alt="SGS2 Test report" className="w-full h-auto rounded-lg shadow-sm border border-border" />
                   </div>
                 </div>
               </div>
@@ -198,7 +295,6 @@ export default function CompressionGasSpring({ dict }: { dict: CompressionDict }
             data-slot="tabs-content"
             className="flex-1 outline-none space-y-[var(--space-block-gap)]"
           >
-            <h2 className="text-3xl font-bold text-primary mb-[var(--space-title-mb)]">{dict.testing.tabName}</h2>
             <div
               data-slot="card"
               className="bg-card text-card-foreground flex flex-col gap-[var(--space-grid-gap)] rounded-xl border py-[var(--space-card-padding)] shadow-sm"
@@ -220,6 +316,56 @@ export default function CompressionGasSpring({ dict }: { dict: CompressionDict }
                       <p className="text-sm text-muted-foreground mb-2">{dict.testing.card.standardConditions.temperature.label}</p>
                       <p className="text-2xl font-bold text-foreground">{dict.testing.card.standardConditions.temperature.value}</p>
                     </div>
+                  </div>
+                </div>
+                <div className="container mx-auto py-12 px-4 bg-gray-50 min-h-screen">
+                  <div className="mb-6">
+                    <Link href={`/${locale}`} className="text-blue-600 hover:underline">
+                      &larr; Back to Home ({locale})
+                    </Link>
+                  </div>
+
+                  <h1 className="text-3xl font-bold mb-8 text-center">Gas Spring Force Curve Visualization</h1>
+
+                  <div className="max-w-4xl mx-auto space-y-12">
+
+                    {/* Default Configuration */}
+                    <section>
+                      <h2 className="text-xl font-semibold mb-4">Default Configuration (Standard 165mm stroke)</h2>
+                      <GasSpringForceCurve title={dict.GasSpringForceCurve.title1} />
+                    </section>
+
+                    {/* Custom Configuration */}
+                    <section>
+                      <h2 className="text-xl font-semibold mb-4">Custom Examples</h2>
+                      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <GasSpringForceCurve
+                          title={dict.GasSpringForceCurve.title2}
+                          f1={800}
+                          stroke={200}
+                          className="shadow-md"
+                        />
+                        <GasSpringForceCurve
+                          title={dict.GasSpringForceCurve.title3}
+                          f1={200}
+                          stroke={100}
+                          className="shadow-md"
+                        />
+                      </div>
+                    </section>
+                    <section className="mt-8">
+                      <div className="relative aspect-video rounded-xl overflow-hidden shadow-xl border border-border bg-black/5">
+                        <video 
+                          className="w-full h-full"
+                          controls
+                          playsInline
+                          preload="metadata"
+                        >
+                          <source src="/videos/compress-gas-spring.mp4" type="video/mp4" />
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                    </section>
                   </div>
                 </div>
                 <div className="pt-[var(--space-divider-pt)] border-t border-border">
