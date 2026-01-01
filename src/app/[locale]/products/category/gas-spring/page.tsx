@@ -106,7 +106,7 @@ export default async function CategoryPage(
           subTitle1={dict.products['gas-spring'].howGSWork.KeyBehavior.title}
           subContent1={dict.products['gas-spring'].howGSWork.KeyBehavior.desc}
           imageSrc={'/images/products_page/HowGSWork.png'}
-          imageAlt={'GAS Spring Key Behavior: Pressure vs. Volume'}
+          imageAlt={'Gas Spring Force Curve'}
           imageCaption={dict.products['gas-spring'].howGSWork.KeyBehavior.imageCaption}
           subTitle2={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.title}
           frontdesc={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.frontdesc}

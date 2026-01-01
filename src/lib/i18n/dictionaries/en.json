@@ -1390,7 +1390,7 @@
           "The force the gas spring puts out gets stronger as you push the rod in, and it’s strongest when the rod is fully pressed into the cylinder. This more steady, reliable force than coil spring, is why gas springs are used in everyday things like car tailgates (to hold them open gently), industrial machines (to control movement), and ergonomic furniture (like adjustable office chairs)."
         ],
         "KeyBehavior": {
-          "title": "Key Behavior: Pressure vs. Volume",
+          "title": "Gas Spring Force Curve",
           "desc": [
             "If you look at the diagram above, you’ll see how the gas spring acts as the piston moves.",
             "With gas springs, force increases exponentially as they are compressed, requiring less initial force to compress them. As the gas spring nears the end of its stroke, the compression force needed rises. ",
