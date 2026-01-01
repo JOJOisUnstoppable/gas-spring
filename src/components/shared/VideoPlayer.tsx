@@ -29,18 +29,17 @@ export default function VideoPlayer(props: VideoPlayerProps) {
   }, []);
 
   const baseClasses =
-    "relative overflow-hidden rounded-xl border border-slate-200/70 dark:border-slate-800 bg-gradient-to-b from-transparent via-slate-100/40 to-transparent dark:via-slate-900/20";
+    "relative overflow-hidden rounded-sm border border-slate-200/70 dark:border-slate-800 bg-gradient-to-b from-transparent via-slate-100/40 to-transparent dark:via-slate-900/20";
   const buttonClasses = "absolute inset-0 flex items-center justify-center";
   const playButton = (
     <button
       aria-label="Play video"
       onClick={() => setPlaying(true)}
-      className="group inline-flex items-center justify-center rounded-full bg-white/70 dark:bg-slate-800/70 backdrop-blur px-4 py-2 shadow hover:bg-white hover:dark:bg-slate-800 transition"
+      className="group inline-flex items-center justify-center rounded-full w-20 h-20 bg-white/70 dark:bg-slate-800/70 backdrop-blur shadow-xl hover:bg-white hover:dark:bg-slate-800 hover:scale-105 transition-all duration-300"
     >
-      <svg className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-1" viewBox="0 0 24 24" fill="currentColor">
+      <svg className="w-10 h-10 text-blue-600 dark:text-blue-400" viewBox="0 0 24 24" fill="currentColor">
         <path d="M8 5v14l11-7z" />
       </svg>
-      <span className="text-sm font-medium text-slate-900 dark:text-slate-100">播放</span>
     </button>
   );
 

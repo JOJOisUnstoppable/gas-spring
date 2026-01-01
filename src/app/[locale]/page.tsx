@@ -38,7 +38,7 @@ export default async function Home(
         <h2 className="text-3xl font-bold mb-4">
           {'Gas Spring Manufacturer'}
         </h2>
-        <VideoPlayer
+        <VideoPlayer 
           variant="mp4"
           src="/videos/dkgasspring-1.mp4"
           poster="/videos/DK_GS_poster.png"

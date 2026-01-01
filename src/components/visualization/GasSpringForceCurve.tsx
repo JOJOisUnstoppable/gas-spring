@@ -10,7 +10,6 @@ import {
   Tooltip,
   ResponsiveContainer,
   ReferenceDot,
-  ReferenceLine
 } from 'recharts';
 
 interface GasSpringForceCurveProps {
@@ -38,7 +37,7 @@ const GasSpringForceCurve: React.FC<GasSpringForceCurveProps> = ({
 }) => {
 
   // 生成模拟数据
-  const { data, keyPoints } = useMemo(() => {
+  const { data, cycleData, keyPoints } = useMemo(() => {
     const points = [];
     const steps = 50; // 数据点数量
     const f2 = f1 * forceRatio;
@@ -75,6 +74,7 @@ const GasSpringForceCurve: React.FC<GasSpringForceCurveProps> = ({
     const extensionStart = realF1; // F1
     const extensionEnd = realF2;   // F2
 
+    // 生成基础数据 (用于Tooltip和静态展示)
     for (let i = 0; i <= steps; i++) {
       const x = (i / steps) * stroke;
       const progress = i / steps;
@@ -96,8 +96,47 @@ const GasSpringForceCurve: React.FC<GasSpringForceCurveProps> = ({
       });
     }
 
+    // 生成循环动画数据 (用于模拟 P1->P2->P3->P4 过程)
+    // 路径: F1(Start) -> F3(Start Comp) -> F4(End Comp) -> F2(Start Ext) -> F1(End Ext)
+    // 对应: (0,F1) -> (0,F3) -> (Stroke,F4) -> (Stroke,F2) -> (0,F1)
+    const cyclePoints = [];
+    
+    // 1. 起始点 (0, F1)
+    cyclePoints.push({ displacement: 0, force: extensionStart });
+    
+    // 2. 垂直上升到 (0, F3)
+    cyclePoints.push({ displacement: 0, force: compressionStart });
+    
+    // 3. 压缩过程 (0 -> Stroke, F3 -> F4)
+    for (let i = 0; i <= steps; i++) {
+        const progress = i / steps;
+        const x = progress * stroke;
+        const curvature = 0.2;
+        const factor = progress + curvature * progress * (1 - progress);
+        const force = compressionStart + (compressionEnd - compressionStart) * factor;
+        cyclePoints.push({ displacement: Number(x.toFixed(1)), force: Number(force.toFixed(1)) });
+    }
+    
+    // 4. 垂直下降到 (Stroke, F2)
+    cyclePoints.push({ displacement: stroke, force: compressionEnd }); // 重复一点确保连接
+    cyclePoints.push({ displacement: stroke, force: extensionEnd });
+    
+    // 5. 伸展过程 (Stroke -> 0, F2 -> F1)
+    for (let i = steps; i >= 0; i--) {
+        const progress = i / steps;
+        const x = progress * stroke;
+        const curvature = 0.2;
+        const factor = progress + curvature * progress * (1 - progress);
+        const force = extensionStart + (extensionEnd - extensionStart) * factor;
+        cyclePoints.push({ displacement: Number(x.toFixed(1)), force: Number(force.toFixed(1)) });
+    }
+    
+    // 6. 回到起点 (0, F1) 闭合
+    cyclePoints.push({ displacement: 0, force: extensionStart });
+
     return {
       data: points,
+      cycleData: cyclePoints,
       keyPoints: {
         F1: { x: 0, y: extensionStart, label: `F1: ${extensionStart.toFixed(1)}` },
         F2: { x: stroke, y: extensionEnd, label: `F2: ${extensionEnd.toFixed(1)}` },
@@ -131,6 +170,7 @@ const GasSpringForceCurve: React.FC<GasSpringForceCurveProps> = ({
               unit="mm"
               tick={{ fontSize: 12 }}
               label={{ value: 'stroke (mm)', position: 'bottom', offset: 0 }}
+              allowDataOverflow={false}
             />
             <YAxis
               domain={[0, 'auto']}
@@ -138,32 +178,53 @@ const GasSpringForceCurve: React.FC<GasSpringForceCurveProps> = ({
               tick={{ fontSize: 12 }}
               label={{ value: 'Force(N)', angle: -90, position: 'insideLeft' }}
             />
-            <Tooltip
-              formatter={(value: number | string | Array<number | string> | undefined) => [`${value} N`, '']}
+            <Tooltip 
+              formatter={(value: number | string | Array<number | string> | undefined, name: string | number | undefined) => {
+                  if (name === 'Dynamic Force') return [undefined, undefined];
+                  return [`${value} N`, name];
+              }}
               labelFormatter={(label) => `Stroke: ${label} mm`}
               contentStyle={{ borderRadius: '8px', border: '1px solid #ddd' }}
+              filterNull={true}
             />
-
-            {/* 压缩曲线 (上) */}
-            <Line
-              type="monotone"
-              dataKey="compression"
-              stroke="#e91e63"
-              strokeWidth={3}
-              dot={false}
+            {/* Invisible lines for Tooltip/Legend */}
+            <Line 
+              data={data}
+              type="monotone" 
+              dataKey="compression" 
+              stroke="#e91e63" 
+              strokeWidth={0} 
+              strokeOpacity={0}
+              dot={false} 
               name="Compression"
-              animationDuration={1500}
+              legendType="line" 
+              isAnimationActive={false}
+            />
+             <Line 
+              data={data}
+              type="monotone" 
+              dataKey="extension" 
+              stroke="#e91e63" 
+              strokeWidth={0} 
+              strokeOpacity={0}
+              dot={false} 
+              name="Extension"
+              legendType="line" 
+              isAnimationActive={false}
             />
 
-            {/* 伸展曲线 (下) */}
-            <Line
-              type="monotone"
-              dataKey="extension"
-              stroke="#e91e63"
-              strokeWidth={3}
-              dot={false}
-              name="Extension"
-              animationDuration={1500}
+            {/* Actual dynamic line */}
+            <Line 
+              data={cycleData}
+              type="monotone" 
+              dataKey="force" 
+              stroke="#e91e63" 
+              strokeWidth={3} 
+              dot={false} 
+              name="Dynamic Force"
+              legendType="none" 
+              animationDuration={4000} 
+              animationEasing="linear"
             />
 
             {/* 关键点标注 */}
@@ -207,9 +268,8 @@ const GasSpringForceCurve: React.FC<GasSpringForceCurveProps> = ({
               label={{ value: keyPoints.F4.label, position: 'top', offset: 10, fill: '#333', fontSize: 14, fontWeight: 'bold' }}
             />
 
-            {/* 垂直连接线 (模拟图中的F1-F3, F2-F4连接线) */}
-            <ReferenceLine segment={[{ x: 0, y: keyPoints.F1.y }, { x: 0, y: keyPoints.F3.y }]} stroke="red" strokeWidth={2} />
-            <ReferenceLine segment={[{ x: stroke, y: keyPoints.F2.y }, { x: stroke, y: keyPoints.F4.y }]} stroke="red" strokeWidth={2} />
+            {/* 垂直连接线 (模拟图中的F1-F3, F2-F4连接线) - 已移除，由动态动画实现 */}
+
 
           </LineChart>
         </ResponsiveContainer>
