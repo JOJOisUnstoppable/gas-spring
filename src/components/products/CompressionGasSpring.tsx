@@ -277,11 +277,13 @@ export default function CompressionGasSpring(
                       <span key={index} className="px-3 py-1 bg-accent/10 text-foreground rounded-full text-sm font-medium">{item}</span>
                     ))}
                   </div>
+                  {/* 暂时隐藏质量认证图片
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
                     <img src="/images/product/gas-spring/compression-gas-spring/ACM-Quality-Certifications.png" alt="ACM Quality Certification" className="w-full h-auto rounded-lg shadow-sm border border-border" />
                     <img src="/images/product/gas-spring/compression-gas-spring/SGS-Quality-Certifications_.png" alt="SGS Quality Certification" className="w-full h-auto rounded-lg shadow-sm border border-border" />
                     <img src="/images/product/gas-spring/compression-gas-spring/SGS2-Quality-Certifications.png" alt="SGS2 Test report" className="w-full h-auto rounded-lg shadow-sm border border-border" />
                   </div>
+                  */}
                 </div>
               </div>
             </div>
@@ -353,6 +355,7 @@ export default function CompressionGasSpring(
                         />
                       </div>
                     </section>
+                    {/* 暂时隐藏视频展示
                     <section className="mt-8">
                       <div className="relative aspect-video rounded-xl overflow-hidden shadow-xl border border-border bg-black/5">
                         <video 
@@ -366,6 +369,7 @@ export default function CompressionGasSpring(
                         </video>
                       </div>
                     </section>
+                    */}
                   </div>
                 </div>
                 <div className="pt-[var(--space-divider-pt)] border-t border-border">

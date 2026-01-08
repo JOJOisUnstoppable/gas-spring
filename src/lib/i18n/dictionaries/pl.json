@@ -409,12 +409,30 @@
           "Wartość"
         ],
         "items": [
-          { "name": "Zakres siły", "value": "100N do 2500N" },
-          { "name": "Długość skoku", "value": "50mm do 800mm" },
-          { "name": "Opcje materiałowe", "value": "Stal, Stal nierdzewna (304/316)" },
-          { "name": "Końcówki", "value": "Dostępne są różne opcje standardowe i niestandardowe" },
-          { "name": "Zakres temperatur", "value": "-30°C do +80°C" },
-          { "name": "Certyfikaty", "value": "ISO 9001, RoHS, REACH" }
+          {
+            "name": "Zakres siły",
+            "value": "100N do 2500N"
+          },
+          {
+            "name": "Długość skoku",
+            "value": "50mm do 800mm"
+          },
+          {
+            "name": "Opcje materiałowe",
+            "value": "Stal, Stal nierdzewna (304/316)"
+          },
+          {
+            "name": "Końcówki",
+            "value": "Dostępne są różne opcje standardowe i niestandardowe"
+          },
+          {
+            "name": "Zakres temperatur",
+            "value": "-30°C do +80°C"
+          },
+          {
+            "name": "Certyfikaty",
+            "value": "ISO 9001, RoHS, REACH"
+          }
         ]
       },
       "faq": {
@@ -475,20 +493,20 @@
         "imageAlt": "Przekrój blokowanej sprężyny gazowej (sztywnej)"
       },
       "why": {
-        "title": "Dlaczego blokowane sprężyny gazowe?",
-        "subtitle": "Nie tylko podparcie — precyzyjne pozycjonowanie z pewnością",
+        "title": "Co to jest regulowana sprężyna gazowa?",
+        "subtitle": "Firma DKG oferuje linię regulowanych sprężyn gazowych z blokadą, które wyglądają jak tradycyjne sprężyny gazowe, ale można je zablokować w dowolnej pozycji wzdłuż skoku roboczego. Posiadają wewnętrzny mechanizm blokady, który jest uruchamiany przez pin odblokowujący umieszczony na końcu pręta. Aby sprostać wymaganiom dotyczącym Twojego produktu, oferujemy trzy typy regulowanych sprężyn gazowych z blokadą:",
         "cards": {
           "zero": {
-            "title": "Blokowanie bez przemieszczenia",
-            "desc": "Sztywne blokowanie zapewnia całkowicie stabilne podparcie bez ruchu, gwarantując dokładne utrzymanie pozycji."
+            "title": "Sztywny w ściskaniu:",
+            "desc": "Brak ruchu podczas naciskania pręta, ale niewielki ruch podczas ciągnięcia pręta."
           },
           "flexible": {
-            "title": "Elastyczne rozwiązania",
-            "desc": "Elastyczne blokowanie oferuje miękki powrót i amortyzację — do zastosowań wymagających łagodnego pozycjonowania."
+            "title": "Sztywny w rozciąganiu:",
+            "desc": "Brak ruchu podczas ciągnięcia pręta, ale niewielki ruch podczas naciskania pręta."
           },
           "highLoad": {
-            "title": "Wysoka nośność boczna",
-            "desc": "Niezawodna siła na plateau, nośność boczna ≥ 2.000 N."
+            "title": "Wysoka nośność",
+            "desc": "Wytrzymuje siły boczne ≥ 2 000 N z niezawodną stabilną wydajnością siły blokady."
           }
         }
       },

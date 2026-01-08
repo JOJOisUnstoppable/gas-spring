@@ -553,20 +553,20 @@
         "imageAlt": "Sección transversal de resorte de gas con bloqueo rígido"
       },
       "why": {
-        "title": "¿Por qué resortes de gas bloqueables?",
-        "subtitle": "Más que soporte: posicionamiento preciso con confianza",
+        "title": "¿Qué es un resorte de gas ajustable?",
+        "subtitle": "DKG cuenta con una línea de resortes de gas bloqueables ajustables que se parecen a los resortes de gas tradicionales pero se pueden bloquear en cualquier posición a lo largo del recorrido. Cuentan con un mecanismo de bloqueo interno que se activa mediante un pasador de liberación ubicado en el extremo de la varilla. Para adaptarse a los requisitos de su producto, ofrecemos tres tipos de resortes de gas bloqueables ajustables:",
         "cards": {
           "zero": {
-            "title": "Bloqueo sin desplazamiento",
-            "desc": "El bloqueo rígido ofrece soporte totalmente estable sin movimiento, asegurando retención de posición precisa."
+            "title": "Rígido en compresión:",
+            "desc": "Sin movimiento al presionar la varilla, pero con algo de movimiento al tirar de la varilla."
           },
           "flexible": {
-            "title": "Soluciones flexibles",
-            "desc": "El bloqueo elástico ofrece amortiguación de rebote suave, ideal para posicionamiento delicado."
+            "title": "Rígido en extensión:",
+            "desc": "Sin movimiento al tirar de la varilla, pero con algo de movimiento al presionar la varilla."
           },
           "highLoad": {
-            "title": "Alta capacidad de carga lateral",
-            "desc": "Plataforma de fuerza de bloqueo confiable, soporta ≥ 2.000 N."
+            "title": "Alta capacidad de carga",
+            "desc": "Resiste fuerzas laterales ≥ 2.000 N con rendimiento estable de fuerza de bloqueo confiable."
           }
         }
       },
@@ -821,40 +821,40 @@
         "title": "Cómo funciona: el mecanismo de bloqueo",
         "description": "El núcleo del resorte de gas push-to-unlock es su mecanismo de bloqueo liberable. Dentro del cilindro, un sistema de válvulas separa las cámaras de gas y aceite. Cuando el resorte está en su estado predeterminado (bloqueado), esta válvula impide que el pistón se mueva, proporcionando un soporte rígido. Al presionar el pasador de liberación en el extremo del vástago del pistón se abre la válvula, permitiendo que el gas o el aceite fluyan y el pistón se mueva libremente. Una vez que se alcanza la posición deseada, al soltar el pasador se cierra la válvula y el resorte se bloquea firmemente en su lugar de nuevo. Este diseño simple pero efectivo proporciona un control de movimiento bajo demanda sin necesidad de complejos herrajes de bloqueo externos."
       },
-        "specs": {
-          "title": "Especificaciones técnicas",
-          "description": "Nuestros resortes de gas push-to-unlock están disponibles en una amplia gama de tamaños, fuerzas y configuraciones para satisfacer las demandas de su aplicación. Las especificaciones clave incluyen:",
-          "tableHeaders": [
-            "Especificación",
-            "Valor"
-          ],
-          "items": [
-            {
-              "name": "Rango de fuerza",
-              "value": "100N a 2500N"
-            },
-            {
-              "name": "Longitud de carrera",
-              "value": "50mm a 800mm"
-            },
-            {
-              "name": "Opciones de material",
-              "value": "Acero, Acero inoxidable (304/316)"
-            },
-            {
-              "name": "Accesorios de extremo",
-              "value": "Una variedad de opciones estándar y personalizadas"
-            },
-            {
-              "name": "Rango de temperatura",
-              "value": "-30°C a +80°C"
-            },
-            {
-              "name": "Certificaciones",
-              "value": "ISO 9001, RoHS, REACH"
-            }
-          ]
-        },
+      "specs": {
+        "title": "Especificaciones técnicas",
+        "description": "Nuestros resortes de gas push-to-unlock están disponibles en una amplia gama de tamaños, fuerzas y configuraciones para satisfacer las demandas de su aplicación. Las especificaciones clave incluyen:",
+        "tableHeaders": [
+          "Especificación",
+          "Valor"
+        ],
+        "items": [
+          {
+            "name": "Rango de fuerza",
+            "value": "100N a 2500N"
+          },
+          {
+            "name": "Longitud de carrera",
+            "value": "50mm a 800mm"
+          },
+          {
+            "name": "Opciones de material",
+            "value": "Acero, Acero inoxidable (304/316)"
+          },
+          {
+            "name": "Accesorios de extremo",
+            "value": "Una variedad de opciones estándar y personalizadas"
+          },
+          {
+            "name": "Rango de temperatura",
+            "value": "-30°C a +80°C"
+          },
+          {
+            "name": "Certificaciones",
+            "value": "ISO 9001, RoHS, REACH"
+          }
+        ]
+      },
       "faq": {
         "title": "Preguntas frecuentes",
         "questions": [

@@ -196,9 +196,18 @@
         "keyCharacteristics": {
           "title": "Wesentliche Merkmale",
           "items": [
-            { "label": "Produktname", "value": "Zug-Gasfeder / Zugfeder / Umkehr-Gasfeder" },
-            { "label": "Freier Zustand", "value": "Die Kolbenstange befindet sich in der „eingefahrenen“ Position" },
-            { "label": "Arbeitscharakteristik", "value": "Bei Zug fährt die Stange aus, bei Entlastung automatisch wieder ein" }
+            {
+              "label": "Produktname",
+              "value": "Zug-Gasfeder / Zugfeder / Umkehr-Gasfeder"
+            },
+            {
+              "label": "Freier Zustand",
+              "value": "Die Kolbenstange befindet sich in der „eingefahrenen“ Position"
+            },
+            {
+              "label": "Arbeitscharakteristik",
+              "value": "Bei Zug fährt die Stange aus, bei Entlastung automatisch wieder ein"
+            }
           ]
         },
         "mainFunction": {
@@ -215,12 +224,32 @@
       "classification": {
         "title": "2. Strukturklassifizierung und Leistungsunterschiede",
         "table": {
-          "headers": ["Typ", "Einrohr", "Doppelrohr"],
+          "headers": [
+            "Typ",
+            "Einrohr",
+            "Doppelrohr"
+          ],
           "rows": [
-            { "label": "Rücklaufgeschwindigkeit", "single": "Schnell", "double": "Langsamer, stabiler" },
-            { "label": "Kraftanstiegsrate", "single": "Hoch (100 N → 170–180 N)", "double": "Niedrig (100 N → ~150 N)" },
-            { "label": "Vorteil geschlossene Länge", "single": "Kürzer (L ≥ 2S + 45)", "double": "Länger (L ≥ 2S + 70)" },
-            { "label": "Eignung", "single": "Enge Einbauräume, akzeptabler Kraftanstieg", "double": "Stabile Kraft, hohe Anforderungen an Führung/Sicherheit" }
+            {
+              "label": "Rücklaufgeschwindigkeit",
+              "single": "Schnell",
+              "double": "Langsamer, stabiler"
+            },
+            {
+              "label": "Kraftanstiegsrate",
+              "single": "Hoch (100 N → 170–180 N)",
+              "double": "Niedrig (100 N → ~150 N)"
+            },
+            {
+              "label": "Vorteil geschlossene Länge",
+              "single": "Kürzer (L ≥ 2S + 45)",
+              "double": "Länger (L ≥ 2S + 70)"
+            },
+            {
+              "label": "Eignung",
+              "single": "Enge Einbauräume, akzeptabler Kraftanstieg",
+              "double": "Stabile Kraft, hohe Anforderungen an Führung/Sicherheit"
+            }
           ]
         },
         "cards": {
@@ -376,20 +405,20 @@
         "imageAlt": "Querschnitt der starr verriegelten Gasfeder"
       },
       "why": {
-        "title": "Warum verriegelbare Gasfedern?",
-        "subtitle": "Mehr als nur Unterstützung – präzise Positionierung mit Vertrauen",
+        "title": "Was ist eine verstellbare Gasfeder?",
+        "subtitle": "DKG bietet eine Reihe von verstellbaren verriegelnden Gasfedern, die wie herkömmliche Gasfedern aussehen, aber in jeder Position entlang des Hubes verriegelt werden können. Sie verfügen über einen internen Verriegelungsmechanismus, der durch einen Auslösebolzen am Ende der Stange betätigt wird. Um Ihren Produktanforderungen gerecht zu werden, bieten wir drei Arten von verstellbaren verriegelnden Gasfedern an:",
         "cards": {
           "zero": {
-            "title": "Null-Verlagerung beim Verriegeln",
-            "desc": "Starre Verriegelung bietet vollkommen stabile Unterstützung ohne jegliche Bewegung – für exakten Positionshalt."
+            "title": "Steif bei Kompression:",
+            "desc": "Keine Bewegung beim Drücken der Stange, aber geringe Bewegung beim Ziehen der Stange."
           },
           "flexible": {
-            "title": "Flexible Lösungen",
-            "desc": "Elastische Verriegelung liefert sanfte Rückfederung und Dämpfung für Anwendungen mit weicher Positionierung."
+            "title": "Steif bei Ausdehnung:",
+            "desc": "Keine Bewegung beim Ziehen der Stange, aber geringe Bewegung beim Drücken der Stange."
           },
           "highLoad": {
-            "title": "Hohe Querlastkapazität",
-            "desc": "Zuverlässige Plattformkraft, Querlasten ≥ 2.000 N."
+            "title": "Hohe Belastbarkeit",
+            "desc": "Beständig gegen Seitenkräfte ≥ 2.000 N mit zuverlässiger Plateauleistung der Verriegelungskraft."
           }
         }
       },
@@ -419,15 +448,47 @@
         }
       },
       "comparison": {
-        "headers": ["Merkmal", "Starre Verriegelung", "Elastische Verriegelung"],
+        "headers": [
+          "Merkmal",
+          "Starre Verriegelung",
+          "Elastische Verriegelung"
+        ],
         "rows": [
-          { "label": "Innere Struktur", "rigid": "Öl-Gas-Trennung, Zweikammer", "elastic": "Öl-Gas-Mischung, Einkammer" },
-          { "label": "Verriegelungsmedium", "rigid": "Hydrauliköl (abgedichtet)", "elastic": "N₂ + Schmieröl" },
-          { "label": "Verriegelungsleistung", "rigid": "Keine Verlagerung", "elastic": "≤ 5 mm elastische Verlagerung" },
-          { "label": "Verriegelungskraft", "rigid": "Hoch (≥ 2.000 N)", "elastic": "Mittel mit Dämpfung" },
-          { "label": "Kompressionsverhältnis", "rigid": "Hoch", "elastic": "Niedrig" },
-          { "label": "Kraftbereich", "rigid": "200–1.200 N", "elastic": "200–1.200 N" },
-          { "label": "Hubbereich", "rigid": "50–300 mm", "elastic": "50–500 mm (anpassbar)" }
+          {
+            "label": "Innere Struktur",
+            "rigid": "Öl-Gas-Trennung, Zweikammer",
+            "elastic": "Öl-Gas-Mischung, Einkammer"
+          },
+          {
+            "label": "Verriegelungsmedium",
+            "rigid": "Hydrauliköl (abgedichtet)",
+            "elastic": "N₂ + Schmieröl"
+          },
+          {
+            "label": "Verriegelungsleistung",
+            "rigid": "Keine Verlagerung",
+            "elastic": "≤ 5 mm elastische Verlagerung"
+          },
+          {
+            "label": "Verriegelungskraft",
+            "rigid": "Hoch (≥ 2.000 N)",
+            "elastic": "Mittel mit Dämpfung"
+          },
+          {
+            "label": "Kompressionsverhältnis",
+            "rigid": "Hoch",
+            "elastic": "Niedrig"
+          },
+          {
+            "label": "Kraftbereich",
+            "rigid": "200–1.200 N",
+            "elastic": "200–1.200 N"
+          },
+          {
+            "label": "Hubbereich",
+            "rigid": "50–300 mm",
+            "elastic": "50–500 mm (anpassbar)"
+          }
         ]
       },
       "applications": {
@@ -435,19 +496,35 @@
         "imageAlt": "Anwendungen der verriegelbaren Gasfeder",
         "medical": {
           "title": "Medizinisch",
-          "items": ["Rollstuhl-Rückenlehnen", "Bettenhöhenverstellung", "Positionierung von Operationstischen"]
+          "items": [
+            "Rollstuhl-Rückenlehnen",
+            "Bettenhöhenverstellung",
+            "Positionierung von Operationstischen"
+          ]
         },
         "furnitureOffice": {
           "title": "Möbel & Büro",
-          "items": ["Sitzhöheneinstellung", "Tastaturablagen-Positionierung", "Hebe-Displays"]
+          "items": [
+            "Sitzhöheneinstellung",
+            "Tastaturablagen-Positionierung",
+            "Hebe-Displays"
+          ]
         },
         "industrial": {
           "title": "Industriell",
-          "items": ["Vorrichtungen", "Gerätepositionierung", "Arbeitsplatzanpassung"]
+          "items": [
+            "Vorrichtungen",
+            "Gerätepositionierung",
+            "Arbeitsplatzanpassung"
+          ]
         },
         "aviation": {
           "title": "Luftfahrt",
-          "items": ["Flugzeug-Ablagefächer", "Frachttorsteuerung", "Kabinen-Ausrüstungshalterung"]
+          "items": [
+            "Flugzeug-Ablagefächer",
+            "Frachttorsteuerung",
+            "Kabinen-Ausrüstungshalterung"
+          ]
         }
       },
       "forcePerformance": {
@@ -474,20 +551,44 @@
         "formulas": {
           "rigid": {
             "desc": "<strong>Starre Verriegelung:</strong> S = Arbeitsweg, L = ausgefahrene Länge (mm)",
-            "lines": ["Lmin = 2,4·S + 53 mm", "Smax = L / 2,4 – 22 mm"]
+            "lines": [
+              "Lmin = 2,4·S + 53 mm",
+              "Smax = L / 2,4 – 22 mm"
+            ]
           },
           "elastic": {
             "desc": "<strong>Elastische Verriegelung:</strong> S = Arbeitsweg, L = ausgefahrene Länge (mm)",
-            "lines": ["Lmin = 2·S + 53 mm", "Smax = L / 2 – 26,5 mm"]
+            "lines": [
+              "Lmin = 2·S + 53 mm",
+              "Smax = L / 2 – 26,5 mm"
+            ]
           }
         },
         "keyParameters": {
-          "force": { "label": "Kraftbereich", "value": "200–1.200 N" },
-          "stroke": { "label": "Hubbereich", "value": "50–300 mm (bis 500 mm)" },
-          "release": { "label": "Freigabemechanismus", "value": "≤ Ø8 mm Seitenstift oder Kopfknopf" },
-          "series": { "label": "Standardserien", "value": "KQ10-22, KQ10-26, KQ10-28" },
-          "life": { "label": "Zyklische Lebensdauer", "value": "10.000+ Zyklen ohne Leckage" },
-          "retention": { "label": "Druckhaltung", "value": "≤ 5 % Abfall über 24 Stunden" }
+          "force": {
+            "label": "Kraftbereich",
+            "value": "200–1.200 N"
+          },
+          "stroke": {
+            "label": "Hubbereich",
+            "value": "50–300 mm (bis 500 mm)"
+          },
+          "release": {
+            "label": "Freigabemechanismus",
+            "value": "≤ Ø8 mm Seitenstift oder Kopfknopf"
+          },
+          "series": {
+            "label": "Standardserien",
+            "value": "KQ10-22, KQ10-26, KQ10-28"
+          },
+          "life": {
+            "label": "Zyklische Lebensdauer",
+            "value": "10.000+ Zyklen ohne Leckage"
+          },
+          "retention": {
+            "label": "Druckhaltung",
+            "value": "≤ 5 % Abfall über 24 Stunden"
+          }
         }
       },
       "manufacturing": {
@@ -543,10 +644,18 @@
       "faq": {
         "title": "Häufige Fragen",
         "items": [
-          { "q": "Was ist der Hauptunterschied zwischen starrer und elastischer Verriegelung?" },
-          { "q": "Wie berechne ich die erforderliche ausgefahrene Länge?" },
-          { "q": "Welchen Sicherheitsfaktor sollte ich verwenden?" },
-          { "q": "Können Sie den Freigabemechanismus anpassen?" }
+          {
+            "q": "Was ist der Hauptunterschied zwischen starrer und elastischer Verriegelung?"
+          },
+          {
+            "q": "Wie berechne ich die erforderliche ausgefahrene Länge?"
+          },
+          {
+            "q": "Welchen Sicherheitsfaktor sollte ich verwenden?"
+          },
+          {
+            "q": "Können Sie den Freigabemechanismus anpassen?"
+          }
         ]
       }
     },
@@ -564,40 +673,40 @@
         "title": "Wie es funktioniert: Der Verriegelungsmechanismus",
         "description": "Das Herzstück der Push-to-Unlock-Gasfeder ist ihr lösbarer Verriegelungsmechanismus. Im Inneren des Zylinders trennt ein Ventilsystem die Gas- und Ölkammern. Wenn sich die Feder im Standardzustand (verriegelt) befindet, verhindert dieses Ventil die Bewegung des Kolbens und sorgt für starren Halt. Durch Drücken des Entriegelungsstifts am Ende der Kolbenstange wird das Ventil geöffnet, sodass Gas oder Öl fließen und sich der Kolben frei bewegen kann. Sobald die gewünschte Position erreicht ist, wird das Ventil durch Loslassen des Stifts wieder geschlossen, und die Feder verriegelt sich wieder fest. Dieses einfache, aber effektive Design ermöglicht eine bedarfsgesteuerte Bewegungssteuerung ohne komplexe externe Verriegelungshardware."
       },
-        "specs": {
-          "title": "Technische Spezifikationen",
-          "description": "Unsere Push-to-Unlock-Gasfedern sind in einer Vielzahl von Größen, Kräften und Konfigurationen erhältlich, um den Anforderungen Ihrer Anwendung gerecht zu werden. Zu den wichtigsten Spezifikationen gehören:",
-          "tableHeaders": [
-            "Spezifikation",
-            "Wert"
-          ],
-          "items": [
-            {
-              "name": "Kraftbereich",
-              "value": "100N bis 2500N"
-            },
-            {
-              "name": "Hublänge",
-              "value": "50mm bis 800mm"
-            },
-            {
-              "name": "Materialoptionen",
-              "value": "Stahl, Edelstahl (304/316)"
-            },
-            {
-              "name": "Endbeschläge",
-              "value": "Eine Vielzahl von Standard- und Sonderoptionen"
-            },
-            {
-              "name": "Temperaturbereich",
-              "value": "-30°C bis +80°C"
-            },
-            {
-              "name": "Zertifizierungen",
-              "value": "ISO 9001, RoHS, REACH"
-            }
-          ]
-        },
+      "specs": {
+        "title": "Technische Spezifikationen",
+        "description": "Unsere Push-to-Unlock-Gasfedern sind in einer Vielzahl von Größen, Kräften und Konfigurationen erhältlich, um den Anforderungen Ihrer Anwendung gerecht zu werden. Zu den wichtigsten Spezifikationen gehören:",
+        "tableHeaders": [
+          "Spezifikation",
+          "Wert"
+        ],
+        "items": [
+          {
+            "name": "Kraftbereich",
+            "value": "100N bis 2500N"
+          },
+          {
+            "name": "Hublänge",
+            "value": "50mm bis 800mm"
+          },
+          {
+            "name": "Materialoptionen",
+            "value": "Stahl, Edelstahl (304/316)"
+          },
+          {
+            "name": "Endbeschläge",
+            "value": "Eine Vielzahl von Standard- und Sonderoptionen"
+          },
+          {
+            "name": "Temperaturbereich",
+            "value": "-30°C bis +80°C"
+          },
+          {
+            "name": "Zertifizierungen",
+            "value": "ISO 9001, RoHS, REACH"
+          }
+        ]
+      },
       "faq": {
         "title": "Häufig gestellte Fragen",
         "questions": [

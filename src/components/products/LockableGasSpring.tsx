@@ -106,8 +106,8 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
       <section className="py-16 md:py-24 bg-background">
         <div className="container max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="font-bold text-4xl md:text-5xl mb-4">{lgs.why?.title ?? 'Why Lockable Gas Springs?'}</h2>
-            <p className="text-lg text-muted-foreground">{lgs.why?.subtitle ?? 'More than just support—precision positioning with confidence'}</p>
+            <h2 className="font-bold text-4xl md:text-5xl mb-4">{lgs.why?.title ?? 'What is Adjustable Gas Spring?'}</h2>
+            <p className="text-lg text-muted-foreground">{lgs.why?.subtitle ?? ''}</p>
           </div>
           <div className="grid md:grid-cols-3 gap-12">
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
