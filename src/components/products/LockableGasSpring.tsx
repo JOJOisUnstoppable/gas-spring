@@ -115,21 +115,42 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8 text-primary"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
               </div>
               <h3 className="font-bold text-xl mb-2">{lgs.why?.cards?.zero?.title ?? 'Zero Displacement Locking'}</h3>
-              <p className="text-muted-foreground">{lgs.why?.cards?.zero?.desc ?? 'Rigid locking provides completely stable support without any movement, ensuring precise position retention.'}</p>
+              <p className="text-muted-foreground mb-4">{lgs.why?.cards?.zero?.desc ?? 'Rigid locking provides completely stable support without any movement, ensuring precise position retention.'}</p>
+              <div className="mt-auto pt-4 border-t border-border/50">
+                <img
+                  src="/images/product/gas-spring/lockable-gas-spring/Rigid-in-compression.png"
+                  alt="Rigid in compression"
+                  className="w-full h-auto rounded-lg object-contain bg-white/50 p-2"
+                />
+              </div>
             </div>
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
               <div className="mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8 text-primary"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg>
               </div>
               <h3 className="font-bold text-xl mb-2">{lgs.why?.cards?.flexible?.title ?? 'Flexible Solutions'}</h3>
-              <p className="text-muted-foreground">{lgs.why?.cards?.flexible?.desc ?? 'Elastic locking offers soft-rebound cushioning for applications requiring gentle positioning.'}</p>
+              <p className="text-muted-foreground mb-4">{lgs.why?.cards?.flexible?.desc ?? 'Elastic locking offers soft-rebound cushioning for applications requiring gentle positioning.'}</p>
+              <div className="mt-auto pt-4 border-t border-border/50">
+                <img
+                  src="/images/product/gas-spring/lockable-gas-spring/Rigid-in-Extension.png"
+                  alt="Flexible solutions"
+                  className="w-full h-auto rounded-lg object-contain bg-white/50 p-2"
+                />
+              </div>
             </div>
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
               <div className="mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8 text-primary"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
               </div>
               <h3 className="font-bold text-xl mb-2">{lgs.why?.cards?.highLoad?.title ?? 'High Load Capacity'}</h3>
-              <p className="text-muted-foreground">{lgs.why?.cards?.highLoad?.desc ?? 'Withstand lateral forces ≥ 2,000 N with reliable locking force plateau performance.'}</p>
+              <p className="text-muted-foreground mb-4">{lgs.why?.cards?.highLoad?.desc ?? 'Withstand lateral forces ≥ 2,000 N with reliable locking force plateau performance.'}</p>
+              <div className="mt-auto pt-4 border-t border-border/50">
+                <img
+                  src="/images/product/gas-spring/lockable-gas-spring/flexible.png"
+                  alt="Rigid in Extension"
+                  className="w-full h-auto rounded-lg object-contain bg-white/50 p-2"
+                />
+              </div>
             </div>
           </div>
         </div>
