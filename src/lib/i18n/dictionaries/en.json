@@ -901,50 +901,6 @@
           ]
         }
       },
-      "comparison": {
-        "headers": [
-          "Feature",
-          "Rigid Locking",
-          "Elastic Locking"
-        ],
-        "rows": [
-          {
-            "label": "Internal Structure",
-            "rigid": "Oil-gas separation, dual chamber",
-            "elastic": "Oil-gas mixture, single chamber"
-          },
-          {
-            "label": "Locking Medium",
-            "rigid": "Hydraulic oil (sealed)",
-            "elastic": "N₂ + lubricating oil"
-          },
-          {
-            "label": "Locked Performance",
-            "rigid": "Zero displacement",
-            "elastic": "≤ 5 mm elastic displacement"
-          },
-          {
-            "label": "Locking Force",
-            "rigid": "High (≥ 2,000 N)",
-            "elastic": "Moderate with cushioning"
-          },
-          {
-            "label": "Compression Ratio",
-            "rigid": "High",
-            "elastic": "Low"
-          },
-          {
-            "label": "Force Range",
-            "rigid": "200–1,200 N",
-            "elastic": "200–1,200 N"
-          },
-          {
-            "label": "Stroke Range",
-            "rigid": "50–300 mm",
-            "elastic": "50–500 mm (customizable)"
-          }
-        ]
-      },
       "applications": {
         "title": "Real-World Applications",
         "imageAlt": "Lockable Gas Spring Applications",

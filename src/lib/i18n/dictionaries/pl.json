@@ -535,50 +535,6 @@
           ]
         }
       },
-      "comparison": {
-        "headers": [
-          "Cecha",
-          "Sztywne blokowanie",
-          "Elastyczne blokowanie"
-        ],
-        "rows": [
-          {
-            "label": "Struktura wewnętrzna",
-            "rigid": "Separacja oleju i gazu, podwójna komora",
-            "elastic": "Mieszanina oleju i gazu, pojedyncza komora"
-          },
-          {
-            "label": "Medium blokujące",
-            "rigid": "Olej hydrauliczny (uszczelniony)",
-            "elastic": "N₂ + olej smarujący"
-          },
-          {
-            "label": "Zachowanie po zablokowaniu",
-            "rigid": "Brak przemieszczenia",
-            "elastic": "≤ 5 mm elastycznego przemieszczenia"
-          },
-          {
-            "label": "Siła blokowania",
-            "rigid": "Wysoka (≥ 2.000 N)",
-            "elastic": "Umiarkowana z amortyzacją"
-          },
-          {
-            "label": "Współczynnik kompresji",
-            "rigid": "Wysoki",
-            "elastic": "Niski"
-          },
-          {
-            "label": "Zakres sił",
-            "rigid": "200–1.200 N",
-            "elastic": "200–1.200 N"
-          },
-          {
-            "label": "Zakres skoku",
-            "rigid": "50–300 mm",
-            "elastic": "50–500 mm (dostosowywalny)"
-          }
-        ]
-      },
       "applications": {
         "title": "Zastosowania w rzeczywistości",
         "imageAlt": "Zastosowania blokowanej sprężyny gazowej",

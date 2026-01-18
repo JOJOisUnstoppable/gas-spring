@@ -447,50 +447,6 @@
           ]
         }
       },
-      "comparison": {
-        "headers": [
-          "特性",
-          "刚性锁定",
-          "柔性锁定"
-        ],
-        "rows": [
-          {
-            "label": "内部结构",
-            "rigid": "油气分离，双腔",
-            "elastic": "油气混合，单腔"
-          },
-          {
-            "label": "锁定介质",
-            "rigid": "密封液压油",
-            "elastic": "N₂ + 润滑油"
-          },
-          {
-            "label": "锁定表现",
-            "rigid": "零位移",
-            "elastic": "≤ 5 mm 弹性位移"
-          },
-          {
-            "label": "锁定力",
-            "rigid": "高（≥ 2,000 N）",
-            "elastic": "中等且带缓冲"
-          },
-          {
-            "label": "压缩比",
-            "rigid": "高",
-            "elastic": "低"
-          },
-          {
-            "label": "力范围",
-            "rigid": "200–1,200 N",
-            "elastic": "200–1,200 N"
-          },
-          {
-            "label": "行程范围",
-            "rigid": "50–300 mm",
-            "elastic": "50–500 mm（可定制）"
-          }
-        ]
-      },
       "applications": {
         "title": "典型应用场景",
         "imageAlt": "可锁定气弹簧应用",

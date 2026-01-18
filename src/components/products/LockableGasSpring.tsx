@@ -24,10 +24,6 @@ type LgsDict = {
     rigid?: { title?: string; points?: string[] }
     elastic?: { title?: string; points?: string[] }
   }
-  comparison?: {
-    headers?: string[]
-    rows?: Array<{ label?: string; rigid?: string; elastic?: string }>
-  }
   applications?: {
     title?: string
     imageAlt?: string
@@ -202,34 +198,6 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
                 </ul>
               </div>
             </div>
-          </div>
-          <div id="comparison" className="overflow-x-auto">
-            <table className="w-full text-sm md:text-base">
-              <thead>
-                <tr className="border-b-2 border-primary">
-                  {(lgs.comparison?.headers ?? ['Feature', 'Rigid Locking', 'Elastic Locking']).map((h: string, idx: number) => (
-                    <th key={idx} className={`py-4 px-4 font-bold ${idx === 0 ? 'text-left' : 'text-center'} ${idx === 1 ? 'text-primary' : idx === 2 ? 'text-accent' : ''}`}>{h}</th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {(lgs.comparison?.rows ?? [
-                  { label: 'Internal Structure', rigid: 'Oil-gas separation, dual chamber', elastic: 'Oil-gas mixture, single chamber' },
-                  { label: 'Locking Medium', rigid: 'Hydraulic oil (sealed)', elastic: 'N₂ + lubricating oil' },
-                  { label: 'Locked Performance', rigid: 'Zero displacement', elastic: '≤ 5 mm elastic displacement' },
-                  { label: 'Locking Force', rigid: 'High (≥ 2,000 N)', elastic: 'Moderate with cushioning' },
-                  { label: 'Compression Ratio', rigid: 'High', elastic: 'Low' },
-                  { label: 'Force Range', rigid: '200–1,200 N', elastic: '200–1,200 N' },
-                  { label: 'Stroke Range', rigid: '50–300 mm', elastic: '50–500 mm (customizable)' }
-                ]).map((row, idx) => (
-                  <tr key={idx} className="border-b border-border transition-colors hover:bg-accent/10">
-                    <td className="py-4 px-4 font-medium text-foreground">{row.label}</td>
-                    <td className="py-4 px-4 text-center text-muted-foreground">{row.rigid}</td>
-                    <td className="py-4 px-4 text-center text-muted-foreground">{row.elastic}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
           </div>
         </div>
       </section>

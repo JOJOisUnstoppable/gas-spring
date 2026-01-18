@@ -447,50 +447,6 @@
           ]
         }
       },
-      "comparison": {
-        "headers": [
-          "Merkmal",
-          "Starre Verriegelung",
-          "Elastische Verriegelung"
-        ],
-        "rows": [
-          {
-            "label": "Innere Struktur",
-            "rigid": "Öl-Gas-Trennung, Zweikammer",
-            "elastic": "Öl-Gas-Mischung, Einkammer"
-          },
-          {
-            "label": "Verriegelungsmedium",
-            "rigid": "Hydrauliköl (abgedichtet)",
-            "elastic": "N₂ + Schmieröl"
-          },
-          {
-            "label": "Verriegelungsleistung",
-            "rigid": "Keine Verlagerung",
-            "elastic": "≤ 5 mm elastische Verlagerung"
-          },
-          {
-            "label": "Verriegelungskraft",
-            "rigid": "Hoch (≥ 2.000 N)",
-            "elastic": "Mittel mit Dämpfung"
-          },
-          {
-            "label": "Kompressionsverhältnis",
-            "rigid": "Hoch",
-            "elastic": "Niedrig"
-          },
-          {
-            "label": "Kraftbereich",
-            "rigid": "200–1.200 N",
-            "elastic": "200–1.200 N"
-          },
-          {
-            "label": "Hubbereich",
-            "rigid": "50–300 mm",
-            "elastic": "50–500 mm (anpassbar)"
-          }
-        ]
-      },
       "applications": {
         "title": "Praxisnahe Anwendungen",
         "imageAlt": "Anwendungen der verriegelbaren Gasfeder",

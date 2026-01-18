@@ -595,50 +595,6 @@
           ]
         }
       },
-      "comparison": {
-        "headers": [
-          "Característica",
-          "Bloqueo rígido",
-          "Bloqueo elástico"
-        ],
-        "rows": [
-          {
-            "label": "Estructura interna",
-            "rigid": "Separación aceite-gas, doble cámara",
-            "elastic": "Mezcla aceite-gas, cámara única"
-          },
-          {
-            "label": "Medio de bloqueo",
-            "rigid": "Aceite hidráulico (sellado)",
-            "elastic": "N₂ + aceite lubricante"
-          },
-          {
-            "label": "Desempeño bloqueado",
-            "rigid": "Sin desplazamiento",
-            "elastic": "≤ 5 mm de desplazamiento elástico"
-          },
-          {
-            "label": "Fuerza de bloqueo",
-            "rigid": "Alta (≥ 2.000 N)",
-            "elastic": "Moderada con amortiguación"
-          },
-          {
-            "label": "Relación de compresión",
-            "rigid": "Alta",
-            "elastic": "Baja"
-          },
-          {
-            "label": "Rango de fuerza",
-            "rigid": "200–1.200 N",
-            "elastic": "200–1.200 N"
-          },
-          {
-            "label": "Rango de carrera",
-            "rigid": "50–300 mm",
-            "elastic": "50–500 mm (personalizable)"
-          }
-        ]
-      },
       "applications": {
         "title": "Aplicaciones reales",
         "imageAlt": "Aplicaciones del resorte de gas bloqueable",
