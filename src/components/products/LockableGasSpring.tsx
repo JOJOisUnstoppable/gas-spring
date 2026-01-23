@@ -373,24 +373,24 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
                 {lgs.detailedSelectionGuide?.step3?.description ?? 'Force design is core to ensuring smooth load bearing and reliable locking'}
               </CardDescription>
             </CardHeader>
-              <div className="relative">
-                <img alt={'Gas-Spring-Force-Curve-Visualization'} className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/lockable-gas-spring/Gas-Spring-Force-Curve-Visualization.png" />
-                <div className="mt-8 bg-muted/40 rounded-xl p-5 md:p-6 border border-border/50">
-                  <ul className="space-y-3 text-muted-foreground list-disc pl-4 marker:text-primary/70 text-sm md:text-base leading-relaxed">
-                    {(lgs.detailedSelectionGuide?.step3?.subDesc ?? [
-                      "Weight in Newtons: mass (kg) × 9.81",
-                      "One-spring force: F = 1.2 × (W × L) ÷ (B × 0.65)",
-                      "L = hinge-to-CG distance",
-                      "B = hinge-to-spring distance",
-                      "Use n springs? Divide F by n.",
-                      "For lockable springs, you also need to consider the locking force and friction, which might require specialized configurators.",
-                      "Complexity: Real-world applications involve changing geometry and dynamic forces;"
-                    ]).map((item, idx) => (
-                      <li key={idx} className="pl-1">{item}</li>
-                    ))}
-                  </ul>
-                </div>
+            <div className="relative">
+              <img alt={'Gas-Spring-Force-Curve-Visualization'} className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/lockable-gas-spring/Gas-Spring-Force-Curve-Visualization.png" />
+              <div className="mt-8 bg-muted/40 rounded-xl p-5 md:p-6 border border-border/50">
+                <ul className="space-y-3 text-muted-foreground list-disc pl-4 marker:text-primary/70 text-sm md:text-base leading-relaxed">
+                  {(lgs.detailedSelectionGuide?.step3?.subDesc ?? [
+                    "Weight in Newtons: mass (kg) × 9.81",
+                    "One-spring force: F = 1.2 × (W × L) ÷ (B × 0.65)",
+                    "L = hinge-to-CG distance",
+                    "B = hinge-to-spring distance",
+                    "Use n springs? Divide F by n.",
+                    "For lockable springs, you also need to consider the locking force and friction, which might require specialized configurators.",
+                    "Complexity: Real-world applications involve changing geometry and dynamic forces;"
+                  ]).map((item, idx) => (
+                    <li key={idx} className="pl-1">{item}</li>
+                  ))}
+                </ul>
               </div>
+            </div>
             <CardContent className="pt-6">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="bg-muted p-4 rounded-lg border border-border">
@@ -503,12 +503,10 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
       <section id="applications" className="py-16 md:py-24 bg-background">
         <div className="container max-w-7xl mx-auto">
           <h2 className="font-bold text-4xl md:text-5xl mb-12 text-center">{lgs.applications?.title ?? 'Real-World Applications'}</h2>
-          <div className="mb-12">
-            <img alt={lgs.applications?.imageAlt ?? 'Lockable Gas Spring Applications'} className="w-full h-auto rounded-lg shadow-lg" src="/images/applications-collage.png" />
-          </div>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
               <h3 className="font-bold text-xl mb-4 text-primary">{lgs.applications?.medical?.title ?? 'Medical'}</h3>
+              <img alt={'Lockable Gas Spring for Medical'} className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg" src="/images/application/grid/medical_bed.jpg" />
               <ul className="space-y-2 text-muted-foreground">
                 {(lgs.applications?.medical?.items ?? [
                   'Wheelchair backrests',
@@ -521,6 +519,7 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
             </div>
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
               <h3 className="font-bold text-xl mb-4 text-primary">{lgs.applications?.furnitureOffice?.title ?? 'Furniture & Office'}</h3>
+              <img alt={'Lockable Gas Spring for Furniture & Office'} className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg" src="/images/application/grid/health-leisure-and-furniture.png" />
               <ul className="space-y-2 text-muted-foreground">
                 {(lgs.applications?.furnitureOffice?.items ?? [
                   'Seat height adjustment',
@@ -533,6 +532,7 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
             </div>
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
               <h3 className="font-bold text-xl mb-4 text-primary">{lgs.applications?.industrial?.title ?? 'Industrial'}</h3>
+              <img alt={'Lockable Gas Spring for Industrial'} className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg" src="/images/application/grid/mechanical-engineering-and-automation.png" />
               <ul className="space-y-2 text-muted-foreground">
                 {(lgs.applications?.industrial?.items ?? [
                   'Tooling fixtures',
@@ -545,6 +545,7 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
             </div>
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
               <h3 className="font-bold text-xl mb-4 text-primary">{lgs.applications?.aviation?.title ?? 'Aviation'}</h3>
+              <img alt={'Lockable Gas Spring for Aviation'} className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg" src="/images/application/grid/aerospace-navy-railways.png" />
               <ul className="space-y-2 text-muted-foreground">
                 {(lgs.applications?.aviation?.items ?? [
                   'Aircraft overhead bins',
@@ -564,8 +565,11 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
           <div className="max-w-4xl mx-auto">
             <h2 className="font-bold text-4xl md:text-5xl mb-8 text-center">{lgs.forcePerformance?.title ?? 'Locking Force Performance'}</h2>
             <p className="text-lg text-muted-foreground text-center mb-12">{lgs.forcePerformance?.desc ?? 'The locking force curve shows the stability plateau—the higher and flatter the plateau, the more reliable the locking performance.'}</p>
-            <div className="mb-12">
-              <img alt={lgs.forcePerformance?.imageAlt ?? 'Locking Force Curves'} className="w-full h-auto rounded-lg shadow-lg" src="/images/force-curve-visualization.png" />
+            <div className="gap-8 mb-8">
+            <section>
+              <h2 className="text-xl font-semibold mb-4">Default Configuration (Standard 165mm stroke)</h2>
+              <GasSpringForceCurve title={'Locking Force Curve for Standard 165mm Stroke'} />
+            </section>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-card text-card-foreground flex flex-col gap-3 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
