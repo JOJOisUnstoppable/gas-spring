@@ -884,6 +884,7 @@
         },
         "rigid": {
           "title": "Rigid Locking",
+          "desc":"The floating piston separates oil and gas into two chambers. The piston locks in the oil chamber, featuring strong locking force and zero displacement after locking. The nitrogen chamber is small with a high compression ratio.",
           "points": [
             "Zero Displacement – Completely rigid support",
             "Dual Chamber – Oil-gas separation with floating piston",
@@ -893,6 +894,7 @@
         },
         "elastic": {
           "title": "Elastic Locking",
+          "desc":"There is no floating piston, and only a single chamber exists. The chamber is filled with nitrogen and a small amount of hydraulic oil (for lubrication). It has slightly weaker locking force, minor displacement after locking, and a low compression ratio.",
           "points": [
             "Soft Rebound – Allows ≤ 5 mm elastic displacement",
             "Single Chamber – N₂ + lubricating oil mixture",
@@ -1046,8 +1048,17 @@
           }
         },
         "step3": {
-          "title": "Step 3: Force-Displacement Curve",
+          "title": "Step 3: Force Calculation",
           "description": "Force design is central to ensuring smooth load bearing and reliable locking.",
+          "subDesc":[
+            "Weight in Newtons: mass (kg) × 9.81",
+            "One-spring force: F = 1.2 × (W × L) ÷ (B × 0.65)",
+            "L = hinge-to-CG distance",
+            "B = hinge-to-spring distance",
+            "Use n springs? Divide F by n.",
+            "For lockable springs, you also need to consider the locking force and friction, which might require specialized configurators.",
+            "Complexity: Real-world applications involve changing geometry and dynamic forces;"
+          ],
           "nominal": {
             "title": "Nominal Force (Fₙ)",
             "description": "The initial force during extension or compression. For Fₙ > 100N, use increments of 50N."

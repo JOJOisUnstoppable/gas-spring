@@ -5,6 +5,7 @@ import { Button } from '@/components/GasSpringGuide/ui/button'
 import { CheckCircle2, Zap } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/GasSpringGuide/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/GasSpringGuide/ui/tabs";
+import GasSpringForceCurve from '@/components/visualization/GasSpringForceCurve';
 
 type LgsDict = {
   hero?: {
@@ -25,8 +26,8 @@ type LgsDict = {
   technology?: {
     title?: string
     imagesAlt?: { rigid?: string; elastic?: string }
-    rigid?: { title?: string; points?: string[] }
-    elastic?: { title?: string; points?: string[] }
+    rigid?: { title?: string; desc?: string; points?: string[] }
+    elastic?: { title?: string; desc?: string; points?: string[] }
   }
   applications?: {
     title?: string
@@ -78,6 +79,7 @@ type LgsDict = {
     step3?: {
       title?: string
       description?: string
+      subDesc?: string[]
       nominal?: { title?: string; description?: string }
       support?: { title?: string; description?: string }
       locking?: { title?: string; description?: string }
@@ -198,10 +200,11 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div className="space-y-6">
               <div className="relative">
-                <img alt={lgs.technology?.imagesAlt?.rigid ?? 'Rigid Locking Mechanism'} className="w-full h-auto rounded-lg shadow-lg" src="/images/hero-rigid-locking.png" />
+                <img alt={lgs.technology?.imagesAlt?.rigid ?? 'Rigid Locking Mechanism'} className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/lockable-gas-spring/rigid-locking-gas-spring.png" />
               </div>
               <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
                 <h3 className="font-bold text-2xl mb-4 text-primary">{lgs.technology?.rigid?.title ?? 'Rigid Locking'}</h3>
+                <p className="text-muted-foreground mb-4">{lgs.technology?.rigid?.desc ?? ''}</p>
                 <ul className="space-y-3">
                   {(lgs.technology?.rigid?.points ?? [
                     'Zero Displacement – Completely rigid support',
@@ -219,10 +222,11 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
             </div>
             <div className="space-y-6">
               <div className="relative">
-                <img alt={lgs.technology?.imagesAlt?.elastic ?? 'Elastic Locking Mechanism'} className="w-full h-auto rounded-lg shadow-lg" src="/images/hero-elastic-locking.png" />
+                <img alt={lgs.technology?.imagesAlt?.elastic ?? 'Elastic Locking Mechanism'} className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/lockable-gas-spring/Elastic-gas-spring.png" />
               </div>
               <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
                 <h3 className="font-bold text-2xl mb-4 text-accent">{lgs.technology?.elastic?.title ?? 'Elastic Locking'}</h3>
+                <p className="text-muted-foreground mb-4">{lgs.technology?.elastic?.desc ?? ''}</p>
                 <ul className="space-y-3">
                   {(lgs.technology?.elastic?.points ?? [
                     'Soft Rebound – Allows ≤ 5 mm elastic displacement',
@@ -364,11 +368,29 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
           {/* Step 3: Force Design */}
           <Card className="mb-8">
             <CardHeader className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/20 dark:to-pink-950/20">
-              <CardTitle className="text-2xl">{lgs.detailedSelectionGuide?.step3?.title ?? 'Step 3: Force-Displacement Curve'}</CardTitle>
+              <CardTitle className="text-2xl">{lgs.detailedSelectionGuide?.step3?.title ?? ''}</CardTitle>
               <CardDescription>
                 {lgs.detailedSelectionGuide?.step3?.description ?? 'Force design is core to ensuring smooth load bearing and reliable locking'}
               </CardDescription>
             </CardHeader>
+              <div className="relative">
+                <img alt={'Gas-Spring-Force-Curve-Visualization'} className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/lockable-gas-spring/Gas-Spring-Force-Curve-Visualization.png" />
+                <div className="mt-8 bg-muted/40 rounded-xl p-5 md:p-6 border border-border/50">
+                  <ul className="space-y-3 text-muted-foreground list-disc pl-4 marker:text-primary/70 text-sm md:text-base leading-relaxed">
+                    {(lgs.detailedSelectionGuide?.step3?.subDesc ?? [
+                      "Weight in Newtons: mass (kg) × 9.81",
+                      "One-spring force: F = 1.2 × (W × L) ÷ (B × 0.65)",
+                      "L = hinge-to-CG distance",
+                      "B = hinge-to-spring distance",
+                      "Use n springs? Divide F by n.",
+                      "For lockable springs, you also need to consider the locking force and friction, which might require specialized configurators.",
+                      "Complexity: Real-world applications involve changing geometry and dynamic forces;"
+                    ]).map((item, idx) => (
+                      <li key={idx} className="pl-1">{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             <CardContent className="pt-6">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="bg-muted p-4 rounded-lg border border-border">
@@ -417,10 +439,10 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
                 ]).map((metric, idx) => (
                   <div key={idx} className="flex gap-4">
                     <div className="flex-shrink-0">
-                      {idx === 0 ? <Zap className="h-6 w-6 text-blue-600 mt-1" /> : 
-                       idx === 1 ? <CheckCircle2 className="h-6 w-6 text-green-600 mt-1" /> :
-                       idx === 2 ? <CheckCircle2 className="h-6 w-6 text-blue-600 mt-1" /> :
-                       <CheckCircle2 className="h-6 w-6 text-purple-600 mt-1" />}
+                      {idx === 0 ? <Zap className="h-6 w-6 text-blue-600 mt-1" /> :
+                        idx === 1 ? <CheckCircle2 className="h-6 w-6 text-green-600 mt-1" /> :
+                          idx === 2 ? <CheckCircle2 className="h-6 w-6 text-blue-600 mt-1" /> :
+                            <CheckCircle2 className="h-6 w-6 text-purple-600 mt-1" />}
                     </div>
                     <div>
                       <h5 className="font-semibold text-foreground mb-1">{metric.title}</h5>
