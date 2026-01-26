@@ -175,215 +175,90 @@
   },
   "products": {
     "tension-gas-spring": {
+      "hero": {
+        "title": "What is a Tension Gas Spring?",
+        "subtitle": "Discover the hidden force that pulls lids, hatches and guards back into place—smoothly, safely and without motors."
+      },
+      "interest": {
+        "title": "How it works",
+        "subtitle": "(and why it’s different)",
+        "cards": {
+          "freeState": {
+            "title": "1. Free-state = Rod Retracted",
+            "desc": "Unlike normal gas springs, a <strong>tension (pull-type) gas spring</strong> keeps its rod fully <em>inside</em> when nobody touches it. Gravity or manual force must <strong>pull</strong> the rod out to open the lid."
+          },
+          "assist": {
+            "title": "2. Self-retracting Assist",
+            "desc": "When closing, internal compressed gas acts like a “reverse” spring—automatically <strong>retracting</strong> the rod and helping the lid back down. No extra latch, motor or hand-force required."
+          }
+        },
+        "specs": {
+          "title": "Key Specifications Customers Ask For",
+          "items": [
+            "Force range <strong>100-1 500 N</strong> (custom calibrations available)",
+            "Closed length <strong>200-450 mm</strong>; stroke <strong>100-300 mm</strong>",
+            "<strong>Single or double-tube</strong> design for different speed/curve behaviour",
+            "End-fittings with <strong>anti-drop safety pin</strong> or wire",
+            "Annual volumes <strong>500-5 000 pcs</strong>, FOB + door-to-door freight"
+          ]
+        }
+      },
+      "desire": {
+        "title": "Where you’ll see it",
+        "applications": {
+          "title": "Typical Applications",
+          "items": [
+            "Tractor engine hoods & side shields",
+            "Sailboat hatches & storage lockers",
+            "Automatic-retract safety guardrails",
+            "Medical device lifting arms",
+            "Prototype & military hardware"
+          ]
+        },
+        "comparison": {
+          "title": "Single-tube vs. Double-tube",
+          "single": "<strong>Single:</strong> faster retraction, steeper force rise (100 N → ~175 N over stroke).",
+          "double": "<strong>Double:</strong> smoother, more linear curve (100 N → ~150 N) and reduced vibration—perfect when noise or precision matters."
+        },
+        "tableSection": {
+          "title": "Traction Spring vs. Pure Damper — Quick Pick",
+          "headers": [
+            "Type",
+            "Free State",
+            "Opening Action",
+            "Closing Action",
+            "Assist?"
+          ],
+          "rows": {
+            "tension": {
+              "type": "Tension Gas Spring",
+              "freeState": "Retracted (IN)",
+              "opening": "Pulled out by Gravity",
+              "closing": "Auto-retracts (Assisted)",
+              "assist": "✓ Yes"
+            },
+            "damper": {
+              "type": "Pure Damper",
+              "freeState": "Neutral / Extended",
+              "opening": "Manual Pull (Resistance)",
+              "closing": "Controlled Descent (Resistance)",
+              "assist": "✗ No"
+            }
+          },
+          "note": "* <strong>Pure Damper Note:</strong> A damper provides resistance in one or both directions to prevent slamming, but it does not store energy to return the application to its starting position. You must manually push it back."
+        }
+      },
+      "action": {
+        "title": "Need a Custom Tension Spring?",
+        "desc": "Send us your required force, stroke and end-fitting drawing. We’ll return a detailed quote with FOB & door-to-door freight within 24 h.",
+        "button": "Request Quote Now",
+        "catalogLink": "Or download our spec sheet → PDF catalog"
+      },
       "CTA": {
         "title": "Ready to Find Your Perfect Tension Gas Spring?",
         "desc": [
           "Our technical team is ready to assist with selection, customization, and rapid delivery.",
           "Contact us today for a detailed quotation or technical consultation."
-        ]
-      },
-      "hero": {
-        "title": "Tension Gas Spring",
-        "subtitle": "Pull Gas Spring / Reverse Action Gas Spring - Professional Industrial Solutions",
-        "buttons": {
-          "getSpecs": "Get Technical Specs",
-          "requestQuote": "Request Quote"
-        },
-        "imageAlt": "Tension Gas Spring"
-      },
-      "definition": {
-        "title": "1. Product Definition",
-        "keyCharacteristics": {
-          "title": "Key Characteristics",
-          "items": [
-            {
-              "label": "Product Name",
-              "value": "Tension Gas Spring / Pull Gas Spring / Reverse Action Gas Spring"
-            },
-            {
-              "label": "Free State",
-              "value": "The piston rod is in the \"retracted\" position"
-            },
-            {
-              "label": "Working Characteristic",
-              "value": "Extends when pulled, automatically retracts when released"
-            }
-          ]
-        },
-        "mainFunction": {
-          "title": "Main Function",
-          "desc": "To enable covers/hatches that \"need to be pulled down and retracted\" to close automatically, while providing a controlled retraction speed. Typical applications include:",
-          "scenarios": [
-            "Automatic retraction of hoods and hatches",
-            "Assistance for medical equipment lifting",
-            "Automatic barrier retraction",
-            "Industrial equipment cover control"
-          ]
-        }
-      },
-      "classification": {
-        "title": "2. Structural Classification and Performance Differences",
-        "table": {
-          "headers": [
-            "Type",
-            "Single Tube",
-            "Double Tube"
-          ],
-          "rows": [
-            {
-              "label": "Rebound Speed",
-              "single": "Fast",
-              "double": "Slower, more stable"
-            },
-            {
-              "label": "Force Progression Rate",
-              "single": "High (100 N → 170-180 N)",
-              "double": "Low (100 N → ~150 N)"
-            },
-            {
-              "label": "Closed Length Advantage",
-              "single": "Shorter (L ≥ 2S + 45)",
-              "double": "Longer (L ≥ 2S + 70)"
-            },
-            {
-              "label": "Applicability",
-              "single": "Tight spaces, acceptable force progression",
-              "double": "Stable force, high safety guidance requirements"
-            }
-          ]
-        },
-        "cards": {
-          "singleTube": {
-            "title": "Single Tube Structure",
-            "items": [
-              "Simple design, lower cost",
-              "Shorter closed length",
-              "Fast rebound speed",
-              "Noticeable force progression",
-              "Preferred for tight space applications"
-            ]
-          },
-          "doubleTube": {
-            "title": "Double Tube Structure",
-            "items": [
-              "Stable force curve",
-              "Controllable rebound speed",
-              "Good safety guidance",
-              "Approx. 30% higher cost",
-              "Preferred for high safety requirement applications"
-            ]
-          }
-        }
-      },
-      "parameters": {
-        "title": "3. Core Parameter Range",
-        "cards": {
-          "force": {
-            "title": "Force Range",
-            "value": "100 – 1,500 N",
-            "note": "Common Stock: 150 / 250 / 350 N"
-          },
-          "stroke": {
-            "title": "Stroke Range",
-            "value": "100 – 300 mm",
-            "note": "Available in 25 mm increments"
-          },
-          "closedLength": {
-            "title": "Closed Length",
-            "value": "200 – 450 mm",
-            "note": "Limited by formula"
-          },
-          "moq": {
-            "title": "Minimum Order Qty",
-            "value": "200 units",
-            "note": "Typical Annual Volume: 500 – 5,000 units"
-          }
-        },
-        "endFitting": {
-          "title": "End Fitting Configuration",
-          "items": [
-            "Threaded Ends: Single/Double end M8 or M10 threads",
-            "Ball Joint Ends: Ø10 mm ball joint",
-            "Safety Accessories: Must be equipped with \"anti-detachment pin\" or safety wire"
-          ]
-        }
-      },
-      "principle": {
-        "title": "4. Working Principle - Two Modes of Operation",
-        "labels": {
-          "operationFlow": "Operation Flow",
-          "applicableScenarios": "Applicable Scenarios:"
-        },
-        "modeA": {
-          "title": "Mode A: Traction Gas Spring (With Pull Force)",
-          "flow": [
-            "Opening Phase: Cover's gravity overcomes initial pull force, pulling the rod out → Cover descends",
-            "Closing Phase: Gas spring automatically retracts, assisting the cover to pull back up"
-          ],
-          "scenario": "Where the cover's natural descent is sufficient to pull the spring"
-        },
-        "modeB": {
-          "title": "Mode B: Pure Damper (Damping Only, No Pull Force)",
-          "flow": [
-            "Opening Phase: Manual push throughout, no assistance",
-            "Closing Phase: Provides one-way damping only, allowing the cover to descend slowly"
-          ],
-          "scenario": "Light covers or safety-critical scenarios requiring \"no assistance + slow descent\""
-        },
-        "illustration": {
-          "title": "Working Principle Illustration",
-          "points": [
-            "Basic Principle: High-pressure nitrogen gas within the sealed cylinder generates a reverse thrust when the piston rod is pulled. When the external force is released, the gas pressure pushes the piston rod to retract, achieving the automatic closing function.",
-            "Key Advantage: Compared to traditional springs, gas springs offer a more stable force curve and longer service life (typically over 100,000 cycles)."
-          ]
-        }
-      },
-      "formula": {
-        "title": "5. Quick Selection Formula",
-        "closedLength": {
-          "title": "Closed Length Calculation",
-          "lines": [
-            "Single Tube: L ≥ 2S + 45",
-            "Double Tube: L ≥ 2S + 70",
-            "Where: L = Closed Length (mm) | S = Working Stroke (mm)"
-          ]
-        },
-        "selection": {
-          "title": "Selection Steps",
-          "steps": [
-            "Determine Working Stroke S: Based on the required opening range of the cover/hatch",
-            "Select Structure Type: Choose Single or Double Tube based on space and force stability requirements",
-            "Calculate Closed Length: Use the formula above to determine the minimum closed length",
-            "Determine Force: Select appropriate force based on cover weight and pull resistance",
-            "Confirm End Fitting: Choose threaded or ball joint, and configure anti-detachment pin"
-          ]
-        },
-        "tipLabel": "💡 Selection Tip:",
-        "tip": "If unsure about specific parameters, we recommend starting with common stock items (150 N / 200 mm Stroke / Single Tube) for quick sample verification."
-      },
-      "faq": {
-        "title": "6. High-Frequency Customer FAQ",
-        "items": [
-          {
-            "q": "① Can the initial pull force be reduced below 80 N?",
-            "a": "Answer: It can be reduced to 60 N, but this requires lowering the nitrogen pressure, which will reduce the service life by 20%. We recommend starting at 100 N. This is because excessively low initial pressure increases the gas expansion coefficient, affecting long-term stability."
-          },
-          {
-            "q": "② The force progression in the single tube is too high, can it be improved?",
-            "a": "Answer: Switch to a Double Tube structure for a flatter force curve, at an approx. 30% increase in cost. The double tube design reduces the force progression rate from 100 N → 170-180 N to 100 N → ~150 N by diverting damping."
-          },
-          {
-            "q": "③ What is the fastest lead time?",
-            "a": "Answer: Conventional 150/250 N, 150/200 mm stroke single tube blanks are stocked (500 units), shipping within 72 hours; non-standard items take 10 days. We maintain inventory on common specifications to ensure rapid response."
-          },
-          {
-            "q": "④ Certifications and Export?",
-            "a": "Answer: Default certifications include RoHS and 48h Salt Spray Test; military-grade products require additional MIL-STD-810G vibration testing, adding 7 days to the cycle. All products comply with the EU RoHS directive and can be exported directly to European and American markets."
-          },
-          {
-            "q": "⑤ I want to conceal the anti-detachment pin on the end fitting?",
-            "a": "Answer: We offer an \"internal thread + safety wire\" solution, which maintains the external appearance of a standard ball joint. This ensures both safety and an improved product aesthetic."
-          }
         ]
       }
     },
@@ -755,56 +630,132 @@
     },
     "push-to-unlock-gas-spring": {
       "hero": {
-        "title": "Push-to-Unlock Gas Spring: Instant, Secure Locking",
-        "subtitle": "Experience reliable, on-demand locking and smooth, controlled release with our advanced push-to-unlock gas springs. Ideal for applications requiring secure positioning and effortless operation.",
-        "cta": "Explore Technical Specs/Request a Custom Solution"
+        "title": "Push to Lock.<br>Push to <span class=\"text-[#4f9cf9]\">Release.</span>",
+        "subtitle": "The Self-Locking Gas Spring that simplifies your design. Compress to lock at shortest length, press again to release. No external levers needed.",
+        "cta": "Request Free Sample"
       },
-      "cta": {
-        "title": "Ready to find your perfect push-to-unlock gas spring?",
-        "desc": [
-          "Our engineering team can assist with selection, customization, and rapid delivery.",
-          "Contact us today for a detailed quote or technical consultation."
-        ]
-      },
-      "definition": {
-        "title": "What is a Push-to-Unlock Gas Spring?",
-        "description": "A Push-to-Unlock Gas Spring is a specialized type of lockable gas spring that remains in a locked state by default. The lock is released by simply pushing the mechanism, allowing for controlled movement. Once the external force is removed, it automatically returns to a secure, locked position. This design is perfect for applications demanding both stability and quick, easy adjustments."
-      },
-      "mechanism": {
-        "title": "How It Works: The Locking Mechanism",
-        "description": "Our Push-to-Unlock Gas Springs feature a precision-engineered valve system. In its resting state, the valve is closed, creating a rigid lock. A small, targeted push actuates the valve, opening it and allowing the gas and oil to flow, enabling smooth extension or compression. Releasing the push reseals the valve, instantly re-engaging the lock. This simple yet robust mechanism ensures fail-safe performance and exceptional durability."
-      },
-      "specs": {
-        "title": "Technical Specifications",
-        "description": "Our Push-to-Unlock Gas Springs are available in a wide range of configurations to meet your specific needs. Key specifications include:",
-        "tableHeaders": [
-          "Specification",
-          "Value"
-        ],
+      "features": {
+        "title": "Why Engineers Switch to Our Self-Lock Gas Spring",
         "items": [
           {
-            "name": "Force Range",
-            "value": "100N to 2500N"
+            "title": "Built-in Locking Device",
+            "desc": "Increases the locking device on the basis of the standard gas strut. Securely locks when compressed to the shortest position."
           },
           {
-            "name": "Stroke Length",
-            "value": "50mm to 800mm"
+            "title": "Convenient Operation",
+            "desc": "Unlocking just needs a simple press down. Returns to naturally stretched state automatically. Simpler than levers or buttons."
           },
           {
-            "name": "Material Options",
-            "value": "Steel, Stainless Steel (304/316)"
+            "title": "Space-Saving Design",
+            "desc": "Does not occupy too much internal space. Ideal for compact applications where external release mechanisms won't fit."
           },
           {
-            "name": "End Fittings",
-            "value": "Variety of standard and custom options"
+            "title": "Reliable Performance",
+            "desc": "Maintains compression state reliably. Suitable for all kinds of situations that need to be locked."
+          }
+        ]
+      },
+      "specs": {
+        "title": "Specs & Customisation",
+        "table": [
+          { "label": "Stroke", "value": "30 – 600 mm" },
+          { "label": "Extended length", "value": "2 × stroke + 70 mm" },
+          { "label": "Force range", "value": "50 – 650 N (±5 %)" },
+          { "label": "Rod diameter", "value": "6 / 8 / 10 mm" },
+          { "label": "Tube finish", "value": "Black epoxy / polished SS" },
+          { "label": "End fittings", "value": "M8 ball, clevis, or your drawing" },
+          { "label": "Lock Position", "value": "Fully Compressed (Shortest Length)" },
+          { "label": "Unlock Method", "value": "Push / Press Down (Bistable)" }
+        ],
+        "note": "Need different force curve or special brackets? ",
+        "noteLink": "Talk to our engineer in 10 min."
+      },
+      "proof": {
+        "title": "Trusted by 300+ OEMs",
+        "clients": ["Medical Co", "Auto Corp", "Furniture Brand"],
+        "quote": "“Replaced 4 traditional latches with one push-to-unlock spring—assembly time down 35 %.”",
+        "author": "— Li Ming, Sourcing Manager at XXX Medical"
+      },
+      "action": {
+        "title": "Get a Free Sample & 3-D Drawing within 24 h",
+        "form": {
+          "company": "Company Name",
+          "email": "Business Email",
+          "quantity": "Estimated Annual Qty",
+          "requirement": "Tell us stroke, force, or your application",
+          "submit": "Send Inquiry"
+        },
+        "privacy": "We respect your privacy. Unsubscribe at any time."
+      },
+      "footer": {
+        "copyright": "© 2024 YourBrand Gas Springs | ISO 9001 & IATF 16949 Certified"
+      }
+    },
+    "stainless-steel-gas-spring": {
+      "hero": {
+        "tag": "The Ultimate Corrosion Resistance",
+        "title": "What is a Stainless Steel Gas Spring?",
+        "subtitle": "Engineered for extreme environments. Discover why leading industries switch to SS304 and SS316 for longevity, hygiene, and performance.",
+        "ctaPrimary": "Compare 304 vs 316",
+        "ctaSecondary": "View Applications"
+      },
+      "intro": {
+        "title": "More Than Just \"Shiny\" Steel",
+        "description1": "A <strong>Stainless Steel Gas Spring</strong> is a premium motion control component made entirely from corrosion-resistant alloys (AISI 304 or 316). Unlike standard steel springs that rely on paint or coating for protection, stainless steel provides inherent, self-healing defense against rust, harsh chemicals, and saltwater.",
+        "description2": "They are the critical choice where <strong>hygiene</strong>, <strong>aesthetics</strong>, and <strong>durability</strong> are non-negotiable requirements.",
+        "checkListTitle": "Why It Matters:",
+        "checkListItems": [
+          "<strong>Zero Rust:</strong> Survives 1000+ hours in salt spray tests (ASTM B117).",
+          "<strong>Hygienic:</strong> Smooth surface prevents bacteria growth; FDA compliant.",
+          "<strong>Non-Magnetic:</strong> Essential for MRI and sensitive electronic environments."
+        ]
+      },
+      "composition": {
+        "title": "Material Composition",
+        "items": [
+          { "value": "18%", "label": "Chromium" },
+          { "value": "10%", "label": "Nickel" },
+          { "value": "2%", "label": "Molybdenum*", "note": "*Specifically in SS316 for enhanced pitting resistance against chlorides" }
+        ]
+      },
+      "comparison": {
+        "tag": "Selection Guide",
+        "title": "SS304 vs SS316: Which One Do You Need?",
+        "subtitle": "Choosing the right alloy is critical for cost-efficiency and longevity. Here is the definitive breakdown based on high-frequency customer inquiries.",
+        "tableHeaders": ["Feature", "SS304 (Standard)", "SS316 (Premium/Marine)"],
+        "rows": [
+          { "feature": "Corrosion Resistance", "ss304": "High (Resists oxidation & fresh water)", "ss316": "<strong>Superior</strong> (Resists chlorides & salt water)" },
+          { "feature": "Best Application", "ss304": "Food Processing, Medical Furniture, Outdoor", "ss316": "Marine (Yachts), Chemical Plants, Coastal Areas" },
+          { "feature": "Cost Factor", "ss304": "$$ (Cost-Effective)", "ss316": "$$$ (Higher Investment ~30-40% more)" },
+          { "feature": "Magnetic Permeability", "ss304": "Low", "ss316": "Very Low (Near Zero)" },
+          { "feature": "Salt Spray Test", "ss304": "~150-300 Hours", "ss316": "<strong>1000+ Hours</strong>" }
+        ]
+      },
+      "specs": {
+        "title": "Key Specifications & Standards",
+        "items": [
+          { "label": "Force Range", "value": "50N - 2500N" },
+          { "label": "Stroke Length", "value": "20mm - 1000mm" },
+          { "label": "Temperature", "value": "-30°C to +80°C" }
+        ]
+      },
+      "applications": {
+        "title": "Industry Applications",
+        "items": [
+          {
+            "title": "Marine & Offshore",
+            "description": "Hatches, engine covers, and storage lockers on yachts. Must withstand saltwater mist and humid environments without pitting.",
+            "recommended": "Recommended: SS316"
           },
           {
-            "name": "Temperature Range",
-            "value": "-30°C to +80°C"
+            "title": "Food & Beverage",
+            "description": "Production line guards and counterweight assists. Requires FDA-compliant materials and easy wash-down capabilities.",
+            "recommended": "Recommended: SS304"
           },
           {
-            "name": "Certifications",
-            "value": "ISO 9001, RoHS, REACH"
+            "title": "Medical & Pharma",
+            "description": "Hospital beds, analytical instruments, and clean rooms. Needs sterile surfaces and non-magnetic properties.",
+            "recommended": "Recommended: SS316L"
           }
         ]
       },
@@ -812,33 +763,28 @@
         "title": "Frequently Asked Questions",
         "questions": [
           {
-            "q": "What is the primary advantage of a push-to-unlock system?",
-            "a": "The main benefit is safety and convenience. The spring is always locked, preventing accidental movement. It only releases when intentionally pushed, providing a secure and user-friendly experience."
+            "q": "Can I replace a steel spring with stainless steel?",
+            "a": "Yes, absolutely. As long as the dimensions (stroke/extended length) and force (Newtons) match, stainless steel springs are dimensionally compatible drop-in replacements for standard steel springs."
           },
           {
-            "q": "Can the locking force be customized?",
-            "a": "Yes, we can tailor the locking force, extension speed, and compression resistance to your exact application requirements. Our engineers will work with you to define the perfect performance profile."
+            "q": "What is the lead time for custom SS springs?",
+            "a": "Standard samples can often be shipped in 3-5 days. Custom production runs typically take 2-3 weeks depending on quantity and end-fitting requirements. We maintain stock of common rod/tube sizes to speed up assembly."
           },
           {
-            "q": "Is this type of spring suitable for outdoor applications?",
-            "a": "Absolutely. We offer stainless steel versions with enhanced corrosion resistance, making them ideal for marine, agricultural, and other demanding outdoor environments."
+            "q": "Do you offer FDA-grade oil/grease?",
+            "a": "Yes. For food and medical applications, we can fill the gas springs with NSF-H1 certified food-grade lubricants to ensure compliance with hygiene standards."
           },
           {
-            "q": "What is the typical lifespan of these springs?",
-            "a": "Our Push-to-Unlock Gas Springs are designed for high-cycle applications, with a typical service life exceeding 50,000 cycles under normal operating conditions."
+            "q": "What end-fittings are available?",
+            "a": "We offer a full range of 316 Stainless Steel end-fittings including eyelets, ball joints, and clevis forks to ensure the entire assembly remains rust-free. Using a steel fitting on a stainless spring would compromise corrosion resistance."
           }
         ]
       },
-      "services": {
-        "title": "Custom Engineering & Support",
-        "description": "We go beyond standard products to provide solutions. Our services include:",
-        "items": [
-          "Custom design and prototyping",
-          "Force and motion profile analysis",
-          "Material and finish consultation",
-          "Rapid sample delivery",
-          "On-site technical support"
-        ]
+      "cta": {
+        "title": "Ready to Upgrade?",
+        "description": "Get a detailed quote for your project within 24 hours. We support low MOQ and custom engineering services.",
+        "buttonPrimary": "Get a Quote",
+        "buttonSecondary": "Download PDF Catalog"
       }
     },
     "lockable-gas-spring": {

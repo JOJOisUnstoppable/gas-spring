@@ -1,170 +1,234 @@
 'use client'
 
-import { Button } from '@/components/ui/button'
-import CTA from '@/components/products/CTA'
+import { Button } from '@/components/GasSpringGuide/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/GasSpringGuide/ui/card'
 import { Locale } from '@/lib/i18n/config'
+import { Lock, Zap, Maximize2, ShieldCheck } from 'lucide-react'
 
 export type PusDict = {
   hero: {
-    title: string;
-    subtitle: string;
-    cta: string;
-  };
-  definition: {
-    title: string;
-    description: string;
-  };
-  mechanism: {
-    title: string;
-    description: string;
-  };
+    title: string
+    subtitle: string
+    cta: string
+  }
+  features: {
+    title: string
+    items: { title: string; desc: string }[]
+  }
   specs: {
-    title: string;
-    description: string;
-    tableHeaders: string[];
-    items: {
-      name: string;
-      value: string;
-    }[];
-  };
-  faq: {
-    title: string;
-    questions: {
-      q: string;
-      a: string;
-    }[];
-  };
-  services: {
-    title: string;
-    description: string;
-    items: string[];
-  };
-  cta: {
-    title: string;
-    desc: string[];
-  };
-};
-
+    title: string
+    table: { label: string; value: string }[]
+    note: string
+    noteLink: string
+  }
+  proof: {
+    title: string
+    clients: string[]
+    quote: string
+    author: string
+  }
+  action: {
+    title: string
+    form: {
+      company: string
+      email: string
+      quantity: string
+      requirement: string
+      submit: string
+    }
+    privacy: string
+  }
+  footer: {
+    copyright: string
+  }
+}
 
 interface PushToUnlockGasSpringProps {
   dict: PusDict
-  locale: Locale
+  locale?: Locale
 }
 
-export default function PushToUnlockGasSpring({ dict, locale }: PushToUnlockGasSpringProps) {
+export default function PushToUnlockGasSpring({ dict }: PushToUnlockGasSpringProps) {
+  const scrollToForm = () => {
+    const form = document.getElementById('quote')
+    if (form) {
+      form.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   return (
-    <div className="flex flex-col">
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0F172B] via-[#2a5298] to-[#0F172B] text-white">
-        <div className="container max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h1 className="font-bold text-5xl md:text-6xl leading-tight" dangerouslySetInnerHTML={{ __html: dict.hero.title }}></h1>
-              <p className="text-lg leading-relaxed opacity-90" dangerouslySetInnerHTML={{ __html: dict.hero.subtitle }}></p>
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button className="h-10 px-6 bg-[#ff6b35] hover:bg-[#e55a2b] text-white">{dict.hero.cta?.split('/')[0]}</Button>
-                <Button className="h-10 px-6 bg-transparent border border-white text-white hover:bg-white/10">{dict.hero.cta?.split('/')[1]}</Button>
+    <div className="flex flex-col w-full font-sans text-slate-700">
+      {/* Hero Section */}
+      <section id="hero" className="relative py-32 bg-[#1e293b] text-white text-center">
+        <div className="container max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+          <div className="text-left space-y-6">
+            <h1 
+              className="text-5xl md:text-6xl font-bold leading-tight"
+              dangerouslySetInnerHTML={{ __html: dict.hero.title }}
+            />
+            <p className="text-xl text-slate-300 opacity-90 max-w-xl">
+              {dict.hero.subtitle}
+            </p>
+            <Button 
+              onClick={scrollToForm}
+              className="bg-[#4f9cf9] hover:bg-[#3b82f6] text-white px-8 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all border-none"
+            >
+              {dict.hero.cta}
+            </Button>
+          </div>
+          <div className="relative">
+             {/* Placeholder for Hero Image - utilizing a gradient/placeholder div as per design system if no image provided */}
+            <div className="w-full aspect-[4/3] bg-gradient-to-br from-slate-700 to-slate-800 rounded-xl shadow-2xl flex items-center justify-center text-slate-500">
+              <span className="text-lg font-mono">Product Demo Image</span>
+              <img src="/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg" alt="Push-to-Unlock Gas Spring" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full object-cover rounded-xl shadow-2xl" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section id="features" className="py-24 bg-white">
+        <div className="container max-w-6xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1e293b] mb-12 text-center">
+            {dict.features.title}
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {dict.features.items.map((item, idx) => (
+              <Card key={idx} className="border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-[#4f9cf9]/10 text-[#4f9cf9] rounded-lg flex items-center justify-center mb-4">
+                    {idx === 0 ? <Lock size={24} /> : 
+                     idx === 1 ? <Zap size={24} /> : 
+                     idx === 2 ? <Maximize2 size={24} /> : 
+                     <ShieldCheck size={24} />}
+                  </div>
+                  <CardTitle className="text-xl font-bold text-[#1e293b]">{item.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-600 leading-relaxed">
+                    {item.desc}
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Specs Section */}
+      <section id="specs" className="py-24 bg-slate-50">
+        <div className="container max-w-4xl mx-auto px-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1e293b] mb-12 text-center">
+            {dict.specs.title}
+          </h2>
+          <Card className="border-none shadow-lg overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse">
+                <tbody>
+                  {dict.specs.table.map((row, idx) => (
+                    <tr key={idx} className="border-b border-slate-100 last:border-0 hover:bg-slate-50/50">
+                      <td className="p-6 font-semibold text-[#1e293b] bg-slate-50/50 w-1/3 border-r border-slate-100">
+                        {row.label}
+                      </td>
+                      <td className="p-6 text-slate-600 font-mono">
+                        {row.value}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </Card>
+          <p className="text-center mt-8 text-slate-500">
+            {dict.specs.note} 
+            <a href="#quote" className="text-[#4f9cf9] hover:underline font-semibold">
+              {dict.specs.noteLink}
+            </a>
+          </p>
+        </div>
+      </section>
+
+      {/* Proof Section */}
+      <section id="proof" className="py-24 bg-[#1e293b] text-white text-center">
+        <div className="container max-w-4xl mx-auto px-6">
+          <h2 className="text-3xl font-bold mb-12 text-white">
+            {dict.proof.title}
+          </h2>
+          <div className="flex flex-wrap justify-center gap-6 mb-16">
+            {dict.proof.clients.map((client, idx) => (
+              <div key={idx} className="bg-slate-800 px-8 py-4 rounded-lg text-slate-400 font-bold border border-slate-700">
+                {client}
               </div>
-            </div>
-            <div className="relative">
-              <img alt="Push-to-Unlock Gas Spring Mechanism" className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg" />
-            </div>
+            ))}
           </div>
+          <blockquote className="text-2xl font-light italic text-slate-300 max-w-3xl mx-auto mb-6 leading-relaxed">
+            {dict.proof.quote}
+          </blockquote>
+          <cite className="text-slate-500 not-italic font-semibold">
+            {dict.proof.author}
+          </cite>
         </div>
       </section>
 
-      <section id="definition" className="py-16 md:py-24 border-b border-border">
-        <div className="container max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 text-primary">{dict.definition.title}</h2>
-              <div className="space-y-6" dangerouslySetInnerHTML={{ __html: dict.definition.description }}>
-              </div>
-            </div>
-            <div className="rounded-lg overflow-hidden border border-border shadow-sm">
-              <img alt="Push-to-Unlock Gas Spring Product Render" className="w-full h-auto object-cover" src="/images/product_render.jpg" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="mechanism" className="py-16 md:py-24 border-b border-border bg-card">
-        <div className="container max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="rounded-lg overflow-hidden border border-border shadow-sm order-2 md:order-1">
-              <img alt="Gas Spring Components and Locking Mechanism" className="w-full h-auto object-cover" src="/images/product/gas-spring/push-to-unlock-gas-spring/diagram_locking_mechanism.jpg" />
-            </div>
-            <div className="order-1 md:order-2">
-              <h2 className="text-3xl font-bold mb-6 text-primary" dangerouslySetInnerHTML={{ __html: dict.mechanism.title }}></h2>
-              <div dangerouslySetInnerHTML={{ __html: dict.mechanism.description }}></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="specs" className="py-16 md:py-24 border-b border-border">
-        <div className="container max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-primary">{dict.specs.title}</h2>
-          <p className="text-muted-foreground mb-8" dangerouslySetInnerHTML={{ __html: dict.specs.description }}></p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead className="bg-primary text-white">
-                <tr>
-                  <th className="text-left py-3 px-4 font-semibold border border-border">{dict.specs.tableHeaders[0]}</th>
-                  <th className="text-left py-3 px-4 font-semibold border border-border">{dict.specs.tableHeaders[1]}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {dict.specs.items?.map((item, index) => (
-                  <tr key={index} className="border-b border-border hover:bg-secondary/50 transition-colors">
-                    <td className="py-3 px-4 font-medium">{item.name}</td>
-                    <td className="py-3 px-4">{item.value}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <div className="mt-12 rounded-lg overflow-hidden border border-border shadow-sm">
-            <img alt="Push-to-Unlock Gas Spring Product Series" className="w-full h-auto object-cover" src="/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg" />
-          </div>
-        </div>
-      </section>
-
-      <section id="faq" className="py-16 md:py-24 border-b border-border bg-card">
-        <div className="container max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold mb-12 text-primary">{dict.faq.title}</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            {dict.faq.questions?.map((q, i) => (
-              <div key={i} data-slot="card" className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm">
-                <div data-slot="card-content" className="px-6 pt-6">
-                  <h3 className="font-semibold mb-3 text-primary" dangerouslySetInnerHTML={{ __html: q.q }}></h3>
-                  <p className="text-sm text-muted-foreground" dangerouslySetInnerHTML={{ __html: q.a }}></p>
+      {/* Action Section */}
+      <section id="quote" className="py-24 bg-white">
+        <div className="container max-w-2xl mx-auto px-6">
+          <Card className="shadow-2xl border-slate-200">
+            <CardHeader className="text-center pb-2 pt-10">
+              <CardTitle className="text-3xl font-bold text-[#1e293b]">
+                {dict.action.title}
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="p-10">
+              <form className="space-y-6">
+                <div>
+                  <input 
+                    type="text" 
+                    placeholder={dict.action.form.company}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#4f9cf9] focus:border-transparent transition-all"
+                    required
+                  />
                 </div>
-              </div>
-            ))}
-          </div>
+                <div>
+                  <input 
+                    type="email" 
+                    placeholder={dict.action.form.email}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#4f9cf9] focus:border-transparent transition-all"
+                    required
+                  />
+                </div>
+                <div>
+                  <input 
+                    type="text" 
+                    placeholder={dict.action.form.quantity}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#4f9cf9] focus:border-transparent transition-all"
+                  />
+                </div>
+                <div>
+                  <textarea 
+                    placeholder={dict.action.form.requirement}
+                    rows={4}
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#4f9cf9] focus:border-transparent transition-all resize-none"
+                  ></textarea>
+                </div>
+                <Button className="w-full bg-[#4f9cf9] hover:bg-[#3b82f6] text-white py-6 text-lg font-bold shadow-md hover:shadow-lg transition-all">
+                  {dict.action.form.submit}
+                </Button>
+              </form>
+              <p className="text-center mt-6 text-sm text-slate-400">
+                {dict.action.privacy}
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
-      <section id="services" className="py-16 md:py-24 border-b border-border">
-        <div className="container max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold mb-12 text-primary">{dict.services.title}</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            {dict.services.items?.map((item, i) => (
-              <div key={i} className="border border-border rounded-lg p-6 hover:shadow-md transition-shadow">
-                <p dangerouslySetInnerHTML={{ __html: item }}></p>
-              </div>
-            ))}
-          </div>
+      {/* Footer */}
+      <footer className="py-10 text-center text-slate-400 border-t border-slate-200 bg-slate-50">
+        <div className="container mx-auto px-6">
+          <p>{dict.footer.copyright}</p>
         </div>
-      </section>
-
-      <section id="cta">
-        <CTA
-          title={dict.cta.title}
-          desc={dict.cta.desc}
-          locale={locale}
-        />
-      </section>
+      </footer>
     </div>
   )
 }
