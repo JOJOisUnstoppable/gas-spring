@@ -4,6 +4,7 @@ import { Button } from '@/components/GasSpringGuide/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/GasSpringGuide/ui/card'
 import { Locale } from '@/lib/i18n/config'
 import { Lock, Zap, Maximize2, ShieldCheck } from 'lucide-react'
+import Image from 'next/image'
 
 export type PusDict = {
   hero: {
@@ -78,9 +79,13 @@ export default function PushToUnlockGasSpring({ dict }: PushToUnlockGasSpringPro
           </div>
           <div className="relative">
              {/* Placeholder for Hero Image - utilizing a gradient/placeholder div as per design system if no image provided */}
-            <div className="w-full aspect-[4/3] bg-gradient-to-br from-slate-700 to-slate-800 rounded-xl shadow-2xl flex items-center justify-center text-slate-500">
-              <span className="text-lg font-mono">Product Demo Image</span>
-              <img src="/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg" alt="Push-to-Unlock Gas Spring" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full object-cover rounded-xl shadow-2xl" />
+            <div className="w-full aspect-[4/3] bg-gradient-to-br from-slate-700 to-slate-800 rounded-xl shadow-2xl flex items-center justify-center text-slate-500 overflow-hidden relative">
+              <Image 
+                src="/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg" 
+                alt="Push-to-Unlock Gas Spring" 
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>

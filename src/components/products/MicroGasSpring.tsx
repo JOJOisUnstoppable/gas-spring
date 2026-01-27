@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button'
 import CTA from '@/components/products/CTA'
 import { Locale } from '@/lib/i18n/config'
+import Image from 'next/image'
 
 export type MicroDict = {
   hero: {
@@ -89,8 +90,13 @@ export default function MicroGasSpring({ dict, locale }: MicroGasSpringProps) {
                 <Button className="h-10 px-6 bg-transparent border border-white text-white hover:bg-white/10">{dict.hero.cta.split('/')[1]}</Button>
               </div>
             </div>
-            <div className="relative">
-              <img alt="Micro Gas Spring Product Image" className="w-full h-auto rounded-lg shadow-lg" src="/images/product/product-gs-003.jpg" />
+            <div className="relative w-full aspect-[4/3]">
+              <Image 
+                alt="Micro Gas Spring Product Image" 
+                className="rounded-lg shadow-lg object-cover" 
+                src="/images/product/product-gs-003.jpg" 
+                fill
+              />
             </div>
           </div>
         </div>

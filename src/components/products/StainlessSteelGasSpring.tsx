@@ -1,7 +1,7 @@
 'use client'
 
 import { Button } from '@/components/GasSpringGuide/ui/button'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/GasSpringGuide/ui/card'
+import { Card, CardContent } from '@/components/GasSpringGuide/ui/card'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Check, Shield, Scale, Thermometer, Anchor, Utensils, Stethoscope } from 'lucide-react'
 
