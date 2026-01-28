@@ -15,6 +15,10 @@
     "marineGasSpring": "Marine Gas Spring",
     "solarDamper": "Solar Damper",
     "categories": {
+      "allProducts": {
+        "title": "All you need to know about gas springs",
+        "description": "A rich and complete product line"
+      },
       "compressionGasSpring": {
         "title": "Compression Gas Spring",
         "description": "Instant lift & soft-close"

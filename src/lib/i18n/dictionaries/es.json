@@ -15,6 +15,10 @@
     "marineGasSpring": "Resorte de Gas Marino",
     "solarDamper": "Amortiguador Solar",
     "categories": {
+      "allProducts": {
+        "title": "All you need to know about gas springs",
+        "description": "A rich and complete product line"
+      },
       "compressionGasSpring": {
         "title": "Resorte de Gas de Compresión",
         "description": "Elevación instantánea y cierre suave"

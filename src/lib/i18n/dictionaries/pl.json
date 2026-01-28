@@ -15,6 +15,10 @@
     "marineGasSpring": "Sprężyna Gazowa Morska",
     "solarDamper": "Tłumik Solarny",
     "categories": {
+      "allProducts": {
+        "title": "All you need to know about gas springs",
+        "description": "A rich and complete product line"
+      },
       "compressionGasSpring": {
         "title": "Sprężyna Gazowa Pchająca",
         "description": "Natychmiastowe podnoszenie i miękkie zamykanie"

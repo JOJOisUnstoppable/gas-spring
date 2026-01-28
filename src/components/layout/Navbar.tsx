@@ -60,6 +60,10 @@ interface NavbarDictionary {
     marineGasSpring: string
     solarDamper: string
     categories: {
+      allProducts: {
+        title: string
+        description: string
+      },
       compressionGasSpring: {
         title: string
         description: string
@@ -142,7 +146,14 @@ export function Navbar({ locale, dict }: {
             {item.title}
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ProductMenu categories={enrichedCategories} />
+            <ProductMenu 
+              allProducts={{
+                title: dict.navbar.categories.allProducts.title,
+                description: dict.navbar.categories.allProducts.description,
+                href: getHref('/products/category')
+              }}
+              categories={enrichedCategories} 
+            />
           </NavigationMenuContent>
         </NavigationMenuItem>
       )

@@ -15,6 +15,10 @@
     "marineGasSpring": "船用气弹簧",
     "solarDamper": "太阳能阻尼器",
     "categories": {
+      "allProducts": {
+        "title": "关于气弹簧的一切",
+        "description": "专业的气弹簧解决方案，服务全球制造业"
+      },
       "compressionGasSpring": {
         "title": "压缩气弹簧",
         "description": "即时升降 & 软关闭"
