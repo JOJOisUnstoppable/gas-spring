@@ -9,6 +9,34 @@
     "showProducts": "Bogata i kompletna linia produktów",
     "viewAll": "Zobacz wszystkie tagi"
   },
+  "navbar": {
+    "gasSpring": "Sprężyna Gazowa",
+    "aftermarketGasSpring": "Sprężyna Gazowa (Rynek Wtórny)",
+    "marineGasSpring": "Sprężyna Gazowa Morska",
+    "solarDamper": "Tłumik Solarny",
+    "categories": {
+      "compressionGasSpring": {
+        "title": "Sprężyna Gazowa Pchająca",
+        "description": "Natychmiastowe podnoszenie i miękkie zamykanie"
+      },
+      "lockableGasSpring": {
+        "title": "Sprężyna Gazowa Blokowana",
+        "description": "Sztywne lub elastyczne zatrzymanie w dowolnej pozycji"
+      },
+      "microGasSpring": {
+        "title": "Mikro Sprężyna Gazowa",
+        "description": "Kieszonkowy rozmiar pręta 8 mm"
+      },
+      "pushToUnlockGasSpring": {
+        "title": "Sprężyna Gazowa Push-to-Unlock",
+        "description": "Naciśnij pręt jedną ręką, aby zwolnić"
+      },
+      "tensionGasSpring": {
+        "title": "Sprężyna Gazowa Ciągnąca",
+        "description": "Ciągnie zamiast pchać"
+      }
+    }
+  },
   "home": {
     "hero": {
       "eyebrow": "Wiodąca technologia",

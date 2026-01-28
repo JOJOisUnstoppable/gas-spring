@@ -43,7 +43,7 @@ export function ProductHero({ title, description, image, dict, locale }: Product
             </Link>
             <span className="text-lg md:text-xl opacity-60">&gt;</span>
             <Link 
-              href={`/${locale}/products`} 
+              href={`/${locale}/products/category`} 
               className="text-lg md:text-xl hover:text-primary transition-colors font-light"
             >
               {parseMarkdownBold(dict.common.products)}

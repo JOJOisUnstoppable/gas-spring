@@ -36,6 +36,14 @@ export function Footer({ locale, dict, categories }: FooterProps) {
         return path === '/' ? `/${locale}` : `/${locale}${path}`
     }
 
+    const getProductPath = (id: string) => {
+        if (id === 'gas-spring') return '/products/category'
+        if (['marine_gas_spring', 'aftermarket', 'solar-damper'].includes(id)) {
+            return `/products/industry/${id}`
+        }
+        return `/products/category/${id}`
+    }
+
     return (
         <footer className="bg-background border-t">
             <div className="container max-w-7xl mx-auto py-8 px-4 sm:px-6">
@@ -48,7 +56,7 @@ export function Footer({ locale, dict, categories }: FooterProps) {
                             {categories.map(category => (
                                 <li key={category.id}>
                                     <Link
-                                        href={getHref(`/products/category/${category.id}`)}
+                                        href={getHref(getProductPath(category.id))}
                                         className="text-sm text-muted-foreground hover:text-foreground transition-colors block py-1"
                                     >
                                         {category.title}

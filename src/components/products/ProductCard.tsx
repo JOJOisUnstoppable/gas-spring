@@ -41,7 +41,7 @@ export function ProductCard({ product, locale }: ProductCardProps) {
           </div>
           <MinimalCardFooter className="p-0 mt-auto">
             <Link
-              href={`/${locale}/products/${product.id}`}
+              href={`/${locale}/products/category/${product.id}`}
               className="w-full inline-flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg"
             >
               Read More

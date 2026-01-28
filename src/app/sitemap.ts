@@ -32,7 +32,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 静态页面
     const routes = [
       { path: '', priority: 1.0, changefreq: 'weekly' as ChangeFreq },
-      { path: '/products', priority: 0.9, changefreq: 'weekly' as ChangeFreq },
       { path: '/applications', priority: 0.8, changefreq: 'monthly' as ChangeFreq },
       { path: '/blog', priority: 0.8, changefreq: 'daily' as ChangeFreq },
       { path: '/contact', priority: 0.7, changefreq: 'monthly' as ChangeFreq },
@@ -83,8 +82,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         return categories.map(category => ({
           // 英语页面移除 /en 前缀
           url: lang === 'en' 
-            ? `${baseUrl}/products/category/${category.id}`
-            : `${baseUrl}/${lang}/products/category/${category.id}`,
+            ? `${baseUrl}/products/${category.id}`
+            : `${baseUrl}/${lang}/products/${category.id}`,
           lastModified: new Date(),
           changeFrequency: 'weekly' as ChangeFreq,
           priority: 0.8,

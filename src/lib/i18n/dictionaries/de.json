@@ -9,6 +9,34 @@
     "showProducts": "Eine umfangreiche und vollständige Produktpalette",
     "viewAll": "Alle Tags anzeigen"
   },
+  "navbar": {
+    "gasSpring": "Gasfeder",
+    "aftermarketGasSpring": "Aftermarket-Gasfeder",
+    "marineGasSpring": "Marine-Gasfeder",
+    "solarDamper": "Solar-Dämpfer",
+    "categories": {
+      "compressionGasSpring": {
+        "title": "Gasdruckfeder",
+        "description": "Sofortiges Heben & Sanftes Schließen"
+      },
+      "lockableGasSpring": {
+        "title": "Blockierbare Gasfeder",
+        "description": "Starrer oder elastischer Halt in jeder Position"
+      },
+      "microGasSpring": {
+        "title": "Mikro-Gasfeder",
+        "description": "Taschenformat 8 mm Stange"
+      },
+      "pushToUnlockGasSpring": {
+        "title": "Push-to-Unlock Gasfeder",
+        "description": "Einhand-Druck auf Stange zum Entriegeln"
+      },
+      "tensionGasSpring": {
+        "title": "Gaszugfeder",
+        "description": "Zieht statt zu drücken"
+      }
+    }
+  },
   "home": {
     "hero": {
       "eyebrow": "Gasfedern",

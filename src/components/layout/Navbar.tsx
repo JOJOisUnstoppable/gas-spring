@@ -7,6 +7,8 @@ import { Button } from '@/components/ui/button'
 import {
   Sheet,
   SheetContent,
+  SheetHeader,
+  SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet'
 import {
@@ -17,7 +19,12 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
-import { SparklesText } from "@/components/magicui/sparkles-text"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 import { cn } from '@/lib/utils'
 import LanguageSwitcher from '../shared/LanguageSwitcher'
 import Image from 'next/image'
@@ -44,6 +51,34 @@ interface NavbarDictionary {
   },
   spotlights: {
     solarDamperShort: string
+  },
+  navbar: {
+    gasSpring: string
+    aftermarketGasSpring: string
+    marineGasSpring: string
+    solarDamper: string
+    categories: {
+      compressionGasSpring: {
+        title: string
+        description: string
+      },
+      lockableGasSpring: {
+        title: string
+        description: string
+      },
+      microGasSpring: {
+        title: string
+        description: string
+      },
+      pushToUnlockGasSpring: {
+        title: string
+        description: string
+      },
+      tensionGasSpring: {
+        title: string
+        description: string
+      }
+    }
   }
 }
 
@@ -59,13 +94,30 @@ export function Navbar({ locale, dict, categories }: {
     return path === '/' ? `/${locale}` : `/${locale}${path}`
   }
 
+  const getProductPath = (id: string) => {
+    if (id === 'gas-spring') return '/products/category'
+    if (['marine_gas_spring', 'aftermarket', 'solar-damper'].includes(id)) {
+      return `/products/industry/${id}`
+    }
+    return `/products/category/${id}`
+  }
+
   const navItems: NavItem[] = [
     { title: dict.common.home, href: getHref('/') },
     {
-      title: dict.common.products,
-      href: getHref('/products'),
-      categories: categories
+      title: dict.navbar.gasSpring,
+      href: getHref('/products/category'),
+      categories: [
+        { id: 'compression-gas-spring', title: dict.navbar.categories.compressionGasSpring.title, description: dict.navbar.categories.compressionGasSpring.description },
+        { id: 'lockable-gas-spring', title: dict.navbar.categories.lockableGasSpring.title, description: dict.navbar.categories.lockableGasSpring.description },
+        { id: 'micro-gas-spring', title: dict.navbar.categories.microGasSpring.title, description: dict.navbar.categories.microGasSpring.description },
+        { id: 'push-to-unlock-gas-spring', title: dict.navbar.categories.pushToUnlockGasSpring.title, description: dict.navbar.categories.pushToUnlockGasSpring.description },
+        { id: 'tension-gas-spring', title: dict.navbar.categories.tensionGasSpring.title, description: dict.navbar.categories.tensionGasSpring.description },
+      ]
     },
+    { title: dict.navbar.aftermarketGasSpring, href: getHref('/products/industry/aftermarket') },
+    { title: dict.navbar.marineGasSpring, href: getHref('/products/industry/marine_gas_spring') },
+    { title: dict.navbar.solarDamper, href: getHref('/products/industry/solar-damper') },
     { title: dict.common.applications, href: getHref('/applications') },
     { title: dict.common.blog, href: getHref('/blog') },
     { title: dict.common.contact, href: getHref('/contact') },
@@ -74,147 +126,147 @@ export function Navbar({ locale, dict, categories }: {
   const renderNavLink = (item: NavItem) => {
     if (item.categories) {
       return (
-        <NavigationMenu key={item.href}>
-          <NavigationMenuList>
-            <NavigationMenuItem>
-              <NavigationMenuTrigger className={cn(
-                "transition-colors hover:text-foreground/80 text-sm font-medium",
-                pathname === item.href ? "text-foreground" : "text-foreground/60",
-                "bg-transparent hover:bg-transparent"
-              )}>
-                {item.title}
-              </NavigationMenuTrigger>
-              <NavigationMenuContent>
-                <ul className="grid w-[250px] gap-2 p-1">
-                  {item.categories.map((category) => (
-                    <li key={category.id}>
-                      <NavigationMenuLink asChild>
-                        <Link
-                          href={getHref(`/products/category/${category.id}`)}
-                          className="block py-2 px-3 hover:bg-accent rounded-md"
-                        >
-                          <div>
-                            <div>{category.title}</div>
-                            <div className="text-sm text-muted-foreground">
-                              {category.description}
-                            </div>
-                          </div>
-                        </Link>
-                      </NavigationMenuLink>
-                    </li>
-                  ))}
-                </ul>
-              </NavigationMenuContent>
-            </NavigationMenuItem>
-          </NavigationMenuList>
-        </NavigationMenu>
+        <NavigationMenuItem key={item.title}>
+          <NavigationMenuTrigger className="text-muted-foreground hover:text-foreground bg-transparent hover:bg-transparent focus:bg-transparent data-[active]:bg-transparent data-[state=open]:bg-transparent">
+            {item.title}
+          </NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <ul className="w-80 p-3">
+              {item.categories.map((category) => (
+                <li key={category.id}>
+                  <NavigationMenuLink asChild>
+                    <Link
+                      href={getHref(getProductPath(category.id))}
+                      className="flex select-none gap-4 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                    >
+                      <div>
+                        <div className="text-sm font-semibold mb-1">{category.title}</div>
+                        <p className="text-sm leading-snug text-muted-foreground">
+                          {category.description}
+                        </p>
+                      </div>
+                    </Link>
+                  </NavigationMenuLink>
+                </li>
+              ))}
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
       )
     }
 
     return (
-      <NavigationMenu key={item.href}>
-        <NavigationMenuList>
-          <NavigationMenuItem>
-            <NavigationMenuLink asChild>
+      <NavigationMenuItem key={item.title}>
+        <Link href={item.href} legacyBehavior passHref>
+          <NavigationMenuLink
+            className={cn(
+              "group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-transparent hover:text-accent-foreground focus:bg-transparent focus:text-accent-foreground",
+              pathname === item.href && "text-foreground font-semibold"
+            )}
+          >
+            {item.title}
+          </NavigationMenuLink>
+        </Link>
+      </NavigationMenuItem>
+    )
+  }
+
+  const renderMobileMenuItem = (item: NavItem) => {
+    if (item.categories) {
+      return (
+        <AccordionItem key={item.title} value={item.title} className="border-b-0">
+          <AccordionTrigger className="py-0 font-semibold hover:no-underline">
+            {item.title}
+          </AccordionTrigger>
+          <AccordionContent className="mt-2">
+            {item.categories.map((category) => (
               <Link
-                href={item.href}
-                className={cn(
-                  "transition-colors hover:text-foreground/80 text-sm font-medium px-4 py-2",
-                  pathname === item.href ? "text-foreground" : "text-foreground/60"
-                )}
+                key={category.id}
+                href={getHref(getProductPath(category.id))}
+                className="flex select-none gap-4 rounded-md p-3 leading-none outline-none transition-colors hover:bg-muted hover:text-accent-foreground"
               >
-                {item.title}
+                <div>
+                  <div className="text-sm font-semibold">{category.title}</div>
+                  <p className="text-sm leading-snug text-muted-foreground mt-1">
+                    {category.description}
+                  </p>
+                </div>
               </Link>
-            </NavigationMenuLink>
-          </NavigationMenuItem>
-        </NavigationMenuList>
-      </NavigationMenu>
+            ))}
+          </AccordionContent>
+        </AccordionItem>
+      )
+    }
+
+    return (
+      <Link key={item.title} href={item.href} className="font-semibold py-2 block">
+        {item.title}
+      </Link>
     )
   }
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center max-w-7xl mx-auto">
-        <div className="mr-4 hidden md:flex">
-          <Link href={`/${locale}`} className="mr-12 flex items-center space-x-2">
-            <Image src="/DK_Logo_withoutBG.png" alt="Logo" width={32} height={32} />
-            <SparklesText
-              sparklesCount={3}
-              className='text-sm'>
-              DK GasSpring
-            </SparklesText>
-          </Link>
-          <nav className="flex items-center space-x-2 text-sm font-medium">
-            {navItems.map(renderNavLink)}
-          </nav>
-        </div>
+    <section className="py-4 sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="container max-w-7xl mx-auto">
+        {/* Desktop Navigation */}
+        <nav className="hidden justify-between lg:flex">
+          <div className="flex items-center gap-6">
+            <Link href={`/${locale}`} className="flex items-center gap-2">
+              <Image src="/DK_Logo_withoutBG.png" alt="Logo" width={32} height={32} />
+              <span className="text-lg font-bold">DK GasSpring</span>
+            </Link>
+            <div className="flex items-center">
+              <NavigationMenu>
+                <NavigationMenuList>
+                  {navItems.map(renderNavLink)}
+                </NavigationMenuList>
+              </NavigationMenu>
+            </div>
+          </div>
+          <div className="flex gap-2 items-center">
+            <LanguageSwitcher />
+          </div>
+        </nav>
 
-        <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-          <div className="w-full flex justify-between md:w-auto">
+        {/* Mobile Navigation */}
+        <div className="block lg:hidden">
+          <div className="flex items-center justify-between">
+            <Link href={`/${locale}`} className="flex items-center gap-2">
+              <Image src="/DK_Logo_withoutBG.png" alt="Logo" width={32} height={32} />
+              <span className="text-lg font-bold">DK GasSpring</span>
+            </Link>
             <Sheet>
-              <SheetTrigger asChild className="md:hidden">
-                <Button variant="ghost" size="icon" aria-label="Show Menu on Mobile Device">
-                  <Menu className="h-5 w-5" aria-hidden="true" />
+              <SheetTrigger asChild>
+                <Button variant="outline" size="icon">
+                  <Menu className="size-4" />
                 </Button>
               </SheetTrigger>
-              <SheetContent side="left" className="pr-0">
-                <nav className="flex flex-col space-y-4 pl-4 mt-8">
-                  {navItems.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className={cn(
-                        "text-foreground/60 transition-colors hover:text-foreground/80 hover:bg-accent/50 py-2 px-3 rounded-md",
-                        pathname === item.href && "text-foreground font-medium bg-accent/30"
-                      )}
-                    >
-                      {item.title}
-                      {item.categories && (
-                        <div className="pl-6 mt-3 space-y-3">
-                          {item.categories.map((category) => (
-                            <Link
-                              key={category.id}
-                              href={`/${locale}/products/category/${category.id}`}
-                              className="block text-sm text-foreground/50 hover:text-foreground/70 hover:bg-accent/50 transition-colors py-2 px-3 rounded-md"
-                            >
-                              {category.title}
-                            </Link>
-                          ))}
-                        </div>
-                      )}
+              <SheetContent side="left" className="overflow-y-auto">
+                <SheetHeader>
+                  <SheetTitle>
+                    <Link href={`/${locale}`} className="flex items-center gap-2">
+                      <Image src="/DK_Logo_withoutBG.png" alt="Logo" width={32} height={32} />
+                      <span className="text-lg font-bold">DK GasSpring</span>
                     </Link>
-                  ))}
-                </nav>
-                <div className="mt-4 px-4">
-                  <Link href="/download-catalog" passHref>
-                    <Button variant="default" className="w-full">
-                      Download Catalog
-                    </Button>
-                  </Link>
+                  </SheetTitle>
+                </SheetHeader>
+                <div className="my-6 flex flex-col gap-6">
+                  <Accordion
+                    type="single"
+                    collapsible
+                    className="flex w-full flex-col gap-4"
+                  >
+                    {navItems.map(renderMobileMenuItem)}
+                  </Accordion>
+                  <div className="border-t py-4">
+                    <LanguageSwitcher />
+                  </div>
                 </div>
               </SheetContent>
             </Sheet>
-            <Link href={`/${locale}/spotlights/solar-damper`} className="block md:inline-flex md:w-auto md:ml-0 mx-auto mb-0 group">
-              <div className="relative overflow-hidden bg-gradient-to-r from-purple-500/90 to-purple-600/90 hover:from-purple-500 hover:to-purple-600 text-white rounded-full px-4 py-1.5 transition-all duration-300 text-sm font-medium flex items-center gap-2 group-hover:gap-3">
-                <span className="bg-white/20 px-1.5 py-0.5 text-[10px] tracking-wider uppercase rounded-sm">New</span>
-                <span className="text-sm font-medium">{dict.spotlights.solarDamperShort}</span>
-                <svg className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" /></svg>
-              </div>
-            </Link>
-            <div className="md:hidden">
-              <LanguageSwitcher />
-            </div>
-          </div>
-          <div className="hidden md:flex items-center space-x-2">
-            <LanguageSwitcher />
-            <Link href="/download-catalog" passHref>
-              <Button variant="default" size="sm">
-                Download Catalog
-              </Button>
-            </Link>
           </div>
         </div>
       </div>
-    </header>
+    </section>
   )
 }

@@ -9,6 +9,34 @@
     "showProducts": "A rich and complete product line",
     "viewAll": "View All Tags"
   },
+  "navbar": {
+    "gasSpring": "Gas Spring",
+    "aftermarketGasSpring": "Aftermarket Gas Spring",
+    "marineGasSpring": "Marine Gas Spring",
+    "solarDamper": "Solar Damper",
+    "categories": {
+      "compressionGasSpring": {
+        "title": "Compression Gas Spring",
+        "description": "Instant lift & soft-close"
+      },
+      "lockableGasSpring": {
+        "title": "Lockable Gas Spring",
+        "description": "Rigid or elastic stop at any position"
+      },
+      "microGasSpring": {
+        "title": "Micro Gas Spring",
+        "description": "Pocket-size 8 mm rod"
+      },
+      "pushToUnlockGasSpring": {
+        "title": "Push to Unlock Gas Spring",
+        "description": "One-hand press on rod to release"
+      },
+      "tensionGasSpring": {
+        "title": "Tension Gas Spring",
+        "description": "Pulls instead of pushes"
+      }
+    }
+  },
   "home": {
     "hero": {
       "eyebrow": "Leading Technology",

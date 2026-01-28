@@ -9,6 +9,34 @@
     "showProducts": "Una línea de productos rica y completa",
     "viewAll": "Ver todo Etiquetas"
   },
+  "navbar": {
+    "gasSpring": "Resorte de Gas",
+    "aftermarketGasSpring": "Resorte de Gas de Repuesto",
+    "marineGasSpring": "Resorte de Gas Marino",
+    "solarDamper": "Amortiguador Solar",
+    "categories": {
+      "compressionGasSpring": {
+        "title": "Resorte de Gas de Compresión",
+        "description": "Elevación instantánea y cierre suave"
+      },
+      "lockableGasSpring": {
+        "title": "Resorte de Gas Bloqueable",
+        "description": "Parada rígida o elástica en cualquier posición"
+      },
+      "microGasSpring": {
+        "title": "Micro Resorte de Gas",
+        "description": "Tamaño de bolsillo, varilla de 8 mm"
+      },
+      "pushToUnlockGasSpring": {
+        "title": "Resorte de Gas Push-to-Unlock",
+        "description": "Presione la varilla con una mano para liberar"
+      },
+      "tensionGasSpring": {
+        "title": "Resorte de Gas de Tracción",
+        "description": "Tira en lugar de empujar"
+      }
+    }
+  },
   "home": {
     "hero": {
       "eyebrow": "Soluciones Profesionales",

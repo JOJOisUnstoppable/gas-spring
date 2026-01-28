@@ -79,7 +79,7 @@ export function Hero({ dict, locale }: HeroProps) {
               </InteractiveHoverButton>
             </Link>
             <Link
-              href={`/${locale}/products`}
+              href={`/${locale}/products/gas-spring`}
               className='hidden md:inline-flex items-center justify-center gap-3 rounded-full border border-white/5 bg-white/5 p-2 px-6 text-base font-medium text-white backdrop-blur-sm transition-all hover:border-white/10 hover:bg-white/10 hover:scale-[1.02]'
             >
               <Package2 className="size-5" />

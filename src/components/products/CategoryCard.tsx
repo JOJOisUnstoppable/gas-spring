@@ -23,7 +23,7 @@ export function CategoryCard({ category, locale, viewMore }: CategoryCardProps) 
       description={category.description}
       className="col-span-1 lg:col-span-6 lg:hover/first:col-span-6 lg:hover/first:[&:hover]:!col-span-6 relative overflow-hidden group"
       Icon={category.id === 'gas-spring' ? LightningBoltIcon : GearIcon}
-      href={`/${locale}/products/category/${category.id}`}
+      href={`/${locale}/products/${category.id}`}
       cta={viewMore}
       background={
         <div className="absolute inset-0 w-full">
