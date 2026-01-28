@@ -213,7 +213,13 @@ export function Navbar({ locale, dict, categories }: {
           <div className="flex items-center gap-6">
             <Link href={`/${locale}`} className="flex items-center gap-2">
               <Image src="/DK_Logo_withoutBG.png" alt="Logo" width={32} height={32} />
-              <span className="text-lg font-bold">DK GasSpring</span>
+              <Image 
+                src="/GasSpring-Logo-Black.png" 
+                alt="DK GasSpring" 
+                width={140} 
+                height={40} 
+                className="h-8 w-auto object-contain"
+              />
             </Link>
             <div className="flex items-center">
               <NavigationMenu>
@@ -233,7 +239,13 @@ export function Navbar({ locale, dict, categories }: {
           <div className="flex items-center justify-between">
             <Link href={`/${locale}`} className="flex items-center gap-2">
               <Image src="/DK_Logo_withoutBG.png" alt="Logo" width={32} height={32} />
-              <span className="text-lg font-bold">DK GasSpring</span>
+              <Image 
+                src="/GasSpring-Logo-Black.png" 
+                alt="DK GasSpring" 
+                width={140} 
+                height={40} 
+                className="h-8 w-auto object-contain"
+              />
             </Link>
             <Sheet>
               <SheetTrigger asChild>
@@ -246,7 +258,13 @@ export function Navbar({ locale, dict, categories }: {
                   <SheetTitle>
                     <Link href={`/${locale}`} className="flex items-center gap-2">
                       <Image src="/DK_Logo_withoutBG.png" alt="Logo" width={32} height={32} />
-                      <span className="text-lg font-bold">DK GasSpring</span>
+                      <Image 
+                src="/GasSpring-Logo-Black.png" 
+                alt="DK GasSpring" 
+                width={140} 
+                height={40} 
+                className="h-8 w-auto object-contain"
+              />
                     </Link>
                   </SheetTitle>
                 </SheetHeader>
