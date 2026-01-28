@@ -195,7 +195,7 @@ export function Navbar({ locale, dict }: {
 
   return (
     <section className="py-4 sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container max-w-7xl mx-auto">
+      <div className="container max-w-8xl mx-auto">
         {/* Desktop Navigation */}
         <nav className="hidden justify-between lg:flex">
           <div className="flex items-center gap-6">
