@@ -84,10 +84,9 @@ interface NavbarDictionary {
   }
 }
 
-export function Navbar({ locale, dict, categories }: {
+export function Navbar({ locale, dict }: {
   locale: string,
-  dict: NavbarDictionary,
-  categories: { id: string; title: string; description: string }[]
+  dict: NavbarDictionary
 }) {
   const pathname = usePathname()
   

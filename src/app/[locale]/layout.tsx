@@ -45,11 +45,6 @@ export default async function LocaleLayout(
         <Navbar 
           locale={locale} 
           dict={dict} 
-          categories={categories.map(cat => ({
-            id: cat.id,
-            title: cat.title,
-            description: cat.description
-          }))} 
         />
         <main className="min-h-screen">
           {children}
