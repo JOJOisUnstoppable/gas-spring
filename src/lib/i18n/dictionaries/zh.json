@@ -34,6 +34,10 @@
       "tensionGasSpring": {
         "title": "拉伸气弹簧",
         "description": "提供拉力而非推力"
+      },
+      "stainlessGasSpring": {
+        "title": "不锈钢气弹簧",
+        "description": "高强度、高耐磨性、长寿命"
       }
     }
   },

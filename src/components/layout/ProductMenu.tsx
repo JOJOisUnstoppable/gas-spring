@@ -21,7 +21,7 @@ export function ProductMenu({ categories }: ProductMenuProps) {
   const [hoveredId, setHoveredId] = React.useState<string | null>(categories[0]?.id || null)
 
   return (
-    <div className="flex w-[700px] gap-6 p-4">
+    <div className="flex w-[840px] gap-6 p-4">
       <ul className="flex-1 grid grid-cols-1 gap-2">
         {categories.map((category) => (
           <li 
@@ -45,7 +45,7 @@ export function ProductMenu({ categories }: ProductMenuProps) {
           </li>
         ))}
       </ul>
-      <div className="w-[370px] flex flex-col items-center justify-center bg-muted/10 rounded-lg overflow-hidden border">
+      <div className="w-[440px] flex flex-col items-center justify-center bg-muted/10 rounded-lg overflow-hidden border">
         {hoveredId ? (
           <div className="relative w-full h-full p-4 flex items-center justify-center">
             <Image

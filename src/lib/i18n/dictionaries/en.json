@@ -34,6 +34,10 @@
       "tensionGasSpring": {
         "title": "Tension Gas Spring",
         "description": "Pulls instead of pushes"
+      },
+      "stainlessGasSpring": {
+        "title": "Stainless Gas Spring",
+        "description": "High-performance gas spring with long lifespan"
       }
     }
   },

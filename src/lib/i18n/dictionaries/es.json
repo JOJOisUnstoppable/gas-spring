@@ -34,6 +34,10 @@
       "tensionGasSpring": {
         "title": "Resorte de Gas de Tracción",
         "description": "Tira en lugar de empujar"
+      },
+      "stainlessGasSpring": {
+        "title": "Resorte de Gas de Acero Inoxidable",
+        "description": "Alta durabilidad y resistencia al desgaste"
       }
     }
   },

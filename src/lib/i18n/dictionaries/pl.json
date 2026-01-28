@@ -34,6 +34,10 @@
       "tensionGasSpring": {
         "title": "Sprężyna Gazowa Ciągnąca",
         "description": "Ciągnie zamiast pchać"
+      },
+      "stainlessGasSpring": {
+        "title": "Sprężyna Gazowa Stalowa",
+        "description": "Wysoka wydajność i długa żywotność"
       }
     }
   },

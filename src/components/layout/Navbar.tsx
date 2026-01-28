@@ -79,6 +79,10 @@ interface NavbarDictionary {
       tensionGasSpring: {
         title: string
         description: string
+      },
+      stainlessGasSpring: {
+        title: string
+        description: string
       }
     }
   }
@@ -114,6 +118,7 @@ export function Navbar({ locale, dict }: {
         { id: 'micro-gas-spring', title: dict.navbar.categories.microGasSpring.title, description: dict.navbar.categories.microGasSpring.description },
         { id: 'push-to-unlock-gas-spring', title: dict.navbar.categories.pushToUnlockGasSpring.title, description: dict.navbar.categories.pushToUnlockGasSpring.description },
         { id: 'tension-gas-spring', title: dict.navbar.categories.tensionGasSpring.title, description: dict.navbar.categories.tensionGasSpring.description },
+        { id: 'stainless-gas-spring', title: dict.navbar.categories.stainlessGasSpring.title, description: dict.navbar.categories.stainlessGasSpring.description }
       ]
     },
     { title: dict.navbar.aftermarketGasSpring, href: getHref('/products/industry/aftermarket') },
