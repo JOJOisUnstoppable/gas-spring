@@ -29,6 +29,8 @@ import { cn } from '@/lib/utils'
 import LanguageSwitcher from '../shared/LanguageSwitcher'
 import Image from 'next/image'
 
+import { ProductMenu } from './ProductMenu'
+
 interface NavItem {
   title: string
   href: string
@@ -125,31 +127,18 @@ export function Navbar({ locale, dict, categories }: {
 
   const renderNavLink = (item: NavItem) => {
     if (item.categories) {
+      const enrichedCategories = item.categories.map(category => ({
+        ...category,
+        href: getHref(getProductPath(category.id))
+      }))
+
       return (
         <NavigationMenuItem key={item.title}>
           <NavigationMenuTrigger className="text-muted-foreground hover:text-foreground bg-transparent hover:bg-transparent focus:bg-transparent data-[active]:bg-transparent data-[state=open]:bg-transparent">
             {item.title}
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="w-80 p-3">
-              {item.categories.map((category) => (
-                <li key={category.id}>
-                  <NavigationMenuLink asChild>
-                    <Link
-                      href={getHref(getProductPath(category.id))}
-                      className="flex select-none gap-4 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                    >
-                      <div>
-                        <div className="text-sm font-semibold mb-1">{category.title}</div>
-                        <p className="text-sm leading-snug text-muted-foreground">
-                          {category.description}
-                        </p>
-                      </div>
-                    </Link>
-                  </NavigationMenuLink>
-                </li>
-              ))}
-            </ul>
+            <ProductMenu categories={enrichedCategories} />
           </NavigationMenuContent>
         </NavigationMenuItem>
       )
