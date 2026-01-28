@@ -6,6 +6,7 @@ import { CheckCircle2, Zap } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/GasSpringGuide/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/GasSpringGuide/ui/tabs";
 import GasSpringForceCurve from '@/components/visualization/GasSpringForceCurve';
+import Image from 'next/image';
 
 type LgsDict = {
   hero?: {
@@ -134,8 +135,13 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
                 <Button className="h-10 px-6 bg-transparent border border-white text-white hover:bg-white/10">{lgs.hero?.buttons?.requestQuote ?? 'Request Quote'}</Button>
               </div>
             </div>
-            <div className="relative">
-              <img alt={lgs.hero?.imageAlt ?? 'Rigid Locking Gas Spring Cross-Section'} className="w-full h-auto rounded-lg shadow-lg" src="/images/hero-rigid-locking.png" />
+            <div className="relative min-h-[300px] w-full">
+              <Image 
+                src="/images/product/products_page/lockable_gas_spring.jpg" 
+                alt={lgs.hero?.imageAlt ?? "Lockable Gas Spring"}
+                fill
+                className="object-cover rounded-lg shadow-xl"
+              />
             </div>
           </div>
         </div>
@@ -199,8 +205,13 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
           <h2 className="font-bold text-4xl md:text-5xl mb-12 text-center">{lgs.technology?.title ?? 'Rigid vs. Elastic: The Core Difference'}</h2>
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div className="space-y-6">
-              <div className="relative">
-                <img alt={lgs.technology?.imagesAlt?.rigid ?? 'Rigid Locking Mechanism'} className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/lockable-gas-spring/rigid-locking-gas-spring.png" />
+              <div className="relative min-h-[300px] w-full">
+                <Image 
+                  src="/images/product/gas-spring/lockable-gas-spring/rigid-locking-gas-spring.png" 
+                  alt={lgs.technology?.imagesAlt?.rigid ?? 'Rigid Locking Mechanism'}
+                  fill
+                  className="object-contain rounded-lg shadow-lg"
+                />
               </div>
               <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
                 <h3 className="font-bold text-2xl mb-4 text-primary">{lgs.technology?.rigid?.title ?? 'Rigid Locking'}</h3>
@@ -221,8 +232,13 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
               </div>
             </div>
             <div className="space-y-6">
-              <div className="relative">
-                <img alt={lgs.technology?.imagesAlt?.elastic ?? 'Elastic Locking Mechanism'} className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/lockable-gas-spring/Elastic-gas-spring.png" />
+              <div className="relative min-h-[300px] w-full">
+                <Image 
+                  src="/images/product/gas-spring/lockable-gas-spring/Elastic-gas-spring.png" 
+                  alt={lgs.technology?.imagesAlt?.elastic ?? 'Elastic Locking Mechanism'}
+                  fill
+                  className="object-contain rounded-lg shadow-lg"
+                />
               </div>
               <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
                 <h3 className="font-bold text-2xl mb-4 text-accent">{lgs.technology?.elastic?.title ?? 'Elastic Locking'}</h3>
@@ -374,7 +390,14 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
               </CardDescription>
             </CardHeader>
             <div className="relative">
-              <img alt={'Gas-Spring-Force-Curve-Visualization'} className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/lockable-gas-spring/Gas-Spring-Force-Curve-Visualization.png" />
+              <div className="relative min-h-[400px] w-full">
+                <Image 
+                  src="/images/product/gas-spring/lockable-gas-spring/Gas-Spring-Force-Curve-Visualization.png" 
+                  alt={lgs.forcePerformance?.imageAlt ?? "Locking Force Curves"}
+                  fill
+                  className="object-contain"
+                />
+              </div>
               <div className="mt-8 bg-muted/40 rounded-xl p-5 md:p-6 border border-border/50">
                 <ul className="space-y-3 text-muted-foreground list-disc pl-4 marker:text-primary/70 text-sm md:text-base leading-relaxed">
                   {(lgs.detailedSelectionGuide?.step3?.subDesc ?? [

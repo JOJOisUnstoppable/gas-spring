@@ -1,6 +1,6 @@
 import { Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/getDictionary'
-import PushToUnlockGasSpring from '@/components/products/PushToUnlockGasSpring'
+import StainlessSteelGasSpring from '@/components/products/StainlessSteelGasSpring'
 import { Metadata } from 'next'
 
 export async function generateMetadata(
@@ -11,12 +11,10 @@ export async function generateMetadata(
   const params = await props.params
   const { locale } = params
   const dict = await getDictionary(locale)
-  // Fallback if hero title is not available or is html
-  const title = dict.products["push-to-unlock-gas-spring"]?.hero?.title?.replace(/<[^>]*>?/gm, '') || 'Push-to-Unlock Gas Spring'
-  
+
   return {
-    title: `${title} | DKG Gas Spring`,
-    description: dict.products["push-to-unlock-gas-spring"]?.hero?.subtitle,
+    title: `${dict.products['stainless-steel-gas-spring'].hero?.title} | DKG Gas Spring`,
+    description: dict.products['stainless-steel-gas-spring'].hero?.subtitle,
   }
 }
 
@@ -30,6 +28,6 @@ export default async function Page(
   const dict = await getDictionary(locale)
 
   return (
-    <PushToUnlockGasSpring dict={dict.products["push-to-unlock-gas-spring"]} locale={locale} />
+    <StainlessSteelGasSpring dict={dict.products['stainless-steel-gas-spring']} />
   )
 }

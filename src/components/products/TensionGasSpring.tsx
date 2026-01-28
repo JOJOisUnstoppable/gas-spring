@@ -1,328 +1,208 @@
 'use client'
 
-import { Button } from '@/components/ui/button'
+import { Button } from '@/components/GasSpringGuide/ui/button'
+import { Card } from '@/components/GasSpringGuide/ui/card'
+import { CheckCircle2, XCircle } from 'lucide-react'
 
-type TgsDict = {
+export type TensionGasSpringDict = {
   hero?: {
     title?: string
     subtitle?: string
-    buttons?: { getSpecs?: string; requestQuote?: string }
-    imageAlt?: string
   }
-  definition?: {
+  interest?: {
     title?: string
-    keyCharacteristics?: {
-      title?: string
-      items?: Array<{ label?: string; value?: string }>
+    subtitle?: string
+    cards?: {
+      freeState?: { title?: string; desc?: string }
+      assist?: { title?: string; desc?: string }
     }
-    mainFunction?: {
+    specs?: {
       title?: string
-      desc?: string
-      scenarios?: string[]
+      items?: string[]
     }
   }
-  classification?: {
+  desire?: {
     title?: string
-    table?: {
+    applications?: {
+      title?: string
+      items?: string[]
+    }
+    comparison?: {
+      title?: string
+      single?: string
+      double?: string
+    }
+    tableSection?: {
+      title?: string
       headers?: string[]
-      rows?: Array<{ label?: string; single?: string; double?: string }>
+      rows?: {
+        tension?: { type?: string; freeState?: string; opening?: string; closing?: string; assist?: string }
+        damper?: { type?: string; freeState?: string; opening?: string; closing?: string; assist?: string }
+      }
+      note?: string
     }
-    cards?: {
-      singleTube?: { title?: string; items?: string[] }
-      doubleTube?: { title?: string; items?: string[] }
-    }
   }
-  parameters?: {
+  action?: {
     title?: string
-    cards?: {
-      force?: { title?: string; value?: string; note?: string }
-      stroke?: { title?: string; value?: string; note?: string }
-      closedLength?: { title?: string; value?: string; note?: string }
-      moq?: { title?: string; value?: string; note?: string }
-    }
-    endFitting?: { title?: string; items?: string[] }
+    desc?: string
+    button?: string
+    catalogLink?: string
   }
-  principle?: {
+  CTA?: {
     title?: string
-    modeA?: { title?: string; flow?: string[]; scenario?: string }
-    modeB?: { title?: string; flow?: string[]; scenario?: string }
-    illustration?: { title?: string; points?: string[] }
-    labels?: { operationFlow?: string; applicableScenarios?: string }
+    desc?: string[]
   }
-  formula?: {
-    title?: string
-    closedLength?: { title?: string; lines?: string[] }
-    selection?: { title?: string; steps?: string[] }
-    tipLabel?: string
-    tip?: string
-  }
-  faq?: {
-    title?: string
-    items?: Array<{ q?: string; a?: string }>
-  }
-  CTA?: { title?: string; desc?: string[] }
 }
 
-export default function TensionGasSpring({ dict }: { dict?: TgsDict }) {
-  const tgs: TgsDict = dict ?? {}
+export default function TensionGasSpring({ dict }: { dict?: TensionGasSpringDict }) {
+  const tgs = dict ?? {}
+
   return (
-    <div className="flex flex-col">
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0F172B] via-[#2a5298] to-[#0F172B] text-white">
-        <div className="container max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <h1 className="font-bold text-5xl md:text-6xl leading-tight">{tgs.hero?.title ?? 'Tension Gas Spring'}</h1>
-              <p className="text-lg leading-relaxed opacity-90">
-                {tgs.hero?.subtitle ?? 'Pull Gas Spring / Reverse Action Gas Spring - Professional Industrial Solutions'}
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button className="h-10 px-6 bg-[#ff6b35] hover:bg-[#e55a2b] text-white">{tgs.hero?.buttons?.getSpecs ?? 'Get Technical Specs'}</Button>
-                <Button className="h-10 px-6 bg-transparent border border-white text-white hover:bg-white/10">{tgs.hero?.buttons?.requestQuote ?? 'Request Quote'}</Button>
+    <div className="flex flex-col w-full">
+      {/* Hero Section */}
+      <section id="attention" className="relative py-24 bg-gradient-to-br from-blue-600 to-blue-800 text-white" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 90%, 0 100%)', marginBottom: '2rem' }}>
+        <div className="container max-w-5xl mx-auto text-center px-6">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
+            {tgs.hero?.title ?? 'What is a Tension Gas Spring?'}
+          </h1>
+          <p className="text-xl md:text-2xl opacity-95 max-w-3xl mx-auto text-blue-50">
+            {tgs.hero?.subtitle ?? 'Discover the hidden force that pulls lids, hatches and guards back into place—smoothly, safely and without motors.'}
+          </p>
+        </div>
+      </section>
+
+      {/* Interest Section */}
+      <section id="interest" className="py-20 bg-background">
+        <div className="container max-w-6xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-foreground">
+              {tgs.interest?.title ?? 'How it works'} <span className="font-light text-muted-foreground">{tgs.interest?.subtitle ?? '(and why it’s different)'}</span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            <Card className="p-8 border-l-4 border-l-primary bg-card">
+              <h3 className="text-xl font-bold mb-4 text-foreground">{tgs.interest?.cards?.freeState?.title ?? '1. Free-state = Rod Retracted'}</h3>
+              <div 
+                className="text-muted-foreground leading-relaxed"
+                dangerouslySetInnerHTML={{ __html: tgs.interest?.cards?.freeState?.desc ?? '' }}
+              />
+            </Card>
+            <Card className="p-8 border-l-4 border-l-primary bg-card">
+              <h3 className="text-xl font-bold mb-4 text-foreground">{tgs.interest?.cards?.assist?.title ?? '2. Self-retracting Assist'}</h3>
+              <div 
+                className="text-muted-foreground leading-relaxed"
+                dangerouslySetInnerHTML={{ __html: tgs.interest?.cards?.assist?.desc ?? '' }}
+              />
+            </Card>
+          </div>
+
+          <div className="mt-16">
+            <h3 className="text-2xl font-bold mb-8 border-b pb-4 text-foreground">
+              {tgs.interest?.specs?.title ?? 'Key Specifications Customers Ask For'}
+            </h3>
+            <ul className="grid md:grid-cols-2 gap-6">
+              {(tgs.interest?.specs?.items ?? []).map((item, idx) => (
+                <li key={idx} className="flex items-start gap-3">
+                  <div className="mt-1 bg-blue-100 dark:bg-blue-900/30 text-blue-600 rounded-full p-1 flex items-center justify-center w-6 h-6">
+                    <CheckCircle2 className="w-4 h-4" />
+                  </div>
+                  <span className="text-muted-foreground" dangerouslySetInnerHTML={{ __html: item }} />
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Desire Section */}
+      <section id="desire" className="py-20 bg-muted/30">
+        <div className="container max-w-6xl mx-auto px-6">
+          <h2 className="text-3xl font-bold mb-12 text-foreground relative after:content-[''] after:block after:w-16 after:h-1 after:bg-primary after:mt-2">
+            {tgs.desire?.title ?? 'Where you’ll see it'}
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-12 mb-16">
+            <div>
+              <h3 className="text-xl font-bold mb-6 text-foreground">{tgs.desire?.applications?.title ?? 'Typical Applications'}</h3>
+              <ul className="space-y-4">
+                {(tgs.desire?.applications?.items ?? []).map((item, idx) => (
+                  <li key={idx} className="flex items-start gap-3">
+                    <div className="mt-1 bg-blue-100 dark:bg-blue-900/30 text-blue-600 rounded-full p-1 flex items-center justify-center w-6 h-6">
+                      <CheckCircle2 className="w-4 h-4" />
+                    </div>
+                    <span className="text-muted-foreground">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <Card className="p-8 bg-background">
+              <h3 className="text-xl font-bold mb-4 text-primary">{tgs.desire?.comparison?.title ?? 'Single-tube vs. Double-tube'}</h3>
+              <div className="space-y-4 text-muted-foreground">
+                <p dangerouslySetInnerHTML={{ __html: tgs.desire?.comparison?.single ?? '' }} />
+                <hr className="border-dashed border-border" />
+                <p dangerouslySetInnerHTML={{ __html: tgs.desire?.comparison?.double ?? '' }} />
               </div>
-            </div>
-            <div className="relative">
-              <img alt={tgs.hero?.imageAlt ?? 'Tension Gas Spring'} className="w-full h-auto rounded-lg shadow-lg" src="/images/hero-fi.png" />
-            </div>
+            </Card>
           </div>
-        </div>
-      </section>
 
-      <section id="definition" className="py-14 md:py-20 border-b border-border bg-background">
-        <div className="container max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-primary mb-6">{tgs.definition?.title ?? '1. Product Definition'}</h2>
-          <h3 className="text-xl font-semibold text-[#2a5298] mb-4">{tgs.definition?.keyCharacteristics?.title ?? 'Key Characteristics'}</h3>
-          <div className="rounded-md border-l-4 border-primary bg-accent/10 p-5 mb-6">
-            {(tgs.definition?.keyCharacteristics?.items ?? [
-              { label: 'Product Name', value: 'Tension Gas Spring / Pull Gas Spring / Reverse Action Gas Spring' },
-              { label: 'Free State', value: 'The piston rod is in the "retracted" position' },
-              { label: 'Working Characteristic', value: 'Extends when pulled, automatically retracts when released' }
-            ]).map((item, idx) => (
-              <p className="text-muted-foreground" key={idx}><strong>{item.label}:</strong> {item.value}</p>
-            ))}
-          </div>
-          <h3 className="text-xl font-semibold text-[#2a5298] mb-2">{tgs.definition?.mainFunction?.title ?? 'Main Function'}</h3>
-          <p className="text-muted-foreground">{tgs.definition?.mainFunction?.desc ?? 'To enable covers/hatches that "need to be pulled down and retracted" to close automatically, while providing a controlled retraction speed. Typical applications include:'}</p>
-          <ul className="mt-4 space-y-2">
-            {(tgs.definition?.mainFunction?.scenarios ?? [
-              'Automatic retraction of hoods and hatches',
-              'Assistance for medical equipment lifting',
-              'Automatic barrier retraction',
-              'Industrial equipment cover control'
-            ]).map((txt: string, idx: number) => (
-              <li className="text-muted-foreground" key={idx}>{txt}</li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      <section id="classification" className="py-14 md:py-20 border-b border-border bg-card">
-        <div className="container max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-primary mb-6">{tgs.classification?.title ?? '2. Structural Classification and Performance Differences'}</h2>
-          <div className="overflow-x-auto rounded-lg border border-border mb-8">
-            <table className="min-w-full text-sm">
-              <thead className="bg-primary text-white">
-                <tr>
-                  {(
-                    tgs.classification?.table?.headers ?? ['Type', 'Single Tube', 'Double Tube']
-                  ).map((h: string, idx: number) => (
-                    <th key={idx} className="px-4 py-3 text-left font-semibold border border-border">{h}</th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody className="[&>tr:nth-child(even)]:bg-muted/50">
-                {(tgs.classification?.table?.rows ?? [
-                  { label: 'Rebound Speed', single: 'Fast', double: 'Slower, more stable' },
-                  { label: 'Force Progression Rate', single: 'High (100 N → 170-180 N)', double: 'Low (100 N → ~150 N)' },
-                  { label: 'Closed Length Advantage', single: 'Shorter (L ≥ 2S + 45)', double: 'Longer (L ≥ 2S + 70)' },
-                  { label: 'Applicability', single: 'Tight spaces, acceptable force progression', double: 'Stable force, high safety guidance requirements' }
-                ]).map((row, idx) => (
-                  <tr key={idx}>
-                    <td className="px-4 py-3 border border-border"><strong>{row.label}</strong></td>
-                    <td className="px-4 py-3 border border-border">{row.single}</td>
-                    <td className="px-4 py-3 border border-border">{row.double}</td>
+          <div className="mt-16">
+            <h3 className="text-2xl font-bold mb-6 text-foreground">
+              {tgs.desire?.tableSection?.title ?? 'Traction Spring vs. Pure Damper'}
+            </h3>
+            <div className="overflow-x-auto rounded-lg shadow-sm border bg-background">
+              <table className="w-full text-left border-collapse min-w-[600px]">
+                <thead className="bg-primary text-primary-foreground">
+                  <tr>
+                    {(tgs.desire?.tableSection?.headers ?? []).map((header, idx) => (
+                      <th key={idx} className="p-4 font-semibold">{header}</th>
+                    ))}
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="rounded-md border border-border bg-muted/40 p-5">
-              <h4 className="font-semibold text-primary mb-3">{tgs.classification?.cards?.singleTube?.title ?? 'Single Tube Structure'}</h4>
-              <ul className="space-y-2 text-muted-foreground">
-                {(tgs.classification?.cards?.singleTube?.items ?? [
-                  'Simple design, lower cost',
-                  'Shorter closed length',
-                  'Fast rebound speed',
-                  'Noticeable force progression',
-                  'Preferred for tight space applications'
-                ]).map((txt: string, idx: number) => (
-                  <li key={idx}>{txt}</li>
-                ))}
-              </ul>
+                </thead>
+                <tbody className="divide-y">
+                  <tr className="hover:bg-muted/50">
+                    <td className="p-4 font-bold">{tgs.desire?.tableSection?.rows?.tension?.type}</td>
+                    <td className="p-4 text-primary font-medium">{tgs.desire?.tableSection?.rows?.tension?.freeState}</td>
+                    <td className="p-4 text-muted-foreground">{tgs.desire?.tableSection?.rows?.tension?.opening}</td>
+                    <td className="p-4 text-muted-foreground">{tgs.desire?.tableSection?.rows?.tension?.closing}</td>
+                    <td className="p-4 text-emerald-600 font-bold flex items-center gap-2">
+                      <CheckCircle2 className="w-4 h-4" /> {tgs.desire?.tableSection?.rows?.tension?.assist}
+                    </td>
+                  </tr>
+                  <tr className="hover:bg-muted/50">
+                    <td className="p-4 font-bold">{tgs.desire?.tableSection?.rows?.damper?.type}</td>
+                    <td className="p-4 text-muted-foreground">{tgs.desire?.tableSection?.rows?.damper?.freeState}</td>
+                    <td className="p-4 text-muted-foreground">{tgs.desire?.tableSection?.rows?.damper?.opening}</td>
+                    <td className="p-4 text-muted-foreground">{tgs.desire?.tableSection?.rows?.damper?.closing}</td>
+                    <td className="p-4 text-red-500 font-bold flex items-center gap-2">
+                      <XCircle className="w-4 h-4" /> {tgs.desire?.tableSection?.rows?.damper?.assist}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div className="rounded-md border border-border bg-muted/40 p-5">
-              <h4 className="font-semibold text-primary mb-3">{tgs.classification?.cards?.doubleTube?.title ?? 'Double Tube Structure'}</h4>
-              <ul className="space-y-2 text-muted-foreground">
-                {(tgs.classification?.cards?.doubleTube?.items ?? [
-                  'Stable force curve',
-                  'Controllable rebound speed',
-                  'Good safety guidance',
-                  'Approx. 30% higher cost',
-                  'Preferred for high safety requirement applications'
-                ]).map((txt: string, idx: number) => (
-                  <li key={idx}>{txt}</li>
-                ))}
-              </ul>
-            </div>
+            <p className="mt-4 text-sm text-muted-foreground" dangerouslySetInnerHTML={{ __html: tgs.desire?.tableSection?.note ?? '' }} />
           </div>
         </div>
       </section>
 
-      <section id="parameters" className="py-14 md:py-20 border-b border-border bg-background">
-        <div className="container max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-primary mb-6">{tgs.parameters?.title ?? '3. Core Parameter Range'}</h2>
-          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 mb-8">
-            <div className="rounded-md border border-[#d0d8e0] bg-gradient-to-br from-[#f5f7fa] to-[#e8ecf1] p-5 text-center">
-              <h4 className="font-semibold text-primary mb-2">{tgs.parameters?.cards?.force?.title ?? 'Force Range'}</h4>
-              <p className="text-[#2a5298] font-semibold text-lg">{tgs.parameters?.cards?.force?.value ?? '100 – 1,500 N'}</p>
-              <p className="text-muted-foreground text-xs">{tgs.parameters?.cards?.force?.note ?? 'Common Stock: 150 / 250 / 350 N'}</p>
-            </div>
-            <div className="rounded-md border border-[#d0d8e0] bg-gradient-to-br from-[#f5f7fa] to-[#e8ecf1] p-5 text-center">
-              <h4 className="font-semibold text-primary mb-2">{tgs.parameters?.cards?.stroke?.title ?? 'Stroke Range'}</h4>
-              <p className="text-[#2a5298] font-semibold text-lg">{tgs.parameters?.cards?.stroke?.value ?? '100 – 300 mm'}</p>
-              <p className="text-muted-foreground text-xs">{tgs.parameters?.cards?.stroke?.note ?? 'Available in 25 mm increments'}</p>
-            </div>
-            <div className="rounded-md border border-[#d0d8e0] bg-gradient-to-br from-[#f5f7fa] to-[#e8ecf1] p-5 text-center">
-              <h4 className="font-semibold text-primary mb-2">{tgs.parameters?.cards?.closedLength?.title ?? 'Closed Length'}</h4>
-              <p className="text-[#2a5298] font-semibold text-lg">{tgs.parameters?.cards?.closedLength?.value ?? '200 – 450 mm'}</p>
-              <p className="text-muted-foreground text-xs">{tgs.parameters?.cards?.closedLength?.note ?? 'Limited by formula'}</p>
-            </div>
-            <div className="rounded-md border border-[#d0d8e0] bg-gradient-to-br from-[#f5f7fa] to-[#e8ecf1] p-5 text-center">
-              <h4 className="font-semibold text-primary mb-2">{tgs.parameters?.cards?.moq?.title ?? 'Minimum Order Qty'}</h4>
-              <p className="text-[#2a5298] font-semibold text-lg">{tgs.parameters?.cards?.moq?.value ?? '200 units'}</p>
-              <p className="text-muted-foreground text-xs">{tgs.parameters?.cards?.moq?.note ?? 'Typical Annual Volume: 500 – 5,000 units'}</p>
-            </div>
-          </div>
-          <h3 className="text-xl font-semibold text-[#2a5298] mb-3">{tgs.parameters?.endFitting?.title ?? 'End Fitting Configuration'}</h3>
-          <div className="rounded-md border-l-4 border-primary bg-accent/10 p-5">
-            {(tgs.parameters?.endFitting?.items ?? [
-              'Threaded Ends: Single/Double end M8 or M10 threads',
-              'Ball Joint Ends: Ø10 mm ball joint',
-              'Safety Accessories: Must be equipped with "anti-detachment pin" or safety wire'
-            ]).map((txt: string, idx: number) => (
-              <p className="text-muted-foreground" key={idx}>{txt}</p>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="principle" className="py-14 md:py-20 border-b border-border bg-card">
-        <div className="container max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-primary mb-6">{tgs.principle?.title ?? '4. Working Principle - Two Modes of Operation'}</h2>
-          <h3 className="text-xl font-semibold text-[#2a5298] mb-3">{tgs.principle?.modeA?.title ?? 'Mode A: Traction Gas Spring (With Pull Force)'}</h3>
-          <div className="rounded-md border-l-4 border-primary bg-muted/40 p-5 mb-6">
-            <h4 className="font-semibold text-primary mb-2">{tgs.principle?.labels?.operationFlow ?? 'Operation Flow'}</h4>
-            <ul className="space-y-2 text-muted-foreground">
-              {(tgs.principle?.modeA?.flow ?? [
-                "Opening Phase: Cover's gravity overcomes initial pull force, pulling the rod out → Cover descends",
-                'Closing Phase: Gas spring automatically retracts, assisting the cover to pull back up'
-              ]).map((txt: string, idx: number) => (
-                <li key={idx}>{txt}</li>
-              ))}
-            </ul>
-            <p className="text-muted-foreground mt-3"><strong>{tgs.principle?.labels?.applicableScenarios ?? 'Applicable Scenarios:'}</strong> {tgs.principle?.modeA?.scenario ?? "Where the cover's natural descent is sufficient to pull the spring"}</p>
-          </div>
-          <h3 className="text-xl font-semibold text-[#2a5298] mb-3">{tgs.principle?.modeB?.title ?? 'Mode B: Pure Damper (Damping Only, No Pull Force)'}</h3>
-          <div className="rounded-md border-l-4 border-primary bg-muted/40 p-5 mb-6">
-            <h4 className="font-semibold text-primary mb-2">{tgs.principle?.labels?.operationFlow ?? 'Operation Flow'}</h4>
-            <ul className="space-y-2 text-muted-foreground">
-              {(tgs.principle?.modeB?.flow ?? [
-                'Opening Phase: Manual push throughout, no assistance',
-                'Closing Phase: Provides one-way damping only, allowing the cover to descend slowly'
-              ]).map((txt: string, idx: number) => (
-                <li key={idx}>{txt}</li>
-              ))}
-            </ul>
-            <p className="text-muted-foreground mt-3"><strong>{tgs.principle?.labels?.applicableScenarios ?? 'Applicable Scenarios:'}</strong> {tgs.principle?.modeB?.scenario ?? 'Light covers or safety-critical scenarios requiring "no assistance + slow descent"'}</p>
-          </div>
-          <h3 className="text-xl font-semibold text-[#2a5298] mb-3">{tgs.principle?.illustration?.title ?? 'Working Principle Illustration'}</h3>
-          <div className="rounded-md border-l-4 border-primary bg-accent/10 p-5">
-            {(tgs.principle?.illustration?.points ?? [
-              'Basic Principle: High-pressure nitrogen gas within the sealed cylinder generates a reverse thrust when the piston rod is pulled. When the external force is released, the gas pressure pushes the piston rod to retract, achieving the automatic closing function.',
-              'Key Advantage: Compared to traditional springs, gas springs offer a more stable force curve and longer service life (typically over 100,000 cycles).'
-            ]).map((txt: string, idx: number) => (
-              <p key={idx} className={idx === 0 ? 'text-muted-foreground' : 'text-muted-foreground mt-2'}>
-                {txt}
-              </p>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="formula" className="py-14 md:py-20 border-b border-border bg-background">
-        <div className="container max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-primary mb-6">{tgs.formula?.title ?? '5. Quick Selection Formula'}</h2>
-          <h3 className="text-xl font-semibold text-[#2a5298] mb-3">{tgs.formula?.closedLength?.title ?? 'Closed Length Calculation'}</h3>
-          <div className="rounded-md border-l-4 border-primary bg-gradient-to-br from-[#e8f4f8] to-[#d4e9f2] p-5 font-mono">
-            {(tgs.formula?.closedLength?.lines ?? [
-              'Single Tube: L ≥ 2S + 45',
-              'Double Tube: L ≥ 2S + 70',
-              'Where: L = Closed Length (mm) | S = Working Stroke (mm)'
-            ]).map((txt: string, idx: number) => (
-              <p key={idx} className={idx === 2 ? 'text-muted-foreground mt-3 text-sm' : 'text-primary font-semibold'}>
-                {txt}
-              </p>
-            ))}
-          </div>
-          <h3 className="text-xl font-semibold text-[#2a5298] mb-3">{tgs.formula?.selection?.title ?? 'Selection Steps'}</h3>
-          <ol className="list-decimal ml-6 space-y-2 text-muted-foreground">
-            {(tgs.formula?.selection?.steps ?? [
-              'Determine Working Stroke S: Based on the required opening range of the cover/hatch',
-              'Select Structure Type: Choose Single or Double Tube based on space and force stability requirements',
-              'Calculate Closed Length: Use the formula above to determine the minimum closed length',
-              'Determine Force: Select appropriate force based on cover weight and pull resistance',
-              'Confirm End Fitting: Choose threaded or ball joint, and configure anti-detachment pin'
-            ]).map((txt: string, idx: number) => (
-              <li key={idx}><strong>{txt.split(':')[0]}:</strong> {txt.slice(txt.indexOf(':') + 1).trim()}</li>
-            ))}
-          </ol>
-          <div className="rounded-md border-l-4 border-primary bg-accent/10 p-5 mt-6">
-            <p className="text-muted-foreground"><strong>{tgs.formula?.tipLabel ?? '💡 Selection Tip:'}</strong> {tgs.formula?.tip ?? 'If unsure about specific parameters, we recommend starting with common stock items (150 N / 200 mm Stroke / Single Tube) for quick sample verification.'}</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="faq" className="py-14 md:py-20 border-b border-border bg-card">
-        <div className="container max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-primary mb-6">{tgs.faq?.title ?? '6. High-Frequency Customer FAQ'}</h2>
-          <div className="space-y-4">
-            {(tgs.faq?.items ?? [
-              {
-                q: '① Can the initial pull force be reduced below 80 N?',
-                a: 'Answer: It can be reduced to 60 N, but this requires lowering the nitrogen pressure, which will reduce the service life by 20%. We recommend starting at 100 N. This is because excessively low initial pressure increases the gas expansion coefficient, affecting long-term stability.'
-              },
-              {
-                q: '② The force progression in the single tube is too high, can it be improved?',
-                a: 'Answer: Switch to a Double Tube structure for a flatter force curve, at an approx. 30% increase in cost. The double tube design reduces the force progression rate from 100 N → 170-180 N to 100 N → ~150 N by diverting damping.'
-              },
-              {
-                q: '③ What is the fastest lead time?',
-                a: 'Answer: Conventional 150/250 N, 150/200 mm stroke single tube blanks are stocked (500 units), shipping within 72 hours; non-standard items take 10 days. We maintain inventory on common specifications to ensure rapid response.'
-              },
-              {
-                q: '④ Certifications and Export?',
-                a: 'Answer: Default certifications include RoHS and 48h Salt Spray Test; military-grade products require additional MIL-STD-810G vibration testing, adding 7 days to the cycle. All products comply with the EU RoHS directive and can be exported directly to European and American markets.'
-              },
-              {
-                q: '⑤ I want to conceal the anti-detachment pin on the end fitting?',
-                a: 'Answer: We offer an "internal thread + safety wire" solution, which maintains the external appearance of a standard ball joint. This ensures both safety and an improved product aesthetic.'
-              }
-            ]).map((qa, idx) => (
-              <div key={idx} className="rounded-md border border-border bg-muted/50 p-5 border-l-4 border-l-primary">
-                <div className="font-bold text-primary mb-2">{qa?.q ?? ''}</div>
-                <div className="text-muted-foreground">{qa?.a ?? ''}</div>
+      {/* Action Section */}
+      <section id="action" className="py-20 bg-muted/50">
+        <div className="container max-w-4xl mx-auto px-6">
+          <div className="bg-background rounded-2xl shadow-lg p-12 text-center border-t-4 border-primary">
+            <h2 className="text-3xl font-bold mb-4 text-foreground">{tgs.action?.title ?? 'Need a Custom Tension Spring?'}</h2>
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto whitespace-pre-line">
+              {tgs.action?.desc ?? 'Send us your required force, stroke and end-fitting drawing.\nWe’ll return a detailed quote with FOB & door-to-door freight within 24 h.'}
+            </p>
+            <div className="flex flex-col items-center gap-4">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg rounded-full shadow-md hover:shadow-xl transition-all">
+                {tgs.action?.button ?? 'Request Quote Now'}
+              </Button>
+              <div className="text-sm text-muted-foreground">
+                {tgs.action?.catalogLink}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>

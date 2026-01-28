@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button'
 import GasSpringForceCurve from '@/components/visualization/GasSpringForceCurve';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Locale } from '@/lib/i18n/config';
 
 
@@ -129,8 +130,13 @@ export default function CompressionGasSpring(
                 <Button className="h-10 px-6 bg-transparent border border-white text-white hover:bg-white/10">Request Quote</Button>
               </div>
             </div>
-            <div className="relative">
-              <img alt="Compression Gas Spring" className="w-full h-auto rounded-lg shadow-lg" src="/images/products_page/compress_gas_spring.jpg" />
+            <div className="relative min-h-[300px] w-full">
+              <Image 
+                src="/images/products_page/compress_gas_spring.jpg" 
+                alt={dict.hero.title}
+                fill
+                className="object-cover rounded-lg shadow-lg"
+              />
             </div>
           </div>
         </div>
@@ -220,8 +226,13 @@ export default function CompressionGasSpring(
                     </table>
                   </div>
                 </div>
-                <div className="relative">
-                  <img alt="Compression gas spring render" className="w-full h-auto rounded-lg shadow-lg" src="/images/product/gas-spring/compression-gas-spring/compression-gas-spring-render.png" />
+                <div className="relative min-h-[400px] w-full">
+                  <Image 
+                    src="/images/product/gas-spring/compression-gas-spring/compression-gas-spring-render.png" 
+                    alt={dict.overview.card.content.title ?? "Compression Gas Spring Render"}
+                    fill
+                    className="object-contain"
+                  />
                 </div>
                 <div className="space-y-3">
                   <h4 className="text-base font-semibold">{dict.specs.card.selectionGuide.title}</h4>
@@ -264,8 +275,13 @@ export default function CompressionGasSpring(
                 </div>
                 <div className="pt-[var(--space-divider-pt)] border-t border-border">
                   <h3 className="text-lg font-semibold text-foreground mb-[var(--space-subtitle-mb)]">{dict.specs.card.connectionTypes.title}</h3>
-                  <div className="relative">
-                    <img alt="End Fittings Category" className="w-full h-auto rounded-lg shadow-lg" src="/images/products_page/accessories.png" />
+                  <div className="relative min-h-[300px] w-full">
+                    <Image 
+                      alt="End Fittings Category" 
+                      className="object-cover rounded-lg shadow-lg" 
+                      src="/images/products_page/accessories.png" 
+                      fill
+                    />
                   </div>
                 </div>
                 <div className="pt-[var(--space-divider-pt)] border-t border-border">
