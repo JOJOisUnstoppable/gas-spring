@@ -8,12 +8,14 @@ import { SolarDamperProducts } from '@/components/spotlights/SolarDamperProducts
 import { SolarDamperChoose } from '@/components/spotlights/SolarDamperChoose';
 import { SolarDamperAnswers } from '@/components/spotlights/SolarDamperAnswers';
 import { Contact } from '@/components/home/Contact';
-import { usePathname } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import { solarDamperConfig } from '@/components/spotlights/SolarDamperLocale';
 
 export default function SolarDamperPage() {
-  const locale = usePathname().split('/')[1];
-  const dict = solarDamperConfig[locale as keyof typeof solarDamperConfig];
+  const params = useParams();
+  const locale = params.locale as string;
+  const dict = solarDamperConfig[locale as keyof typeof solarDamperConfig] || solarDamperConfig.en;
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <SolarDamperHero locale={locale} />

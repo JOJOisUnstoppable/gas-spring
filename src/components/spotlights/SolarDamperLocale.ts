@@ -570,5 +570,148 @@ export const solarDamperConfig = {
             question6: "Wie lange dauert die Garantie für Sonnenfederungsprodukte?",
             answer6: "Wir bieten eine umfassende Garantie und versprechen langfristige Zuverlässigkeit. Kontaktieren Sie unser Team, um auf Ihre Anwendungsanforderungen zugeschnittene Garantiebedingungen zu erhalten.",
         }
+    },
+    pl: {
+        contact: {
+            title: "Contact Us",
+            description: "We're ready to provide professional solar damper solutions for you",
+            company: "Company",
+            address: "Ningbo, Zhejiang, China",
+            phone: "Phone",
+            email: "Email",
+            office: "Office",
+            officeAddress: "Ningbo, Zhejiang",
+            cta: "Contact for Your Customized Solar Damper Solutions",
+            ctaContact: "Contact for Your Customized Solar Damper Solutions",
+        },
+        hero: {
+            eyebrow: "Serving Leading Solar Solution Brand",
+            title: "Solar Damper Solution",
+            subTitle: "for Solar Tracking Systems",
+            description: "Professional damping solutions to enhance solar tracker stability, reduce vibration, and maximize energy efficiency in challenging environments",
+            proposal: "Get Custom Proposal Now",
+            specifications: "View Specifications"
+        },
+        introduction: {
+            title: "Professional Solar Damper Solutions",
+            description: "Specialized damping technology designed for solar tracking systems to ensure optimal performance and longevity",
+            whatIs: "What is a Solar Damper?",
+            whatIsExpansion: "Solar Dampers are specialized hydraulic damping devices designed specifically for solar tracking systems. They provide controlled resistance to suppress vibrations and oscillations caused by wind forces, ensuring stable and precise solar panel positioning."
+        },
+        features: {
+            functions: {
+                title: "Key Functions",
+                functionFixedAngle: "Fixed Panel Angle",
+                functionFixedAngleExpansion: "Maximizes solar capture for both fixed and tracking solar panels (stabilizes trackers).",
+                functionBufferImpact: "Buffer External Impact",
+                functionBufferImpactExpansion: "Absorbs energy during high winds, earthquakes, or mechanical shocks to prevent damage to panels and mounting structures.",
+                functionAssistedMaintenance: "Assisted Maintenance",
+                functionAssistedMaintenanceExpansion: "Allows panels to be easily lifted for cleaning or inspection.",
+                functionEnhancedStability: "Enhanced Stability",
+                functionEnhancedStabilityExpansion: "Reduces wind-induced vibrations and mechanical fatigue, improving system stability and reliability.",
+            },
+            performance: {
+                title: "Key Performance Indicators",
+                performanceWindLoadResistance: "Wind Load Resistance",
+                performanceWindLoadResistanceExpansion: "7KN-10KN wind load capacity",
+                performanceSnowLoadCapacity: "Snow Load Capacity",
+                performanceSnowLoadCapacityExpansion: "7KN-10KN snow load resistance",
+                performanceTemperatureRange: "Temperature Range",
+                performanceTemperatureRangeExpansion: "-30°C to +80°C operation",
+                performanceLongLifespan: "Long Lifespan",
+                performanceLongLifespanExpansion: "2 million cycle lifetime",
+            }
+        },
+        specifications: {
+            title: "Technical Specifications",
+            description: "View detailed specifications of our solar damper solution",
+            dimensions: {
+                lable: "Dimensions",
+                maxLengthLable: "Maximum Length:",
+                maxLengthValue: "1335mm",
+                minLengthLable: "Minimum Length:",
+                minLengthValue: "576mm or Custom",
+                altMinLable: "Alternative Min:",
+                altMinValue: "745mm or Custom"
+            },
+            loadCapacity: {
+                lable: "Load Capacity",
+                windLoadLable: "Wind Load:",
+                windLoadValue: "7KN-10KN",
+                snowLoadLable: "Snow Load:",
+                snowLoadValue: "7KN-10KN",
+                dampingForceLable: "Damping Force:",
+                dampingForceValue: "Customizable"
+            },
+            performance: {
+                lable: "Performance",
+                operatingTempLable: "Operating Temp:",
+                operatingTempValue: "-30°C to +80°C",
+                lifetimeLable: "Lifetime:",
+                lifetimeValue: "2 Million Cycles",
+                maintenanceLable: "Maintenance:",
+                maintenanceValue: "Maintenance-Free"
+            }
+        },
+        products: {
+            title: "Solar Damper Applications",
+            description: "Versatile solutions for various solar tracking system configurations",
+            singleAxisTrackers: "Single-Axis Trackers",
+            singleAxisTrackersLong:
+                `Optimal damping for single-axis solar tracking systems, providing stability during rotation and wind resistance.
+
+🌟 Horizontal single-axis trackers
+🌟 Tilted single-axis trackers
+🌟 Vertical single-axis trackers
+🌟 Ground-mounted power stations, especially single-axis or dual-axis solar tracking systems.`,
+            dualAxisTrackers: "Dual-Axis Trackers",
+            dualAxisTrackersLong:
+                `Advanced damping solutions for dual-axis tracking systems requiring precise control in both azimuth and elevation.
+
+🌟 Tip-tilt dual-axis trackers
+🌟 Azimuth-elevation trackers
+🌟 Polar mount trackers
+🌟 Rooftop PV systems (primarily fixed mounts, but some use gas springs for maintenance or angle adjustment).`,
+            largeScale: "Large-Scale Solar Farms & Special Scenarios",
+            largeScaleLong:
+                `Robust damping solutions for utility-scale solar installations with high reliability and performance requirements, and for specialized applications.
+
+🌟 Utility-scale ground-mount systems
+🌟 Desert and harsh environment installations
+🌟 Coastal and high-wind areas
+🌟 Elevated parking lots, agricultural-photovoltaic complementary projects, etc., where tracking brackets are equipped with gas springs to resist wind loads, lock angles, and assist automated control.`
+        },
+        choose: {
+            title: "Why Choose DK's Solar Dampers",
+            description: "Advanced engineering and proven performance for solar tracking applications",
+            benefitAdvancedTechnology: "Advanced Technology",
+            benefitAdvancedTechnologyExpansion: "Proprietary hydraulic damping technology specifically engineered for solar tracking systems with precise vibration control.",
+            benefitQualityExcellence: "Quality Excellence",
+            benefitQualityExcellenceExpansion: "ISO 9001:2000 certified manufacturing processes ensuring consistent quality and reliability in every product.",
+            benefitCustomSolutions: "Custom Solutions",
+            benefitCustomSolutionsExpansion: "Tailored damping solutions designed to meet specific requirements of your solar tracking system configuration.",
+            benefitGlobalSupport: "Global Support",
+            benefitGlobalSupportExpansion: "Worldwide technical support, installation guidance, and comprehensive after-sales service for all our products.",
+            benefitProvenDurability: "Proven Durability",
+            benefitProvenDurabilityExpansion: "Extensive testing in harsh environments including salt spray, extreme temperatures, and high-cycle fatigue testing.",
+            benefitLowMaintenance: "Low Maintenance",
+            benefitLowMaintenanceExpansion: "Maintenance-free design with sealed construction and high-quality materials for long-term reliable operation."
+        },
+        qa: {
+            title: "Frequently Asked Questions",
+            description: "Common questions about solar dampers and their applications",
+            question1: "What are the key specifications I should consider?",
+            answer1: "Key specifications include damping force range, stroke length, operating temperature range, and mounting compatibility. Our team will help you determine the optimal specifications based on your tracker design and environmental conditions.",
+            question2: "What is the correct installation orientation?",
+            answer2: "Dual-cylinder solar tracker dampers should be installed with the dust cover facing upward (Big End Up) to prevent dust and debris from entering and ensure proper functioning.",
+            question3: "What is the expected lifetime?",
+            answer3: "Our solar dampers are designed for approximately 2 million cycles, which typically corresponds to 25+ years of operation in solar tracking applications.",
+            question4: "Can the dampers be customized?",
+            answer4: "Yes, we provide customized solutions including adjusted damping force, modified dimensions, and specific mounting configurations to fit your unique project requirements.",
+            question5: "What materials are used in construction?",
+            answer5: "Our dampers use high-strength coated steel for the outer body and zinc-plated steel for end fittings, with specialized sealing materials for extreme weather resistance.",
+            question6: "What is the warranty period for solar damper products?",
+            answer6: "We provide comprehensive warranty coverage and promise long-term reliability. Contact our team for specific warranty terms based on your application requirements.",
+        }
     }
 }

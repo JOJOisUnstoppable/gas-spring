@@ -19,7 +19,7 @@ import Image from 'next/image'
  * CategoryPage Component
  * 
  * 展示产品分类详情页面，采用 SolarDamper 风格布局
- * 包含左侧侧边栏导航和右侧内容区域
+ * 包含顶部吸附导航和主要内容区域
  */
 export default async function CategoryPage(
   props: {
@@ -46,6 +46,7 @@ export default async function CategoryPage(
     <div className="relative min-h-screen w-full bg-background selection:bg-primary/10 selection:text-primary">
       {/* 背景样式 - 模仿 SolarDamperPage */}
       <div className="fixed inset-0 -z-10 h-full w-full bg-white dark:bg-black bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] dark:bg-[radial-gradient(#ffffff33_1px,transparent_1px)]"></div>
+      
       {/* Hero Section */}
       <section id="hero" className="scroll-mt-24">
         <ProductHero
@@ -56,17 +57,15 @@ export default async function CategoryPage(
           locale={locale}
         />
       </section>
-      <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row gap-8 py-8">
-          {/* 左侧侧边栏导航 - 仅在大屏显示 */}
-          <aside className="hidden lg:block w-64 shrink-0">
-            <div className="sticky top-24">
-              <SidebarDirectory navigationItems={dict.products['gas-spring'].Navigation} />
-            </div>
-          </aside>
 
+      {/* 顶部吸附导航 */}
+      <SidebarDirectory navigationItems={dict.products['gas-spring'].Navigation} />
+
+      <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="">
+          
           {/* 右侧主要内容区域 */}
-          <main className="flex-1 min-w-0 space-y-16 lg:space-y-24">
+          <main className="space-y-16 lg:space-y-24">
 
             {/* What is Gas Spring */}
             <section id="what-is-gas-spring" className="scroll-mt-24">
