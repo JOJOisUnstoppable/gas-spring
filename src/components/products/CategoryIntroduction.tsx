@@ -31,7 +31,7 @@ export function CategoryIntroduction({ locale = 'en', id, whatIsTitle, whatIsDes
   }
 
   return (
-    <section className="max-w-7xl mx-auto w-full py-12 md:py-12 lg:py-16 bg-background">
+    <section className="max-w-7xl mx-auto w-full pt-12 md:pt-16 lg:pt-20 pb-6 md:pb-8 lg:pb-10 bg-background">
       <div className="container px-4 md:px-6">
         {/* 修改 grid 布局比例：lg:grid-cols-3，文字占 col-span-2 (2/3)，图片占 col-span-1 (1/3) */}
         <div className="grid gap-6 lg:grid-cols-3 lg:gap-12 items-center">

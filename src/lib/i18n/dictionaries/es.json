@@ -427,11 +427,16 @@
       "productSeries": {
         "title": "Series de Productos"
       },
+      "accessoriesSeries": {
+        "title": "Series de Accesorios"
+      },
       "Navigation": [
-        "Descripción General del Producto",
+        "Back to top",
         "¿Qué es un Resorte de Gas?",
         "Series de Productos",
+        "Matriz de Accesorios",
         "Cómo Funciona",
+        "Cómo Elegir el Resorte de Gas?",
         "Guía de Instalación",
         "Contáctenos"
       ],

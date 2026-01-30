@@ -741,11 +741,16 @@
       "productSeries": {
         "title": "Product Series"
       },
+      "accessoriesSeries": {
+        "title": "Accessories Series"
+      },
       "Navigation": [
-        "Produktübersicht",
+        "Back to top",
         "Was ist eine Gasfeder?",
         "Produktreihen",
+        "Matrizen von Akcesorissen",
         "Wie es funktioniert",
+        "Wie wählen Sie die richtige Gasfeder?",
         "Installationsanleitung",
         "Kontaktieren Sie uns"
       ],

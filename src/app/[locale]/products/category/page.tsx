@@ -46,7 +46,7 @@ export default async function CategoryPage(
     <div className="relative min-h-screen w-full bg-background selection:bg-primary/10 selection:text-primary">
       {/* 背景样式 - 模仿 SolarDamperPage */}
       <div className="fixed inset-0 -z-10 h-full w-full bg-white dark:bg-black bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] dark:bg-[radial-gradient(#ffffff33_1px,transparent_1px)]"></div>
-      
+
       {/* Hero Section */}
       <section id="hero" className="scroll-mt-24">
         <ProductHero
@@ -61,26 +61,26 @@ export default async function CategoryPage(
       {/* 顶部吸附导航 */}
       <SidebarDirectory navigationItems={dict.products['gas-spring'].Navigation} />
 
-      <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="">
-          
-          {/* 右侧主要内容区域 */}
-          <main className="space-y-16 lg:space-y-24">
 
-            {/* What is Gas Spring */}
-            <section id="what-is-gas-spring" className="scroll-mt-24">
-              <CategoryIntroduction
-                whatIsTitle={dict.products['gas-spring'].whatIsGS.title}
-                whatIsDesc={dict.products['gas-spring'].whatIsGS.description}
-                id={id}
-                locale={locale}
-              />
-            </section>
+      {/* What is Gas Spring */}
+      <section id="what-is-gas-spring" className="scroll-mt-24">
+        <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+          <CategoryIntroduction
+            whatIsTitle={dict.products['gas-spring'].whatIsGS.title}
+            whatIsDesc={dict.products['gas-spring'].whatIsGS.description}
+            id={id}
+            locale={locale}
+          />
+        </div>
+      </section>
 
-            {/* Product Series */}
-            <section id="product-series" className="scroll-mt-24">
-              <div className="w-full">
-                <h2 className="text-3xl font-bold text-gray-900 mb-8">
+      {/* Product Series */}
+      <section id="product-series" className="scroll-mt-24 bg-slate-50/80">
+        <div className="pt-6 md:pt-8 lg:pt-10 pb-6 md:pb-8 lg:pb-10 ">
+          <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+            <div className="container px-4 md:px-6">
+              <div className="space-y-4">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                   {dict.products['gas-spring'].productSeries?.title || 'Product Series'}
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -97,9 +97,20 @@ export default async function CategoryPage(
                     />
                   ))}
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                <h2 className="text-3xl font-bold text-gray-900 mt-16 mb-8">
-                  {'Gas Spring Accessories'}
+      {/* Accessories Series */}
+      <section id="accessories-series" className="scroll-mt-24">
+        <div className="pt-6 md:pt-8 lg:pt-10 pb-6 md:pb-8 lg:pb-10">
+          <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+            <div className="container px-4 md:px-6">
+              <div className="space-y-4">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                  {dict.products['gas-spring'].accessoriesSeries?.title || 'Accessories Series'}
                 </h2>
                 <div className="flex flex-col items-center space-y-4">
                   <div className="w-full relative h-[400px] md:h-[600px] lg:h-[700px]">
@@ -113,63 +124,65 @@ export default async function CategoryPage(
                   </div>
                 </div>
               </div>
-            </section>
-
-            {/* How Gas Spring Work */}
-            <section id="how-gs-work" className="scroll-mt-24">
-              <HowGSWork
-                mainTitle={dict.products['gas-spring'].howGSWork.title}
-                mainContent={dict.products['gas-spring'].howGSWork.desc}
-                subTitle1={dict.products['gas-spring'].howGSWork.KeyBehavior.title}
-                subContent1={dict.products['gas-spring'].howGSWork.KeyBehavior.desc}
-                imageSrc={'/images/products_page/HowGSWork.png'}
-                imageAlt={'Gas Spring Force Curve'}
-                imageCaption={dict.products['gas-spring'].howGSWork.KeyBehavior.imageCaption}
-                subTitle2={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.title}
-                frontdesc={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.frontdesc}
-                subContent2={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.desc}
-              />
-            </section>
-
-            {/* Replacement / Image Input Form */}
-            <section id="replacement" className="scroll-mt-24">
-              <ImageInputForm
-                title={dict.products['gas-spring'].Replacement.title}
-                subtitle={dict.products['gas-spring'].Replacement.subTitle}
-                desc={dict.products['gas-spring'].Replacement.desc}
-              />
-            </section>
-
-            {/* How to Choose */}
-            <section id="how-to-choose" className="scroll-mt-24">
-              <HowtoChooseGS
-                dict={dict}
-                imageSrc={'/images/products_page/CalculationF1.png'}
-                imageAlt={'GAS Spring Calculation Principle F1'}
-              />
-            </section>
-
-            {/* Calculation */}
-            <section id="calculation" className="scroll-mt-24">
-              <CalculationF1
-                midTitle1={dict.products['gas-spring'].CalculationF1.EFC.title}
-                midDesc1={dict.products['gas-spring'].CalculationF1.EFC.desc}
-                midDesc2={dict.products['gas-spring'].CalculationF1.GSDFCC.desc}
-              />
-            </section>
-
-            {/* Installation */}
-            <section id="installation" className="scroll-mt-24">
-              <GSInstallationGuide
-                imageCaption={dict.products['gas-spring'].GSInstallationGuide.imageCaption}
-                title={dict.products['gas-spring'].GSInstallationGuide.title}
-                desc={dict.products['gas-spring'].GSInstallationGuide.desc}
-              />
-            </section>
-
-          </main>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+
+      {/* How Gas Spring Work */}
+      <section id="how-gs-work" className="scroll-mt-24">
+        <HowGSWork
+          mainTitle={dict.products['gas-spring'].howGSWork.title}
+          mainContent={dict.products['gas-spring'].howGSWork.desc}
+          subTitle1={dict.products['gas-spring'].howGSWork.KeyBehavior.title}
+          subContent1={dict.products['gas-spring'].howGSWork.KeyBehavior.desc}
+          imageSrc={'/images/products_page/HowGSWork.png'}
+          imageAlt={'Gas Spring Force Curve'}
+          imageCaption={dict.products['gas-spring'].howGSWork.KeyBehavior.imageCaption}
+          subTitle2={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.title}
+          frontdesc={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.frontdesc}
+          subContent2={dict.products['gas-spring'].howGSWork.CriticalPerformanceMeasure.desc}
+        />
+      </section>
+
+      {/* Replacement / Image Input Form */}
+      <section id="replacement" className="scroll-mt-24">
+        <ImageInputForm
+          title={dict.products['gas-spring'].Replacement.title}
+          subtitle={dict.products['gas-spring'].Replacement.subTitle}
+          desc={dict.products['gas-spring'].Replacement.desc}
+        />
+      </section>
+
+      {/* How to Choose */}
+      <section id="how-to-choose" className="scroll-mt-24">
+        <HowtoChooseGS
+          dict={dict}
+          imageSrc={'/images/products_page/CalculationF1.png'}
+          imageAlt={'GAS Spring Calculation Principle F1'}
+        />
+      </section>
+
+      {/* Calculation */}
+      <section id="calculation" className="scroll-mt-24">
+        <CalculationF1
+          midTitle1={dict.products['gas-spring'].CalculationF1.EFC.title}
+          midDesc1={dict.products['gas-spring'].CalculationF1.EFC.desc}
+          midDesc2={dict.products['gas-spring'].CalculationF1.GSDFCC.desc}
+        />
+      </section>
+
+      {/* Installation */}
+      <section id="installation" className="scroll-mt-24">
+        <GSInstallationGuide
+          imageCaption={dict.products['gas-spring'].GSInstallationGuide.imageCaption}
+          title={dict.products['gas-spring'].GSInstallationGuide.title}
+          desc={dict.products['gas-spring'].GSInstallationGuide.desc}
+        />
+      </section>
+
+
       {/* CTA */}
       <section id="cta" className="scroll-mt-24 pb-12">
         <CTA

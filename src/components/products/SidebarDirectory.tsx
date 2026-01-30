@@ -13,13 +13,15 @@ export default function SidebarDirectory({ navigationItems, className }: Sidebar
 
   // 映射导航项
   const items = [
-    { id: 'hero', label: navigationItems[1] },
-    { id: 'what-is-gas-spring', label: navigationItems[2] },
-    { id: 'product-series', label: navigationItems[3] },
+    { id: 'hero', label: navigationItems[0] },
+    { id: 'what-is-gas-spring', label: navigationItems[1] },
+    { id: 'product-series', label: navigationItems[2] },
+    { id: 'accessories-series', label: navigationItems[3] },
     { id: 'how-gs-work', label: navigationItems[4] },
-    { id: 'installation', label: navigationItems[5] },
-    { id: 'cta', label: navigationItems[6] }
-  ];
+    { id: 'how-to-choose', label: navigationItems[5] },
+    { id: 'installation', label: navigationItems[6] },
+    { id: 'cta', label: navigationItems[7] } 
+  ].filter(item => item.label && item.label.trim() !== '');
 
   const scrollToElement = (elementId: string) => {
     const element = document.getElementById(elementId);
@@ -62,8 +64,8 @@ export default function SidebarDirectory({ navigationItems, className }: Sidebar
       "sticky top-[73px] z-40 w-full bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-gray-200 dark:bg-black/95 dark:border-gray-800 transition-all duration-200", 
       className
     )}>
-      <div className="items-center flex justify-center container mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="-mb-px flex space-x-8 overflow-x-auto no-scrollbar" aria-label="Tabs">
+      <div className="flex justify-center w-full px-4 sm:px-6 lg:px-8">
+        <nav className="-mb-px flex items-center justify-center space-x-8 overflow-x-auto no-scrollbar pb-1" aria-label="Tabs">
           {items.map((item) => (
             <button
               key={item.id}

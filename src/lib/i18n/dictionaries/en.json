@@ -1411,12 +1411,17 @@
       "productSeries": {
         "title": "Product Series"
       },
+      "accessoriesSeries": {
+        "title": "Accessories Series"
+      },
       "Navigation": [
-        "Product Overview",
+        "Back to top",
         "What is Gas Spring?",
         "Product Series",
-        "How It Works",
-        "Installation Guide",
+        "Accessories Matrix",
+        "How It Works?",
+        "How to Choose the Gas Spring?",
+        "Step-by-Step Installation Guide",
         "Contact Us"
       ],
       "whatIsGS": {

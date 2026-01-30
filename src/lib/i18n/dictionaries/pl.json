@@ -1005,11 +1005,16 @@
       "productSeries": {
         "title": "Serie produktów"
       },
+      "accessoriesSeries": {
+        "title": "Serie akcesoriów"
+      },
       "Navigation": [
-        "Przegląd produktu",
+        "Back to top",
         "Czym jest prużyna gazowa?",
         "Serie produktów",
+        "Matryca akcesoriów",
         "Jak działa",
+        "Jak wählen Sie die richtige Gasfeder?",
         "Przewodnik instalacyjny",
         "Skontaktuj się z nami"
       ],

@@ -213,8 +213,8 @@ export function Navbar({ locale, dict }: {
     <section className="py-4 sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container max-w-8xl mx-auto">
         {/* Desktop Navigation */}
-        <nav className="hidden justify-between lg:flex">
-          <div className="flex items-center gap-6">
+        <nav className="hidden lg:flex items-center justify-between">
+          <div className="flex-1 flex justify-start">
             <Link href={`/${locale}`} className="flex items-center gap-2">
               <Image src="/DK_Logo_withoutBG.png" alt="Logo" width={32} height={32} />
               <Image 
@@ -225,15 +225,17 @@ export function Navbar({ locale, dict }: {
                 className="h-8 w-auto object-contain"
               />
             </Link>
-            <div className="flex items-center">
-              <NavigationMenu>
-                <NavigationMenuList>
-                  {navItems.map(renderNavLink)}
-                </NavigationMenuList>
-              </NavigationMenu>
-            </div>
           </div>
-          <div className="flex gap-2 items-center">
+          
+          <div className="flex-shrink-0">
+            <NavigationMenu>
+              <NavigationMenuList>
+                {navItems.map(renderNavLink)}
+              </NavigationMenuList>
+            </NavigationMenu>
+          </div>
+
+          <div className="flex-1 flex justify-end gap-2 items-center">
             <LanguageSwitcher />
           </div>
         </nav>
