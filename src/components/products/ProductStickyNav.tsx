@@ -3,12 +3,12 @@
 import { useEffect, useState } from 'react'
 import { cn } from '@/lib/utils'
 
-interface SidebarDirectoryProps {
+interface ProductStickyNavProps {
   navigationItems: string[];
   className?: string;
 }
 
-export default function SidebarDirectory({ navigationItems, className }: SidebarDirectoryProps) {
+export default function ProductStickyNav({ navigationItems, className }: ProductStickyNavProps) {
   const [activeId, setActiveId] = useState<string>('')
 
   // 映射导航项
@@ -26,7 +26,7 @@ export default function SidebarDirectory({ navigationItems, className }: Sidebar
   const scrollToElement = (elementId: string) => {
     const element = document.getElementById(elementId);
     if (element) {
-      // headerOffset = Navbar的高度 (约73px) + SidebarDirectory的高度 (约55px) + 缓冲空间
+      // headerOffset = Navbar的高度 (约73px) + ProductStickyNav的高度 (约55px) + 缓冲空间
       const headerOffset = 130; 
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - headerOffset;

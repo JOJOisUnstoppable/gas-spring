@@ -12,7 +12,7 @@ import HowGSWork from '@/components/products/HowGSWork'
 import CalculationF1 from '@/components/products/CalculationF1'
 import GSInstallationGuide from '@/components/products/GSInstallationGuide'
 import CTA from '@/components/products/CTA'
-import SidebarDirectory from '@/components/products/SidebarDirectory'
+import ProductStickyNav from '@/components/products/ProductStickyNav'
 import Image from 'next/image'
 
 /**
@@ -59,7 +59,7 @@ export default async function CategoryPage(
       </section>
 
       {/* 顶部吸附导航 */}
-      <SidebarDirectory navigationItems={dict.products['gas-spring'].Navigation} />
+      <ProductStickyNav navigationItems={dict.products['gas-spring'].Navigation} />
 
 
       {/* What is Gas Spring */}
@@ -80,7 +80,7 @@ export default async function CategoryPage(
           <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
             <div className="container px-4 md:px-6">
               <div className="space-y-4">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl pb-2">
                   {dict.products['gas-spring'].productSeries?.title || 'Product Series'}
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -131,7 +131,7 @@ export default async function CategoryPage(
 
 
       {/* How Gas Spring Work */}
-      <section id="how-gs-work" className="scroll-mt-24">
+      <section id="how-gs-work" className="scroll-mt-24 bg-slate-50/80">
         <HowGSWork
           mainTitle={dict.products['gas-spring'].howGSWork.title}
           mainContent={dict.products['gas-spring'].howGSWork.desc}
