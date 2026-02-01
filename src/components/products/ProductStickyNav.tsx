@@ -64,14 +64,14 @@ export default function ProductStickyNav({ navigationItems, className }: Product
       "sticky top-[73px] z-40 w-full bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-gray-200 dark:bg-black/95 dark:border-gray-800 transition-all duration-200", 
       className
     )}>
-      <div className="flex justify-center w-full px-4 sm:px-6 lg:px-8">
-        <nav className="-mb-px flex items-center justify-center space-x-8 overflow-x-auto no-scrollbar pb-1" aria-label="Tabs">
+      <div className="flex w-full px-4 sm:px-6 lg:px-8">
+        <nav className="-mb-px flex items-center md:justify-center justify-start w-full space-x-8 overflow-x-auto no-scrollbar pb-1" aria-label="Tabs">
           {items.map((item) => (
             <button
               key={item.id}
               onClick={() => scrollToElement(item.id)}
               className={cn(
-                "whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium transition-colors duration-200",
+                "whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium transition-colors duration-200 flex-shrink-0",
                 activeId === item.id
                   ? "border-primary text-primary"
                   : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"

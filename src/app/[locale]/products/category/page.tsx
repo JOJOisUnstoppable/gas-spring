@@ -146,26 +146,19 @@ export default async function CategoryPage(
         />
       </section>
 
-      {/* Replacement / Image Input Form */}
-      <section id="replacement" className="scroll-mt-24">
+      {/* Replacement / Image Input Form / How to Choose */}
+      <section id="how-to-choose" className="scroll-mt-24">
         <ImageInputForm
           title={dict.products['gas-spring'].Replacement.title}
           subtitle={dict.products['gas-spring'].Replacement.subTitle}
           desc={dict.products['gas-spring'].Replacement.desc}
         />
-      </section>
-
-      {/* How to Choose */}
-      <section id="how-to-choose" className="scroll-mt-24">
         <HowtoChooseGS
           dict={dict}
           imageSrc={'/images/products_page/CalculationF1.png'}
           imageAlt={'GAS Spring Calculation Principle F1'}
         />
-      </section>
-
       {/* Calculation */}
-      <section id="calculation" className="scroll-mt-24">
         <CalculationF1
           midTitle1={dict.products['gas-spring'].CalculationF1.EFC.title}
           midDesc1={dict.products['gas-spring'].CalculationF1.EFC.desc}
@@ -174,7 +167,7 @@ export default async function CategoryPage(
       </section>
 
       {/* Installation */}
-      <section id="installation" className="scroll-mt-24">
+      <section id="installation" className="scroll-mt-24 bg-slate-50/80">
         <GSInstallationGuide
           imageCaption={dict.products['gas-spring'].GSInstallationGuide.imageCaption}
           title={dict.products['gas-spring'].GSInstallationGuide.title}
@@ -184,7 +177,7 @@ export default async function CategoryPage(
 
 
       {/* CTA */}
-      <section id="cta" className="scroll-mt-24 pb-12">
+      <section id="cta" className="scroll-mt-24">
         <CTA
           title={dict.products['gas-spring'].CTA.title}
           desc={dict.products['gas-spring'].CTA.desc}

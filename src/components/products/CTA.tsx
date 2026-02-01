@@ -13,7 +13,7 @@ interface CTAProps {
 
 export default function CTA({ title, desc, locale }: CTAProps) {
   return (
-    <section className="max-w-7xl mx-auto w-full py-12 md:py-16 lg:py-20 bg-gradient-to-br from-blue-50 to-indigo-100 relative overflow-hidden mb-[100px]">
+    <section className="mx-auto w-full py-12 md:py-16 lg:py-20 bg-gradient-to-br from-blue-50 to-indigo-100 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 left-10 w-32 h-32 bg-blue-500 rounded-full blur-3xl"></div>

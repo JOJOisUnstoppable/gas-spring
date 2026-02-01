@@ -41,49 +41,50 @@ const GSInstallationGuide = ({ title, desc, imageCaption }: GSInstallationGuideP
   }
 
   return (
-    <section className="max-w-7xl mx-auto w-full py-12 md:py-16 lg:py-20 bg-background">
-      <div className="container px-4 md:px-6">
-        <div className="space-y-8">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground">
-            {title}
-          </h2>
-          <div className="w-full border-b-3 border-[#0F172B]"></div>  
-          <div className="space-y-6">
-            {structured.map((item, idx) => (
-              <div key={idx}>
-                <div className="space-y-3">
-                  <div className="text-muted-foreground text-lg leading-relaxed">
-                    {item.content}
+    <div className="pt-6 md:pt-8 lg:pt-10 pb-6 md:pb-8 lg:pb-10">
+      <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+        <div className="container px-4 md:px-6">
+          <div className="space-y-4">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground">
+              {title}
+            </h2>
+            <div className="space-y-6">
+              {structured.map((item, idx) => (
+                <div key={idx}>
+                  <div className="space-y-3">
+                    <div className="text-muted-foreground text-lg leading-relaxed">
+                      {item.content}
+                    </div>
+                    {item.subItems && item.subItems.length > 0 && (
+                      <ul className="list-disc pl-6 space-y-2">
+                        {item.subItems.map((sub, sIdx) => (
+                          <li key={sIdx} className="text-muted-foreground text-lg leading-relaxed">
+                            {sub}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
-                  {item.subItems && item.subItems.length > 0 && (
-                    <ul className="list-disc pl-6 space-y-2">
-                      {item.subItems.map((sub, sIdx) => (
-                        <li key={sIdx} className="text-muted-foreground text-lg leading-relaxed">
-                          {sub}
-                        </li>
-                      ))}
-                    </ul>
+
+                  {idx === 0 && (
+                    <div className="my-8 flex flex-col items-center">
+                      <img
+                        src={'/images/products_page/Install_location.png'}
+                        alt={'Gas spring : Selection of Installation Location'}
+                        className="max-w-full h-auto rounded-lg shadow-md"
+                      />
+                      <div className="text-center text-muted-foreground text-sm mt-2">
+                        {imageCaption}
+                      </div>
+                    </div>
                   )}
                 </div>
-
-                {idx === 0 && (
-                  <div className="my-8 flex flex-col items-center">
-                    <img
-                      src={'/images/products_page/Install_location.png'}
-                      alt={'Gas spring : Selection of Installation Location'}
-                      className="max-w-full h-auto rounded-lg shadow-md"
-                    />
-                    <div className="text-center text-muted-foreground text-sm mt-2">
-                      {imageCaption}
-                    </div>
-                  </div>
-                )}
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 
