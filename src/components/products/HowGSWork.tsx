@@ -7,6 +7,7 @@
 
 import parseMarkdownBold from '@/lib/parseMarkdownBold'
 import Image from 'next/image'
+import { Cog } from 'lucide-react'
 
 interface HowGSWorkProps {
   locale?: string;
@@ -25,6 +26,7 @@ interface HowGSWorkProps {
 
 /**
  * HowGSWork Gas Spring 工作原理组件
+ * 视觉优化：标题采用居中图标样式。
  */
 const HowGSWork = ({
   mainTitle,
@@ -43,14 +45,19 @@ const HowGSWork = ({
       <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         <div className="container px-4 md:px-6">
           <div className="space-y-4">
-            {/* H2 主标题 */}
+            {/* H2 主标题 - 优化样式 */}
             {mainTitle && (
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground">
-                {mainTitle}
-              </h2>
+              <div className="flex flex-col items-center text-center space-y-4 mb-10">
+                <div className="p-4 bg-blue-100 dark:bg-blue-900/20 rounded-full text-blue-600 dark:text-blue-400">
+                  <Cog className="w-8 h-8" />
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground">
+                  {mainTitle}
+                </h2>
+                <div className="w-20 h-1 bg-blue-500 rounded-full" />
+              </div>
             )}
-            {/* 标题 下划线 */}
-            {/* <div className="w-full border-b-3 border-[#0F172B]"></div> */}
+            
             {/* 主要正文内容 */}
             {mainContent && (
               <div className="space-y-4">

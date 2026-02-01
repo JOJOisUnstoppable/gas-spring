@@ -1,3 +1,9 @@
+/**
+ * @file CTA.tsx
+ * @description 产品页面的行动号召（Call to Action）组件
+ * @module components/products/CTA
+ */
+
 'use client'
 
 import { motion } from 'framer-motion'
@@ -5,12 +11,26 @@ import { ShimmerButton } from '@/components/magicui/shimmer-button'
 import Link from 'next/link'
 import { ArrowRight, MessageCircle } from 'lucide-react'
 
+/**
+ * CTA组件的属性接口
+ * @interface CTAProps
+ * @property {string} title - 标题文本
+ * @property {string[]} desc - 描述文本数组，每项为一段
+ * @property {string} locale - 当前语言环境代码
+ */
 interface CTAProps {
   title: string
   desc: string[]
   locale: string
 }
 
+/**
+ * 行动号召组件
+ * 用于在页面底部引导用户进行联系或其他操作
+ * 
+ * @param {CTAProps} props - 组件属性
+ * @returns {JSX.Element} CTA组件渲染结果
+ */
 export default function CTA({ title, desc, locale }: CTAProps) {
   return (
     <section className="mx-auto w-full py-12 md:py-16 lg:py-20 bg-gradient-to-br from-blue-50 to-indigo-100 relative overflow-hidden">
@@ -20,7 +40,7 @@ export default function CTA({ title, desc, locale }: CTAProps) {
         <div className="absolute bottom-10 right-10 w-40 h-40 bg-indigo-500 rounded-full blur-3xl"></div>
       </div>
       
-      <div className="container px-4 md:px-6 relative z-10">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.div
           className="text-center space-y-8"
           initial={{ opacity: 0, y: 30 }}

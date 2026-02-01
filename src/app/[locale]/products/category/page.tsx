@@ -79,10 +79,11 @@ export default async function CategoryPage(
         <div className="pt-6 md:pt-8 lg:pt-10 pb-6 md:pb-8 lg:pb-10 ">
           <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
             <div className="container px-4 md:px-6">
-              <div className="space-y-4">
+              <div className="flex flex-col space-y-4 items-center text-center">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl pb-2">
                   {dict.products['gas-spring'].productSeries?.title || 'Product Series'}
                 </h2>
+                <div className="w-20 h-1 bg-blue-500 rounded-full" />
                 <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
                   {products.map((product) => (
                     <ProductCard
@@ -108,11 +109,12 @@ export default async function CategoryPage(
         <div className="pt-6 md:pt-8 lg:pt-10 pb-6 md:pb-8 lg:pb-10">
           <div className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
             <div className="container px-4 md:px-6">
-              <div className="space-y-4">
+              <div className="flex flex-col space-y-4 items-center text-center">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                   {dict.products['gas-spring'].accessoriesSeries?.title || 'Accessories Series'}
                 </h2>
-                <div className="flex flex-col items-center space-y-4">
+                <div className="w-20 h-1 bg-blue-500 rounded-full" />
+                <div className="flex flex-col items-center space-y-4 w-full">
                   <div className="w-full relative h-[400px] md:h-[600px] lg:h-[700px]">
                     <Image
                       src='/images/products_page/accessories.png'
@@ -147,12 +149,14 @@ export default async function CategoryPage(
       </section>
 
       {/* Replacement / Image Input Form / How to Choose */}
-      <section id="how-to-choose" className="scroll-mt-24">
+      <section id="how-to-choose-by-code" className="scroll-mt-24">
         <ImageInputForm
           title={dict.products['gas-spring'].Replacement.title}
           subtitle={dict.products['gas-spring'].Replacement.subTitle}
           desc={dict.products['gas-spring'].Replacement.desc}
         />
+      </section>
+      <section id="how-to-choose-for-engineer" className="scroll-mt-24">
         <HowtoChooseGS
           dict={dict}
           imageSrc={'/images/products_page/CalculationF1.png'}

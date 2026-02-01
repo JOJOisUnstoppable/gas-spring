@@ -18,9 +18,10 @@ export default function ProductStickyNav({ navigationItems, className }: Product
     { id: 'product-series', label: navigationItems[2] },
     { id: 'accessories-series', label: navigationItems[3] },
     { id: 'how-gs-work', label: navigationItems[4] },
-    { id: 'how-to-choose', label: navigationItems[5] },
-    { id: 'installation', label: navigationItems[6] },
-    { id: 'cta', label: navigationItems[7] } 
+    { id: 'how-to-choose-by-code', label: navigationItems[5] },
+    { id: 'how-to-choose-for-engineer', label: navigationItems[6] },
+    { id: 'installation', label: navigationItems[7] },
+    { id: 'cta', label: navigationItems[8] } 
   ].filter(item => item.label && item.label.trim() !== '');
 
   const scrollToElement = (elementId: string) => {
