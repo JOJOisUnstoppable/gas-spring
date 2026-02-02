@@ -5,7 +5,6 @@ import Layout from '@/components/aftermarket/layout';
 import HeroSection, { HeroTexts } from '@/components/aftermarket/HeroSection';
 import SpecMatcherSection, { SpecMatcherTexts } from '@/components/aftermarket/SpecMatcherSection';
 import EconomicSolutionsSection, { EconomicSolutionsTexts } from '@/components/aftermarket/EconomicSolutionsSection';
-import './south-america-aftermarket.css';
 import ContactSection, { ContactTexts } from '@/components/aftermarket/contact';
 
 export default async function SouthAmericaAftermarket(
@@ -35,7 +34,10 @@ export default async function SouthAmericaAftermarket(
   };
 
   return (
-    <Layout {...meta}>
+    <Layout {...meta} className="relative min-h-screen w-full bg-slate-50 selection:bg-orange-500/20 selection:text-orange-600 font-sans">
+      {/* Background Pattern */}
+      <div className="fixed inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+      
       <HeroSection texts={heroData} />
       <SpecMatcherSection texts={specText} />
       <EconomicSolutionsSection texts={economicSolutionsTexts} />

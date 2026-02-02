@@ -200,75 +200,68 @@ const SpecMatcher: React.FC<SpecMatcherProps> = ({
   };
 
   return (
-    <section className="spec-matcher-section p-10" id="productos">
-      <div className="container">
-        <div className="section-header">
-          <h2 dangerouslySetInnerHTML={{ __html: texts.sectionTitle }} />
-          <p>{texts.sectionDescription}</p>
+    <section className="py-16 bg-white" id="productos">
+      <div className="container mx-auto px-4 max-w-7xl">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4" dangerouslySetInnerHTML={{ __html: texts.sectionTitle }} />
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto">{texts.sectionDescription}</p>
         </div>
         
-        <div className="matcher-container">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div
-            className="matcher-visual"
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              marginBottom: '1.5rem',
-            }}
+            className="flex justify-center items-center mb-6 lg:mb-0"
           >
             <Image
               src="/images/products_page/gas_spring_replacement.png"
               alt="Gas Spring Replacement"
               width={720}
               height={405}
-              style={{
-                width: '100%',
-                height: 'auto',
-                borderRadius: '16px',
-                boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
-              }}
+              className="w-full h-auto rounded-2xl shadow-2xl"
             />
           </div>
-          <div className="matcher-form">
-            <h3>{texts.formTitle}</h3>
-            <form className="form-grid" onSubmit={handleSubmit}>
-              <div className="form-group">
-                <label>{texts.extendedLengthLabel}</label>
+          <div className="bg-slate-50 p-8 rounded-2xl shadow-lg border border-slate-200">
+            <h3 className="text-2xl font-bold text-slate-900 mb-6">{texts.formTitle}</h3>
+            <form className="grid grid-cols-1 md:grid-cols-2 gap-6" onSubmit={handleSubmit}>
+              <div className="flex flex-col gap-2">
+                <label className="text-sm font-semibold text-slate-700">{texts.extendedLengthLabel}</label>
                 <input
                   type="number"
                   name="extendedLength"
                   value={searchParams.extendedLength}
                   onChange={handleInputChange}
                   placeholder={texts.extendedLengthPlaceholder}
+                  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all"
                 />
               </div>
-              <div className="form-group">
-                <label>{texts.compressedLengthLabel}</label>
+              <div className="flex flex-col gap-2">
+                <label className="text-sm font-semibold text-slate-700">{texts.compressedLengthLabel}</label>
                 <input
                   type="number"
                   name="compressedLength"
                   value={searchParams.compressedLength}
                   onChange={handleInputChange}
                   placeholder={texts.compressedLengthPlaceholder}
+                  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all"
                 />
               </div>
-              <div className="form-group">
-                <label>{texts.forceLabel}</label>
+              <div className="flex flex-col gap-2">
+                <label className="text-sm font-semibold text-slate-700">{texts.forceLabel}</label>
                 <input
                   type="number"
                   name="force"
                   value={searchParams.force}
                   onChange={handleInputChange}
                   placeholder={texts.forcePlaceholder}
+                  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all"
                 />
               </div>
-              <div className="form-group">
-                <label>{texts.cylinderDiameterLabel}</label>
+              <div className="flex flex-col gap-2">
+                <label className="text-sm font-semibold text-slate-700">{texts.cylinderDiameterLabel}</label>
                 <select
                   name="cylinderDiameter"
                   value={searchParams.cylinderDiameter}
                   onChange={handleInputChange}
+                  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all bg-white"
                 >
                   <option value="">{texts.selectOption}</option>
                   <option value="15">15mm</option>
@@ -279,12 +272,13 @@ const SpecMatcher: React.FC<SpecMatcherProps> = ({
                   <option value="28">28mm</option>
                 </select>
               </div>
-              <div className="form-group">
-                <label>{texts.connectionTypeLabel}</label>
+              <div className="flex flex-col gap-2">
+                <label className="text-sm font-semibold text-slate-700">{texts.connectionTypeLabel}</label>
                 <select
                   name="connectionType"
                   value={searchParams.connectionType}
                   onChange={handleInputChange}
+                  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all bg-white"
                 >
                   <option value="">{texts.selectOption}</option>
                   <option value="ball-socket">{texts.connectionTypes.ballSocket}</option>
@@ -293,12 +287,13 @@ const SpecMatcher: React.FC<SpecMatcherProps> = ({
                   <option value="fork">{texts.connectionTypes.fork}</option>
                 </select>
               </div>
-              <div className="form-group">
-                <label>{texts.applicationLabel}</label>
+              <div className="flex flex-col gap-2">
+                <label className="text-sm font-semibold text-slate-700">{texts.applicationLabel}</label>
                 <select
                   name="application"
                   value={searchParams.application}
                   onChange={handleInputChange}
+                  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all bg-white"
                 >
                   <option value="">{texts.selectOption}</option>
                   <option value="hood">{texts.applications.hood}</option>
@@ -310,37 +305,39 @@ const SpecMatcher: React.FC<SpecMatcherProps> = ({
               </div>
 
               {/* 联系信息 */}
-              <div className="form-group">
-                <label>Name</label>
+              <div className="flex flex-col gap-2">
+                <label className="text-sm font-semibold text-slate-700">Name</label>
                 <input
                   type="text"
                   name="contactName"
                   value={contactName}
                   onChange={(e) => setContactName(e.target.value)}
                   placeholder="Your name"
+                  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all"
                 />
               </div>
-              <div className="form-group">
-                <label>Email</label>
+              <div className="flex flex-col gap-2">
+                <label className="text-sm font-semibold text-slate-700">Email</label>
                 <input
                   type="email"
                   name="contactEmail"
                   value={contactEmail}
                   onChange={(e) => setContactEmail(e.target.value)}
                   placeholder="your@email.com"
+                  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all"
                 />
               </div>
               <button 
                 type="submit"
-                className="btn-search enhanced-search-btn"
+                className="md:col-span-2 w-full py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-xl font-bold shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 mt-2 disabled:opacity-70 disabled:cursor-not-allowed"
                 disabled={isSubmitting}
               >
-                <span className="btn-text">
+                <span className="relative z-10">
                   {isSubmitting ? 'Submitting…' : texts.searchButton}
                 </span>
                 {isSubmitting && (
-                  <div className="loading-spinner">
-                    <div className="spinner"></div>
+                  <div className="flex items-center justify-center">
+                    <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
                   </div>
                 )}
               </button>
@@ -349,51 +346,56 @@ const SpecMatcher: React.FC<SpecMatcherProps> = ({
 
         </div>
         
-        <div className="bulk-order-section">
-          <div className="bulk-container">
-            <div className="bulk-header">
-              <div className="bulk-title-section">
-                <h3>{texts.bulkTitle}</h3>
-                <p className="bulk-subtitle">{texts.bulkDescription}</p>
+        <div className="mt-20 bg-gradient-to-br from-slate-50 to-slate-100 rounded-3xl overflow-hidden relative border border-slate-200">
+          {/* Decorative background */}
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 pointer-events-none"></div>
+          
+          <div className="p-8 md:p-12 relative z-10">
+            <div className="flex flex-col md:flex-row items-center justify-between mb-12 gap-6">
+              <div className="flex-1">
+                <h3 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 mb-3">{texts.bulkTitle}</h3>
+                <p className="text-lg text-slate-600 max-w-2xl leading-relaxed">{texts.bulkDescription}</p>
               </div>
-              <div className="bulk-decoration">
-                <div className="decoration-circle"></div>
-                <div className="decoration-line"></div>
-              </div>
-            </div>
-            <div className="bulk-features">
-              <div className="bulk-feature">
-                <div className="feature-icon-wrapper">
-                  <div className="feature-icon">🎯</div>
-                </div>
-                <div className="feature-content">
-                  <h4>{texts.bulkFlexibleTitle}</h4>
-                  <p dangerouslySetInnerHTML={{ __html: texts.bulkFlexibleDesc }} />
-                </div>
-              </div>
-              <div className="bulk-feature">
-                <div className="feature-icon-wrapper">
-                  <div className="feature-icon">💰</div>
-                </div>
-                <div className="feature-content">
-                  <h4>{texts.bulkDiscountTitle}</h4>
-                  <p dangerouslySetInnerHTML={{ __html: texts.bulkDiscountDesc }} />
-                </div>
-              </div>
-              <div className="bulk-feature">
-                <div className="feature-icon-wrapper">
-                  <div className="feature-icon">📋</div>
-                </div>
-                <div className="feature-content">
-                  <h4>{texts.bulkCustomTitle}</h4>
-                  <p dangerouslySetInnerHTML={{ __html: texts.bulkCustomDesc }} />
-                </div>
+              <div className="flex items-center gap-4">
+                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 opacity-80 animate-pulse"></div>
+                <div className="w-24 h-0.5 bg-gradient-to-r from-blue-500 to-transparent"></div>
               </div>
             </div>
-            <div className="bulk-cta">
-              <button className="bulk-contact-btn">
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all group">
+                <div className="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center border-2 border-blue-100 mb-6 group-hover:scale-110 transition-transform">
+                  <div className="text-3xl">🎯</div>
+                </div>
+                <div className="space-y-3">
+                  <h4 className="text-xl font-bold text-slate-900">{texts.bulkFlexibleTitle}</h4>
+                  <p className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: texts.bulkFlexibleDesc }} />
+                </div>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all group">
+                <div className="w-16 h-16 bg-green-50 rounded-xl flex items-center justify-center border-2 border-green-100 mb-6 group-hover:scale-110 transition-transform">
+                  <div className="text-3xl">💰</div>
+                </div>
+                <div className="space-y-3">
+                  <h4 className="text-xl font-bold text-slate-900">{texts.bulkDiscountTitle}</h4>
+                  <p className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: texts.bulkDiscountDesc }} />
+                </div>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all group">
+                <div className="w-16 h-16 bg-purple-50 rounded-xl flex items-center justify-center border-2 border-purple-100 mb-6 group-hover:scale-110 transition-transform">
+                  <div className="text-3xl">📋</div>
+                </div>
+                <div className="space-y-3">
+                  <h4 className="text-xl font-bold text-slate-900">{texts.bulkCustomTitle}</h4>
+                  <p className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: texts.bulkCustomDesc }} />
+                </div>
+              </div>
+            </div>
+            
+            <div className="text-center pt-8 border-t border-slate-200">
+              <button className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl font-bold text-lg hover:from-blue-700 hover:to-blue-800 transition-all shadow-lg hover:shadow-blue-500/25 group">
                 <span>Contact for Bulk Orders</span>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </button>
