@@ -210,6 +210,537 @@
     "description": "涵盖服务条款、责任归属、数据隐私、产品政策（订购/交付/退货/保修）、免责声明及管辖法律等内容的完整协议。"
   },
   "products": {
+    "compression-gas-spring": {
+      "Navigation": [
+        "概览",
+        "技术参数",
+        "测试与曲线",
+        "联系我们"
+      ],
+      "hero": {
+        "title": "压缩气弹簧",
+        "subtitle": "压缩气弹簧（气动支撑杆） - 技术指南",
+        "cta": "获取技术参数"
+      },
+      "overview": {
+        "tabName": "",
+        "card": {
+          "title": "",
+          "content": {
+            "title": "压缩气弹簧",
+            "definition": "（也称为气动支撑杆、气弹簧、气动升降杆）是一种利用高压惰性气体（通常为氮气）提供受控支撑、缓冲和举升力的工业组件。广泛应用于需要精确、平稳运动控制的场合。",
+            "coreFunction": {
+              "title": "核心功能",
+              "description": "通过压缩氮气，气弹簧提供稳定的举升力，辅助开启、支撑和缓冲重型组件。"
+            },
+            "applications": {
+              "title": "典型应用",
+              "items": [
+                {
+                  "name": "汽车：",
+                  "value": "尾门、发动机罩、行李箱盖"
+                },
+                {
+                  "name": "医疗设备：",
+                  "value": "维护盖板、病床调节机构"
+                },
+                {
+                  "name": "家具：",
+                  "value": "上翻门、橱柜门、升降桌"
+                },
+                {
+                  "name": "工业机械：",
+                  "value": "设备外壳、维护盖板、安全防护罩"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "specs": {
+        "card": {
+          "title": "关键技术参数",
+          "techSpecs": {
+            "title": "",
+            "table": {
+              "headers": [
+                "参数",
+                "范围",
+                "说明"
+              ],
+              "rows": [
+                {
+                  "parameter": "力值 (N)",
+                  "range": "50 - 5,000",
+                  "description": "决定支撑能力"
+                },
+                {
+                  "parameter": "行程 (mm)",
+                  "range": "19 - 700",
+                  "description": "活塞杆伸出距离"
+                },
+                {
+                  "parameter": "总长",
+                  "range": "定制",
+                  "description": "完全伸展长度（中心到中心）"
+                },
+                {
+                  "parameter": "杆径",
+                  "range": "6 - 14 mm",
+                  "description": "影响抗弯刚度和密封性"
+                },
+                {
+                  "parameter": "缸径",
+                  "range": "15 - 40 mm",
+                  "description": "与内部气体体积相关"
+                }
+              ]
+            }
+          },
+          "selectionGuide": {
+            "title": "选型指南",
+            "items": [
+              {
+                "key": "定义应用：",
+                "value": "明确使用场景和所需运动。"
+              },
+              {
+                "key": "测量长度：",
+                "value": "记录完全伸展和压缩时的中心距。"
+              },
+              {
+                "key": "确定力值：",
+                "value": "根据负载和几何结构计算所需力值。"
+              },
+              {
+                "key": "选择端部连接：",
+                "value": "选择与安装点兼容的连接件。"
+              },
+              {
+                "key": "选择选项：",
+                "subItems": [
+                  {
+                    "key": "阻尼：",
+                    "value": "阻尼性能可定制。"
+                  },
+                  {
+                    "key": "防护：",
+                    "value": "考虑特殊涂层或不锈钢以防腐蚀。"
+                  }
+                ]
+              }
+            ]
+          },
+          "endFittings": {
+            "title": "端部连接",
+            "items": [
+              "球头座",
+              "吊环和U型叉",
+              "支架和螺柱"
+            ]
+          },
+          "options": {
+            "title": "选项",
+            "items": [
+              "阻尼性能可定制"
+            ]
+          },
+          "connectionTypes": {
+            "title": "端部连接类别"
+          },
+          "qualityCerts": {
+            "title": "质量认证",
+            "items": [
+              "ISO9001",
+              "TS16949",
+              "RoHS",
+              "CE",
+              "96h 盐雾测试",
+              "SGS"
+            ]
+          }
+        }
+      },
+      "testing": {
+        "card": {
+          "standardConditions": {
+            "title": "标准测试条件",
+            "speed": {
+              "label": "测试速度",
+              "value": "400 mm/min"
+            },
+            "temperature": {
+              "label": "温度",
+              "value": "20°C"
+            }
+          },
+          "fourPointForce": {
+            "title": "四点力值定义",
+            "items": [
+              {
+                "point": "F1",
+                "title": "完全伸出前 10mm 处的力",
+                "description": "名义举升力（主要选型依据）"
+              },
+              {
+                "point": "F2",
+                "title": "完全压缩前 10mm 处的力",
+                "description": "伸出起始力"
+              },
+              {
+                "point": "F3",
+                "title": "完全伸出后 10mm 处的力",
+                "description": "压缩起始力"
+              },
+              {
+                "point": "F4",
+                "title": "完全压缩前 10mm 处的力",
+                "description": "完全压缩前的最终力"
+              }
+            ]
+          }
+        }
+      },
+      "cta": {
+        "title": "准备好定制您的压缩气弹簧了吗？",
+        "desc": [
+          "我们的专家团队随时为您配置完美的解决方案。",
+          "联系我们要获取个性化报价或进行深入技术讨论。"
+        ]
+      },
+      "GasSpringForceCurve": {
+        "title1": "气弹簧力值曲线",
+        "title2": "重型 (800N, 200mm)",
+        "title3": "轻型 (200N, 100mm)"
+      }
+    },
+    "micro-gas-spring": {
+      "hero": {
+        "title": "微型气弹簧解决方案",
+        "description": "专为紧凑空间设计的精密微型气弹簧——提供轻推力、短行程和静音运行",
+        "cta": "获取技术参数/索取报价"
+      },
+      "definition": {
+        "title": "1. 产品定义",
+        "content": [
+          "微型气弹簧，也称为<strong>迷你气弹簧</strong>、<strong>微型气撑杆</strong>或<strong>小型气弹簧</strong>，是通过按比例缩小标准气弹簧而制造的精密产品。",
+          "这些紧凑型执行器专为空间受限且性能不能妥协的应用而设计。无论是支撑医疗设备中的检查舱口，还是实现手持工具的平稳操作，微型气弹簧都能提供可靠、超静音的运动控制。"
+        ],
+        "quote": "核心价值在于满足受限空间对<strong>“轻推力、短行程、低噪音”</strong>的严苛要求——使其成为传统机械弹簧或标准气弹簧无法替代的精密微型执行器。"
+      },
+      "specifications": {
+        "title": "2. 核心尺寸与力值",
+        "description": "微型气弹簧采用超紧凑设计，提供精细的力值选项，以适应各种微型化设备的需求。",
+        "tableHeaders": [
+          "参数",
+          "规格范围",
+          "备注"
+        ],
+        "items": [
+          {
+            "parameter": "管径 (Ø)",
+            "spec": "8 mm / <span class=\"rounded bg-accent/20 px-2 py-0.5\">10 mm</span>",
+            "remark": "10 mm 是市场标准，应用最广泛。"
+          },
+          {
+            "parameter": "杆径 (Ø)",
+            "spec": "4 mm / 5 mm / 6 mm",
+            "remark": "杆径决定负载能力和结构强度。"
+          },
+          {
+            "parameter": "行程",
+            "spec": "20 – 130 mm",
+            "remark": "以 5 mm 为增量，提供灵活的选择。"
+          },
+          {
+            "parameter": "力值 (推力)",
+            "spec": "30 – 120 N",
+            "remark": "<span class=\"rounded bg-accent/20 px-2 py-0.5\">30 / 50 / 80 / 100 N</span> 为标准库存配置。"
+          },
+          {
+            "parameter": "单重",
+            "spec": "≤ 60 g",
+            "remark": "适用于 10–100 mm 行程范围；重量敏感设计的理想选择。"
+          }
+        ]
+      },
+      "performance": {
+        "title": "3. 性能指标",
+        "description": "在保持超紧凑尺寸的同时，微型气弹簧针对性能进行了优化，特别强调<strong>低噪音</strong>和<strong>长寿命</strong>。",
+        "tableHeaders": [
+          "性能指标",
+          "标准要求",
+          "备注"
+        ],
+        "items": [
+          {
+            "indicator": "动态噪音水平",
+            "requirement": "≤ 45 dB (@ 0.3 m 距离)",
+            "remark": "确保静音运行，满足精密仪器要求。"
+          },
+          {
+            "indicator": "循环寿命",
+            "requirement": "≥ 50,000 次循环",
+            "remark": "在额定负载和行程下保证无泄漏运行。"
+          },
+          {
+            "indicator": "盐雾测试",
+            "requirement": "24 h: 白锈 ≤ 5%",
+            "remark": "标准防腐蚀；可选 48 h 高级选项。"
+          },
+          {
+            "indicator": "解锁力",
+            "requirement": "15 – 25 N",
+            "remark": "自锁变体的精确解锁力控制。"
+          }
+        ]
+      },
+      "connectors": {
+        "title": "4. 端部连接类型",
+        "description": "为了适应多样的安装环境，微型气弹簧提供多种端部连接选项，实现快速、可靠的集成。",
+        "tableHeaders": [
+          "连接类型",
+          "规格",
+          "典型应用"
+        ],
+        "items": [
+          {
+            "type": "金属螺纹",
+            "spec": "M5×0.8 螺纹 (杆端 & 管端)",
+            "application": "高强度应用、精确对准或螺母固定安装。"
+          },
+          {
+            "type": "塑料快装",
+            "spec": "推入 Ø6 孔 (无需螺母)",
+            "application": "快速组装，塑料或薄板结构；极大简化安装。"
+          },
+          {
+            "type": "球头",
+            "spec": "Ø6 mm 不锈钢球头 / POM 球窝",
+            "application": "需要在复杂连杆中实现 180° 旋转或多角度铰接。"
+          }
+        ]
+      },
+      "applications": {
+        "title": "5. 典型应用",
+        "description": "凭借紧凑的尺寸、轻量化设计和精确的推力特性，微型气弹簧被广泛应用于对空间和重量敏感的精密设备中。",
+        "items": [
+          {
+            "title": "小型检查舱口：",
+            "description": "医疗 POCT（即时检测）设备、分析仪器——提供盖板支撑和缓冲。"
+          },
+          {
+            "title": "手持工具检修门：",
+            "description": "电动扭矩扳手、精密测量仪器——实现电池盖或维修舱口的平稳操作。"
+          },
+          {
+            "title": "迷你抽屉自动弹出：",
+            "description": "收银机、测试治具、精密储物柜——提供柔和的抽屉自动弹出。"
+          },
+          {
+            "title": "无人机 (UAV) 载荷舱门：",
+            "description": "在<strong>重量关键型应用</strong>中，提供可靠的舱门驱动，同时最大限度减少载荷负担。"
+          }
+        ]
+      },
+      "faq": {
+        "title": "6. 客户常见问题 & 回复模板",
+        "description": "以下是选型和报价过程中最常见的问题，附带专业回复以快速识别客户需求。",
+        "items": [
+          {
+            "question": "① 你们能生产 8 mm 管径吗？",
+            "answer": "<strong>可以</strong>，但有限制：最大力值为 60 N，行程 ≤ 80 mm；最小订购量 (MOQ) 为 500 支。",
+            "tag": "8 mm 规格：力/行程/MOQ 限制"
+          },
+          {
+            "question": "② 噪音能降低到 40 dB 以下吗？",
+            "answer": "在 <span class=\"rounded bg-accent/20 px-2 py-0.5\">30–50 N</span> 力值范围内可以实现，达到 <span class=\"rounded bg-accent/20 px-2 py-0.5\">38 dB</span>. 需要二次油液调校并在客户设备上进行样品测试验证。",
+            "tag": "38 dB 要求：力值范围 / 油液调校 / 现场测试"
+          },
+          {
+            "question": "③ 最快交期是多少？",
+            "answer": "标准力值 <span class=\"rounded bg-accent/20 px-2 py-0.5\">30/50/80 N</span> 和行程 <span class=\"rounded bg-accent/20 px-2 py-0.5\">60/80/100 mm</span> 保持 1,000 支库存，可实现 <span class=\"rounded bg-accent/20 px-2 py-0.5\">48 小时发货</span>。定制配置需要 10 天。",
+            "tag": "库存规格：48 小时发货"
+          },
+          {
+            "question": "④ 重量能进一步减轻吗？",
+            "answer": "可选 <span class=\"rounded bg-accent/20 px-2 py-0.5\">全铝管 + POM 端部连接</span> 配置，在相同规格下实现 <span class=\"rounded bg-accent/20 px-2 py-0.5\">18% 重量减轻</span>，但循环寿命约减少 20%。",
+            "tag": "轻量化选项：轻 18%，寿命短 20%"
+          },
+          {
+            "question": "⑤ 有哪些认证？",
+            "answer": "标准认证包括 <span class=\"rounded bg-accent/20 px-2 py-0.5\">RoHS 和 REACH</span> 合规。医疗级 <span class=\"rounded bg-accent/20 px-2 py-0.5\">ISO 10993 生物相容性</span> 认证需要额外 7 天。",
+            "tag": "默认：RoHS/REACH；可选：ISO 10993"
+          }
+        ]
+      },
+      "cta": {
+        "title": "准备好找到完美的微型气弹簧了吗？",
+        "desc": [
+          "我们的技术团队随时为您提供选型、定制和快速交付支持。",
+          "立即联系我们获取详细报价或技术咨询。"
+        ]
+      }
+    },
+    "push-to-unlock-gas-spring": {
+      "hero": {
+        "title": "一推锁定。<br>一推 <span class=\"text-[#4f9cf9]\">释放。</span>",
+        "subtitle": "简化您设计的自锁气弹簧。压缩至最短长度时锁定，再次按压即可释放。无需外部杠杆。",
+        "cta": "索取免费样品"
+      },
+      "features": {
+        "title": "为什么工程师转向我们的自锁气弹簧",
+        "items": [
+          {
+            "title": "内置锁定装置",
+            "desc": "在标准气弹簧的基础上增加了锁定装置。压缩至最短位置时安全锁定。"
+          },
+          {
+            "title": "便捷操作",
+            "desc": "解锁只需简单向下按压。自动返回自然伸展状态。比杠杆或按钮更简单。"
+          },
+          {
+            "title": "节省空间的设计",
+            "desc": "不占用过多内部空间。非常适合外部释放机构无法安装的紧凑型应用。"
+          },
+          {
+            "title": "可靠性能",
+            "desc": "可靠地保持压缩状态。适用于各种需要锁定的情况。"
+          }
+        ]
+      },
+      "specs": {
+        "title": "规格与定制",
+        "table": [
+          { "label": "行程", "value": "30 – 600 mm" },
+          { "label": "伸展长度", "value": "2 × 行程 + 70 mm" },
+          { "label": "力值范围", "value": "50 – 650 N (±5 %)" },
+          { "label": "杆径", "value": "6 / 8 / 10 mm" },
+          { "label": "管表面处理", "value": "黑色环氧树脂 / 抛光不锈钢" },
+          { "label": "端部连接", "value": "M8 球头, U型叉, 或按图定制" },
+          { "label": "锁定位置", "value": "完全压缩 (最短长度)" },
+          { "label": "解锁方式", "value": "推/按压 (双稳态)" }
+        ],
+        "note": "需要不同的力值曲线或特殊支架？",
+        "noteLink": "10分钟内与我们的工程师沟通。"
+      },
+      "proof": {
+        "title": "受到 300+ OEM 信赖",
+        "clients": ["医疗公司", "汽车企业", "家具品牌"],
+        "quote": "“用一个按压解锁弹簧替换了4个传统插销——组装时间减少了 35%。”",
+        "author": "— 李明, 采购经理 @ XXX 医疗"
+      },
+      "action": {
+        "title": "24小时内获取免费样品和3D图纸",
+        "form": {
+          "company": "公司名称",
+          "email": "企业邮箱",
+          "quantity": "预估年用量",
+          "requirement": "告知我们行程、力值或您的应用",
+          "submit": "发送询盘"
+        },
+        "privacy": "我们尊重您的隐私。随时退订。"
+      },
+      "footer": {
+        "copyright": "© 2024 YourBrand Gas Springs | ISO 9001 & IATF 16949 认证"
+      }
+    },
+    "stainless-steel-gas-spring": {
+      "hero": {
+        "tag": "极致耐腐蚀",
+        "title": "什么是不锈钢气弹簧？",
+        "subtitle": "专为极端环境设计。了解为什么领先行业转向 SS304 和 SS316 以获得长寿命、卫生和高性能。",
+        "ctaPrimary": "对比 304 vs 316",
+        "ctaSecondary": "查看应用"
+      },
+      "intro": {
+        "title": "不仅仅是“闪亮”的钢材",
+        "description1": "<strong>不锈钢气弹簧</strong>是一种完全由耐腐蚀合金（AISI 304 或 316）制成的优质运动控制组件。与依赖油漆或涂层保护的标准钢制弹簧不同，不锈钢提供针对锈蚀、刺激性化学品和盐水的固有、自愈性防御。",
+        "description2": "在<strong>卫生</strong>、<strong>美观</strong>和<strong>耐用性</strong>是不可妥协要求的场合，它们是关键选择。",
+        "checkListTitle": "重要原因：",
+        "checkListItems": [
+          "<strong>零锈蚀：</strong> 在盐雾测试 (ASTM B117) 中存活 1000+ 小时。",
+          "<strong>卫生：</strong> 光滑表面防止细菌滋生；符合 FDA 标准。",
+          "<strong>无磁性：</strong> 对于 MRI 和敏感电子环境至关重要。"
+        ]
+      },
+      "composition": {
+        "title": "材料成分",
+        "items": [
+          { "value": "18%", "label": "铬" },
+          { "value": "10%", "label": "镍" },
+          { "value": "2%", "label": "钼*", "note": "*特别是在 SS316 中，用于增强抗氯化物点蚀能力" }
+        ]
+      },
+      "comparison": {
+        "tag": "选型指南",
+        "title": "SS304 vs SS316：您需要哪一种？",
+        "subtitle": "选择合适的合金对于成本效益和寿命至关重要。这是基于高频客户咨询的权威细分。",
+        "tableHeaders": ["特性", "SS304 (标准)", "SS316 (高级/船用)"],
+        "rows": [
+          { "feature": "耐腐蚀性", "ss304": "高 (抵抗氧化 & 淡水)", "ss316": "<strong>卓越</strong> (抵抗氯化物 & 盐水)" },
+          { "feature": "最佳应用", "ss304": "食品加工, 医疗家具, 户外", "ss316": "船用 (游艇), 化工厂, 沿海地区" },
+          { "feature": "成本因素", "ss304": "$$ (性价比高)", "ss316": "$$$ (较高投资 ~多 30-40%)" },
+          { "feature": "磁导率", "ss304": "低", "ss316": "极低 (接近零)" },
+          { "feature": "盐雾测试", "ss304": "~150-300 小时", "ss316": "<strong>1000+ 小时</strong>" }
+        ]
+      },
+      "specs": {
+        "title": "关键规格与标准",
+        "items": [
+          { "label": "力值范围", "value": "50N - 2500N" },
+          { "label": "行程长度", "value": "20mm - 1000mm" },
+          { "label": "温度", "value": "-30°C 至 +80°C" }
+        ]
+      },
+      "applications": {
+        "title": "行业应用",
+        "items": [
+          {
+            "title": "船用与离岸",
+            "description": "游艇上的舱口、发动机罩和储物柜。必须承受盐雾和潮湿环境而不产生点蚀。",
+            "recommended": "推荐：SS316"
+          },
+          {
+            "title": "食品与饮料",
+            "description": "生产线防护罩和配重辅助。需要符合 FDA 标准的材料和易于冲洗的能力。",
+            "recommended": "推荐：SS304"
+          },
+          {
+            "title": "医疗与制药",
+            "description": "医院病床、分析仪器和洁净室。需要无菌表面和无磁性。",
+            "recommended": "推荐：SS316L"
+          }
+        ]
+      },
+      "faq": {
+        "title": "常见问题",
+        "questions": [
+          {
+            "q": "我可以用不锈钢弹簧替换钢制弹簧吗？",
+            "a": "是的，绝对可以。只要尺寸（行程/伸展长度）和力值（牛顿）匹配，不锈钢弹簧就是标准钢制弹簧的尺寸兼容直接替换品。"
+          },
+          {
+            "q": "定制不锈钢弹簧的交期是多少？",
+            "a": "标准样品通常可在 3-5 天内发货。定制生产运行通常需要 2-3 周，具体取决于数量和端部连接要求。我们保持常用杆/管尺寸的库存以加快组装。"
+          },
+          {
+            "q": "你们提供 FDA 级油/润滑脂吗？",
+            "a": "是的。对于食品和医疗应用，我们可以填充经过 NSF-H1 认证的食品级润滑剂，以确符合卫生标准。"
+          },
+          {
+            "q": "有哪些端部连接可用？",
+            "a": "我们提供全系列的 316 不锈钢端部连接，包括吊环、球头和 U 型叉，以确保整个组件保持无锈。在不锈钢弹簧上使用钢制配件会损害耐腐蚀性。"
+          }
+        ]
+      },
+      "cta": {
+        "title": "准备升级？",
+        "description": "在 24 小时内获取您项目的详细报价。我们支持低 MOQ 和定制工程服务。",
+        "buttonPrimary": "获取报价",
+        "buttonSecondary": "下载 PDF 目录"
+      }
+    },
     "tension-gas-spring": {
       "CTA": {
         "title": "准备好找到最适合的拉伸气弹簧了吗？",

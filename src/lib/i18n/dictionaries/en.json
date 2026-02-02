@@ -299,6 +299,12 @@
       }
     },
     "compression-gas-spring": {
+      "Navigation": [
+        "Overview",
+        "Tech Specs",
+        "Testing & Curves",
+        "Contact Us"
+      ],
       "hero": {
         "title": "Compression Gas Spring",
         "subtitle": "Compression Gas Spring (Gas Strut) - Technical Guide",
