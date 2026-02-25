@@ -15,7 +15,11 @@ const localeMap = {
 }
 
 export function formatDate(date: string, locale: string = 'en') {
+  if (!date) return ''
   const dateObj = new Date(date)
+  if (isNaN(dateObj.getTime())) {
+    return date
+  }
   return format(dateObj, 'PPP', {
     locale: localeMap[locale as keyof typeof localeMap] || enUS
   })
