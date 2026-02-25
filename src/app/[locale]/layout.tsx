@@ -47,7 +47,7 @@ export default async function LocaleLayout(
   }
 
   const dict = await getDictionary(locale)
-  const { categories } = await getProductData(locale)
+  const { categories, items } = await getProductData(locale)
 
   return (
     <html lang={locale} className={`${inter.variable} ${playfair.variable}`}>
@@ -60,6 +60,12 @@ export default async function LocaleLayout(
             title: cat.title,
             description: cat.description
           }))} 
+          items={items.map(item => ({
+            id: item.id,
+            title: item.title,
+            category: item.category,
+            image: item.image
+          }))}
         />
         <main className="min-h-screen">
           {children}

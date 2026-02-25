@@ -47,10 +47,11 @@ interface NavbarDictionary {
   }
 }
 
-export function Navbar({ locale, dict, categories }: {
+export function Navbar({ locale, dict, categories, items }: {
   locale: string,
   dict: NavbarDictionary,
-  categories: { id: string; title: string; description: string }[]
+  categories: { id: string; title: string; description: string }[],
+  items: { id: string; title: string; category: string; image: string }[]
 }) {
   const pathname = usePathname()
   
@@ -58,6 +59,8 @@ export function Navbar({ locale, dict, categories }: {
     if (locale === 'en') return path
     return path === '/' ? `/${locale}` : `/${locale}${path}`
   }
+
+  const gasSpringItems = items.filter(item => item.category === 'gas-spring')
 
   const navItems: NavItem[] = [
     { title: dict.common.home, href: getHref('/') },
@@ -85,25 +88,53 @@ export function Navbar({ locale, dict, categories }: {
                 {item.title}
               </NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="grid w-[250px] gap-2 p-1">
-                  {item.categories.map((category) => (
-                    <li key={category.id}>
-                      <NavigationMenuLink asChild>
-                        <Link
-                          href={getHref(`/products/category/${category.id}`)}
-                          className="block py-2 px-3 hover:bg-accent rounded-md"
-                        >
-                          <div>
-                            <div>{category.title}</div>
-                            <div className="text-sm text-muted-foreground">
+                <div className="flex p-4 gap-6 bg-background">
+                  {/* Left: Category List */}
+                  <ul className="grid w-[240px] gap-2">
+                    {item.categories.map((category) => (
+                      <li key={category.id}>
+                        <NavigationMenuLink asChild>
+                          <Link
+                            href={getHref(`/products/category/${category.id}`)}
+                            className="block py-2 px-3 hover:bg-accent rounded-md transition-colors"
+                          >
+                            <div className="font-medium text-sm">{category.title}</div>
+                            <div className="text-xs text-muted-foreground line-clamp-1">
                               {category.description}
                             </div>
+                          </Link>
+                        </NavigationMenuLink>
+                      </li>
+                    ))}
+                  </ul>
+
+                  {/* Vertical Separator */}
+                   <div className="border-l border-black self-stretch" />
+
+                   {/* Right: Gas Spring Products Grid (2x3) */}
+                  <div className="grid grid-cols-3 gap-4 w-[600px]">
+                    {gasSpringItems.map((product) => (
+                      <NavigationMenuLink key={product.id} asChild>
+                        <Link
+                          href={getHref(`/products/${product.id}`)}
+                          className="group flex flex-col gap-2 p-2 hover:bg-accent rounded-md transition-colors"
+                        >
+                          <div className="relative aspect-video w-full overflow-hidden rounded-md border bg-muted">
+                            <Image
+                              src={product.image}
+                              alt={product.title}
+                              fill
+                              className="object-cover transition-transform group-hover:scale-105"
+                            />
+                          </div>
+                          <div className="text-sm font-medium leading-tight group-hover:text-primary line-clamp-2">
+                            {product.id}
                           </div>
                         </Link>
                       </NavigationMenuLink>
-                    </li>
-                  ))}
-                </ul>
+                    ))}
+                  </div>
+                </div>
               </NavigationMenuContent>
             </NavigationMenuItem>
           </NavigationMenuList>
