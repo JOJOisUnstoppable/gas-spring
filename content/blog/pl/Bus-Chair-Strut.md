@@ -53,21 +53,21 @@ Wybierz modele na podstawie wymagań projektowych siedzeń:
 
 **Blokowane sprężyny gazowe**
 
-**Najlepsze dla**: Siedzeń o stałej pozycji (fotele pasażerów, fotele załogi).
+- **Najlepsze dla**: Siedzeń o stałej pozycji (fotele pasażerów, fotele załogi).
 
-**Cecha**: Ustawienie pod żądanym kątem/wysokością i bezpieczne zablokowanie, zapobiegające ruchowi podczas transportu. Spełniają normy bezpieczeństwa motoryzacyjnego.
+- **Cecha**: Ustawienie pod żądanym kątem/wysokością i bezpieczne zablokowanie, zapobiegające ruchowi podczas transportu. Spełniają normy bezpieczeństwa motoryzacyjnego.
 
 **Regulowane sprężyny gazowe**
 
-**Najlepsze dla**: Siedzeń z częstą regulacją (fotele kierowcy, luksusowe fotele autokarowe).
+- **Najlepsze dla**: Siedzeń z częstą regulacją (fotele kierowcy, luksusowe fotele autokarowe).
 
-**Cecha**: Precyzyjna regulacja bez użycia narzędzi za pomocą dźwigni/przycisku, odporne na korozję do codziennego użytku.
+- **Cecha**: Precyzyjna regulacja bez użycia narzędzi za pomocą dźwigni/przycisku, odporne na korozję do codziennego użytku.
 
 **Tłumiki**
 
-**Najlepsze dla**: Tras narażonych na wibracje (autobusy wiejskie, autokary terenowe).
+- **Najlepsze dla**: Tras narażonych na wibracje (autobusy wiejskie, autokary terenowe).
 
-**Cecha**: Łączone z **amortyzatorami gazowymi** w celu redukcji hałasu/wibracji, wykorzystując **tłumiki hydrauliczne** lub **amortyzatory wstrząsów** dla płynniejszej jazdy.
+- **Cecha**: Łączone z **amortyzatorami gazowymi** w celu redukcji hałasu/wibracji, wykorzystując **tłumiki hydrauliczne** lub **amortyzatory wstrząsów** dla płynniejszej jazdy.
 
 ## Jak wybrać odpowiedni amortyzator
 

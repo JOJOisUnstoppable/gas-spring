@@ -55,21 +55,21 @@ Choose models based on seating design requirements:
 
 **Locking Gas Springs**
 
-**Best for**: Fixed-position seats (passenger seats, crew seats).
+- **Best for**: Fixed-position seats (passenger seats, crew seats).
 
-**Feature**: Adjust to desired angle/height and lock securely, preventing movement during transit. Meet automotive safety standards.
+- **Feature**: Adjust to desired angle/height and lock securely, preventing movement during transit. Meet automotive safety standards.
 
 **Adjustable Gas Springs**
 
-**Best for**: Frequent-adjustment seats (driver seats, luxury coach seats).
+- **Best for**: Frequent-adjustment seats (driver seats, luxury coach seats).
 
-**Feature**: Tool-free fine-tuning via lever/button, corrosion-resistant for daily use.
+- **Feature**: Tool-free fine-tuning via lever/button, corrosion-resistant for daily use.
 
 **Dampers**
 
-**Best for**: Vibration-prone routes (rural buses, off-road coaches).
+- **Best for**: Vibration-prone routes (rural buses, off-road coaches).
 
-**Feature**: Pair with **gas struts** to reduce noise/vibration, using **hydraulic dampers** or **shock absorbers** for smoother rides.
+- **Feature**: Pair with **gas struts** to reduce noise/vibration, using **hydraulic dampers** or **shock absorbers** for smoother rides.   
 
 ## How to Select the Right Strut
 

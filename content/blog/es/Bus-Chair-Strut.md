@@ -53,21 +53,21 @@ Elija los modelos según los requisitos de diseño de los asientos:
 
 **Resortes de gas bloqueables**
 
-**Mejor para**: Asientos de posición fija (asientos de pasajeros, asientos de tripulación).
+- **Mejor para**: Asientos de posición fija (asientos de pasajeros, asientos de tripulación).
 
-**Característica**: Ajuste al ángulo/altura deseados y bloqueo seguro, evitando el movimiento durante el tránsito. Cumplen con los estándares de seguridad automotriz.
+- **Característica**: Ajuste al ángulo/altura deseados y bloqueo seguro, evitando el movimiento durante el tránsito. Cumplen con los estándares de seguridad automotriz.
 
 **Resortes de gas ajustables**
 
-**Mejor para**: Asientos de ajuste frecuente (asientos de conductor, asientos de autocar de lujo).
+- **Mejor para**: Asientos de ajuste frecuente (asientos de conductor, asientos de autocar de lujo).
 
-**Característica**: Ajuste fino sin herramientas mediante palanca/botón, resistente a la corrosión para uso diario.
+- **Característica**: Ajuste fino sin herramientas mediante palanca/botón, resistente a la corrosión para uso diario.
 
 **Amortiguadores**
 
-**Mejor para**: Rutas propensas a vibraciones (autobuses rurales, autocares todoterreno).
+- **Mejor para**: Rutas propensas a vibraciones (autobuses rurales, autocares todoterreno).
 
-**Característica**: Combínelos con **resortes de gas** para reducir el ruido/vibración, utilizando **amortiguadores hidráulicos** o **amortiguadores de choque** para viajes más suaves.
+- **Característica**: Combínelos con **resortes de gas** para reducir el ruido/vibración, utilizando **amortiguadores hidráulicos** o **amortiguadores de choque** para viajes más suaves.
 
 ## Cómo seleccionar el resorte adecuado
 

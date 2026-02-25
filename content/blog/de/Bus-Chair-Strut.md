@@ -53,21 +53,21 @@ Wählen Sie Modelle basierend auf den Anforderungen des Sitzdesigns:
 
 **Blockierbare Gasfedern**
 
-**Am besten für**: Sitze mit fester Position (Passagiersitze, Besatzungssitze).
+- **Am besten für**: Sitze mit fester Position (Passagiersitze, Besatzungssitze).
 
-**Merkmal**: Auf gewünschten Winkel/Höhe einstellen und sicher verriegeln, um Bewegungen während der Fahrt zu verhindern. Erfüllen automobile Sicherheitsstandards.
+- **Merkmal**: Auf gewünschten Winkel/Höhe einstellen und sicher verriegeln, um Bewegungen während der Fahrt zu verhindern. Erfüllen automobile Sicherheitsstandards.
 
 **Verstellbare Gasfedern**
 
-**Am besten für**: Häufig verstellbare Sitze (Fahrersitze, Luxus-Reisebussitze).
+- **Am besten für**: Häufig verstellbare Sitze (Fahrersitze, Luxus-Reisebussitze).
 
-**Merkmal**: Werkzeuglose Feinabstimmung per Hebel/Knopf, korrosionsbeständig für den täglichen Gebrauch.
+- **Merkmal**: Werkzeuglose Feinabstimmung per Hebel/Knopf, korrosionsbeständig für den täglichen Gebrauch.
 
 **Dämpfer**
 
-**Am besten für**: Vibrationsanfällige Strecken (Überlandbusse, Offroad-Busse).
+- **Am besten für**: Vibrationsanfällige Strecken (Überlandbusse, Offroad-Busse).
 
-**Merkmal**: In Kombination mit **Gasdruckfedern** zur Reduzierung von Lärm/Vibrationen, unter Verwendung von **hydraulischen Dämpfern** oder **Stoßdämpfern** für sanftere Fahrten.
+- **Merkmal**: In Kombination mit **Gasdruckfedern** zur Reduzierung von Lärm/Vibrationen, unter Verwendung von **hydraulischen Dämpfern** oder **Stoßdämpfern** für sanftere Fahrten.
 
 ## So wählen Sie die richtige Gasfeder aus
 
