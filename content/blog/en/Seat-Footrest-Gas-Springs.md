@@ -3,7 +3,7 @@ title: 'How to Find a Replacement for Seat Footrest Gas Springs'
 slug: 'seat-footrest-gas-springs'
 date: '2025-10-29 11:00:00'
 author: 'Gavin'
-tags: ['Seat Footrest Gas Spring', 'Gas Spring Replacement', 'SUSPA C16-32018', 'Gas Spring Specifications', 'DKGASSPRING', 'Cross-Reference']
+tags: ['Seat Footrest Gas Spring', 'Gas Spring Replacement', 'SUSPA C16-32018', 'Gas Spring Specifications', 'DKGASSPRING', 'Cross Reference']
 excerpt: 'A comprehensive guide to finding a compatible replacement for the Seat Footrest Gas Spring, covering key specifications, searching for alternatives, verifying dimensions, consulting suppliers, and avoiding common pitfalls.'
 coverImage: '/images/blog/PN292575/2.png'
 ---

@@ -3,7 +3,7 @@ title: 'Resortes neumáticos: Guía completa sobre tipos, funciones, aplicacione
 slug: 'guia-completa-resortes-neumaticos'
 date: '2025-08-27 15:00:00'
 author: 'Gavin'
-tags: ['Guía', 'GuíaResorteNeumático', 'ResorteNeumático', 'AplicacionesResorteNeumático']
+tags: ['Guía', 'Guía Resorte Neumático', 'Resorte Neumático', 'Aplicaciones Resorte Neumático']
 excerpt: 'Un resorte neumático (también conocido como tensión neumática o elevador neumático) es un dispositivo mecánico que utiliza gas comprimido (normalmente nitrógeno) dentro de un cilindro para generar fuerza, permitiendo un movimiento suave y controlado para levantar, bajar, soportar o amortiguar. Este artículo detalla la definición, principios de funcionamiento, tipos comunes (compresión, tensión, bloqueo, ajustable, amortiguadores neumáticos) y escenarios de aplicación de los resortes neumáticos en diversas industrias, incluyendo automoción, muebles, fabricación industrial, medicina y salud, aeronáutica y marina. Además, proporciona una guía paso a paso para seleccionar el resorte neumático adecuado y destaca las ventajas de DK Gas Spring como fabricante en términos de soluciones personalizadas, garantía de calidad y soporte técnico.'
 coverImage: '/images/hero-bg.jpg'
 ---
