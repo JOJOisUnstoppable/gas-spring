@@ -1109,6 +1109,18 @@
       }
     },
     "lockable-gas-spring": {
+      "Navigation": [
+        "Descripción General",
+        "Ventajas Principales",
+        "Tecnología",
+        "Guía de Selección",
+        "Rendimiento",
+        "Fabricación",
+        "Soluciones",
+        "Aplicaciones",
+        "Preguntas Frecuentes",
+        "Contáctenos"
+      ],
       "CTA": {
         "title": "¿Listo para encontrar su resorte de gas bloqueable ideal?",
         "desc": [
@@ -1336,7 +1348,7 @@
         ]
       }
     },
-    "push-to-unlock-gas-spring": {
+    "push-to-unlock-gas-spring-v2": {
       "hero": {
         "title": "Resorte de Gas Push-to-Unlock",
         "subtitle": "También conocido como resorte de gas de bloqueo por fricción o liberable, este componente permite una sujeción precisa y multiposicional de un peso contrabalanceado. Permanece bloqueado de forma segura en cualquier posición hasta que se acciona el pasador de liberación, proporcionando un control de posición fiable y flexible.",

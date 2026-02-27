@@ -1043,6 +1043,18 @@
       }
     },
     "lockable-gas-spring": {
+      "Navigation": [
+        "Przegląd",
+        "Główne Zalety",
+        "Technologia",
+        "Przewodnik Doboru",
+        "Wydajność",
+        "Produkcja",
+        "Rozwiązania",
+        "Zastosowania",
+        "FAQ",
+        "Kontakt"
+      ],
       "CTA": {
         "title": "Gotowy, aby znaleźć idealną blokowaną sprężynę gazową?",
         "desc": [

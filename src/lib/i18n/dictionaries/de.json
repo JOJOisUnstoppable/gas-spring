@@ -955,6 +955,18 @@
       }
     },
     "lockable-gas-spring": {
+      "Navigation": [
+        "Übersicht",
+        "Hauptvorteile",
+        "Technologie",
+        "Auswahlhilfe",
+        "Leistungskurve",
+        "Fertigung",
+        "Lösungen",
+        "Anwendungen",
+        "FAQ",
+        "Kontakt"
+      ],
       "CTA": {
         "title": "Bereit, Ihre perfekte verriegelbare Gasfeder zu finden?",
         "desc": [
@@ -1182,7 +1194,7 @@
         ]
       }
     },
-    "push-to-unlock-gas-spring": {
+    "push-to-unlock-gas-spring-v2": {
       "hero": {
         "title": "Push-to-Unlock Gasfeder",
         "subtitle": "Auch als reibungsgehaltene oder lösbare blockierbare Gasfeder bekannt, ermöglicht diese Komponente das präzise Halten eines ausgeglichenen Gewichts in mehreren Positionen. Sie bleibt in jeder Position sicher arretiert, bis der Entriegelungsstift betätigt wird, und bietet so eine zuverlässige und flexible Positionskontrolle.",

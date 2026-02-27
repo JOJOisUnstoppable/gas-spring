@@ -117,13 +117,20 @@ type LgsDict = {
   }
 }
 
+/**
+ * LockableGasSpring Component
+ * 
+ * 核心组件，包含可锁定气弹簧的所有详细部分。
+ * 为了配合 StickyNav，每个 section 都添加了 id 和 scroll-mt-24。
+ * 样式上也进行了微调，以匹配产品分类页面的风格（container, max-w-7xl, px-4等）。
+ */
 export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
   const lgs: LgsDict = dict ?? {}
   const [activeTab, setActiveTab] = useState("rigid");
   return (
-    <div className="flex flex-col">
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-[#0F172B] via-[#2a5298] to-[#0F172B] text-white">
-        <div className="container max-w-7xl mx-auto">
+    <div className="flex flex-col w-full">
+      <section id="hero" className="relative py-20 md:py-28 bg-gradient-to-br from-[#0F172B] via-[#2a5298] to-[#0F172B] text-white scroll-mt-24">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="font-bold text-5xl md:text-6xl leading-tight">{lgs.hero?.title ?? 'Precision Locking at Any Position'}</h1>
@@ -147,8 +154,8 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-background">
-        <div className="container max-w-7xl mx-auto">
+      <section id="why" className="py-16 md:py-24 bg-background scroll-mt-24">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="font-bold text-4xl md:text-5xl mb-4">{lgs.why?.title ?? 'What is Adjustable Lockable Gas Spring?'}</h2>
             <p className="text-lg text-muted-foreground">{lgs.why?.subtitle ?? 'DKG has a line of adjustable locking gas springs which look like traditional gas springs but can be locked in any position along the stroke.'}</p>
@@ -200,8 +207,8 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
         </div>
       </section>
 
-      <section id="technology" className="py-16 md:py-24 bg-gradient-to-b from-background to-primary/5">
-        <div className="container max-w-7xl mx-auto">
+      <section id="technology" className="py-16 md:py-24 bg-gradient-to-b from-background to-primary/5 scroll-mt-24">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-bold text-4xl md:text-5xl mb-12 text-center">{lgs.technology?.title ?? 'Rigid vs. Elastic: The Core Difference'}</h2>
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div className="space-y-6">
@@ -262,8 +269,8 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
         </div>
       </section>
 
-      <section id="TypeSelection" className="py-16 md:py-24 bg-background">
-        <div className="container max-w-7xl mx-auto">
+      <section id="TypeSelection" className="py-16 md:py-24 bg-background scroll-mt-24">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-bold text-4xl md:text-5xl mb-12 text-center">
             {lgs.detailedSelectionGuide?.title ?? 'Detailed Selection Guide'}
           </h2>
@@ -523,8 +530,8 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
         </div>
       </section>
 
-      <section id="applications" className="py-16 md:py-24 bg-background">
-        <div className="container max-w-7xl mx-auto">
+      <section id="applications" className="py-16 md:py-24 bg-background scroll-mt-24">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-bold text-4xl md:text-5xl mb-12 text-center">{lgs.applications?.title ?? 'Real-World Applications'}</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
@@ -583,8 +590,8 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-gradient-to-b from-background to-accent/10">
-        <div className="container max-w-7xl mx-auto">
+      <section id="forcePerformance" className="py-16 md:py-24 bg-gradient-to-b from-background to-accent/10 scroll-mt-24">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-bold text-4xl md:text-5xl mb-8 text-center">{lgs.forcePerformance?.title ?? 'Locking Force Performance'}</h2>
             <p className="text-lg text-muted-foreground text-center mb-12">{lgs.forcePerformance?.desc ?? 'The locking force curve shows the stability plateau—the higher and flatter the plateau, the more reliable the locking performance.'}</p>
@@ -630,8 +637,8 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-gradient-to-b from-background to-accent/10">
-        <div className="container max-w-7xl mx-auto">
+      <section id="manufacturing" className="py-16 md:py-24 bg-gradient-to-b from-background to-accent/10 scroll-mt-24">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-bold text-4xl md:text-5xl mb-8 text-center">{lgs.manufacturing?.title ?? 'Precision Manufacturing Process'}</h2>
           <p className="text-lg text-muted-foreground text-center mb-12 max-w-2xl mx-auto">{lgs.manufacturing?.desc ?? 'Every lockable gas spring undergoes rigorous quality control with specialized precision assembly steps.'}</p>
           <div className="mb-12">
@@ -656,8 +663,8 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-background">
-        <div className="container max-w-4xl mx-auto">
+      <section id="solutions" className="py-16 md:py-24 bg-background scroll-mt-24">
+        <div className="container max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-bold text-4xl md:text-5xl mb-12 text-center">{lgs.solutions?.title ?? 'We Solve Your Challenges'}</h2>
           <div className="space-y-6">
             {(lgs.solutions?.items ?? [
@@ -681,8 +688,8 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-gradient-to-b from-background to-accent/10">
-        <div className="container max-w-3xl mx-auto">
+      <section id="faq" className="py-16 md:py-24 bg-gradient-to-b from-background to-accent/10 scroll-mt-24">
+        <div className="container max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-bold text-4xl md:text-5xl mb-12 text-center">{lgs.faq?.title ?? 'Frequently Asked Questions'}</h2>
           <div className="space-y-4">
             {(lgs.faq?.items ?? [
