@@ -47,7 +47,7 @@ export default async function LocaleLayout(
   }
 
   const dict = await getDictionary(locale)
-  const { categories } = await getProductData(locale)
+  const { categories, items } = await getProductData(locale)
 
   return (
     <html lang={locale} className={`${inter.variable} ${playfair.variable}`}>
