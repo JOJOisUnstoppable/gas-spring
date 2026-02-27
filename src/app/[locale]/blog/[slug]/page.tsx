@@ -48,6 +48,8 @@ export async function generateMetadata({
   })
 }
 
+import { rehypeAutoLink } from '@/lib/rehype-auto-link'
+
 export default async function BlogPostPage(
   props0: {
     params: Promise<{ locale: Locale; slug: string }>
@@ -146,7 +148,7 @@ export default async function BlogPostPage(
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <Markdown
               remarkPlugins={[remarkGfm, remarkMath]}
-              rehypePlugins={[rehypeKatex, rehypePrism]}
+              rehypePlugins={[rehypeKatex, rehypePrism, rehypeAutoLink]}
               components={{
                 // 自定义标题样式
                 h1: ({ children }) => <h1 className="text-3xl font-bold mt-8 mb-4">{children}</h1>,
