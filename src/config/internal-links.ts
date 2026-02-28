@@ -67,6 +67,9 @@ export const keywordLinks: Record<string, string> = {
   "Gasfederersatz": "/products/category/gas-spring",
   "Gasdruckfeder": "/products/category/gas-spring",
   "Gasdruckfedern": "/products/category/gas-spring",
+  "Dämpfung": "/products/category/gas-spring",
+  "Kolbenstange": "/products/category/gas-spring",
+
   // 西班牙语
   "resorte de gas": "/products/category/gas-spring",
   "resortes de gas": "/products/category/gas-spring",
@@ -92,6 +95,7 @@ export const keywordLinks: Record<string, string> = {
   "resorte de gas para apoyapiés de asiento": "/products/category/gas-spring",
   "reemplazo de resorte de gas": "/products/category/gas-spring",
   "resorte de gas de reemplazo": "/products/category/gas-spring",
+  "vástago de pistón": "/products/category/gas-spring",
   // 波兰语
   "sprężyna gazowa": "/products/category/gas-spring",
   "sprężyny gazowe": "/products/category/gas-spring",
@@ -115,4 +119,5 @@ export const keywordLinks: Record<string, string> = {
   "zamienniki sprężyn gazowych": "/products/category/gas-spring",
   "amortyzator gazowy": "/products/category/gas-spring",
   "amortyzatory gazowe": "/products/category/gas-spring",
+  "tłoczysko": "/products/category/gas-spring",
 };
