@@ -11,19 +11,6 @@ import { getProductData } from '@/lib/products'
 import { Footer } from '@/components/layout/Footer'
 import { notFound } from 'next/navigation'
 import { ScrollToTop } from '@/components/shared/ScrollToTop'
-import { Inter, Playfair_Display } from 'next/font/google'
-
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-})
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-playfair-display',
-})
 
 export default async function LocaleLayout(
   props: {
@@ -50,7 +37,7 @@ export default async function LocaleLayout(
   const { categories, items } = await getProductData(locale)
 
   return (
-    <html lang={locale} className={`${inter.variable} ${playfair.variable}`}>
+    <html lang={locale}>
       <body className="antialiased font-sans">
         <Navbar 
           locale={locale} 

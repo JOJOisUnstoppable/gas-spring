@@ -160,11 +160,12 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
               </div>
               <h3 className="font-bold text-xl mb-2">{lgs.why?.cards?.zero?.title ?? 'Rigid in compression:'}</h3>
               <p className="text-muted-foreground mb-4">{lgs.why?.cards?.zero?.desc ?? 'No movement when the rod is pushed, but some movement when the rod is pulled.'}</p>
-              <div className="mt-auto pt-4 border-t border-border/50">
-                <img
+              <div className="mt-auto pt-4 border-t border-border/50 relative min-h-[200px]">
+                <Image
                   src="/images/product/gas-spring/lockable-gas-spring/Rigid-in-compression.png"
                   alt="Rigid in compression"
-                  className="w-full h-auto rounded-lg object-contain bg-white/50 p-2"
+                  fill
+                  className="rounded-lg object-contain bg-white/50 p-2"
                 />
               </div>
             </div>
@@ -174,11 +175,12 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
               </div>
               <h3 className="font-bold text-xl mb-2">{lgs.why?.cards?.flexible?.title ?? 'Rigid in extension:'}</h3>
               <p className="text-muted-foreground mb-4">{lgs.why?.cards?.flexible?.desc ?? 'No movement when the rod is pulled, but some movement when the rod is pushed.'}</p>
-              <div className="mt-auto pt-4 border-t border-border/50">
-                <img
+              <div className="mt-auto pt-4 border-t border-border/50 relative min-h-[200px]">
+                <Image
                   src="/images/product/gas-spring/lockable-gas-spring/Rigid-in-Extension.png"
                   alt="Flexible solutions"
-                  className="w-full h-auto rounded-lg object-contain bg-white/50 p-2"
+                  fill
+                  className="rounded-lg object-contain bg-white/50 p-2"
                 />
               </div>
             </div>
@@ -188,11 +190,12 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
               </div>
               <h3 className="font-bold text-xl mb-2">{lgs.why?.cards?.highLoad?.title ?? 'High Load Capacity'}</h3>
               <p className="text-muted-foreground mb-4">{lgs.why?.cards?.highLoad?.desc ?? 'Withstand lateral forces ≥ 2,000 N with reliable locking force plateau performance.'}</p>
-              <div className="mt-auto pt-4 border-t border-border/50">
-                <img
+              <div className="mt-auto pt-4 border-t border-border/50 relative min-h-[200px]">
+                <Image
                   src="/images/product/gas-spring/lockable-gas-spring/flexible.png"
                   alt="Rigid in Extension"
-                  className="w-full h-auto rounded-lg object-contain bg-white/50 p-2"
+                  fill
+                  className="rounded-lg object-contain bg-white/50 p-2"
                 />
               </div>
             </div>
@@ -529,7 +532,14 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
               <h3 className="font-bold text-xl mb-4 text-primary">{lgs.applications?.medical?.title ?? 'Medical'}</h3>
-              <img alt={'Lockable Gas Spring for Medical'} className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg" src="/images/application/grid/medical_bed.jpg" />
+              <div className="relative w-full h-48 md:h-64">
+                <Image 
+                  src="/images/application/grid/medical_bed.jpg" 
+                  alt={'Lockable Gas Spring for Medical'} 
+                  fill
+                  className="object-cover rounded-lg shadow-lg"
+                />
+              </div>
               <ul className="space-y-2 text-muted-foreground">
                 {(lgs.applications?.medical?.items ?? [
                   'Wheelchair backrests',
@@ -542,7 +552,14 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
             </div>
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
               <h3 className="font-bold text-xl mb-4 text-primary">{lgs.applications?.furnitureOffice?.title ?? 'Furniture & Office'}</h3>
-              <img alt={'Lockable Gas Spring for Furniture & Office'} className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg" src="/images/application/grid/health-leisure-and-furniture.png" />
+              <div className="relative w-full h-48 md:h-64">
+                <Image 
+                  src="/images/application/grid/health-leisure-and-furniture.png" 
+                  alt={'Lockable Gas Spring for Furniture & Office'} 
+                  fill
+                  className="object-cover rounded-lg shadow-lg"
+                />
+              </div>
               <ul className="space-y-2 text-muted-foreground">
                 {(lgs.applications?.furnitureOffice?.items ?? [
                   'Seat height adjustment',
@@ -555,7 +572,14 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
             </div>
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
               <h3 className="font-bold text-xl mb-4 text-primary">{lgs.applications?.industrial?.title ?? 'Industrial'}</h3>
-              <img alt={'Lockable Gas Spring for Industrial'} className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg" src="/images/application/grid/mechanical-engineering-and-automation.png" />
+              <div className="relative w-full h-48 md:h-64">
+                <Image 
+                  src="/images/application/grid/mechanical-engineering-and-automation.png" 
+                  alt={'Lockable Gas Spring for Industrial'} 
+                  fill
+                  className="object-cover rounded-lg shadow-lg"
+                />
+              </div>
               <ul className="space-y-2 text-muted-foreground">
                 {(lgs.applications?.industrial?.items ?? [
                   'Tooling fixtures',
@@ -568,7 +592,14 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
             </div>
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
               <h3 className="font-bold text-xl mb-4 text-primary">{lgs.applications?.aviation?.title ?? 'Aviation'}</h3>
-              <img alt={'Lockable Gas Spring for Aviation'} className="w-full h-48 md:h-64 object-cover rounded-lg shadow-lg" src="/images/application/grid/aerospace-navy-railways.png" />
+              <div className="relative w-full h-48 md:h-64">
+                <Image 
+                  src="/images/application/grid/aerospace-navy-railways.png" 
+                  alt={'Lockable Gas Spring for Aviation'} 
+                  fill
+                  className="object-cover rounded-lg shadow-lg"
+                />
+              </div>
               <ul className="space-y-2 text-muted-foreground">
                 {(lgs.applications?.aviation?.items ?? [
                   'Aircraft overhead bins',

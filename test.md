@@ -1,14 +1,20 @@
-新增需求：
-需求描述
-现有博客系统的文章均以 Markdown 文件 形式存储。需要新增一个独立功能模块，实现：
-在前端 / 渲染加载阶段，自动将文章内的指定关键词替换为站内超链接。
-绝对不修改原始 MD 文件内容，只在加载渲染时动态处理。
-不破坏原有 Markdown 格式、标题、列表、图片、链接等结构。
-代码块内的关键词不进行替换。
-支持配置「关键词 → 内链地址」的映射关系。
-支持整词匹配、长词优先匹配，避免误替换。
-核心要求
-无侵入：不修改源文件
-动态：加载时处理
-安全：不破坏格式、不替换代码块
-可配置：关键词与链接可维护
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Cloning github.com/JOJOisUnstoppable/gas-spring (Branch: main, Commit: d457346)
+Skipping build cache, deployment was triggered without cache.
+Cloning completed: 2.343s
+Running "vercel build"
+Vercel CLI 50.23.2
+Installing dependencies...
+npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+npm warn deprecated next@15.2.6: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/security-update-2025-12-11 for more details.
+added 867 packages in 22s
+311 packages are looking for funding
+  run `npm fund` for details
+Detected Next.js version: 15.2.6
+Running "npm run build"
+> dk-gas-spring@1.0.0 build
+> next build
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
