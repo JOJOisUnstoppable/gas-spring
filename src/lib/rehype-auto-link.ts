@@ -86,7 +86,7 @@ export function rehypeAutoLink() {
 
       // 7. 替换原节点
       // parent.children 是节点数组，用 newNodes 替换当前索引处的 node
-      parent.children.splice(index, 1, ...newNodes as any);
+      parent.children.splice(index, 1, ...newNodes as (Element | Text)[]);
       
       // 由于 splice 修改了数组，visit 函数的索引可能会乱
       // 但 unist-util-visit 通常处理得很好，或者我们需要手动返回新的 index
