@@ -665,8 +665,13 @@ export default function LockableGasSpring({ dict }: { dict?: LgsDict }) {
         <div className="container max-w-7xl mx-auto">
           <h2 className="font-bold text-4xl md:text-5xl mb-8 text-center">{lgs.manufacturing?.title ?? 'Precision Manufacturing Process'}</h2>
           <p className="text-lg text-muted-foreground text-center mb-12 max-w-2xl mx-auto">{lgs.manufacturing?.desc ?? 'Every lockable gas spring undergoes rigorous quality control with specialized precision assembly steps.'}</p>
-          <div className="mb-12">
-            <img alt={lgs.manufacturing?.imageAlt ?? 'Manufacturing Process Flow'} className="w-full h-auto rounded-lg shadow-lg" src="/images/manufacturing-process.png" />
+          <div className="mb-12 relative w-full h-auto min-h-[400px]">
+            <Image 
+              src="/images/manufacturing-process.png" 
+              alt={lgs.manufacturing?.imageAlt ?? 'Manufacturing Process Flow'} 
+              fill
+              className="object-contain rounded-lg shadow-lg" 
+            />
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl shadow-sm p-8 border transition-colors hover:shadow-md hover:bg-accent/5">
