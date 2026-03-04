@@ -4,7 +4,6 @@ import { Locale } from '@/lib/i18n/config'
 import { notFound } from 'next/navigation'
 import { Badge } from '@/components/ui/badge'
 import { formatDate } from '@/lib/utils'
-import Image from 'next/image'
 import Markdown from 'react-markdown'
 import { TableOfContents } from '@/components/blog/TableOfContents'
 import { RelatedPosts } from '@/components/blog/RelatedPosts'
@@ -77,21 +76,16 @@ export default async function BlogPostPage(
         <article>
           {post.coverImage ? (
             <div className="relative w-full h-[400px] mb-8 rounded-lg overflow-hidden">
-              <Image
-                src={post.coverImage}
-                alt={post.title}
-                fill
-                className="object-cover"
-                priority  // 添加 priority 属性以优化首屏加载
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"  // 添加响应式尺寸
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-black/5" />
+              {/* 背景：深色商务风 */}
+              <div className="absolute inset-0 bg-slate-900" />
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900" />
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-blue-500/10 via-transparent to-transparent" />
 
               {/* 添加返回按钮 */}
-              <div className="absolute top-6 left-6 right-0 z-10">
+              <div className="absolute top-8 left-6 right-0 z-10">
                 <div className="container max-w-7xl mx-auto">
                   <Link href={`/${locale}/blog`}>
-                    <Button variant="ghost" className="text-white hover:text-white hover:bg-white/10">
+                    <Button variant="ghost" className="text-slate-300 hover:text-white hover:bg-white/10 transition-colors">
                       <ArrowLeft className="mr-2 h-4 w-4" />
                       {dict.blog.backToBlog}
                     </Button>
@@ -99,23 +93,33 @@ export default async function BlogPostPage(
                 </div>
               </div>
 
-              <div className="absolute bottom-0 left-0 right-0 p-8">
+              <div className="absolute bottom-0 left-0 right-0 p-8 pb-12">
                 <div className="container max-w-7xl mx-auto">
-                  <h1 className="text-4xl font-bold mb-4 text-white">{post.title}</h1>
-                  <div className="flex items-center gap-4 text-gray-200">
-                    <time>{formatDate(post.date, locale)}</time>
-                    <span>·</span>
-                    <span>{post.author || 'DK GasSpring'}</span>
-                    <span>·</span>
-                    <div className="flex gap-2">
-                      {post.tags.map(tag => (
-                        <Link key={tag} href={`/${locale}/blog/tag/${encodeURIComponent(tag)}`}>
-                          <Badge variant="secondary" className="bg-white/10 hover:bg-white/20 text-white cursor-pointer">
-                            {tag}
-                          </Badge>
-                        </Link>
-                      ))}
+                  <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white leading-tight tracking-tight">{post.title}</h1>
+                  <div className="flex flex-wrap items-center gap-6 text-slate-300 text-sm font-medium">
+                    <div className="flex items-center gap-2">
+                      <span className="w-1 h-8 bg-blue-500 rounded-full block"></span>
+                      <time>{formatDate(post.date, locale)}</time>
                     </div>
+                    <div className="w-1.5 h-1.5 rounded-full bg-slate-600"></div>
+                    <div className="flex items-center gap-2">
+                       <span>{post.author || 'DK GasSpring'}</span>
+                    </div>
+                    
+                    {post.tags.length > 0 && (
+                      <>
+                        <div className="w-1.5 h-1.5 rounded-full bg-slate-600"></div>
+                        <div className="flex flex-wrap gap-2">
+                          {post.tags.map(tag => (
+                            <Link key={tag} href={`/${locale}/blog/tag/${encodeURIComponent(tag)}`}>
+                              <Badge variant="outline" className="border-blue-400/30 text-blue-200 bg-blue-500/10 hover:bg-blue-500/20 hover:border-blue-400/50 transition-colors cursor-pointer px-3 py-1">
+                                {tag}
+                              </Badge>
+                            </Link>
+                          ))}
+                        </div>
+                      </>
+                    )}
                   </div>
                 </div>
               </div>

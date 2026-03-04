@@ -6,11 +6,11 @@ tags: [Funktionsprinzip Gasfeder, Funktionsweise Gasstreben, Grundlagen Gasfeder
 slug: was-ist-eine-gasfeder
 author: 'Gavin'
 excerpt: 'Ein umfassender Leitfaden zum Verständnis von Gasfedern: Wie sie mit komprimiertem Stickstoff und Öl funktionieren, ihre wichtigsten Komponenten, Prinzipien der Krafterzeugung und warum sie eine bessere Bewegungssteuerung als mechanische Federn bieten.'
-coverImage: '/images/blog/PN292575/2.png'
+coverImage: '/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg'
 ---
 
 # Was ist eine Gasfeder und wie funktioniert sie?
-![Gasfeder](/images/blog/what-is-GS/1.jpg)
+![Gasfeder](/images/products_page/compress_gas_spring.jpg)
 Wenn Sie schon einmal das Kofferraumdeckel eines Autos geöffnet, eine schwere Maschinenabdeckung angehoben oder einen Bürostuhl verstellt haben, haben Sie mit hoher Wahrscheinlichkeit eine **Gasfeder** benutzt. Diese Bauteile – auch **Gasstreben**, **Gasdämpfer** oder **Gasstoßdämpfer** genannt – sind unverzichtbar für kontrollierte Bewegungen und Abstützung. Doch wie funktionieren sie genau, und warum sind sie herkömmlichen mechanischen Federn überlegen?
 
 In diesem Leitfaden erklären wir die Funktionsweise einer Gasfeder, ihre wichtigsten Bauteile und warum sie weltweit von Ingenieuren und Konstrukteuren bevorzugt wird.

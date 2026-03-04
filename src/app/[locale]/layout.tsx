@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import { headers } from 'next/headers'
 import { Navbar } from '@/components/layout/Navbar'
 import { getDictionary } from '@/lib/i18n/getDictionary'
+import { locales } from '@/lib/i18n/config'
 import type { Locale } from '@/lib/i18n/config'
 import { Toaster } from '@/components/ui/sonner'
 import { getProductData } from '@/lib/products'
@@ -29,7 +30,7 @@ export default async function LocaleLayout(
   } = props;
 
   // 检查语言是否有效
-  if (!['en', 'zh', 'es', 'de', 'pl'].includes(locale)) {
+  if (!locales.includes(locale)) {
     notFound()
   }
 
@@ -124,7 +125,7 @@ export async function generateMetadata(
   if (!pathWithoutLocale) pathWithoutLocale = '/';
   
   const languages: Record<string, string> = {};
-  ['en', 'zh', 'es', 'de', 'pl'].forEach(lang => {
+  locales.forEach(lang => {
     if (lang === 'en') {
       languages[lang] = pathWithoutLocale;
     } else {
@@ -215,7 +216,7 @@ export async function generateMetadata(
             "telephone": process.env.NEXT_PUBLIC_CONTACT_PHONE || "+86-123456789",
             "contactType": "customer service",
             "areaServed": ["CN", "US", "EU", "JP", "KR", "IN", "UK", "CA", "AE", "SA", "EG", "ZA"],
-            "availableLanguage": ["en", "zh", "es", "de", "pl"]
+            "availableLanguage": locales
           },
           "address": {
             "@type": "PostalAddress",

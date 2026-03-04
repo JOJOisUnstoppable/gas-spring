@@ -6,11 +6,11 @@ tags: [principio de funcionamiento muelle de gas, funcionamiento puntal de gas, 
 slug: what-is-a-gas-spring
 author: 'Gavin'
 excerpt: 'Una guía completa para entender los muelles de gas: cómo funcionan utilizando nitrógeno comprimido y aceite, sus componentes clave, principios de generación de fuerza y por qué ofrecen un control de movimiento superior a los muelles mecánicos.'
-coverImage: '/images/blog/PN292575/2.png'
+coverImage: '/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg'
 ---
 
 # ¿Qué es un muelle de gas y cómo funciona?
-![muelle de gas](/images/blog/what-is-GS/1.jpg)
+![muelle de gas](/images/products_page/compress_gas_spring.jpg)
 Si alguna vez has abierto el maletero de un coche, levantado la cubierta de una máquina pesada o ajustado una silla de oficina, probablemente has utilizado un **muelle de gas**. Estos componentes, también conocidos como **puntales de gas**, **amortiguadores de gas** o **dampers de gas**, son esenciales para proporcionar movimiento controlado y soporte. Pero ¿cómo funcionan exactamente y qué los hace superiores a los muelles mecánicos tradicionales?
 
 En esta guía explicaremos el funcionamiento interno del muelle de gas, sus componentes clave y por qué es la opción preferida por ingenieros y diseñadores de todo el mundo.

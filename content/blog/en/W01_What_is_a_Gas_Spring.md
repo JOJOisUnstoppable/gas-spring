@@ -6,12 +6,12 @@ tags: [gas spring working principle, how gas struts work, gas spring basics]
 slug: what-is-a-gas-spring
 author: 'Gavin'
 excerpt: 'A comprehensive guide to understanding gas springs: how they work using compressed nitrogen and oil, their key components, force generation principles, and why they offer superior motion control compared to mechanical springs.'
-coverImage: '/images/blog/PN292575/2.png'
+coverImage: '/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg'
 ---
 
 
 # What is a Gas Spring and How Does It Work?
-![gas spring](/images/blog/what-is-GS/1.jpg)
+![gas spring](/images/products_page/compress_gas_spring.jpg)
 If you've ever opened the trunk of your car, lifted a heavy machinery cover, or adjusted an office chair, you've likely used a **gas spring**. These components, also known as **gas struts**, **gas shocks**, or **gas dampers**, are essential for providing controlled motion and support. But how exactly do they work, and what makes them superior to traditional mechanical springs?
 
 In this guide, we'll break down the inner workings of a gas spring, its key components, and why it's the preferred choice for engineers and designers worldwide.

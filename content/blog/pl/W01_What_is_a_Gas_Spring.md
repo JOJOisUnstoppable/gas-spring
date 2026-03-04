@@ -6,11 +6,11 @@ tags: [zasada działania sprężyny gazowej, działanie siłowników gazowych, p
 slug: what-is-a-gas-spring
 author: 'Gavin'
 excerpt: 'Kompleksowy przewodnik po sprężynach gazowych: jak działają przy użyciu sprężonego azotu i oleju, ich kluczowe elementy, zasady generowania siły oraz dlaczego oferują lepszą kontrolę ruchu niż sprężyny mechaniczne.'
-coverImage: '/images/blog/PN257575/2.png'
+coverImage: '/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg'
 ---
 
 # Co to jest sprężyna gazowa i jak działa?
-![sprężyna gazowa](/images/blog/what-is-GS/1.jpg)
+![sprężyna gazowa](/images/products_page/compress_gas_spring.jpg)
 
 Jeśli kiedykolwiek otworzyłeś bagażnik samochodu, podnosiłeś ciężką pokrywę maszyny lub regulowałeś fotel biurowy – z pewnością korzystałeś z **sprężyny gazowej**. Te elementy, znane również jako **siłowniki gazowe**, **amortyzatory gazowe** lub **tłumiki gazowe**, są niezbędne do zapewnienia kontrolowanego ruchu i podparcia. Ale jak dokładnie działają i co sprawia, że są lepsze od tradycyjnych sprężyn mechanicznych?
 

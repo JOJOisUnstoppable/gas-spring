@@ -6,11 +6,11 @@ tags: [气弹簧工作原理, 气撑杆工作方式, 气弹簧基础]
 slug: what-is-a-gas-spring
 author: 'Gavin'
 excerpt: '全面解析气弹簧：利用压缩氮气和油液的工作原理、关键部件、力产生机制，以及为何在运动控制方面优于机械弹簧。'
-coverImage: '/images/blog/PN292575/2.png'
+coverImage: '/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg'
 ---
 
 # 什么是气弹簧？它是如何工作的？
-![气弹簧](/images/blog/what-is-GS/1.jpg)
+![气弹簧](/images/products_page/compress_gas_spring.jpg)
 
 只要你开过汽车后备箱、抬起过重型机械护罩，或调节过办公椅，你就一定用过**气弹簧**。这类部件也被称为**气撑杆、气减震器、气阻尼器**，是实现平稳可控运动与支撑的关键零件。但它究竟是如何工作的？又为何优于传统机械弹簧？
 
