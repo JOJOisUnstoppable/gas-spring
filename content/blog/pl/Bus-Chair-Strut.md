@@ -2,7 +2,7 @@
 title: 'Amortyzator fotela autobusowego: Przewodnik wyboru dla siedzeń pojazdów'
 slug: 'Bus-Chair-Strut'
 date: '2026-02-23 11:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Amortyzator fotela autobusowego', 'Wybór sprężyny gazowej', 'Blokowana sprężyna gazowa', 'Siedzenia pojazdów']
 excerpt: 'Kompleksowy przewodnik po wyborze amortyzatorów foteli autobusowych, obejmujący kluczowe specyfikacje, typy (blokowane, regulowane, tłumiki) oraz istotne kryteria dla optymalnego komfortu i bezpieczeństwa siedzeń w pojeździe.'
 coverImage: '/images/blog/Bus-Chair-Strut/1.png'

@@ -4,7 +4,7 @@ date: 2026-01-01
 category: 基础知识
 tags: [气弹簧工作原理, 气撑杆工作方式, 气弹簧基础]
 slug: what-is-a-gas-spring
-author: 'Gavin'
+author: 'Bob'
 excerpt: '全面解析气弹簧：利用压缩氮气和油液的工作原理、关键部件、力产生机制，以及为何在运动控制方面优于机械弹簧。'
 coverImage: '/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg'
 ---

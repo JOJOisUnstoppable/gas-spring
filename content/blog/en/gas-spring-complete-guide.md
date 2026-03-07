@@ -2,7 +2,7 @@
 title: 'Gas Springs: Complete Guide to Types, Functions, Applications & How to Choose the Right One'
 slug: 'gas-spring-complete-guide'
 date: '2025-08-27 15:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Guide', 'Gas Spring Guide', 'Gas Spring', 'Gas Spring Applications']
 excerpt: 'A gas spring (also known as a gas strut or gas lift) is a mechanical device that uses compressed gas (typically nitrogen) within a cylinder to generate force, enabling smooth, controlled motion for lifting, lowering, supporting, or damping. This article details the definition, working principles, common types (compression, tension, locking, adjustable, pneumatic dampers), and application scenarios of gas springs across various industries, including automotive, furniture, industrial manufacturing, medical and healthcare, aerospace, and marine. Furthermore, it provides a step-by-step guide for selecting the right gas spring and highlights DK Gas Spring advantages as a manufacturer in terms of customized solutions, quality assurance, and technical support.'
 coverImage: '/images/hero-bg.jpg'

@@ -2,7 +2,7 @@
 title: 'Busstuhl-Gasfeder: Auswahlhilfe für Fahrzeugsitze'
 slug: 'Bus-Chair-Strut'
 date: '2026-02-23 11:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Busstuhl-Gasfeder', 'Gasfeder-Auswahl', 'Blockierbare Gasfeder', 'Fahrzeugsitze']
 excerpt: 'Ein umfassender Leitfaden zur Auswahl von Busstuhl-Gasfedern, der wichtige Spezifikationen, Typen (blockierbar, verstellbar, Dämpfer) und wesentliche Kriterien für optimalen Sitzkomfort und Sicherheit im Fahrzeug behandelt.'
 coverImage: '/images/blog/Bus-Chair-Strut/1.png'

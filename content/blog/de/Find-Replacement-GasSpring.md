@@ -2,7 +2,7 @@
 title: 'Wie man die richtige Ersatz-Gasfeder findet'
 slug: 'find-replacement-gas-spring'
 date: '2025-10-23 10:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Leitfaden', 'Gasfeder-Leitfaden', 'Gasfeder-Ersatz', 'Gasfeder-Anwendungen']
 excerpt: 'Wenn Sie eine Gasfeder ersetzen müssen und die Teilenummer (wie SX150P-10) nicht mit Standardmodellen in Suchanfragen übereinstimmt, kann das frustrierend sein. Aber keine Sorge! Dieser Leitfaden hilft Ihnen, den perfekten Ersatz zu finden, egal ob Sie ein Heimwerker oder ein Profi sind.'
 coeverImage: '/images/blog/replacement-gas-spring/1.png'

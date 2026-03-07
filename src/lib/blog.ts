@@ -78,24 +78,33 @@ export async function getRelatedPosts(locale: Locale, currentSlug: string, limit
   const allPosts = await getBlogPosts(locale)
   const currentPost = allPosts.find(post => post.slug === currentSlug)
   
-  if (!currentPost || !currentPost.tags.length) {
-    return allPosts
-      .filter(post => post.slug !== currentSlug)
-      .slice(0, limit)
-      .map(post => ({
-        slug: post.slug,
-        title: post.title,
-        coverImage: post.coverImage
-      }))
+  // 1. 基础过滤：排除当前文章
+  const otherPosts = allPosts.filter(post => post.slug !== currentSlug)
+
+  let results: BlogPost[] = []
+
+  // 2. 如果当前文章有标签，优先匹配标签
+  if (currentPost && currentPost.tags && currentPost.tags.length > 0) {
+    results = otherPosts
+      .filter(post => post.tags.some(tag => currentPost.tags.includes(tag)))
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   }
 
-  return allPosts
-    .filter(post => 
-      post.slug !== currentSlug && // 过滤掉当前文章
-      post.tags.some(tag => currentPost.tags.includes(tag)) // 至少有一个标签匹配
-    )
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) // 按发布时间倒序
-    .slice(0, 5) // 最多5篇
+  // 3. 如果匹配到的文章不足 limit 数量，用最新文章补足
+  if (results.length < limit) {
+    const existingSlugs = new Set(results.map(p => p.slug))
+    
+    const remainingPosts = otherPosts
+      .filter(post => !existingSlugs.has(post.slug))
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+      
+    const needed = limit - results.length
+    results = [...results, ...remainingPosts.slice(0, needed)]
+  }
+
+  // 4. 格式化返回结果
+  return results
+    .slice(0, limit)
     .map(post => ({
       slug: post.slug,
       title: post.title,

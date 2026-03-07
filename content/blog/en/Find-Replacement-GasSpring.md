@@ -2,7 +2,7 @@
 title: 'How to Find the Right Replacement Gas Spring'
 slug: 'find-replacement-gas-spring'
 date: '2025-10-23 10:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Guide', 'Gas Spring Guide', 'Gas Spring Replace', 'Gas Spring Applications']
 excerpt: 'When you need to replace a gas spring and the part number (like SX150P-10) doesnt match standard models in searches, it can be frustrating. But dont worry! This guide will walk you through finding the perfect replacement, whether you are a DIYer or a professional.'
 coverImage: '/images/blog/replacement-gas-spring/1.png'

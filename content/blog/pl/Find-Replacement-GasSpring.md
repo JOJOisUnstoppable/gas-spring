@@ -2,7 +2,7 @@
 title: 'Jak znaleźć odpowiednią sprężynę gazową do wymiany'
 slug: 'find-replacement-gas-spring'
 date: '2025-10-23 10:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Przewodnik', 'Przewodnik po sprężynach gazowych', 'Wymiana sprężyny gazowej', 'Zastosowania sprężyn gazowych']
 excerpt: 'Gdy musisz wymienić sprężynę gazową, a numer części (np. SX150P-10) nie pasuje do standardowych modeli w wyszukiwaniach, może to być frustrujące. Ale nie martw się! Ten przewodnik pomoże Ci znaleźć idealny zamiennik, niezależnie od tego, czy jesteś amatorrem, czy profesjonalistą.'
 coverImage: '/images/blog/replacement-gas-spring/1.png'

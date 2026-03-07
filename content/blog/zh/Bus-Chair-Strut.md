@@ -2,7 +2,7 @@
 title: '客车座椅气弹簧：车辆座椅选型指南'
 slug: 'Bus-Chair-Strut'
 date: '2026-02-23 11:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['客车座椅气弹簧', '气弹簧选型', '可锁定气弹簧', '车辆座椅']
 excerpt: '一份关于客车座椅气弹簧选型的综合指南，涵盖关键规格、类型（锁定、可调节、阻尼器）以及实现最佳车辆座椅舒适性和安全性的基本标准。'
 coverImage: '/images/blog/Bus-Chair-Strut/1.png'

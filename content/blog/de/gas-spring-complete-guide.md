@@ -2,7 +2,7 @@
 title: 'Gasfedern: Komplettleitfaden zu Arten, Funktionen, Anwendungen & Wie man die richtige wählt'
 slug: 'gas-spring-complete-guide'
 date: '2025-08-27 15:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Leitfaden', 'Gas feder leitfaden', 'Gas feder', 'Gas feder anwendungen']
 excerpt: 'Eine Gasfeder (auch bekannt als Gasstange oder Gasheber) ist ein mechanisches Gerät, das komprimiertes Gas (typischerweise Stickstoff) in einem Zylinder nutzt, um Kraft zu erzeugen und so eine sanfte, kontrollierte Bewegung für Heben, Senken, Stützen oder Dämpfen zu ermöglichen. Dieser Artikel detailliert die Definition, Funktionsprinzipien, gängigen Arten (Druck-, Zug-, arretierbare, verstellbare Gasfedern sowie pneumatische Dämpfer) und Anwendungsgebiete von Gasfedern in verschiedenen Branchen, darunter Automobil, Möbel, industrielle Fertigung, Medizin und Gesundheitswesen, Luft- und Raumfahrt sowie Schifffahrt. Darüber hinaus bietet er eine schrittweise Anleitung zur Auswahl der richtigen Gasfeder und hebt die Vorteile von DK Gas Spring als Hersteller in Bezug auf maßgeschneiderte Lösungen, Qualitätssicherung und technischen Support hervor.'
 coverImage: '/images/hero-bg.jpg'

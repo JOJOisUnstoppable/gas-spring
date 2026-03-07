@@ -2,7 +2,7 @@
 title: 'Bus Chair Strut: Selection Guide for Vehicle Seating'
 slug: 'Bus-Chair-Strut'
 date: '2026-02-23 11:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Bus Chair Strut', 'Gas Spring Selection', 'Locking Gas Spring', 'Vehicle Seating']
 excerpt: 'A comprehensive guide to selecting bus chair struts, covering key specifications, types (locking, adjustable, dampers), and essential criteria for optimal vehicle seating comfort and safety.'
 coverImage: '/images/blog/Bus-Chair-Strut/1.png'

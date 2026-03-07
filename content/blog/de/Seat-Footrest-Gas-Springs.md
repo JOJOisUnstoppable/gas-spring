@@ -2,7 +2,7 @@
 title: 'Wie man einen Ersatz für Gasfedern für Sitzfußstützen findet'
 slug: 'seat-footrest-gas-springs'
 date: '2025-10-29 11:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Gasfeder für Sitzfußstütze', 'Gas feder ersatz', 'SUSPA C16-32018', 'Gas feder spezifikationen', 'DKGASSPRING', 'Kreuzreferenz']
 excerpt: 'Umfassende Anleitung zur Suche nach einem kompatiblen Ersatz für Gasfedern für Sitzfußstützen – mit Inhalten zu wichtigen Spezifikationen, der Suche nach Alternativen, der Überprüfung von Maßen, der Beratung bei Lieferanten und der Vermeidung üblicher Fehler.'
 coverImage: '/images/blog/PN292575/2.png'

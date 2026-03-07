@@ -4,7 +4,7 @@ date: 2026-01-01
 category: Podstawy
 tags: [zasada działania sprężyny gazowej, działanie siłowników gazowych, podstawy sprężyn gazowych]
 slug: what-is-a-gas-spring
-author: 'Gavin'
+author: 'Bob'
 excerpt: 'Kompleksowy przewodnik po sprężynach gazowych: jak działają przy użyciu sprężonego azotu i oleju, ich kluczowe elementy, zasady generowania siły oraz dlaczego oferują lepszą kontrolę ruchu niż sprężyny mechaniczne.'
 coverImage: '/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg'
 ---

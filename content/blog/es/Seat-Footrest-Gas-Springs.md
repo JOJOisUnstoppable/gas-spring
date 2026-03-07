@@ -2,7 +2,7 @@
 title: 'Cómo encontrar un reemplazo para resortes de gas para apoyapiés de asiento'
 slug: 'seat-footrest-gas-springs'
 date: '2025-10-29 11:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Resorte de Gas para Apoyapiés de Asiento', 'Reemplazo de Resorte de Gas', 'SUSPA C16-32018', 'Especificaciones de Resorte de Gas', 'DKGASSPRING', 'Referencia cruzada']
 excerpt: 'Guía completa para encontrar un reemplazo compatible con el resorte de gas para apoyapiés de asiento, que cubre especificaciones clave, búsqueda de alternativas, verificación de dimensiones, consulta a proveedores y evitación de errores comunes.'
 coverImage: '/images/blog/PN292575/2.png'

@@ -4,7 +4,7 @@ date: 2026-01-01
 category: Conceptos básicos
 tags: [principio de funcionamiento muelle de gas, funcionamiento puntal de gas, conceptos básicos muelle de gas]
 slug: what-is-a-gas-spring
-author: 'Gavin'
+author: 'Bob'
 excerpt: 'Una guía completa para entender los muelles de gas: cómo funcionan utilizando nitrógeno comprimido y aceite, sus componentes clave, principios de generación de fuerza y por qué ofrecen un control de movimiento superior a los muelles mecánicos.'
 coverImage: '/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg'
 ---

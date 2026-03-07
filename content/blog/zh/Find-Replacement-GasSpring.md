@@ -2,7 +2,7 @@
 title: '如何找到合适的替换气弹簧'
 slug: 'find-replacement-gas-spring'
 date: '2025-10-23 10:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['指南', '气弹簧指南', '气弹簧更换', '气弹簧应用']
 excerpt: '当您需要更换气弹簧，但零件号（如 SX150P-10）与搜索中的标准型号不符时，可能会感到沮丧。但别担心！本指南将引导您找到完美的替代品，无论您是 DIY 爱好者还是专业人士。'
 coverImage: '/images/blog/replacement-gas-spring/1.png'

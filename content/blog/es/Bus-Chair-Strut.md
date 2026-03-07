@@ -2,7 +2,7 @@
 title: 'Resorte de gas para asientos de autobús: Guía de selección'
 slug: 'Bus-Chair-Strut'
 date: '2026-02-23 11:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Resorte de gas para autobús', 'Selección de resorte de gas', 'Resorte de gas bloqueable', 'Asientos de vehículos']
 excerpt: 'Una guía completa para seleccionar resortes de gas para asientos de autobús, cubriendo especificaciones clave, tipos (bloqueables, ajustables, amortiguadores) y criterios esenciales para una comodidad y seguridad óptimas en los asientos del vehículo.'
 coverImage: '/images/blog/Bus-Chair-Strut/1.png'

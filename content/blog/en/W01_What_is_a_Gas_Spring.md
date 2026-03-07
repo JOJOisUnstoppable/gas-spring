@@ -4,7 +4,7 @@ date: 2026-01-01
 category: Basics
 tags: [gas spring working principle, how gas struts work, gas spring basics]
 slug: what-is-a-gas-spring
-author: 'Gavin'
+author: 'Bob'
 excerpt: 'A comprehensive guide to understanding gas springs: how they work using compressed nitrogen and oil, their key components, force generation principles, and why they offer superior motion control compared to mechanical springs.'
 coverImage: '/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg'
 ---

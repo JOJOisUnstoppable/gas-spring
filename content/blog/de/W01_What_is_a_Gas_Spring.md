@@ -4,7 +4,7 @@ date: 2026-01-01
 category: Grundlagen
 tags: [Funktionsprinzip Gasfeder, Funktionsweise Gasstreben, Grundlagen Gasfedern]
 slug: was-ist-eine-gasfeder
-author: 'Gavin'
+author: 'Bob'
 excerpt: 'Ein umfassender Leitfaden zum Verständnis von Gasfedern: Wie sie mit komprimiertem Stickstoff und Öl funktionieren, ihre wichtigsten Komponenten, Prinzipien der Krafterzeugung und warum sie eine bessere Bewegungssteuerung als mechanische Federn bieten.'
 coverImage: '/images/product/gas-spring/push-to-unlock-gas-spring/product_variety.jpg'
 ---

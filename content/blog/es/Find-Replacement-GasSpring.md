@@ -2,7 +2,7 @@
 title: 'Cómo encontrar el resorte de gas de reemplazo adecuado'
 slug: 'find-replacement-gas-spring'
 date: '2025-10-23 10:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Guía', 'Guía de Resortes de Gas', 'Reemplazo de Resortes de Gas', 'Aplicaciones de Resortes de Gas']
 excerpt: 'Cuando necesite reemplazar un resorte de gas y el número de pieza (como SX150P-10) no coincida con los modelos estándar en las búsquedas, puede ser frustrante. ¡Pero no se preocupe! Esta guía le ayudará a encontrar el reemplazo perfecto, ya sea un aficionado o un profesional.'
 coverImage: '/images/blog/replacement-gas-spring/1.png'

@@ -2,7 +2,7 @@
 title: 'Jak znaleźć zamienniki sprężyn gazowych podnóżka siedziska'
 slug: 'seat-footrest-gas-springs'
 date: '2025-10-29 11:00:00'
-author: 'Gavin'
+author: 'Bob'
 tags: ['Sprężyna gazowa podnóżka siedziska', 'Wymiana sprężyny gazowej', 'SUSPA C16-32018', 'Specyfikacje sprężyny gazowej', 'DKGASSPRING', 'Odwołania krzyżowe']
 excerpt: 'Kompleksowy przewodnik po znalezieniu kompatybilnych zamienników sprężyn gazowych podnóżka siedziska, obejmujący kluczowe specyfikacje, wyszukiwanie alternatyw, weryfikację wymiarów, konsultacje z dostawcami oraz unikanie typowych błędów.'
 coverImage: '/images/blog/PN292575/2.png'
