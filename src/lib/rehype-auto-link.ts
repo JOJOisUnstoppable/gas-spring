@@ -41,7 +41,8 @@ export function rehypeAutoLink() {
       if (!parent || typeof index !== 'number') return;
       
       // 检查父节点是否为 Element 并且在黑名单中
-      if ('tagName' in parent && ['a', 'pre', 'code', 'script', 'style', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes((parent as Element).tagName)) {
+      // 注意：'video' 标签（或我们自定义渲染为 video 的 img 标签）的内容不应该被替换
+      if ('tagName' in parent && ['a', 'pre', 'code', 'script', 'style', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'video', 'img'].includes((parent as Element).tagName)) {
         return;
       }
 

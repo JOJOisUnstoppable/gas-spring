@@ -34,7 +34,7 @@ Dies ist der am häufigsten vorkommende Gasfedertyp, der in etwa 90 % aller Anwe
 
 ## 2. Zuggasfedern (Der „Zug“-Typ)
 
-![Zuggasfeder](2.jpg)
+![Zuggasfeder](/images/product/gas-spring/traction-gas-spring/traction-gas-spring.jpg)
 
 Zuggasfedern sind seltener, aber unverzichtbar für spezielle Anwendungsfälle, bei denen ein Bauteil zugezogen oder in eingefahrener Position gehalten werden soll.
 
@@ -69,17 +69,13 @@ Zuggasfedern sind seltener, aber unverzichtbar für spezielle Anwendungsfälle, 
 
 **Szenario A: Sie haben eine schwere Abdeckung, die Sie anheben möchten.**
 
-![Anheben](lift up.jpg)
-
 > Sie benötigen eine **Druckgasfeder**. Die Feder unterstützt Sie beim Anheben gegen die Schwerkraft.
-
-![Anwendung Druckgasfeder.mp4](lift up.mp4)
 
 **Szenario B: Sie haben eine Rampe oder Tür, die von selbst aufklappt, und möchten, dass sie sich selbst schließt oder leichter zugezogen werden kann.**
 
 > Sie benötigen höchstwahrscheinlich eine **Zuggasfeder**. Die Feder wirkt der Schwerkraft entgegen und zieht das Bauteil in die geschlossene Position zurück.
 
-![Anwendung Zuggasfeder.mp4](2.mp4)
+![Anwendung Zuggasfeder.mp4](/videos/Traction-gas-spring-application.mp4)
 
 ## Zusammenfassung
 

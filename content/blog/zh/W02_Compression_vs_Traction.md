@@ -34,7 +34,7 @@ coverImage: '/images/products_page/compress_gas_spring.jpg'
 
 ## 2. 牵引式气弹簧（“拉”型）
 
-![牵引式气弹簧](2.jpg)
+![牵引式气弹簧](/images/product/gas-spring/traction-gas-spring/traction-gas-spring.jpg)
 
 牵引式气弹簧虽不常见，但在特定场景中至关重要——当你需要将物体拉合或保持在缩回位置时，它能发挥关键作用。
 
@@ -69,17 +69,13 @@ coverImage: '/images/products_page/compress_gas_spring.jpg'
 
 **场景A：你有一个沉重的盖子，需要将其抬起。**
 
-![抬起](lift up.jpg)
-
 > 你需要**压缩式气弹簧**。该弹簧会在你抬起盖子时抵消重力，提供辅助力。
-
-![压缩式气弹簧应用.mp4](lift up.mp4)
 
 **场景B：你有一个会自行打开的坡道或门，希望它能自动闭合或更易拉合。**
 
 > 你可能需要**牵引式气弹簧**。该弹簧会对抗重力，将物体拉回闭合位置。
 
-![牵引式气弹簧应用.mp4](2.mp4)
+![牵引式气弹簧应用视频](/videos/Traction-gas-spring-application.mp4)
 
 ## 总结
 

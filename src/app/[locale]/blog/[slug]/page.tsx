@@ -164,17 +164,34 @@ export default async function BlogPostPage(
                     {children}
                   </a>
                 ),
-                // 自定义代码块样式
-                /*
-                code: ({ node, inline, className, children, ...props }) => (
-                  <code
-                    className={`${className} ${inline ? 'bg-gray-100 rounded px-1' : 'block p-4 bg-gray-100 rounded-lg'}`}
-                    {...props}
-                  >
-                    {children}
-                  </code>
-                ),
-                */
+                // 自定义图片样式（支持视频播放）
+                img: ({ src, alt }) => {
+                  const isVideo = typeof src === 'string' && src.endsWith('.mp4');
+                  if (isVideo) {
+                    return (
+                      <video
+                        controls
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className="w-full rounded-lg my-6"
+                        src={src as string}
+                        title={alt}
+                      >
+                        Your browser does not support the video tag.
+                      </video>
+                    );
+                  }
+                  return (
+                    <img
+                      src={src as string}
+                      alt={alt}
+                      className="w-full rounded-lg my-6"
+                      loading="lazy"
+                    />
+                  );
+                },
                 // 自定义列表样式
                 ul: ({ children, ...props }) => {
                   const depth = props.node?.position?.start?.line || 0;

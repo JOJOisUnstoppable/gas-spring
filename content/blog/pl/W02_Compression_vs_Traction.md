@@ -34,7 +34,7 @@ Jest to najpowszechniejszy typ sprężyny gazowej, występujący w 90% aplikacji
 
 ## 2. Sprężyny gazowe ciągające (Typ „ciągnięcia”)
 
-![sprężyna gazowa ciągająca](2.jpg)
+![sprężyna gazowa ciągająca](/images/product/gas-spring/traction-gas-spring/traction-gas-spring.jpg)
 
 Sprężyny gazowe ciągające są mniej powszechniejsze, ale niezbędne w konkretnych scenariuszach, gdzie potrzebujesz, aby obiekt został zamknięty przez ciągnięcie lub utrzymany w pozycji retraktowanej.
 
@@ -73,13 +73,11 @@ Sprężyny gazowe ciągające są mniej powszechniejsze, ale niezbędne w konkre
 
 > Potrzebujesz **sprężyny gazowej ściskającej**. Sprężyna pomoże przeciwdziałać grawitacji podczas podnoszenia okapu.
 
-![Aplikacja sprężyny gazowej ściskającej.mp4](lift up.mp4)
-
 **Scenariusz B: Masz rampę lub drzwi, które się same otwierają, i chcesz, aby zamykały się samodzielnie lub były łatwiejsze do zamknięcia przez ciągnięcie.**
 
 > Prawdopodobnie potrzebujesz **sprężyny gazowej ciągającej**. Sprężyna będzie walczyć z grawitacją, aby ciągnąć obiekt z powrotem do pozycji zamkniętej.
 
-![Aplikacja sprężyny gazowej ciągającej.mp4](2.mp4)
+![Aplikacja sprężyny gazowej ciągającej.mp4](/videos/Traction-gas-spring-application.mp4)
 
 ## Podsumowanie
 

@@ -34,7 +34,7 @@ Este es el tipo de resorte de gas más común, presente en el 90% de las aplicac
 
 ## 2. Resortes de gas de tracción (El tipo "tracción")
 
-![resorte de gas de tracción](2.jpg)
+![resorte de gas de tracción](/images/product/gas-spring/traction-gas-spring/traction-gas-spring.jpg)
 
 Los resortes de gas de tracción son menos comunes pero esenciales para escenarios específicos donde necesite que el objeto se cierre por tracción o se mantenga en una posición retraída.
 
@@ -69,17 +69,13 @@ Los resortes de gas de tracción son menos comunes pero esenciales para escenari
 
 **Escenario A: Tiene una tapa pesada que quiere levantar.**
 
-![levantar](lift up.jpg)
-
 > Necesita un **resorte de gas de compresión**. El resorte ayudará a contrarrestar la gravedad al levantar la tapa.
-
-![Aplicación de resorte de gas de compresión.mp4](lift up.mp4)
 
 **Escenario B: Tiene una rampa o puerta que se abre por sí sola, y quiere que se cierre automáticamente o sea más fácil de cerrar tirando.**
 
 > Probablemente necesita un **resorte de gas de tracción**. El resorte lucharà contra la gravedad para tirar el objeto de vuelta a su posición cerrada.
 
-![Aplicación de resorte de gas de tracción.mp4](2.mp4)
+![Aplicación de resorte de gas de tracción](/videos/Traction-gas-spring-application.mp4)
 
 ## Resumen
 

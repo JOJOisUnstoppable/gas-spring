@@ -30,7 +30,7 @@ This is the most common type of gas spring found in 90% of applications, such as
 **Key Characteristic**: You have to apply force to *compress* it; it extends on its own.
 
 ## 2. Traction Gas Springs (The "Pull" Type)
-![traction gas spring](2.jpg)
+![traction gas spring](/images/product/gas-spring/traction-gas-spring/traction-gas-spring.jpg)
 
 Traction gas springs are less common but essential for specific scenarios where you need the object to be pulled closed or held in a retracted position.
 
@@ -57,10 +57,11 @@ Traction gas springs are less common but essential for specific scenarios where 
 
 **Scenario A: You have a heavy lid that you want to lift up.**lift up.jpg
 > You need a **Compression Gas Spring**. The spring will help counteract gravity as you lift the lid.
-![Compression gas spring application.mp4](lift up.mp4)
 **Scenario B: You have a ramp or door that falls open, and you want it to self-close or be easier to pull shut.**
 > You likely need a **Traction Gas Spring**. The spring will fight against gravity to pull the object back to its closed position.
-![Traction gas spring application.mp4](2.mp4)
+
+![Traction-gas-spring-application.mp4](/videos/Traction-gas-spring-application.mp4)
+
 ## Summary
 
 *   **Compression** = PUSH force (Rod extends naturally).
